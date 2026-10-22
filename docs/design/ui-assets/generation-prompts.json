@@ -1,0 +1,189 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "name": "mascot_reading",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Generate one production PNG asset mascot_reading for a Chinese children's poetry iOS app. The attached image is a STYLE AND CHARACTER REFERENCE ONLY: use the adorable pumpkin mascot shown outside the phones and on first phone. Do not recreate phones or UI. Faithfully preserve orange-yellow ribbed pumpkin head and small plump body, curled green stem and leaf, shiny dark brown oval eyes, blush cheeks, happy open mouth, flowing cobalt blue scarf, tiny orange limbs, warm watercolor painted storybook texture. Full-body mascot seated reading an open dark blue thread-bound Chinese poetry book, delighted and engaged; book has plain cream label with NO text. Three-quarter view. Isolated single character centered, entire stem, scarf and feet visible with generous padding. True transparent alpha background, no scenery, no ground plane, no opaque background, no checkerboard, no captions, no watermark. Match reference illustration closely, not plastic 3D, not flat vector. Square composition about 1024px. This establishes the character master for other poses.",
+        "Edit the attached mascot asset ONLY: add the exact Traditional Chinese book title 古詩 on the existing cream vertical label on the blue book cover. Two legible dark ink characters stacked vertically, 古 above 詩, correctly spelled, refined traditional printed Chinese book title. Preserve absolutely everything else: pumpkin identity, face, pose, blue scarf, watercolor texture, composition, book, and true transparent alpha background. Do not add other text or change any other element. This is the final mascot_reading asset."
+      ]
+    },
+    {
+      "name": "mascot_peeking",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Create one transparent production asset of the EXACT SAME pumpkin character in attached reading master, in a new peeking pose for a Chinese children's poetry app. Preserve identical golden orange ribbed pumpkin face/body, curled green stem and leaf, oval glossy brown eyes, blush, cheerful mouth, cobalt blue scarf, rich soft watercolor brush texture. Only head, scarf, and two tiny rounded orange hands visible, leaning forward as if peeking over the top of a UI explanation card, but DO NOT draw the card, ledge, book, or background. Hands near bottom, face looking warmly at viewer, tiny subtle head tilt. Entire stem and scarf in frame, comfortable transparent padding all sides. No text or symbols. True transparent alpha, no white background, no checkerboard, no ground shadow. Match character identity precisely. Square composition."
+      ]
+    },
+    {
+      "name": "mascot_celebrating",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Generate one transparent production asset, a new joyful celebrating pose of the EXACT pumpkin mascot from attached master. Same golden orange pumpkin proportions, curled green stem and single leaf, pink cheeks, blue scarf, watercolor gouache texture. Whole body with tiny feet, happy smiling eyes, left arm raised enthusiastically and right hand holding up ONE small portrait postcard with cream border depicting a blue moonlit Chinese lake and pavilion, no text on postcard. No book in this pose. Excited but anatomically simple, no extra limbs. Keep entire stem, scarf, hands, feet and card inside frame with padding. Character is a pumpkin creature not a human wearing a pumpkin head. True transparent alpha background, no scenery, no background color, no ground, no UI, no lettering. High quality warm storybook art matching the master closely."
+      ]
+    },
+    {
+      "name": "scene_home_day",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Create ONLY the standalone scenic background artwork for the FIRST phone home screen of the attached reference, no phone, no UI, no text, no pumpkin or other characters. A luminous Chinese storybook watercolor gouache landscape in square composition: clear light blue sky with a few soft white clouds, layered distant blue mountains, calm turquoise lake, small traditional Chinese pavilion on the right middle distance, sunlit spring meadow with tiny white and yellow wildflowers. Upper left 45% should be very light quiet sky for later dark heading overlay, no branches crossing this text area. Rich leafy framing restrained to far outer edges. Lower-left quarter should provide a gently sunlit open grassy bank where a separate pumpkin reading mascot can sit naturally, same warm soft lighting as reference. Horizon about mid-height. Foreground flowers around edges not dense across intended mascot area. Lower 12% softly dissolves into warm cream #FFF9ED, fully opaque. Exquisite warm hand-painted children's publishing quality, delicate painterly texture, warm gold highlights and natural blues/greens, not photorealistic or plastic 3D. Full bleed square illustration, no borders, labels or lettering."
+      ]
+    },
+    {
+      "name": "scene_poem_moonlight",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Create standalone scenic header background for the MIDDLE phone in attached reference, no phone, no UI, no text. Landscape ratio 6:5 approximately. Exquisite Chinese children's storybook watercolor gouache, midnight cobalt and navy blue sky, luminous warm full moon right of center around x73% y42%, layered blue mountains, quiet reflective lake with silver moonlight, small distant pavilion on far right. Leftmost 20% has traditional wooden open window lattice and warm glowing lantern on sill; delicate plum twig below middle, not across top navigation. Upper central 60% needs dark relatively even blue sky for later white native title and controls overlay. Lower section lake and terrace, no snow or frost (moonlight is being mistaken for frost in the poem). Rich warm lantern against cool blue landscape, delicate painted texture, beautifully composed, matches reference illustration style. Fully opaque full bleed rectangular background, no pumpkin, no characters, no borders or text, no gradient fading at bottom, no UI shapes."
+      ]
+    },
+    {
+      "name": "scene_growth_garden",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Generate standalone background art for the THIRD phone growth scrapbook screen in first reference, matching watercolor gouache scenery style of second reference. No phones, no UI, no text, no mascot or people. Near-square 12:11 composition. Soft warm ivory sky with very pale blue mist, distant pale blue-green Chinese mountains arranged around outer sides, small hints of trees and village far away, lower part a gentle spring meadow with small white/yellow/pink flowers and a few floating petals near edges. Keep upper-left half mostly quiet warm ivory for a large dark native title, keep center-right lower-middle open pale grassy space for a separately composited orange pumpkin celebrating mascot. Warm sunlight, soft textured children's picture book art, much lighter and less saturated than homepage so orange mascot and collectible cards stand out. Lower 15% gently fades to opaque cream #FFF9ED. Delicate, rich but airy. Full-bleed background, no decorative frame, no labels, no pumpkin."
+      ]
+    },
+    {
+      "name": "art_continue_moonlight",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Create a compact transparent watercolor vignette for the RIGHT side of a cream continue-learning card in a children's Chinese poetry app. Match attached moonlit scenery master: warm pale full moon upper right, soft blue mountains, tiny lit traditional Chinese pavilion toward lower right, lake reflections below. NO window, lantern foreground, character, text, frame or UI. The scenic cluster should occupy right two-thirds of square canvas with left third almost empty transparent; naturally dissolve into genuinely transparent alpha along left and bottom edges with delicate watercolor feathering. A painted vignette, not a square photograph, no white or cream opaque backdrop, no checkerboard. Moon and pavilion readable at small display size. Rich but soft blue-gold storybook watercolor gouache consistent with master. Whole vignette inside frame, transparent padding."
+      ]
+    },
+    {
+      "name": "art_review_scroll",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Create a single transparent decorative asset for a small 'daily review' card in Chinese children's poetry app, matching warm delicate watercolor gouache art in attached reference. A gently diagonal partially open ivory Chinese scroll with honey wood rollers, one elegant bamboo calligraphy brush angled upward on right with dark bristles and small red cord, tiny white/yellow wildflowers and green leaves along lower left. Group in bottom 65% of nearly square 7:6 composition; leave upper-left 35% transparent for native heading. Scroll paper is BLANK with faint natural paper texture, absolutely no fake writing or letters. Gentle warm sunlit paint, delicate shadows within objects, charming detailed storybook art. No pumpkin, no phone, no UI border, no button, no scene background, no rectangular backing, no text. True transparent alpha around separate objects, enough padding not clipped.",
+        "Edit attached watercolor scroll asset ONLY by adding authentic readable Chinese poetry writing to its blank parchment. Preserve scroll, brush, flowers, lighting, geometry, colors, transparency, composition. Add the exact Traditional Chinese poem title 靜夜思 and author 李白 as smaller vertical inscription toward the right, followed by four elegant vertical columns read RIGHT TO LEFT with EXACT text: 床前明月光 / 疑是地上霜 / 舉頭望明月 / 低頭思故鄉. Each column top to bottom, no slash characters, no punctuation needed. Dark warm brown ink with refined legible regular-script Chinese calligraphy, not illegible cursive. All characters correct, align writing naturally with the tilted parchment perspective; fit inside visible flat writing area and avoid flowers and rolled edges. Medium sized balanced inscription, not giant bold UI text. No other modifications, no additional lettering outside scroll. Preserve true transparent alpha background."
+      ]
+    },
+    {
+      "name": "art_flower_game",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. One transparent production illustration for a 'flying flower poetry game' UI card, match delicate colorful Chinese storybook watercolor gouache in reference. Graceful brown peach blossom branch enters from upper right edge and curves diagonally down toward lower center, abundant pale pink and coral five-petal blossoms, fine stamens, a few fresh green leaves, four or five drifting petals toward lower left. Keep upper-left 40% mostly empty transparent for native card title. Near-square 7:6 composition, airy visually balanced, no birds or other animals. Soft warm light, detailed painted texture, no plastic, no hard vector outlines. True transparent alpha background, no white or pink opaque backing, no phone, no frame, no lettering or button, no collage paper. Botanical branch and petals only."
+      ]
+    },
+    {
+      "name": "cover_moon",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Create one full-bleed portrait illustration for Chinese poetry collectible cover 'moon and homesickness'. Portrait aspect ratio 3:5, no text, no border, no card frame, no blank caption strip, no phone. Closely match attached moonlit watercolor storybook master but new vertical composition with no foreground window or lantern. Warm luminous full moon in upper third against cobalt starry sky, layered distant indigo Chinese mountains, a small warmly lit Chinese pavilion on middle-right lake shore, silver and gold moon reflections on deep blue water in lower half, delicate peach blossom twig and grasses framing lower-left. Airy depth, exquisite hand-painted gouache and watercolor texture, peaceful poetic atmosphere. Make moon, pavilion and reflections recognizable at a narrow 110pt display size. No pumpkin or people. Fully opaque rectangular art, no rounded corners."
+      ]
+    },
+    {
+      "name": "cover_landscape",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. One full-bleed portrait illustration for collectible Chinese poetry theme cover 'mountains and pastoral countryside'. Portrait aspect ratio 3:5. Match attached sunny landscape master watercolor gouache style. Tall layered blue-green Chinese mountains in upper half, soft white clouds and mist, lush sunlit trees, small traditional whitewashed village with dark tiled roofs at middle right, stone arched footbridge over a clear winding stream in lower middle, green rice fields and wildflowers in foreground. Peaceful bright warm spring morning, delicate painterly textures and natural depth, high quality children's illustrated book, recognisable composition even at 110pt wide. No pumpkin, no people, no phone, no UI, no text, no frame, no border, no caption strip, no rounded corners. Opaque art fills whole rectangle."
+      ]
+    },
+    {
+      "name": "cover_seasons",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Create one full-bleed portrait Chinese poetry collectible cover for 'seasonal nature', use SPRING peach blossoms and bird as reference third phone cover. Aspect ratio 3:5. Match attached reference exquisite watercolor gouache children's storybook style. Graceful dark peach blossom branches sweep across top and right with abundant pink and pale coral flowers, fresh young leaves; ONE small charming realistic songbird with cream belly, warm brown back, tiny beak perched on a twig near upper-middle. Soft powder blue sky, distant pale blue mountain hints through flowers, lush green leaves, tiny white and yellow flowers toward bottom. Bright warm gentle spring morning, delicate detailed painterly texture, poetic botanical composition. Pink blossoms and bird prominent and recognisable at 110pt wide. No pumpkin, no phone, no text, no frame, no border, no blank label strip, no rounded corners. Fully opaque edge-to-edge portrait art."
+      ]
+    },
+    {
+      "name": "scene_home_day_with_mascot",
+      "transparent": false,
+      "prompts": [
+        "Use case: compositing. Produce final single baked-in home header illustration combining image1 scenic layout with EXACT pumpkin mascot identity of image2. Image1 is edit target, image2 character reference. Keep luminous watercolor Chinese lake garden and pavilion, quiet upper-left sky for future native text. Paint the seated pumpkin from image2 naturally into LOWER LEFT grassy bank, character about 30% of whole image width, feet near 81% image height, top of curled stem near 48% height. It reads the blue book whose cover must retain exact vertical Traditional Chinese title 古詩 (古 above 詩). Match warm sunlight, watercolor texture, perspective, soft contact shadow and ambient green light; tiny foreground grass and flowers naturally overlap the bottom of feet so it belongs to scene, not a pasted sticker. Same blue scarf, orange pumpkin, leaf, brown eyes, joyful face. Keep entire character inside image, keep upper 40% available for heading. Keep right-side pavilion and distant blue mountains. Lower edge dissolves into warm cream #FFF9ED. Single fully opaque square painted scene, no UI, no phone, no frame, no writing except 古詩 on book. This must be a finished integrated scene, no separate character sheet."
+      ]
+    },
+    {
+      "name": "scene_growth_with_mascot",
+      "transparent": false,
+      "prompts": [
+        "Use case: compositing. Image1 is edit target growth garden background. Image2 is exact character reference. Make a finished single baked-in scene: paint the celebrating pumpkin from image2 naturally into the pale sunlit grassy clearing in lower-middle/right of image1. Same curled green stem, blue scarf, orange ribbed body, happy smiling closed eyes, holding a moon-themed postcard and waving. Character around 38% canvas width, center around x66% y64%, feet around y84%; keep top-left 40% clean cream for native heading. Character and postcard fully visible. Match scene sunlight and watercolor texture; subtle contact shadow and tiny foreground flowers overlapping feet make character sit within landscape instead of floating sticker. Retain light distant mountains, soft cream sky and floral edges, bottom fades to warm cream #FFF9ED. No text, no UI, no phone or border. Full opaque near-square 12:11 composition, retain layout and scenery of first image except locally blending character naturally into grass."
+      ]
+    },
+    {
+      "name": "cover_landscape_v2",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. New portrait full-bleed collectible cover, 3:5 aspect, theme Chinese mountains and pastoral countryside. Match painterly watercolor gouache quality of attached reference but clearly focus on GREEN LANDSCAPE rather than decorative flowers: grand layered blue-green karst mountains, open emerald rice paddies stepping gently down a valley, meandering jade stream, small whitewashed farmhouse with dark gray roof and low bamboo fence, a slender wooden footbridge and a tiny water buffalo grazing by the stream, bamboo and willow leaves at edges. Morning light and soft mist. Keep flowers absent, no pink blossoms, no birds on flowering branches, no pavilion, no moon, no orange mascot. Large readable masses of green fields, cyan water, mountain silhouettes. Rich detailed hand-painted children's storybook art, warm peaceful mood. No lettering, no border, no UI, no caption strip. Full opaque portrait image."
+      ]
+    },
+    {
+      "name": "cover_seasons_v2",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Generate a NEW portrait 3:5 full-bleed collectible cover for Chinese poetry seasonal nature theme. Clearly botanical intimate close-up, NOT a landscape. A beautiful blossoming peach branch with visible dark brown bark diagonally from lower right to upper left, abundant layered pale pink and coral flowers, translucent fresh leaves, ONE small lively brown cream songbird perched among blossoms in upper-middle, a delicate pale yellow butterfly lower-middle, a few drifting petals. Background exclusively softly painted warm ivory, blush pink and very pale mint wash with blurred nearby foliage, like an intimate garden close-up on luminous paper. No horizon, NO mountains, NO water, NO rivers, NO lakes, NO village, NO pavilion, NO architecture, no sky landscape. Beautiful traditional Chinese flower-and-bird painting reinterpreted in warm detailed children's watercolor gouache, same premium storybook material as reference but completely different subject scale and composition. Foreground flower details richly readable. No text or frame, opaque edge-to-edge art."
+      ]
+    },
+    {
+      "name": "art_continue_landscape",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Create transparent right-aligned watercolor vignette for continue-learning card, using attached NEW pastoral countryside master as subject/style reference. Compact scene with emerald rice paddies, jade stream winding from lower right toward center, tiny white farmhouse dark gray roof, blue-green mountain silhouettes above, bamboo leaves near lower right. All scenic subject clustered on RIGHT 65% of square canvas; left 35% truly transparent and quiet for native title. Organic delicate watercolor edges feather into transparent alpha especially left and bottom, no rectangular backing. Recognizable simple scene at small size. Warm morning light, rich children's storybook watercolor gouache. NO moon, no stars, no pink blossom, no perched bird, no pavilion, no text, no UI frame, no pumpkin. True transparent background, no opaque cream or white, no checkerboard."
+      ]
+    },
+    {
+      "name": "art_continue_seasons",
+      "transparent": true,
+      "prompts": [
+        "Use case: illustration-story. Create a transparent right-aligned botanical vignette for a continue-learning card using attached NEW seasonal flower-and-bird master. Graceful peach blossom twig with pink flowers and fresh leaves, ONE small brown cream songbird perched near upper right, a few petals. Subject occupies right 60% of square canvas, left 40% transparent for native poem title. Close-up flower-and-bird composition, no landscape at all: NO mountains, lake, stream, pavilion, houses, horizon or moon. Same warm detailed watercolor gouache painting style and colors as reference. Delicate organic edges, truly transparent background including between leaves, no cream rectangular backing, no white, no checkerboard, no text, no UI border. Small-scale legibility, clear bird and blossoms, avoid overly dense cluster. Entire bird visible and branch comfortably framed."
+      ]
+    },
+    {
+      "name": "scene_poem_landscape",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Standalone full-bleed 6:5 landscape header artwork for Chinese pastoral poetry learning page, use attached new pastoral cover as visual/style reference but recompose horizontally. Emerald rice fields, winding clear jade stream, white farmhouse and bamboo fence in lower right, distant blue-green mountains in middle, bamboo and willow at far edges. Top 30% is pale quiet sky with minimal clouds for dark native navigation text; keep roof and mountain peaks below top navigation zone. Broad open countryside and rich green agricultural land, warm morning light, fine hand-painted watercolor gouache like attached master. No flower blossoms, no bird closeups, no moon or night, no pavilion, no pumpkin, no lettering, no UI or border. Fully opaque 6:5 rectangle. This is thematic scenery, not illustration of a specific historical event."
+      ]
+    },
+    {
+      "name": "scene_poem_seasons",
+      "transparent": false,
+      "prompts": [
+        "Use case: illustration-story. Full opaque landscape 6:5 header image for seasonal flower-and-bird poetry learning page. Recompose the attached NEW botanical cover as close-up garden scene with branch and bird mostly in lower-right two-thirds, soft warm ivory and pale blush background filling upper-left and top central 30% as quiet space for dark native title and controls. A peach branch with detailed pink blossoms, fresh leaves, one small brown and cream songbird perched at x70% y60%, a pale butterfly near lower left, a few petals. Same gentle luminous Chinese children's watercolor gouache style. Background consists only of cream paper-like wash and soft out-of-focus nearby foliage. Absolutely NO landscape, mountains, horizon, lake, stream, pavilion, houses, or distant scenery. No text, no UI, no border, no pumpkin. Intimate botanical composition distinct from blue-green mountain artwork. Fully opaque, no transparent background."
+      ]
+    },
+    {
+      "name": "home_landscape",
+      "transparent": false,
+      "prompts": [
+        "Use case: compositing. Create final integrated iOS home hero by EDITING/REFRAMING first image (existing green pastoral cover), using second image only as EXACT Beibei pumpkin identity reference. Preserve distinctive existing blue-green karst mountains, green rice fields, meandering jade stream, wooden bridge, white farmhouse, bamboo and willow, watercolor brushwork and morning lighting. Recompose to SQUARE canvas with top-left 40% light clean sky reserved for native heading. Paint Beibei seated on lower-left grassy bank reading blue poetry book, character whole body width about 30% of canvas, top of stem near 50% height and feet near 85%. Preserve blue scarf, curled leaf stem, rounded orange pumpkin, happy face; title on book is exact vertical 古詩. Real integration: warm ambient light, soft contact shadows, grass partially overlaps feet, matching scale and watercolor texture, not sticker. Keep farmhouse right visible. No pink blossoms or flower bird theme. Bottom 10% fades into cream #FFF9ED. Full opaque square artwork, no UI text, borders or device. This is a variation of the supplied pastoral painting, do not invent a new unrelated landscape."
+      ]
+    },
+    {
+      "name": "home_moonlight",
+      "transparent": false,
+      "prompts": [
+        "Use case: compositing. Image1 is existing moonlit collectible landscape to adapt, image2 exact Beibei pumpkin character reference. Create SQUARE integrated home hero variation of existing scene: preserve luminous full moon upper right, cobalt night sky, layered indigo mountains, lit Chinese pavilion right, reflective lake. Reframe with clear dark upper-left 40% for white native title. Add Beibei sitting on lower-left lakeside grassy bank reading blue poetry book with exact vertical title 古詩. Whole orange pumpkin with green curled stem and leaf, blue scarf, brown eyes, soft happy face; subject around 30% width, top around y50%, feet around y85%. Paint character INTO scene with soft blue ambient moonlight on shadow side and warm nearby lantern illumination on face/book, realistic gentle contact shadow and grasses partially overlapping feet. Keep it warm and child-friendly, not a bright pasted daytime sticker. Small lantern beside book may light character. Preserve painting brushwork. Bottom 10% transitions softly into warm cream #FFF9ED for UI card below. Full opaque image, no UI, no phone, no text except book title, no border. This is adaptation of original scene, not a different design."
+      ]
+    },
+    {
+      "name": "home_seasons",
+      "transparent": false,
+      "prompts": [
+        "Use case: compositing. First image is the USER-SELECTED ORIGINAL seasonal painting to EDIT/REFRAME; second image is exact Beibei character reference. Make a SQUARE integrated home hero clearly derived from first image, preserving its luminous blue sky, pink peach blossom paint style, same brown cream bird, floating petals and sunlit flowers. Reframe toward the blossoming tree: extend existing right-hand branch into a visible graceful dark brown tree trunk at RIGHT edge with canopy across upper right, roots on grassy flowered bank. Beibei pumpkin sits UNDER THIS TREE at lower right/center-right (x66% y70%), leaning near tree roots and reading the blue book titled exactly vertical 古詩. Character entire body and curled stem visible, about 30% canvas width, blue scarf, joyful brown eyes, same reference identity. Natural sunlight through blossoms, dappled shadow on grass and pumpkin, small flowers overlap feet, fully integrated painting not sticker. Upper-left 35-40% open light blue sky for native heading. Prioritize nearby tree/grass/flowers/bird; remove original pavilion, lake and prominent mountains so this is recognizably tree-garden seasonal scene, not another mountain-water landscape. Distant backdrop may be softly blurred green garden foliage only. Lower 10% softly blends into warm cream #FFF9ED. No other text, no UI, no device or border. Match FIRST image's vivid airy watercolor storybook visual style, NOT flat cream macro botanical poster."
+      ]
+    },
+    {
+      "name": "art_continue_seasons_v3",
+      "transparent": true,
+      "prompts": [
+        "Use case: precise-object-edit / asset adaptation. Adapt THIS EXISTING seasonal home scene into matching transparent decorative thumbnail for continue-learning card. Preserve same painted flowering tree trunk at right, same pink blossoms and brown cream bird, same airy blue sky and bright grass patches; do not invent a different flower/bird design. Remove ONLY pumpkin character, book and scarf, naturally restore grass where it sat. Reframe a compact vignette of tree trunk and blossoms/bird, leaving left 40% of SQUARE canvas truly transparent for native card title. Include a small patch of original blue sky between branches but no full opaque rectangular background; organic watercolor silhouette fades to alpha at left/bottom edges. The subject stays predominantly right, recognisable as same tree and garden as supplied image. No mountains, lake or pavilion. No text, no UI, no button border. True transparent background, no white/cream backing. This is an image variation of existing scene, not a new style."
+      ]
+    },
+    {
+      "name": "cover_seasons_v3",
+      "transparent": false,
+      "prompts": [
+        "Use case: precise-object-edit / reframe. Adapt the supplied existing seasonal home illustration into a PORTRAIT 3:5 collectible cover of the SAME tree garden. Preserve same tree trunk and blossom canopy at right, same little brown cream bird perched among branches, same vivid pale blue sky, sunlit wildflowers, fluttering petals, watercolor brushwork and daylight. Remove pumpkin, book and scarf and naturally paint garden grass/roots behind it. Reframe vertically emphasizing flowering tree from canopy to roots, rich blossoms/bird above, grassy flowers below. No mountain, lake, river, pavilion or village. No blank label strip, no UI, no text or border, no rounded corners. Fully opaque full-bleed illustration. This is a variation of the exact supplied picture, not a cream macro botanical redesign. Retain colors and recognizable motifs."
+      ]
+    },
+    {
+      "name": "scene_poem_seasons_v3",
+      "transparent": false,
+      "prompts": [
+        "Use case: precise-object-edit / reframe. Adapt the supplied existing seasonal home painting into matching opaque 6:5 landscape learning header. Preserve the SAME peach tree, brown cream songbird, vivid blue sky, pink flowers, falling petals, fresh grass and hand-painted storybook texture. Remove pumpkin, book and scarf, naturally restore garden behind. Reframe with tree trunk at far right, blossom canopy mostly upper-right and bird middle-right, garden grass at bottom, upper-left 40% mostly soft blue sky for dark native heading. No mountains, lake, pavilion, rivers or architecture. No cream macro botanical redesign; retain original vivid airy spring garden style. No text, no UI border, no phone. Full-bleed fully opaque painting, warm light and natural tree-root shadows."
+      ]
+    }
+  ]
+}

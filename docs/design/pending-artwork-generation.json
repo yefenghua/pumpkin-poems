@@ -1,0 +1,47 @@
+{
+  "generator": "built-in image_gen",
+  "source": "docs/design/pending-artwork-prompts.md",
+  "assets": [
+    {
+      "name": "scene_feihualing",
+      "path": "pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_feihualing.imageset/scene_feihualing.png",
+      "transparent": false,
+      "width": 1536,
+      "height": 1024,
+      "prompts": [
+        "Use case: illustration-story. Generate one finished app illustration, landscape 3:2, 1536x1024.\nChildren's storybook watercolor illustration, warm and luminous, Chinese spring garden. A small golden-orange pumpkin character \"Beibei\" (round pumpkin body with five soft ribs, green curled stem with one small leaf, dark brown oval eyes, soft pink cheeks, happy open smile, small sky-blue scarf, short rounded arms and feet) stands on the right third of the picture, reaching up with both arms to catch pink peach-blossom petals drifting down in the breeze. Blossoming peach branches arch in from the right edge; a low stone garden wall and a round moon gate in the middle distance; soft green hills and a pale blue sky with light clouds on the left. The upper-left quarter is calm sky with gentle clouds and almost no detail, reserved for a title. Clear foreground, middle ground and background; soft gouache texture; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879, peach pink #F58D96, cream #FFF8E8. Landscape 3:2, no text, no border, no frame, no other characters, not 3D, not plastic, no Halloween face. Beibei is a pumpkin creature, never a human wearing a pumpkin head. App crops from top and fades bottom 30% into cream: keep key facial and action details in upper/middle right, with clean low-contrast upper-left."
+      ]
+    },
+    {
+      "name": "scene_poet_workshop",
+      "path": "pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_poet_workshop.imageset/scene_poet_workshop.png",
+      "transparent": false,
+      "width": 1536,
+      "height": 1024,
+      "prompts": [
+        "Use case: illustration-story. One finished app header illustration, landscape 3:2, 1536x1024.\nChildren's storybook watercolor illustration, warm and cozy, a quiet Chinese study by an open window in late afternoon.\nThe small golden-orange pumpkin character \"Beibei\" (round pumpkin body with five soft ribs, green curled stem with one small leaf, dark brown oval eyes, soft pink cheeks, gentle thoughtful smile, small sky-blue scarf, short rounded arms) sits at a low wooden desk on the right side, holding a Chinese calligraphy brush over a sheet of blank cream paper, with an ink stone, a small cup of brushes and one pink blossom in a little vase beside it. Through the open lattice window on the left: a soft blue sky, a distant pale mountain and a willow branch; a few petals float in. The upper-left quarter is calm sky through the window, low detail, reserved for a title. Warm wooden tones, cream paper, pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879. Soft gouache texture, clear layers. Landscape 3:2, the paper on the desk is blank, no text anywhere, no border, no other characters, not 3D, no Halloween face. Beibei is a pumpkin creature, not a person wearing a pumpkin head. App crops from top and fades bottom 30% into cream: keep key facial and action details in upper/middle right.",
+        "Use case: precise-object-edit. Edit this existing watercolor Chinese study illustration. Remove all lettering, pseudo-calligraphy and writing from EVERY book spine in the bookshelf at far right, including upper and lower shelves, replacing the markings with plain unmarked paper/cloth covers of the same colors. Keep the sheet of cream paper blank and ensure no text or writing anywhere. Also clear the dangling willow leaves from the upper-left quarter of the window opening, leaving calm pale blue sky there for the native app title; retain the wooden window framing and distant mountain. Preserve EVERYTHING ELSE: Beibei's identity, face, stem, blue scarf, brush-holding pose, desk, inkstone, vase, watercolor style, warm light, landscape 3:2 composition and colors."
+      ]
+    },
+    {
+      "name": "scene_celebration",
+      "path": "pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_celebration.imageset/scene_celebration.png",
+      "transparent": false,
+      "width": 1536,
+      "height": 1024,
+      "prompts": [
+        "Use case: illustration-story. One finished app illustration landscape 3:2, 1536x1024.\nChildren's storybook watercolor illustration, bright and joyful, a sunny Chinese garden meadow with wildflowers. The small golden-orange pumpkin character \"Beibei\" (round pumpkin body with five soft ribs, green curled stem with one small leaf, dark brown oval eyes, soft pink cheeks, big happy smile with eyes squeezed shut in delight, small sky-blue scarf, short rounded arms and feet) jumps into the air slightly right of centre, holding up a small blank cream-coloured card with a thin gold border in one hand, as if it just won it. Gold sparkles, small star shapes and pink petals burst gently around it. Behind: a low green hill, a tiny pavilion and soft mountains, pale blue sky. The upper-left quarter is calm sky with light clouds and almost no detail, reserved for a title. Palette pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879, peach pink #F58D96, cream #FFF8E8. Soft gouache texture. Landscape 3:2, the card is blank, no text, no border around the image, no other characters, not 3D, no Halloween face. Beibei is a pumpkin creature, not a person wearing a pumpkin head. App crops from top and fades bottom 30% into cream: keep key facial and action details in upper/middle right."
+      ]
+    },
+    {
+      "name": "art_poem_book",
+      "path": "pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/art_poem_book.imageset/art_poem_book.png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "prompts": [
+        "Use case: illustration-story. Small children's storybook watercolor spot illustration on a fully transparent background: a hand-bound Chinese notebook with a cream cover and a sky-blue cloth spine, lying slightly tilted, with a wooden calligraphy brush resting across it and two or three pink peach-blossom petals beside it. A tiny golden pumpkin sticker (no face) on the cover corner. Soft gouache texture, warm cream, sky blue #5B9BF3, pumpkin gold #FFB928, peach pink #F58D96. Square format, ideally 512x512, subject centred and filling about 80% of the frame, soft shadow only under the book, transparent PNG with true alpha transparency, no text, no border, no background scene. No opaque white background and no painted checkerboard."
+      ]
+    }
+  ]
+}
