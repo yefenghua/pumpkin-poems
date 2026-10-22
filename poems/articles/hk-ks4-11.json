@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-11",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "飲酒·其五",
+    "zh-Hans": "饮酒·其五"
+  },
+  "dynasty": {
+    "zh-Hant": "東晉",
+    "zh-Hans": "东晋"
+  },
+  "genre": {
+    "zh-Hant": "五言古詩",
+    "zh-Hans": "五言古诗"
+  },
+  "author_id": "author-2af619e7780f",
+  "author_file": "../author/author-2af619e7780f.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-2af619e7780f",
+    "name": {
+      "zh-Hant": "陶淵明",
+      "zh-Hans": "陶渊明"
+    },
+    "catalog_name": {
+      "zh-Hant": "陶淵明",
+      "zh-Hans": "陶渊明"
+    },
+    "dynasty": {
+      "zh-Hant": "東晉",
+      "zh-Hans": "东晋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "東晉詩人，又名陶潛，田園詩的重要開創者。",
+        "zh-Hans": "东晋诗人，又名陶潜，田园诗的重要开创者。"
+      },
+      "full": {
+        "zh-Hant": "陶淵明（約365—427），又名陶潛，字元亮，潯陽柴桑人，東晉詩人，生年仍有異説。他曾短暫任官，後來辭官歸田，以耕作和寫作為生活的重要部分。其詩語言平淡自然，卻包含對人格、自由與生活意義的深入思考，代表作有《歸園田居》《飲酒》，散文《桃花源記》也廣為傳誦。《飲酒·其五》在採菊、飛鳥和夕山中表現心境。歸隱生活並非只有悠閒，也包括勞動與貧困。",
+        "zh-Hans": "陶渊明（约365—427），又名陶潜，字元亮，浔阳柴桑人，东晋诗人，生年仍有异说。他曾短暂任官，后来辞官归田，以耕作和写作为生活的重要部分。其诗语言平淡自然，却包含对人格、自由与生活意义的深入思考，代表作有《归园田居》《饮酒》，散文《桃花源记》也广为传诵。《饮酒·其五》在采菊、飞鸟和夕山中表现心境。归隐生活并非只有悠闲，也包括劳动与贫困。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 飲酒·其五賞析",
+          "zh-Hans": "香港教育局 · 饮酒·其五赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_11.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "結廬在人境，而無車馬喧。問君何能爾，心遠地自偏。採菊東籬下，悠然見南山。山氣日夕佳，飛鳥相與還。此中有真意，欲辨已忘言。",
+    "zh-Hans": "结庐在人境，而无车马喧。问君何能尔，心远地自偏。采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还。此中有真意，欲辨已忘言。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-11-l001",
+      "text": {
+        "zh-Hant": "結廬在人境，",
+        "zh-Hans": "结庐在人境，"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l002",
+      "text": {
+        "zh-Hant": "而無車馬喧。",
+        "zh-Hans": "而无车马喧。"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l003",
+      "text": {
+        "zh-Hant": "問君何能爾，",
+        "zh-Hans": "问君何能尔，"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l004",
+      "text": {
+        "zh-Hant": "心遠地自偏。",
+        "zh-Hans": "心远地自偏。"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l005",
+      "text": {
+        "zh-Hant": "採菊東籬下，",
+        "zh-Hans": "采菊东篱下，"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l006",
+      "text": {
+        "zh-Hant": "悠然見南山。",
+        "zh-Hans": "悠然见南山。"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l007",
+      "text": {
+        "zh-Hant": "山氣日夕佳，",
+        "zh-Hans": "山气日夕佳，"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l008",
+      "text": {
+        "zh-Hant": "飛鳥相與還。",
+        "zh-Hans": "飞鸟相与还。"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l009",
+      "text": {
+        "zh-Hant": "此中有真意，",
+        "zh-Hans": "此中有真意，"
+      }
+    },
+    {
+      "id": "hk-ks4-11-l010",
+      "text": {
+        "zh-Hant": "欲辨已忘言。",
+        "zh-Hans": "欲辨已忘言。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-11-w001",
+      "term": {
+        "zh-Hant": "結廬",
+        "zh-Hans": "结庐"
+      },
+      "definition": {
+        "zh-Hant": "建造居所。",
+        "zh-Hans": "建造居所。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w002",
+      "term": {
+        "zh-Hant": "人境",
+        "zh-Hans": "人境"
+      },
+      "definition": {
+        "zh-Hant": "人們聚居的地方。",
+        "zh-Hans": "人们聚居的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w003",
+      "term": {
+        "zh-Hant": "爾",
+        "zh-Hans": "尔"
+      },
+      "definition": {
+        "zh-Hant": "這樣。",
+        "zh-Hans": "这样。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w004",
+      "term": {
+        "zh-Hant": "心遠",
+        "zh-Hans": "心远"
+      },
+      "definition": {
+        "zh-Hant": "內心遠離世俗名利的紛擾。",
+        "zh-Hans": "内心远离世俗名利的纷扰。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w005",
+      "term": {
+        "zh-Hant": "日夕",
+        "zh-Hans": "日夕"
+      },
+      "definition": {
+        "zh-Hant": "傍晚。",
+        "zh-Hans": "傍晚。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w006",
+      "term": {
+        "zh-Hant": "相與",
+        "zh-Hans": "相与"
+      },
+      "definition": {
+        "zh-Hant": "相伴、一起。",
+        "zh-Hans": "相伴、一起。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l008",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l008",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-11-w007",
+      "term": {
+        "zh-Hant": "真意",
+        "zh-Hans": "真意"
+      },
+      "definition": {
+        "zh-Hant": "自然與生活中難以用言語盡説的意味。",
+        "zh-Hans": "自然与生活中难以用言语尽说的意味。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l009",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-11-l009",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "教育局原文署陶潛，本庫使用同一人的通行名陶淵明。",
+      "zh-Hans": "教育局原文署陶潜，本库使用同一人的通行名陶渊明。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 飲酒·其五原文",
+        "zh-Hans": "香港教育局 · 饮酒·其五原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_11_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "7e1627d730dbd94755bff92229dc76993bb54ba7bb2fd94825b45450f376ce46"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 飲酒·其五賞析",
+        "zh-Hans": "香港教育局 · 饮酒·其五赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_11.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-20b7ba740f03",
+  "name": {
+    "zh-Hant": "金昌緒",
+    "zh-Hans": "金昌绪"
+  },
+  "catalog_name": {
+    "zh-Hant": "金昌緒",
+    "zh-Hans": "金昌绪"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，生平資料極少，以《春怨》傳世。",
+      "zh-Hans": "唐代诗人，生平资料极少，以《春怨》传世。"
+    },
+    "full": {
+      "zh-Hant": "金昌緒是唐代詩人，一般認為是餘杭一帶人，確切生卒年及仕履均不可考。今人主要通過《春怨》認識他，不宜為了填充簡介而虛構官職、交遊或創作時間。此詩用趕走黃鶯、怕驚好夢的層層解釋，直到結尾才點出夢中想去遼西與遠人相會的心願，語言近於口語而結構精巧。作者資料雖少，作品仍能提供豐富的閲讀空間；本庫完整簡介因此着重説明文獻邊界和可觀察的藝術特點。",
+      "zh-Hans": "金昌绪是唐代诗人，一般认为是余杭一带人，确切生卒年及仕履均不可考。今人主要通过《春怨》认识他，不宜为了填充简介而虚构官职、交游或创作时间。此诗用赶走黄莺、怕惊好梦的层层解释，直到结尾才点出梦中想去辽西与远人相会的心愿，语言近于口语而结构精巧。作者资料虽少，作品仍能提供丰富的阅读空间；本库完整简介因此着重说明文献边界和可观察的艺术特点。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 1639
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

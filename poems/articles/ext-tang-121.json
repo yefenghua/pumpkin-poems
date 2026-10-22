@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-121",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "宿建德江",
+    "zh-Hans": "宿建德江"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-2f2b2c3b008a",
+  "author_file": "../author/author-2f2b2c3b008a.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-2f2b2c3b008a",
+    "name": {
+      "zh-Hant": "孟浩然",
+      "zh-Hans": "孟浩然"
+    },
+    "catalog_name": {
+      "zh-Hant": "孟浩然",
+      "zh-Hans": "孟浩然"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代山水田園詩人，與王維並稱王孟。",
+        "zh-Hans": "唐代山水田园诗人，与王维并称王孟。"
+      },
+      "full": {
+        "zh-Hant": "孟浩然（689—740），襄州襄陽人，唐代山水田園詩的重要代表。他曾赴長安求仕，也漫遊吳越，人生的大部分時間在故鄉及山水之間度過，與王維、李白等詩人有交往。他的作品常寫田園生活、旅途景物和友人情誼，語言自然清淡，卻有細緻的感受。《春曉》《過故人莊》《宿建德江》分別展現惜春、訪友與羈旅之思。讀孟詩，可留意看似平常的聲音和景物如何包含情緒變化。",
+        "zh-Hans": "孟浩然（689—740），襄州襄阳人，唐代山水田园诗的重要代表。他曾赴长安求仕，也漫游吴越，人生的大部分时间在故乡及山水之间度过，与王维、李白等诗人有交往。他的作品常写田园生活、旅途景物和友人情谊，语言自然清淡，却有细致的感受。《春晓》《过故人庄》《宿建德江》分别展现惜春、访友与羁旅之思。读孟诗，可留意看似平常的声音和景物如何包含情绪变化。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 春曉賞析",
+          "zh-Hans": "香港教育局 · 春晓赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "移舟泊煙渚，日暮客愁新。野曠天低樹，江清月近人。",
+    "zh-Hans": "移舟泊烟渚，日暮客愁新。野旷天低树，江清月近人。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-121-l001",
+      "text": {
+        "zh-Hant": "移舟泊煙渚，",
+        "zh-Hans": "移舟泊烟渚，"
+      }
+    },
+    {
+      "id": "ext-tang-121-l002",
+      "text": {
+        "zh-Hant": "日暮客愁新。",
+        "zh-Hans": "日暮客愁新。"
+      }
+    },
+    {
+      "id": "ext-tang-121-l003",
+      "text": {
+        "zh-Hant": "野曠天低樹，",
+        "zh-Hans": "野旷天低树，"
+      }
+    },
+    {
+      "id": "ext-tang-121-l004",
+      "text": {
+        "zh-Hant": "江清月近人。",
+        "zh-Hans": "江清月近人。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-121-w001",
+      "term": {
+        "zh-Hant": "泊",
+        "zh-Hans": "泊"
+      },
+      "definition": {
+        "zh-Hant": "停船。",
+        "zh-Hans": "停船。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l001",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l001",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-121-w002",
+      "term": {
+        "zh-Hant": "煙渚",
+        "zh-Hans": "烟渚"
+      },
+      "definition": {
+        "zh-Hant": "煙霧籠罩的水中小洲。",
+        "zh-Hans": "烟雾笼罩的水中小洲。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-121-w003",
+      "term": {
+        "zh-Hant": "客愁",
+        "zh-Hans": "客愁"
+      },
+      "definition": {
+        "zh-Hant": "旅居在外的愁緒。",
+        "zh-Hans": "旅居在外的愁绪。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-121-w004",
+      "term": {
+        "zh-Hant": "野曠",
+        "zh-Hans": "野旷"
+      },
+      "definition": {
+        "zh-Hant": "原野空闊。",
+        "zh-Hans": "原野空阔。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-121-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 121
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

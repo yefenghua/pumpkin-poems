@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-06",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "涼州詞",
+    "zh-Hans": "凉州词"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-de6585a06682",
+  "author_file": "../author/author-de6585a06682.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-de6585a06682",
+    "name": {
+      "zh-Hant": "王翰",
+      "zh-Hans": "王翰"
+    },
+    "catalog_name": {
+      "zh-Hant": "王翰",
+      "zh-Hans": "王翰"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，《涼州詞》寫軍中飲酒與征戰人生。",
+        "zh-Hans": "唐代诗人，《凉州词》写军中饮酒与征战人生。"
+      },
+      "full": {
+        "zh-Hant": "王翰，字子羽，并州晉陽人，唐代詩人，生卒年不詳，曾登進士第並任官。史籍記其性情豪放，作品存世不多，而《涼州詞·葡萄美酒夜光杯》尤其著名。詩中美酒、樂聲和戰場並置，既有豪邁語氣，也讓人想到征戰的危險與生命的短暫，理解時可以兼顧這兩層意味。本庫將這首王翰作品列為香港小學core，與王之渙同題的黃河遠上一首分別建立記錄，避免同題混淆。",
+        "zh-Hans": "王翰，字子羽，并州晋阳人，唐代诗人，生卒年不详，曾登进士第并任官。史籍记其性情豪放，作品存世不多，而《凉州词·葡萄美酒夜光杯》尤其著名。诗中美酒、乐声和战场并置，既有豪迈语气，也让人想到征战的危险与生命的短暂，理解时可以兼顾这两层意味。本库将这首王翰作品列为香港小学core，与王之涣同题的黄河远上一首分别建立记录，避免同题混淆。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 涼州詞賞析",
+          "zh-Hans": "香港教育局 · 凉州词赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_06.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "葡萄美酒夜光杯，欲飲琵琶馬上催。醉臥沙場君莫笑，古來征戰幾人回？",
+    "zh-Hans": "葡萄美酒夜光杯，欲饮琵琶马上催。醉卧沙场君莫笑，古来征战几人回？"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-06-l001",
+      "text": {
+        "zh-Hant": "葡萄美酒夜光杯，",
+        "zh-Hans": "葡萄美酒夜光杯，"
+      }
+    },
+    {
+      "id": "hk-ks2-06-l002",
+      "text": {
+        "zh-Hant": "欲飲琵琶馬上催。",
+        "zh-Hans": "欲饮琵琶马上催。"
+      }
+    },
+    {
+      "id": "hk-ks2-06-l003",
+      "text": {
+        "zh-Hant": "醉臥沙場君莫笑，",
+        "zh-Hans": "醉卧沙场君莫笑，"
+      }
+    },
+    {
+      "id": "hk-ks2-06-l004",
+      "text": {
+        "zh-Hant": "古來征戰幾人回？",
+        "zh-Hans": "古来征战几人回？"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-06-w001",
+      "term": {
+        "zh-Hant": "夜光杯",
+        "zh-Hans": "夜光杯"
+      },
+      "definition": {
+        "zh-Hant": "精美的酒杯，舊説用玉石製成。",
+        "zh-Hans": "精美的酒杯，旧说用玉石制成。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l001",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l001",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-06-w002",
+      "term": {
+        "zh-Hant": "琵琶",
+        "zh-Hans": "琵琶"
+      },
+      "definition": {
+        "zh-Hant": "絃樂器，此處以樂聲寫軍中宴飲氣氛。",
+        "zh-Hans": "弦乐器，此处以乐声写军中宴饮气氛。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-06-w003",
+      "term": {
+        "zh-Hant": "沙場",
+        "zh-Hans": "沙场"
+      },
+      "definition": {
+        "zh-Hant": "戰場。",
+        "zh-Hans": "战场。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-06-w004",
+      "term": {
+        "zh-Hant": "君",
+        "zh-Hans": "君"
+      },
+      "definition": {
+        "zh-Hant": "你，對人的稱呼。",
+        "zh-Hans": "你，对人的称呼。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-06-w005",
+      "term": {
+        "zh-Hant": "征戰",
+        "zh-Hans": "征战"
+      },
+      "definition": {
+        "zh-Hant": "出征作戰。",
+        "zh-Hans": "出征作战。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-06-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "此篇為王翰“葡萄美酒夜光杯”，不是王之渙同題作品。",
+      "zh-Hans": "此篇为王翰“葡萄美酒夜光杯”，不是王之涣同题作品。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 涼州詞原文",
+        "zh-Hans": "香港教育局 · 凉州词原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_06_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "a11e9c94562f47a522a431adcd01f97b68ff636ec868a6f7b9159ff79f8b524f"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 涼州詞賞析",
+        "zh-Hans": "香港教育局 · 凉州词赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_06.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

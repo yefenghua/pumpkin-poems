@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-134",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "終南別業",
+    "zh-Hans": "终南别业"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "中歲頗好道，晚家南山陲。興來每獨往，勝事空自知。行到水窮處，坐看雲起時。偶然值林叟，談笑無還期。",
+    "zh-Hans": "中岁颇好道，晚家南山陲。兴来每独往，胜事空自知。行到水穷处，坐看云起时。偶然值林叟，谈笑无还期。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-134-l001",
+      "text": {
+        "zh-Hant": "中歲頗好道，",
+        "zh-Hans": "中岁颇好道，"
+      }
+    },
+    {
+      "id": "ext-tang-134-l002",
+      "text": {
+        "zh-Hant": "晚家南山陲。",
+        "zh-Hans": "晚家南山陲。"
+      }
+    },
+    {
+      "id": "ext-tang-134-l003",
+      "text": {
+        "zh-Hant": "興來每獨往，",
+        "zh-Hans": "兴来每独往，"
+      }
+    },
+    {
+      "id": "ext-tang-134-l004",
+      "text": {
+        "zh-Hant": "勝事空自知。",
+        "zh-Hans": "胜事空自知。"
+      }
+    },
+    {
+      "id": "ext-tang-134-l005",
+      "text": {
+        "zh-Hant": "行到水窮處，",
+        "zh-Hans": "行到水穷处，"
+      }
+    },
+    {
+      "id": "ext-tang-134-l006",
+      "text": {
+        "zh-Hant": "坐看雲起時。",
+        "zh-Hans": "坐看云起时。"
+      }
+    },
+    {
+      "id": "ext-tang-134-l007",
+      "text": {
+        "zh-Hant": "偶然值林叟，",
+        "zh-Hans": "偶然值林叟，"
+      }
+    },
+    {
+      "id": "ext-tang-134-l008",
+      "text": {
+        "zh-Hant": "談笑無還期。",
+        "zh-Hans": "谈笑无还期。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-134-w001",
+      "term": {
+        "zh-Hant": "好道",
+        "zh-Hans": "好道"
+      },
+      "definition": {
+        "zh-Hant": "喜愛佛道修養。",
+        "zh-Hans": "喜爱佛道修养。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-134-w002",
+      "term": {
+        "zh-Hant": "南山陲",
+        "zh-Hans": "南山陲"
+      },
+      "definition": {
+        "zh-Hant": "終南山邊。",
+        "zh-Hans": "终南山边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l002",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l002",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-134-w003",
+      "term": {
+        "zh-Hant": "勝事",
+        "zh-Hans": "胜事"
+      },
+      "definition": {
+        "zh-Hant": "美好的事物或景緻。",
+        "zh-Hans": "美好的事物或景致。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-134-w004",
+      "term": {
+        "zh-Hant": "林叟",
+        "zh-Hans": "林叟"
+      },
+      "definition": {
+        "zh-Hant": "林中的老人。",
+        "zh-Hans": "林中的老人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l007",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l007",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-134-w005",
+      "term": {
+        "zh-Hant": "無還期",
+        "zh-Hans": "无还期"
+      },
+      "definition": {
+        "zh-Hant": "不急於回去。",
+        "zh-Hans": "不急于回去。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l008",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-134-l008",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 134
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

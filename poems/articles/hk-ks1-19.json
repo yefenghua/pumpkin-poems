@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-19",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "畫雞",
+    "zh-Hans": "画鸡"
+  },
+  "dynasty": {
+    "zh-Hant": "明",
+    "zh-Hans": "明"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-1a1f688e3951",
+  "author_file": "../author/author-1a1f688e3951.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1a1f688e3951",
+    "name": {
+      "zh-Hant": "唐寅",
+      "zh-Hans": "唐寅"
+    },
+    "catalog_name": {
+      "zh-Hant": "唐寅",
+      "zh-Hans": "唐寅"
+    },
+    "dynasty": {
+      "zh-Hant": "明",
+      "zh-Hans": "明"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "明代書畫家、詩人，字伯虎，詩畫常見生活情趣。",
+        "zh-Hans": "明代书画家、诗人，字伯虎，诗画常见生活情趣。"
+      },
+      "full": {
+        "zh-Hant": "唐寅（1470—1524），字伯虎，又字子畏，號六如居士，蘇州人，是明代著名畫家、書法家和詩人。他早年科舉得名，後受會試案牽連，仕途受挫，主要靠書畫謀生。其詩題材廣泛，既有日常閒趣，也有對身世和社會的感慨。《畫雞》以醒目的雞冠、羽毛和報曉動作寫公雞，語言通俗，形象鮮明。後世關於唐伯虎的戲説很多，閲讀作者生平時應與可考的歷史經歷區分。",
+        "zh-Hans": "唐寅（1470—1524），字伯虎，又字子畏，号六如居士，苏州人，是明代著名画家、书法家和诗人。他早年科举得名，后受会试案牵连，仕途受挫，主要靠书画谋生。其诗题材广泛，既有日常闲趣，也有对身世和社会的感慨。《画鸡》以醒目的鸡冠、羽毛和报晓动作写公鸡，语言通俗，形象鲜明。后世关于唐伯虎的戏说很多，阅读作者生平时应与可考的历史经历区分。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 畫雞賞析",
+          "zh-Hans": "香港教育局 · 画鸡赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "頭上紅冠不用裁，滿身雪白走將來。平生不敢輕言語，一叫千門萬戶開。",
+    "zh-Hans": "头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-19-l001",
+      "text": {
+        "zh-Hant": "頭上紅冠不用裁，",
+        "zh-Hans": "头上红冠不用裁，"
+      }
+    },
+    {
+      "id": "hk-ks1-19-l002",
+      "text": {
+        "zh-Hant": "滿身雪白走將來。",
+        "zh-Hans": "满身雪白走将来。"
+      }
+    },
+    {
+      "id": "hk-ks1-19-l003",
+      "text": {
+        "zh-Hant": "平生不敢輕言語，",
+        "zh-Hans": "平生不敢轻言语，"
+      }
+    },
+    {
+      "id": "hk-ks1-19-l004",
+      "text": {
+        "zh-Hant": "一叫千門萬戶開。",
+        "zh-Hans": "一叫千门万户开。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-19-w001",
+      "term": {
+        "zh-Hant": "紅冠",
+        "zh-Hans": "红冠"
+      },
+      "definition": {
+        "zh-Hant": "公雞頭上的紅色雞冠。",
+        "zh-Hans": "公鸡头上的红色鸡冠。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-19-w002",
+      "term": {
+        "zh-Hant": "裁",
+        "zh-Hans": "裁"
+      },
+      "definition": {
+        "zh-Hant": "裁剪，寫雞冠天然形成。",
+        "zh-Hans": "裁剪，写鸡冠天然形成。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l001",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l001",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-19-w003",
+      "term": {
+        "zh-Hant": "走將來",
+        "zh-Hans": "走将来"
+      },
+      "definition": {
+        "zh-Hant": "走過來。",
+        "zh-Hans": "走过来。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l002",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l002",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-19-w004",
+      "term": {
+        "zh-Hant": "平生",
+        "zh-Hans": "平生"
+      },
+      "definition": {
+        "zh-Hant": "平常、平日。",
+        "zh-Hans": "平常、平日。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-19-w005",
+      "term": {
+        "zh-Hant": "輕",
+        "zh-Hans": "轻"
+      },
+      "definition": {
+        "zh-Hant": "隨便、輕易。",
+        "zh-Hans": "随便、轻易。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-19-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 畫雞原文",
+        "zh-Hans": "香港教育局 · 画鸡原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "309f233ef8757e6402b2c3a265b92c06daa0519f72906bbe345f0618efb18af8"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 畫雞賞析",
+        "zh-Hans": "香港教育局 · 画鸡赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-09",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "九月九日憶山東兄弟",
+    "zh-Hans": "九月九日忆山东兄弟"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人。",
+    "zh-Hans": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-09-l001",
+      "text": {
+        "zh-Hant": "獨在異鄉為異客，",
+        "zh-Hans": "独在异乡为异客，"
+      }
+    },
+    {
+      "id": "hk-ks1-09-l002",
+      "text": {
+        "zh-Hant": "每逢佳節倍思親。",
+        "zh-Hans": "每逢佳节倍思亲。"
+      }
+    },
+    {
+      "id": "hk-ks1-09-l003",
+      "text": {
+        "zh-Hant": "遙知兄弟登高處，",
+        "zh-Hans": "遥知兄弟登高处，"
+      }
+    },
+    {
+      "id": "hk-ks1-09-l004",
+      "text": {
+        "zh-Hant": "遍插茱萸少一人。",
+        "zh-Hans": "遍插茱萸少一人。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-09-w001",
+      "term": {
+        "zh-Hant": "異鄉",
+        "zh-Hans": "异乡"
+      },
+      "definition": {
+        "zh-Hant": "故鄉以外的地方。",
+        "zh-Hans": "故乡以外的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-09-w002",
+      "term": {
+        "zh-Hant": "異客",
+        "zh-Hans": "异客"
+      },
+      "definition": {
+        "zh-Hant": "客居他鄉的人。",
+        "zh-Hans": "客居他乡的人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-09-w003",
+      "term": {
+        "zh-Hant": "佳節",
+        "zh-Hans": "佳节"
+      },
+      "definition": {
+        "zh-Hant": "這裏指農曆九月初九重陽節。",
+        "zh-Hans": "这里指农历九月初九重阳节。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-09-w004",
+      "term": {
+        "zh-Hant": "倍",
+        "zh-Hans": "倍"
+      },
+      "definition": {
+        "zh-Hant": "更加。",
+        "zh-Hans": "更加。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l002",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l002",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-09-w005",
+      "term": {
+        "zh-Hant": "茱萸",
+        "zh-Hans": "茱萸"
+      },
+      "definition": {
+        "zh-Hant": "一種有香氣的植物，古人重陽節有佩戴茱萸的習俗。",
+        "zh-Hans": "一种有香气的植物，古人重阳节有佩戴茱萸的习俗。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-09-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 九月九日憶山東兄弟原文",
+        "zh-Hans": "香港教育局 · 九月九日忆山东兄弟原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "45d0d40b7c5b1ad1fa4f79c404dfbea54f70d8d8b750a0f7753291feef8a01a7"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+        "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

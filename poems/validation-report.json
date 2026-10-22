@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "articles": 167,
+  "core": 53,
+  "extension": 114,
+  "authors": 74,
+  "annotations": 870,
+  "segments": 1354,
+  "checks": [
+    "53 EDB core works",
+    "more than 100 extension works",
+    "bilingual field completeness",
+    "source text baselines",
+    "aligned reading segments",
+    "exact word offsets in both scripts",
+    "author references and embedded profiles",
+    "duplicate work detection",
+    "manifest totals"
+  ]
+}

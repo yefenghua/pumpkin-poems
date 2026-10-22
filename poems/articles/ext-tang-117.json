@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-117",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "過故人莊",
+    "zh-Hans": "过故人庄"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-2f2b2c3b008a",
+  "author_file": "../author/author-2f2b2c3b008a.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-2f2b2c3b008a",
+    "name": {
+      "zh-Hant": "孟浩然",
+      "zh-Hans": "孟浩然"
+    },
+    "catalog_name": {
+      "zh-Hant": "孟浩然",
+      "zh-Hans": "孟浩然"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代山水田園詩人，與王維並稱王孟。",
+        "zh-Hans": "唐代山水田园诗人，与王维并称王孟。"
+      },
+      "full": {
+        "zh-Hant": "孟浩然（689—740），襄州襄陽人，唐代山水田園詩的重要代表。他曾赴長安求仕，也漫遊吳越，人生的大部分時間在故鄉及山水之間度過，與王維、李白等詩人有交往。他的作品常寫田園生活、旅途景物和友人情誼，語言自然清淡，卻有細緻的感受。《春曉》《過故人莊》《宿建德江》分別展現惜春、訪友與羈旅之思。讀孟詩，可留意看似平常的聲音和景物如何包含情緒變化。",
+        "zh-Hans": "孟浩然（689—740），襄州襄阳人，唐代山水田园诗的重要代表。他曾赴长安求仕，也漫游吴越，人生的大部分时间在故乡及山水之间度过，与王维、李白等诗人有交往。他的作品常写田园生活、旅途景物和友人情谊，语言自然清淡，却有细致的感受。《春晓》《过故人庄》《宿建德江》分别展现惜春、访友与羁旅之思。读孟诗，可留意看似平常的声音和景物如何包含情绪变化。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 春曉賞析",
+          "zh-Hans": "香港教育局 · 春晓赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "故人具雞黍，邀我至田家。綠樹村邊合，青山郭外斜。開筵面場圃，把酒話桑麻。待到重陽日，還來就菊花。",
+    "zh-Hans": "故人具鸡黍，邀我至田家。绿树村边合，青山郭外斜。开筵面场圃，把酒话桑麻。待到重阳日，还来就菊花。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-117-l001",
+      "text": {
+        "zh-Hant": "故人具雞黍，",
+        "zh-Hans": "故人具鸡黍，"
+      }
+    },
+    {
+      "id": "ext-tang-117-l002",
+      "text": {
+        "zh-Hant": "邀我至田家。",
+        "zh-Hans": "邀我至田家。"
+      }
+    },
+    {
+      "id": "ext-tang-117-l003",
+      "text": {
+        "zh-Hant": "綠樹村邊合，",
+        "zh-Hans": "绿树村边合，"
+      }
+    },
+    {
+      "id": "ext-tang-117-l004",
+      "text": {
+        "zh-Hant": "青山郭外斜。",
+        "zh-Hans": "青山郭外斜。"
+      }
+    },
+    {
+      "id": "ext-tang-117-l005",
+      "text": {
+        "zh-Hant": "開筵面場圃，",
+        "zh-Hans": "开筵面场圃，"
+      }
+    },
+    {
+      "id": "ext-tang-117-l006",
+      "text": {
+        "zh-Hant": "把酒話桑麻。",
+        "zh-Hans": "把酒话桑麻。"
+      }
+    },
+    {
+      "id": "ext-tang-117-l007",
+      "text": {
+        "zh-Hant": "待到重陽日，",
+        "zh-Hans": "待到重阳日，"
+      }
+    },
+    {
+      "id": "ext-tang-117-l008",
+      "text": {
+        "zh-Hant": "還來就菊花。",
+        "zh-Hans": "还来就菊花。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-117-w001",
+      "term": {
+        "zh-Hant": "具",
+        "zh-Hans": "具"
+      },
+      "definition": {
+        "zh-Hant": "準備。",
+        "zh-Hans": "准备。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l001",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l001",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-117-w002",
+      "term": {
+        "zh-Hant": "雞黍",
+        "zh-Hans": "鸡黍"
+      },
+      "definition": {
+        "zh-Hant": "雞肉與黍飯，泛指豐盛飯菜。",
+        "zh-Hans": "鸡肉与黍饭，泛指丰盛饭菜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-117-w003",
+      "term": {
+        "zh-Hant": "郭",
+        "zh-Hans": "郭"
+      },
+      "definition": {
+        "zh-Hant": "村莊外面。",
+        "zh-Hans": "村庄外面。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l004",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l004",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-117-w004",
+      "term": {
+        "zh-Hant": "場圃",
+        "zh-Hans": "场圃"
+      },
+      "definition": {
+        "zh-Hant": "打穀場和菜園。",
+        "zh-Hans": "打谷场和菜园。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l005",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l005",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-117-w005",
+      "term": {
+        "zh-Hant": "桑麻",
+        "zh-Hans": "桑麻"
+      },
+      "definition": {
+        "zh-Hant": "桑樹與麻，借指農事。",
+        "zh-Hans": "桑树与麻，借指农事。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l006",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-117-l006",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 117
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

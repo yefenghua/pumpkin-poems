@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-18",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "滿江紅·怒髮衝冠",
+    "zh-Hans": "满江红·怒发冲冠"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-1daa769939ad",
+  "author_file": "../author/author-1daa769939ad.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1daa769939ad",
+    "name": {
+      "zh-Hant": "岳飛",
+      "zh-Hans": "岳飞"
+    },
+    "catalog_name": {
+      "zh-Hant": "岳飛",
+      "zh-Hans": "岳飞"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋將領，傳世詩詞常表達報國志向。",
+        "zh-Hans": "南宋将领，传世诗词常表达报国志向。"
+      },
+      "full": {
+        "zh-Hant": "岳飛（1103—1142），字鵬舉，相州湯陰人，南宋抗金將領。他治軍嚴格，曾率軍收復多處失地，後來在政治迫害中遇害，後獲平反，成為後世重要的忠勇形象。傳於其名下的詩詞常表達恢復山河和珍惜年華的願望。《滿江紅·怒髮衝冠》的作者歸屬長期存在學術討論，香港教育局參考版本署岳飛，本庫沿用該署名，同時保留存疑説明，不把存在爭議的歸屬寫成毫無疑問的事實。",
+        "zh-Hans": "岳飞（1103—1142），字鹏举，相州汤阴人，南宋抗金将领。他治军严格，曾率军收复多处失地，后来在政治迫害中遇害，后获平反，成为后世重要的忠勇形象。传于其名下的诗词常表达恢复山河和珍惜年华的愿望。《满江红·怒发冲冠》的作者归属长期存在学术讨论，香港教育局参考版本署岳飞，本库沿用该署名，同时保留存疑说明，不把存在争议的归属写成毫无疑问的事实。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 滿江紅·怒髮衝冠賞析",
+          "zh-Hans": "香港教育局 · 满江红·怒发冲冠赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_18.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "怒髮衝冠，憑闌處、瀟瀟雨歇。抬望眼、仰天長嘯，壯懷激烈。三十功名塵與土，八千里路雲和月。莫等閒、白了少年頭，空悲切。靖康恥，猶未雪；臣子恨，何時滅！駕長車、踏破賀蘭山缺。壯志飢餐胡虜肉，笑談渴飲匈奴血。待從頭、收拾舊山河，朝天闕。",
+    "zh-Hans": "怒发冲冠，凭阑处、潇潇雨歇。擡望眼、仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。靖康耻，犹未雪；臣子恨，何时灭！驾长车、踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-18-l001",
+      "text": {
+        "zh-Hant": "怒髮衝冠，",
+        "zh-Hans": "怒发冲冠，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l002",
+      "text": {
+        "zh-Hant": "憑闌處、瀟瀟雨歇。",
+        "zh-Hans": "凭阑处、潇潇雨歇。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l003",
+      "text": {
+        "zh-Hant": "抬望眼、仰天長嘯，",
+        "zh-Hans": "擡望眼、仰天长啸，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l004",
+      "text": {
+        "zh-Hant": "壯懷激烈。",
+        "zh-Hans": "壮怀激烈。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l005",
+      "text": {
+        "zh-Hant": "三十功名塵與土，",
+        "zh-Hans": "三十功名尘与土，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l006",
+      "text": {
+        "zh-Hant": "八千里路雲和月。",
+        "zh-Hans": "八千里路云和月。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l007",
+      "text": {
+        "zh-Hant": "莫等閒、白了少年頭，",
+        "zh-Hans": "莫等闲、白了少年头，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l008",
+      "text": {
+        "zh-Hant": "空悲切。",
+        "zh-Hans": "空悲切。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l009",
+      "text": {
+        "zh-Hant": "靖康恥，",
+        "zh-Hans": "靖康耻，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l010",
+      "text": {
+        "zh-Hant": "猶未雪；",
+        "zh-Hans": "犹未雪；"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l011",
+      "text": {
+        "zh-Hant": "臣子恨，",
+        "zh-Hans": "臣子恨，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l012",
+      "text": {
+        "zh-Hant": "何時滅！",
+        "zh-Hans": "何时灭！"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l013",
+      "text": {
+        "zh-Hant": "駕長車、踏破賀蘭山缺。",
+        "zh-Hans": "驾长车、踏破贺兰山缺。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l014",
+      "text": {
+        "zh-Hant": "壯志飢餐胡虜肉，",
+        "zh-Hans": "壮志饥餐胡虏肉，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l015",
+      "text": {
+        "zh-Hant": "笑談渴飲匈奴血。",
+        "zh-Hans": "笑谈渴饮匈奴血。"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l016",
+      "text": {
+        "zh-Hant": "待從頭、收拾舊山河，",
+        "zh-Hans": "待从头、收拾旧山河，"
+      }
+    },
+    {
+      "id": "hk-ks3-18-l017",
+      "text": {
+        "zh-Hant": "朝天闕。",
+        "zh-Hans": "朝天阙。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-18-w001",
+      "term": {
+        "zh-Hant": "怒髮衝冠",
+        "zh-Hans": "怒发冲冠"
+      },
+      "definition": {
+        "zh-Hant": "憤怒得頭髮豎起，彷彿頂起帽子。",
+        "zh-Hans": "愤怒得头发竖起，仿佛顶起帽子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l001",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l001",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w002",
+      "term": {
+        "zh-Hant": "瀟瀟",
+        "zh-Hans": "潇潇"
+      },
+      "definition": {
+        "zh-Hant": "風雨聲。",
+        "zh-Hans": "风雨声。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w003",
+      "term": {
+        "zh-Hant": "長嘯",
+        "zh-Hans": "长啸"
+      },
+      "definition": {
+        "zh-Hant": "放聲呼嘯，抒發激烈情緒。",
+        "zh-Hans": "放声呼啸，抒发激烈情绪。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l003",
+            "start": 6,
+            "end": 8
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l003",
+            "start": 6,
+            "end": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w004",
+      "term": {
+        "zh-Hant": "等閒",
+        "zh-Hans": "等闲"
+      },
+      "definition": {
+        "zh-Hant": "輕易地、白白地。",
+        "zh-Hans": "轻易地、白白地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l007",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l007",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w005",
+      "term": {
+        "zh-Hant": "靖康恥",
+        "zh-Hans": "靖康耻"
+      },
+      "definition": {
+        "zh-Hant": "靖康年間北宋都城陷落、徽欽二帝被俘的國恥。",
+        "zh-Hans": "靖康年间北宋都城陷落、徽钦二帝被俘的国耻。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l009",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l009",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w006",
+      "term": {
+        "zh-Hant": "雪",
+        "zh-Hans": "雪"
+      },
+      "definition": {
+        "zh-Hant": "洗刷、昭雪。",
+        "zh-Hans": "洗刷、昭雪。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l010",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l010",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w007",
+      "term": {
+        "zh-Hant": "賀蘭山缺",
+        "zh-Hans": "贺兰山缺"
+      },
+      "definition": {
+        "zh-Hant": "山口，在詞中構成進軍敵境的意象。",
+        "zh-Hans": "山口，在词中构成进军敌境的意象。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l013",
+            "start": 6,
+            "end": 10
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l013",
+            "start": 6,
+            "end": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-18-w008",
+      "term": {
+        "zh-Hant": "天闕",
+        "zh-Hans": "天阙"
+      },
+      "definition": {
+        "zh-Hant": "皇宮，代指朝廷。",
+        "zh-Hans": "皇宫，代指朝廷。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l017",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-18-l017",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "依教育局署岳飛；該詞作者歸屬有學術爭議。詞中激烈戰爭語言按歷史作品原文保存。",
+      "zh-Hans": "依教育局署岳飞；该词作者归属有学术争议。词中激烈战争语言按历史作品原文保存。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 滿江紅·怒髮衝冠原文",
+        "zh-Hans": "香港教育局 · 满江红·怒发冲冠原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_18_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "32343fb3c501e2a89470c01cfaa2455717106cc56b5faed0450e7b937d142f55"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 滿江紅·怒髮衝冠賞析",
+        "zh-Hans": "香港教育局 · 满江红·怒发冲冠赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_18.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

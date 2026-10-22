@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-1a7d566d0599",
+  "name": {
+    "zh-Hant": "柳永",
+    "zh-Hans": "柳永"
+  },
+  "catalog_name": {
+    "zh-Hant": "柳永",
+    "zh-Hans": "柳永"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "北宋詞人，字耆卿，對慢詞的發展有重要貢獻。",
+      "zh-Hans": "北宋词人，字耆卿，对慢词的发展有重要贡献。"
+    },
+    "full": {
+      "zh-Hant": "柳永，初名三變，字耆卿，崇安人，北宋詞人，生卒年有不同考訂。他較晚登第，官至屯田員外郎，故又稱柳屯田。柳詞與當時城市音樂生活聯繫密切，善寫都市景象、離別和羈旅行役，尤其長於篇幅較長、適合鋪敍的慢詞，傳有《樂章集》。《雨霖鈴》《八聲甘州》把眼前與想象中的場景連綴起來，層層推進情緒。閲讀時可注意時間轉換、空間距離和口語化表達。",
+      "zh-Hans": "柳永，初名三变，字耆卿，崇安人，北宋词人，生卒年有不同考订。他较晚登第，官至屯田员外郎，故又称柳屯田。柳词与当时城市音乐生活联系密切，善写都市景象、离别和羁旅行役，尤其长于篇幅较长、适合铺叙的慢词，传有《乐章集》。《雨霖铃》《八声甘州》把眼前与想象中的场景连缀起来，层层推进情绪。阅读时可注意时间转换、空间距离和口语化表达。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 1
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

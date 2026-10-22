@@ -1,0 +1,355 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-07",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "出塞·其一",
+    "zh-Hans": "出塞·其一"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-b14c0c6ac0f6",
+  "author_file": "../author/author-b14c0c6ac0f6.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b14c0c6ac0f6",
+    "name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "catalog_name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "盛唐詩人，字少伯，以七言絕句和邊塞詩見長。",
+        "zh-Hans": "盛唐诗人，字少伯，以七言绝句和边塞诗见长。"
+      },
+      "full": {
+        "zh-Hant": "王昌齡，字少伯，盛唐詩人，通常記為約698—約756，具體年代和籍貫有不同記載。他曾任江寧丞、龍標尉等職，因而又稱王江寧、王龍標。七言絕句是其最突出的成就，能在短小篇幅中表現邊塞、送別與閨情等題材。《出塞》關懷戰爭與守邊，《芙蓉樓送辛漸》借冰心玉壺表達自守，《閨怨》則以人物瞬間的感觸轉變形成全詩波瀾，體現精密構思。",
+        "zh-Hans": "王昌龄，字少伯，盛唐诗人，通常记为约698—约756，具体年代和籍贯有不同记载。他曾任江宁丞、龙标尉等职，因而又称王江宁、王龙标。七言绝句是其最突出的成就，能在短小篇幅中表现边塞、送别与闺情等题材。《出塞》关怀战争与守边，《芙蓉楼送辛渐》借冰心玉壶表达自守，《闺怨》则以人物瞬间的感触转变形成全诗波澜，体现精密构思。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 出塞·其一賞析",
+          "zh-Hans": "香港教育局 · 出塞·其一赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_07.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "秦時明月漢時關，萬里長征人未還。但使龍城飛將在，不教胡馬度陰山。",
+    "zh-Hans": "秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-07-l001",
+      "text": {
+        "zh-Hant": "秦時明月漢時關，",
+        "zh-Hans": "秦时明月汉时关，"
+      }
+    },
+    {
+      "id": "hk-ks2-07-l002",
+      "text": {
+        "zh-Hant": "萬里長征人未還。",
+        "zh-Hans": "万里长征人未还。"
+      }
+    },
+    {
+      "id": "hk-ks2-07-l003",
+      "text": {
+        "zh-Hant": "但使龍城飛將在，",
+        "zh-Hans": "但使龙城飞将在，"
+      }
+    },
+    {
+      "id": "hk-ks2-07-l004",
+      "text": {
+        "zh-Hant": "不教胡馬度陰山。",
+        "zh-Hans": "不教胡马度阴山。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-07-w001",
+      "term": {
+        "zh-Hant": "關",
+        "zh-Hans": "关"
+      },
+      "definition": {
+        "zh-Hant": "邊塞關隘。",
+        "zh-Hans": "边塞关隘。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l001",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l001",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w002",
+      "term": {
+        "zh-Hant": "還",
+        "zh-Hans": "还"
+      },
+      "definition": {
+        "zh-Hant": "返回家鄉。",
+        "zh-Hans": "返回家乡。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l002",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l002",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w003",
+      "term": {
+        "zh-Hant": "但使",
+        "zh-Hans": "但使"
+      },
+      "definition": {
+        "zh-Hant": "只要。",
+        "zh-Hans": "只要。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w004",
+      "term": {
+        "zh-Hant": "飛將",
+        "zh-Hans": "飞将"
+      },
+      "definition": {
+        "zh-Hant": "漢代名將李廣的稱號；龍城飛將的具體所指另有不同解釋。",
+        "zh-Hans": "汉代名将李广的称号；龙城飞将的具体所指另有不同解释。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w005",
+      "term": {
+        "zh-Hant": "教",
+        "zh-Hans": "教"
+      },
+      "definition": {
+        "zh-Hant": "讓、使。",
+        "zh-Hans": "让、使。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w006",
+      "term": {
+        "zh-Hant": "胡馬",
+        "zh-Hans": "胡马"
+      },
+      "definition": {
+        "zh-Hant": "這裏指入侵的敵軍騎兵。",
+        "zh-Hans": "这里指入侵的敌军骑兵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-07-w007",
+      "term": {
+        "zh-Hant": "陰山",
+        "zh-Hans": "阴山"
+      },
+      "definition": {
+        "zh-Hant": "北方的山脈，古代邊防要地。",
+        "zh-Hans": "北方的山脉，古代边防要地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-07-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 出塞·其一原文",
+        "zh-Hans": "香港教育局 · 出塞·其一原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_07_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "71dc982283372c8af2b0a7f5a74d36b183c81013d71d88b0a064633bd57b932e"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 出塞·其一賞析",
+        "zh-Hans": "香港教育局 · 出塞·其一赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_07.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

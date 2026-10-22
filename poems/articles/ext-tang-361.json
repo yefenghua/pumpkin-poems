@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-361",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "涼州詞·黃河遠上白雲間",
+    "zh-Hans": "凉州词·黄河远上白云间"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-49eb7bc0295e",
+  "author_file": "../author/author-49eb7bc0295e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-49eb7bc0295e",
+    "name": {
+      "zh-Hant": "王之渙",
+      "zh-Hans": "王之涣"
+    },
+    "catalog_name": {
+      "zh-Hant": "王之渙",
+      "zh-Hans": "王之涣"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "盛唐詩人，以境界開闊的《登鸛鵲樓》《涼州詞》著名。",
+        "zh-Hans": "盛唐诗人，以境界开阔的《登鹳鹊楼》《凉州词》著名。"
+      },
+      "full": {
+        "zh-Hant": "王之渙（688—742），字季凌，唐代詩人，曾任地方小官，現存詩篇不多，卻有多首廣泛傳誦。他的作品常以黃河、遠山、關塞等景象形成開闊視野，語句簡潔，情感有力。《登鸛鵲樓》從登高遠望引出不斷進取的啓發，《涼州詞》則借孤城、羌笛與玉門關寫邊地處境。傳世版本存在個別字句差別，學習時應先辨明所用底本，再比較異文帶來的畫面變化。",
+        "zh-Hans": "王之涣（688—742），字季凌，唐代诗人，曾任地方小官，现存诗篇不多，却有多首广泛传诵。他的作品常以黄河、远山、关塞等景象形成开阔视野，语句简洁，情感有力。《登鹳鹊楼》从登高远望引出不断进取的启发，《凉州词》则借孤城、羌笛与玉门关写边地处境。传世版本存在个别字句差别，学习时应先辨明所用底本，再比较异文带来的画面变化。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 登鸛鵲樓賞析",
+          "zh-Hans": "香港教育局 · 登鹳鹊楼赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "黃河遠上白雲間，一片孤城萬仞山。羌笛何須怨楊柳，春光不度玉門關。",
+    "zh-Hans": "黄河远上白云间，一片孤城万仞山。羌笛何须怨杨柳，春光不度玉门关。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-361-l001",
+      "text": {
+        "zh-Hant": "黃河遠上白雲間，",
+        "zh-Hans": "黄河远上白云间，"
+      }
+    },
+    {
+      "id": "ext-tang-361-l002",
+      "text": {
+        "zh-Hant": "一片孤城萬仞山。",
+        "zh-Hans": "一片孤城万仞山。"
+      }
+    },
+    {
+      "id": "ext-tang-361-l003",
+      "text": {
+        "zh-Hant": "羌笛何須怨楊柳，",
+        "zh-Hans": "羌笛何须怨杨柳，"
+      }
+    },
+    {
+      "id": "ext-tang-361-l004",
+      "text": {
+        "zh-Hant": "春光不度玉門關。",
+        "zh-Hans": "春光不度玉门关。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-361-w001",
+      "term": {
+        "zh-Hant": "孤城",
+        "zh-Hans": "孤城"
+      },
+      "definition": {
+        "zh-Hant": "孤立的邊城。",
+        "zh-Hans": "孤立的边城。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-361-w002",
+      "term": {
+        "zh-Hant": "萬仞",
+        "zh-Hans": "万仞"
+      },
+      "definition": {
+        "zh-Hant": "極言山高；仞是古代長度單位。",
+        "zh-Hans": "极言山高；仞是古代长度单位。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-361-w003",
+      "term": {
+        "zh-Hant": "羌笛",
+        "zh-Hans": "羌笛"
+      },
+      "definition": {
+        "zh-Hant": "古代西北地區的管樂器。",
+        "zh-Hans": "古代西北地区的管乐器。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-361-w004",
+      "term": {
+        "zh-Hant": "楊柳",
+        "zh-Hans": "杨柳"
+      },
+      "definition": {
+        "zh-Hant": "借指《折楊柳》曲。",
+        "zh-Hans": "借指《折杨柳》曲。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l003",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l003",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-361-w005",
+      "term": {
+        "zh-Hant": "玉門關",
+        "zh-Hans": "玉门关"
+      },
+      "definition": {
+        "zh-Hant": "通往西域的古關口。",
+        "zh-Hans": "通往西域的古关口。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l004",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-361-l004",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本“春光不度玉門關”；常見另本作“春風不度玉門關”。",
+      "zh-Hans": "保留底本“春光不度玉门关”；常见另本作“春风不度玉门关”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 361
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

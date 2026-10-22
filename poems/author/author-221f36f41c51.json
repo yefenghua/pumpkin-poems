@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-221f36f41c51",
+  "name": {
+    "zh-Hant": "歐陽修",
+    "zh-Hans": "欧阳修"
+  },
+  "catalog_name": {
+    "zh-Hant": "歐陽修",
+    "zh-Hans": "欧阳修"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "北宋文學家、史學家，號醉翁，詩詞文章均有成就。",
+      "zh-Hans": "北宋文学家、史学家，号醉翁，诗词文章均有成就。"
+    },
+    "full": {
+      "zh-Hant": "歐陽修（1007—1072），字永叔，號醉翁，晚號六一居士，吉州吉水人，北宋文學家、史學家、政治家。他倡導古文，提攜蘇軾等後進，參與史書修撰，是唐宋八大家之一。其散文平易流暢，詩詞也善於把景色、生活和情感自然結合。《採桑子》組詞寫潁州西湖，《浪淘沙·把酒祝東風》由遊春想到聚散與時光。讀其詞時宜留意明麗景象中含蓄的感傷，而不只把它們看作遊記。",
+      "zh-Hans": "欧阳修（1007—1072），字永叔，号醉翁，晚号六一居士，吉州吉水人，北宋文学家、史学家、政治家。他倡导古文，提携苏轼等后进，参与史书修撰，是唐宋八大家之一。其散文平易流畅，诗词也善于把景色、生活和情感自然结合。《采桑子》组词写颍州西湖，《浪淘沙·把酒祝东风》由游春想到聚散与时光。读其词时宜留意明丽景象中含蓄的感伤，而不只把它们看作游记。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 4
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

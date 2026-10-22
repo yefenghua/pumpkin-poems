@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-042",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "春怨",
+    "zh-Hans": "春怨"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-20b7ba740f03",
+  "author_file": "../author/author-20b7ba740f03.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-20b7ba740f03",
+    "name": {
+      "zh-Hant": "金昌緒",
+      "zh-Hans": "金昌绪"
+    },
+    "catalog_name": {
+      "zh-Hant": "金昌緒",
+      "zh-Hans": "金昌绪"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，生平資料極少，以《春怨》傳世。",
+        "zh-Hans": "唐代诗人，生平资料极少，以《春怨》传世。"
+      },
+      "full": {
+        "zh-Hant": "金昌緒是唐代詩人，一般認為是餘杭一帶人，確切生卒年及仕履均不可考。今人主要通過《春怨》認識他，不宜為了填充簡介而虛構官職、交遊或創作時間。此詩用趕走黃鶯、怕驚好夢的層層解釋，直到結尾才點出夢中想去遼西與遠人相會的心願，語言近於口語而結構精巧。作者資料雖少，作品仍能提供豐富的閲讀空間；本庫完整簡介因此着重説明文獻邊界和可觀察的藝術特點。",
+        "zh-Hans": "金昌绪是唐代诗人，一般认为是余杭一带人，确切生卒年及仕履均不可考。今人主要通过《春怨》认识他，不宜为了填充简介而虚构官职、交游或创作时间。此诗用赶走黄莺、怕惊好梦的层层解释，直到结尾才点出梦中想去辽西与远人相会的心愿，语言近于口语而结构精巧。作者资料虽少，作品仍能提供丰富的阅读空间；本库完整简介因此着重说明文献边界和可观察的艺术特点。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 1639
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "打起黃鶯兒，莫教枝上啼。啼時驚妾夢，不得到遼西。",
+    "zh-Hans": "打起黄莺儿，莫教枝上啼。啼时惊妾梦，不得到辽西。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-042-l001",
+      "text": {
+        "zh-Hant": "打起黃鶯兒，",
+        "zh-Hans": "打起黄莺儿，"
+      }
+    },
+    {
+      "id": "ext-tang-042-l002",
+      "text": {
+        "zh-Hant": "莫教枝上啼。",
+        "zh-Hans": "莫教枝上啼。"
+      }
+    },
+    {
+      "id": "ext-tang-042-l003",
+      "text": {
+        "zh-Hant": "啼時驚妾夢，",
+        "zh-Hans": "啼时惊妾梦，"
+      }
+    },
+    {
+      "id": "ext-tang-042-l004",
+      "text": {
+        "zh-Hant": "不得到遼西。",
+        "zh-Hans": "不得到辽西。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-042-w001",
+      "term": {
+        "zh-Hant": "打起",
+        "zh-Hans": "打起"
+      },
+      "definition": {
+        "zh-Hant": "趕走。",
+        "zh-Hans": "赶走。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-042-w002",
+      "term": {
+        "zh-Hant": "莫教",
+        "zh-Hans": "莫教"
+      },
+      "definition": {
+        "zh-Hant": "不要讓。",
+        "zh-Hans": "不要让。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-042-w003",
+      "term": {
+        "zh-Hant": "妾",
+        "zh-Hans": "妾"
+      },
+      "definition": {
+        "zh-Hant": "古代女子自稱。",
+        "zh-Hans": "古代女子自称。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l003",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l003",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-042-w004",
+      "term": {
+        "zh-Hant": "遼西",
+        "zh-Hans": "辽西"
+      },
+      "definition": {
+        "zh-Hant": "東北邊地，詩中為徵人所在。",
+        "zh-Hans": "东北边地，诗中为征人所在。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l004",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-042-l004",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 42
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

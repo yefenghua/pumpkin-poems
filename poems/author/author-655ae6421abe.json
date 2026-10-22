@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-655ae6421abe",
+  "name": {
+    "zh-Hant": "韋莊",
+    "zh-Hans": "韦庄"
+  },
+  "catalog_name": {
+    "zh-Hant": "韋莊",
+    "zh-Hans": "韦庄"
+  },
+  "dynasty": {
+    "zh-Hant": "唐至五代",
+    "zh-Hans": "唐至五代"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "晚唐五代詩人、詞人，善寫歷史感慨與細膩情思。",
+      "zh-Hans": "晚唐五代诗人、词人，善写历史感慨与细腻情思。"
+    },
+    "full": {
+      "zh-Hant": "韋莊（約836—910），字端己，京兆杜陵人，晚唐至五代的詩人、詞人。他經歷唐末戰亂，較晚中進士，後來入蜀，參與前蜀政權的建立並任宰相。詩歌有寫亂世見聞與歷史感慨的篇章，詞則語言清麗、情感深婉，是花間詞的重要作家之一。《台城》以依舊繁茂的柳色對照六朝興亡，使自然延續與人事消歇產生張力。其身跨兩個時代，不能把所有作品一律按同一王朝背景解釋。",
+      "zh-Hans": "韦庄（约836—910），字端己，京兆杜陵人，晚唐至五代的诗人、词人。他经历唐末战乱，较晚中进士，后来入蜀，参与前蜀政权的建立并任宰相。诗歌有写乱世见闻与历史感慨的篇章，词则语言清丽、情感深婉，是花间词的重要作家之一。《台城》以依旧繁茂的柳色对照六朝兴亡，使自然延续与人事消歇产生张力。其身跨两个时代，不能把所有作品一律按同一王朝背景解释。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 276
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

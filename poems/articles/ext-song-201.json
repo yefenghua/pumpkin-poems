@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-201",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "醉花陰·薄霧濃雲愁永晝",
+    "zh-Hans": "醉花阴·薄雾浓云愁永昼"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-51cea09bd89d",
+  "author_file": "../author/author-51cea09bd89d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-51cea09bd89d",
+    "name": {
+      "zh-Hant": "李清照",
+      "zh-Hans": "李清照"
+    },
+    "catalog_name": {
+      "zh-Hant": "李清照",
+      "zh-Hans": "李清照"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "宋代詞人，號易安居士，詞風清麗，情感細膩深刻。",
+        "zh-Hans": "宋代词人，号易安居士，词风清丽，情感细腻深刻。"
+      },
+      "full": {
+        "zh-Hant": "李清照（1084—約1155），號易安居士，濟南一帶人，是兩宋之際傑出的詞人，卒年仍有異説。她與丈夫趙明誠共同關注金石書畫，後來經歷戰亂南渡、丈夫去世和生活變遷。早期詞常寫閨情與自然景物，後期更多表現身世之悲與故國之思；她也重視詞的音樂特點，提出詞別是一家的主張。《醉花陰》《聲聲慢》善用日常物象、疊字和聲音，使難以排遣的情緒可感可見。",
+        "zh-Hans": "李清照（1084—约1155），号易安居士，济南一带人，是两宋之际杰出的词人，卒年仍有异说。她与丈夫赵明诚共同关注金石书画，后来经历战乱南渡、丈夫去世和生活变迁。早期词常写闺情与自然景物，后期更多表现身世之悲与故国之思；她也重视词的音乐特点，提出词别是一家的主张。《醉花阴》《声声慢》善用日常物象、叠字和声音，使难以排遣的情绪可感可见。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 聲聲慢·秋情賞析",
+          "zh-Hans": "香港教育局 · 声声慢·秋情赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17b.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "薄霧濃雲愁永晝。瑞腦消金獸。佳節又重陽，玉枕紗廚，半夜涼初透。東籬把酒黃昏後，有暗香盈袖。莫道不消魂，簾卷西風，人似黃花瘦。",
+    "zh-Hans": "薄雾浓云愁永昼。瑞脑消金兽。佳节又重阳，玉枕纱厨，半夜凉初透。东篱把酒黄昏后，有暗香盈袖。莫道不消魂，帘卷西风，人似黄花瘦。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-201-l001",
+      "text": {
+        "zh-Hant": "薄霧濃雲愁永晝。",
+        "zh-Hans": "薄雾浓云愁永昼。"
+      }
+    },
+    {
+      "id": "ext-song-201-l002",
+      "text": {
+        "zh-Hant": "瑞腦消金獸。",
+        "zh-Hans": "瑞脑消金兽。"
+      }
+    },
+    {
+      "id": "ext-song-201-l003",
+      "text": {
+        "zh-Hant": "佳節又重陽，",
+        "zh-Hans": "佳节又重阳，"
+      }
+    },
+    {
+      "id": "ext-song-201-l004",
+      "text": {
+        "zh-Hant": "玉枕紗廚，",
+        "zh-Hans": "玉枕纱厨，"
+      }
+    },
+    {
+      "id": "ext-song-201-l005",
+      "text": {
+        "zh-Hant": "半夜涼初透。",
+        "zh-Hans": "半夜凉初透。"
+      }
+    },
+    {
+      "id": "ext-song-201-l006",
+      "text": {
+        "zh-Hant": "東籬把酒黃昏後，",
+        "zh-Hans": "东篱把酒黄昏后，"
+      }
+    },
+    {
+      "id": "ext-song-201-l007",
+      "text": {
+        "zh-Hant": "有暗香盈袖。",
+        "zh-Hans": "有暗香盈袖。"
+      }
+    },
+    {
+      "id": "ext-song-201-l008",
+      "text": {
+        "zh-Hant": "莫道不消魂，",
+        "zh-Hans": "莫道不消魂，"
+      }
+    },
+    {
+      "id": "ext-song-201-l009",
+      "text": {
+        "zh-Hant": "簾卷西風，",
+        "zh-Hans": "帘卷西风，"
+      }
+    },
+    {
+      "id": "ext-song-201-l010",
+      "text": {
+        "zh-Hant": "人似黃花瘦。",
+        "zh-Hans": "人似黄花瘦。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-201-w001",
+      "term": {
+        "zh-Hant": "永晝",
+        "zh-Hans": "永昼"
+      },
+      "definition": {
+        "zh-Hant": "漫長的白天。",
+        "zh-Hans": "漫长的白天。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 9,
+            "end": 11
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 9,
+            "end": 11
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w002",
+      "term": {
+        "zh-Hant": "瑞腦",
+        "zh-Hans": "瑞脑"
+      },
+      "definition": {
+        "zh-Hant": "一種香料。",
+        "zh-Hans": "一种香料。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w003",
+      "term": {
+        "zh-Hant": "金獸",
+        "zh-Hans": "金兽"
+      },
+      "definition": {
+        "zh-Hant": "獸形金屬香爐。",
+        "zh-Hans": "兽形金属香炉。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w004",
+      "term": {
+        "zh-Hant": "紗廚",
+        "zh-Hans": "纱厨"
+      },
+      "definition": {
+        "zh-Hant": "紗帳。",
+        "zh-Hans": "纱帐。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w005",
+      "term": {
+        "zh-Hant": "東籬",
+        "zh-Hans": "东篱"
+      },
+      "definition": {
+        "zh-Hant": "東邊籬笆，聯繫陶淵明採菊典故。",
+        "zh-Hans": "东边篱笆，联系陶渊明采菊典故。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w006",
+      "term": {
+        "zh-Hant": "暗香",
+        "zh-Hans": "暗香"
+      },
+      "definition": {
+        "zh-Hant": "淡淡的花香。",
+        "zh-Hans": "淡淡的花香。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l007",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l007",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-201-w007",
+      "term": {
+        "zh-Hant": "黃花",
+        "zh-Hans": "黄花"
+      },
+      "definition": {
+        "zh-Hant": "菊花。",
+        "zh-Hans": "菊花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-201-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "原數據的“把灑”據維基文庫《醉花陰》校正為“把酒”；保留底本“人似黃花瘦”的異文。",
+      "zh-Hans": "原数据的“把洒”据维基文库《醉花阴》校正为“把酒”；保留底本“人似黄花瘦”的异文。"
+    },
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "把灑",
+      "to": "把酒"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 201
+      }
+    },
+    {
+      "kind": "text_correction",
+      "label": {
+        "zh-Hant": "醉花陰·薄霧濃雲愁永晝校對參考",
+        "zh-Hans": "醉花阴·薄雾浓云愁永昼校对参考"
+      },
+      "url": "https://zh.wikisource.org/wiki/%E9%86%89%E8%8A%B1%E9%99%B0_%28%E6%9D%8E%E6%B8%85%E7%85%A7%29",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

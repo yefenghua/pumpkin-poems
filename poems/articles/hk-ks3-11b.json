@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-11b",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "慈烏夜啼",
+    "zh-Hans": "慈乌夜啼"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言古詩",
+    "zh-Hans": "五言古诗"
+  },
+  "author_id": "author-4db0d950f314",
+  "author_file": "../author/author-4db0d950f314.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-4db0d950f314",
+    "name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "catalog_name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字樂天，語言平易，關懷社會與日常人生。",
+        "zh-Hans": "唐代诗人，字乐天，语言平易，关怀社会与日常人生。"
+      },
+      "full": {
+        "zh-Hant": "白居易（772—846），字樂天，晚年號香山居士，唐代詩人。他曾任諫官，後被貶江州，又出任杭州、蘇州刺史等職，與元稹倡導以詩反映現實，世稱元白。其詩語言明白流暢，題材包括社會諷諭、敍事、閒適和個人感情，《長恨歌》《琵琶行》是長篇名作。本庫所收《賦得古原草送別》《燕詩》《慈烏夜啼》分別從草木與鳥類生活出發，讓讀者理解送別、親情和倫理關懷。",
+        "zh-Hans": "白居易（772—846），字乐天，晚年号香山居士，唐代诗人。他曾任谏官，后被贬江州，又出任杭州、苏州刺史等职，与元稹倡导以诗反映现实，世称元白。其诗语言明白流畅，题材包括社会讽谕、叙事、闲适和个人感情，《长恨歌》《琵琶行》是长篇名作。本库所收《赋得古原草送别》《燕诗》《慈乌夜啼》分别从草木与鸟类生活出发，让读者理解送别、亲情和伦理关怀。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 賦得古原草送別賞析",
+          "zh-Hans": "香港教育局 · 赋得古原草送别赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "慈烏失其母，啞啞吐哀音。晝夜不飛去，經年守故林。夜夜夜半啼，聞者為霑襟。聲中如告訴，未盡反哺心。百鳥豈無母？爾獨哀怨深。應是母慈重，使爾悲不任。昔有吳起者，母歿喪不臨。嗟哉斯徒輩，其心不如禽！慈烏復慈烏，鳥中之曾參。",
+    "zh-Hans": "慈乌失其母，哑哑吐哀音。昼夜不飞去，经年守故林。夜夜夜半啼，闻者为沾襟。声中如告诉，未尽反哺心。百鸟岂无母？尔独哀怨深。应是母慈重，使尔悲不任。昔有吴起者，母殁丧不临。嗟哉斯徒辈，其心不如禽！慈乌复慈乌，鸟中之曾参。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-11b-l001",
+      "text": {
+        "zh-Hant": "慈烏失其母，",
+        "zh-Hans": "慈乌失其母，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l002",
+      "text": {
+        "zh-Hant": "啞啞吐哀音。",
+        "zh-Hans": "哑哑吐哀音。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l003",
+      "text": {
+        "zh-Hant": "晝夜不飛去，",
+        "zh-Hans": "昼夜不飞去，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l004",
+      "text": {
+        "zh-Hant": "經年守故林。",
+        "zh-Hans": "经年守故林。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l005",
+      "text": {
+        "zh-Hant": "夜夜夜半啼，",
+        "zh-Hans": "夜夜夜半啼，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l006",
+      "text": {
+        "zh-Hant": "聞者為霑襟。",
+        "zh-Hans": "闻者为沾襟。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l007",
+      "text": {
+        "zh-Hant": "聲中如告訴，",
+        "zh-Hans": "声中如告诉，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l008",
+      "text": {
+        "zh-Hant": "未盡反哺心。",
+        "zh-Hans": "未尽反哺心。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l009",
+      "text": {
+        "zh-Hant": "百鳥豈無母？",
+        "zh-Hans": "百鸟岂无母？"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l010",
+      "text": {
+        "zh-Hant": "爾獨哀怨深。",
+        "zh-Hans": "尔独哀怨深。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l011",
+      "text": {
+        "zh-Hant": "應是母慈重，",
+        "zh-Hans": "应是母慈重，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l012",
+      "text": {
+        "zh-Hant": "使爾悲不任。",
+        "zh-Hans": "使尔悲不任。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l013",
+      "text": {
+        "zh-Hant": "昔有吳起者，",
+        "zh-Hans": "昔有吴起者，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l014",
+      "text": {
+        "zh-Hant": "母歿喪不臨。",
+        "zh-Hans": "母殁丧不临。"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l015",
+      "text": {
+        "zh-Hant": "嗟哉斯徒輩，",
+        "zh-Hans": "嗟哉斯徒辈，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l016",
+      "text": {
+        "zh-Hant": "其心不如禽！",
+        "zh-Hans": "其心不如禽！"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l017",
+      "text": {
+        "zh-Hant": "慈烏復慈烏，",
+        "zh-Hans": "慈乌复慈乌，"
+      }
+    },
+    {
+      "id": "hk-ks3-11b-l018",
+      "text": {
+        "zh-Hant": "鳥中之曾參。",
+        "zh-Hans": "鸟中之曾参。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-11b-w001",
+      "term": {
+        "zh-Hant": "慈烏",
+        "zh-Hans": "慈乌"
+      },
+      "definition": {
+        "zh-Hant": "烏鴉的一種，古人相傳它會反哺母鳥。",
+        "zh-Hans": "乌鸦的一种，古人相传它会反哺母鸟。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l001",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l017",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l017",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l001",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l017",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l017",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w002",
+      "term": {
+        "zh-Hant": "啞啞",
+        "zh-Hans": "哑哑"
+      },
+      "definition": {
+        "zh-Hant": "烏鴉叫聲。",
+        "zh-Hans": "乌鸦叫声。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w003",
+      "term": {
+        "zh-Hant": "經年",
+        "zh-Hans": "经年"
+      },
+      "definition": {
+        "zh-Hant": "經過一年或多年，形容很久。",
+        "zh-Hans": "经过一年或多年，形容很久。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w004",
+      "term": {
+        "zh-Hant": "霑襟",
+        "zh-Hans": "沾襟"
+      },
+      "definition": {
+        "zh-Hant": "淚水沾濕衣襟。",
+        "zh-Hans": "泪水沾湿衣襟。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l006",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l006",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w005",
+      "term": {
+        "zh-Hant": "反哺",
+        "zh-Hans": "反哺"
+      },
+      "definition": {
+        "zh-Hant": "幼鳥長成後餵養母鳥，比喻報答父母。",
+        "zh-Hans": "幼鸟长成后喂养母鸟，比喻报答父母。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l008",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l008",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w006",
+      "term": {
+        "zh-Hant": "不任",
+        "zh-Hans": "不任"
+      },
+      "definition": {
+        "zh-Hant": "不能承受。",
+        "zh-Hans": "不能承受。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l012",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l012",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w007",
+      "term": {
+        "zh-Hant": "歿",
+        "zh-Hans": "殁"
+      },
+      "definition": {
+        "zh-Hant": "死亡。",
+        "zh-Hans": "死亡。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l014",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l014",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11b-w008",
+      "term": {
+        "zh-Hant": "曾參",
+        "zh-Hans": "曾参"
+      },
+      "definition": {
+        "zh-Hant": "以孝行著稱的孔子弟子。",
+        "zh-Hans": "以孝行著称的孔子弟子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l018",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11b-l018",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 慈烏夜啼原文",
+        "zh-Hans": "香港教育局 · 慈乌夜啼原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11b_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "1909e49d6c7da4bf3f7742d72e037a128aeb5aaf91f649f9ef37aba74412a8f0"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

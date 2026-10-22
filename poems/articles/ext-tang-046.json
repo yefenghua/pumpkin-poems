@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-046",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "行宮",
+    "zh-Hans": "行宫"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-a6e550c3b7b6",
+  "author_file": "../author/author-a6e550c3b7b6.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a6e550c3b7b6",
+    "name": {
+      "zh-Hant": "元稹",
+      "zh-Hans": "元稹"
+    },
+    "catalog_name": {
+      "zh-Hant": "元稹",
+      "zh-Hans": "元稹"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，與白居易齊名，詩中常見細膩情感和社會關懷。",
+        "zh-Hans": "唐代诗人，与白居易齐名，诗中常见细腻情感和社会关怀。"
+      },
+      "full": {
+        "zh-Hant": "元稹（779—831），字微之，唐代詩人、官員，與白居易交往密切，世稱元白。他經歷過仕途升降，也積極參與以詩反映現實的創作。作品既有諷諭社會的篇章，也有悼亡和抒寫個人感情的名作，語言往往明快而情意深切。《行宮》以白頭宮女閒談舊事寫歲月流逝，把很長的歷史壓縮在短短四句中。閲讀元詩，可注意人物處境、日常細節與情感之間的聯繫。",
+        "zh-Hans": "元稹（779—831），字微之，唐代诗人、官员，与白居易交往密切，世称元白。他经历过仕途升降，也积极参与以诗反映现实的创作。作品既有讽谕社会的篇章，也有悼亡和抒写个人感情的名作，语言往往明快而情意深切。《行宫》以白头宫女闲谈旧事写岁月流逝，把很长的历史压缩在短短四句中。阅读元诗，可注意人物处境、日常细节与情感之间的联系。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 116
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "寥落古行宮，宮花寂寞紅。白頭宮女在，閑坐說玄宗。",
+    "zh-Hans": "寥落古行宫，宫花寂寞红。白头宫女在，闲坐说玄宗。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-046-l001",
+      "text": {
+        "zh-Hant": "寥落古行宮，",
+        "zh-Hans": "寥落古行宫，"
+      }
+    },
+    {
+      "id": "ext-tang-046-l002",
+      "text": {
+        "zh-Hant": "宮花寂寞紅。",
+        "zh-Hans": "宫花寂寞红。"
+      }
+    },
+    {
+      "id": "ext-tang-046-l003",
+      "text": {
+        "zh-Hant": "白頭宮女在，",
+        "zh-Hans": "白头宫女在，"
+      }
+    },
+    {
+      "id": "ext-tang-046-l004",
+      "text": {
+        "zh-Hant": "閑坐說玄宗。",
+        "zh-Hans": "闲坐说玄宗。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-046-w001",
+      "term": {
+        "zh-Hant": "寥落",
+        "zh-Hans": "寥落"
+      },
+      "definition": {
+        "zh-Hant": "冷清、零落。",
+        "zh-Hans": "冷清、零落。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-046-w002",
+      "term": {
+        "zh-Hant": "行宮",
+        "zh-Hans": "行宫"
+      },
+      "definition": {
+        "zh-Hant": "皇帝出行時居住的宮殿。",
+        "zh-Hans": "皇帝出行时居住的宫殿。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-046-w003",
+      "term": {
+        "zh-Hant": "白頭",
+        "zh-Hans": "白头"
+      },
+      "definition": {
+        "zh-Hant": "頭髮已白，指年老。",
+        "zh-Hans": "头发已白，指年老。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-046-w004",
+      "term": {
+        "zh-Hant": "玄宗",
+        "zh-Hans": "玄宗"
+      },
+      "definition": {
+        "zh-Hant": "唐玄宗李隆基。",
+        "zh-Hans": "唐玄宗李隆基。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l004",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-046-l004",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 46
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

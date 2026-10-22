@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-f7fd73592f62",
+  "name": {
+    "zh-Hant": "陸游",
+    "zh-Hans": "陆游"
+  },
+  "catalog_name": {
+    "zh-Hant": "陸游",
+    "zh-Hans": "陆游"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "南宋詩人，號放翁，一生關心恢復中原與現實民生。",
+      "zh-Hans": "南宋诗人，号放翁，一生关心恢复中原与现实民生。"
+    },
+    "full": {
+      "zh-Hant": "陸游（1125—1210），字務觀，號放翁，越州山陰人，南宋詩人。他經歷仕途起伏，曾到四川參與軍幕，晚年歸居故鄉，留下數量豐富的詩文。作品既有強烈的報國願望，也寫農村生活、閒居日常與個人感情，詞作同樣有名。《卜算子·詠梅》借無人照管、風雨摧折卻香氣不改的梅花寄託自守精神。閲讀時可結合生平理解言志，也要看到作品如何用具體環境和動作塑造梅的形象。",
+      "zh-Hans": "陆游（1125—1210），字务观，号放翁，越州山阴人，南宋诗人。他经历仕途起伏，曾到四川参与军幕，晚年归居故乡，留下数量丰富的诗文。作品既有强烈的报国愿望，也写农村生活、闲居日常与个人感情，词作同样有名。《卜算子·咏梅》借无人照管、风雨摧折却香气不改的梅花寄托自守精神。阅读时可结合生平理解言志，也要看到作品如何用具体环境和动作塑造梅的形象。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 11
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

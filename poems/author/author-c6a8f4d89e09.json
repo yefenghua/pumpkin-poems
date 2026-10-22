@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-c6a8f4d89e09",
+  "name": {
+    "zh-Hant": "秦觀",
+    "zh-Hans": "秦观"
+  },
+  "catalog_name": {
+    "zh-Hant": "秦觀",
+    "zh-Hans": "秦观"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "北宋詞人，字少遊，婉約詞清麗細膩。",
+      "zh-Hans": "北宋词人，字少游，婉约词清丽细腻。"
+    },
+    "full": {
+      "zh-Hant": "秦觀（1049—1100），字少遊，又字太虛，號淮海居士，高郵人，北宋文學家，蘇門四學士之一。他曾任館閣官職，後因黨爭多次被貶，經歷南方漂泊。詩文與詞均有成就，尤其以細膩含蓄的詞作著名，傳有《淮海集》《淮海居士長短句》。《浣溪沙·漠漠輕寒上小樓》以微寒、飛花和絲雨寫難以排遣的輕愁。讀秦詞可注意比喻如何把無形情感轉為可見可感的景象。",
+      "zh-Hans": "秦观（1049—1100），字少游，又字太虚，号淮海居士，高邮人，北宋文学家，苏门四学士之一。他曾任馆阁官职，后因党争多次被贬，经历南方漂泊。诗文与词均有成就，尤其以细腻含蓄的词作著名，传有《淮海集》《淮海居士长短句》。《浣溪沙·漠漠轻寒上小楼》以微寒、飞花和丝雨写难以排遣的轻愁。读秦词可注意比喻如何把无形情感转为可见可感的景象。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 13
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

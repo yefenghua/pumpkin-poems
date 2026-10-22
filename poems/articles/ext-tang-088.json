@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-088",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "夜上受降城聞笛",
+    "zh-Hans": "夜上受降城闻笛"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-d569b7bd732c",
+  "author_file": "../author/author-d569b7bd732c.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d569b7bd732c",
+    "name": {
+      "zh-Hant": "李益",
+      "zh-Hans": "李益"
+    },
+    "catalog_name": {
+      "zh-Hant": "李益",
+      "zh-Hans": "李益"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，邊塞詩常以樂聲寫徵人的思鄉之情。",
+        "zh-Hans": "唐代诗人，边塞诗常以乐声写征人的思乡之情。"
+      },
+      "full": {
+        "zh-Hant": "李益（748—約829），字君虞，唐代詩人，曾登進士第並在北方軍幕任職。他的作品以邊塞詩較著名，常寫駐軍、夜色、風沙與離別，絕句尤其有感染力。《夜上受降城聞笛》由如雪的沙地、如霜的月色轉到笛聲和集體鄉愁，讓看不見的思念借聲音傳開。他也寫友朋重逢和人生變遷。後世傳奇中借用其姓名的故事，不能直接作為可靠生平資料使用。",
+        "zh-Hans": "李益（748—约829），字君虞，唐代诗人，曾登进士第并在北方军幕任职。他的作品以边塞诗较著名，常写驻军、夜色、风沙与离别，绝句尤其有感染力。《夜上受降城闻笛》由如雪的沙地、如霜的月色转到笛声和集体乡愁，让看不见的思念借声音传开。他也写友朋重逢和人生变迁。后世传奇中借用其姓名的故事，不能直接作为可靠生平资料使用。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 162
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "回樂峰前沙似雪，受降城下月如霜。不知何處吹蘆管，一夜征人盡望鄉。",
+    "zh-Hans": "回乐峰前沙似雪，受降城下月如霜。不知何处吹芦管，一夜征人尽望乡。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-088-l001",
+      "text": {
+        "zh-Hant": "回樂峰前沙似雪，",
+        "zh-Hans": "回乐峰前沙似雪，"
+      }
+    },
+    {
+      "id": "ext-tang-088-l002",
+      "text": {
+        "zh-Hant": "受降城下月如霜。",
+        "zh-Hans": "受降城下月如霜。"
+      }
+    },
+    {
+      "id": "ext-tang-088-l003",
+      "text": {
+        "zh-Hant": "不知何處吹蘆管，",
+        "zh-Hans": "不知何处吹芦管，"
+      }
+    },
+    {
+      "id": "ext-tang-088-l004",
+      "text": {
+        "zh-Hant": "一夜征人盡望鄉。",
+        "zh-Hans": "一夜征人尽望乡。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-088-w001",
+      "term": {
+        "zh-Hant": "回樂峰",
+        "zh-Hans": "回乐峰"
+      },
+      "definition": {
+        "zh-Hant": "回樂一帶的山峯，另有版本作回樂烽。",
+        "zh-Hans": "回乐一带的山峰，另有版本作回乐烽。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l001",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l001",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-088-w002",
+      "term": {
+        "zh-Hant": "蘆管",
+        "zh-Hans": "芦管"
+      },
+      "definition": {
+        "zh-Hant": "用蘆竹製成的管樂器。",
+        "zh-Hans": "用芦竹制成的管乐器。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l003",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l003",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-088-w003",
+      "term": {
+        "zh-Hant": "征人",
+        "zh-Hans": "征人"
+      },
+      "definition": {
+        "zh-Hant": "出征或戍邊的士兵。",
+        "zh-Hans": "出征或戍边的士兵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-088-w004",
+      "term": {
+        "zh-Hant": "望鄉",
+        "zh-Hans": "望乡"
+      },
+      "definition": {
+        "zh-Hant": "遙望、思念家鄉。",
+        "zh-Hans": "遥望、思念家乡。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-088-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本“回樂峯”；常見另本作“回樂烽”。",
+      "zh-Hans": "保留底本“回乐峰”；常见另本作“回乐烽”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 88
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

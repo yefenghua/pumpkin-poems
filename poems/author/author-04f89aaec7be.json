@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-04f89aaec7be",
+  "name": {
+    "zh-Hant": "韋應物",
+    "zh-Hans": "韦应物"
+  },
+  "catalog_name": {
+    "zh-Hant": "韋應物",
+    "zh-Hans": "韦应物"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，山水田園詩清淡，常兼有對民生的關懷。",
+      "zh-Hans": "唐代诗人，山水田园诗清淡，常兼有对民生的关怀。"
+    },
+    "full": {
+      "zh-Hant": "韋應物，京兆長安人，唐代詩人，通常記為737年至約792年。他早年曾為宮廷侍衞，後來轉而勤學，任滁州、江州、蘇州等地刺史，世稱韋蘇州。作品善寫山水、閒居、送別與懷人，語言簡淡，意境深遠，也表達作為地方官對百姓生活的責任感。《滁州西澗》以幽草、黃鸝、春雨和橫舟寫自然景象，《秋夜寄邱員外》則借山中松子落聲想象友人，體現以少勝多的藝術。",
+      "zh-Hans": "韦应物，京兆长安人，唐代诗人，通常记为737年至约792年。他早年曾为宫廷侍卫，后来转而勤学，任滁州、江州、苏州等地刺史，世称韦苏州。作品善写山水、闲居、送别与怀人，语言简淡，意境深远，也表达作为地方官对百姓生活的责任感。《滁州西涧》以幽草、黄鹂、春雨和横舟写自然景象，《秋夜寄邱员外》则借山中松子落声想象友人，体现以少胜多的艺术。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 115
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

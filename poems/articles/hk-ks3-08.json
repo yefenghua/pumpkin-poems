@@ -1,0 +1,1017 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-08",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "木蘭詩",
+    "zh-Hans": "木兰诗"
+  },
+  "dynasty": {
+    "zh-Hant": "南北朝",
+    "zh-Hans": "南北朝"
+  },
+  "genre": {
+    "zh-Hant": "樂府詩",
+    "zh-Hans": "乐府诗"
+  },
+  "author_id": "author-5850528077d2",
+  "author_file": "../author/author-5850528077d2.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-5850528077d2",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·北朝樂府",
+      "zh-Hans": "佚名·北朝乐府"
+    },
+    "dynasty": {
+      "zh-Hant": "南北朝",
+      "zh-Hans": "南北朝"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《木蘭詩》的作者姓名沒有可靠記載，屬於北朝樂府民歌傳統。",
+        "zh-Hans": "《木兰诗》的作者姓名没有可靠记载，属于北朝乐府民歌传统。"
+      },
+      "full": {
+        "zh-Hant": "佚名錶示作品的具體作者姓名沒有流傳下來，並不是一位叫作佚名的詩人。《木蘭詩》屬於北朝樂府民歌傳統，後來由文獻編集保存，今常據宋代郭茂倩《樂府詩集》傳本閲讀。民歌在口頭傳唱和書面整理中可能逐漸變化，不能為它編造個人生卒年或創作經歷。作品以替父從軍的故事塑造木蘭，兼具敍事、對話和歌謠的重複句式，反映民間文學的表現力量。",
+        "zh-Hans": "佚名表示作品的具体作者姓名没有流传下来，并不是一位叫作佚名的诗人。《木兰诗》属于北朝乐府民歌传统，后来由文献编集保存，今常据宋代郭茂倩《乐府诗集》传本阅读。民歌在口头传唱和书面整理中可能逐渐变化，不能为它编造个人生卒年或创作经历。作品以替父从军的故事塑造木兰，兼具叙事、对话和歌谣的重复句式，反映民间文学的表现力量。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 木蘭詩賞析",
+          "zh-Hans": "香港教育局 · 木兰诗赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_08.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "唧唧復唧唧，木蘭當戶織。不聞機杼聲，惟聞女歎息。問女何所思，問女何所憶。「女亦無所思，女亦無所憶。昨夜見軍帖，可汗大點兵。軍書十二卷，卷卷有爺名。阿爺無大兒，木蘭無長兄。願為市鞍馬，從此替爺征。」東市買駿馬，西市買鞍韉，南市買轡頭，北市買長鞭。旦辭爺娘去，暮宿黃河邊。不聞爺娘喚女聲，但聞黃河流水鳴濺濺。旦辭黃河去，暮至黑山頭。不聞爺娘喚女聲，但聞燕山胡騎聲啾啾。萬里赴戎機，關山度若飛。朔氣傳金柝，寒光照鐵衣。將軍百戰死，壯士十年歸。歸來見天子，天子坐明堂。策勳十二轉，賞賜百千彊。可汗問所欲，「木蘭不用尚書郎，願借明駝千里足，送兒還故鄉。」爺娘聞女來，出郭相扶將。阿姊聞妹來，當戶理紅妝。小弟聞姊來，磨刀霍霍向豬羊。開我東閣門，坐我西閣牀；脫我戰時袍，著我舊時裳；當窗理雲鬢，對鏡帖花黃。出門看火伴，火伴皆驚惶：「同行十二年，不知木蘭是女郎！」雄兔腳撲朔，雌兔眼迷離。兩兔傍地走，安能辨我是雄雌？",
+    "zh-Hans": "唧唧复唧唧，木兰当户织。不闻机杼声，惟闻女叹息。问女何所思，问女何所忆。「女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵。军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄。愿为市鞍马，从此替爷征。」东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。旦辞爷娘去，暮宿黄河边。不闻爷娘唤女声，但闻黄河流水鸣溅溅。旦辞黄河去，暮至黑山头。不闻爷娘唤女声，但闻燕山胡骑声啾啾。万里赴戎机，关山度若飞。朔气传金柝，寒光照铁衣。将军百战死，壮士十年归。归来见天子，天子坐明堂。策勋十二转，赏赐百千彊。可汗问所欲，「木兰不用尚书郎，愿借明驼千里足，送儿还故乡。」爷娘闻女来，出郭相扶将。阿姊闻妹来，当户理红妆。小弟闻姊来，磨刀霍霍向猪羊。开我东阁门，坐我西阁床；脱我战时袍，著我旧时裳；当窗理云鬓，对镜帖花黄。出门看火伴，火伴皆惊惶：「同行十二年，不知木兰是女郎！」雄兔脚扑朔，雌兔眼迷离。两兔傍地走，安能辨我是雄雌？"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-08-l001",
+      "text": {
+        "zh-Hant": "唧唧復唧唧，",
+        "zh-Hans": "唧唧复唧唧，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l002",
+      "text": {
+        "zh-Hant": "木蘭當戶織。",
+        "zh-Hans": "木兰当户织。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l003",
+      "text": {
+        "zh-Hant": "不聞機杼聲，",
+        "zh-Hans": "不闻机杼声，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l004",
+      "text": {
+        "zh-Hant": "惟聞女歎息。",
+        "zh-Hans": "惟闻女叹息。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l005",
+      "text": {
+        "zh-Hant": "問女何所思，",
+        "zh-Hans": "问女何所思，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l006",
+      "text": {
+        "zh-Hant": "問女何所憶。",
+        "zh-Hans": "问女何所忆。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l007",
+      "text": {
+        "zh-Hant": "「女亦無所思，",
+        "zh-Hans": "「女亦无所思，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l008",
+      "text": {
+        "zh-Hant": "女亦無所憶。",
+        "zh-Hans": "女亦无所忆。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l009",
+      "text": {
+        "zh-Hant": "昨夜見軍帖，",
+        "zh-Hans": "昨夜见军帖，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l010",
+      "text": {
+        "zh-Hant": "可汗大點兵。",
+        "zh-Hans": "可汗大点兵。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l011",
+      "text": {
+        "zh-Hant": "軍書十二卷，",
+        "zh-Hans": "军书十二卷，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l012",
+      "text": {
+        "zh-Hant": "卷卷有爺名。",
+        "zh-Hans": "卷卷有爷名。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l013",
+      "text": {
+        "zh-Hant": "阿爺無大兒，",
+        "zh-Hans": "阿爷无大儿，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l014",
+      "text": {
+        "zh-Hant": "木蘭無長兄。",
+        "zh-Hans": "木兰无长兄。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l015",
+      "text": {
+        "zh-Hant": "願為市鞍馬，",
+        "zh-Hans": "愿为市鞍马，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l016",
+      "text": {
+        "zh-Hant": "從此替爺征。」",
+        "zh-Hans": "从此替爷征。」"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l017",
+      "text": {
+        "zh-Hant": "東市買駿馬，",
+        "zh-Hans": "东市买骏马，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l018",
+      "text": {
+        "zh-Hant": "西市買鞍韉，",
+        "zh-Hans": "西市买鞍鞯，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l019",
+      "text": {
+        "zh-Hant": "南市買轡頭，",
+        "zh-Hans": "南市买辔头，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l020",
+      "text": {
+        "zh-Hant": "北市買長鞭。",
+        "zh-Hans": "北市买长鞭。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l021",
+      "text": {
+        "zh-Hant": "旦辭爺娘去，",
+        "zh-Hans": "旦辞爷娘去，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l022",
+      "text": {
+        "zh-Hant": "暮宿黃河邊。",
+        "zh-Hans": "暮宿黄河边。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l023",
+      "text": {
+        "zh-Hant": "不聞爺娘喚女聲，",
+        "zh-Hans": "不闻爷娘唤女声，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l024",
+      "text": {
+        "zh-Hant": "但聞黃河流水鳴濺濺。",
+        "zh-Hans": "但闻黄河流水鸣溅溅。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l025",
+      "text": {
+        "zh-Hant": "旦辭黃河去，",
+        "zh-Hans": "旦辞黄河去，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l026",
+      "text": {
+        "zh-Hant": "暮至黑山頭。",
+        "zh-Hans": "暮至黑山头。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l027",
+      "text": {
+        "zh-Hant": "不聞爺娘喚女聲，",
+        "zh-Hans": "不闻爷娘唤女声，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l028",
+      "text": {
+        "zh-Hant": "但聞燕山胡騎聲啾啾。",
+        "zh-Hans": "但闻燕山胡骑声啾啾。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l029",
+      "text": {
+        "zh-Hant": "萬里赴戎機，",
+        "zh-Hans": "万里赴戎机，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l030",
+      "text": {
+        "zh-Hant": "關山度若飛。",
+        "zh-Hans": "关山度若飞。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l031",
+      "text": {
+        "zh-Hant": "朔氣傳金柝，",
+        "zh-Hans": "朔气传金柝，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l032",
+      "text": {
+        "zh-Hant": "寒光照鐵衣。",
+        "zh-Hans": "寒光照铁衣。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l033",
+      "text": {
+        "zh-Hant": "將軍百戰死，",
+        "zh-Hans": "将军百战死，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l034",
+      "text": {
+        "zh-Hant": "壯士十年歸。",
+        "zh-Hans": "壮士十年归。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l035",
+      "text": {
+        "zh-Hant": "歸來見天子，",
+        "zh-Hans": "归来见天子，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l036",
+      "text": {
+        "zh-Hant": "天子坐明堂。",
+        "zh-Hans": "天子坐明堂。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l037",
+      "text": {
+        "zh-Hant": "策勳十二轉，",
+        "zh-Hans": "策勋十二转，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l038",
+      "text": {
+        "zh-Hant": "賞賜百千彊。",
+        "zh-Hans": "赏赐百千彊。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l039",
+      "text": {
+        "zh-Hant": "可汗問所欲，",
+        "zh-Hans": "可汗问所欲，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l040",
+      "text": {
+        "zh-Hant": "「木蘭不用尚書郎，",
+        "zh-Hans": "「木兰不用尚书郎，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l041",
+      "text": {
+        "zh-Hant": "願借明駝千里足，",
+        "zh-Hans": "愿借明驼千里足，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l042",
+      "text": {
+        "zh-Hant": "送兒還故鄉。」",
+        "zh-Hans": "送儿还故乡。」"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l043",
+      "text": {
+        "zh-Hant": "爺娘聞女來，",
+        "zh-Hans": "爷娘闻女来，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l044",
+      "text": {
+        "zh-Hant": "出郭相扶將。",
+        "zh-Hans": "出郭相扶将。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l045",
+      "text": {
+        "zh-Hant": "阿姊聞妹來，",
+        "zh-Hans": "阿姊闻妹来，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l046",
+      "text": {
+        "zh-Hant": "當戶理紅妝。",
+        "zh-Hans": "当户理红妆。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l047",
+      "text": {
+        "zh-Hant": "小弟聞姊來，",
+        "zh-Hans": "小弟闻姊来，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l048",
+      "text": {
+        "zh-Hant": "磨刀霍霍向豬羊。",
+        "zh-Hans": "磨刀霍霍向猪羊。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l049",
+      "text": {
+        "zh-Hant": "開我東閣門，",
+        "zh-Hans": "开我东阁门，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l050",
+      "text": {
+        "zh-Hant": "坐我西閣牀；",
+        "zh-Hans": "坐我西阁床；"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l051",
+      "text": {
+        "zh-Hant": "脫我戰時袍，",
+        "zh-Hans": "脱我战时袍，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l052",
+      "text": {
+        "zh-Hant": "著我舊時裳；",
+        "zh-Hans": "著我旧时裳；"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l053",
+      "text": {
+        "zh-Hant": "當窗理雲鬢，",
+        "zh-Hans": "当窗理云鬓，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l054",
+      "text": {
+        "zh-Hant": "對鏡帖花黃。",
+        "zh-Hans": "对镜帖花黄。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l055",
+      "text": {
+        "zh-Hant": "出門看火伴，",
+        "zh-Hans": "出门看火伴，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l056",
+      "text": {
+        "zh-Hant": "火伴皆驚惶：「同行十二年，",
+        "zh-Hans": "火伴皆惊惶：「同行十二年，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l057",
+      "text": {
+        "zh-Hant": "不知木蘭是女郎！」",
+        "zh-Hans": "不知木兰是女郎！」"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l058",
+      "text": {
+        "zh-Hant": "雄兔腳撲朔，",
+        "zh-Hans": "雄兔脚扑朔，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l059",
+      "text": {
+        "zh-Hant": "雌兔眼迷離。",
+        "zh-Hans": "雌兔眼迷离。"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l060",
+      "text": {
+        "zh-Hant": "兩兔傍地走，",
+        "zh-Hans": "两兔傍地走，"
+      }
+    },
+    {
+      "id": "hk-ks3-08-l061",
+      "text": {
+        "zh-Hant": "安能辨我是雄雌？",
+        "zh-Hans": "安能辨我是雄雌？"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-08-w001",
+      "term": {
+        "zh-Hant": "機杼",
+        "zh-Hans": "机杼"
+      },
+      "definition": {
+        "zh-Hant": "織布機。",
+        "zh-Hans": "织布机。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w002",
+      "term": {
+        "zh-Hant": "市",
+        "zh-Hans": "市"
+      },
+      "definition": {
+        "zh-Hant": "買。",
+        "zh-Hans": "买。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l015",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l017",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l018",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l019",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l020",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l015",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l017",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l018",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l019",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l020",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w003",
+      "term": {
+        "zh-Hant": "鞍韉",
+        "zh-Hans": "鞍鞯"
+      },
+      "definition": {
+        "zh-Hant": "馬鞍和馬鞍下的墊子。",
+        "zh-Hans": "马鞍和马鞍下的垫子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l018",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l018",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w004",
+      "term": {
+        "zh-Hant": "轡頭",
+        "zh-Hans": "辔头"
+      },
+      "definition": {
+        "zh-Hant": "駕馭馬匹用的嚼子與繮繩。",
+        "zh-Hans": "驾驭马匹用的嚼子与缰绳。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l019",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l019",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w005",
+      "term": {
+        "zh-Hant": "旦",
+        "zh-Hans": "旦"
+      },
+      "definition": {
+        "zh-Hant": "早晨。",
+        "zh-Hans": "早晨。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l021",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l025",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l021",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l025",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w006",
+      "term": {
+        "zh-Hant": "戎機",
+        "zh-Hans": "戎机"
+      },
+      "definition": {
+        "zh-Hant": "戰爭、軍務。",
+        "zh-Hans": "战争、军务。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l029",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l029",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w007",
+      "term": {
+        "zh-Hant": "朔氣",
+        "zh-Hans": "朔气"
+      },
+      "definition": {
+        "zh-Hant": "北方的寒氣。",
+        "zh-Hans": "北方的寒气。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l031",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l031",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w008",
+      "term": {
+        "zh-Hant": "金柝",
+        "zh-Hans": "金柝"
+      },
+      "definition": {
+        "zh-Hant": "軍中夜間打更的器具。",
+        "zh-Hans": "军中夜间打更的器具。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l031",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l031",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w009",
+      "term": {
+        "zh-Hant": "策勳",
+        "zh-Hans": "策勋"
+      },
+      "definition": {
+        "zh-Hant": "記錄功勞。",
+        "zh-Hans": "记录功劳。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l037",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l037",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w010",
+      "term": {
+        "zh-Hant": "郭",
+        "zh-Hans": "郭"
+      },
+      "definition": {
+        "zh-Hant": "外城。",
+        "zh-Hans": "外城。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l044",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l044",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w011",
+      "term": {
+        "zh-Hant": "帖",
+        "zh-Hans": "帖"
+      },
+      "definition": {
+        "zh-Hant": "貼上。",
+        "zh-Hans": "贴上。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l009",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l054",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l009",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l054",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w012",
+      "term": {
+        "zh-Hant": "火伴",
+        "zh-Hans": "火伴"
+      },
+      "definition": {
+        "zh-Hant": "同伍的士兵，後來寫作夥伴。",
+        "zh-Hans": "同伍的士兵，后来写作伙伴。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l055",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l056",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l055",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l056",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-08-w013",
+      "term": {
+        "zh-Hant": "傍地走",
+        "zh-Hans": "傍地走"
+      },
+      "definition": {
+        "zh-Hant": "貼近地面奔跑。",
+        "zh-Hans": "贴近地面奔跑。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l060",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-08-l060",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "採用教育局含“願借明駝千里足”的版本，保留全文；常見另本作“願馳千里足”。",
+      "zh-Hans": "采用教育局含“愿借明驼千里足”的版本，保留全文；常见另本作“愿驰千里足”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 木蘭詩原文",
+        "zh-Hans": "香港教育局 · 木兰诗原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_08_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "4ca45a9ca1d85db06581c5ea7e9bb9a116114ceb6ddda962cdb1b95c369e0400"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 木蘭詩賞析",
+        "zh-Hans": "香港教育局 · 木兰诗赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_08.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

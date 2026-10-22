@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-shijing-010",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "桃夭",
+    "zh-Hans": "桃夭"
+  },
+  "dynasty": {
+    "zh-Hant": "先秦",
+    "zh-Hans": "先秦"
+  },
+  "genre": {
+    "zh-Hant": "四言詩",
+    "zh-Hans": "四言诗"
+  },
+  "author_id": "author-67b4d378d267",
+  "author_file": "../author/author-67b4d378d267.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-67b4d378d267",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·詩經",
+      "zh-Hans": "佚名·诗经"
+    },
+    "dynasty": {
+      "zh-Hant": "先秦",
+      "zh-Hans": "先秦"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《詩經》彙集周代詩歌，多數作品的具體作者姓名不可考。",
+        "zh-Hans": "《诗经》汇集周代诗歌，多数作品的具体作者姓名不可考。"
+      },
+      "full": {
+        "zh-Hant": "《詩經》是中國早期詩歌總集，收錄西周初年至春秋中葉前後的作品三百零五篇，分為風、雅、頌。它彙集不同地域、階層和場合的詩歌，並非一位作者的創作。許多篇章在採集、演唱與編訂過程中流傳，個人作者已不可考。《關雎》《蒹葭》《桃夭》《子衿》屬於國風。其四言節奏、重章疊句以及賦比興手法，對後世詩歌影響深遠。孔子與其傳習有關，但不應被填寫為這些詩的作者。",
+        "zh-Hans": "《诗经》是中国早期诗歌总集，收录西周初年至春秋中叶前后的作品三百零五篇，分为风、雅、颂。它汇集不同地域、阶层和场合的诗歌，并非一位作者的创作。许多篇章在采集、演唱与编订过程中流传，个人作者已不可考。《关雎》《蒹葭》《桃夭》《子衿》属于国风。其四言节奏、重章叠句以及赋比兴手法，对后世诗歌影响深远。孔子与其传习有关，但不应被填写为这些诗的作者。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 關雎賞析",
+          "zh-Hans": "香港教育局 · 关雎赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "桃之夭夭，灼灼其華。之子于歸，宜其室家。桃之夭夭，有蕡其實。之子于歸，宜其家室。桃之夭夭，其葉蓁蓁。之子于歸，宜其家人。",
+    "zh-Hans": "桃之夭夭，灼灼其华。之子于归，宜其室家。桃之夭夭，有蕡其实。之子于归，宜其家室。桃之夭夭，其叶蓁蓁。之子于归，宜其家人。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-shijing-010-l001",
+      "text": {
+        "zh-Hant": "桃之夭夭，",
+        "zh-Hans": "桃之夭夭，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l002",
+      "text": {
+        "zh-Hant": "灼灼其華。",
+        "zh-Hans": "灼灼其华。"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l003",
+      "text": {
+        "zh-Hant": "之子于歸，",
+        "zh-Hans": "之子于归，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l004",
+      "text": {
+        "zh-Hant": "宜其室家。",
+        "zh-Hans": "宜其室家。"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l005",
+      "text": {
+        "zh-Hant": "桃之夭夭，",
+        "zh-Hans": "桃之夭夭，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l006",
+      "text": {
+        "zh-Hant": "有蕡其實。",
+        "zh-Hans": "有蕡其实。"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l007",
+      "text": {
+        "zh-Hant": "之子于歸，",
+        "zh-Hans": "之子于归，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l008",
+      "text": {
+        "zh-Hant": "宜其家室。",
+        "zh-Hans": "宜其家室。"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l009",
+      "text": {
+        "zh-Hant": "桃之夭夭，",
+        "zh-Hans": "桃之夭夭，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l010",
+      "text": {
+        "zh-Hant": "其葉蓁蓁。",
+        "zh-Hans": "其叶蓁蓁。"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l011",
+      "text": {
+        "zh-Hant": "之子于歸，",
+        "zh-Hans": "之子于归，"
+      }
+    },
+    {
+      "id": "ext-shijing-010-l012",
+      "text": {
+        "zh-Hant": "宜其家人。",
+        "zh-Hans": "宜其家人。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-shijing-010-w001",
+      "term": {
+        "zh-Hant": "夭夭",
+        "zh-Hans": "夭夭"
+      },
+      "definition": {
+        "zh-Hant": "繁盛美好的樣子。",
+        "zh-Hans": "繁盛美好的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l001",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l005",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l009",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l001",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l005",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l009",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-010-w002",
+      "term": {
+        "zh-Hant": "灼灼",
+        "zh-Hans": "灼灼"
+      },
+      "definition": {
+        "zh-Hant": "花色鮮豔的樣子。",
+        "zh-Hans": "花色鲜艳的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-010-w003",
+      "term": {
+        "zh-Hant": "之子",
+        "zh-Hans": "之子"
+      },
+      "definition": {
+        "zh-Hant": "這位女子。",
+        "zh-Hans": "这位女子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l011",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l011",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-010-w004",
+      "term": {
+        "zh-Hant": "于歸",
+        "zh-Hans": "于归"
+      },
+      "definition": {
+        "zh-Hant": "女子出嫁。",
+        "zh-Hans": "女子出嫁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l003",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l007",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l011",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l003",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l007",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l011",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-010-w005",
+      "term": {
+        "zh-Hant": "宜",
+        "zh-Hans": "宜"
+      },
+      "definition": {
+        "zh-Hant": "和順、使家庭和睦。",
+        "zh-Hans": "和顺、使家庭和睦。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l004",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l008",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l012",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l004",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l008",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l012",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-010-w006",
+      "term": {
+        "zh-Hant": "蓁蓁",
+        "zh-Hans": "蓁蓁"
+      },
+      "definition": {
+        "zh-Hant": "枝葉茂盛的樣子。",
+        "zh-Hans": "枝叶茂盛的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-010-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "收錄全詩三章。",
+      "zh-Hans": "收录全诗三章。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 詩經/shijing.json",
+        "zh-Hans": "中华古诗词数据库 · 诗经/shijing.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E8%AF%97%E7%BB%8F/shijing.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "ff0f061ec027ea5137bf27627cb0bdab0fe1680216b43d5d32245ab697aa9875",
+      "record_locator": {
+        "index_zero_based": 5
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

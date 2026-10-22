@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-151",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "八聲甘州·對瀟瀟暮雨灑江天",
+    "zh-Hans": "八声甘州·对潇潇暮雨洒江天"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-1a7d566d0599",
+  "author_file": "../author/author-1a7d566d0599.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1a7d566d0599",
+    "name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "catalog_name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，字耆卿，對慢詞的發展有重要貢獻。",
+        "zh-Hans": "北宋词人，字耆卿，对慢词的发展有重要贡献。"
+      },
+      "full": {
+        "zh-Hant": "柳永，初名三變，字耆卿，崇安人，北宋詞人，生卒年有不同考訂。他較晚登第，官至屯田員外郎，故又稱柳屯田。柳詞與當時城市音樂生活聯繫密切，善寫都市景象、離別和羈旅行役，尤其長於篇幅較長、適合鋪敍的慢詞，傳有《樂章集》。《雨霖鈴》《八聲甘州》把眼前與想象中的場景連綴起來，層層推進情緒。閲讀時可注意時間轉換、空間距離和口語化表達。",
+        "zh-Hans": "柳永，初名三变，字耆卿，崇安人，北宋词人，生卒年有不同考订。他较晚登第，官至屯田员外郎，故又称柳屯田。柳词与当时城市音乐生活联系密切，善写都市景象、离别和羁旅行役，尤其长于篇幅较长、适合铺叙的慢词，传有《乐章集》。《雨霖铃》《八声甘州》把眼前与想象中的场景连缀起来，层层推进情绪。阅读时可注意时间转换、空间距离和口语化表达。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 1
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "對瀟瀟、暮雨灑江天，一番洗清秋。漸霜風悽慘，關河冷落，殘照當樓。是處紅衰翠減，苒苒物華休。惟有長江水，無語東流。不忍登高臨遠，望故鄉渺邈，歸思難收。嘆年來蹤跡，何事苦淹留。想佳人、妝樓望，誤幾回、天際識歸舟。爭知我、倚闌干處，正恁凝愁。",
+    "zh-Hans": "对潇潇、暮雨洒江天，一番洗清秋。渐霜风凄惨，关河冷落，残照当楼。是处红衰翠减，苒苒物华休。惟有长江水，无语东流。不忍登高临远，望故乡渺邈，归思难收。叹年来踪迹，何事苦淹留。想佳人、妆楼望，误几回、天际识归舟。争知我、倚阑干处，正恁凝愁。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-151-l001",
+      "text": {
+        "zh-Hant": "對瀟瀟、暮雨灑江天，",
+        "zh-Hans": "对潇潇、暮雨洒江天，"
+      }
+    },
+    {
+      "id": "ext-song-151-l002",
+      "text": {
+        "zh-Hant": "一番洗清秋。",
+        "zh-Hans": "一番洗清秋。"
+      }
+    },
+    {
+      "id": "ext-song-151-l003",
+      "text": {
+        "zh-Hant": "漸霜風悽慘，",
+        "zh-Hans": "渐霜风凄惨，"
+      }
+    },
+    {
+      "id": "ext-song-151-l004",
+      "text": {
+        "zh-Hant": "關河冷落，",
+        "zh-Hans": "关河冷落，"
+      }
+    },
+    {
+      "id": "ext-song-151-l005",
+      "text": {
+        "zh-Hant": "殘照當樓。",
+        "zh-Hans": "残照当楼。"
+      }
+    },
+    {
+      "id": "ext-song-151-l006",
+      "text": {
+        "zh-Hant": "是處紅衰翠減，",
+        "zh-Hans": "是处红衰翠减，"
+      }
+    },
+    {
+      "id": "ext-song-151-l007",
+      "text": {
+        "zh-Hant": "苒苒物華休。",
+        "zh-Hans": "苒苒物华休。"
+      }
+    },
+    {
+      "id": "ext-song-151-l008",
+      "text": {
+        "zh-Hant": "惟有長江水，",
+        "zh-Hans": "惟有长江水，"
+      }
+    },
+    {
+      "id": "ext-song-151-l009",
+      "text": {
+        "zh-Hant": "無語東流。",
+        "zh-Hans": "无语东流。"
+      }
+    },
+    {
+      "id": "ext-song-151-l010",
+      "text": {
+        "zh-Hant": "不忍登高臨遠，",
+        "zh-Hans": "不忍登高临远，"
+      }
+    },
+    {
+      "id": "ext-song-151-l011",
+      "text": {
+        "zh-Hant": "望故鄉渺邈，",
+        "zh-Hans": "望故乡渺邈，"
+      }
+    },
+    {
+      "id": "ext-song-151-l012",
+      "text": {
+        "zh-Hant": "歸思難收。",
+        "zh-Hans": "归思难收。"
+      }
+    },
+    {
+      "id": "ext-song-151-l013",
+      "text": {
+        "zh-Hant": "嘆年來蹤跡，",
+        "zh-Hans": "叹年来踪迹，"
+      }
+    },
+    {
+      "id": "ext-song-151-l014",
+      "text": {
+        "zh-Hant": "何事苦淹留。",
+        "zh-Hans": "何事苦淹留。"
+      }
+    },
+    {
+      "id": "ext-song-151-l015",
+      "text": {
+        "zh-Hant": "想佳人、妝樓望，",
+        "zh-Hans": "想佳人、妆楼望，"
+      }
+    },
+    {
+      "id": "ext-song-151-l016",
+      "text": {
+        "zh-Hant": "誤幾回、天際識歸舟。",
+        "zh-Hans": "误几回、天际识归舟。"
+      }
+    },
+    {
+      "id": "ext-song-151-l017",
+      "text": {
+        "zh-Hant": "爭知我、倚闌干處，",
+        "zh-Hans": "争知我、倚阑干处，"
+      }
+    },
+    {
+      "id": "ext-song-151-l018",
+      "text": {
+        "zh-Hant": "正恁凝愁。",
+        "zh-Hans": "正恁凝愁。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-151-w001",
+      "term": {
+        "zh-Hant": "關河",
+        "zh-Hans": "关河"
+      },
+      "definition": {
+        "zh-Hant": "關山河流。",
+        "zh-Hans": "关山河流。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w002",
+      "term": {
+        "zh-Hant": "是處",
+        "zh-Hans": "是处"
+      },
+      "definition": {
+        "zh-Hant": "到處。",
+        "zh-Hans": "到处。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w003",
+      "term": {
+        "zh-Hant": "紅衰翠減",
+        "zh-Hans": "红衰翠减"
+      },
+      "definition": {
+        "zh-Hant": "紅花凋謝、綠葉減少。",
+        "zh-Hans": "红花凋谢、绿叶减少。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l006",
+            "start": 2,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l006",
+            "start": 2,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w004",
+      "term": {
+        "zh-Hant": "苒苒",
+        "zh-Hans": "苒苒"
+      },
+      "definition": {
+        "zh-Hant": "漸漸。",
+        "zh-Hans": "渐渐。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w005",
+      "term": {
+        "zh-Hant": "淹留",
+        "zh-Hans": "淹留"
+      },
+      "definition": {
+        "zh-Hant": "久留。",
+        "zh-Hans": "久留。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l014",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l014",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w006",
+      "term": {
+        "zh-Hant": "爭知",
+        "zh-Hans": "争知"
+      },
+      "definition": {
+        "zh-Hant": "怎知。",
+        "zh-Hans": "怎知。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l017",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l017",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-151-w007",
+      "term": {
+        "zh-Hant": "恁",
+        "zh-Hans": "恁"
+      },
+      "definition": {
+        "zh-Hant": "如此、這樣。",
+        "zh-Hans": "如此、这样。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l018",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-151-l018",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 151
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

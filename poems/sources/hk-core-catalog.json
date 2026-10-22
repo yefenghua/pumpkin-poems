@@ -1,0 +1,430 @@
+{
+  "checked_on": "2026-10-22",
+  "scope": {
+    "zh-Hant": "香港教育局第一至第四學習階段建議篇章內全部詩、詞、曲；組合篇目拆為獨立作品；不含散文、寓言、銘及家訓。",
+    "zh-Hans": "香港教育局第一至第四学习阶段建议篇章内全部诗、词、曲；组合篇目拆为独立作品；不含散文、寓言、铭及家训。"
+  },
+  "expected_count": 53,
+  "entries": [
+    {
+      "article_id": "hk-ks1-03",
+      "stage": 1,
+      "official_entry": "3   江南",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_03_text.pdf",
+      "article_path": "articles/hk-ks1-03.json"
+    },
+    {
+      "article_id": "hk-ks1-04",
+      "stage": 1,
+      "official_entry": "4   七步詩",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_04_text.pdf",
+      "article_path": "articles/hk-ks1-04.json"
+    },
+    {
+      "article_id": "hk-ks1-05",
+      "stage": 1,
+      "official_entry": "5   詠鵝",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_05_text.pdf",
+      "article_path": "articles/hk-ks1-05.json"
+    },
+    {
+      "article_id": "hk-ks1-06",
+      "stage": 1,
+      "official_entry": "6   回鄉偶書",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_06_text.pdf",
+      "article_path": "articles/hk-ks1-06.json"
+    },
+    {
+      "article_id": "hk-ks1-07",
+      "stage": 1,
+      "official_entry": "7   登鸛鵲樓",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07_text.pdf",
+      "article_path": "articles/hk-ks1-07.json"
+    },
+    {
+      "article_id": "hk-ks1-08",
+      "stage": 1,
+      "official_entry": "8   春曉",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08_text.pdf",
+      "article_path": "articles/hk-ks1-08.json"
+    },
+    {
+      "article_id": "hk-ks1-09",
+      "stage": 1,
+      "official_entry": "9 九月九日憶山東兄弟",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09_text.pdf",
+      "article_path": "articles/hk-ks1-09.json"
+    },
+    {
+      "article_id": "hk-ks1-10",
+      "stage": 1,
+      "official_entry": "10   靜夜思",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10_text.pdf",
+      "article_path": "articles/hk-ks1-10.json"
+    },
+    {
+      "article_id": "hk-ks1-11",
+      "stage": 1,
+      "official_entry": "11   賦得古原草送別",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11_text.pdf",
+      "article_path": "articles/hk-ks1-11.json"
+    },
+    {
+      "article_id": "hk-ks1-12",
+      "stage": 1,
+      "official_entry": "12   遊子吟",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_12_text.pdf",
+      "article_path": "articles/hk-ks1-12.json"
+    },
+    {
+      "article_id": "hk-ks1-13",
+      "stage": 1,
+      "official_entry": "13   憫農(其二)",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13_text.pdf",
+      "article_path": "articles/hk-ks1-13.json"
+    },
+    {
+      "article_id": "hk-ks1-14",
+      "stage": 1,
+      "official_entry": "14   金縷衣",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14_text.pdf",
+      "article_path": "articles/hk-ks1-14.json"
+    },
+    {
+      "article_id": "hk-ks1-15",
+      "stage": 1,
+      "official_entry": "15   清明",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15_text.pdf",
+      "article_path": "articles/hk-ks1-15.json"
+    },
+    {
+      "article_id": "hk-ks1-16",
+      "stage": 1,
+      "official_entry": "16   蜂",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16_text.pdf",
+      "article_path": "articles/hk-ks1-16.json"
+    },
+    {
+      "article_id": "hk-ks1-17",
+      "stage": 1,
+      "official_entry": "17   元日",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17_text.pdf",
+      "article_path": "articles/hk-ks1-17.json"
+    },
+    {
+      "article_id": "hk-ks1-18",
+      "stage": 1,
+      "official_entry": "18   小池",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18_text.pdf",
+      "article_path": "articles/hk-ks1-18.json"
+    },
+    {
+      "article_id": "hk-ks1-19",
+      "stage": 1,
+      "official_entry": "19   畫雞",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19_text.pdf",
+      "article_path": "articles/hk-ks1-19.json"
+    },
+    {
+      "article_id": "hk-ks1-20",
+      "stage": 1,
+      "official_entry": "20  詠雪",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20_text.pdf",
+      "article_path": "articles/hk-ks1-20.json"
+    },
+    {
+      "article_id": "hk-ks2-06",
+      "stage": 2,
+      "official_entry": "6   涼州詞",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_06_text.pdf",
+      "article_path": "articles/hk-ks2-06.json"
+    },
+    {
+      "article_id": "hk-ks2-07",
+      "stage": 2,
+      "official_entry": "7   出塞",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_07_text.pdf",
+      "article_path": "articles/hk-ks2-07.json"
+    },
+    {
+      "article_id": "hk-ks2-08",
+      "stage": 2,
+      "official_entry": "8  送元二使安西",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_08_text.pdf",
+      "article_path": "articles/hk-ks2-08.json"
+    },
+    {
+      "article_id": "hk-ks2-09",
+      "stage": 2,
+      "official_entry": "9   早發白帝城",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_09_text.pdf",
+      "article_path": "articles/hk-ks2-09.json"
+    },
+    {
+      "article_id": "hk-ks2-10",
+      "stage": 2,
+      "official_entry": "10   客至",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_10_text.pdf",
+      "article_path": "articles/hk-ks2-10.json"
+    },
+    {
+      "article_id": "hk-ks2-11",
+      "stage": 2,
+      "official_entry": "11  絕句 (兩個黃鸝鳴翠柳)",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_11_text.pdf",
+      "article_path": "articles/hk-ks2-11.json"
+    },
+    {
+      "article_id": "hk-ks2-12",
+      "stage": 2,
+      "official_entry": "12   楓橋夜泊",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_12_text.pdf",
+      "article_path": "articles/hk-ks2-12.json"
+    },
+    {
+      "article_id": "hk-ks2-13",
+      "stage": 2,
+      "official_entry": "13   江雪",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_13_text.pdf",
+      "article_path": "articles/hk-ks2-13.json"
+    },
+    {
+      "article_id": "hk-ks2-14",
+      "stage": 2,
+      "official_entry": "14   山行",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_14_text.pdf",
+      "article_path": "articles/hk-ks2-14.json"
+    },
+    {
+      "article_id": "hk-ks2-15",
+      "stage": 2,
+      "official_entry": "15   泊船瓜洲",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_15_text.pdf",
+      "article_path": "articles/hk-ks2-15.json"
+    },
+    {
+      "article_id": "hk-ks2-17",
+      "stage": 2,
+      "official_entry": "16   題西林壁",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_17_text.pdf",
+      "article_path": "articles/hk-ks2-17.json"
+    },
+    {
+      "article_id": "hk-ks2-16",
+      "stage": 2,
+      "official_entry": "17 曉出淨慈寺送林子方",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_16_text.pdf",
+      "article_path": "articles/hk-ks2-16.json"
+    },
+    {
+      "article_id": "hk-ks2-18",
+      "stage": 2,
+      "official_entry": "18   石灰吟",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_18_text.pdf",
+      "article_path": "articles/hk-ks2-18.json"
+    },
+    {
+      "article_id": "hk-ks2-19",
+      "stage": 2,
+      "official_entry": "19   明日歌",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_19_text.pdf",
+      "article_path": "articles/hk-ks2-19.json"
+    },
+    {
+      "article_id": "hk-ks3-05a",
+      "stage": 3,
+      "official_entry": "行行重行行",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05a_text.pdf",
+      "article_path": "articles/hk-ks3-05a.json"
+    },
+    {
+      "article_id": "hk-ks3-05b",
+      "stage": 3,
+      "official_entry": "迢迢牽牛星",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05b_text.pdf",
+      "article_path": "articles/hk-ks3-05b.json"
+    },
+    {
+      "article_id": "hk-ks3-08",
+      "stage": 3,
+      "official_entry": "8   木蘭詩",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_08_text.pdf",
+      "article_path": "articles/hk-ks3-08.json"
+    },
+    {
+      "article_id": "hk-ks3-09",
+      "stage": 3,
+      "official_entry": "9   送杜少府之任蜀州",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_09_text.pdf",
+      "article_path": "articles/hk-ks3-09.json"
+    },
+    {
+      "article_id": "hk-ks3-10",
+      "stage": 3,
+      "official_entry": "10   兵車行",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_10_text.pdf",
+      "article_path": "articles/hk-ks3-10.json"
+    },
+    {
+      "article_id": "hk-ks3-11a",
+      "stage": 3,
+      "official_entry": "燕詩",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11a_text.pdf",
+      "article_path": "articles/hk-ks3-11a.json"
+    },
+    {
+      "article_id": "hk-ks3-11b",
+      "stage": 3,
+      "official_entry": "慈烏夜啼",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11b_text.pdf",
+      "article_path": "articles/hk-ks3-11b.json"
+    },
+    {
+      "article_id": "hk-ks3-13",
+      "stage": 3,
+      "official_entry": "13  虞美人 (春花秋月何時了)",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_13_text.pdf",
+      "article_path": "articles/hk-ks3-13.json"
+    },
+    {
+      "article_id": "hk-ks3-17",
+      "stage": 3,
+      "official_entry": "17   水調歌頭並序（明月幾時有）",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_17_text.pdf",
+      "article_path": "articles/hk-ks3-17.json"
+    },
+    {
+      "article_id": "hk-ks3-18",
+      "stage": 3,
+      "official_entry": "18   滿江紅（怒髮衝冠）",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_18_text.pdf",
+      "article_path": "articles/hk-ks3-18.json"
+    },
+    {
+      "article_id": "hk-ks3-19",
+      "stage": 3,
+      "official_entry": "19   天淨沙 秋思",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_19_text.pdf",
+      "article_path": "articles/hk-ks3-19.json"
+    },
+    {
+      "article_id": "hk-ks4-01",
+      "stage": 4,
+      "official_entry": "1    國風．關雎",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_01_text.pdf",
+      "article_path": "articles/hk-ks4-01.json"
+    },
+    {
+      "article_id": "hk-ks4-11",
+      "stage": 4,
+      "official_entry": "11   飲酒（其五）（結廬在人境）",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_11_text.pdf",
+      "article_path": "articles/hk-ks4-11.json"
+    },
+    {
+      "article_id": "hk-ks4-16a",
+      "stage": 4,
+      "official_entry": "山居秋暝*",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16a_text.pdf",
+      "article_path": "articles/hk-ks4-16a.json"
+    },
+    {
+      "article_id": "hk-ks4-16b",
+      "stage": 4,
+      "official_entry": "月下獨酌（其一）*",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16b_text.pdf",
+      "article_path": "articles/hk-ks4-16b.json"
+    },
+    {
+      "article_id": "hk-ks4-16c",
+      "stage": 4,
+      "official_entry": "登樓*",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16c_text.pdf",
+      "article_path": "articles/hk-ks4-16c.json"
+    },
+    {
+      "article_id": "hk-ks4-17a",
+      "stage": 4,
+      "official_entry": "念奴嬌 赤壁懷古 ( 大江東去 ) *",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17a_text.pdf",
+      "article_path": "articles/hk-ks4-17a.json"
+    },
+    {
+      "article_id": "hk-ks4-17b",
+      "stage": 4,
+      "official_entry": "聲聲慢 秋情 ( 尋尋覓覓 ) *",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17b_text.pdf",
+      "article_path": "articles/hk-ks4-17b.json"
+    },
+    {
+      "article_id": "hk-ks4-17c",
+      "stage": 4,
+      "official_entry": "青玉案 元夕 ( 東風夜放花千樹 ) *",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17c_text.pdf",
+      "article_path": "articles/hk-ks4-17c.json"
+    },
+    {
+      "article_id": "hk-ks4-18a",
+      "stage": 4,
+      "official_entry": "四塊玉 閒適 ( 南畝耕 )",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18a_text.pdf",
+      "article_path": "articles/hk-ks4-18a.json"
+    },
+    {
+      "article_id": "hk-ks4-18b",
+      "stage": 4,
+      "official_entry": "沉醉東風 漁父詞",
+      "official_text_url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18b_text.pdf",
+      "article_path": "articles/hk-ks4-18b.json"
+    }
+  ],
+  "excluded_non_poetry": {
+    "1": [
+      "守株待兔",
+      "孟母戒子"
+    ],
+    "2": [
+      "论语四则",
+      "二子学弈",
+      "郑人买履",
+      "鹬蚌相争",
+      "折箭",
+      "朱子家训（节录）"
+    ],
+    "3": [
+      "论四端",
+      "大同与小康",
+      "愚公移山",
+      "邹忌讽齐王纳谏",
+      "桃花源记",
+      "世说新语两则",
+      "陋室铭",
+      "卖油翁",
+      "爱莲说",
+      "伤仲永",
+      "岳飞之少年时代",
+      "杨修之死",
+      "卖柑者言",
+      "为学",
+      "猫捕雀",
+      "习惯说"
+    ],
+    "4": [
+      "曹刿论战",
+      "论仁、论孝、论君子",
+      "鱼我所欲也",
+      "逍遥游",
+      "劝学",
+      "大学",
+      "廉颇蔺相如列传",
+      "出师表",
+      "陈情表",
+      "师说",
+      "始得西山宴游记",
+      "岳阳楼记",
+      "六国论",
+      "满井游记",
+      "左忠毅公轶事"
+    ]
+  }
+}

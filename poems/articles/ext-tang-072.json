@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-072",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "赤壁",
+    "zh-Hans": "赤壁"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-f66c94d9050d",
+  "author_file": "../author/author-f66c94d9050d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-f66c94d9050d",
+    "name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐詩人，字牧之，擅長七言絕句與詠史詩。",
+        "zh-Hans": "晚唐诗人，字牧之，擅长七言绝句与咏史诗。"
+      },
+      "full": {
+        "zh-Hant": "杜牧（803—852），字牧之，京兆萬年人，晚唐詩人和散文家，與李商隱並稱小李杜。他曾任地方官及幕府職務，關心政治軍事，也善寫山水、送別和個人情懷。七言絕句是其突出的創作領域，語言俊爽，常在短篇中結合鮮明景象與歷史思考。《山行》寫深秋的明麗，《赤壁》《泊秦淮》則借古蹟和樂曲反思興亡。讀杜詩，可比較寫景中的欣賞與懷古中的諷喻如何各具語氣。",
+        "zh-Hans": "杜牧（803—852），字牧之，京兆万年人，晚唐诗人和散文家，与李商隐并称小李杜。他曾任地方官及幕府职务，关心政治军事，也善写山水、送别和个人情怀。七言绝句是其突出的创作领域，语言俊爽，常在短篇中结合鲜明景象与历史思考。《山行》写深秋的明丽，《赤壁》《泊秦淮》则借古迹和乐曲反思兴亡。读杜诗，可比较写景中的欣赏与怀古中的讽喻如何各具语气。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 清明賞析",
+          "zh-Hans": "香港教育局 · 清明赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "折戟沉沙鐵未銷，自將磨洗認前朝。東風不與周郎便，銅雀春深鎖二喬。",
+    "zh-Hans": "折戟沉沙铁未销，自将磨洗认前朝。东风不与周郎便，铜雀春深锁二乔。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-072-l001",
+      "text": {
+        "zh-Hant": "折戟沉沙鐵未銷，",
+        "zh-Hans": "折戟沉沙铁未销，"
+      }
+    },
+    {
+      "id": "ext-tang-072-l002",
+      "text": {
+        "zh-Hant": "自將磨洗認前朝。",
+        "zh-Hans": "自将磨洗认前朝。"
+      }
+    },
+    {
+      "id": "ext-tang-072-l003",
+      "text": {
+        "zh-Hant": "東風不與周郎便，",
+        "zh-Hans": "东风不与周郎便，"
+      }
+    },
+    {
+      "id": "ext-tang-072-l004",
+      "text": {
+        "zh-Hant": "銅雀春深鎖二喬。",
+        "zh-Hans": "铜雀春深锁二乔。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-072-w001",
+      "term": {
+        "zh-Hant": "折戟",
+        "zh-Hans": "折戟"
+      },
+      "definition": {
+        "zh-Hant": "折斷的戟，古代兵器。",
+        "zh-Hans": "折断的戟，古代兵器。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-072-w002",
+      "term": {
+        "zh-Hant": "銷",
+        "zh-Hans": "销"
+      },
+      "definition": {
+        "zh-Hant": "銷蝕。",
+        "zh-Hans": "销蚀。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l001",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l001",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-072-w003",
+      "term": {
+        "zh-Hant": "周郎",
+        "zh-Hans": "周郎"
+      },
+      "definition": {
+        "zh-Hant": "周瑜。",
+        "zh-Hans": "周瑜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-072-w004",
+      "term": {
+        "zh-Hant": "銅雀",
+        "zh-Hans": "铜雀"
+      },
+      "definition": {
+        "zh-Hant": "曹操所建銅雀台。",
+        "zh-Hans": "曹操所建铜雀台。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-072-w005",
+      "term": {
+        "zh-Hant": "二喬",
+        "zh-Hans": "二乔"
+      },
+      "definition": {
+        "zh-Hant": "大喬與小喬。",
+        "zh-Hans": "大乔与小乔。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-072-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "鏁",
+      "to": "鎖"
+    },
+    {
+      "from": "沈",
+      "to": "沉"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 72
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

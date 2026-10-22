@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-da27f57ba054",
+  "name": {
+    "zh-Hant": "姜夔",
+    "zh-Hans": "姜夔"
+  },
+  "catalog_name": {
+    "zh-Hant": "姜夔",
+    "zh-Hans": "姜夔"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "南宋詞人、音樂家，號白石道人，詞風清雅。",
+      "zh-Hans": "南宋词人、音乐家，号白石道人，词风清雅。"
+    },
+    "full": {
+      "zh-Hant": "姜夔，字堯章，號白石道人，南宋鄱陽人，生卒年一般作約1155至約1221。他長期遊歷江淮及江南，未顯達於仕途，擅詩詞、書法和音樂，能夠自己譜曲。《白石道人歌曲》保存了部分詞作的樂譜，具有重要音樂史價值。其詞善於營造清幽空靈的意境，也有對現實的深切感慨。《揚州慢》面對戰後揚州，以昔日繁華和眼前荒涼相對照，使寫景同時成為對戰爭創傷的思考。",
+      "zh-Hans": "姜夔，字尧章，号白石道人，南宋鄱阳人，生卒年一般作约1155至约1221。他长期游历江淮及江南，未显达于仕途，擅诗词、书法和音乐，能够自己谱曲。《白石道人歌曲》保存了部分词作的乐谱，具有重要音乐史价值。其词善于营造清幽空灵的意境，也有对现实的深切感慨。《扬州慢》面对战后扬州，以昔日繁华和眼前荒凉相对照，使写景同时成为对战争创伤的思考。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 6
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

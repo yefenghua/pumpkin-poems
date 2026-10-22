@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-317c63d2af82",
+  "name": {
+    "zh-Hant": "張九齡",
+    "zh-Hans": "张九龄"
+  },
+  "catalog_name": {
+    "zh-Hant": "張九齡",
+    "zh-Hans": "张九龄"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代政治家、詩人，詩歌清雅，常寄託品格與抱負。",
+      "zh-Hans": "唐代政治家、诗人，诗歌清雅，常寄托品格与抱负。"
+    },
+    "full": {
+      "zh-Hant": "張九齡（678—740），字子壽，韶州曲江人，唐代政治家、詩人，曾在唐玄宗時期任宰相，後罷相外任。他重視人才與諫諍，作品中常見對品格、政治理想和人生遭遇的思考。《感遇》善借草木比興，《望月懷遠》則由海上明月寫遠方思念，語言清朗而感情深厚。其詩承接初唐而開啓盛唐風氣，學習時可以比較詠物寓志與直接抒情兩種方式如何表達內在心志。",
+      "zh-Hans": "张九龄（678—740），字子寿，韶州曲江人，唐代政治家、诗人，曾在唐玄宗时期任宰相，后罢相外任。他重视人才与谏诤，作品中常见对品格、政治理想和人生遭遇的思考。《感遇》善借草木比兴，《望月怀远》则由海上明月写远方思念，语言清朗而感情深厚。其诗承接初唐而开启盛唐风气，学习时可以比较咏物寓志与直接抒情两种方式如何表达内在心志。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 149
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

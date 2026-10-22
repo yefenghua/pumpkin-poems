@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-14",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "金縷衣",
+    "zh-Hans": "金缕衣"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-1cd7d28db4a2",
+  "author_file": "../author/author-1cd7d28db4a2.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1cd7d28db4a2",
+    "name": {
+      "zh-Hant": "杜秋娘",
+      "zh-Hans": "杜秋娘"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜秋娘",
+      "zh-Hans": "杜秋娘"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代歌者，《金縷衣》傳統上常署其名，作者歸屬存有異説。",
+        "zh-Hans": "唐代歌者，《金缕衣》传统上常署其名，作者归属存有异说。"
+      },
+      "full": {
+        "zh-Hant": "杜秋娘是唐代歌者，主要生平見杜牧《杜秋娘詩》及其序等材料，確切生卒年不詳。她曾由地方進入宮廷，後來境遇轉變。廣為傳唱的《金縷衣》在傳統選本中常署杜秋娘，但歌唱者與詞句最初作者未必相同，作品也有作無名氏等説法。本庫沿用香港教育局參考版本的署名，並記錄爭議。介紹時以可考的傳播關係為主，不把傳奇細節或不確定的創作身份寫成定論。",
+        "zh-Hans": "杜秋娘是唐代歌者，主要生平见杜牧《杜秋娘诗》及其序等材料，确切生卒年不详。她曾由地方进入宫廷，后来境遇转变。广为传唱的《金缕衣》在传统选本中常署杜秋娘，但歌唱者与词句最初作者未必相同，作品也有作无名氏等说法。本库沿用香港教育局参考版本的署名，并记录争议。介绍时以可考的传播关系为主，不把传奇细节或不确定的创作身份写成定论。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 金縷衣賞析",
+          "zh-Hans": "香港教育局 · 金缕衣赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "勸君莫惜金縷衣，勸君惜取少年時！花開堪折直須折，莫待無花空折枝。",
+    "zh-Hans": "劝君莫惜金缕衣，劝君惜取少年时！花开堪折直须折，莫待无花空折枝。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-14-l001",
+      "text": {
+        "zh-Hant": "勸君莫惜金縷衣，",
+        "zh-Hans": "劝君莫惜金缕衣，"
+      }
+    },
+    {
+      "id": "hk-ks1-14-l002",
+      "text": {
+        "zh-Hant": "勸君惜取少年時！",
+        "zh-Hans": "劝君惜取少年时！"
+      }
+    },
+    {
+      "id": "hk-ks1-14-l003",
+      "text": {
+        "zh-Hant": "花開堪折直須折，",
+        "zh-Hans": "花开堪折直须折，"
+      }
+    },
+    {
+      "id": "hk-ks1-14-l004",
+      "text": {
+        "zh-Hant": "莫待無花空折枝。",
+        "zh-Hans": "莫待无花空折枝。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-14-w001",
+      "term": {
+        "zh-Hant": "金縷衣",
+        "zh-Hans": "金缕衣"
+      },
+      "definition": {
+        "zh-Hant": "用金線裝飾的華貴衣服。",
+        "zh-Hans": "用金线装饰的华贵衣服。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l001",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l001",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-14-w002",
+      "term": {
+        "zh-Hant": "惜取",
+        "zh-Hans": "惜取"
+      },
+      "definition": {
+        "zh-Hant": "珍惜。",
+        "zh-Hans": "珍惜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-14-w003",
+      "term": {
+        "zh-Hant": "堪",
+        "zh-Hans": "堪"
+      },
+      "definition": {
+        "zh-Hant": "可以。",
+        "zh-Hans": "可以。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l003",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l003",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-14-w004",
+      "term": {
+        "zh-Hant": "直須",
+        "zh-Hans": "直须"
+      },
+      "definition": {
+        "zh-Hant": "就應當。",
+        "zh-Hans": "就应当。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-14-w005",
+      "term": {
+        "zh-Hant": "空",
+        "zh-Hans": "空"
+      },
+      "definition": {
+        "zh-Hant": "徒然、白白地。",
+        "zh-Hans": "徒然、白白地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l004",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-14-l004",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "依教育局署杜秋娘；另有無名氏等歸屬説法，歌唱者與最初作者可能不同。",
+      "zh-Hans": "依教育局署杜秋娘；另有无名氏等归属说法，歌唱者与最初作者可能不同。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 金縷衣原文",
+        "zh-Hans": "香港教育局 · 金缕衣原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "5d5ed663febd7f4f542264d8928c63f88162e60a2c206080bbaec7fbb15fc9f0"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 金縷衣賞析",
+        "zh-Hans": "香港教育局 · 金缕衣赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

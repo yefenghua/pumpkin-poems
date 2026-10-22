@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-282",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "寒食",
+    "zh-Hans": "寒食"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-fc3d5e6a6cc9",
+  "author_file": "../author/author-fc3d5e6a6cc9.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-fc3d5e6a6cc9",
+    "name": {
+      "zh-Hant": "韓翃",
+      "zh-Hans": "韩翃"
+    },
+    "catalog_name": {
+      "zh-Hant": "韓翃",
+      "zh-Hans": "韩翃"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，大曆十才子之一，以《寒食》著名。",
+        "zh-Hans": "唐代诗人，大历十才子之一，以《寒食》著名。"
+      },
+      "full": {
+        "zh-Hant": "韓翃，字君平，南陽人，唐代詩人，主要活動於八世紀中後期，生卒年不詳。他曾任幕府及朝廷職務，與盧綸、錢起等並稱大曆十才子。其詩多寫送別和都市生活，語言精緻，善於通過景物呈現人物處境。《寒食》由長安春景轉向宮中賜火、權貴受寵，短短四句具有鮮明層次。讀詩時既可瞭解節令習俗，也可討論畫面選擇所包含的觀察；相關愛情傳奇不應直接等同於確證生平。",
+        "zh-Hans": "韩翃，字君平，南阳人，唐代诗人，主要活动于八世纪中后期，生卒年不详。他曾任幕府及朝廷职务，与卢纶、钱起等并称大历十才子。其诗多写送别和都市生活，语言精致，善于通过景物呈现人物处境。《寒食》由长安春景转向宫中赐火、权贵受宠，短短四句具有鲜明层次。读诗时既可了解节令习俗，也可讨论画面选择所包含的观察；相关爱情传奇不应直接等同于确证生平。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 172
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "春城無處不飛花，寒食東風御柳斜。日暮漢宮傳蠟燭，輕煙散入五侯家。",
+    "zh-Hans": "春城无处不飞花，寒食东风御柳斜。日暮汉宫传蜡烛，轻烟散入五侯家。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-282-l001",
+      "text": {
+        "zh-Hant": "春城無處不飛花，",
+        "zh-Hans": "春城无处不飞花，"
+      }
+    },
+    {
+      "id": "ext-tang-282-l002",
+      "text": {
+        "zh-Hant": "寒食東風御柳斜。",
+        "zh-Hans": "寒食东风御柳斜。"
+      }
+    },
+    {
+      "id": "ext-tang-282-l003",
+      "text": {
+        "zh-Hant": "日暮漢宮傳蠟燭，",
+        "zh-Hans": "日暮汉宫传蜡烛，"
+      }
+    },
+    {
+      "id": "ext-tang-282-l004",
+      "text": {
+        "zh-Hant": "輕煙散入五侯家。",
+        "zh-Hans": "轻烟散入五侯家。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-282-w001",
+      "term": {
+        "zh-Hant": "春城",
+        "zh-Hans": "春城"
+      },
+      "definition": {
+        "zh-Hant": "春日的長安城。",
+        "zh-Hans": "春日的长安城。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-282-w002",
+      "term": {
+        "zh-Hant": "寒食",
+        "zh-Hans": "寒食"
+      },
+      "definition": {
+        "zh-Hant": "清明前後禁火吃冷食的節日。",
+        "zh-Hans": "清明前后禁火吃冷食的节日。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-282-w003",
+      "term": {
+        "zh-Hant": "御柳",
+        "zh-Hans": "御柳"
+      },
+      "definition": {
+        "zh-Hant": "皇家苑囿的柳樹。",
+        "zh-Hans": "皇家苑囿的柳树。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-282-w004",
+      "term": {
+        "zh-Hant": "五侯",
+        "zh-Hans": "五侯"
+      },
+      "definition": {
+        "zh-Hant": "借漢代典故指受寵的權貴。",
+        "zh-Hans": "借汉代典故指受宠的权贵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l004",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-282-l004",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 282
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

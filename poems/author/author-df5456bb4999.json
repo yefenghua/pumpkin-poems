@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-df5456bb4999",
+  "name": {
+    "zh-Hant": "劉方平",
+    "zh-Hans": "刘方平"
+  },
+  "catalog_name": {
+    "zh-Hant": "劉方平",
+    "zh-Hans": "刘方平"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，善以清新細節描寫自然和人物情思。",
+      "zh-Hans": "唐代诗人，善以清新细节描写自然和人物情思。"
+    },
+    "full": {
+      "zh-Hant": "劉方平是唐代詩人，河南洛陽一帶人，具體生卒年不詳。現有史料對其生平記載有限，通常認為他未以顯著仕宦經歷聞名，不能據此補寫確切官職和年表。他的傳世詩數量不多，以短篇見長，語言清淡細緻，常從月色、蟲聲、花影等尋常景物中發現微妙變化。《月夜》通過夜深時新傳來的蟲鳴寫早春氣息，《春怨》則借庭院落花表達人物孤寂，體現含蓄的抒情方式。",
+      "zh-Hans": "刘方平是唐代诗人，河南洛阳一带人，具体生卒年不详。现有史料对其生平记载有限，通常认为他未以显著仕宦经历闻名，不能据此补写确切官职和年表。他的传世诗数量不多，以短篇见长，语言清淡细致，常从月色、虫声、花影等寻常景物中发现微妙变化。《月夜》通过夜深时新传来的虫鸣写早春气息，《春怨》则借庭院落花表达人物孤寂，体现含蓄的抒情方式。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 109
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

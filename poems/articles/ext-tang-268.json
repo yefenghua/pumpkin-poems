@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-268",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "烏衣巷",
+    "zh-Hans": "乌衣巷"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-8c0945ba0b6c",
+  "author_file": "../author/author-8c0945ba0b6c.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-8c0945ba0b6c",
+    "name": {
+      "zh-Hant": "劉禹錫",
+      "zh-Hans": "刘禹锡"
+    },
+    "catalog_name": {
+      "zh-Hant": "劉禹錫",
+      "zh-Hans": "刘禹锡"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、文學家，作品常把歷史思考與鮮活生活結合。",
+        "zh-Hans": "唐代诗人、文学家，作品常把历史思考与鲜活生活结合。"
+      },
+      "full": {
+        "zh-Hant": "劉禹錫（772—842），字夢得，唐代文學家，曾參與永貞革新，失敗後長期遭貶。他與柳宗元、白居易等有交往，詩文均有重要成就。詩歌語言凝練，善寫民歌風味的竹枝詞，也以詠史懷古詩見長。《烏衣巷》借燕子出入尋常人家，表現昔日門第繁華的變遷。他的作品既能傳達逆境中的堅韌，也善於從具體景物中提出對歷史與人生的觀察，適合與同題懷古作品比較閲讀。",
+        "zh-Hans": "刘禹锡（772—842），字梦得，唐代文学家，曾参与永贞革新，失败后长期遭贬。他与柳宗元、白居易等有交往，诗文均有重要成就。诗歌语言凝练，善写民歌风味的竹枝词，也以咏史怀古诗见长。《乌衣巷》借燕子出入寻常人家，表现昔日门第繁华的变迁。他的作品既能传达逆境中的坚韧，也善于从具体景物中提出对历史与人生的观察，适合与同题怀古作品比较阅读。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 237
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "朱雀橋邊野草花，烏衣巷口夕陽斜。舊時王謝堂前燕，飛入尋常百姓家。",
+    "zh-Hans": "朱雀桥边野草花，乌衣巷口夕阳斜。旧时王谢堂前燕，飞入寻常百姓家。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-268-l001",
+      "text": {
+        "zh-Hant": "朱雀橋邊野草花，",
+        "zh-Hans": "朱雀桥边野草花，"
+      }
+    },
+    {
+      "id": "ext-tang-268-l002",
+      "text": {
+        "zh-Hant": "烏衣巷口夕陽斜。",
+        "zh-Hans": "乌衣巷口夕阳斜。"
+      }
+    },
+    {
+      "id": "ext-tang-268-l003",
+      "text": {
+        "zh-Hant": "舊時王謝堂前燕，",
+        "zh-Hans": "旧时王谢堂前燕，"
+      }
+    },
+    {
+      "id": "ext-tang-268-l004",
+      "text": {
+        "zh-Hant": "飛入尋常百姓家。",
+        "zh-Hans": "飞入寻常百姓家。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-268-w001",
+      "term": {
+        "zh-Hant": "朱雀橋",
+        "zh-Hans": "朱雀桥"
+      },
+      "definition": {
+        "zh-Hant": "東晉建康秦淮河上的橋。",
+        "zh-Hans": "东晋建康秦淮河上的桥。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l001",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l001",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-268-w002",
+      "term": {
+        "zh-Hant": "烏衣巷",
+        "zh-Hans": "乌衣巷"
+      },
+      "definition": {
+        "zh-Hant": "建康舊時貴族聚居的街巷。",
+        "zh-Hans": "建康旧时贵族聚居的街巷。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l002",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l002",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-268-w003",
+      "term": {
+        "zh-Hant": "王謝",
+        "zh-Hans": "王谢"
+      },
+      "definition": {
+        "zh-Hant": "東晉王導、謝安兩大家族。",
+        "zh-Hans": "东晋王导、谢安两大家族。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-268-w004",
+      "term": {
+        "zh-Hant": "尋常",
+        "zh-Hans": "寻常"
+      },
+      "definition": {
+        "zh-Hant": "普通的。",
+        "zh-Hans": "普通的。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-268-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 268
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

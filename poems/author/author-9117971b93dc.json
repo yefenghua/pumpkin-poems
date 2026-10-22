@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-9117971b93dc",
+  "name": {
+    "zh-Hant": "祖詠",
+    "zh-Hans": "祖咏"
+  },
+  "catalog_name": {
+    "zh-Hant": "祖詠",
+    "zh-Hans": "祖咏"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，《終南望餘雪》以精練的雪景描寫著名。",
+      "zh-Hans": "唐代诗人，《终南望余雪》以精练的雪景描写著名。"
+    },
+    "full": {
+      "zh-Hant": "祖詠，洛陽人，唐代詩人，主要生活於八世紀前期，生卒年不詳。他曾登進士第，與王維等有交往，傳世詩作數量有限，常寫山水、隱居和旅途景色。《終南望餘雪》從山嶺積雪寫到夕陽與城中寒意，以遠近和明暗變化營造完整畫面。關於應試只作四句便稱意盡的故事在後世廣泛流傳，作為文學掌故可以介紹，但不應據此添加無法證實的考試細節與心理活動。",
+      "zh-Hans": "祖咏，洛阳人，唐代诗人，主要生活于八世纪前期，生卒年不详。他曾登进士第，与王维等有交往，传世诗作数量有限，常写山水、隐居和旅途景色。《终南望余雪》从山岭积雪写到夕阳与城中寒意，以远近和明暗变化营造完整画面。关于应试只作四句便称意尽的故事在后世广泛流传，作为文学掌故可以介绍，但不应据此添加无法证实的考试细节与心理活动。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 606
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

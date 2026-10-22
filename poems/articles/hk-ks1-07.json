@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-07",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "登鸛鵲樓",
+    "zh-Hans": "登鹳鹊楼"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-49eb7bc0295e",
+  "author_file": "../author/author-49eb7bc0295e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-49eb7bc0295e",
+    "name": {
+      "zh-Hant": "王之渙",
+      "zh-Hans": "王之涣"
+    },
+    "catalog_name": {
+      "zh-Hant": "王之渙",
+      "zh-Hans": "王之涣"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "盛唐詩人，以境界開闊的《登鸛鵲樓》《涼州詞》著名。",
+        "zh-Hans": "盛唐诗人，以境界开阔的《登鹳鹊楼》《凉州词》著名。"
+      },
+      "full": {
+        "zh-Hant": "王之渙（688—742），字季凌，唐代詩人，曾任地方小官，現存詩篇不多，卻有多首廣泛傳誦。他的作品常以黃河、遠山、關塞等景象形成開闊視野，語句簡潔，情感有力。《登鸛鵲樓》從登高遠望引出不斷進取的啓發，《涼州詞》則借孤城、羌笛與玉門關寫邊地處境。傳世版本存在個別字句差別，學習時應先辨明所用底本，再比較異文帶來的畫面變化。",
+        "zh-Hans": "王之涣（688—742），字季凌，唐代诗人，曾任地方小官，现存诗篇不多，却有多首广泛传诵。他的作品常以黄河、远山、关塞等景象形成开阔视野，语句简洁，情感有力。《登鹳鹊楼》从登高远望引出不断进取的启发，《凉州词》则借孤城、羌笛与玉门关写边地处境。传世版本存在个别字句差别，学习时应先辨明所用底本，再比较异文带来的画面变化。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 登鸛鵲樓賞析",
+          "zh-Hans": "香港教育局 · 登鹳鹊楼赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "白日依山盡，黃河入海流。欲窮千里目，更上一層樓。",
+    "zh-Hans": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-07-l001",
+      "text": {
+        "zh-Hant": "白日依山盡，",
+        "zh-Hans": "白日依山尽，"
+      }
+    },
+    {
+      "id": "hk-ks1-07-l002",
+      "text": {
+        "zh-Hant": "黃河入海流。",
+        "zh-Hans": "黄河入海流。"
+      }
+    },
+    {
+      "id": "hk-ks1-07-l003",
+      "text": {
+        "zh-Hant": "欲窮千里目，",
+        "zh-Hans": "欲穷千里目，"
+      }
+    },
+    {
+      "id": "hk-ks1-07-l004",
+      "text": {
+        "zh-Hant": "更上一層樓。",
+        "zh-Hans": "更上一层楼。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-07-w001",
+      "term": {
+        "zh-Hant": "依",
+        "zh-Hans": "依"
+      },
+      "definition": {
+        "zh-Hant": "靠着、沿着。",
+        "zh-Hans": "靠着、沿着。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l001",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l001",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-07-w002",
+      "term": {
+        "zh-Hant": "盡",
+        "zh-Hans": "尽"
+      },
+      "definition": {
+        "zh-Hant": "消失，指太陽落到山後。",
+        "zh-Hans": "消失，指太阳落到山后。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l001",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l001",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-07-w003",
+      "term": {
+        "zh-Hant": "欲",
+        "zh-Hans": "欲"
+      },
+      "definition": {
+        "zh-Hant": "想要。",
+        "zh-Hans": "想要。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-07-w004",
+      "term": {
+        "zh-Hant": "窮",
+        "zh-Hans": "穷"
+      },
+      "definition": {
+        "zh-Hant": "盡，看到最遠處。",
+        "zh-Hans": "尽，看到最远处。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-07-w005",
+      "term": {
+        "zh-Hant": "千里目",
+        "zh-Hans": "千里目"
+      },
+      "definition": {
+        "zh-Hant": "極目遠望的視野。",
+        "zh-Hans": "极目远望的视野。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-07-l003",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 登鸛鵲樓原文",
+        "zh-Hans": "香港教育局 · 登鹳鹊楼原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "e9ca360d710510e5323c8d71b9e81bbbb9e8e9aa9db502a75d2e32564fdd89dc"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 登鸛鵲樓賞析",
+        "zh-Hans": "香港教育局 · 登鹳鹊楼赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

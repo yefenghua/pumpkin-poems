@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-968e2dc1b7f3",
+  "name": {
+    "zh-Hant": "盧綸",
+    "zh-Hans": "卢纶"
+  },
+  "catalog_name": {
+    "zh-Hant": "盧綸",
+    "zh-Hans": "卢纶"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，大曆十才子之一，邊塞絕句尤其著名。",
+      "zh-Hans": "唐代诗人，大历十才子之一，边塞绝句尤其著名。"
+    },
+    "full": {
+      "zh-Hant": "盧綸，字允言，河中蒲州人，唐代詩人，生卒年有不同説法。他經歷安史之亂後的動盪，曾在官府及軍中任職，與錢起等並稱大曆十才子。作品包含送別、寫景與邊塞題材，短篇往往以動作和場景製造強烈印象。《塞下曲》組詩中的夜射與雪夜追敵兩首，分別運用典故和緊張畫面寫將士。學習時應區分詩歌的藝術誇張、歷史典故與真實戰事記錄，不能直接等同。",
+      "zh-Hans": "卢纶，字允言，河中蒲州人，唐代诗人，生卒年有不同说法。他经历安史之乱后的动荡，曾在官府及军中任职，与钱起等并称大历十才子。作品包含送别、写景与边塞题材，短篇往往以动作和场景制造强烈印象。《塞下曲》组诗中的夜射与雪夜追敌两首，分别运用典故和紧张画面写将士。学习时应区分诗歌的艺术夸张、历史典故与真实战事记录，不能直接等同。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 215
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

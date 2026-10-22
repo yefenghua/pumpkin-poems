@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-13",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "江雪",
+    "zh-Hans": "江雪"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-9b9a59036ffc",
+  "author_file": "../author/author-9b9a59036ffc.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-9b9a59036ffc",
+    "name": {
+      "zh-Hant": "柳宗元",
+      "zh-Hans": "柳宗元"
+    },
+    "catalog_name": {
+      "zh-Hant": "柳宗元",
+      "zh-Hans": "柳宗元"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代文學家，字子厚，山水詩文清峻深刻。",
+        "zh-Hans": "唐代文学家，字子厚，山水诗文清峻深刻。"
+      },
+      "full": {
+        "zh-Hant": "柳宗元（773—819），字子厚，河東人，唐代文學家、思想家，唐宋八大家之一。他參與永貞革新，失敗後被貶永州，後來任柳州刺史。山水遊記、寓言與詩歌是其重要創作領域，常把對現實和身世的感受寄寓自然景象之中。《江雪》以極少字句構成空寂雪境，《漁翁》通過夜宿、汲水和行舟寫清遠意趣。作品中的幽靜不只是風景，也與人在困境中的精神選擇相聯繫。",
+        "zh-Hans": "柳宗元（773—819），字子厚，河东人，唐代文学家、思想家，唐宋八大家之一。他参与永贞革新，失败后被贬永州，后来任柳州刺史。山水游记、寓言与诗歌是其重要创作领域，常把对现实和身世的感受寄寓自然景象之中。《江雪》以极少字句构成空寂雪境，《渔翁》通过夜宿、汲水和行舟写清远意趣。作品中的幽静不只是风景，也与人在困境中的精神选择相联系。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 江雪賞析",
+          "zh-Hans": "香港教育局 · 江雪赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_13.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "千山鳥飛絕，萬徑人蹤滅。孤舟蓑笠翁，獨釣寒江雪。",
+    "zh-Hans": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-13-l001",
+      "text": {
+        "zh-Hant": "千山鳥飛絕，",
+        "zh-Hans": "千山鸟飞绝，"
+      }
+    },
+    {
+      "id": "hk-ks2-13-l002",
+      "text": {
+        "zh-Hant": "萬徑人蹤滅。",
+        "zh-Hans": "万径人踪灭。"
+      }
+    },
+    {
+      "id": "hk-ks2-13-l003",
+      "text": {
+        "zh-Hant": "孤舟蓑笠翁，",
+        "zh-Hans": "孤舟蓑笠翁，"
+      }
+    },
+    {
+      "id": "hk-ks2-13-l004",
+      "text": {
+        "zh-Hant": "獨釣寒江雪。",
+        "zh-Hans": "独钓寒江雪。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-13-w001",
+      "term": {
+        "zh-Hant": "絕",
+        "zh-Hans": "绝"
+      },
+      "definition": {
+        "zh-Hant": "斷絕、沒有。",
+        "zh-Hans": "断绝、没有。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l001",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l001",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-13-w002",
+      "term": {
+        "zh-Hant": "徑",
+        "zh-Hans": "径"
+      },
+      "definition": {
+        "zh-Hant": "小路。",
+        "zh-Hans": "小路。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l002",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l002",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-13-w003",
+      "term": {
+        "zh-Hant": "人蹤",
+        "zh-Hans": "人踪"
+      },
+      "definition": {
+        "zh-Hant": "人的蹤跡。",
+        "zh-Hans": "人的踪迹。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-13-w004",
+      "term": {
+        "zh-Hant": "蓑笠",
+        "zh-Hans": "蓑笠"
+      },
+      "definition": {
+        "zh-Hant": "蓑衣與斗笠，古人用來遮雨雪。",
+        "zh-Hans": "蓑衣与斗笠，古人用来遮雨雪。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-13-w005",
+      "term": {
+        "zh-Hant": "翁",
+        "zh-Hans": "翁"
+      },
+      "definition": {
+        "zh-Hant": "老人。",
+        "zh-Hans": "老人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-13-w006",
+      "term": {
+        "zh-Hant": "獨",
+        "zh-Hans": "独"
+      },
+      "definition": {
+        "zh-Hant": "獨自。",
+        "zh-Hans": "独自。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l004",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-13-l004",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 江雪原文",
+        "zh-Hans": "香港教育局 · 江雪原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_13_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "994e4231657eae6f92c9d12dc0730afc58977e1f0c43e0af518c0368fb8884cd"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 江雪賞析",
+        "zh-Hans": "香港教育局 · 江雪赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_13.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-ceda45b56c2f",
+  "name": {
+    "zh-Hant": "于謙",
+    "zh-Hans": "于谦"
+  },
+  "catalog_name": {
+    "zh-Hant": "于謙",
+    "zh-Hans": "于谦"
+  },
+  "dynasty": {
+    "zh-Hant": "明",
+    "zh-Hans": "明"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "明代政治家、詩人，以清正氣節和《石灰吟》著稱。",
+      "zh-Hans": "明代政治家、诗人，以清正气节和《石灰吟》著称。"
+    },
+    "full": {
+      "zh-Hant": "于謙（1398—1457），字廷益，錢塘人，明代政治家、詩人。土木堡之變後，他主持北京防禦，保衞京城，後在政治變局中遭誣殺。他的詩常借日常事物表達志向，語言明白有力，重視人格與責任。《石灰吟》借石灰歷經錘擊、烈火仍保持潔白，寄託堅守操守的理想。閲讀其作品，可把詠物與言志聯繫起來，但不宜將詩中每一句都當成具體生平事件的記錄。",
+      "zh-Hans": "于谦（1398—1457），字廷益，钱塘人，明代政治家、诗人。土木堡之变后，他主持北京防御，保卫京城，后在政治变局中遭诬杀。他的诗常借日常事物表达志向，语言明白有力，重视人格与责任。《石灰吟》借石灰历经锤击、烈火仍保持洁白，寄托坚守操守的理想。阅读其作品，可把咏物与言志联系起来，但不宜将诗中每一句都当成具体生平事件的记录。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 石灰吟賞析",
+        "zh-Hans": "香港教育局 · 石灰吟赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_18.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

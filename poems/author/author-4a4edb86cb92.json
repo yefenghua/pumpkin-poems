@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-4a4edb86cb92",
+  "name": {
+    "zh-Hant": "張旭",
+    "zh-Hans": "张旭"
+  },
+  "catalog_name": {
+    "zh-Hant": "張旭",
+    "zh-Hans": "张旭"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代書法家、詩人，以草書著名，詩歌也富有清麗畫意。",
+      "zh-Hans": "唐代书法家、诗人，以草书著名，诗歌也富有清丽画意。"
+    },
+    "full": {
+      "zh-Hant": "張旭，字伯高，唐代吳郡人，主要活動於開元、天寶時期，具體生卒年不詳。他是著名草書家，與懷素並稱張顛素狂，也有詩作傳世。書法的奔放與詩歌的清麗，展現同一藝術家不同的表達面貌。《桃花溪》借桃花流水、石磯和漁船，令人聯想到陶淵明筆下的桃花源，以問句留下想象空間。介紹其生平時不宜把飲酒作書的傳聞全部視為可考事實。",
+      "zh-Hans": "张旭，字伯高，唐代吴郡人，主要活动于开元、天宝时期，具体生卒年不详。他是著名草书家，与怀素并称张颠素狂，也有诗作传世。书法的奔放与诗歌的清丽，展现同一艺术家不同的表达面貌。《桃花溪》借桃花流水、石矶和渔船，令人联想到陶渊明笔下的桃花源，以问句留下想象空间。介绍其生平时不宜把饮酒作书的传闻全部视为可考事实。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 572
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

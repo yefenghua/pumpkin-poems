@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-041",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "卜算子·缺月掛疏桐",
+    "zh-Hans": "卜算子·缺月挂疏桐"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "缺月掛疏桐，漏斷人初靜。時見幽人獨往來，縹緲孤鴻影。驚起卻回頭，有恨無人省。揀盡寒枝不肯棲，楓落吳江冷。",
+    "zh-Hans": "缺月挂疏桐，漏断人初静。时见幽人独往来，缥缈孤鸿影。惊起却回头，有恨无人省。拣尽寒枝不肯栖，枫落吴江冷。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-041-l001",
+      "text": {
+        "zh-Hant": "缺月掛疏桐，",
+        "zh-Hans": "缺月挂疏桐，"
+      }
+    },
+    {
+      "id": "ext-song-041-l002",
+      "text": {
+        "zh-Hant": "漏斷人初靜。",
+        "zh-Hans": "漏断人初静。"
+      }
+    },
+    {
+      "id": "ext-song-041-l003",
+      "text": {
+        "zh-Hant": "時見幽人獨往來，",
+        "zh-Hans": "时见幽人独往来，"
+      }
+    },
+    {
+      "id": "ext-song-041-l004",
+      "text": {
+        "zh-Hant": "縹緲孤鴻影。",
+        "zh-Hans": "缥缈孤鸿影。"
+      }
+    },
+    {
+      "id": "ext-song-041-l005",
+      "text": {
+        "zh-Hant": "驚起卻回頭，",
+        "zh-Hans": "惊起却回头，"
+      }
+    },
+    {
+      "id": "ext-song-041-l006",
+      "text": {
+        "zh-Hant": "有恨無人省。",
+        "zh-Hans": "有恨无人省。"
+      }
+    },
+    {
+      "id": "ext-song-041-l007",
+      "text": {
+        "zh-Hant": "揀盡寒枝不肯棲，",
+        "zh-Hans": "拣尽寒枝不肯栖，"
+      }
+    },
+    {
+      "id": "ext-song-041-l008",
+      "text": {
+        "zh-Hant": "楓落吳江冷。",
+        "zh-Hans": "枫落吴江冷。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-041-w001",
+      "term": {
+        "zh-Hant": "漏斷",
+        "zh-Hans": "漏断"
+      },
+      "definition": {
+        "zh-Hant": "漏壺計時的聲音停止，指夜已深。",
+        "zh-Hans": "漏壶计时的声音停止，指夜已深。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-041-w002",
+      "term": {
+        "zh-Hant": "幽人",
+        "zh-Hans": "幽人"
+      },
+      "definition": {
+        "zh-Hant": "幽獨的人。",
+        "zh-Hans": "幽独的人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-041-w003",
+      "term": {
+        "zh-Hant": "縹緲",
+        "zh-Hans": "缥缈"
+      },
+      "definition": {
+        "zh-Hant": "若有若無、隱約的樣子。",
+        "zh-Hans": "若有若无、隐约的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-041-w004",
+      "term": {
+        "zh-Hant": "孤鴻",
+        "zh-Hans": "孤鸿"
+      },
+      "definition": {
+        "zh-Hant": "孤獨的大雁。",
+        "zh-Hans": "孤独的大雁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-041-w005",
+      "term": {
+        "zh-Hant": "省",
+        "zh-Hans": "省"
+      },
+      "definition": {
+        "zh-Hant": "理解、知曉。",
+        "zh-Hans": "理解、知晓。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l006",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-041-l006",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本結句“楓落吳江冷”；另本作“寂寞沙洲冷”。",
+      "zh-Hans": "保留底本结句“枫落吴江冷”；另本作“寂寞沙洲冷”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 41
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

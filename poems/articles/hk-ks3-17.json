@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-17",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "水調歌頭·明月幾時有",
+    "zh-Hans": "水调歌头·明月几时有"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "明月幾時有？把酒問青天。不知天上宮闕，今夕是何年。我欲乘風歸去，又恐瓊樓玉宇，高處不勝寒。起舞弄清影，何似在人間！轉朱閣，低綺戶，照無眠。不應有恨，何事長向別時圓？人有悲歡離合，月有陰晴圓缺，此事古難全。但願人長久，千里共嬋娟。",
+    "zh-Hans": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间！转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。"
+  },
+  "preface": {
+    "zh-Hant": "丙辰中秋，歡飲達旦，大醉，作此篇，兼懷子由。",
+    "zh-Hans": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。"
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-17-l001",
+      "text": {
+        "zh-Hant": "明月幾時有？",
+        "zh-Hans": "明月几时有？"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l002",
+      "text": {
+        "zh-Hant": "把酒問青天。",
+        "zh-Hans": "把酒问青天。"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l003",
+      "text": {
+        "zh-Hant": "不知天上宮闕，",
+        "zh-Hans": "不知天上宫阙，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l004",
+      "text": {
+        "zh-Hant": "今夕是何年。",
+        "zh-Hans": "今夕是何年。"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l005",
+      "text": {
+        "zh-Hant": "我欲乘風歸去，",
+        "zh-Hans": "我欲乘风归去，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l006",
+      "text": {
+        "zh-Hant": "又恐瓊樓玉宇，",
+        "zh-Hans": "又恐琼楼玉宇，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l007",
+      "text": {
+        "zh-Hant": "高處不勝寒。",
+        "zh-Hans": "高处不胜寒。"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l008",
+      "text": {
+        "zh-Hant": "起舞弄清影，",
+        "zh-Hans": "起舞弄清影，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l009",
+      "text": {
+        "zh-Hant": "何似在人間！",
+        "zh-Hans": "何似在人间！"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l010",
+      "text": {
+        "zh-Hant": "轉朱閣，",
+        "zh-Hans": "转朱阁，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l011",
+      "text": {
+        "zh-Hant": "低綺戶，",
+        "zh-Hans": "低绮户，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l012",
+      "text": {
+        "zh-Hant": "照無眠。",
+        "zh-Hans": "照无眠。"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l013",
+      "text": {
+        "zh-Hant": "不應有恨，",
+        "zh-Hans": "不应有恨，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l014",
+      "text": {
+        "zh-Hant": "何事長向別時圓？",
+        "zh-Hans": "何事长向别时圆？"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l015",
+      "text": {
+        "zh-Hant": "人有悲歡離合，",
+        "zh-Hans": "人有悲欢离合，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l016",
+      "text": {
+        "zh-Hant": "月有陰晴圓缺，",
+        "zh-Hans": "月有阴晴圆缺，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l017",
+      "text": {
+        "zh-Hant": "此事古難全。",
+        "zh-Hans": "此事古难全。"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l018",
+      "text": {
+        "zh-Hant": "但願人長久，",
+        "zh-Hans": "但愿人长久，"
+      }
+    },
+    {
+      "id": "hk-ks3-17-l019",
+      "text": {
+        "zh-Hant": "千里共嬋娟。",
+        "zh-Hans": "千里共婵娟。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-17-w001",
+      "term": {
+        "zh-Hant": "達旦",
+        "zh-Hans": "达旦"
+      },
+      "definition": {
+        "zh-Hant": "直到天亮，見小序。",
+        "zh-Hans": "直到天亮，见小序。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 7,
+            "end": 9
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 7,
+            "end": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w002",
+      "term": {
+        "zh-Hant": "子由",
+        "zh-Hans": "子由"
+      },
+      "definition": {
+        "zh-Hant": "蘇軾的弟弟蘇轍的字，見小序。",
+        "zh-Hans": "苏轼的弟弟苏辙的字，见小序。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 19,
+            "end": 21
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 19,
+            "end": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w003",
+      "term": {
+        "zh-Hant": "把酒",
+        "zh-Hans": "把酒"
+      },
+      "definition": {
+        "zh-Hant": "端起酒杯。",
+        "zh-Hans": "端起酒杯。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w004",
+      "term": {
+        "zh-Hant": "瓊樓玉宇",
+        "zh-Hans": "琼楼玉宇"
+      },
+      "definition": {
+        "zh-Hant": "美玉般的樓台宮殿，想象中的月宮。",
+        "zh-Hans": "美玉般的楼台宫殿，想象中的月宫。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l006",
+            "start": 2,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l006",
+            "start": 2,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w005",
+      "term": {
+        "zh-Hant": "不勝",
+        "zh-Hans": "不胜"
+      },
+      "definition": {
+        "zh-Hant": "承受不住。",
+        "zh-Hans": "承受不住。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w006",
+      "term": {
+        "zh-Hant": "綺戶",
+        "zh-Hans": "绮户"
+      },
+      "definition": {
+        "zh-Hant": "雕飾精美的窗户。",
+        "zh-Hans": "雕饰精美的窗户。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l011",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l011",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-17-w007",
+      "term": {
+        "zh-Hant": "嬋娟",
+        "zh-Hans": "婵娟"
+      },
+      "definition": {
+        "zh-Hant": "美好的樣子，這裏借指明月。",
+        "zh-Hans": "美好的样子，这里借指明月。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l019",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-17-l019",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留“丙辰中秋”小序，單獨保存在preface字段。",
+      "zh-Hans": "保留“丙辰中秋”小序，单独保存在preface字段。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 水調歌頭·明月幾時有原文",
+        "zh-Hans": "香港教育局 · 水调歌头·明月几时有原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_17_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "5ddbaa381a46aa2deb2c01d26af288667393018e70a674f3c03f35b8fc8667f0"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 水調歌頭·明月幾時有賞析",
+        "zh-Hans": "香港教育局 · 水调歌头·明月几时有赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_17.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

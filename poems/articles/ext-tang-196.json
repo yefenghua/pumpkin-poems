@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-196",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "題金陵渡",
+    "zh-Hans": "题金陵渡"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-16683a6fad58",
+  "author_file": "../author/author-16683a6fad58.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-16683a6fad58",
+    "name": {
+      "zh-Hant": "張祜",
+      "zh-Hans": "张祜"
+    },
+    "catalog_name": {
+      "zh-Hant": "張祜",
+      "zh-Hans": "张祜"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字承吉，擅長宮詞和寫景短詩。",
+        "zh-Hans": "唐代诗人，字承吉，擅长宫词和写景短诗。"
+      },
+      "full": {
+        "zh-Hant": "張祜，字承吉，唐代詩人，主要生活在九世紀，生卒年具體記載不一。他曾因詩才受到推薦，但未獲得顯著仕途發展，後來居於江南。其詩有宮廷題材、樂舞描寫和山水羈旅之作，講究精煉的畫面。《題金陵渡》從江邊小樓的夜宿寫起，以斜月、江潮和遠處零星燈火表現旅人的孤獨。閲讀時可注意視線從近處轉向遠方，以及有限光亮如何襯托夜色。",
+        "zh-Hans": "张祜，字承吉，唐代诗人，主要生活在九世纪，生卒年具体记载不一。他曾因诗才受到推荐，但未获得显著仕途发展，后来居于江南。其诗有宫廷题材、乐舞描写和山水羁旅之作，讲究精炼的画面。《题金陵渡》从江边小楼的夜宿写起，以斜月、江潮和远处零星灯火表现旅人的孤独。阅读时可注意视线从近处转向远方，以及有限光亮如何衬托夜色。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 131
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "金陵津渡小山樓，一宿行人自可愁。潮落夜江斜月裏，兩三星火是瓜洲。",
+    "zh-Hans": "金陵津渡小山楼，一宿行人自可愁。潮落夜江斜月里，两三星火是瓜洲。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-196-l001",
+      "text": {
+        "zh-Hant": "金陵津渡小山樓，",
+        "zh-Hans": "金陵津渡小山楼，"
+      }
+    },
+    {
+      "id": "ext-tang-196-l002",
+      "text": {
+        "zh-Hant": "一宿行人自可愁。",
+        "zh-Hans": "一宿行人自可愁。"
+      }
+    },
+    {
+      "id": "ext-tang-196-l003",
+      "text": {
+        "zh-Hant": "潮落夜江斜月裏，",
+        "zh-Hans": "潮落夜江斜月里，"
+      }
+    },
+    {
+      "id": "ext-tang-196-l004",
+      "text": {
+        "zh-Hant": "兩三星火是瓜洲。",
+        "zh-Hans": "两三星火是瓜洲。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-196-w001",
+      "term": {
+        "zh-Hant": "津渡",
+        "zh-Hans": "津渡"
+      },
+      "definition": {
+        "zh-Hant": "渡口。",
+        "zh-Hans": "渡口。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-196-w002",
+      "term": {
+        "zh-Hant": "行人",
+        "zh-Hans": "行人"
+      },
+      "definition": {
+        "zh-Hant": "旅人。",
+        "zh-Hans": "旅人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-196-w003",
+      "term": {
+        "zh-Hant": "斜月",
+        "zh-Hans": "斜月"
+      },
+      "definition": {
+        "zh-Hant": "將落的月亮。",
+        "zh-Hans": "将落的月亮。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-196-w004",
+      "term": {
+        "zh-Hant": "瓜洲",
+        "zh-Hans": "瓜洲"
+      },
+      "definition": {
+        "zh-Hant": "長江北岸的古渡口。",
+        "zh-Hans": "长江北岸的古渡口。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-196-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "據維基文庫校正地名瓜洲。",
+      "zh-Hans": "据维基文库校正地名瓜洲。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "瓜州",
+      "to": "瓜洲"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 196
+      }
+    },
+    {
+      "kind": "text_correction",
+      "label": {
+        "zh-Hant": "題金陵渡校對參考",
+        "zh-Hans": "题金陵渡校对参考"
+      },
+      "url": "https://zh.wikisource.org/wiki/%E9%A1%8C%E9%87%91%E9%99%B5%E6%B8%A1",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

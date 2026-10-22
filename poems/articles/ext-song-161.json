@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-161",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "清平樂·金風細細",
+    "zh-Hans": "清平乐·金风细细"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-0ebe0ddda38b",
+  "author_file": "../author/author-0ebe0ddda38b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-0ebe0ddda38b",
+    "name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋政治家、詞人，以典雅的小令著稱。",
+        "zh-Hans": "北宋政治家、词人，以典雅的小令著称。"
+      },
+      "full": {
+        "zh-Hant": "晏殊（991—1055），字同叔，撫州臨川人，北宋政治家、詞人，少年以才學入仕，後來任宰相。他重視文教，也提攜後進，詞集名《珠玉詞》。其詞多用宴飲、庭院、四季景物寫人生感受，語言圓潤典雅，常在安閒外表中含有惜春和惜時之意。《浣溪沙·一曲新詞酒一杯》將花落與燕歸併置，使無法挽留與彷彿重逢形成迴響，是理解小令如何由景生情的合適例子。",
+        "zh-Hans": "晏殊（991—1055），字同叔，抚州临川人，北宋政治家、词人，少年以才学入仕，后来任宰相。他重视文教，也提携后进，词集名《珠玉词》。其词多用宴饮、庭院、四季景物写人生感受，语言圆润典雅，常在安闲外表中含有惜春和惜时之意。《浣溪沙·一曲新词酒一杯》将花落与燕归并置，使无法挽留与仿佛重逢形成回响，是理解小令如何由景生情的合适例子。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 18
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "金風細細。葉葉梧桐墜。綠酒初嘗人易醉。一枕小窗濃睡。紫微朱槿花殘。斜陽卻照闌干。雙燕欲歸時節，銀屏昨夜微寒。",
+    "zh-Hans": "金风细细。叶叶梧桐坠。绿酒初尝人易醉。一枕小窗浓睡。紫微朱槿花残。斜阳却照阑干。双燕欲归时节，银屏昨夜微寒。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-161-l001",
+      "text": {
+        "zh-Hant": "金風細細。",
+        "zh-Hans": "金风细细。"
+      }
+    },
+    {
+      "id": "ext-song-161-l002",
+      "text": {
+        "zh-Hant": "葉葉梧桐墜。",
+        "zh-Hans": "叶叶梧桐坠。"
+      }
+    },
+    {
+      "id": "ext-song-161-l003",
+      "text": {
+        "zh-Hant": "綠酒初嘗人易醉。",
+        "zh-Hans": "绿酒初尝人易醉。"
+      }
+    },
+    {
+      "id": "ext-song-161-l004",
+      "text": {
+        "zh-Hant": "一枕小窗濃睡。",
+        "zh-Hans": "一枕小窗浓睡。"
+      }
+    },
+    {
+      "id": "ext-song-161-l005",
+      "text": {
+        "zh-Hant": "紫微朱槿花殘。",
+        "zh-Hans": "紫微朱槿花残。"
+      }
+    },
+    {
+      "id": "ext-song-161-l006",
+      "text": {
+        "zh-Hant": "斜陽卻照闌干。",
+        "zh-Hans": "斜阳却照阑干。"
+      }
+    },
+    {
+      "id": "ext-song-161-l007",
+      "text": {
+        "zh-Hant": "雙燕欲歸時節，",
+        "zh-Hans": "双燕欲归时节，"
+      }
+    },
+    {
+      "id": "ext-song-161-l008",
+      "text": {
+        "zh-Hant": "銀屏昨夜微寒。",
+        "zh-Hans": "银屏昨夜微寒。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-161-w001",
+      "term": {
+        "zh-Hant": "金風",
+        "zh-Hans": "金风"
+      },
+      "definition": {
+        "zh-Hant": "秋風，古人以秋配五行中的金。",
+        "zh-Hans": "秋风，古人以秋配五行中的金。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-161-w002",
+      "term": {
+        "zh-Hant": "綠酒",
+        "zh-Hans": "绿酒"
+      },
+      "definition": {
+        "zh-Hant": "酒的美稱。",
+        "zh-Hans": "酒的美称。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-161-w003",
+      "term": {
+        "zh-Hant": "朱槿",
+        "zh-Hans": "朱槿"
+      },
+      "definition": {
+        "zh-Hant": "開紅花的植物。",
+        "zh-Hans": "开红花的植物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l005",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l005",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-161-w004",
+      "term": {
+        "zh-Hant": "銀屏",
+        "zh-Hans": "银屏"
+      },
+      "definition": {
+        "zh-Hant": "銀色或飾銀的屏風。",
+        "zh-Hans": "银色或饰银的屏风。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-161-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 161
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

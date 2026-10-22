@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-036",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "台城",
+    "zh-Hans": "台城"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-655ae6421abe",
+  "author_file": "../author/author-655ae6421abe.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-655ae6421abe",
+    "name": {
+      "zh-Hant": "韋莊",
+      "zh-Hans": "韦庄"
+    },
+    "catalog_name": {
+      "zh-Hant": "韋莊",
+      "zh-Hans": "韦庄"
+    },
+    "dynasty": {
+      "zh-Hant": "唐至五代",
+      "zh-Hans": "唐至五代"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐五代詩人、詞人，善寫歷史感慨與細膩情思。",
+        "zh-Hans": "晚唐五代诗人、词人，善写历史感慨与细腻情思。"
+      },
+      "full": {
+        "zh-Hant": "韋莊（約836—910），字端己，京兆杜陵人，晚唐至五代的詩人、詞人。他經歷唐末戰亂，較晚中進士，後來入蜀，參與前蜀政權的建立並任宰相。詩歌有寫亂世見聞與歷史感慨的篇章，詞則語言清麗、情感深婉，是花間詞的重要作家之一。《台城》以依舊繁茂的柳色對照六朝興亡，使自然延續與人事消歇產生張力。其身跨兩個時代，不能把所有作品一律按同一王朝背景解釋。",
+        "zh-Hans": "韦庄（约836—910），字端己，京兆杜陵人，晚唐至五代的诗人、词人。他经历唐末战乱，较晚中进士，后来入蜀，参与前蜀政权的建立并任宰相。诗歌有写乱世见闻与历史感慨的篇章，词则语言清丽、情感深婉，是花间词的重要作家之一。《台城》以依旧繁茂的柳色对照六朝兴亡，使自然延续与人事消歇产生张力。其身跨两个时代，不能把所有作品一律按同一王朝背景解释。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 276
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "江雨霏霏江草齊，六朝如夢鳥空啼。無情最是臺城柳，依舊煙籠十里堤。",
+    "zh-Hans": "江雨霏霏江草齐，六朝如梦鸟空啼。无情最是台城柳，依旧烟笼十里堤。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-036-l001",
+      "text": {
+        "zh-Hant": "江雨霏霏江草齊，",
+        "zh-Hans": "江雨霏霏江草齐，"
+      }
+    },
+    {
+      "id": "ext-tang-036-l002",
+      "text": {
+        "zh-Hant": "六朝如夢鳥空啼。",
+        "zh-Hans": "六朝如梦鸟空啼。"
+      }
+    },
+    {
+      "id": "ext-tang-036-l003",
+      "text": {
+        "zh-Hant": "無情最是臺城柳，",
+        "zh-Hans": "无情最是台城柳，"
+      }
+    },
+    {
+      "id": "ext-tang-036-l004",
+      "text": {
+        "zh-Hant": "依舊煙籠十里堤。",
+        "zh-Hans": "依旧烟笼十里堤。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-036-w001",
+      "term": {
+        "zh-Hant": "霏霏",
+        "zh-Hans": "霏霏"
+      },
+      "definition": {
+        "zh-Hant": "細雨紛飛的樣子。",
+        "zh-Hans": "细雨纷飞的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-036-w002",
+      "term": {
+        "zh-Hant": "六朝",
+        "zh-Hans": "六朝"
+      },
+      "definition": {
+        "zh-Hant": "先後以建康為都的六個朝代。",
+        "zh-Hans": "先后以建康为都的六个朝代。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-036-w003",
+      "term": {
+        "zh-Hant": "空啼",
+        "zh-Hans": "空啼"
+      },
+      "definition": {
+        "zh-Hant": "徒然鳴叫。",
+        "zh-Hans": "徒然鸣叫。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-036-w004",
+      "term": {
+        "zh-Hant": "煙籠",
+        "zh-Hans": "烟笼"
+      },
+      "definition": {
+        "zh-Hant": "煙靄籠罩。",
+        "zh-Hans": "烟霭笼罩。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-036-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 36
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

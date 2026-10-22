@@ -1,0 +1,501 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-17b",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "聲聲慢·秋情",
+    "zh-Hans": "声声慢·秋情"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-51cea09bd89d",
+  "author_file": "../author/author-51cea09bd89d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-51cea09bd89d",
+    "name": {
+      "zh-Hant": "李清照",
+      "zh-Hans": "李清照"
+    },
+    "catalog_name": {
+      "zh-Hant": "李清照",
+      "zh-Hans": "李清照"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "宋代詞人，號易安居士，詞風清麗，情感細膩深刻。",
+        "zh-Hans": "宋代词人，号易安居士，词风清丽，情感细腻深刻。"
+      },
+      "full": {
+        "zh-Hant": "李清照（1084—約1155），號易安居士，濟南一帶人，是兩宋之際傑出的詞人，卒年仍有異説。她與丈夫趙明誠共同關注金石書畫，後來經歷戰亂南渡、丈夫去世和生活變遷。早期詞常寫閨情與自然景物，後期更多表現身世之悲與故國之思；她也重視詞的音樂特點，提出詞別是一家的主張。《醉花陰》《聲聲慢》善用日常物象、疊字和聲音，使難以排遣的情緒可感可見。",
+        "zh-Hans": "李清照（1084—约1155），号易安居士，济南一带人，是两宋之际杰出的词人，卒年仍有异说。她与丈夫赵明诚共同关注金石书画，后来经历战乱南渡、丈夫去世和生活变迁。早期词常写闺情与自然景物，后期更多表现身世之悲与故国之思；她也重视词的音乐特点，提出词别是一家的主张。《醉花阴》《声声慢》善用日常物象、叠字和声音，使难以排遣的情绪可感可见。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 聲聲慢·秋情賞析",
+          "zh-Hans": "香港教育局 · 声声慢·秋情赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17b.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "尋尋覓覓，冷冷清清，悽悽慘慘戚戚。乍煖還寒時候，最難將息。三杯兩盞淡酒，怎敵他，晚來風急！雁過也，正傷心，卻是舊時相識。滿地黃花堆積，憔悴損，如今有誰堪摘？守着窗兒，獨自怎生得黑！梧桐更兼細雨，到黃昏、點點滴滴。這次第，怎一箇愁字了得！",
+    "zh-Hans": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍煖还寒时候，最难将息。三杯两盏淡酒，怎敌他，晚来风急！雁过也，正伤心，却是旧时相识。满地黄花堆积，憔悴损，如今有谁堪摘？守着窗儿，独自怎生得黑！梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-17b-l001",
+      "text": {
+        "zh-Hant": "尋尋覓覓，",
+        "zh-Hans": "寻寻觅觅，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l002",
+      "text": {
+        "zh-Hant": "冷冷清清，",
+        "zh-Hans": "冷冷清清，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l003",
+      "text": {
+        "zh-Hant": "悽悽慘慘戚戚。",
+        "zh-Hans": "凄凄惨惨戚戚。"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l004",
+      "text": {
+        "zh-Hant": "乍煖還寒時候，",
+        "zh-Hans": "乍煖还寒时候，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l005",
+      "text": {
+        "zh-Hant": "最難將息。",
+        "zh-Hans": "最难将息。"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l006",
+      "text": {
+        "zh-Hant": "三杯兩盞淡酒，",
+        "zh-Hans": "三杯两盏淡酒，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l007",
+      "text": {
+        "zh-Hant": "怎敵他，",
+        "zh-Hans": "怎敌他，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l008",
+      "text": {
+        "zh-Hant": "晚來風急！",
+        "zh-Hans": "晚来风急！"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l009",
+      "text": {
+        "zh-Hant": "雁過也，",
+        "zh-Hans": "雁过也，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l010",
+      "text": {
+        "zh-Hant": "正傷心，",
+        "zh-Hans": "正伤心，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l011",
+      "text": {
+        "zh-Hant": "卻是舊時相識。",
+        "zh-Hans": "却是旧时相识。"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l012",
+      "text": {
+        "zh-Hant": "滿地黃花堆積，",
+        "zh-Hans": "满地黄花堆积，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l013",
+      "text": {
+        "zh-Hant": "憔悴損，",
+        "zh-Hans": "憔悴损，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l014",
+      "text": {
+        "zh-Hant": "如今有誰堪摘？",
+        "zh-Hans": "如今有谁堪摘？"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l015",
+      "text": {
+        "zh-Hant": "守着窗兒，",
+        "zh-Hans": "守着窗儿，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l016",
+      "text": {
+        "zh-Hant": "獨自怎生得黑！",
+        "zh-Hans": "独自怎生得黑！"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l017",
+      "text": {
+        "zh-Hant": "梧桐更兼細雨，",
+        "zh-Hans": "梧桐更兼细雨，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l018",
+      "text": {
+        "zh-Hant": "到黃昏、點點滴滴。",
+        "zh-Hans": "到黄昏、点点滴滴。"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l019",
+      "text": {
+        "zh-Hant": "這次第，",
+        "zh-Hans": "这次第，"
+      }
+    },
+    {
+      "id": "hk-ks4-17b-l020",
+      "text": {
+        "zh-Hant": "怎一箇愁字了得！",
+        "zh-Hans": "怎一个愁字了得！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-17b-w001",
+      "term": {
+        "zh-Hant": "戚戚",
+        "zh-Hans": "戚戚"
+      },
+      "definition": {
+        "zh-Hant": "悲愁的樣子。",
+        "zh-Hans": "悲愁的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w002",
+      "term": {
+        "zh-Hant": "乍煖還寒",
+        "zh-Hans": "乍煖还寒"
+      },
+      "definition": {
+        "zh-Hant": "剛有些暖意又寒冷起來。",
+        "zh-Hans": "刚有些暖意又寒冷起来。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l004",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l004",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w003",
+      "term": {
+        "zh-Hant": "將息",
+        "zh-Hans": "将息"
+      },
+      "definition": {
+        "zh-Hant": "調養、休息。",
+        "zh-Hans": "调养、休息。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l005",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l005",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w004",
+      "term": {
+        "zh-Hant": "黃花",
+        "zh-Hans": "黄花"
+      },
+      "definition": {
+        "zh-Hant": "菊花。",
+        "zh-Hans": "菊花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l012",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l012",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w005",
+      "term": {
+        "zh-Hant": "憔悴損",
+        "zh-Hans": "憔悴损"
+      },
+      "definition": {
+        "zh-Hant": "憔悴得很，損表示程度。",
+        "zh-Hans": "憔悴得很，损表示程度。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l013",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l013",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w006",
+      "term": {
+        "zh-Hant": "怎生",
+        "zh-Hans": "怎生"
+      },
+      "definition": {
+        "zh-Hant": "怎樣、怎麼。",
+        "zh-Hans": "怎样、怎么。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l016",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l016",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w007",
+      "term": {
+        "zh-Hant": "次第",
+        "zh-Hans": "次第"
+      },
+      "definition": {
+        "zh-Hant": "情形、光景。",
+        "zh-Hans": "情形、光景。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l019",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l019",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17b-w008",
+      "term": {
+        "zh-Hant": "了得",
+        "zh-Hans": "了得"
+      },
+      "definition": {
+        "zh-Hant": "説得盡、概括得了。",
+        "zh-Hans": "说得尽、概括得了。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l020",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17b-l020",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留教育局“晚來風急”及“乍煖”“一箇”等字形；問號統一為全角問號。",
+      "zh-Hans": "保留教育局“晚来风急”及“乍煖”“一个”等字形；问号统一为全角问号。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 聲聲慢·秋情原文",
+        "zh-Hans": "香港教育局 · 声声慢·秋情原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17b_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "5a34112c28d72ac409f7386e1450e1dde81ce2eb6549e8eed8c6741858eadd92"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 聲聲慢·秋情賞析",
+        "zh-Hans": "香港教育局 · 声声慢·秋情赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17b.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

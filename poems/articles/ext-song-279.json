@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-279",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "念奴嬌·過洞庭",
+    "zh-Hans": "念奴娇·过洞庭"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-49ff1de8c8ed",
+  "author_file": "../author/author-49ff1de8c8ed.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-49ff1de8c8ed",
+    "name": {
+      "zh-Hant": "張孝祥",
+      "zh-Hans": "张孝祥"
+    },
+    "catalog_name": {
+      "zh-Hant": "張孝祥",
+      "zh-Hans": "张孝祥"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人，號于湖居士，詞風豪邁清曠。",
+        "zh-Hans": "南宋词人，号于湖居士，词风豪迈清旷。"
+      },
+      "full": {
+        "zh-Hant": "張孝祥（1132—1169），字安國，號于湖居士，南宋詞人、官員，紹興年間狀元及第。他主張抗金，曾任多地長官，關注水利與地方治理。其詞常有開闊境界和強烈感情，承接蘇軾的豪放風氣，也能寫得澄明清遠。《念奴嬌·過洞庭》以月下湖面映照光明坦蕩的內心，將自然景色與人格理想結合。讀詞時可以觀察明月、冰雪和水光等意象如何反覆照應。",
+        "zh-Hans": "张孝祥（1132—1169），字安国，号于湖居士，南宋词人、官员，绍兴年间状元及第。他主张抗金，曾任多地长官，关注水利与地方治理。其词常有开阔境界和强烈感情，承接苏轼的豪放风气，也能写得澄明清远。《念奴娇·过洞庭》以月下湖面映照光明坦荡的内心，将自然景色与人格理想结合。读词时可以观察明月、冰雪和水光等意象如何反复照应。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 1317
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "洞庭青草，近中秋、更無一點風色。玉鑑瓊田三萬頃，著我扁舟一葉。素月分輝，明河共影，表裏俱澄澈。悠然心會，妙處難與君説。應念嶺海經年，孤光自照，肝肺皆冰雪。短髮蕭騷襟袖冷，穩泛滄浪空闊。盡吸西江，細斟北斗，萬象為賓客。扣舷獨笑，不知今夕何夕。",
+    "zh-Hans": "洞庭青草，近中秋、更无一点风色。玉鉴琼田三万顷，著我扁舟一叶。素月分辉，明河共影，表里俱澄澈。悠然心会，妙处难与君说。应念岭海经年，孤光自照，肝肺皆冰雪。短发萧骚襟袖冷，稳泛沧浪空阔。尽吸西江，细斟北斗，万象为宾客。扣舷独笑，不知今夕何夕。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-279-l001",
+      "text": {
+        "zh-Hant": "洞庭青草，",
+        "zh-Hans": "洞庭青草，"
+      }
+    },
+    {
+      "id": "ext-song-279-l002",
+      "text": {
+        "zh-Hant": "近中秋、更無一點風色。",
+        "zh-Hans": "近中秋、更无一点风色。"
+      }
+    },
+    {
+      "id": "ext-song-279-l003",
+      "text": {
+        "zh-Hant": "玉鑑瓊田三萬頃，",
+        "zh-Hans": "玉鉴琼田三万顷，"
+      }
+    },
+    {
+      "id": "ext-song-279-l004",
+      "text": {
+        "zh-Hant": "著我扁舟一葉。",
+        "zh-Hans": "著我扁舟一叶。"
+      }
+    },
+    {
+      "id": "ext-song-279-l005",
+      "text": {
+        "zh-Hant": "素月分輝，",
+        "zh-Hans": "素月分辉，"
+      }
+    },
+    {
+      "id": "ext-song-279-l006",
+      "text": {
+        "zh-Hant": "明河共影，",
+        "zh-Hans": "明河共影，"
+      }
+    },
+    {
+      "id": "ext-song-279-l007",
+      "text": {
+        "zh-Hant": "表裏俱澄澈。",
+        "zh-Hans": "表里俱澄澈。"
+      }
+    },
+    {
+      "id": "ext-song-279-l008",
+      "text": {
+        "zh-Hant": "悠然心會，",
+        "zh-Hans": "悠然心会，"
+      }
+    },
+    {
+      "id": "ext-song-279-l009",
+      "text": {
+        "zh-Hant": "妙處難與君説。",
+        "zh-Hans": "妙处难与君说。"
+      }
+    },
+    {
+      "id": "ext-song-279-l010",
+      "text": {
+        "zh-Hant": "應念嶺海經年，",
+        "zh-Hans": "应念岭海经年，"
+      }
+    },
+    {
+      "id": "ext-song-279-l011",
+      "text": {
+        "zh-Hant": "孤光自照，",
+        "zh-Hans": "孤光自照，"
+      }
+    },
+    {
+      "id": "ext-song-279-l012",
+      "text": {
+        "zh-Hant": "肝肺皆冰雪。",
+        "zh-Hans": "肝肺皆冰雪。"
+      }
+    },
+    {
+      "id": "ext-song-279-l013",
+      "text": {
+        "zh-Hant": "短髮蕭騷襟袖冷，",
+        "zh-Hans": "短发萧骚襟袖冷，"
+      }
+    },
+    {
+      "id": "ext-song-279-l014",
+      "text": {
+        "zh-Hant": "穩泛滄浪空闊。",
+        "zh-Hans": "稳泛沧浪空阔。"
+      }
+    },
+    {
+      "id": "ext-song-279-l015",
+      "text": {
+        "zh-Hant": "盡吸西江，",
+        "zh-Hans": "尽吸西江，"
+      }
+    },
+    {
+      "id": "ext-song-279-l016",
+      "text": {
+        "zh-Hant": "細斟北斗，",
+        "zh-Hans": "细斟北斗，"
+      }
+    },
+    {
+      "id": "ext-song-279-l017",
+      "text": {
+        "zh-Hant": "萬象為賓客。",
+        "zh-Hans": "万象为宾客。"
+      }
+    },
+    {
+      "id": "ext-song-279-l018",
+      "text": {
+        "zh-Hant": "扣舷獨笑，",
+        "zh-Hans": "扣舷独笑，"
+      }
+    },
+    {
+      "id": "ext-song-279-l019",
+      "text": {
+        "zh-Hant": "不知今夕何夕。",
+        "zh-Hans": "不知今夕何夕。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-279-w001",
+      "term": {
+        "zh-Hant": "青草",
+        "zh-Hans": "青草"
+      },
+      "definition": {
+        "zh-Hant": "與洞庭湖相連的青草湖。",
+        "zh-Hans": "与洞庭湖相连的青草湖。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-279-w002",
+      "term": {
+        "zh-Hant": "玉鑑瓊田",
+        "zh-Hans": "玉鉴琼田"
+      },
+      "definition": {
+        "zh-Hant": "用玉鏡、玉田比喻月下澄明湖面。",
+        "zh-Hans": "用玉镜、玉田比喻月下澄明湖面。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l003",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l003",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-279-w003",
+      "term": {
+        "zh-Hant": "明河",
+        "zh-Hans": "明河"
+      },
+      "definition": {
+        "zh-Hant": "銀河。",
+        "zh-Hans": "银河。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-279-w004",
+      "term": {
+        "zh-Hant": "澄澈",
+        "zh-Hans": "澄澈"
+      },
+      "definition": {
+        "zh-Hant": "清澈透明。",
+        "zh-Hans": "清澈透明。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l007",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l007",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-279-w005",
+      "term": {
+        "zh-Hant": "嶺海",
+        "zh-Hans": "岭海"
+      },
+      "definition": {
+        "zh-Hant": "嶺南地區。",
+        "zh-Hans": "岭南地区。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-279-w006",
+      "term": {
+        "zh-Hant": "扣舷",
+        "zh-Hans": "扣舷"
+      },
+      "definition": {
+        "zh-Hant": "敲擊船邊。",
+        "zh-Hans": "敲击船边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l018",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-279-l018",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 279
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

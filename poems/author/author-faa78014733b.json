@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-faa78014733b",
+  "name": {
+    "zh-Hant": "岑參",
+    "zh-Hans": "岑参"
+  },
+  "catalog_name": {
+    "zh-Hant": "岑參",
+    "zh-Hans": "岑参"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代邊塞詩人，善寫西域風光和軍旅生活。",
+      "zh-Hans": "唐代边塞诗人，善写西域风光和军旅生活。"
+    },
+    "full": {
+      "zh-Hant": "岑參，唐代詩人，通常記為約715—770年，曾兩度到西北邊塞任職，後任嘉州刺史，因而有岑嘉州之稱。他與高適同為邊塞詩的重要代表，作品常寫風雪、沙漠、軍旅和異域景象，想象豐富，節奏鮮明。《逢入京使》則選擇馬上遇見使者的短暫片刻，把思鄉與報平安的心願寫得親切自然。閲讀岑詩，既可感受邊地景觀，也應關注遠行者的日常情感。",
+      "zh-Hans": "岑参，唐代诗人，通常记为约715—770年，曾两度到西北边塞任职，后任嘉州刺史，因而有岑嘉州之称。他与高适同为边塞诗的重要代表，作品常写风雪、沙漠、军旅和异域景象，想象丰富，节奏鲜明。《逢入京使》则选择马上遇见使者的短暂片刻，把思乡与报平安的心愿写得亲切自然。阅读岑诗，既可感受边地景观，也应关注远行者的日常情感。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 122
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

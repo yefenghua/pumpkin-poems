@@ -1,0 +1,387 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-shijing-011",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "子衿",
+    "zh-Hans": "子衿"
+  },
+  "dynasty": {
+    "zh-Hant": "先秦",
+    "zh-Hans": "先秦"
+  },
+  "genre": {
+    "zh-Hant": "四言詩",
+    "zh-Hans": "四言诗"
+  },
+  "author_id": "author-67b4d378d267",
+  "author_file": "../author/author-67b4d378d267.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-67b4d378d267",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·詩經",
+      "zh-Hans": "佚名·诗经"
+    },
+    "dynasty": {
+      "zh-Hant": "先秦",
+      "zh-Hans": "先秦"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《詩經》彙集周代詩歌，多數作品的具體作者姓名不可考。",
+        "zh-Hans": "《诗经》汇集周代诗歌，多数作品的具体作者姓名不可考。"
+      },
+      "full": {
+        "zh-Hant": "《詩經》是中國早期詩歌總集，收錄西周初年至春秋中葉前後的作品三百零五篇，分為風、雅、頌。它彙集不同地域、階層和場合的詩歌，並非一位作者的創作。許多篇章在採集、演唱與編訂過程中流傳，個人作者已不可考。《關雎》《蒹葭》《桃夭》《子衿》屬於國風。其四言節奏、重章疊句以及賦比興手法，對後世詩歌影響深遠。孔子與其傳習有關，但不應被填寫為這些詩的作者。",
+        "zh-Hans": "《诗经》是中国早期诗歌总集，收录西周初年至春秋中叶前后的作品三百零五篇，分为风、雅、颂。它汇集不同地域、阶层和场合的诗歌，并非一位作者的创作。许多篇章在采集、演唱与编订过程中流传，个人作者已不可考。《关雎》《蒹葭》《桃夭》《子衿》属于国风。其四言节奏、重章叠句以及赋比兴手法，对后世诗歌影响深远。孔子与其传习有关，但不应被填写为这些诗的作者。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 關雎賞析",
+          "zh-Hans": "香港教育局 · 关雎赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "青青子衿，悠悠我心。縱我不往，子寧不嗣音？青青子佩，悠悠我思。縱我不往，子寧不來？挑兮達兮，在城闕兮。一日不見，如三月兮。",
+    "zh-Hans": "青青子衿，悠悠我心。纵我不往，子宁不嗣音？青青子佩，悠悠我思。纵我不往，子宁不来？挑兮达兮，在城阙兮。一日不见，如三月兮。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-shijing-011-l001",
+      "text": {
+        "zh-Hant": "青青子衿，",
+        "zh-Hans": "青青子衿，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l002",
+      "text": {
+        "zh-Hant": "悠悠我心。",
+        "zh-Hans": "悠悠我心。"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l003",
+      "text": {
+        "zh-Hant": "縱我不往，",
+        "zh-Hans": "纵我不往，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l004",
+      "text": {
+        "zh-Hant": "子寧不嗣音？",
+        "zh-Hans": "子宁不嗣音？"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l005",
+      "text": {
+        "zh-Hant": "青青子佩，",
+        "zh-Hans": "青青子佩，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l006",
+      "text": {
+        "zh-Hant": "悠悠我思。",
+        "zh-Hans": "悠悠我思。"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l007",
+      "text": {
+        "zh-Hant": "縱我不往，",
+        "zh-Hans": "纵我不往，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l008",
+      "text": {
+        "zh-Hant": "子寧不來？",
+        "zh-Hans": "子宁不来？"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l009",
+      "text": {
+        "zh-Hant": "挑兮達兮，",
+        "zh-Hans": "挑兮达兮，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l010",
+      "text": {
+        "zh-Hant": "在城闕兮。",
+        "zh-Hans": "在城阙兮。"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l011",
+      "text": {
+        "zh-Hant": "一日不見，",
+        "zh-Hans": "一日不见，"
+      }
+    },
+    {
+      "id": "ext-shijing-011-l012",
+      "text": {
+        "zh-Hant": "如三月兮。",
+        "zh-Hans": "如三月兮。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-shijing-011-w001",
+      "term": {
+        "zh-Hant": "衿",
+        "zh-Hans": "衿"
+      },
+      "definition": {
+        "zh-Hant": "衣領。",
+        "zh-Hans": "衣领。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l001",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l001",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-011-w002",
+      "term": {
+        "zh-Hant": "悠悠",
+        "zh-Hans": "悠悠"
+      },
+      "definition": {
+        "zh-Hant": "長久的思念。",
+        "zh-Hans": "长久的思念。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l002",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l002",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-011-w003",
+      "term": {
+        "zh-Hant": "嗣音",
+        "zh-Hans": "嗣音"
+      },
+      "definition": {
+        "zh-Hant": "傳遞音信。",
+        "zh-Hans": "传递音信。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l004",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l004",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-011-w004",
+      "term": {
+        "zh-Hant": "佩",
+        "zh-Hans": "佩"
+      },
+      "definition": {
+        "zh-Hant": "佩玉及其繫帶。",
+        "zh-Hans": "佩玉及其系带。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l005",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l005",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-011-w005",
+      "term": {
+        "zh-Hant": "挑兮達兮",
+        "zh-Hans": "挑兮达兮"
+      },
+      "definition": {
+        "zh-Hant": "獨自來回走動的樣子。",
+        "zh-Hans": "独自来回走动的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l009",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l009",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-011-w006",
+      "term": {
+        "zh-Hant": "城闕",
+        "zh-Hans": "城阙"
+      },
+      "definition": {
+        "zh-Hant": "城門兩旁的高台。",
+        "zh-Hans": "城门两旁的高台。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l010",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-011-l010",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "收錄全詩三章。",
+      "zh-Hans": "收录全诗三章。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 詩經/shijing.json",
+        "zh-Hans": "中华古诗词数据库 · 诗经/shijing.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E8%AF%97%E7%BB%8F/shijing.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "ff0f061ec027ea5137bf27627cb0bdab0fe1680216b43d5d32245ab697aa9875",
+      "record_locator": {
+        "index_zero_based": 90
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-13",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "虞美人·春花秋月何時了",
+    "zh-Hans": "虞美人·春花秋月何时了"
+  },
+  "dynasty": {
+    "zh-Hant": "五代·南唐",
+    "zh-Hans": "五代·南唐"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-fc886edb002e",
+  "author_file": "../author/author-fc886edb002e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-fc886edb002e",
+    "name": {
+      "zh-Hant": "李煜",
+      "zh-Hans": "李煜"
+    },
+    "catalog_name": {
+      "zh-Hant": "李煜",
+      "zh-Hans": "李煜"
+    },
+    "dynasty": {
+      "zh-Hant": "五代·南唐",
+      "zh-Hans": "五代·南唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南唐後主，五代詞人，後期作品以深沉哀感著稱。",
+        "zh-Hans": "南唐后主，五代词人，后期作品以深沉哀感著称。"
+      },
+      "full": {
+        "zh-Hant": "李煜（937—978），字重光，號鍾隱等，是南唐最後一位君主，史稱南唐後主。南唐滅亡後，他被俘至汴京，人生境遇驟變。他擅書畫、音樂和詩詞，詞作前期多寫宮廷生活，後期常抒寫失國、離別與往事難追的痛苦。《虞美人·春花秋月何時了》用春水比愁，將個人經歷轉化為普遍可感的情緒。介紹其時代時應歸入五代南唐，不能因為後來入宋便籠統標成宋代詞人。",
+        "zh-Hans": "李煜（937—978），字重光，号钟隐等，是南唐最后一位君主，史称南唐后主。南唐灭亡后，他被俘至汴京，人生境遇骤变。他擅书画、音乐和诗词，词作前期多写宫廷生活，后期常抒写失国、离别与往事难追的痛苦。《虞美人·春花秋月何时了》用春水比愁，将个人经历转化为普遍可感的情绪。介绍其时代时应归入五代南唐，不能因为后来入宋便笼统标成宋代词人。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 虞美人·春花秋月何時了賞析",
+          "zh-Hans": "香港教育局 · 虞美人·春花秋月何时了赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_13.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "春花秋月何時了？往事知多少！小樓昨夜又東風，故國不堪回首月明中！雕闌玉砌應猶在，只是朱顏改。問君能有幾多愁？恰似一江春水向東流！",
+    "zh-Hans": "春花秋月何时了？往事知多少！小楼昨夜又东风，故国不堪回首月明中！雕阑玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-13-l001",
+      "text": {
+        "zh-Hant": "春花秋月何時了？",
+        "zh-Hans": "春花秋月何时了？"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l002",
+      "text": {
+        "zh-Hant": "往事知多少！",
+        "zh-Hans": "往事知多少！"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l003",
+      "text": {
+        "zh-Hant": "小樓昨夜又東風，",
+        "zh-Hans": "小楼昨夜又东风，"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l004",
+      "text": {
+        "zh-Hant": "故國不堪回首月明中！",
+        "zh-Hans": "故国不堪回首月明中！"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l005",
+      "text": {
+        "zh-Hant": "雕闌玉砌應猶在，",
+        "zh-Hans": "雕阑玉砌应犹在，"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l006",
+      "text": {
+        "zh-Hant": "只是朱顏改。",
+        "zh-Hans": "只是朱颜改。"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l007",
+      "text": {
+        "zh-Hant": "問君能有幾多愁？",
+        "zh-Hans": "问君能有几多愁？"
+      }
+    },
+    {
+      "id": "hk-ks3-13-l008",
+      "text": {
+        "zh-Hant": "恰似一江春水向東流！",
+        "zh-Hans": "恰似一江春水向东流！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-13-w001",
+      "term": {
+        "zh-Hant": "了",
+        "zh-Hans": "了"
+      },
+      "definition": {
+        "zh-Hant": "結束。",
+        "zh-Hans": "结束。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 10,
+            "end": 11
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l001",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 10,
+            "end": 11
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l001",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-13-w002",
+      "term": {
+        "zh-Hant": "故國",
+        "zh-Hans": "故国"
+      },
+      "definition": {
+        "zh-Hant": "已經失去的南唐故國。",
+        "zh-Hans": "已经失去的南唐故国。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-13-w003",
+      "term": {
+        "zh-Hant": "不堪",
+        "zh-Hans": "不堪"
+      },
+      "definition": {
+        "zh-Hant": "不能承受。",
+        "zh-Hans": "不能承受。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-13-w004",
+      "term": {
+        "zh-Hant": "雕闌玉砌",
+        "zh-Hans": "雕阑玉砌"
+      },
+      "definition": {
+        "zh-Hant": "雕飾的欄杆與精美台階，代指舊日宮殿。",
+        "zh-Hans": "雕饰的栏杆与精美台阶，代指旧日宫殿。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l005",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l005",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-13-w005",
+      "term": {
+        "zh-Hant": "朱顏",
+        "zh-Hans": "朱颜"
+      },
+      "definition": {
+        "zh-Hant": "紅潤的容顏，也含舊日人事已變的感慨。",
+        "zh-Hans": "红润的容颜，也含旧日人事已变的感慨。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-13-w006",
+      "term": {
+        "zh-Hant": "恰似",
+        "zh-Hans": "恰似"
+      },
+      "definition": {
+        "zh-Hant": "正像。",
+        "zh-Hans": "正像。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-13-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 虞美人·春花秋月何時了原文",
+        "zh-Hans": "香港教育局 · 虞美人·春花秋月何时了原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_13_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "cf6209013ff08158c86716d01b613b2e403987c5c9c24b9ac5a091c342459b62"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 虞美人·春花秋月何時了賞析",
+        "zh-Hans": "香港教育局 · 虞美人·春花秋月何时了赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_13.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

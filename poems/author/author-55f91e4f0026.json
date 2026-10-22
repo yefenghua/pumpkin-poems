@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-55f91e4f0026",
+  "name": {
+    "zh-Hant": "范仲淹",
+    "zh-Hans": "范仲淹"
+  },
+  "catalog_name": {
+    "zh-Hant": "范仲淹",
+    "zh-Hans": "范仲淹"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "北宋政治家、文學家，關懷天下，也擅寫邊塞與離情。",
+      "zh-Hans": "北宋政治家、文学家，关怀天下，也擅写边塞与离情。"
+    },
+    "full": {
+      "zh-Hant": "范仲淹（989—1052），字希文，北宋政治家、軍事家和文學家，諡文正。他曾主持邊防、參與慶曆新政，並重視教育與地方治理。《岳陽樓記》表達的憂樂觀影響深遠。其詞存世不多，卻具有不同面貌：有蒼涼雄健的邊塞作品，也有纏綿深沉的羈旅詞。《蘇幕遮·碧雲天》先鋪展秋景，再進入鄉思與失眠，使壯闊空間和細密感情相互映照。作者的公共抱負與個人情緒可以同時存在。",
+      "zh-Hans": "范仲淹（989—1052），字希文，北宋政治家、军事家和文学家，谥文正。他曾主持边防、参与庆历新政，并重视教育与地方治理。《岳阳楼记》表达的忧乐观影响深远。其词存世不多，却具有不同面貌：有苍凉雄健的边塞作品，也有缠绵深沉的羁旅词。《苏幕遮·碧云天》先铺展秋景，再进入乡思与失眠，使壮阔空间和细密感情相互映照。作者的公共抱负与个人情绪可以同时存在。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 7
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

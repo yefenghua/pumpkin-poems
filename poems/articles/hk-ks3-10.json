@@ -1,0 +1,741 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-10",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "兵車行",
+    "zh-Hans": "兵车行"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "樂府詩",
+    "zh-Hans": "乐府诗"
+  },
+  "author_id": "author-d1a76721cd00",
+  "author_file": "../author/author-d1a76721cd00.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d1a76721cd00",
+    "name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字子美，關懷民生，後世尊為詩聖。",
+        "zh-Hans": "唐代诗人，字子美，关怀民生，后世尊为诗圣。"
+      },
+      "full": {
+        "zh-Hant": "杜甫（712—770），字子美，自號少陵野老，唐代重要詩人。他經歷安史之亂及其後的動盪，曾在長安任職，也輾轉成都、夔州等地，晚年漂泊江湘。其詩廣泛反映戰亂、民生與個人生活，因而被稱為詩史；在律詩、古體詩等方面均有深厚成就。《兵車行》表現戰爭給家庭帶來的創痛，《客至》寫待客真情，《春望》則把國事和家事融於景物。閲讀時可兼顧時代處境與具體人物感受。",
+        "zh-Hans": "杜甫（712—770），字子美，自号少陵野老，唐代重要诗人。他经历安史之乱及其后的动荡，曾在长安任职，也辗转成都、夔州等地，晚年漂泊江湘。其诗广泛反映战乱、民生与个人生活，因而被称为诗史；在律诗、古体诗等方面均有深厚成就。《兵车行》表现战争给家庭带来的创痛，《客至》写待客真情，《春望》则把国事和家事融于景物。阅读时可兼顾时代处境与具体人物感受。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 客至賞析",
+          "zh-Hans": "香港教育局 · 客至赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "車轔轔，馬蕭蕭，行人弓箭各在腰，爺娘妻子走相送，塵埃不見咸陽橋。牽衣頓足攔道哭，哭聲直上干雲霄。道旁過者問行人，行人但云點行頻。或從十五北防河，便至四十西營田。去時里正與裹頭，歸來頭白還戍邊。邊庭流血成海水，武皇開邊意未已。君不聞漢家山東二百州，千村萬落生荊杞。縱有健婦把鋤犁，禾生隴畝無東西。況復秦兵耐苦戰，被驅不異犬與雞。長者雖有問，役夫敢伸恨？且如今年冬，未休關西卒。縣官急索租，租稅從何出？信知生男惡，反是生女好；生女猶得嫁比鄰，生男埋沒隨百草。君不見青海頭，古來白骨無人收，新鬼煩冤舊鬼哭，天陰雨濕聲啾啾！",
+    "zh-Hans": "车辚辚，马萧萧，行人弓箭各在腰，爷娘妻子走相送，尘埃不见咸阳桥。牵衣顿足拦道哭，哭声直上干云霄。道旁过者问行人，行人但云点行频。或从十五北防河，便至四十西营田。去时里正与裹头，归来头白还戍边。边庭流血成海水，武皇开边意未已。君不闻汉家山东二百州，千村万落生荆杞。纵有健妇把锄犁，禾生陇亩无东西。况复秦兵耐苦战，被驱不异犬与鸡。长者虽有问，役夫敢伸恨？且如今年冬，未休关西卒。县官急索租，租税从何出？信知生男恶，反是生女好；生女犹得嫁比邻，生男埋没随百草。君不见青海头，古来白骨无人收，新鬼烦冤旧鬼哭，天阴雨湿声啾啾！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-10-l001",
+      "text": {
+        "zh-Hant": "車轔轔，",
+        "zh-Hans": "车辚辚，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l002",
+      "text": {
+        "zh-Hant": "馬蕭蕭，",
+        "zh-Hans": "马萧萧，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l003",
+      "text": {
+        "zh-Hant": "行人弓箭各在腰，",
+        "zh-Hans": "行人弓箭各在腰，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l004",
+      "text": {
+        "zh-Hant": "爺娘妻子走相送，",
+        "zh-Hans": "爷娘妻子走相送，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l005",
+      "text": {
+        "zh-Hant": "塵埃不見咸陽橋。",
+        "zh-Hans": "尘埃不见咸阳桥。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l006",
+      "text": {
+        "zh-Hant": "牽衣頓足攔道哭，",
+        "zh-Hans": "牵衣顿足拦道哭，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l007",
+      "text": {
+        "zh-Hant": "哭聲直上干雲霄。",
+        "zh-Hans": "哭声直上干云霄。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l008",
+      "text": {
+        "zh-Hant": "道旁過者問行人，",
+        "zh-Hans": "道旁过者问行人，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l009",
+      "text": {
+        "zh-Hant": "行人但云點行頻。",
+        "zh-Hans": "行人但云点行频。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l010",
+      "text": {
+        "zh-Hant": "或從十五北防河，",
+        "zh-Hans": "或从十五北防河，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l011",
+      "text": {
+        "zh-Hant": "便至四十西營田。",
+        "zh-Hans": "便至四十西营田。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l012",
+      "text": {
+        "zh-Hant": "去時里正與裹頭，",
+        "zh-Hans": "去时里正与裹头，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l013",
+      "text": {
+        "zh-Hant": "歸來頭白還戍邊。",
+        "zh-Hans": "归来头白还戍边。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l014",
+      "text": {
+        "zh-Hant": "邊庭流血成海水，",
+        "zh-Hans": "边庭流血成海水，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l015",
+      "text": {
+        "zh-Hant": "武皇開邊意未已。",
+        "zh-Hans": "武皇开边意未已。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l016",
+      "text": {
+        "zh-Hant": "君不聞漢家山東二百州，",
+        "zh-Hans": "君不闻汉家山东二百州，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l017",
+      "text": {
+        "zh-Hant": "千村萬落生荊杞。",
+        "zh-Hans": "千村万落生荆杞。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l018",
+      "text": {
+        "zh-Hant": "縱有健婦把鋤犁，",
+        "zh-Hans": "纵有健妇把锄犁，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l019",
+      "text": {
+        "zh-Hant": "禾生隴畝無東西。",
+        "zh-Hans": "禾生陇亩无东西。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l020",
+      "text": {
+        "zh-Hant": "況復秦兵耐苦戰，",
+        "zh-Hans": "况复秦兵耐苦战，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l021",
+      "text": {
+        "zh-Hant": "被驅不異犬與雞。",
+        "zh-Hans": "被驱不异犬与鸡。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l022",
+      "text": {
+        "zh-Hant": "長者雖有問，",
+        "zh-Hans": "长者虽有问，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l023",
+      "text": {
+        "zh-Hant": "役夫敢伸恨？",
+        "zh-Hans": "役夫敢伸恨？"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l024",
+      "text": {
+        "zh-Hant": "且如今年冬，",
+        "zh-Hans": "且如今年冬，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l025",
+      "text": {
+        "zh-Hant": "未休關西卒。",
+        "zh-Hans": "未休关西卒。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l026",
+      "text": {
+        "zh-Hant": "縣官急索租，",
+        "zh-Hans": "县官急索租，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l027",
+      "text": {
+        "zh-Hant": "租稅從何出？",
+        "zh-Hans": "租税从何出？"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l028",
+      "text": {
+        "zh-Hant": "信知生男惡，",
+        "zh-Hans": "信知生男恶，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l029",
+      "text": {
+        "zh-Hant": "反是生女好；",
+        "zh-Hans": "反是生女好；"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l030",
+      "text": {
+        "zh-Hant": "生女猶得嫁比鄰，",
+        "zh-Hans": "生女犹得嫁比邻，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l031",
+      "text": {
+        "zh-Hant": "生男埋沒隨百草。",
+        "zh-Hans": "生男埋没随百草。"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l032",
+      "text": {
+        "zh-Hant": "君不見青海頭，",
+        "zh-Hans": "君不见青海头，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l033",
+      "text": {
+        "zh-Hant": "古來白骨無人收，",
+        "zh-Hans": "古来白骨无人收，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l034",
+      "text": {
+        "zh-Hant": "新鬼煩冤舊鬼哭，",
+        "zh-Hans": "新鬼烦冤旧鬼哭，"
+      }
+    },
+    {
+      "id": "hk-ks3-10-l035",
+      "text": {
+        "zh-Hant": "天陰雨濕聲啾啾！",
+        "zh-Hans": "天阴雨湿声啾啾！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-10-w001",
+      "term": {
+        "zh-Hant": "轔轔",
+        "zh-Hans": "辚辚"
+      },
+      "definition": {
+        "zh-Hant": "車輪滾動的聲音。",
+        "zh-Hans": "车轮滚动的声音。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l001",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l001",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w002",
+      "term": {
+        "zh-Hant": "蕭蕭",
+        "zh-Hans": "萧萧"
+      },
+      "definition": {
+        "zh-Hant": "馬的嘶鳴聲。",
+        "zh-Hans": "马的嘶鸣声。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l002",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l002",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w003",
+      "term": {
+        "zh-Hant": "行人",
+        "zh-Hans": "行人"
+      },
+      "definition": {
+        "zh-Hant": "被徵發出征的士兵。",
+        "zh-Hans": "被征发出征的士兵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l008",
+            "start": 5,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l009",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l008",
+            "start": 5,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l009",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w004",
+      "term": {
+        "zh-Hant": "干",
+        "zh-Hans": "干"
+      },
+      "definition": {
+        "zh-Hant": "衝上。",
+        "zh-Hans": "冲上。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l007",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l007",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w005",
+      "term": {
+        "zh-Hant": "點行",
+        "zh-Hans": "点行"
+      },
+      "definition": {
+        "zh-Hant": "按名冊徵發士兵。",
+        "zh-Hans": "按名册征发士兵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l009",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l009",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w006",
+      "term": {
+        "zh-Hant": "里正",
+        "zh-Hans": "里正"
+      },
+      "definition": {
+        "zh-Hant": "基層地方小吏。",
+        "zh-Hans": "基层地方小吏。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l012",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l012",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w007",
+      "term": {
+        "zh-Hant": "戍邊",
+        "zh-Hans": "戍边"
+      },
+      "definition": {
+        "zh-Hant": "守衞邊疆。",
+        "zh-Hans": "守卫边疆。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l013",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l013",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w008",
+      "term": {
+        "zh-Hant": "武皇",
+        "zh-Hans": "武皇"
+      },
+      "definition": {
+        "zh-Hant": "借漢武帝指當時好大喜功的唐朝統治者。",
+        "zh-Hans": "借汉武帝指当时好大喜功的唐朝统治者。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l015",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l015",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w009",
+      "term": {
+        "zh-Hant": "荊杞",
+        "zh-Hans": "荆杞"
+      },
+      "definition": {
+        "zh-Hant": "荊棘和枸杞等灌木，寫田地荒蕪。",
+        "zh-Hans": "荆棘和枸杞等灌木，写田地荒芜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l017",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l017",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w010",
+      "term": {
+        "zh-Hant": "隴畝",
+        "zh-Hans": "陇亩"
+      },
+      "definition": {
+        "zh-Hant": "田地。",
+        "zh-Hans": "田地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l019",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l019",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w011",
+      "term": {
+        "zh-Hant": "縣官",
+        "zh-Hans": "县官"
+      },
+      "definition": {
+        "zh-Hant": "此處指官府。",
+        "zh-Hans": "此处指官府。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l026",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l026",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-10-w012",
+      "term": {
+        "zh-Hant": "信",
+        "zh-Hans": "信"
+      },
+      "definition": {
+        "zh-Hant": "確實。",
+        "zh-Hans": "确实。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l028",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-10-l028",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 兵車行原文",
+        "zh-Hans": "香港教育局 · 兵车行原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_10_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "31dd23b9e60733715ed5fe15a2a83343cf6f3240bdde1bc8909d920ede2fedf9"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 兵車行賞析",
+        "zh-Hans": "香港教育局 · 兵车行赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_10.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

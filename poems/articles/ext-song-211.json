@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-211",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "菩薩蠻·書江西造口壁",
+    "zh-Hans": "菩萨蛮·书江西造口壁"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-62356e8ef529",
+  "author_file": "../author/author-62356e8ef529.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-62356e8ef529",
+    "name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "catalog_name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人，號稼軒，作品豪邁，常抒報國壯志與人生感慨。",
+        "zh-Hans": "南宋词人，号稼轩，作品豪迈，常抒报国壮志与人生感慨。"
+      },
+      "full": {
+        "zh-Hant": "辛棄疾（1140—1207），字幼安，號稼軒，歷城人，南宋詞人。他年輕時參加抗金活動，南歸後歷任地方官，也長期閒居江西，始終關注恢復中原。詞作題材廣泛，既有沉雄的報國之思，也有鄉村生活和細膩情感，善用典故，傳有《稼軒長短句》。《水龍吟》《永遇樂》把登臨、懷古與現實願望連接起來，《青玉案·元夕》則以繁華燈市襯托獨特人物形象，體現多樣藝術能力。",
+        "zh-Hans": "辛弃疾（1140—1207），字幼安，号稼轩，历城人，南宋词人。他年轻时参加抗金活动，南归后历任地方官，也长期闲居江西，始终关注恢复中原。词作题材广泛，既有沉雄的报国之思，也有乡村生活和细腻情感，善用典故，传有《稼轩长短句》。《水龙吟》《永遇乐》把登临、怀古与现实愿望连接起来，《青玉案·元夕》则以繁华灯市衬托独特人物形象，体现多样艺术能力。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 青玉案·元夕賞析",
+          "zh-Hans": "香港教育局 · 青玉案·元夕赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "鬱孤台下清江水。中間多少行人淚。西北是長安。可憐無數山。青山遮不住。畢竟江流去。江晚正愁予。山深聞鷓鴣。",
+    "zh-Hans": "郁孤台下清江水。中间多少行人泪。西北是长安。可怜无数山。青山遮不住。毕竟江流去。江晚正愁予。山深闻鹧鸪。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-211-l001",
+      "text": {
+        "zh-Hant": "鬱孤台下清江水。",
+        "zh-Hans": "郁孤台下清江水。"
+      }
+    },
+    {
+      "id": "ext-song-211-l002",
+      "text": {
+        "zh-Hant": "中間多少行人淚。",
+        "zh-Hans": "中间多少行人泪。"
+      }
+    },
+    {
+      "id": "ext-song-211-l003",
+      "text": {
+        "zh-Hant": "西北是長安。",
+        "zh-Hans": "西北是长安。"
+      }
+    },
+    {
+      "id": "ext-song-211-l004",
+      "text": {
+        "zh-Hant": "可憐無數山。",
+        "zh-Hans": "可怜无数山。"
+      }
+    },
+    {
+      "id": "ext-song-211-l005",
+      "text": {
+        "zh-Hant": "青山遮不住。",
+        "zh-Hans": "青山遮不住。"
+      }
+    },
+    {
+      "id": "ext-song-211-l006",
+      "text": {
+        "zh-Hant": "畢竟江流去。",
+        "zh-Hans": "毕竟江流去。"
+      }
+    },
+    {
+      "id": "ext-song-211-l007",
+      "text": {
+        "zh-Hant": "江晚正愁予。",
+        "zh-Hans": "江晚正愁予。"
+      }
+    },
+    {
+      "id": "ext-song-211-l008",
+      "text": {
+        "zh-Hant": "山深聞鷓鴣。",
+        "zh-Hans": "山深闻鹧鸪。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-211-w001",
+      "term": {
+        "zh-Hant": "鬱孤台",
+        "zh-Hans": "郁孤台"
+      },
+      "definition": {
+        "zh-Hant": "今江西贛州的一處高台。",
+        "zh-Hans": "今江西赣州的一处高台。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l001",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l001",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-211-w002",
+      "term": {
+        "zh-Hant": "長安",
+        "zh-Hans": "长安"
+      },
+      "definition": {
+        "zh-Hant": "借指故都。",
+        "zh-Hans": "借指故都。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l003",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l003",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-211-w003",
+      "term": {
+        "zh-Hant": "畢竟",
+        "zh-Hans": "毕竟"
+      },
+      "definition": {
+        "zh-Hant": "終究。",
+        "zh-Hans": "终究。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-211-w004",
+      "term": {
+        "zh-Hant": "愁予",
+        "zh-Hans": "愁予"
+      },
+      "definition": {
+        "zh-Hant": "使我發愁。",
+        "zh-Hans": "使我发愁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l007",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l007",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-211-w005",
+      "term": {
+        "zh-Hant": "鷓鴣",
+        "zh-Hans": "鹧鸪"
+      },
+      "definition": {
+        "zh-Hant": "鳥名，其叫聲常被用來烘托行旅之愁。",
+        "zh-Hans": "鸟名，其叫声常被用来烘托行旅之愁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l008",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-211-l008",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 211
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

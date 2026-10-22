@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-19",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "天淨沙·秋思",
+    "zh-Hans": "天净沙·秋思"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-3a3669d02909",
+  "author_file": "../author/author-3a3669d02909.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3a3669d02909",
+    "name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "catalog_name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代戲劇家、散曲家，以《天淨沙·秋思》聞名。",
+        "zh-Hans": "元代戏剧家、散曲家，以《天净沙·秋思》闻名。"
+      },
+      "full": {
+        "zh-Hant": "馬致遠，號東籬，元代戲劇家和散曲作家，主要活動於十三世紀後期至十四世紀初，具體生卒年有異説。他是元曲四大家之一，雜劇代表作有《漢宮秋》，散曲則擅寫羈旅、隱逸、山水與人生感慨。《天淨沙·秋思》以密集意象凝成遊子鄉愁，《壽陽曲》瀟湘八景組曲又能在短篇中安排景物遠近和聲音動靜。讀他的曲，可注意口語節奏與精心選取的景象如何共同產生抒情效果。",
+        "zh-Hans": "马致远，号东篱，元代戏剧家和散曲作家，主要活动于十三世纪后期至十四世纪初，具体生卒年有异说。他是元曲四大家之一，杂剧代表作有《汉宫秋》，散曲则擅写羁旅、隐逸、山水与人生感慨。《天净沙·秋思》以密集意象凝成游子乡愁，《寿阳曲》潇湘八景组曲又能在短篇中安排景物远近和声音动静。读他的曲，可注意口语节奏与精心选取的景象如何共同产生抒情效果。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 天淨沙·秋思賞析",
+          "zh-Hans": "香港教育局 · 天净沙·秋思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_19.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "枯藤老樹昏鴉，小橋流水人家，古道西風瘦馬。夕陽西下，斷腸人在天涯！",
+    "zh-Hans": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-19-l001",
+      "text": {
+        "zh-Hant": "枯藤老樹昏鴉，",
+        "zh-Hans": "枯藤老树昏鸦，"
+      }
+    },
+    {
+      "id": "hk-ks3-19-l002",
+      "text": {
+        "zh-Hant": "小橋流水人家，",
+        "zh-Hans": "小桥流水人家，"
+      }
+    },
+    {
+      "id": "hk-ks3-19-l003",
+      "text": {
+        "zh-Hant": "古道西風瘦馬。",
+        "zh-Hans": "古道西风瘦马。"
+      }
+    },
+    {
+      "id": "hk-ks3-19-l004",
+      "text": {
+        "zh-Hant": "夕陽西下，",
+        "zh-Hans": "夕阳西下，"
+      }
+    },
+    {
+      "id": "hk-ks3-19-l005",
+      "text": {
+        "zh-Hant": "斷腸人在天涯！",
+        "zh-Hans": "断肠人在天涯！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-19-w001",
+      "term": {
+        "zh-Hant": "昏鴉",
+        "zh-Hans": "昏鸦"
+      },
+      "definition": {
+        "zh-Hant": "黃昏歸巢的烏鴉。",
+        "zh-Hans": "黄昏归巢的乌鸦。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l001",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l001",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-19-w002",
+      "term": {
+        "zh-Hant": "古道",
+        "zh-Hans": "古道"
+      },
+      "definition": {
+        "zh-Hant": "古老的道路。",
+        "zh-Hans": "古老的道路。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-19-w003",
+      "term": {
+        "zh-Hant": "西風",
+        "zh-Hans": "西风"
+      },
+      "definition": {
+        "zh-Hant": "秋風。",
+        "zh-Hans": "秋风。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-19-w004",
+      "term": {
+        "zh-Hant": "斷腸人",
+        "zh-Hans": "断肠人"
+      },
+      "definition": {
+        "zh-Hant": "極度悲傷的人，指漂泊思鄉的遊子。",
+        "zh-Hans": "极度悲伤的人，指漂泊思乡的游子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l005",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l005",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-19-w005",
+      "term": {
+        "zh-Hant": "天涯",
+        "zh-Hans": "天涯"
+      },
+      "definition": {
+        "zh-Hant": "極遠的地方。",
+        "zh-Hans": "极远的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l005",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-19-l005",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 天淨沙·秋思原文",
+        "zh-Hans": "香港教育局 · 天净沙·秋思原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_19_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "3f2169df5c4db46f6f5c484cab86da250deff4b6d2d44a10225381f3e2967f6f"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 天淨沙·秋思賞析",
+        "zh-Hans": "香港教育局 · 天净沙·秋思赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_19.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

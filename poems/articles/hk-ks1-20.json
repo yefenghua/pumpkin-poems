@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-20",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "詠雪",
+    "zh-Hans": "咏雪"
+  },
+  "dynasty": {
+    "zh-Hant": "清",
+    "zh-Hans": "清"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-f7d5379105dc",
+  "author_file": "../author/author-f7d5379105dc.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-f7d5379105dc",
+    "name": {
+      "zh-Hant": "鄭燮",
+      "zh-Hans": "郑燮"
+    },
+    "catalog_name": {
+      "zh-Hant": "鄭燮",
+      "zh-Hans": "郑燮"
+    },
+    "dynasty": {
+      "zh-Hant": "清",
+      "zh-Hans": "清"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "清代書畫家、詩人，號板橋，以詩書畫和民生關懷著稱。",
+        "zh-Hans": "清代书画家、诗人，号板桥，以诗书画和民生关怀著称。"
+      },
+      "full": {
+        "zh-Hant": "鄭燮（1693—1765），字克柔，號板橋，江蘇興化人，清代書畫家、詩人，揚州八怪之一。他做過山東範縣、濰縣縣令，離任後以書畫謀生，擅畫蘭竹，詩中常見對普通人生活的關心。傳世《竹石》等作品將自然形象與堅韌品格相連。香港教育局《詠雪》參考版本署鄭燮，本庫依此收錄；此類數字詠雪詩民間另有不同歸屬傳説，因此不補寫未經證實的即席作詩故事。",
+        "zh-Hans": "郑燮（1693—1765），字克柔，号板桥，江苏兴化人，清代书画家、诗人，扬州八怪之一。他做过山东范县、潍县县令，离任后以书画谋生，擅画兰竹，诗中常见对普通人生活的关心。传世《竹石》等作品将自然形象与坚韧品格相连。香港教育局《咏雪》参考版本署郑燮，本库依此收录；此类数字咏雪诗民间另有不同归属传说，因此不补写未经证实的即席作诗故事。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 詠雪賞析",
+          "zh-Hans": "香港教育局 · 咏雪赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "一片兩片三四片，五六七八九十片。千片萬片無數片，飛入梅花都不見。",
+    "zh-Hans": "一片两片三四片，五六七八九十片。千片万片无数片，飞入梅花都不见。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-20-l001",
+      "text": {
+        "zh-Hant": "一片兩片三四片，",
+        "zh-Hans": "一片两片三四片，"
+      }
+    },
+    {
+      "id": "hk-ks1-20-l002",
+      "text": {
+        "zh-Hant": "五六七八九十片。",
+        "zh-Hans": "五六七八九十片。"
+      }
+    },
+    {
+      "id": "hk-ks1-20-l003",
+      "text": {
+        "zh-Hant": "千片萬片無數片，",
+        "zh-Hans": "千片万片无数片，"
+      }
+    },
+    {
+      "id": "hk-ks1-20-l004",
+      "text": {
+        "zh-Hant": "飛入梅花都不見。",
+        "zh-Hans": "飞入梅花都不见。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-20-w001",
+      "term": {
+        "zh-Hant": "片",
+        "zh-Hans": "片"
+      },
+      "definition": {
+        "zh-Hant": "雪花的計數單位。",
+        "zh-Hans": "雪花的计数单位。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l002",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l001",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l002",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-20-w002",
+      "term": {
+        "zh-Hant": "無數",
+        "zh-Hans": "无数"
+      },
+      "definition": {
+        "zh-Hant": "數量多得數不清。",
+        "zh-Hans": "数量多得数不清。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-20-w003",
+      "term": {
+        "zh-Hant": "梅花",
+        "zh-Hans": "梅花"
+      },
+      "definition": {
+        "zh-Hant": "冬春開放的花，此處雪與白梅顏色相融。",
+        "zh-Hans": "冬春开放的花，此处雪与白梅颜色相融。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-20-w004",
+      "term": {
+        "zh-Hant": "不見",
+        "zh-Hans": "不见"
+      },
+      "definition": {
+        "zh-Hant": "看不見，指雪落入梅花後難以分辨。",
+        "zh-Hans": "看不见，指雪落入梅花后难以分辨。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-20-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "依教育局署鄭燮；民間數字詠雪詩另有歸屬傳説。",
+      "zh-Hans": "依教育局署郑燮；民间数字咏雪诗另有归属传说。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 詠雪原文",
+        "zh-Hans": "香港教育局 · 咏雪原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "13c3e62dcaae3d935177c640addd3c8b05dcb057ee7b29eb30c9d7dae6539427"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 詠雪賞析",
+        "zh-Hans": "香港教育局 · 咏雪赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

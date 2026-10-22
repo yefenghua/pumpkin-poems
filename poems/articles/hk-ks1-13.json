@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-13",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "憫農·其二",
+    "zh-Hans": "悯农·其二"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-dd7e7eab9343",
+  "author_file": "../author/author-dd7e7eab9343.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-dd7e7eab9343",
+    "name": {
+      "zh-Hant": "李紳",
+      "zh-Hans": "李绅"
+    },
+    "catalog_name": {
+      "zh-Hant": "李紳",
+      "zh-Hans": "李绅"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，《憫農》組詩以體恤農民、珍惜糧食著稱。",
+        "zh-Hans": "唐代诗人，《悯农》组诗以体恤农民、珍惜粮食著称。"
+      },
+      "full": {
+        "zh-Hant": "李紳（772—846），字公垂，唐代詩人、官員，家於無錫一帶。他曾參與新樂府創作，關注社會生活，後來官至宰相。最廣為傳誦的是《憫農》組詩，其中鋤禾一首以午日勞動和盤中飯食相對照，讓讀者看到每一粒糧食背後的辛勞。作者不同階段的政治經歷與社會評價較複雜，不能只憑一首詩概括其全部人格。學習時應把作品表達的同情、具體語言和人物生平分別考察。",
+        "zh-Hans": "李绅（772—846），字公垂，唐代诗人、官员，家于无锡一带。他曾参与新乐府创作，关注社会生活，后来官至宰相。最广为传诵的是《悯农》组诗，其中锄禾一首以午日劳动和盘中饭食相对照，让读者看到每一粒粮食背后的辛劳。作者不同阶段的政治经历与社会评价较复杂，不能只凭一首诗概括其全部人格。学习时应把作品表达的同情、具体语言和人物生平分别考察。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 憫農·其二賞析",
+          "zh-Hans": "香港教育局 · 悯农·其二赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "鋤禾日當午，汗滴禾下土。誰知盤中飧，粒粒皆辛苦？",
+    "zh-Hans": "锄禾日当午，汗滴禾下土。谁知盘中飧，粒粒皆辛苦？"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-13-l001",
+      "text": {
+        "zh-Hant": "鋤禾日當午，",
+        "zh-Hans": "锄禾日当午，"
+      }
+    },
+    {
+      "id": "hk-ks1-13-l002",
+      "text": {
+        "zh-Hant": "汗滴禾下土。",
+        "zh-Hans": "汗滴禾下土。"
+      }
+    },
+    {
+      "id": "hk-ks1-13-l003",
+      "text": {
+        "zh-Hant": "誰知盤中飧，",
+        "zh-Hans": "谁知盘中飧，"
+      }
+    },
+    {
+      "id": "hk-ks1-13-l004",
+      "text": {
+        "zh-Hant": "粒粒皆辛苦？",
+        "zh-Hans": "粒粒皆辛苦？"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-13-w001",
+      "term": {
+        "zh-Hant": "鋤禾",
+        "zh-Hans": "锄禾"
+      },
+      "definition": {
+        "zh-Hant": "給莊稼鬆土、除草。",
+        "zh-Hans": "给庄稼松土、除草。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-13-w002",
+      "term": {
+        "zh-Hant": "日當午",
+        "zh-Hans": "日当午"
+      },
+      "definition": {
+        "zh-Hant": "太陽正當頭，指中午。",
+        "zh-Hans": "太阳正当头，指中午。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l001",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l001",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-13-w003",
+      "term": {
+        "zh-Hant": "飧",
+        "zh-Hans": "飧"
+      },
+      "definition": {
+        "zh-Hant": "飯食；這裏泛指盤中的食物。",
+        "zh-Hans": "饭食；这里泛指盘中的食物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-13-w004",
+      "term": {
+        "zh-Hant": "皆",
+        "zh-Hans": "皆"
+      },
+      "definition": {
+        "zh-Hant": "全都。",
+        "zh-Hans": "全都。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l004",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-13-l004",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留教育局“盤中飧”，不改為另本的“盤中餐”。",
+      "zh-Hans": "保留教育局“盘中飧”，不改为另本的“盘中餐”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 憫農·其二原文",
+        "zh-Hans": "香港教育局 · 悯农·其二原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "978404313395fd9ac66cfb88c9c25c486ef8b89c0ffefaf7fcfa18f8b713dbc8"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 憫農·其二賞析",
+        "zh-Hans": "香港教育局 · 悯农·其二赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

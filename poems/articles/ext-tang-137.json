@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-137",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "漢江臨泛",
+    "zh-Hans": "汉江临泛"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "楚塞三湘接，荆門九派通。江流天地外，山色有無中。郡邑浮前浦，波瀾動遠空。襄陽好風日，留醉與山翁。",
+    "zh-Hans": "楚塞三湘接，荆门九派通。江流天地外，山色有无中。郡邑浮前浦，波澜动远空。襄阳好风日，留醉与山翁。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-137-l001",
+      "text": {
+        "zh-Hant": "楚塞三湘接，",
+        "zh-Hans": "楚塞三湘接，"
+      }
+    },
+    {
+      "id": "ext-tang-137-l002",
+      "text": {
+        "zh-Hant": "荆門九派通。",
+        "zh-Hans": "荆门九派通。"
+      }
+    },
+    {
+      "id": "ext-tang-137-l003",
+      "text": {
+        "zh-Hant": "江流天地外，",
+        "zh-Hans": "江流天地外，"
+      }
+    },
+    {
+      "id": "ext-tang-137-l004",
+      "text": {
+        "zh-Hant": "山色有無中。",
+        "zh-Hans": "山色有无中。"
+      }
+    },
+    {
+      "id": "ext-tang-137-l005",
+      "text": {
+        "zh-Hant": "郡邑浮前浦，",
+        "zh-Hans": "郡邑浮前浦，"
+      }
+    },
+    {
+      "id": "ext-tang-137-l006",
+      "text": {
+        "zh-Hant": "波瀾動遠空。",
+        "zh-Hans": "波澜动远空。"
+      }
+    },
+    {
+      "id": "ext-tang-137-l007",
+      "text": {
+        "zh-Hant": "襄陽好風日，",
+        "zh-Hans": "襄阳好风日，"
+      }
+    },
+    {
+      "id": "ext-tang-137-l008",
+      "text": {
+        "zh-Hant": "留醉與山翁。",
+        "zh-Hans": "留醉与山翁。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-137-w001",
+      "term": {
+        "zh-Hant": "楚塞",
+        "zh-Hans": "楚塞"
+      },
+      "definition": {
+        "zh-Hant": "古楚地的邊界。",
+        "zh-Hans": "古楚地的边界。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-137-w002",
+      "term": {
+        "zh-Hant": "三湘",
+        "zh-Hans": "三湘"
+      },
+      "definition": {
+        "zh-Hant": "湘江流域。",
+        "zh-Hans": "湘江流域。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-137-w003",
+      "term": {
+        "zh-Hant": "九派",
+        "zh-Hans": "九派"
+      },
+      "definition": {
+        "zh-Hant": "長江眾多支流。",
+        "zh-Hans": "长江众多支流。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-137-w004",
+      "term": {
+        "zh-Hant": "郡邑",
+        "zh-Hans": "郡邑"
+      },
+      "definition": {
+        "zh-Hant": "城鎮。",
+        "zh-Hans": "城镇。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-137-w005",
+      "term": {
+        "zh-Hant": "山翁",
+        "zh-Hans": "山翁"
+      },
+      "definition": {
+        "zh-Hant": "山簡，晉代好飲酒的人物。",
+        "zh-Hans": "山简，晋代好饮酒的人物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l008",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-137-l008",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 137
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

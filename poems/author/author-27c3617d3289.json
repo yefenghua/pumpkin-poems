@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-27c3617d3289",
+  "name": {
+    "zh-Hant": "劉長卿",
+    "zh-Hans": "刘长卿"
+  },
+  "catalog_name": {
+    "zh-Hant": "劉長卿",
+    "zh-Hans": "刘长卿"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，擅長五言詩，常寫山水、送別和旅途感受。",
+      "zh-Hans": "唐代诗人，擅长五言诗，常写山水、送别和旅途感受。"
+    },
+    "full": {
+      "zh-Hant": "劉長卿，字文房，唐代詩人，生卒年和籍貫細節存在不同考訂。他曾在地方任職，經歷貶謫，後來任隨州刺史，因此也稱劉隨州。其詩以五言作品著稱，語言凝練，景物幽靜，常在山寺、江水、夕陽與孤舟之中寫離別和漂泊。《送靈澈上人》把友人遠去的身影融入青山夕照，《聽彈琴》由琴聲引出對古調的珍愛。讀他的短詩，可留意聲音、距離與留白如何形成餘味。",
+      "zh-Hans": "刘长卿，字文房，唐代诗人，生卒年和籍贯细节存在不同考订。他曾在地方任职，经历贬谪，后来任随州刺史，因此也称刘随州。其诗以五言作品著称，语言凝练，景物幽静，常在山寺、江水、夕阳与孤舟之中写离别和漂泊。《送灵澈上人》把友人远去的身影融入青山夕照，《听弹琴》由琴声引出对古调的珍爱。读他的短诗，可留意声音、距离与留白如何形成余味。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 187
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

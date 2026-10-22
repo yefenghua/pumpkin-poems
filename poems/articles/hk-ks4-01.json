@@ -1,0 +1,626 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-01",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "關雎",
+    "zh-Hans": "关雎"
+  },
+  "dynasty": {
+    "zh-Hant": "先秦",
+    "zh-Hans": "先秦"
+  },
+  "genre": {
+    "zh-Hant": "四言詩",
+    "zh-Hans": "四言诗"
+  },
+  "author_id": "author-67b4d378d267",
+  "author_file": "../author/author-67b4d378d267.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-67b4d378d267",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·詩經",
+      "zh-Hans": "佚名·诗经"
+    },
+    "dynasty": {
+      "zh-Hant": "先秦",
+      "zh-Hans": "先秦"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《詩經》彙集周代詩歌，多數作品的具體作者姓名不可考。",
+        "zh-Hans": "《诗经》汇集周代诗歌，多数作品的具体作者姓名不可考。"
+      },
+      "full": {
+        "zh-Hant": "《詩經》是中國早期詩歌總集，收錄西周初年至春秋中葉前後的作品三百零五篇，分為風、雅、頌。它彙集不同地域、階層和場合的詩歌，並非一位作者的創作。許多篇章在採集、演唱與編訂過程中流傳，個人作者已不可考。《關雎》《蒹葭》《桃夭》《子衿》屬於國風。其四言節奏、重章疊句以及賦比興手法，對後世詩歌影響深遠。孔子與其傳習有關，但不應被填寫為這些詩的作者。",
+        "zh-Hans": "《诗经》是中国早期诗歌总集，收录西周初年至春秋中叶前后的作品三百零五篇，分为风、雅、颂。它汇集不同地域、阶层和场合的诗歌，并非一位作者的创作。许多篇章在采集、演唱与编订过程中流传，个人作者已不可考。《关雎》《蒹葭》《桃夭》《子衿》属于国风。其四言节奏、重章叠句以及赋比兴手法，对后世诗歌影响深远。孔子与其传习有关，但不应被填写为这些诗的作者。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 關雎賞析",
+          "zh-Hans": "香港教育局 · 关雎赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "關關雎鳩，在河之洲。窈窕淑女，君子好逑。參差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，輾轉反側。參差荇菜，左右采之。窈窕淑女，琴瑟友之。參差荇菜，左右芼之。窈窕淑女，鐘鼓樂之。",
+    "zh-Hans": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。参差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，辗转反侧。参差荇菜，左右采之。窈窕淑女，琴瑟友之。参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-01-l001",
+      "text": {
+        "zh-Hant": "關關雎鳩，",
+        "zh-Hans": "关关雎鸠，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l002",
+      "text": {
+        "zh-Hant": "在河之洲。",
+        "zh-Hans": "在河之洲。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l003",
+      "text": {
+        "zh-Hant": "窈窕淑女，",
+        "zh-Hans": "窈窕淑女，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l004",
+      "text": {
+        "zh-Hant": "君子好逑。",
+        "zh-Hans": "君子好逑。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l005",
+      "text": {
+        "zh-Hant": "參差荇菜，",
+        "zh-Hans": "参差荇菜，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l006",
+      "text": {
+        "zh-Hant": "左右流之。",
+        "zh-Hans": "左右流之。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l007",
+      "text": {
+        "zh-Hant": "窈窕淑女，",
+        "zh-Hans": "窈窕淑女，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l008",
+      "text": {
+        "zh-Hant": "寤寐求之。",
+        "zh-Hans": "寤寐求之。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l009",
+      "text": {
+        "zh-Hant": "求之不得，",
+        "zh-Hans": "求之不得，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l010",
+      "text": {
+        "zh-Hant": "寤寐思服。",
+        "zh-Hans": "寤寐思服。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l011",
+      "text": {
+        "zh-Hant": "悠哉悠哉，",
+        "zh-Hans": "悠哉悠哉，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l012",
+      "text": {
+        "zh-Hant": "輾轉反側。",
+        "zh-Hans": "辗转反侧。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l013",
+      "text": {
+        "zh-Hant": "參差荇菜，",
+        "zh-Hans": "参差荇菜，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l014",
+      "text": {
+        "zh-Hant": "左右采之。",
+        "zh-Hans": "左右采之。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l015",
+      "text": {
+        "zh-Hant": "窈窕淑女，",
+        "zh-Hans": "窈窕淑女，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l016",
+      "text": {
+        "zh-Hant": "琴瑟友之。",
+        "zh-Hans": "琴瑟友之。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l017",
+      "text": {
+        "zh-Hant": "參差荇菜，",
+        "zh-Hans": "参差荇菜，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l018",
+      "text": {
+        "zh-Hant": "左右芼之。",
+        "zh-Hans": "左右芼之。"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l019",
+      "text": {
+        "zh-Hant": "窈窕淑女，",
+        "zh-Hans": "窈窕淑女，"
+      }
+    },
+    {
+      "id": "hk-ks4-01-l020",
+      "text": {
+        "zh-Hant": "鐘鼓樂之。",
+        "zh-Hans": "钟鼓乐之。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-01-w001",
+      "term": {
+        "zh-Hant": "關關",
+        "zh-Hans": "关关"
+      },
+      "definition": {
+        "zh-Hant": "水鳥和鳴的聲音。",
+        "zh-Hans": "水鸟和鸣的声音。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w002",
+      "term": {
+        "zh-Hant": "雎鳩",
+        "zh-Hans": "雎鸠"
+      },
+      "definition": {
+        "zh-Hant": "一種水鳥，具體鳥種有不同説法。",
+        "zh-Hans": "一种水鸟，具体鸟种有不同说法。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w003",
+      "term": {
+        "zh-Hant": "洲",
+        "zh-Hans": "洲"
+      },
+      "definition": {
+        "zh-Hant": "水中的陸地。",
+        "zh-Hans": "水中的陆地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l002",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l002",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w004",
+      "term": {
+        "zh-Hant": "窈窕",
+        "zh-Hans": "窈窕"
+      },
+      "definition": {
+        "zh-Hant": "美好、嫺靜的樣子。",
+        "zh-Hans": "美好、娴静的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l015",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l019",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l015",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l019",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w005",
+      "term": {
+        "zh-Hant": "好逑",
+        "zh-Hans": "好逑"
+      },
+      "definition": {
+        "zh-Hant": "美好的配偶。",
+        "zh-Hans": "美好的配偶。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w006",
+      "term": {
+        "zh-Hant": "荇菜",
+        "zh-Hans": "荇菜"
+      },
+      "definition": {
+        "zh-Hant": "一種水生植物。",
+        "zh-Hans": "一种水生植物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l005",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l013",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l017",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l005",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l013",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l017",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w007",
+      "term": {
+        "zh-Hant": "寤寐",
+        "zh-Hans": "寤寐"
+      },
+      "definition": {
+        "zh-Hant": "醒着和睡着，表示日夜。",
+        "zh-Hans": "醒着和睡着，表示日夜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l008",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l010",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l008",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l010",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w008",
+      "term": {
+        "zh-Hant": "思服",
+        "zh-Hans": "思服"
+      },
+      "definition": {
+        "zh-Hant": "思念。",
+        "zh-Hans": "思念。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w009",
+      "term": {
+        "zh-Hant": "友",
+        "zh-Hans": "友"
+      },
+      "definition": {
+        "zh-Hant": "親近、友愛。",
+        "zh-Hans": "亲近、友爱。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l016",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l016",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-01-w010",
+      "term": {
+        "zh-Hant": "芼",
+        "zh-Hans": "芼"
+      },
+      "definition": {
+        "zh-Hant": "擇取。",
+        "zh-Hans": "择取。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l018",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-01-l018",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 關雎原文",
+        "zh-Hans": "香港教育局 · 关雎原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_01_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "8402c057ed07befcc16693486e0fd450b5fa7568d3324910e5fcd9a7d5bb091a"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 關雎賞析",
+        "zh-Hans": "香港教育局 · 关雎赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

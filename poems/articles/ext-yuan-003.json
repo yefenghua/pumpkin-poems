@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-yuan-003",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "清江引·秋懷",
+    "zh-Hans": "清江引·秋怀"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-efe60276390a",
+  "author_file": "../author/author-efe60276390a.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-efe60276390a",
+    "name": {
+      "zh-Hant": "張可久",
+      "zh-Hans": "张可久"
+    },
+    "catalog_name": {
+      "zh-Hant": "張可久",
+      "zh-Hans": "张可久"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代散曲家，號小山，以清麗精緻的小令著稱。",
+        "zh-Hans": "元代散曲家，号小山，以清丽精致的小令著称。"
+      },
+      "full": {
+        "zh-Hant": "張可久，字小山或號小山，慶元路鄞縣人，元代散曲作家，生卒年約在十三世紀後期至十四世紀中葉，具體記載有異。他曾做小吏，長期遊歷江南，留下數量豐富的散曲。作品常寫山水、隱居、送別和羈旅，善將詩詞的清雅意境融入曲的口語節奏，傳有《小山樂府》等。《清江引·秋懷》以家書、雁聲、菊花和芭蕉雨組成思鄉畫面，顯示短小篇幅也能承載多層情緒。",
+        "zh-Hans": "张可久，字小山或号小山，庆元路鄞县人，元代散曲作家，生卒年约在十三世纪后期至十四世纪中叶，具体记载有异。他曾做小吏，长期游历江南，留下数量丰富的散曲。作品常写山水、隐居、送别和羁旅，善将诗词的清雅意境融入曲的口语节奏，传有《小山乐府》等。《清江引·秋怀》以家书、雁声、菊花和芭蕉雨组成思乡画面，显示短小篇幅也能承载多层情绪。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "張可久文獻資料",
+          "zh-Hans": "张可久文献资料"
+        },
+        "url": "https://ctext.org/wiki.pl?chapter=337999&if=en",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "西風信來家萬里，問我歸期未？雁啼紅葉天，人醉黃花地，芭蕉雨聲秋夢裏。",
+    "zh-Hans": "西风信来家万里，问我归期未？雁啼红叶天，人醉黄花地，芭蕉雨声秋梦里。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-yuan-003-l001",
+      "text": {
+        "zh-Hant": "西風信來家萬里，",
+        "zh-Hans": "西风信来家万里，"
+      }
+    },
+    {
+      "id": "ext-yuan-003-l002",
+      "text": {
+        "zh-Hant": "問我歸期未？",
+        "zh-Hans": "问我归期未？"
+      }
+    },
+    {
+      "id": "ext-yuan-003-l003",
+      "text": {
+        "zh-Hant": "雁啼紅葉天，",
+        "zh-Hans": "雁啼红叶天，"
+      }
+    },
+    {
+      "id": "ext-yuan-003-l004",
+      "text": {
+        "zh-Hant": "人醉黃花地，",
+        "zh-Hans": "人醉黄花地，"
+      }
+    },
+    {
+      "id": "ext-yuan-003-l005",
+      "text": {
+        "zh-Hant": "芭蕉雨聲秋夢裏。",
+        "zh-Hans": "芭蕉雨声秋梦里。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-yuan-003-w001",
+      "term": {
+        "zh-Hant": "西風",
+        "zh-Hans": "西风"
+      },
+      "definition": {
+        "zh-Hant": "秋風。",
+        "zh-Hans": "秋风。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-003-w002",
+      "term": {
+        "zh-Hant": "信",
+        "zh-Hans": "信"
+      },
+      "definition": {
+        "zh-Hant": "書信。",
+        "zh-Hans": "书信。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l001",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l001",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-003-w003",
+      "term": {
+        "zh-Hant": "歸期",
+        "zh-Hans": "归期"
+      },
+      "definition": {
+        "zh-Hant": "回家的日期。",
+        "zh-Hans": "回家的日期。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-003-w004",
+      "term": {
+        "zh-Hant": "黃花",
+        "zh-Hans": "黄花"
+      },
+      "definition": {
+        "zh-Hant": "菊花。",
+        "zh-Hans": "菊花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-003-w005",
+      "term": {
+        "zh-Hant": "秋夢",
+        "zh-Hans": "秋梦"
+      },
+      "definition": {
+        "zh-Hant": "秋夜的夢，寄託思鄉之情。",
+        "zh-Hans": "秋夜的梦，寄托思乡之情。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l005",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-003-l005",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "從《清江引》合併條目末尾拆出秋懷一首。",
+      "zh-Hans": "从《清江引》合并条目末尾拆出秋怀一首。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 元曲/yuanqu.json",
+        "zh-Hans": "中华古诗词数据库 · 元曲/yuanqu.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%83%E6%9B%B2/yuanqu.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "c2be37d2349cec99ec7f2d7c4107eb08bbb3ac869221db24531c8ffed2a88b12",
+      "record_locator": {
+        "index_zero_based": "5972"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

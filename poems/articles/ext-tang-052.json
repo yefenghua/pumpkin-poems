@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-052",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "桃花溪",
+    "zh-Hans": "桃花溪"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-4a4edb86cb92",
+  "author_file": "../author/author-4a4edb86cb92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-4a4edb86cb92",
+    "name": {
+      "zh-Hant": "張旭",
+      "zh-Hans": "张旭"
+    },
+    "catalog_name": {
+      "zh-Hant": "張旭",
+      "zh-Hans": "张旭"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代書法家、詩人，以草書著名，詩歌也富有清麗畫意。",
+        "zh-Hans": "唐代书法家、诗人，以草书著名，诗歌也富有清丽画意。"
+      },
+      "full": {
+        "zh-Hant": "張旭，字伯高，唐代吳郡人，主要活動於開元、天寶時期，具體生卒年不詳。他是著名草書家，與懷素並稱張顛素狂，也有詩作傳世。書法的奔放與詩歌的清麗，展現同一藝術家不同的表達面貌。《桃花溪》借桃花流水、石磯和漁船，令人聯想到陶淵明筆下的桃花源，以問句留下想象空間。介紹其生平時不宜把飲酒作書的傳聞全部視為可考事實。",
+        "zh-Hans": "张旭，字伯高，唐代吴郡人，主要活动于开元、天宝时期，具体生卒年不详。他是著名草书家，与怀素并称张颠素狂，也有诗作传世。书法的奔放与诗歌的清丽，展现同一艺术家不同的表达面貌。《桃花溪》借桃花流水、石矶和渔船，令人联想到陶渊明笔下的桃花源，以问句留下想象空间。介绍其生平时不宜把饮酒作书的传闻全部视为可考事实。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 572
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "隱隱飛橋隔野煙，石磯西畔問漁船。桃花盡日隨流水，洞在清溪何處邊。",
+    "zh-Hans": "隐隐飞桥隔野烟，石矶西畔问渔船。桃花尽日随流水，洞在清溪何处边。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-052-l001",
+      "text": {
+        "zh-Hant": "隱隱飛橋隔野煙，",
+        "zh-Hans": "隐隐飞桥隔野烟，"
+      }
+    },
+    {
+      "id": "ext-tang-052-l002",
+      "text": {
+        "zh-Hant": "石磯西畔問漁船。",
+        "zh-Hans": "石矶西畔问渔船。"
+      }
+    },
+    {
+      "id": "ext-tang-052-l003",
+      "text": {
+        "zh-Hant": "桃花盡日隨流水，",
+        "zh-Hans": "桃花尽日随流水，"
+      }
+    },
+    {
+      "id": "ext-tang-052-l004",
+      "text": {
+        "zh-Hant": "洞在清溪何處邊。",
+        "zh-Hans": "洞在清溪何处边。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-052-w001",
+      "term": {
+        "zh-Hant": "飛橋",
+        "zh-Hans": "飞桥"
+      },
+      "definition": {
+        "zh-Hant": "凌空架起的橋。",
+        "zh-Hans": "凌空架起的桥。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-052-w002",
+      "term": {
+        "zh-Hant": "石磯",
+        "zh-Hans": "石矶"
+      },
+      "definition": {
+        "zh-Hant": "突出水邊的岩石。",
+        "zh-Hans": "突出水边的岩石。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-052-w003",
+      "term": {
+        "zh-Hant": "盡日",
+        "zh-Hans": "尽日"
+      },
+      "definition": {
+        "zh-Hant": "整天。",
+        "zh-Hans": "整天。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-052-w004",
+      "term": {
+        "zh-Hant": "洞",
+        "zh-Hans": "洞"
+      },
+      "definition": {
+        "zh-Hant": "聯繫陶淵明筆下通向桃花源的山洞。",
+        "zh-Hans": "联系陶渊明笔下通向桃花源的山洞。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l004",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-052-l004",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "谿",
+      "to": "溪"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 52
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

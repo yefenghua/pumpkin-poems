@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-077",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "秋夕",
+    "zh-Hans": "秋夕"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-f66c94d9050d",
+  "author_file": "../author/author-f66c94d9050d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-f66c94d9050d",
+    "name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐詩人，字牧之，擅長七言絕句與詠史詩。",
+        "zh-Hans": "晚唐诗人，字牧之，擅长七言绝句与咏史诗。"
+      },
+      "full": {
+        "zh-Hant": "杜牧（803—852），字牧之，京兆萬年人，晚唐詩人和散文家，與李商隱並稱小李杜。他曾任地方官及幕府職務，關心政治軍事，也善寫山水、送別和個人情懷。七言絕句是其突出的創作領域，語言俊爽，常在短篇中結合鮮明景象與歷史思考。《山行》寫深秋的明麗，《赤壁》《泊秦淮》則借古蹟和樂曲反思興亡。讀杜詩，可比較寫景中的欣賞與懷古中的諷喻如何各具語氣。",
+        "zh-Hans": "杜牧（803—852），字牧之，京兆万年人，晚唐诗人和散文家，与李商隐并称小李杜。他曾任地方官及幕府职务，关心政治军事，也善写山水、送别和个人情怀。七言绝句是其突出的创作领域，语言俊爽，常在短篇中结合鲜明景象与历史思考。《山行》写深秋的明丽，《赤壁》《泊秦淮》则借古迹和乐曲反思兴亡。读杜诗，可比较写景中的欣赏与怀古中的讽喻如何各具语气。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 清明賞析",
+          "zh-Hans": "香港教育局 · 清明赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "紅燭秋光冷畫屏，輕羅小扇撲流螢。天階夜色涼如水，坐看牽牛織女星。",
+    "zh-Hans": "红烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，坐看牵牛织女星。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-077-l001",
+      "text": {
+        "zh-Hant": "紅燭秋光冷畫屏，",
+        "zh-Hans": "红烛秋光冷画屏，"
+      }
+    },
+    {
+      "id": "ext-tang-077-l002",
+      "text": {
+        "zh-Hant": "輕羅小扇撲流螢。",
+        "zh-Hans": "轻罗小扇扑流萤。"
+      }
+    },
+    {
+      "id": "ext-tang-077-l003",
+      "text": {
+        "zh-Hant": "天階夜色涼如水，",
+        "zh-Hans": "天阶夜色凉如水，"
+      }
+    },
+    {
+      "id": "ext-tang-077-l004",
+      "text": {
+        "zh-Hant": "坐看牽牛織女星。",
+        "zh-Hans": "坐看牵牛织女星。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-077-w001",
+      "term": {
+        "zh-Hant": "畫屏",
+        "zh-Hans": "画屏"
+      },
+      "definition": {
+        "zh-Hant": "繪有圖案的屏風。",
+        "zh-Hans": "绘有图案的屏风。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-077-w002",
+      "term": {
+        "zh-Hant": "輕羅",
+        "zh-Hans": "轻罗"
+      },
+      "definition": {
+        "zh-Hant": "輕薄的絲織品。",
+        "zh-Hans": "轻薄的丝织品。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-077-w003",
+      "term": {
+        "zh-Hant": "流螢",
+        "zh-Hans": "流萤"
+      },
+      "definition": {
+        "zh-Hant": "飛動的螢火蟲。",
+        "zh-Hans": "飞动的萤火虫。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-077-w004",
+      "term": {
+        "zh-Hant": "天階",
+        "zh-Hans": "天阶"
+      },
+      "definition": {
+        "zh-Hant": "宮中的石階。",
+        "zh-Hans": "宫中的石阶。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-077-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本“紅燭”“坐看”；另有“銀燭”“卧看”等異文。",
+      "zh-Hans": "保留底本“红烛”“坐看”；另有“银烛”“卧看”等异文。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 77
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

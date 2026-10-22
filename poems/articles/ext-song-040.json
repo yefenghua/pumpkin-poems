@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-040",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "定風波·莫聽穿林打葉聲",
+    "zh-Hans": "定风波·莫听穿林打叶声"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "莫聽穿林打葉聲。何妨吟嘯且徐行。竹杖芒鞋輕勝馬。誰怕。一蓑煙雨任平生。料峭春風吹酒醒。微冷。山頭斜照卻相迎。回首向來蕭瑟處。歸去。也無風雨也無晴。",
+    "zh-Hans": "莫听穿林打叶声。何妨吟啸且徐行。竹杖芒鞋轻胜马。谁怕。一蓑烟雨任平生。料峭春风吹酒醒。微冷。山头斜照却相迎。回首向来萧瑟处。归去。也无风雨也无晴。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-040-l001",
+      "text": {
+        "zh-Hant": "莫聽穿林打葉聲。",
+        "zh-Hans": "莫听穿林打叶声。"
+      }
+    },
+    {
+      "id": "ext-song-040-l002",
+      "text": {
+        "zh-Hant": "何妨吟嘯且徐行。",
+        "zh-Hans": "何妨吟啸且徐行。"
+      }
+    },
+    {
+      "id": "ext-song-040-l003",
+      "text": {
+        "zh-Hant": "竹杖芒鞋輕勝馬。",
+        "zh-Hans": "竹杖芒鞋轻胜马。"
+      }
+    },
+    {
+      "id": "ext-song-040-l004",
+      "text": {
+        "zh-Hant": "誰怕。",
+        "zh-Hans": "谁怕。"
+      }
+    },
+    {
+      "id": "ext-song-040-l005",
+      "text": {
+        "zh-Hant": "一蓑煙雨任平生。",
+        "zh-Hans": "一蓑烟雨任平生。"
+      }
+    },
+    {
+      "id": "ext-song-040-l006",
+      "text": {
+        "zh-Hant": "料峭春風吹酒醒。",
+        "zh-Hans": "料峭春风吹酒醒。"
+      }
+    },
+    {
+      "id": "ext-song-040-l007",
+      "text": {
+        "zh-Hant": "微冷。",
+        "zh-Hans": "微冷。"
+      }
+    },
+    {
+      "id": "ext-song-040-l008",
+      "text": {
+        "zh-Hant": "山頭斜照卻相迎。",
+        "zh-Hans": "山头斜照却相迎。"
+      }
+    },
+    {
+      "id": "ext-song-040-l009",
+      "text": {
+        "zh-Hant": "回首向來蕭瑟處。",
+        "zh-Hans": "回首向来萧瑟处。"
+      }
+    },
+    {
+      "id": "ext-song-040-l010",
+      "text": {
+        "zh-Hant": "歸去。",
+        "zh-Hans": "归去。"
+      }
+    },
+    {
+      "id": "ext-song-040-l011",
+      "text": {
+        "zh-Hant": "也無風雨也無晴。",
+        "zh-Hans": "也无风雨也无晴。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-040-w001",
+      "term": {
+        "zh-Hant": "吟嘯",
+        "zh-Hans": "吟啸"
+      },
+      "definition": {
+        "zh-Hant": "吟唱或長嘯。",
+        "zh-Hans": "吟唱或长啸。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-040-w002",
+      "term": {
+        "zh-Hant": "徐行",
+        "zh-Hans": "徐行"
+      },
+      "definition": {
+        "zh-Hant": "慢慢行走。",
+        "zh-Hans": "慢慢行走。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-040-w003",
+      "term": {
+        "zh-Hant": "芒鞋",
+        "zh-Hans": "芒鞋"
+      },
+      "definition": {
+        "zh-Hant": "草鞋。",
+        "zh-Hans": "草鞋。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-040-w004",
+      "term": {
+        "zh-Hant": "料峭",
+        "zh-Hans": "料峭"
+      },
+      "definition": {
+        "zh-Hant": "微寒。",
+        "zh-Hans": "微寒。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-040-w005",
+      "term": {
+        "zh-Hant": "向來",
+        "zh-Hans": "向来"
+      },
+      "definition": {
+        "zh-Hant": "剛才。",
+        "zh-Hans": "刚才。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l009",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l009",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-040-w006",
+      "term": {
+        "zh-Hant": "蕭瑟",
+        "zh-Hans": "萧瑟"
+      },
+      "definition": {
+        "zh-Hant": "風雨吹打的聲響或景象。",
+        "zh-Hans": "风雨吹打的声响或景象。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l009",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-040-l009",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "所據選本僅收詞正文，未收“三月七日沙湖道中遇雨”等小序。",
+      "zh-Hans": "所据选本仅收词正文，未收“三月七日沙湖道中遇雨”等小序。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 40
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

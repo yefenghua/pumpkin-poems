@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-035",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "思遠人·紅葉黃花秋意晚",
+    "zh-Hans": "思远人·红叶黄花秋意晚"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-bcb69362b870",
+  "author_file": "../author/author-bcb69362b870.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-bcb69362b870",
+    "name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，號小山，擅長細膩含蓄的小令。",
+        "zh-Hans": "北宋词人，号小山，擅长细腻含蓄的小令。"
+      },
+      "full": {
+        "zh-Hant": "晏幾道，字叔原，號小山，北宋詞人，晏殊之子，生卒年有不同考訂。他出身官宦家庭，後來經歷家道變化，仕途並不顯達。其詞多追憶往事、抒寫離情，擅長把夢境與現實、歡聚與失落交錯表現，語言精緻而情感深切，詞集稱《小山詞》。《臨江仙》《鷓鴣天》等名篇常從燈下、歌席、簾幕和落花切入，閲讀時可留意記憶如何使眼前一幕帶上過去的重量。",
+        "zh-Hans": "晏几道，字叔原，号小山，北宋词人，晏殊之子，生卒年有不同考订。他出身官宦家庭，后来经历家道变化，仕途并不显达。其词多追忆往事、抒写离情，擅长把梦境与现实、欢聚与失落交错表现，语言精致而情感深切，词集称《小山词》。《临江仙》《鹧鸪天》等名篇常从灯下、歌席、帘幕和落花切入，阅读时可留意记忆如何使眼前一幕带上过去的重量。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 19
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "紅葉黃花秋意晚，千里念行客。飛雲過盡，歸鴻無信，何處寄書得。淚彈不盡臨窗滴。就硯旋研墨。漸寫到別來，此情深處，紅箋為無色。",
+    "zh-Hans": "红叶黄花秋意晚，千里念行客。飞云过尽，归鸿无信，何处寄书得。泪弹不尽临窗滴。就砚旋研墨。渐写到别来，此情深处，红笺为无色。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-035-l001",
+      "text": {
+        "zh-Hant": "紅葉黃花秋意晚，",
+        "zh-Hans": "红叶黄花秋意晚，"
+      }
+    },
+    {
+      "id": "ext-song-035-l002",
+      "text": {
+        "zh-Hant": "千里念行客。",
+        "zh-Hans": "千里念行客。"
+      }
+    },
+    {
+      "id": "ext-song-035-l003",
+      "text": {
+        "zh-Hant": "飛雲過盡，",
+        "zh-Hans": "飞云过尽，"
+      }
+    },
+    {
+      "id": "ext-song-035-l004",
+      "text": {
+        "zh-Hant": "歸鴻無信，",
+        "zh-Hans": "归鸿无信，"
+      }
+    },
+    {
+      "id": "ext-song-035-l005",
+      "text": {
+        "zh-Hant": "何處寄書得。",
+        "zh-Hans": "何处寄书得。"
+      }
+    },
+    {
+      "id": "ext-song-035-l006",
+      "text": {
+        "zh-Hant": "淚彈不盡臨窗滴。",
+        "zh-Hans": "泪弹不尽临窗滴。"
+      }
+    },
+    {
+      "id": "ext-song-035-l007",
+      "text": {
+        "zh-Hant": "就硯旋研墨。",
+        "zh-Hans": "就砚旋研墨。"
+      }
+    },
+    {
+      "id": "ext-song-035-l008",
+      "text": {
+        "zh-Hant": "漸寫到別來，",
+        "zh-Hans": "渐写到别来，"
+      }
+    },
+    {
+      "id": "ext-song-035-l009",
+      "text": {
+        "zh-Hant": "此情深處，",
+        "zh-Hans": "此情深处，"
+      }
+    },
+    {
+      "id": "ext-song-035-l010",
+      "text": {
+        "zh-Hant": "紅箋為無色。",
+        "zh-Hans": "红笺为无色。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-035-w001",
+      "term": {
+        "zh-Hant": "黃花",
+        "zh-Hans": "黄花"
+      },
+      "definition": {
+        "zh-Hant": "菊花。",
+        "zh-Hans": "菊花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-035-w002",
+      "term": {
+        "zh-Hant": "行客",
+        "zh-Hans": "行客"
+      },
+      "definition": {
+        "zh-Hant": "遠行的人。",
+        "zh-Hans": "远行的人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-035-w003",
+      "term": {
+        "zh-Hant": "歸鴻",
+        "zh-Hans": "归鸿"
+      },
+      "definition": {
+        "zh-Hant": "歸飛的大雁，常與音信聯繫。",
+        "zh-Hans": "归飞的大雁，常与音信联系。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-035-w004",
+      "term": {
+        "zh-Hant": "旋",
+        "zh-Hans": "旋"
+      },
+      "definition": {
+        "zh-Hant": "隨即。",
+        "zh-Hans": "随即。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l007",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l007",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-035-w005",
+      "term": {
+        "zh-Hant": "紅箋",
+        "zh-Hans": "红笺"
+      },
+      "definition": {
+        "zh-Hant": "紅色信紙。",
+        "zh-Hans": "红色信纸。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l010",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-035-l010",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 35
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

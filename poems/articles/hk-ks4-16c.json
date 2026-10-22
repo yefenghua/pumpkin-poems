@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-16c",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "登樓",
+    "zh-Hans": "登楼"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言律詩",
+    "zh-Hans": "七言律诗"
+  },
+  "author_id": "author-d1a76721cd00",
+  "author_file": "../author/author-d1a76721cd00.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d1a76721cd00",
+    "name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字子美，關懷民生，後世尊為詩聖。",
+        "zh-Hans": "唐代诗人，字子美，关怀民生，后世尊为诗圣。"
+      },
+      "full": {
+        "zh-Hant": "杜甫（712—770），字子美，自號少陵野老，唐代重要詩人。他經歷安史之亂及其後的動盪，曾在長安任職，也輾轉成都、夔州等地，晚年漂泊江湘。其詩廣泛反映戰亂、民生與個人生活，因而被稱為詩史；在律詩、古體詩等方面均有深厚成就。《兵車行》表現戰爭給家庭帶來的創痛，《客至》寫待客真情，《春望》則把國事和家事融於景物。閲讀時可兼顧時代處境與具體人物感受。",
+        "zh-Hans": "杜甫（712—770），字子美，自号少陵野老，唐代重要诗人。他经历安史之乱及其后的动荡，曾在长安任职，也辗转成都、夔州等地，晚年漂泊江湘。其诗广泛反映战乱、民生与个人生活，因而被称为诗史；在律诗、古体诗等方面均有深厚成就。《兵车行》表现战争给家庭带来的创痛，《客至》写待客真情，《春望》则把国事和家事融于景物。阅读时可兼顾时代处境与具体人物感受。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 客至賞析",
+          "zh-Hans": "香港教育局 · 客至赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "花近高樓傷客心，萬方多難此登臨。錦江春色來天地，玉壘浮雲變古今。北極朝廷終不改，西山寇盜莫相侵。可憐後主還祠廟，日暮聊為梁甫吟。",
+    "zh-Hans": "花近高楼伤客心，万方多难此登临。锦江春色来天地，玉垒浮云变古今。北极朝廷终不改，西山寇盗莫相侵。可怜后主还祠庙，日暮聊为梁甫吟。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-16c-l001",
+      "text": {
+        "zh-Hant": "花近高樓傷客心，",
+        "zh-Hans": "花近高楼伤客心，"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l002",
+      "text": {
+        "zh-Hant": "萬方多難此登臨。",
+        "zh-Hans": "万方多难此登临。"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l003",
+      "text": {
+        "zh-Hant": "錦江春色來天地，",
+        "zh-Hans": "锦江春色来天地，"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l004",
+      "text": {
+        "zh-Hant": "玉壘浮雲變古今。",
+        "zh-Hans": "玉垒浮云变古今。"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l005",
+      "text": {
+        "zh-Hant": "北極朝廷終不改，",
+        "zh-Hans": "北极朝廷终不改，"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l006",
+      "text": {
+        "zh-Hant": "西山寇盜莫相侵。",
+        "zh-Hans": "西山寇盗莫相侵。"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l007",
+      "text": {
+        "zh-Hant": "可憐後主還祠廟，",
+        "zh-Hans": "可怜后主还祠庙，"
+      }
+    },
+    {
+      "id": "hk-ks4-16c-l008",
+      "text": {
+        "zh-Hant": "日暮聊為梁甫吟。",
+        "zh-Hans": "日暮聊为梁甫吟。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-16c-w001",
+      "term": {
+        "zh-Hant": "萬方",
+        "zh-Hans": "万方"
+      },
+      "definition": {
+        "zh-Hant": "各地。",
+        "zh-Hans": "各地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w002",
+      "term": {
+        "zh-Hant": "登臨",
+        "zh-Hans": "登临"
+      },
+      "definition": {
+        "zh-Hant": "登上高處遠望。",
+        "zh-Hans": "登上高处远望。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w003",
+      "term": {
+        "zh-Hant": "玉壘",
+        "zh-Hans": "玉垒"
+      },
+      "definition": {
+        "zh-Hant": "成都附近的山名。",
+        "zh-Hans": "成都附近的山名。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w004",
+      "term": {
+        "zh-Hant": "北極",
+        "zh-Hans": "北极"
+      },
+      "definition": {
+        "zh-Hant": "北極星，借比朝廷。",
+        "zh-Hans": "北极星，借比朝廷。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w005",
+      "term": {
+        "zh-Hant": "西山寇盜",
+        "zh-Hans": "西山寇盗"
+      },
+      "definition": {
+        "zh-Hant": "這裏指當時侵擾西部的吐蕃軍隊。",
+        "zh-Hans": "这里指当时侵扰西部的吐蕃军队。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l006",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l006",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w006",
+      "term": {
+        "zh-Hant": "後主",
+        "zh-Hans": "后主"
+      },
+      "definition": {
+        "zh-Hant": "蜀漢後主劉禪。",
+        "zh-Hans": "蜀汉后主刘禅。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-16c-w007",
+      "term": {
+        "zh-Hant": "梁甫吟",
+        "zh-Hans": "梁甫吟"
+      },
+      "definition": {
+        "zh-Hant": "古樂府篇名，相傳諸葛亮喜歡吟唱。",
+        "zh-Hans": "古乐府篇名，相传诸葛亮喜欢吟唱。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l008",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-16c-l008",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 登樓原文",
+        "zh-Hans": "香港教育局 · 登楼原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16c_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "32ed2b2f02c016db9a3e11266460fff35883819e7e27e6dc57c6374da3a751e0"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 登樓賞析",
+        "zh-Hans": "香港教育局 · 登楼赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16c.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

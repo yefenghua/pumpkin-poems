@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-d569b7bd732c",
+  "name": {
+    "zh-Hant": "李益",
+    "zh-Hans": "李益"
+  },
+  "catalog_name": {
+    "zh-Hant": "李益",
+    "zh-Hans": "李益"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，邊塞詩常以樂聲寫徵人的思鄉之情。",
+      "zh-Hans": "唐代诗人，边塞诗常以乐声写征人的思乡之情。"
+    },
+    "full": {
+      "zh-Hant": "李益（748—約829），字君虞，唐代詩人，曾登進士第並在北方軍幕任職。他的作品以邊塞詩較著名，常寫駐軍、夜色、風沙與離別，絕句尤其有感染力。《夜上受降城聞笛》由如雪的沙地、如霜的月色轉到笛聲和集體鄉愁，讓看不見的思念借聲音傳開。他也寫友朋重逢和人生變遷。後世傳奇中借用其姓名的故事，不能直接作為可靠生平資料使用。",
+      "zh-Hans": "李益（748—约829），字君虞，唐代诗人，曾登进士第并在北方军幕任职。他的作品以边塞诗较著名，常写驻军、夜色、风沙与离别，绝句尤其有感染力。《夜上受降城闻笛》由如雪的沙地、如霜的月色转到笛声和集体乡愁，让看不见的思念借声音传开。他也写友朋重逢和人生变迁。后世传奇中借用其姓名的故事，不能直接作为可靠生平资料使用。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 162
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}
