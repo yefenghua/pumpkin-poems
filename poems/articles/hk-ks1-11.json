@@ -1,0 +1,388 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-11",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "賦得古原草送別",
+    "zh-Hans": "赋得古原草送别"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-4db0d950f314",
+  "author_file": "../author/author-4db0d950f314.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-4db0d950f314",
+    "name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "catalog_name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字樂天，語言平易，關懷社會與日常人生。",
+        "zh-Hans": "唐代诗人，字乐天，语言平易，关怀社会与日常人生。"
+      },
+      "full": {
+        "zh-Hant": "白居易（772—846），字樂天，晚年號香山居士，唐代詩人。他曾任諫官，後被貶江州，又出任杭州、蘇州刺史等職，與元稹倡導以詩反映現實，世稱元白。其詩語言明白流暢，題材包括社會諷諭、敍事、閒適和個人感情，《長恨歌》《琵琶行》是長篇名作。本庫所收《賦得古原草送別》《燕詩》《慈烏夜啼》分別從草木與鳥類生活出發，讓讀者理解送別、親情和倫理關懷。",
+        "zh-Hans": "白居易（772—846），字乐天，晚年号香山居士，唐代诗人。他曾任谏官，后被贬江州，又出任杭州、苏州刺史等职，与元稹倡导以诗反映现实，世称元白。其诗语言明白流畅，题材包括社会讽谕、叙事、闲适和个人感情，《长恨歌》《琵琶行》是长篇名作。本库所收《赋得古原草送别》《燕诗》《慈乌夜啼》分别从草木与鸟类生活出发，让读者理解送别、亲情和伦理关怀。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 賦得古原草送別賞析",
+          "zh-Hans": "香港教育局 · 赋得古原草送别赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "離離原上草，一歲一枯榮。野火燒不盡，春風吹又生。遠芳侵古道，晴翠接荒城。又送王孫去，萋萋滿別情。",
+    "zh-Hans": "离离原上草，一岁一枯荣。野火烧不尽，春风吹又生。远芳侵古道，晴翠接荒城。又送王孙去，萋萋满别情。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-11-l001",
+      "text": {
+        "zh-Hant": "離離原上草，",
+        "zh-Hans": "离离原上草，"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l002",
+      "text": {
+        "zh-Hant": "一歲一枯榮。",
+        "zh-Hans": "一岁一枯荣。"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l003",
+      "text": {
+        "zh-Hant": "野火燒不盡，",
+        "zh-Hans": "野火烧不尽，"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l004",
+      "text": {
+        "zh-Hant": "春風吹又生。",
+        "zh-Hans": "春风吹又生。"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l005",
+      "text": {
+        "zh-Hant": "遠芳侵古道，",
+        "zh-Hans": "远芳侵古道，"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l006",
+      "text": {
+        "zh-Hant": "晴翠接荒城。",
+        "zh-Hans": "晴翠接荒城。"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l007",
+      "text": {
+        "zh-Hant": "又送王孫去，",
+        "zh-Hans": "又送王孙去，"
+      }
+    },
+    {
+      "id": "hk-ks1-11-l008",
+      "text": {
+        "zh-Hant": "萋萋滿別情。",
+        "zh-Hans": "萋萋满别情。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-11-w001",
+      "term": {
+        "zh-Hant": "離離",
+        "zh-Hans": "离离"
+      },
+      "definition": {
+        "zh-Hant": "草長得繁盛的樣子。",
+        "zh-Hans": "草长得繁盛的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w002",
+      "term": {
+        "zh-Hant": "枯榮",
+        "zh-Hans": "枯荣"
+      },
+      "definition": {
+        "zh-Hant": "枯萎和茂盛。",
+        "zh-Hans": "枯萎和茂盛。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w003",
+      "term": {
+        "zh-Hant": "遠芳",
+        "zh-Hans": "远芳"
+      },
+      "definition": {
+        "zh-Hant": "延伸到遠處的芳草。",
+        "zh-Hans": "延伸到远处的芳草。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w004",
+      "term": {
+        "zh-Hant": "侵",
+        "zh-Hans": "侵"
+      },
+      "definition": {
+        "zh-Hant": "蔓延到。",
+        "zh-Hans": "蔓延到。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l005",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l005",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w005",
+      "term": {
+        "zh-Hant": "晴翠",
+        "zh-Hans": "晴翠"
+      },
+      "definition": {
+        "zh-Hant": "晴日裏草木的翠色。",
+        "zh-Hans": "晴日里草木的翠色。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w006",
+      "term": {
+        "zh-Hant": "王孫",
+        "zh-Hans": "王孙"
+      },
+      "definition": {
+        "zh-Hant": "這裏是對遠行友人的稱呼。",
+        "zh-Hans": "这里是对远行友人的称呼。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-11-w007",
+      "term": {
+        "zh-Hant": "萋萋",
+        "zh-Hans": "萋萋"
+      },
+      "definition": {
+        "zh-Hant": "草木茂盛的樣子。",
+        "zh-Hans": "草木茂盛的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-11-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "收錄全詩八句，不以常見的前四句節選代替。",
+      "zh-Hans": "收录全诗八句，不以常见的前四句节选代替。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 賦得古原草送別原文",
+        "zh-Hans": "香港教育局 · 赋得古原草送别原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "2353673ab2c4b2d96197f9ba1a7dd581d37b6dc97a77256ebd6687617caaee36"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 賦得古原草送別賞析",
+        "zh-Hans": "香港教育局 · 赋得古原草送别赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

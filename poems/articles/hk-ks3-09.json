@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-09",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "送杜少府之任蜀州",
+    "zh-Hans": "送杜少府之任蜀州"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-41d520853b04",
+  "author_file": "../author/author-41d520853b04.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-41d520853b04",
+    "name": {
+      "zh-Hant": "王勃",
+      "zh-Hans": "王勃"
+    },
+    "catalog_name": {
+      "zh-Hant": "王勃",
+      "zh-Hans": "王勃"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "初唐四傑之一，詩文兼擅，送別詩以開闊胸懷著稱。",
+        "zh-Hans": "初唐四杰之一，诗文兼擅，送别诗以开阔胸怀著称。"
+      },
+      "full": {
+        "zh-Hant": "王勃，字子安，絳州龍門人，初唐詩人、文學家，生卒年一般作約650—676，也有不同考訂。他少年成名，與楊炯、盧照鄰、駱賓王並稱初唐四傑，詩歌和駢文都取得成就，代表作有《滕王閣序》。其《送杜少府之任蜀州》在離別場景中強調知己不因距離而疏遠，表現明朗而寬廣的情懷。人生雖短，創作卻對初唐文學風氣的轉變影響很大，宜結合具體語言理解其氣度。",
+        "zh-Hans": "王勃，字子安，绛州龙门人，初唐诗人、文学家，生卒年一般作约650—676，也有不同考订。他少年成名，与杨炯、卢照邻、骆宾王并称初唐四杰，诗歌和骈文都取得成就，代表作有《滕王阁序》。其《送杜少府之任蜀州》在离别场景中强调知己不因距离而疏远，表现明朗而宽广的情怀。人生虽短，创作却对初唐文学风气的转变影响很大，宜结合具体语言理解其气度。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 送杜少府之任蜀州賞析",
+          "zh-Hans": "香港教育局 · 送杜少府之任蜀州赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "城闕輔三秦，風煙望五津。與君離別意，同是宦遊人。海內存知己，天涯若比鄰。無為在歧路，兒女共沾巾。",
+    "zh-Hans": "城阙辅三秦，风烟望五津。与君离别意，同是宦游人。海内存知己，天涯若比邻。无为在歧路，儿女共沾巾。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-09-l001",
+      "text": {
+        "zh-Hant": "城闕輔三秦，",
+        "zh-Hans": "城阙辅三秦，"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l002",
+      "text": {
+        "zh-Hant": "風煙望五津。",
+        "zh-Hans": "风烟望五津。"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l003",
+      "text": {
+        "zh-Hant": "與君離別意，",
+        "zh-Hans": "与君离别意，"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l004",
+      "text": {
+        "zh-Hant": "同是宦遊人。",
+        "zh-Hans": "同是宦游人。"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l005",
+      "text": {
+        "zh-Hant": "海內存知己，",
+        "zh-Hans": "海内存知己，"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l006",
+      "text": {
+        "zh-Hant": "天涯若比鄰。",
+        "zh-Hans": "天涯若比邻。"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l007",
+      "text": {
+        "zh-Hant": "無為在歧路，",
+        "zh-Hans": "无为在歧路，"
+      }
+    },
+    {
+      "id": "hk-ks3-09-l008",
+      "text": {
+        "zh-Hant": "兒女共沾巾。",
+        "zh-Hans": "儿女共沾巾。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-09-w001",
+      "term": {
+        "zh-Hant": "城闕",
+        "zh-Hans": "城阙"
+      },
+      "definition": {
+        "zh-Hant": "京城長安。",
+        "zh-Hans": "京城长安。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w002",
+      "term": {
+        "zh-Hant": "三秦",
+        "zh-Hans": "三秦"
+      },
+      "definition": {
+        "zh-Hant": "關中地區。",
+        "zh-Hans": "关中地区。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w003",
+      "term": {
+        "zh-Hant": "五津",
+        "zh-Hans": "五津"
+      },
+      "definition": {
+        "zh-Hant": "蜀地岷江的幾個渡口，代指蜀地。",
+        "zh-Hans": "蜀地岷江的几个渡口，代指蜀地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w004",
+      "term": {
+        "zh-Hant": "宦遊",
+        "zh-Hans": "宦游"
+      },
+      "definition": {
+        "zh-Hant": "為了做官而在外奔走。",
+        "zh-Hans": "为了做官而在外奔走。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w005",
+      "term": {
+        "zh-Hant": "比鄰",
+        "zh-Hans": "比邻"
+      },
+      "definition": {
+        "zh-Hant": "近鄰。",
+        "zh-Hans": "近邻。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l006",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l006",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w006",
+      "term": {
+        "zh-Hant": "無為",
+        "zh-Hans": "无为"
+      },
+      "definition": {
+        "zh-Hant": "不要。",
+        "zh-Hans": "不要。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-09-w007",
+      "term": {
+        "zh-Hant": "歧路",
+        "zh-Hans": "歧路"
+      },
+      "definition": {
+        "zh-Hant": "分岔的道路，指分別的地方。",
+        "zh-Hans": "分岔的道路，指分别的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l007",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-09-l007",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 送杜少府之任蜀州原文",
+        "zh-Hans": "香港教育局 · 送杜少府之任蜀州原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_09_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "fb179b1f2f73cbfcf325e627982a678e0f957efeeafec684734be7cc5db49ede"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 送杜少府之任蜀州賞析",
+        "zh-Hans": "香港教育局 · 送杜少府之任蜀州赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_09.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

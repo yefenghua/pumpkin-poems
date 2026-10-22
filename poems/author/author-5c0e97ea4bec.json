@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-5c0e97ea4bec",
+  "name": {
+    "zh-Hant": "駱賓王",
+    "zh-Hans": "骆宾王"
+  },
+  "catalog_name": {
+    "zh-Hant": "駱賓王",
+    "zh-Hans": "骆宾王"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "初唐四傑之一，《詠鵝》以生動的色彩和動作傳誦至今。",
+      "zh-Hans": "初唐四杰之一，《咏鹅》以生动的色彩和动作传诵至今。"
+    },
+    "full": {
+      "zh-Hant": "駱賓王，婺州義烏人，初唐詩人、文學家，生卒年不詳，傳統記載約生於七世紀前期。他與王勃、楊炯、盧照鄰並稱初唐四傑，擅詩與駢文，曾為徐敬業撰寫討武氏檄文，兵敗後的結局有不同説法。《詠鵝》相傳作於幼年，用白毛、綠水、紅掌構成鮮明畫面，但七歲作詩的敍述宜視為傳統説法。《在獄詠蟬》等作品則表現更為深沉的身世與品格之思。",
+      "zh-Hans": "骆宾王，婺州义乌人，初唐诗人、文学家，生卒年不详，传统记载约生于七世纪前期。他与王勃、杨炯、卢照邻并称初唐四杰，擅诗与骈文，曾为徐敬业撰写讨武氏檄文，兵败后的结局有不同说法。《咏鹅》相传作于幼年，用白毛、绿水、红掌构成鲜明画面，但七岁作诗的叙述宜视为传统说法。《在狱咏蝉》等作品则表现更为深沉的身世与品格之思。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 詠鵝賞析",
+        "zh-Hans": "香港教育局 · 咏鹅赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_05.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

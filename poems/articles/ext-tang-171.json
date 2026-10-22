@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-171",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "芙蓉樓送辛漸·其一",
+    "zh-Hans": "芙蓉楼送辛渐·其一"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-b14c0c6ac0f6",
+  "author_file": "../author/author-b14c0c6ac0f6.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b14c0c6ac0f6",
+    "name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "catalog_name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "盛唐詩人，字少伯，以七言絕句和邊塞詩見長。",
+        "zh-Hans": "盛唐诗人，字少伯，以七言绝句和边塞诗见长。"
+      },
+      "full": {
+        "zh-Hant": "王昌齡，字少伯，盛唐詩人，通常記為約698—約756，具體年代和籍貫有不同記載。他曾任江寧丞、龍標尉等職，因而又稱王江寧、王龍標。七言絕句是其最突出的成就，能在短小篇幅中表現邊塞、送別與閨情等題材。《出塞》關懷戰爭與守邊，《芙蓉樓送辛漸》借冰心玉壺表達自守，《閨怨》則以人物瞬間的感觸轉變形成全詩波瀾，體現精密構思。",
+        "zh-Hans": "王昌龄，字少伯，盛唐诗人，通常记为约698—约756，具体年代和籍贯有不同记载。他曾任江宁丞、龙标尉等职，因而又称王江宁、王龙标。七言绝句是其最突出的成就，能在短小篇幅中表现边塞、送别与闺情等题材。《出塞》关怀战争与守边，《芙蓉楼送辛渐》借冰心玉壶表达自守，《闺怨》则以人物瞬间的感触转变形成全诗波澜，体现精密构思。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 出塞·其一賞析",
+          "zh-Hans": "香港教育局 · 出塞·其一赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_07.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "寒雨連天夜入湖，平明送客楚山孤。洛陽親友如相問，一片冰心在玉壺。",
+    "zh-Hans": "寒雨连天夜入湖，平明送客楚山孤。洛阳亲友如相问，一片冰心在玉壶。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-171-l001",
+      "text": {
+        "zh-Hant": "寒雨連天夜入湖，",
+        "zh-Hans": "寒雨连天夜入湖，"
+      }
+    },
+    {
+      "id": "ext-tang-171-l002",
+      "text": {
+        "zh-Hant": "平明送客楚山孤。",
+        "zh-Hans": "平明送客楚山孤。"
+      }
+    },
+    {
+      "id": "ext-tang-171-l003",
+      "text": {
+        "zh-Hant": "洛陽親友如相問，",
+        "zh-Hans": "洛阳亲友如相问，"
+      }
+    },
+    {
+      "id": "ext-tang-171-l004",
+      "text": {
+        "zh-Hant": "一片冰心在玉壺。",
+        "zh-Hans": "一片冰心在玉壶。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-171-w001",
+      "term": {
+        "zh-Hant": "平明",
+        "zh-Hans": "平明"
+      },
+      "definition": {
+        "zh-Hant": "天亮的時候。",
+        "zh-Hans": "天亮的时候。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-171-w002",
+      "term": {
+        "zh-Hant": "楚山",
+        "zh-Hans": "楚山"
+      },
+      "definition": {
+        "zh-Hant": "楚地的山。",
+        "zh-Hans": "楚地的山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-171-w003",
+      "term": {
+        "zh-Hant": "洛陽",
+        "zh-Hans": "洛阳"
+      },
+      "definition": {
+        "zh-Hant": "唐代東都，親友所在之地。",
+        "zh-Hans": "唐代东都，亲友所在之地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-171-w004",
+      "term": {
+        "zh-Hant": "冰心",
+        "zh-Hans": "冰心"
+      },
+      "definition": {
+        "zh-Hant": "像冰一樣純潔的心。",
+        "zh-Hans": "像冰一样纯洁的心。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-171-w005",
+      "term": {
+        "zh-Hant": "玉壺",
+        "zh-Hans": "玉壶"
+      },
+      "definition": {
+        "zh-Hant": "玉製的壺，象徵清白品格。",
+        "zh-Hans": "玉制的壶，象征清白品格。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-171-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本“寒雨連天夜入湖”；另有“寒雨連江夜入吳”版本。",
+      "zh-Hans": "保留底本“寒雨连天夜入湖”；另有“寒雨连江夜入吴”版本。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 171
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

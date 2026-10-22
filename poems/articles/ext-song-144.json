@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-144",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "蝶戀花·佇倚危樓風細細",
+    "zh-Hans": "蝶恋花·伫倚危楼风细细"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-1a7d566d0599",
+  "author_file": "../author/author-1a7d566d0599.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1a7d566d0599",
+    "name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "catalog_name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，字耆卿，對慢詞的發展有重要貢獻。",
+        "zh-Hans": "北宋词人，字耆卿，对慢词的发展有重要贡献。"
+      },
+      "full": {
+        "zh-Hant": "柳永，初名三變，字耆卿，崇安人，北宋詞人，生卒年有不同考訂。他較晚登第，官至屯田員外郎，故又稱柳屯田。柳詞與當時城市音樂生活聯繫密切，善寫都市景象、離別和羈旅行役，尤其長於篇幅較長、適合鋪敍的慢詞，傳有《樂章集》。《雨霖鈴》《八聲甘州》把眼前與想象中的場景連綴起來，層層推進情緒。閲讀時可注意時間轉換、空間距離和口語化表達。",
+        "zh-Hans": "柳永，初名三变，字耆卿，崇安人，北宋词人，生卒年有不同考订。他较晚登第，官至屯田员外郎，故又称柳屯田。柳词与当时城市音乐生活联系密切，善写都市景象、离别和羁旅行役，尤其长于篇幅较长、适合铺叙的慢词，传有《乐章集》。《雨霖铃》《八声甘州》把眼前与想象中的场景连缀起来，层层推进情绪。阅读时可注意时间转换、空间距离和口语化表达。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 1
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "佇倚危樓風細細。望極春愁，黯黯生天際。草色煙光殘照裏。無言誰會憑闌意。擬把疏狂圖一醉。對酒當歌，強樂還無味。衣帶漸寬終不悔。為伊消得人憔悴。",
+    "zh-Hans": "伫倚危楼风细细。望极春愁，黯黯生天际。草色烟光残照里。无言谁会凭阑意。拟把疏狂图一醉。对酒当歌，强乐还无味。衣带渐宽终不悔。为伊消得人憔悴。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-144-l001",
+      "text": {
+        "zh-Hant": "佇倚危樓風細細。",
+        "zh-Hans": "伫倚危楼风细细。"
+      }
+    },
+    {
+      "id": "ext-song-144-l002",
+      "text": {
+        "zh-Hant": "望極春愁，",
+        "zh-Hans": "望极春愁，"
+      }
+    },
+    {
+      "id": "ext-song-144-l003",
+      "text": {
+        "zh-Hant": "黯黯生天際。",
+        "zh-Hans": "黯黯生天际。"
+      }
+    },
+    {
+      "id": "ext-song-144-l004",
+      "text": {
+        "zh-Hant": "草色煙光殘照裏。",
+        "zh-Hans": "草色烟光残照里。"
+      }
+    },
+    {
+      "id": "ext-song-144-l005",
+      "text": {
+        "zh-Hant": "無言誰會憑闌意。",
+        "zh-Hans": "无言谁会凭阑意。"
+      }
+    },
+    {
+      "id": "ext-song-144-l006",
+      "text": {
+        "zh-Hant": "擬把疏狂圖一醉。",
+        "zh-Hans": "拟把疏狂图一醉。"
+      }
+    },
+    {
+      "id": "ext-song-144-l007",
+      "text": {
+        "zh-Hant": "對酒當歌，",
+        "zh-Hans": "对酒当歌，"
+      }
+    },
+    {
+      "id": "ext-song-144-l008",
+      "text": {
+        "zh-Hant": "強樂還無味。",
+        "zh-Hans": "强乐还无味。"
+      }
+    },
+    {
+      "id": "ext-song-144-l009",
+      "text": {
+        "zh-Hant": "衣帶漸寬終不悔。",
+        "zh-Hans": "衣带渐宽终不悔。"
+      }
+    },
+    {
+      "id": "ext-song-144-l010",
+      "text": {
+        "zh-Hant": "為伊消得人憔悴。",
+        "zh-Hans": "为伊消得人憔悴。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-144-w001",
+      "term": {
+        "zh-Hant": "佇倚",
+        "zh-Hans": "伫倚"
+      },
+      "definition": {
+        "zh-Hant": "久久倚靠。",
+        "zh-Hans": "久久倚靠。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-144-w002",
+      "term": {
+        "zh-Hant": "危樓",
+        "zh-Hans": "危楼"
+      },
+      "definition": {
+        "zh-Hant": "高樓。",
+        "zh-Hans": "高楼。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-144-w003",
+      "term": {
+        "zh-Hant": "會",
+        "zh-Hans": "会"
+      },
+      "definition": {
+        "zh-Hant": "理解。",
+        "zh-Hans": "理解。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l005",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l005",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-144-w004",
+      "term": {
+        "zh-Hant": "疏狂",
+        "zh-Hans": "疏狂"
+      },
+      "definition": {
+        "zh-Hant": "疏放不羈。",
+        "zh-Hans": "疏放不羁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-144-w005",
+      "term": {
+        "zh-Hant": "強樂",
+        "zh-Hans": "强乐"
+      },
+      "definition": {
+        "zh-Hant": "勉強作樂。",
+        "zh-Hans": "勉强作乐。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-144-w006",
+      "term": {
+        "zh-Hant": "伊",
+        "zh-Hans": "伊"
+      },
+      "definition": {
+        "zh-Hant": "她、那個人。",
+        "zh-Hans": "她、那个人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l010",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-144-l010",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 144
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

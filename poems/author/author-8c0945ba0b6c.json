@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-8c0945ba0b6c",
+  "name": {
+    "zh-Hant": "劉禹錫",
+    "zh-Hans": "刘禹锡"
+  },
+  "catalog_name": {
+    "zh-Hant": "劉禹錫",
+    "zh-Hans": "刘禹锡"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人、文學家，作品常把歷史思考與鮮活生活結合。",
+      "zh-Hans": "唐代诗人、文学家，作品常把历史思考与鲜活生活结合。"
+    },
+    "full": {
+      "zh-Hant": "劉禹錫（772—842），字夢得，唐代文學家，曾參與永貞革新，失敗後長期遭貶。他與柳宗元、白居易等有交往，詩文均有重要成就。詩歌語言凝練，善寫民歌風味的竹枝詞，也以詠史懷古詩見長。《烏衣巷》借燕子出入尋常人家，表現昔日門第繁華的變遷。他的作品既能傳達逆境中的堅韌，也善於從具體景物中提出對歷史與人生的觀察，適合與同題懷古作品比較閲讀。",
+      "zh-Hans": "刘禹锡（772—842），字梦得，唐代文学家，曾参与永贞革新，失败后长期遭贬。他与柳宗元、白居易等有交往，诗文均有重要成就。诗歌语言凝练，善写民歌风味的竹枝词，也以咏史怀古诗见长。《乌衣巷》借燕子出入寻常人家，表现昔日门第繁华的变迁。他的作品既能传达逆境中的坚韧，也善于从具体景物中提出对历史与人生的观察，适合与同题怀古作品比较阅读。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 237
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-16683a6fad58",
+  "name": {
+    "zh-Hant": "張祜",
+    "zh-Hans": "张祜"
+  },
+  "catalog_name": {
+    "zh-Hant": "張祜",
+    "zh-Hans": "张祜"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，字承吉，擅長宮詞和寫景短詩。",
+      "zh-Hans": "唐代诗人，字承吉，擅长宫词和写景短诗。"
+    },
+    "full": {
+      "zh-Hant": "張祜，字承吉，唐代詩人，主要生活在九世紀，生卒年具體記載不一。他曾因詩才受到推薦，但未獲得顯著仕途發展，後來居於江南。其詩有宮廷題材、樂舞描寫和山水羈旅之作，講究精煉的畫面。《題金陵渡》從江邊小樓的夜宿寫起，以斜月、江潮和遠處零星燈火表現旅人的孤獨。閲讀時可注意視線從近處轉向遠方，以及有限光亮如何襯托夜色。",
+      "zh-Hans": "张祜，字承吉，唐代诗人，主要生活在九世纪，生卒年具体记载不一。他曾因诗才受到推荐，但未获得显著仕途发展，后来居于江南。其诗有宫廷题材、乐舞描写和山水羁旅之作，讲究精炼的画面。《题金陵渡》从江边小楼的夜宿写起，以斜月、江潮和远处零星灯火表现旅人的孤独。阅读时可注意视线从近处转向远方，以及有限光亮如何衬托夜色。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 131
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

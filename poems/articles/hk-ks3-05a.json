@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-05a",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "行行重行行",
+    "zh-Hans": "行行重行行"
+  },
+  "dynasty": {
+    "zh-Hant": "漢",
+    "zh-Hans": "汉"
+  },
+  "genre": {
+    "zh-Hant": "五言古詩",
+    "zh-Hans": "五言古诗"
+  },
+  "author_id": "author-6c22fc789003",
+  "author_file": "../author/author-6c22fc789003.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-6c22fc789003",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·古詩十九首",
+      "zh-Hans": "佚名·古诗十九首"
+    },
+    "dynasty": {
+      "zh-Hant": "漢",
+      "zh-Hans": "汉"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《古詩十九首》的作者多不可考，是漢代五言詩的重要代表。",
+        "zh-Hans": "《古诗十九首》的作者多不可考，是汉代五言诗的重要代表。"
+      },
+      "full": {
+        "zh-Hant": "《古詩十九首》並非一位作者在同一時間完成的一部詩集，而是後人選編保存的一組古詩，作者姓名多不可考，一般認為主要產生於東漢後期。南朝梁蕭統編《文選》時將它們匯為一組。詩歌常寫遊子與思婦的離別、生命短暫以及人生願望，語言自然而情感深厚。《行行重行行》《迢迢牽牛星》都在其中。此處建立集合性質的作者記錄，不把十九首歸給某一個虛構人物。",
+        "zh-Hans": "《古诗十九首》并非一位作者在同一时间完成的一部诗集，而是后人选编保存的一组古诗，作者姓名多不可考，一般认为主要产生于东汉后期。南朝梁萧统编《文选》时将它们汇为一组。诗歌常写游子与思妇的离别、生命短暂以及人生愿望，语言自然而情感深厚。《行行重行行》《迢迢牵牛星》都在其中。此处建立集合性质的作者记录，不把十九首归给某一个虚构人物。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "attribution_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 行行重行行",
+          "zh-Hans": "香港教育局 · 行行重行行"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05a_text.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "行行重行行，與君生別離。相去萬餘里，各在天一涯。道路阻且長，會面安可知？胡馬依北風，越鳥巢南枝！相去日已遠，衣帶日已緩。浮雲蔽白日，遊子不顧返。思君令人老，歲月忽已晚。棄捐勿復道，努力加餐飯！",
+    "zh-Hans": "行行重行行，与君生别离。相去万余里，各在天一涯。道路阻且长，会面安可知？胡马依北风，越鸟巢南枝！相去日已远，衣带日已缓。浮云蔽白日，游子不顾返。思君令人老，岁月忽已晚。弃捐勿复道，努力加餐饭！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-05a-l001",
+      "text": {
+        "zh-Hant": "行行重行行，",
+        "zh-Hans": "行行重行行，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l002",
+      "text": {
+        "zh-Hant": "與君生別離。",
+        "zh-Hans": "与君生别离。"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l003",
+      "text": {
+        "zh-Hant": "相去萬餘里，",
+        "zh-Hans": "相去万余里，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l004",
+      "text": {
+        "zh-Hant": "各在天一涯。",
+        "zh-Hans": "各在天一涯。"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l005",
+      "text": {
+        "zh-Hant": "道路阻且長，",
+        "zh-Hans": "道路阻且长，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l006",
+      "text": {
+        "zh-Hant": "會面安可知？",
+        "zh-Hans": "会面安可知？"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l007",
+      "text": {
+        "zh-Hant": "胡馬依北風，",
+        "zh-Hans": "胡马依北风，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l008",
+      "text": {
+        "zh-Hant": "越鳥巢南枝！",
+        "zh-Hans": "越鸟巢南枝！"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l009",
+      "text": {
+        "zh-Hant": "相去日已遠，",
+        "zh-Hans": "相去日已远，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l010",
+      "text": {
+        "zh-Hant": "衣帶日已緩。",
+        "zh-Hans": "衣带日已缓。"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l011",
+      "text": {
+        "zh-Hant": "浮雲蔽白日，",
+        "zh-Hans": "浮云蔽白日，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l012",
+      "text": {
+        "zh-Hant": "遊子不顧返。",
+        "zh-Hans": "游子不顾返。"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l013",
+      "text": {
+        "zh-Hant": "思君令人老，",
+        "zh-Hans": "思君令人老，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l014",
+      "text": {
+        "zh-Hant": "歲月忽已晚。",
+        "zh-Hans": "岁月忽已晚。"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l015",
+      "text": {
+        "zh-Hant": "棄捐勿復道，",
+        "zh-Hans": "弃捐勿复道，"
+      }
+    },
+    {
+      "id": "hk-ks3-05a-l016",
+      "text": {
+        "zh-Hant": "努力加餐飯！",
+        "zh-Hans": "努力加餐饭！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-05a-w001",
+      "term": {
+        "zh-Hant": "重",
+        "zh-Hans": "重"
+      },
+      "definition": {
+        "zh-Hant": "又、再。",
+        "zh-Hans": "又、再。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l001",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l001",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w002",
+      "term": {
+        "zh-Hant": "相去",
+        "zh-Hans": "相去"
+      },
+      "definition": {
+        "zh-Hant": "相隔。",
+        "zh-Hans": "相隔。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l009",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l003",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l009",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w003",
+      "term": {
+        "zh-Hant": "安",
+        "zh-Hans": "安"
+      },
+      "definition": {
+        "zh-Hant": "怎麼。",
+        "zh-Hans": "怎么。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l006",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l006",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w004",
+      "term": {
+        "zh-Hant": "胡馬",
+        "zh-Hans": "胡马"
+      },
+      "definition": {
+        "zh-Hant": "北方的馬。",
+        "zh-Hans": "北方的马。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w005",
+      "term": {
+        "zh-Hant": "越鳥",
+        "zh-Hans": "越鸟"
+      },
+      "definition": {
+        "zh-Hant": "南方的鳥，和胡馬一起比喻思念故土。",
+        "zh-Hans": "南方的鸟，和胡马一起比喻思念故土。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w006",
+      "term": {
+        "zh-Hant": "衣帶日已緩",
+        "zh-Hans": "衣带日已缓"
+      },
+      "definition": {
+        "zh-Hant": "衣帶一天天鬆了，暗示思念使人消瘦。",
+        "zh-Hans": "衣带一天天松了，暗示思念使人消瘦。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l010",
+            "start": 0,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l010",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w007",
+      "term": {
+        "zh-Hant": "顧返",
+        "zh-Hans": "顾返"
+      },
+      "definition": {
+        "zh-Hant": "回頭歸來。",
+        "zh-Hans": "回头归来。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l012",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l012",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05a-w008",
+      "term": {
+        "zh-Hant": "棄捐",
+        "zh-Hans": "弃捐"
+      },
+      "definition": {
+        "zh-Hant": "拋開，此處指把這些話暫且放下。",
+        "zh-Hans": "抛开，此处指把这些话暂且放下。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l015",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05a-l015",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 行行重行行原文",
+        "zh-Hans": "香港教育局 · 行行重行行原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05a_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "7d4eb00f40d897d604fe516ab9ce5578ecc5fe7e0bb77190c5056200fc378166"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

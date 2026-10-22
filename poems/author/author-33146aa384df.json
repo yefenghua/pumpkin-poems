@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-33146aa384df",
+  "name": {
+    "zh-Hant": "崔顥",
+    "zh-Hans": "崔颢"
+  },
+  "catalog_name": {
+    "zh-Hant": "崔顥",
+    "zh-Hans": "崔颢"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，以《黃鶴樓》聞名。",
+      "zh-Hans": "唐代诗人，以《黄鹤楼》闻名。"
+    },
+    "full": {
+      "zh-Hant": "崔顥，汴州人，唐代詩人，卒於754年，生年不詳，曾登進士第並任官。他的作品有閨情、邊塞和山水等題材，風格並非單一。《黃鶴樓》把仙人傳説、江城景色與日暮鄉愁連在一起，前半舒展，後半對仗整飭，是七言律詩的名篇。《長干曲》又以對話寫水鄉人物，顯得明快自然。後世關於李白擱筆的故事有文學傳播色彩，賞詩時宜以作品本身的語言與結構為主要依據。",
+      "zh-Hans": "崔颢，汴州人，唐代诗人，卒于754年，生年不详，曾登进士第并任官。他的作品有闺情、边塞和山水等题材，风格并非单一。《黄鹤楼》把仙人传说、江城景色与日暮乡愁连在一起，前半舒展，后半对仗整饬，是七言律诗的名篇。《长干曲》又以对话写水乡人物，显得明快自然。后世关于李白搁笔的故事有文学传播色彩，赏诗时宜以作品本身的语言与结构为主要依据。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 157
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

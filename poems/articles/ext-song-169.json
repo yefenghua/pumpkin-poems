@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-169",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "採桑子·羣芳過後西湖好",
+    "zh-Hans": "采桑子·群芳过后西湖好"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-221f36f41c51",
+  "author_file": "../author/author-221f36f41c51.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-221f36f41c51",
+    "name": {
+      "zh-Hant": "歐陽修",
+      "zh-Hans": "欧阳修"
+    },
+    "catalog_name": {
+      "zh-Hant": "歐陽修",
+      "zh-Hans": "欧阳修"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、史學家，號醉翁，詩詞文章均有成就。",
+        "zh-Hans": "北宋文学家、史学家，号醉翁，诗词文章均有成就。"
+      },
+      "full": {
+        "zh-Hant": "歐陽修（1007—1072），字永叔，號醉翁，晚號六一居士，吉州吉水人，北宋文學家、史學家、政治家。他倡導古文，提攜蘇軾等後進，參與史書修撰，是唐宋八大家之一。其散文平易流暢，詩詞也善於把景色、生活和情感自然結合。《採桑子》組詞寫潁州西湖，《浪淘沙·把酒祝東風》由遊春想到聚散與時光。讀其詞時宜留意明麗景象中含蓄的感傷，而不只把它們看作遊記。",
+        "zh-Hans": "欧阳修（1007—1072），字永叔，号醉翁，晚号六一居士，吉州吉水人，北宋文学家、史学家、政治家。他倡导古文，提携苏轼等后进，参与史书修撰，是唐宋八大家之一。其散文平易流畅，诗词也善于把景色、生活和情感自然结合。《采桑子》组词写颍州西湖，《浪淘沙·把酒祝东风》由游春想到聚散与时光。读其词时宜留意明丽景象中含蓄的感伤，而不只把它们看作游记。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 4
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "羣芳過後西湖好，狼籍殘紅。飛絮濛濛。垂柳闌干盡日風。笙歌散盡遊人去，始覺春空。垂下簾櫳。雙燕歸來細雨中。",
+    "zh-Hans": "群芳过后西湖好，狼籍残红。飞絮蒙蒙。垂柳阑干尽日风。笙歌散尽游人去，始觉春空。垂下帘栊。双燕归来细雨中。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-169-l001",
+      "text": {
+        "zh-Hant": "羣芳過後西湖好，",
+        "zh-Hans": "群芳过后西湖好，"
+      }
+    },
+    {
+      "id": "ext-song-169-l002",
+      "text": {
+        "zh-Hant": "狼籍殘紅。",
+        "zh-Hans": "狼籍残红。"
+      }
+    },
+    {
+      "id": "ext-song-169-l003",
+      "text": {
+        "zh-Hant": "飛絮濛濛。",
+        "zh-Hans": "飞絮蒙蒙。"
+      }
+    },
+    {
+      "id": "ext-song-169-l004",
+      "text": {
+        "zh-Hant": "垂柳闌干盡日風。",
+        "zh-Hans": "垂柳阑干尽日风。"
+      }
+    },
+    {
+      "id": "ext-song-169-l005",
+      "text": {
+        "zh-Hant": "笙歌散盡遊人去，",
+        "zh-Hans": "笙歌散尽游人去，"
+      }
+    },
+    {
+      "id": "ext-song-169-l006",
+      "text": {
+        "zh-Hant": "始覺春空。",
+        "zh-Hans": "始觉春空。"
+      }
+    },
+    {
+      "id": "ext-song-169-l007",
+      "text": {
+        "zh-Hant": "垂下簾櫳。",
+        "zh-Hans": "垂下帘栊。"
+      }
+    },
+    {
+      "id": "ext-song-169-l008",
+      "text": {
+        "zh-Hant": "雙燕歸來細雨中。",
+        "zh-Hans": "双燕归来细雨中。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-169-w001",
+      "term": {
+        "zh-Hant": "羣芳",
+        "zh-Hans": "群芳"
+      },
+      "definition": {
+        "zh-Hant": "百花。",
+        "zh-Hans": "百花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-169-w002",
+      "term": {
+        "zh-Hant": "狼籍",
+        "zh-Hans": "狼籍"
+      },
+      "definition": {
+        "zh-Hant": "散亂的樣子，同狼藉。",
+        "zh-Hans": "散乱的样子，同狼藉。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-169-w003",
+      "term": {
+        "zh-Hant": "殘紅",
+        "zh-Hans": "残红"
+      },
+      "definition": {
+        "zh-Hant": "凋落的花。",
+        "zh-Hans": "凋落的花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-169-w004",
+      "term": {
+        "zh-Hant": "笙歌",
+        "zh-Hans": "笙歌"
+      },
+      "definition": {
+        "zh-Hant": "音樂與歌聲。",
+        "zh-Hans": "音乐与歌声。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-169-w005",
+      "term": {
+        "zh-Hant": "簾櫳",
+        "zh-Hans": "帘栊"
+      },
+      "definition": {
+        "zh-Hant": "掛着簾子的窗户。",
+        "zh-Hans": "挂着帘子的窗户。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-169-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 169
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

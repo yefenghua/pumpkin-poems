@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-15",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "泊船瓜洲",
+    "zh-Hans": "泊船瓜洲"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-442c66fc373b",
+  "author_file": "../author/author-442c66fc373b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-442c66fc373b",
+    "name": {
+      "zh-Hant": "王安石",
+      "zh-Hans": "王安石"
+    },
+    "catalog_name": {
+      "zh-Hant": "王安石",
+      "zh-Hans": "王安石"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋政治家、文學家，詩歌精煉，常兼具情感與思考。",
+        "zh-Hans": "北宋政治家、文学家，诗歌精炼，常兼具情感与思考。"
+      },
+      "full": {
+        "zh-Hant": "王安石（1021—1086），字介甫，號半山，撫州臨川人，北宋政治家、文學家，唐宋八大家之一。他在宋神宗時期推動變法，政治主張引發廣泛爭論；文學上詩文俱有成就。詩歌語言精煉，既有議論與抱負，也有山水田園中的細微感受。《元日》寫新年習俗與更新氣象，《泊船瓜洲》借春風明月寄託歸思。讀詩時可以聯繫時代背景，但不宜把所有景物都機械解釋成政治寓意。",
+        "zh-Hans": "王安石（1021—1086），字介甫，号半山，抚州临川人，北宋政治家、文学家，唐宋八大家之一。他在宋神宗时期推动变法，政治主张引发广泛争论；文学上诗文俱有成就。诗歌语言精炼，既有议论与抱负，也有山水田园中的细微感受。《元日》写新年习俗与更新气象，《泊船瓜洲》借春风明月寄托归思。读诗时可以联系时代背景，但不宜把所有景物都机械解释成政治寓意。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 元日賞析",
+          "zh-Hans": "香港教育局 · 元日赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "京口瓜洲一水間，鍾山祇隔數重山。春風又綠江南岸，明月何時照我還。",
+    "zh-Hans": "京口瓜洲一水间，钟山祇隔数重山。春风又绿江南岸，明月何时照我还。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-15-l001",
+      "text": {
+        "zh-Hant": "京口瓜洲一水間，",
+        "zh-Hans": "京口瓜洲一水间，"
+      }
+    },
+    {
+      "id": "hk-ks2-15-l002",
+      "text": {
+        "zh-Hant": "鍾山祇隔數重山。",
+        "zh-Hans": "钟山祇隔数重山。"
+      }
+    },
+    {
+      "id": "hk-ks2-15-l003",
+      "text": {
+        "zh-Hant": "春風又綠江南岸，",
+        "zh-Hans": "春风又绿江南岸，"
+      }
+    },
+    {
+      "id": "hk-ks2-15-l004",
+      "text": {
+        "zh-Hant": "明月何時照我還。",
+        "zh-Hans": "明月何时照我还。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-15-w001",
+      "term": {
+        "zh-Hant": "京口",
+        "zh-Hans": "京口"
+      },
+      "definition": {
+        "zh-Hant": "今江蘇鎮江一帶。",
+        "zh-Hans": "今江苏镇江一带。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-15-w002",
+      "term": {
+        "zh-Hant": "瓜洲",
+        "zh-Hans": "瓜洲"
+      },
+      "definition": {
+        "zh-Hant": "長江北岸的古渡口，在今江蘇揚州附近。",
+        "zh-Hans": "长江北岸的古渡口，在今江苏扬州附近。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-15-w003",
+      "term": {
+        "zh-Hant": "一水",
+        "zh-Hans": "一水"
+      },
+      "definition": {
+        "zh-Hant": "這裏指長江。",
+        "zh-Hans": "这里指长江。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l001",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-15-w004",
+      "term": {
+        "zh-Hant": "鍾山",
+        "zh-Hans": "钟山"
+      },
+      "definition": {
+        "zh-Hant": "今南京紫金山。",
+        "zh-Hans": "今南京紫金山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-15-w005",
+      "term": {
+        "zh-Hant": "綠",
+        "zh-Hans": "绿"
+      },
+      "definition": {
+        "zh-Hant": "使……變綠，寫春風吹綠江岸。",
+        "zh-Hans": "使……变绿，写春风吹绿江岸。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l003",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l003",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-15-w006",
+      "term": {
+        "zh-Hant": "還",
+        "zh-Hans": "还"
+      },
+      "definition": {
+        "zh-Hant": "返回。",
+        "zh-Hans": "返回。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l004",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-15-l004",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "繁體保留“鍾山祇隔”；“祇”在本句意為只，簡體仍保留底本文字。",
+      "zh-Hans": "繁体保留“钟山祇隔”；“祇”在本句意为只，简体仍保留底本文字。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 泊船瓜洲原文",
+        "zh-Hans": "香港教育局 · 泊船瓜洲原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_15_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "8532cd8c2b500713ef4d160ff3631861423aba4cc2820b616432281d87072e9d"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 泊船瓜洲賞析",
+        "zh-Hans": "香港教育局 · 泊船瓜洲赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_15.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

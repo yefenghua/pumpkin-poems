@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-15",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "清明",
+    "zh-Hans": "清明"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-f66c94d9050d",
+  "author_file": "../author/author-f66c94d9050d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-f66c94d9050d",
+    "name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜牧",
+      "zh-Hans": "杜牧"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐詩人，字牧之，擅長七言絕句與詠史詩。",
+        "zh-Hans": "晚唐诗人，字牧之，擅长七言绝句与咏史诗。"
+      },
+      "full": {
+        "zh-Hant": "杜牧（803—852），字牧之，京兆萬年人，晚唐詩人和散文家，與李商隱並稱小李杜。他曾任地方官及幕府職務，關心政治軍事，也善寫山水、送別和個人情懷。七言絕句是其突出的創作領域，語言俊爽，常在短篇中結合鮮明景象與歷史思考。《山行》寫深秋的明麗，《赤壁》《泊秦淮》則借古蹟和樂曲反思興亡。讀杜詩，可比較寫景中的欣賞與懷古中的諷喻如何各具語氣。",
+        "zh-Hans": "杜牧（803—852），字牧之，京兆万年人，晚唐诗人和散文家，与李商隐并称小李杜。他曾任地方官及幕府职务，关心政治军事，也善写山水、送别和个人情怀。七言绝句是其突出的创作领域，语言俊爽，常在短篇中结合鲜明景象与历史思考。《山行》写深秋的明丽，《赤壁》《泊秦淮》则借古迹和乐曲反思兴亡。读杜诗，可比较写景中的欣赏与怀古中的讽喻如何各具语气。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 清明賞析",
+          "zh-Hans": "香港教育局 · 清明赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "清明時節雨紛紛，路上行人欲斷魂。借問酒家何處有，牧童遙指杏花村。",
+    "zh-Hans": "清明时节雨纷纷，路上行人欲断魂。借问酒家何处有，牧童遥指杏花村。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-15-l001",
+      "text": {
+        "zh-Hant": "清明時節雨紛紛，",
+        "zh-Hans": "清明时节雨纷纷，"
+      }
+    },
+    {
+      "id": "hk-ks1-15-l002",
+      "text": {
+        "zh-Hant": "路上行人欲斷魂。",
+        "zh-Hans": "路上行人欲断魂。"
+      }
+    },
+    {
+      "id": "hk-ks1-15-l003",
+      "text": {
+        "zh-Hant": "借問酒家何處有，",
+        "zh-Hans": "借问酒家何处有，"
+      }
+    },
+    {
+      "id": "hk-ks1-15-l004",
+      "text": {
+        "zh-Hant": "牧童遙指杏花村。",
+        "zh-Hans": "牧童遥指杏花村。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-15-w001",
+      "term": {
+        "zh-Hant": "紛紛",
+        "zh-Hans": "纷纷"
+      },
+      "definition": {
+        "zh-Hant": "細雨接連落下的樣子。",
+        "zh-Hans": "细雨接连落下的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-15-w002",
+      "term": {
+        "zh-Hant": "欲斷魂",
+        "zh-Hans": "欲断魂"
+      },
+      "definition": {
+        "zh-Hant": "極度惆悵，彷彿失魂落魄。",
+        "zh-Hans": "极度惆怅，仿佛失魂落魄。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l002",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l002",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-15-w003",
+      "term": {
+        "zh-Hant": "借問",
+        "zh-Hans": "借问"
+      },
+      "definition": {
+        "zh-Hant": "請問。",
+        "zh-Hans": "请问。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-15-w004",
+      "term": {
+        "zh-Hant": "酒家",
+        "zh-Hans": "酒家"
+      },
+      "definition": {
+        "zh-Hant": "賣酒的店。",
+        "zh-Hans": "卖酒的店。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-15-w005",
+      "term": {
+        "zh-Hant": "遙指",
+        "zh-Hans": "遥指"
+      },
+      "definition": {
+        "zh-Hant": "指向遠處。",
+        "zh-Hans": "指向远处。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-15-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 清明原文",
+        "zh-Hans": "香港教育局 · 清明原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "ea6cb1cf8de2847726629f1ca09513f0deef57a5684742e94887f3bc9033cd94"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 清明賞析",
+        "zh-Hans": "香港教育局 · 清明赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

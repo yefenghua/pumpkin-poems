@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-yuan-001",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "山坡羊·潼關懷古",
+    "zh-Hans": "山坡羊·潼关怀古"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-d95c2e53949d",
+  "author_file": "../author/author-d95c2e53949d.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d95c2e53949d",
+    "name": {
+      "zh-Hant": "張養浩",
+      "zh-Hans": "张养浩"
+    },
+    "catalog_name": {
+      "zh-Hant": "張養浩",
+      "zh-Hans": "张养浩"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代政治家、散曲家，作品常關懷百姓疾苦。",
+        "zh-Hans": "元代政治家、散曲家，作品常关怀百姓疾苦。"
+      },
+      "full": {
+        "zh-Hant": "張養浩（1270—1329），字希孟，號雲莊，濟南人，元代官員和散曲作家。他曾辭官歸居，晚年關中大旱時赴陝西賑災，盡力救濟，任上去世。其散曲既有山林閒居之作，也有沉重的懷古與民生關懷。《山坡羊·潼關懷古》從山河形勢寫到歷代宮闕，再追問王朝興亡中百姓承受的苦難。讀他的懷古作品，不能只停在歷史勝負，還應看到對普通人處境的關注。",
+        "zh-Hans": "张养浩（1270—1329），字希孟，号云庄，济南人，元代官员和散曲作家。他曾辞官归居，晚年关中大旱时赴陕西赈灾，尽力救济，任上去世。其散曲既有山林闲居之作，也有沉重的怀古与民生关怀。《山坡羊·潼关怀古》从山河形势写到历代宫阙，再追问王朝兴亡中百姓承受的苦难。读他的怀古作品，不能只停在历史胜负，还应看到对普通人处境的关注。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "張養浩文獻資料",
+          "zh-Hans": "张养浩文献资料"
+        },
+        "url": "https://www.sdcourt.gov.cn/jnanzqfy/386876/386883/6847673/index.html",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "峯巒如聚，波濤如怒，山河表裏潼關路。望西都，意躊躕，傷心秦漢經行處，宮闕萬間都做了土。興，百姓苦；亡，百姓苦！",
+    "zh-Hans": "峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌蹰，伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-yuan-001-l001",
+      "text": {
+        "zh-Hant": "峯巒如聚，",
+        "zh-Hans": "峰峦如聚，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l002",
+      "text": {
+        "zh-Hant": "波濤如怒，",
+        "zh-Hans": "波涛如怒，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l003",
+      "text": {
+        "zh-Hant": "山河表裏潼關路。",
+        "zh-Hans": "山河表里潼关路。"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l004",
+      "text": {
+        "zh-Hant": "望西都，",
+        "zh-Hans": "望西都，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l005",
+      "text": {
+        "zh-Hant": "意躊躕，",
+        "zh-Hans": "意踌蹰，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l006",
+      "text": {
+        "zh-Hant": "傷心秦漢經行處，",
+        "zh-Hans": "伤心秦汉经行处，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l007",
+      "text": {
+        "zh-Hant": "宮闕萬間都做了土。",
+        "zh-Hans": "宫阙万间都做了土。"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l008",
+      "text": {
+        "zh-Hant": "興，",
+        "zh-Hans": "兴，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l009",
+      "text": {
+        "zh-Hant": "百姓苦；",
+        "zh-Hans": "百姓苦；"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l010",
+      "text": {
+        "zh-Hant": "亡，",
+        "zh-Hans": "亡，"
+      }
+    },
+    {
+      "id": "ext-yuan-001-l011",
+      "text": {
+        "zh-Hant": "百姓苦！",
+        "zh-Hans": "百姓苦！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-yuan-001-w001",
+      "term": {
+        "zh-Hant": "聚",
+        "zh-Hans": "聚"
+      },
+      "definition": {
+        "zh-Hant": "聚攏，寫羣山環繞。",
+        "zh-Hans": "聚拢，写群山环绕。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l001",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l001",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-001-w002",
+      "term": {
+        "zh-Hant": "山河表裏",
+        "zh-Hans": "山河表里"
+      },
+      "definition": {
+        "zh-Hant": "外有黃河、內有山巒，形容潼關險要。",
+        "zh-Hans": "外有黄河、内有山峦，形容潼关险要。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l003",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l003",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-001-w003",
+      "term": {
+        "zh-Hant": "西都",
+        "zh-Hans": "西都"
+      },
+      "definition": {
+        "zh-Hant": "長安。",
+        "zh-Hans": "长安。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l004",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l004",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-001-w004",
+      "term": {
+        "zh-Hant": "躊躕",
+        "zh-Hans": "踌蹰"
+      },
+      "definition": {
+        "zh-Hant": "徘徊，心情沉重。",
+        "zh-Hans": "徘徊，心情沉重。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l005",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l005",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-001-w005",
+      "term": {
+        "zh-Hant": "宮闕",
+        "zh-Hans": "宫阙"
+      },
+      "definition": {
+        "zh-Hant": "宮殿樓閣。",
+        "zh-Hans": "宫殿楼阁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-001-w006",
+      "term": {
+        "zh-Hant": "興",
+        "zh-Hans": "兴"
+      },
+      "definition": {
+        "zh-Hant": "王朝興起。",
+        "zh-Hans": "王朝兴起。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l008",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-001-l008",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "從合併的組曲條目中拆出本首，正文完整。",
+      "zh-Hans": "从合并的组曲条目中拆出本首，正文完整。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 元曲/yuanqu.json",
+        "zh-Hans": "中华古诗词数据库 · 元曲/yuanqu.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%83%E6%9B%B2/yuanqu.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "c2be37d2349cec99ec7f2d7c4107eb08bbb3ac869221db24531c8ffed2a88b12",
+      "record_locator": {
+        "index_zero_based": "7618"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

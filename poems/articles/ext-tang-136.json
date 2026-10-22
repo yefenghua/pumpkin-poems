@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-136",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "終南山",
+    "zh-Hans": "终南山"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "太乙近天都，連山接海隅。白雲迴望合，青靄入看無。分野中峰變，陰晴衆壑殊。欲投人處宿，隔水問樵夫。",
+    "zh-Hans": "太乙近天都，连山接海隅。白云回望合，青霭入看无。分野中峰变，阴晴众壑殊。欲投人处宿，隔水问樵夫。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-136-l001",
+      "text": {
+        "zh-Hant": "太乙近天都，",
+        "zh-Hans": "太乙近天都，"
+      }
+    },
+    {
+      "id": "ext-tang-136-l002",
+      "text": {
+        "zh-Hant": "連山接海隅。",
+        "zh-Hans": "连山接海隅。"
+      }
+    },
+    {
+      "id": "ext-tang-136-l003",
+      "text": {
+        "zh-Hant": "白雲迴望合，",
+        "zh-Hans": "白云回望合，"
+      }
+    },
+    {
+      "id": "ext-tang-136-l004",
+      "text": {
+        "zh-Hant": "青靄入看無。",
+        "zh-Hans": "青霭入看无。"
+      }
+    },
+    {
+      "id": "ext-tang-136-l005",
+      "text": {
+        "zh-Hant": "分野中峰變，",
+        "zh-Hans": "分野中峰变，"
+      }
+    },
+    {
+      "id": "ext-tang-136-l006",
+      "text": {
+        "zh-Hant": "陰晴衆壑殊。",
+        "zh-Hans": "阴晴众壑殊。"
+      }
+    },
+    {
+      "id": "ext-tang-136-l007",
+      "text": {
+        "zh-Hant": "欲投人處宿，",
+        "zh-Hans": "欲投人处宿，"
+      }
+    },
+    {
+      "id": "ext-tang-136-l008",
+      "text": {
+        "zh-Hant": "隔水問樵夫。",
+        "zh-Hans": "隔水问樵夫。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-136-w001",
+      "term": {
+        "zh-Hant": "太乙",
+        "zh-Hans": "太乙"
+      },
+      "definition": {
+        "zh-Hant": "終南山的別名。",
+        "zh-Hans": "终南山的别名。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-136-w002",
+      "term": {
+        "zh-Hant": "天都",
+        "zh-Hans": "天都"
+      },
+      "definition": {
+        "zh-Hant": "天帝居所，誇寫山高。",
+        "zh-Hans": "天帝居所，夸写山高。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-136-w003",
+      "term": {
+        "zh-Hant": "海隅",
+        "zh-Hans": "海隅"
+      },
+      "definition": {
+        "zh-Hant": "海邊，極言綿延遙遠。",
+        "zh-Hans": "海边，极言绵延遥远。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-136-w004",
+      "term": {
+        "zh-Hant": "分野",
+        "zh-Hans": "分野"
+      },
+      "definition": {
+        "zh-Hant": "古人按星宿劃分地面區域的説法。",
+        "zh-Hans": "古人按星宿划分地面区域的说法。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-136-w005",
+      "term": {
+        "zh-Hant": "人處",
+        "zh-Hans": "人处"
+      },
+      "definition": {
+        "zh-Hant": "有人居住的地方。",
+        "zh-Hans": "有人居住的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-136-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 136
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

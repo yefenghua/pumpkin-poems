@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-16",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "蜂",
+    "zh-Hans": "蜂"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-64c3d5d1c745",
+  "author_file": "../author/author-64c3d5d1c745.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-64c3d5d1c745",
+    "name": {
+      "zh-Hant": "羅隱",
+      "zh-Hans": "罗隐"
+    },
+    "catalog_name": {
+      "zh-Hant": "羅隱",
+      "zh-Hans": "罗隐"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐詩人，字昭諫，作品常有尖鋭的諷喻意味。",
+        "zh-Hans": "晚唐诗人，字昭谏，作品常有尖锐的讽喻意味。"
+      },
+      "full": {
+        "zh-Hant": "羅隱（833—909），字昭諫，杭州一帶人，晚唐詩人。他多次參加進士考試未中，後來投歸錢鏐，在吳越政權中任職。其詩文常關注現實，語氣直率，善以反問和轉折揭示社會矛盾，也有抒寫身世與風景的作品。《蜂》先寫蜜蜂採集百花，末尾追問辛苦和甜蜜歸於誰，使詠物具有更深的社會聯想。閲讀時可以討論勞動與收穫，但不必把每個字都固定對應到某一歷史人物。",
+        "zh-Hans": "罗隐（833—909），字昭谏，杭州一带人，晚唐诗人。他多次参加进士考试未中，后来投归钱镠，在吴越政权中任职。其诗文常关注现实，语气直率，善以反问和转折揭示社会矛盾，也有抒写身世与风景的作品。《蜂》先写蜜蜂采集百花，末尾追问辛苦和甜蜜归于谁，使咏物具有更深的社会联想。阅读时可以讨论劳动与收获，但不必把每个字都固定对应到某一历史人物。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 蜂賞析",
+          "zh-Hans": "香港教育局 · 蜂赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "不論平地與山尖，無限風光盡被占。採得百花成蜜後，為誰辛苦為誰甜！",
+    "zh-Hans": "不论平地与山尖，无限风光尽被占。采得百花成蜜后，为谁辛苦为谁甜！"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-16-l001",
+      "text": {
+        "zh-Hant": "不論平地與山尖，",
+        "zh-Hans": "不论平地与山尖，"
+      }
+    },
+    {
+      "id": "hk-ks1-16-l002",
+      "text": {
+        "zh-Hant": "無限風光盡被占。",
+        "zh-Hans": "无限风光尽被占。"
+      }
+    },
+    {
+      "id": "hk-ks1-16-l003",
+      "text": {
+        "zh-Hant": "採得百花成蜜後，",
+        "zh-Hans": "采得百花成蜜后，"
+      }
+    },
+    {
+      "id": "hk-ks1-16-l004",
+      "text": {
+        "zh-Hant": "為誰辛苦為誰甜！",
+        "zh-Hans": "为谁辛苦为谁甜！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-16-w001",
+      "term": {
+        "zh-Hant": "山尖",
+        "zh-Hans": "山尖"
+      },
+      "definition": {
+        "zh-Hant": "山峯。",
+        "zh-Hans": "山峰。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-16-w002",
+      "term": {
+        "zh-Hant": "盡",
+        "zh-Hans": "尽"
+      },
+      "definition": {
+        "zh-Hant": "全都。",
+        "zh-Hans": "全都。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l002",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l002",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-16-w003",
+      "term": {
+        "zh-Hant": "占",
+        "zh-Hans": "占"
+      },
+      "definition": {
+        "zh-Hant": "佔有，這裏指蜜蜂處處採花。",
+        "zh-Hans": "占有，这里指蜜蜂处处采花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l002",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l002",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-16-w004",
+      "term": {
+        "zh-Hant": "採",
+        "zh-Hans": "采"
+      },
+      "definition": {
+        "zh-Hant": "採集花蜜。",
+        "zh-Hans": "采集花蜜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l003",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l003",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-16-w005",
+      "term": {
+        "zh-Hant": "為誰",
+        "zh-Hans": "为谁"
+      },
+      "definition": {
+        "zh-Hant": "替誰，借問句引出對勞動與收穫的思考。",
+        "zh-Hans": "替谁，借问句引出对劳动与收获的思考。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l004",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l004",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l004",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-16-l004",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 蜂原文",
+        "zh-Hans": "香港教育局 · 蜂原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "12bea2542b005ee1f379e4f61838fffde7eb416fae74d4dcbdbfd5fab8134634"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 蜂賞析",
+        "zh-Hans": "香港教育局 · 蜂赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

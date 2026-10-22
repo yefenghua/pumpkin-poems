@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-49ff1de8c8ed",
+  "name": {
+    "zh-Hant": "張孝祥",
+    "zh-Hans": "张孝祥"
+  },
+  "catalog_name": {
+    "zh-Hant": "張孝祥",
+    "zh-Hans": "张孝祥"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "南宋詞人，號于湖居士，詞風豪邁清曠。",
+      "zh-Hans": "南宋词人，号于湖居士，词风豪迈清旷。"
+    },
+    "full": {
+      "zh-Hant": "張孝祥（1132—1169），字安國，號于湖居士，南宋詞人、官員，紹興年間狀元及第。他主張抗金，曾任多地長官，關注水利與地方治理。其詞常有開闊境界和強烈感情，承接蘇軾的豪放風氣，也能寫得澄明清遠。《念奴嬌·過洞庭》以月下湖面映照光明坦蕩的內心，將自然景色與人格理想結合。讀詞時可以觀察明月、冰雪和水光等意象如何反覆照應。",
+      "zh-Hans": "张孝祥（1132—1169），字安国，号于湖居士，南宋词人、官员，绍兴年间状元及第。他主张抗金，曾任多地长官，关注水利与地方治理。其词常有开阔境界和强烈感情，承接苏轼的豪放风气，也能写得澄明清远。《念奴娇·过洞庭》以月下湖面映照光明坦荡的内心，将自然景色与人格理想结合。读词时可以观察明月、冰雪和水光等意象如何反复照应。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 1317
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

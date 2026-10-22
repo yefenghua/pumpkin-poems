@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-bc8134d42b32",
+  "name": {
+    "zh-Hant": "陳陶",
+    "zh-Hans": "陈陶"
+  },
+  "catalog_name": {
+    "zh-Hant": "陳陶",
+    "zh-Hans": "陈陶"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，《隴西行》以邊塞戰爭中的家庭悲劇著稱。",
+      "zh-Hans": "唐代诗人，《陇西行》以边塞战争中的家庭悲剧著称。"
+    },
+    "full": {
+      "zh-Hant": "陳陶，字嵩伯，唐代詩人，主要活動於九世紀，生卒年和籍貫存在不同説法。他曾遊歷多地，後居洪州西山一帶，傳世作品涉及山水、身世及社會現實。《隴西行》組詩中無定河邊骨與春閨夢裏人的對照尤其著名：戰場上的死亡與家中仍在等待的夢形成強烈反差。學習此詩可以關注戰爭對個人與家庭的影響。因史料有限，本庫不為其編寫精確任職年表或未經證實的軍旅經歷。",
+      "zh-Hans": "陈陶，字嵩伯，唐代诗人，主要活动于九世纪，生卒年和籍贯存在不同说法。他曾游历多地，后居洪州西山一带，传世作品涉及山水、身世及社会现实。《陇西行》组诗中无定河边骨与春闺梦里人的对照尤其著名：战场上的死亡与家中仍在等待的梦形成强烈反差。学习此诗可以关注战争对个人与家庭的影响。因史料有限，本库不为其编写精确任职年表或未经证实的军旅经历。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 327
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

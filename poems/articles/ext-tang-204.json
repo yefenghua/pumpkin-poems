@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-204",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "漁翁",
+    "zh-Hans": "渔翁"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "古體詩",
+    "zh-Hans": "古体诗"
+  },
+  "author_id": "author-9b9a59036ffc",
+  "author_file": "../author/author-9b9a59036ffc.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-9b9a59036ffc",
+    "name": {
+      "zh-Hant": "柳宗元",
+      "zh-Hans": "柳宗元"
+    },
+    "catalog_name": {
+      "zh-Hant": "柳宗元",
+      "zh-Hans": "柳宗元"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代文學家，字子厚，山水詩文清峻深刻。",
+        "zh-Hans": "唐代文学家，字子厚，山水诗文清峻深刻。"
+      },
+      "full": {
+        "zh-Hant": "柳宗元（773—819），字子厚，河東人，唐代文學家、思想家，唐宋八大家之一。他參與永貞革新，失敗後被貶永州，後來任柳州刺史。山水遊記、寓言與詩歌是其重要創作領域，常把對現實和身世的感受寄寓自然景象之中。《江雪》以極少字句構成空寂雪境，《漁翁》通過夜宿、汲水和行舟寫清遠意趣。作品中的幽靜不只是風景，也與人在困境中的精神選擇相聯繫。",
+        "zh-Hans": "柳宗元（773—819），字子厚，河东人，唐代文学家、思想家，唐宋八大家之一。他参与永贞革新，失败后被贬永州，后来任柳州刺史。山水游记、寓言与诗歌是其重要创作领域，常把对现实和身世的感受寄寓自然景象之中。《江雪》以极少字句构成空寂雪境，《渔翁》通过夜宿、汲水和行舟写清远意趣。作品中的幽静不只是风景，也与人在困境中的精神选择相联系。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 江雪賞析",
+          "zh-Hans": "香港教育局 · 江雪赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_13.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "漁翁夜傍西巖宿，曉汲清湘燃楚竹。煙銷日出不見人，欸乃一聲山水綠。迴看天際下中流，巖上無心雲相逐。",
+    "zh-Hans": "渔翁夜傍西岩宿，晓汲清湘燃楚竹。烟销日出不见人，欸乃一声山水绿。回看天际下中流，岩上无心云相逐。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-204-l001",
+      "text": {
+        "zh-Hant": "漁翁夜傍西巖宿，",
+        "zh-Hans": "渔翁夜傍西岩宿，"
+      }
+    },
+    {
+      "id": "ext-tang-204-l002",
+      "text": {
+        "zh-Hant": "曉汲清湘燃楚竹。",
+        "zh-Hans": "晓汲清湘燃楚竹。"
+      }
+    },
+    {
+      "id": "ext-tang-204-l003",
+      "text": {
+        "zh-Hant": "煙銷日出不見人，",
+        "zh-Hans": "烟销日出不见人，"
+      }
+    },
+    {
+      "id": "ext-tang-204-l004",
+      "text": {
+        "zh-Hant": "欸乃一聲山水綠。",
+        "zh-Hans": "欸乃一声山水绿。"
+      }
+    },
+    {
+      "id": "ext-tang-204-l005",
+      "text": {
+        "zh-Hant": "迴看天際下中流，",
+        "zh-Hans": "回看天际下中流，"
+      }
+    },
+    {
+      "id": "ext-tang-204-l006",
+      "text": {
+        "zh-Hant": "巖上無心雲相逐。",
+        "zh-Hans": "岩上无心云相逐。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-204-w001",
+      "term": {
+        "zh-Hant": "汲",
+        "zh-Hans": "汲"
+      },
+      "definition": {
+        "zh-Hant": "取水。",
+        "zh-Hans": "取水。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l002",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l002",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-204-w002",
+      "term": {
+        "zh-Hant": "清湘",
+        "zh-Hans": "清湘"
+      },
+      "definition": {
+        "zh-Hant": "清澈的湘江。",
+        "zh-Hans": "清澈的湘江。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-204-w003",
+      "term": {
+        "zh-Hant": "銷",
+        "zh-Hans": "销"
+      },
+      "definition": {
+        "zh-Hant": "消散。",
+        "zh-Hans": "消散。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l003",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l003",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-204-w004",
+      "term": {
+        "zh-Hant": "欸乃",
+        "zh-Hans": "欸乃"
+      },
+      "definition": {
+        "zh-Hant": "搖櫓或行船時的聲音，亦有指漁歌聲的解釋。",
+        "zh-Hans": "摇橹或行船时的声音，亦有指渔歌声的解释。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-204-w005",
+      "term": {
+        "zh-Hant": "中流",
+        "zh-Hans": "中流"
+      },
+      "definition": {
+        "zh-Hant": "江流中間。",
+        "zh-Hans": "江流中间。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l005",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-204-l005",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "去除整理底本的校勘方括號，保留所補欸字。",
+      "zh-Hans": "去除整理底本的校勘方括号，保留所补欸字。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "[欸]",
+      "to": "欸"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 204
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

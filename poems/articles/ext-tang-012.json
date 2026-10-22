@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-012",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "夜雨寄北",
+    "zh-Hans": "夜雨寄北"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-e5ed99b81551",
+  "author_file": "../author/author-e5ed99b81551.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-e5ed99b81551",
+    "name": {
+      "zh-Hant": "李商隱",
+      "zh-Hans": "李商隐"
+    },
+    "catalog_name": {
+      "zh-Hant": "李商隱",
+      "zh-Hans": "李商隐"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "晚唐詩人，字義山，詩歌意象豐富、情思深細。",
+        "zh-Hans": "晚唐诗人，字义山，诗歌意象丰富、情思深细。"
+      },
+      "full": {
+        "zh-Hant": "李商隱（約813—858），字義山，號玉溪生，晚唐詩人。他曾任地方與幕府職務，仕途多不順，與杜牧並稱小李杜。其詩善用典故、象徵和細密意象，既有詠史諷喻，也有愛情、身世與友朋之思。《夜雨寄北》在眼前夜雨與未來團聚間轉換，《錦瑟》則以多種典故組織難以明説的感受。閲讀時應容許解釋有分歧，不把每一首無題詩都強行對應到一個確定人物或事件。",
+        "zh-Hans": "李商隐（约813—858），字义山，号玉溪生，晚唐诗人。他曾任地方与幕府职务，仕途多不顺，与杜牧并称小李杜。其诗善用典故、象征和细密意象，既有咏史讽喻，也有爱情、身世与友朋之思。《夜雨寄北》在眼前夜雨与未来团聚间转换，《锦瑟》则以多种典故组织难以明说的感受。阅读时应容许解释有分歧，不把每一首无题诗都强行对应到一个确定人物或事件。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 171
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "君問歸期未有期，巴山夜雨漲秋池。何當共剪西窗燭，却話巴山夜雨時。",
+    "zh-Hans": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-012-l001",
+      "text": {
+        "zh-Hant": "君問歸期未有期，",
+        "zh-Hans": "君问归期未有期，"
+      }
+    },
+    {
+      "id": "ext-tang-012-l002",
+      "text": {
+        "zh-Hant": "巴山夜雨漲秋池。",
+        "zh-Hans": "巴山夜雨涨秋池。"
+      }
+    },
+    {
+      "id": "ext-tang-012-l003",
+      "text": {
+        "zh-Hant": "何當共剪西窗燭，",
+        "zh-Hans": "何当共剪西窗烛，"
+      }
+    },
+    {
+      "id": "ext-tang-012-l004",
+      "text": {
+        "zh-Hant": "却話巴山夜雨時。",
+        "zh-Hans": "却话巴山夜雨时。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-012-w001",
+      "term": {
+        "zh-Hant": "巴山",
+        "zh-Hans": "巴山"
+      },
+      "definition": {
+        "zh-Hant": "巴蜀一帶的山。",
+        "zh-Hans": "巴蜀一带的山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l002",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l002",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-012-w002",
+      "term": {
+        "zh-Hant": "何當",
+        "zh-Hans": "何当"
+      },
+      "definition": {
+        "zh-Hant": "什麼時候能夠。",
+        "zh-Hans": "什么时候能够。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-012-w003",
+      "term": {
+        "zh-Hant": "共剪西窗燭",
+        "zh-Hans": "共剪西窗烛"
+      },
+      "definition": {
+        "zh-Hant": "與親友團聚，在燈下長談。",
+        "zh-Hans": "与亲友团聚，在灯下长谈。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l003",
+            "start": 2,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l003",
+            "start": 2,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-012-w004",
+      "term": {
+        "zh-Hant": "却話",
+        "zh-Hans": "却话"
+      },
+      "definition": {
+        "zh-Hant": "回頭談起。",
+        "zh-Hans": "回头谈起。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-012-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 12
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-08",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "送元二使安西",
+    "zh-Hans": "送元二使安西"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "渭城朝雨裛輕塵，客舍青青柳色新。勸君更盡一杯酒，西出陽關無故人。",
+    "zh-Hans": "渭城朝雨裛轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-08-l001",
+      "text": {
+        "zh-Hant": "渭城朝雨裛輕塵，",
+        "zh-Hans": "渭城朝雨裛轻尘，"
+      }
+    },
+    {
+      "id": "hk-ks2-08-l002",
+      "text": {
+        "zh-Hant": "客舍青青柳色新。",
+        "zh-Hans": "客舍青青柳色新。"
+      }
+    },
+    {
+      "id": "hk-ks2-08-l003",
+      "text": {
+        "zh-Hant": "勸君更盡一杯酒，",
+        "zh-Hans": "劝君更尽一杯酒，"
+      }
+    },
+    {
+      "id": "hk-ks2-08-l004",
+      "text": {
+        "zh-Hant": "西出陽關無故人。",
+        "zh-Hans": "西出阳关无故人。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-08-w001",
+      "term": {
+        "zh-Hant": "渭城",
+        "zh-Hans": "渭城"
+      },
+      "definition": {
+        "zh-Hant": "秦代咸陽一帶，位於今陝西。",
+        "zh-Hans": "秦代咸阳一带，位于今陕西。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-08-w002",
+      "term": {
+        "zh-Hant": "裛",
+        "zh-Hans": "裛"
+      },
+      "definition": {
+        "zh-Hant": "沾濕、潤濕，與常見版本的浥意思相同。",
+        "zh-Hans": "沾湿、润湿，与常见版本的浥意思相同。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l001",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l001",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-08-w003",
+      "term": {
+        "zh-Hant": "客舍",
+        "zh-Hans": "客舍"
+      },
+      "definition": {
+        "zh-Hant": "旅店。",
+        "zh-Hans": "旅店。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-08-w004",
+      "term": {
+        "zh-Hant": "更盡",
+        "zh-Hans": "更尽"
+      },
+      "definition": {
+        "zh-Hant": "再喝完。",
+        "zh-Hans": "再喝完。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-08-w005",
+      "term": {
+        "zh-Hant": "陽關",
+        "zh-Hans": "阳关"
+      },
+      "definition": {
+        "zh-Hant": "古代通往西域的關口，在今甘肅敦煌附近。",
+        "zh-Hans": "古代通往西域的关口，在今甘肃敦煌附近。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-08-w006",
+      "term": {
+        "zh-Hant": "故人",
+        "zh-Hans": "故人"
+      },
+      "definition": {
+        "zh-Hant": "老朋友。",
+        "zh-Hans": "老朋友。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-08-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留教育局“裛輕塵”；常見另本作“浥輕塵”。",
+      "zh-Hans": "保留教育局“裛轻尘”；常见另本作“浥轻尘”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 送元二使安西原文",
+        "zh-Hans": "香港教育局 · 送元二使安西原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_08_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "40fdf9aabbd6e516bbca3c28c4a521f418130cb9dbb84a12ee9b3ed6fa32bd66"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 送元二使安西賞析",
+        "zh-Hans": "香港教育局 · 送元二使安西赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_08.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

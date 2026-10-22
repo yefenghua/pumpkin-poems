@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks1-17",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "元日",
+    "zh-Hans": "元日"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-442c66fc373b",
+  "author_file": "../author/author-442c66fc373b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-442c66fc373b",
+    "name": {
+      "zh-Hant": "王安石",
+      "zh-Hans": "王安石"
+    },
+    "catalog_name": {
+      "zh-Hant": "王安石",
+      "zh-Hans": "王安石"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋政治家、文學家，詩歌精煉，常兼具情感與思考。",
+        "zh-Hans": "北宋政治家、文学家，诗歌精炼，常兼具情感与思考。"
+      },
+      "full": {
+        "zh-Hant": "王安石（1021—1086），字介甫，號半山，撫州臨川人，北宋政治家、文學家，唐宋八大家之一。他在宋神宗時期推動變法，政治主張引發廣泛爭論；文學上詩文俱有成就。詩歌語言精煉，既有議論與抱負，也有山水田園中的細微感受。《元日》寫新年習俗與更新氣象，《泊船瓜洲》借春風明月寄託歸思。讀詩時可以聯繫時代背景，但不宜把所有景物都機械解釋成政治寓意。",
+        "zh-Hans": "王安石（1021—1086），字介甫，号半山，抚州临川人，北宋政治家、文学家，唐宋八大家之一。他在宋神宗时期推动变法，政治主张引发广泛争论；文学上诗文俱有成就。诗歌语言精炼，既有议论与抱负，也有山水田园中的细微感受。《元日》写新年习俗与更新气象，《泊船瓜洲》借春风明月寄托归思。读诗时可以联系时代背景，但不宜把所有景物都机械解释成政治寓意。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 元日賞析",
+          "zh-Hans": "香港教育局 · 元日赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      1
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "爆竹聲中一歲除，春風送暖入屠蘇。千門萬戶曈曈日，總把新桃換舊符。",
+    "zh-Hans": "爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks1-17-l001",
+      "text": {
+        "zh-Hant": "爆竹聲中一歲除，",
+        "zh-Hans": "爆竹声中一岁除，"
+      }
+    },
+    {
+      "id": "hk-ks1-17-l002",
+      "text": {
+        "zh-Hant": "春風送暖入屠蘇。",
+        "zh-Hans": "春风送暖入屠苏。"
+      }
+    },
+    {
+      "id": "hk-ks1-17-l003",
+      "text": {
+        "zh-Hant": "千門萬戶曈曈日，",
+        "zh-Hans": "千门万户曈曈日，"
+      }
+    },
+    {
+      "id": "hk-ks1-17-l004",
+      "text": {
+        "zh-Hant": "總把新桃換舊符。",
+        "zh-Hans": "总把新桃换旧符。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks1-17-w001",
+      "term": {
+        "zh-Hant": "一歲除",
+        "zh-Hans": "一岁除"
+      },
+      "definition": {
+        "zh-Hant": "舊的一年過去。",
+        "zh-Hans": "旧的一年过去。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l001",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l001",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-17-w002",
+      "term": {
+        "zh-Hant": "屠蘇",
+        "zh-Hans": "屠苏"
+      },
+      "definition": {
+        "zh-Hant": "這裏指春節飲用的屠蘇酒。",
+        "zh-Hans": "这里指春节饮用的屠苏酒。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-17-w003",
+      "term": {
+        "zh-Hant": "曈曈",
+        "zh-Hans": "曈曈"
+      },
+      "definition": {
+        "zh-Hant": "日出時光明温暖的樣子。",
+        "zh-Hans": "日出时光明温暖的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-17-w004",
+      "term": {
+        "zh-Hant": "新桃",
+        "zh-Hans": "新桃"
+      },
+      "definition": {
+        "zh-Hant": "新的桃符。",
+        "zh-Hans": "新的桃符。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks1-17-w005",
+      "term": {
+        "zh-Hant": "舊符",
+        "zh-Hans": "旧符"
+      },
+      "definition": {
+        "zh-Hant": "舊桃符，古時過年掛在門旁、用於祈福避邪的桃木板。",
+        "zh-Hans": "旧桃符，古时过年挂在门旁、用于祈福避邪的桃木板。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks1-17-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第1學習階段建議篇章",
+        "zh-Hans": "香港教育局第1学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 元日原文",
+        "zh-Hans": "香港教育局 · 元日原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "a8cef36a4db80e2ff660aaeff9525ecab703d8608985a08345593c0fdf8df5da"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 元日賞析",
+        "zh-Hans": "香港教育局 · 元日赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

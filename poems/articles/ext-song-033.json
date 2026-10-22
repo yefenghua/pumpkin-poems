@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-033",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "虞美人·曲闌干外天如水",
+    "zh-Hans": "虞美人·曲阑干外天如水"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-bcb69362b870",
+  "author_file": "../author/author-bcb69362b870.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-bcb69362b870",
+    "name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，號小山，擅長細膩含蓄的小令。",
+        "zh-Hans": "北宋词人，号小山，擅长细腻含蓄的小令。"
+      },
+      "full": {
+        "zh-Hant": "晏幾道，字叔原，號小山，北宋詞人，晏殊之子，生卒年有不同考訂。他出身官宦家庭，後來經歷家道變化，仕途並不顯達。其詞多追憶往事、抒寫離情，擅長把夢境與現實、歡聚與失落交錯表現，語言精緻而情感深切，詞集稱《小山詞》。《臨江仙》《鷓鴣天》等名篇常從燈下、歌席、簾幕和落花切入，閲讀時可留意記憶如何使眼前一幕帶上過去的重量。",
+        "zh-Hans": "晏几道，字叔原，号小山，北宋词人，晏殊之子，生卒年有不同考订。他出身官宦家庭，后来经历家道变化，仕途并不显达。其词多追忆往事、抒写离情，擅长把梦境与现实、欢聚与失落交错表现，语言精致而情感深切，词集称《小山词》。《临江仙》《鹧鸪天》等名篇常从灯下、歌席、帘幕和落花切入，阅读时可留意记忆如何使眼前一幕带上过去的重量。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 19
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "曲闌干外天如水。昨夜還曾倚。初將明月比佳期。長向月圓時候、望人歸。羅衣著破前香在。舊意誰教改。一春離恨懶調絃。猶有兩行閒淚、寶箏前。",
+    "zh-Hans": "曲阑干外天如水。昨夜还曾倚。初将明月比佳期。长向月圆时候、望人归。罗衣著破前香在。旧意谁教改。一春离恨懒调弦。犹有两行闲泪、宝筝前。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-033-l001",
+      "text": {
+        "zh-Hant": "曲闌干外天如水。",
+        "zh-Hans": "曲阑干外天如水。"
+      }
+    },
+    {
+      "id": "ext-song-033-l002",
+      "text": {
+        "zh-Hant": "昨夜還曾倚。",
+        "zh-Hans": "昨夜还曾倚。"
+      }
+    },
+    {
+      "id": "ext-song-033-l003",
+      "text": {
+        "zh-Hant": "初將明月比佳期。",
+        "zh-Hans": "初将明月比佳期。"
+      }
+    },
+    {
+      "id": "ext-song-033-l004",
+      "text": {
+        "zh-Hant": "長向月圓時候、望人歸。",
+        "zh-Hans": "长向月圆时候、望人归。"
+      }
+    },
+    {
+      "id": "ext-song-033-l005",
+      "text": {
+        "zh-Hant": "羅衣著破前香在。",
+        "zh-Hans": "罗衣著破前香在。"
+      }
+    },
+    {
+      "id": "ext-song-033-l006",
+      "text": {
+        "zh-Hant": "舊意誰教改。",
+        "zh-Hans": "旧意谁教改。"
+      }
+    },
+    {
+      "id": "ext-song-033-l007",
+      "text": {
+        "zh-Hant": "一春離恨懶調絃。",
+        "zh-Hans": "一春离恨懒调弦。"
+      }
+    },
+    {
+      "id": "ext-song-033-l008",
+      "text": {
+        "zh-Hant": "猶有兩行閒淚、寶箏前。",
+        "zh-Hans": "犹有两行闲泪、宝筝前。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-033-w001",
+      "term": {
+        "zh-Hant": "闌干",
+        "zh-Hans": "阑干"
+      },
+      "definition": {
+        "zh-Hant": "欄杆。",
+        "zh-Hans": "栏杆。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 5,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l001",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 5,
+            "end": 7
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l001",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-033-w002",
+      "term": {
+        "zh-Hant": "佳期",
+        "zh-Hans": "佳期"
+      },
+      "definition": {
+        "zh-Hant": "相會的美好時日。",
+        "zh-Hans": "相会的美好时日。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l003",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l003",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-033-w003",
+      "term": {
+        "zh-Hant": "羅衣",
+        "zh-Hans": "罗衣"
+      },
+      "definition": {
+        "zh-Hant": "絲織衣服。",
+        "zh-Hans": "丝织衣服。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-033-w004",
+      "term": {
+        "zh-Hant": "調絃",
+        "zh-Hans": "调弦"
+      },
+      "definition": {
+        "zh-Hant": "調整琴絃、彈奏樂器。",
+        "zh-Hans": "调整琴弦、弹奏乐器。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l007",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-033-l007",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 33
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

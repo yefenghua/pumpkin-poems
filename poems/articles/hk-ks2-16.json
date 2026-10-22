@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-16",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "曉出淨慈寺送林子方·其二",
+    "zh-Hans": "晓出净慈寺送林子方·其二"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-d5306a500eba",
+  "author_file": "../author/author-d5306a500eba.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d5306a500eba",
+    "name": {
+      "zh-Hant": "楊萬里",
+      "zh-Hans": "杨万里"
+    },
+    "catalog_name": {
+      "zh-Hant": "楊萬里",
+      "zh-Hans": "杨万里"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詩人，號誠齋，善捕捉自然景物中的生動趣味。",
+        "zh-Hans": "南宋诗人，号诚斋，善捕捉自然景物中的生动趣味。"
+      },
+      "full": {
+        "zh-Hant": "楊萬里（1127—1206），字廷秀，號誠齋，吉州吉水人，南宋詩人。他曾任多種官職，為人有堅持，與陸游、范成大、尤袤並稱南宋四大家。其詩善從日常觀察中發現新鮮有趣的細節，語言活潑自然，形成所謂誠齋體。《小池》把泉水、樹陰寫得彷彿有情，《曉出淨慈寺送林子方》則用強烈的色彩展現夏日西湖。學習時可從觀察角度、動詞選擇與擬人手法理解其特色。",
+        "zh-Hans": "杨万里（1127—1206），字廷秀，号诚斋，吉州吉水人，南宋诗人。他曾任多种官职，为人有坚持，与陆游、范成大、尤袤并称南宋四大家。其诗善从日常观察中发现新鲜有趣的细节，语言活泼自然，形成所谓诚斋体。《小池》把泉水、树阴写得仿佛有情，《晓出净慈寺送林子方》则用强烈的色彩展现夏日西湖。学习时可从观察角度、动词选择与拟人手法理解其特色。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 小池賞析",
+          "zh-Hans": "香港教育局 · 小池赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "畢竟西湖六月中，風光不與四時同。接天蓮葉無窮碧，映日荷花別樣紅。",
+    "zh-Hans": "毕竟西湖六月中，风光不与四时同。接天莲叶无穷碧，映日荷花别样红。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-16-l001",
+      "text": {
+        "zh-Hant": "畢竟西湖六月中，",
+        "zh-Hans": "毕竟西湖六月中，"
+      }
+    },
+    {
+      "id": "hk-ks2-16-l002",
+      "text": {
+        "zh-Hant": "風光不與四時同。",
+        "zh-Hans": "风光不与四时同。"
+      }
+    },
+    {
+      "id": "hk-ks2-16-l003",
+      "text": {
+        "zh-Hant": "接天蓮葉無窮碧，",
+        "zh-Hans": "接天莲叶无穷碧，"
+      }
+    },
+    {
+      "id": "hk-ks2-16-l004",
+      "text": {
+        "zh-Hant": "映日荷花別樣紅。",
+        "zh-Hans": "映日荷花别样红。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-16-w001",
+      "term": {
+        "zh-Hant": "畢竟",
+        "zh-Hans": "毕竟"
+      },
+      "definition": {
+        "zh-Hant": "到底、終究。",
+        "zh-Hans": "到底、终究。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-16-w002",
+      "term": {
+        "zh-Hant": "四時",
+        "zh-Hans": "四时"
+      },
+      "definition": {
+        "zh-Hant": "四季，此處與六月相對，指其他時節。",
+        "zh-Hans": "四季，此处与六月相对，指其他时节。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-16-w003",
+      "term": {
+        "zh-Hant": "接天",
+        "zh-Hans": "接天"
+      },
+      "definition": {
+        "zh-Hant": "彷彿與天空相連。",
+        "zh-Hans": "仿佛与天空相连。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-16-w004",
+      "term": {
+        "zh-Hant": "無窮碧",
+        "zh-Hans": "无穷碧"
+      },
+      "definition": {
+        "zh-Hant": "無邊無際的碧綠色。",
+        "zh-Hans": "无边无际的碧绿色。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l003",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l003",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-16-w005",
+      "term": {
+        "zh-Hant": "別樣紅",
+        "zh-Hans": "别样红"
+      },
+      "definition": {
+        "zh-Hant": "格外鮮紅。",
+        "zh-Hans": "格外鲜红。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l004",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-16-l004",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 曉出淨慈寺送林子方·其二原文",
+        "zh-Hans": "香港教育局 · 晓出净慈寺送林子方·其二原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_16_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "d255d1871688447b7847a9129f285d42952051c9b187fbb852c5ec783474302c"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 曉出淨慈寺送林子方·其二賞析",
+        "zh-Hans": "香港教育局 · 晓出净慈寺送林子方·其二赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_17.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-caocao-012",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "觀滄海",
+    "zh-Hans": "观沧海"
+  },
+  "dynasty": {
+    "zh-Hant": "東漢",
+    "zh-Hans": "东汉"
+  },
+  "genre": {
+    "zh-Hant": "四言詩",
+    "zh-Hans": "四言诗"
+  },
+  "author_id": "author-4fbe01ab8d14",
+  "author_file": "../author/author-4fbe01ab8d14.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-4fbe01ab8d14",
+    "name": {
+      "zh-Hant": "曹操",
+      "zh-Hans": "曹操"
+    },
+    "catalog_name": {
+      "zh-Hant": "曹操",
+      "zh-Hans": "曹操"
+    },
+    "dynasty": {
+      "zh-Hant": "東漢",
+      "zh-Hans": "东汉"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "東漢末年政治家、軍事家、詩人，是建安文學的重要人物。",
+        "zh-Hans": "东汉末年政治家、军事家、诗人，是建安文学的重要人物。"
+      },
+      "full": {
+        "zh-Hant": "曹操（155—220），字孟德，沛國譙縣人，東漢末年政治家、軍事家和詩人。他統一北方大片地區，為曹魏建立奠定基礎，但本人生活於東漢時期。他的詩多用樂府舊題，既寫戰亂與民生，也寫政治抱負和生命感慨，語言質樸，氣象雄健。《觀滄海》以山海、日月、星辰形成遼闊境界，體現建安詩歌的慷慨風格。讀其作品時宜區分歷史人物、詩歌表達與後世小説戲劇形象。",
+        "zh-Hans": "曹操（155—220），字孟德，沛国谯县人，东汉末年政治家、军事家和诗人。他统一北方大片地区，为曹魏建立奠定基础，但本人生活于东汉时期。他的诗多用乐府旧题，既写战乱与民生，也写政治抱负和生命感慨，语言质朴，气象雄健。《观沧海》以山海、日月、星辰形成辽阔境界，体现建安诗歌的慷慨风格。读其作品时宜区分历史人物、诗歌表达与后世小说戏剧形象。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "曹操文獻資料",
+          "zh-Hans": "曹操文献资料"
+        },
+        "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B701",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "東臨碣石，以觀滄海。水何澹澹，山島竦峙。樹木叢生，百草豐茂。秋風蕭瑟，洪波湧起。日月之行，若出其中；星漢燦爛，若出其裏。幸甚至哉，歌以詠志。",
+    "zh-Hans": "东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-caocao-012-l001",
+      "text": {
+        "zh-Hant": "東臨碣石，",
+        "zh-Hans": "东临碣石，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l002",
+      "text": {
+        "zh-Hant": "以觀滄海。",
+        "zh-Hans": "以观沧海。"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l003",
+      "text": {
+        "zh-Hant": "水何澹澹，",
+        "zh-Hans": "水何澹澹，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l004",
+      "text": {
+        "zh-Hant": "山島竦峙。",
+        "zh-Hans": "山岛竦峙。"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l005",
+      "text": {
+        "zh-Hant": "樹木叢生，",
+        "zh-Hans": "树木丛生，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l006",
+      "text": {
+        "zh-Hant": "百草豐茂。",
+        "zh-Hans": "百草丰茂。"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l007",
+      "text": {
+        "zh-Hant": "秋風蕭瑟，",
+        "zh-Hans": "秋风萧瑟，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l008",
+      "text": {
+        "zh-Hant": "洪波湧起。",
+        "zh-Hans": "洪波涌起。"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l009",
+      "text": {
+        "zh-Hant": "日月之行，",
+        "zh-Hans": "日月之行，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l010",
+      "text": {
+        "zh-Hant": "若出其中；",
+        "zh-Hans": "若出其中；"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l011",
+      "text": {
+        "zh-Hant": "星漢燦爛，",
+        "zh-Hans": "星汉灿烂，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l012",
+      "text": {
+        "zh-Hant": "若出其裏。",
+        "zh-Hans": "若出其里。"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l013",
+      "text": {
+        "zh-Hant": "幸甚至哉，",
+        "zh-Hans": "幸甚至哉，"
+      }
+    },
+    {
+      "id": "ext-caocao-012-l014",
+      "text": {
+        "zh-Hant": "歌以詠志。",
+        "zh-Hans": "歌以咏志。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-caocao-012-w001",
+      "term": {
+        "zh-Hant": "臨",
+        "zh-Hans": "临"
+      },
+      "definition": {
+        "zh-Hant": "登臨。",
+        "zh-Hans": "登临。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l001",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l001",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-caocao-012-w002",
+      "term": {
+        "zh-Hant": "碣石",
+        "zh-Hans": "碣石"
+      },
+      "definition": {
+        "zh-Hant": "古代山名，具體位置有不同説法。",
+        "zh-Hans": "古代山名，具体位置有不同说法。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-caocao-012-w003",
+      "term": {
+        "zh-Hant": "澹澹",
+        "zh-Hans": "澹澹"
+      },
+      "definition": {
+        "zh-Hant": "水波搖動的樣子。",
+        "zh-Hans": "水波摇动的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-caocao-012-w004",
+      "term": {
+        "zh-Hant": "竦峙",
+        "zh-Hans": "竦峙"
+      },
+      "definition": {
+        "zh-Hant": "高高聳立。",
+        "zh-Hans": "高高耸立。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-caocao-012-w005",
+      "term": {
+        "zh-Hant": "星漢",
+        "zh-Hans": "星汉"
+      },
+      "definition": {
+        "zh-Hant": "銀河。",
+        "zh-Hans": "银河。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l011",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l011",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-caocao-012-w006",
+      "term": {
+        "zh-Hant": "幸甚至哉",
+        "zh-Hans": "幸甚至哉"
+      },
+      "definition": {
+        "zh-Hant": "幸運極了，是樂府歌辭的套語。",
+        "zh-Hans": "幸运极了，是乐府歌辞的套语。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l013",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-caocao-012-l013",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "《步出夏門行》中的獨立一章，通稱《觀滄海》，保留樂府結尾套語。",
+      "zh-Hans": "《步出夏门行》中的独立一章，通称《观沧海》，保留乐府结尾套语。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 曹操詩集/caocao.json",
+        "zh-Hans": "中华古诗词数据库 · 曹操诗集/caocao.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E6%9B%B9%E6%93%8D%E8%AF%97%E9%9B%86/caocao.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "9a5403ff19ff0ca7bf0e1c6b32c8049b161362d3ad03b1071db5bcecb9a04250",
+      "record_locator": {
+        "index_zero_based": "观沧海"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,448 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-142",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "雨霖鈴·寒蟬悽切",
+    "zh-Hans": "雨霖铃·寒蝉凄切"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-1a7d566d0599",
+  "author_file": "../author/author-1a7d566d0599.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-1a7d566d0599",
+    "name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "catalog_name": {
+      "zh-Hant": "柳永",
+      "zh-Hans": "柳永"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，字耆卿，對慢詞的發展有重要貢獻。",
+        "zh-Hans": "北宋词人，字耆卿，对慢词的发展有重要贡献。"
+      },
+      "full": {
+        "zh-Hant": "柳永，初名三變，字耆卿，崇安人，北宋詞人，生卒年有不同考訂。他較晚登第，官至屯田員外郎，故又稱柳屯田。柳詞與當時城市音樂生活聯繫密切，善寫都市景象、離別和羈旅行役，尤其長於篇幅較長、適合鋪敍的慢詞，傳有《樂章集》。《雨霖鈴》《八聲甘州》把眼前與想象中的場景連綴起來，層層推進情緒。閲讀時可注意時間轉換、空間距離和口語化表達。",
+        "zh-Hans": "柳永，初名三变，字耆卿，崇安人，北宋词人，生卒年有不同考订。他较晚登第，官至屯田员外郎，故又称柳屯田。柳词与当时城市音乐生活联系密切，善写都市景象、离别和羁旅行役，尤其长于篇幅较长、适合铺叙的慢词，传有《乐章集》。《雨霖铃》《八声甘州》把眼前与想象中的场景连缀起来，层层推进情绪。阅读时可注意时间转换、空间距离和口语化表达。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 1
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "寒蟬悽切。對長亭晚，驟雨初歇。都門帳飲無緒，留戀處、蘭舟催發。執手相看淚眼，竟無語凝噎。念去去、千里煙波，暮靄沉沉楚天闊。多情自古傷離別。更那堪、冷落清秋節。今宵酒醒何處，楊柳岸、曉風殘月。此去經年，應是良辰、好景虛設。便縱有、千種風情，更與何人説。",
+    "zh-Hans": "寒蝉凄切。对长亭晚，骤雨初歇。都门帐饮无绪，留恋处、兰舟催发。执手相看泪眼，竟无语凝噎。念去去、千里烟波，暮霭沉沉楚天阔。多情自古伤离别。更那堪、冷落清秋节。今宵酒醒何处，杨柳岸、晓风残月。此去经年，应是良辰、好景虚设。便纵有、千种风情，更与何人说。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-142-l001",
+      "text": {
+        "zh-Hant": "寒蟬悽切。",
+        "zh-Hans": "寒蝉凄切。"
+      }
+    },
+    {
+      "id": "ext-song-142-l002",
+      "text": {
+        "zh-Hant": "對長亭晚，",
+        "zh-Hans": "对长亭晚，"
+      }
+    },
+    {
+      "id": "ext-song-142-l003",
+      "text": {
+        "zh-Hant": "驟雨初歇。",
+        "zh-Hans": "骤雨初歇。"
+      }
+    },
+    {
+      "id": "ext-song-142-l004",
+      "text": {
+        "zh-Hant": "都門帳飲無緒，",
+        "zh-Hans": "都门帐饮无绪，"
+      }
+    },
+    {
+      "id": "ext-song-142-l005",
+      "text": {
+        "zh-Hant": "留戀處、蘭舟催發。",
+        "zh-Hans": "留恋处、兰舟催发。"
+      }
+    },
+    {
+      "id": "ext-song-142-l006",
+      "text": {
+        "zh-Hant": "執手相看淚眼，",
+        "zh-Hans": "执手相看泪眼，"
+      }
+    },
+    {
+      "id": "ext-song-142-l007",
+      "text": {
+        "zh-Hant": "竟無語凝噎。",
+        "zh-Hans": "竟无语凝噎。"
+      }
+    },
+    {
+      "id": "ext-song-142-l008",
+      "text": {
+        "zh-Hant": "念去去、千里煙波，",
+        "zh-Hans": "念去去、千里烟波，"
+      }
+    },
+    {
+      "id": "ext-song-142-l009",
+      "text": {
+        "zh-Hant": "暮靄沉沉楚天闊。",
+        "zh-Hans": "暮霭沉沉楚天阔。"
+      }
+    },
+    {
+      "id": "ext-song-142-l010",
+      "text": {
+        "zh-Hant": "多情自古傷離別。",
+        "zh-Hans": "多情自古伤离别。"
+      }
+    },
+    {
+      "id": "ext-song-142-l011",
+      "text": {
+        "zh-Hant": "更那堪、冷落清秋節。",
+        "zh-Hans": "更那堪、冷落清秋节。"
+      }
+    },
+    {
+      "id": "ext-song-142-l012",
+      "text": {
+        "zh-Hant": "今宵酒醒何處，",
+        "zh-Hans": "今宵酒醒何处，"
+      }
+    },
+    {
+      "id": "ext-song-142-l013",
+      "text": {
+        "zh-Hant": "楊柳岸、曉風殘月。",
+        "zh-Hans": "杨柳岸、晓风残月。"
+      }
+    },
+    {
+      "id": "ext-song-142-l014",
+      "text": {
+        "zh-Hant": "此去經年，",
+        "zh-Hans": "此去经年，"
+      }
+    },
+    {
+      "id": "ext-song-142-l015",
+      "text": {
+        "zh-Hant": "應是良辰、好景虛設。",
+        "zh-Hans": "应是良辰、好景虚设。"
+      }
+    },
+    {
+      "id": "ext-song-142-l016",
+      "text": {
+        "zh-Hant": "便縱有、千種風情，",
+        "zh-Hans": "便纵有、千种风情，"
+      }
+    },
+    {
+      "id": "ext-song-142-l017",
+      "text": {
+        "zh-Hant": "更與何人説。",
+        "zh-Hans": "更与何人说。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-142-w001",
+      "term": {
+        "zh-Hant": "悽切",
+        "zh-Hans": "凄切"
+      },
+      "definition": {
+        "zh-Hant": "淒涼悲切。",
+        "zh-Hans": "凄凉悲切。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 6,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w002",
+      "term": {
+        "zh-Hant": "長亭",
+        "zh-Hans": "长亭"
+      },
+      "definition": {
+        "zh-Hant": "古代路旁供行人休息、送別的亭子。",
+        "zh-Hans": "古代路旁供行人休息、送别的亭子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l002",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l002",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w003",
+      "term": {
+        "zh-Hant": "帳飲",
+        "zh-Hans": "帐饮"
+      },
+      "definition": {
+        "zh-Hant": "設帳餞行。",
+        "zh-Hans": "设帐饯行。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w004",
+      "term": {
+        "zh-Hant": "凝噎",
+        "zh-Hans": "凝噎"
+      },
+      "definition": {
+        "zh-Hant": "悲痛哽咽，説不出話。",
+        "zh-Hans": "悲痛哽咽，说不出话。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l007",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l007",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w005",
+      "term": {
+        "zh-Hant": "暮靄",
+        "zh-Hans": "暮霭"
+      },
+      "definition": {
+        "zh-Hant": "傍晚的雲霧。",
+        "zh-Hans": "傍晚的云雾。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l009",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l009",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w006",
+      "term": {
+        "zh-Hant": "經年",
+        "zh-Hans": "经年"
+      },
+      "definition": {
+        "zh-Hant": "一年又一年。",
+        "zh-Hans": "一年又一年。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l014",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l014",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-142-w007",
+      "term": {
+        "zh-Hant": "風情",
+        "zh-Hans": "风情"
+      },
+      "definition": {
+        "zh-Hant": "深摯的情意。",
+        "zh-Hans": "深挚的情意。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l016",
+            "start": 6,
+            "end": 8
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-142-l016",
+            "start": 6,
+            "end": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "沈",
+      "to": "沉"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 142
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

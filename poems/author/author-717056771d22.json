@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-717056771d22",
+  "name": {
+    "zh-Hant": "陳子昂",
+    "zh-Hans": "陈子昂"
+  },
+  "catalog_name": {
+    "zh-Hant": "陳子昂",
+    "zh-Hans": "陈子昂"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "初唐詩人，提倡風骨，代表作有《登幽州台歌》。",
+      "zh-Hans": "初唐诗人，提倡风骨，代表作有《登幽州台歌》。"
+    },
+    "full": {
+      "zh-Hant": "陳子昂（661—702），字伯玉，梓州射洪人，初唐文學家。他曾任右拾遺，參與北方軍事幕府活動，主張詩歌重視真切情志與漢魏風骨，反對一味追求浮豔辭藻。《感遇》組詩寄託對社會和人生的思考，《登幽州台歌》以古今與天地的廣大反襯個人孤獨，語言質樸而情感強烈。他在唐詩發展中具有承前啓後的作用，學習時可從題材、語氣與空間感理解其文學主張。",
+      "zh-Hans": "陈子昂（661—702），字伯玉，梓州射洪人，初唐文学家。他曾任右拾遗，参与北方军事幕府活动，主张诗歌重视真切情志与汉魏风骨，反对一味追求浮艳辞藻。《感遇》组诗寄托对社会和人生的思考，《登幽州台歌》以古今与天地的广大反衬个人孤独，语言质朴而情感强烈。他在唐诗发展中具有承前启后的作用，学习时可从题材、语气与空间感理解其文学主张。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 133
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

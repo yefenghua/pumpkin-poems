@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-18a",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "四塊玉·閒適·南畝耕",
+    "zh-Hans": "四块玉·闲适·南亩耕"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-6c6a7888768a",
+  "author_file": "../author/author-6c6a7888768a.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-6c6a7888768a",
+    "name": {
+      "zh-Hant": "關漢卿",
+      "zh-Hans": "关汉卿"
+    },
+    "catalog_name": {
+      "zh-Hant": "關漢卿",
+      "zh-Hans": "关汉卿"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代戲劇家、散曲作家，代表作有《竇娥冤》。",
+        "zh-Hans": "元代戏剧家、散曲作家，代表作有《窦娥冤》。"
+      },
+      "full": {
+        "zh-Hant": "關漢卿是元代重要戲劇家和散曲作家，號已齋叟，具體生卒年有不同説法。他熟悉舞台表演和市井語言，雜劇常表現普通人的遭遇及其反抗精神，代表作包括《竇娥冤》《救風塵》《單刀會》。散曲則展現閒適、離情和人生感慨等多種面貌，語言生動，善用口語。《四塊玉·閒適》以短句描繪耕作、隱居和回想世情的生活，可與其戲劇中強烈的人物性格互相參照。",
+        "zh-Hans": "关汉卿是元代重要戏剧家和散曲作家，号已斋叟，具体生卒年有不同说法。他熟悉舞台表演和市井语言，杂剧常表现普通人的遭遇及其反抗精神，代表作包括《窦娥冤》《救风尘》《单刀会》。散曲则展现闲适、离情和人生感慨等多种面貌，语言生动，善用口语。《四块玉·闲适》以短句描绘耕作、隐居和回想世情的生活，可与其戏剧中强烈的人物性格互相参照。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 四塊玉·閒適·南畝耕賞析",
+          "zh-Hans": "香港教育局 · 四块玉·闲适·南亩耕赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18a.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "南畝耕，東山卧。世態人情經歷多。閒將往事思量過，賢的是他，愚的是我，爭甚麼？",
+    "zh-Hans": "南亩耕，东山卧。世态人情经历多。闲将往事思量过，贤的是他，愚的是我，争甚么？"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-18a-l001",
+      "text": {
+        "zh-Hant": "南畝耕，",
+        "zh-Hans": "南亩耕，"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l002",
+      "text": {
+        "zh-Hant": "東山卧。",
+        "zh-Hans": "东山卧。"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l003",
+      "text": {
+        "zh-Hant": "世態人情經歷多。",
+        "zh-Hans": "世态人情经历多。"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l004",
+      "text": {
+        "zh-Hant": "閒將往事思量過，",
+        "zh-Hans": "闲将往事思量过，"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l005",
+      "text": {
+        "zh-Hant": "賢的是他，",
+        "zh-Hans": "贤的是他，"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l006",
+      "text": {
+        "zh-Hant": "愚的是我，",
+        "zh-Hans": "愚的是我，"
+      }
+    },
+    {
+      "id": "hk-ks4-18a-l007",
+      "text": {
+        "zh-Hant": "爭甚麼？",
+        "zh-Hans": "争甚么？"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-18a-w001",
+      "term": {
+        "zh-Hant": "南畝",
+        "zh-Hans": "南亩"
+      },
+      "definition": {
+        "zh-Hant": "田野、農田。",
+        "zh-Hans": "田野、农田。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 7,
+            "end": 9
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 7,
+            "end": 9
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18a-w002",
+      "term": {
+        "zh-Hant": "東山卧",
+        "zh-Hans": "东山卧"
+      },
+      "definition": {
+        "zh-Hant": "用謝安隱居東山的典故，指隱居。",
+        "zh-Hans": "用谢安隐居东山的典故，指隐居。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l002",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l002",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18a-w003",
+      "term": {
+        "zh-Hant": "世態人情",
+        "zh-Hans": "世态人情"
+      },
+      "definition": {
+        "zh-Hant": "社會上的處世態度和人情冷暖。",
+        "zh-Hans": "社会上的处世态度和人情冷暖。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l003",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l003",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18a-w004",
+      "term": {
+        "zh-Hant": "思量",
+        "zh-Hans": "思量"
+      },
+      "definition": {
+        "zh-Hant": "思考、回想。",
+        "zh-Hans": "思考、回想。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l004",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l004",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18a-w005",
+      "term": {
+        "zh-Hant": "爭甚麼",
+        "zh-Hans": "争甚么"
+      },
+      "definition": {
+        "zh-Hant": "爭什麼，表達不願爭逐的態度。",
+        "zh-Hans": "争什么，表达不愿争逐的态度。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l007",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18a-l007",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 四塊玉·閒適·南畝耕原文",
+        "zh-Hans": "香港教育局 · 四块玉·闲适·南亩耕原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18a_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "7492c7dc6408dc3e531f5c6f44e8a511b0e5ec16ba2e83f9eec9eb5312dc4f7d"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 四塊玉·閒適·南畝耕賞析",
+        "zh-Hans": "香港教育局 · 四块玉·闲适·南亩耕赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18a.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

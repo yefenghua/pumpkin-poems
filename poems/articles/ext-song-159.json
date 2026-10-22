@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-159",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "浣溪沙·一曲新詞酒一杯",
+    "zh-Hans": "浣溪沙·一曲新词酒一杯"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-0ebe0ddda38b",
+  "author_file": "../author/author-0ebe0ddda38b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-0ebe0ddda38b",
+    "name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋政治家、詞人，以典雅的小令著稱。",
+        "zh-Hans": "北宋政治家、词人，以典雅的小令著称。"
+      },
+      "full": {
+        "zh-Hant": "晏殊（991—1055），字同叔，撫州臨川人，北宋政治家、詞人，少年以才學入仕，後來任宰相。他重視文教，也提攜後進，詞集名《珠玉詞》。其詞多用宴飲、庭院、四季景物寫人生感受，語言圓潤典雅，常在安閒外表中含有惜春和惜時之意。《浣溪沙·一曲新詞酒一杯》將花落與燕歸併置，使無法挽留與彷彿重逢形成迴響，是理解小令如何由景生情的合適例子。",
+        "zh-Hans": "晏殊（991—1055），字同叔，抚州临川人，北宋政治家、词人，少年以才学入仕，后来任宰相。他重视文教，也提携后进，词集名《珠玉词》。其词多用宴饮、庭院、四季景物写人生感受，语言圆润典雅，常在安闲外表中含有惜春和惜时之意。《浣溪沙·一曲新词酒一杯》将花落与燕归并置，使无法挽留与仿佛重逢形成回响，是理解小令如何由景生情的合适例子。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 18
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "一曲新詞酒一杯。去年天氣舊亭台。夕陽西下幾時回。無可奈何花落去，似曾相識燕歸來。小園香徑獨徘徊。",
+    "zh-Hans": "一曲新词酒一杯。去年天气旧亭台。夕阳西下几时回。无可奈何花落去，似曾相识燕归来。小园香径独徘徊。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-159-l001",
+      "text": {
+        "zh-Hant": "一曲新詞酒一杯。",
+        "zh-Hans": "一曲新词酒一杯。"
+      }
+    },
+    {
+      "id": "ext-song-159-l002",
+      "text": {
+        "zh-Hant": "去年天氣舊亭台。",
+        "zh-Hans": "去年天气旧亭台。"
+      }
+    },
+    {
+      "id": "ext-song-159-l003",
+      "text": {
+        "zh-Hant": "夕陽西下幾時回。",
+        "zh-Hans": "夕阳西下几时回。"
+      }
+    },
+    {
+      "id": "ext-song-159-l004",
+      "text": {
+        "zh-Hant": "無可奈何花落去，",
+        "zh-Hans": "无可奈何花落去，"
+      }
+    },
+    {
+      "id": "ext-song-159-l005",
+      "text": {
+        "zh-Hant": "似曾相識燕歸來。",
+        "zh-Hans": "似曾相识燕归来。"
+      }
+    },
+    {
+      "id": "ext-song-159-l006",
+      "text": {
+        "zh-Hant": "小園香徑獨徘徊。",
+        "zh-Hans": "小园香径独徘徊。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-159-w001",
+      "term": {
+        "zh-Hant": "幾時",
+        "zh-Hans": "几时"
+      },
+      "definition": {
+        "zh-Hant": "什麼時候。",
+        "zh-Hans": "什么时候。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l003",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l003",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-159-w002",
+      "term": {
+        "zh-Hant": "無可奈何",
+        "zh-Hans": "无可奈何"
+      },
+      "definition": {
+        "zh-Hant": "沒有辦法改變。",
+        "zh-Hans": "没有办法改变。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l004",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l004",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-159-w003",
+      "term": {
+        "zh-Hant": "似曾相識",
+        "zh-Hans": "似曾相识"
+      },
+      "definition": {
+        "zh-Hant": "好像以前見過。",
+        "zh-Hans": "好像以前见过。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l005",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l005",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-159-w004",
+      "term": {
+        "zh-Hant": "香徑",
+        "zh-Hans": "香径"
+      },
+      "definition": {
+        "zh-Hant": "花間小路。",
+        "zh-Hans": "花间小路。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-159-w005",
+      "term": {
+        "zh-Hant": "徘徊",
+        "zh-Hans": "徘徊"
+      },
+      "definition": {
+        "zh-Hant": "來回走動。",
+        "zh-Hans": "来回走动。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l006",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-159-l006",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 159
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

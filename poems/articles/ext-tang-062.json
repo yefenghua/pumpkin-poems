@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-062",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "酬張少府",
+    "zh-Hans": "酬张少府"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-3dc14978a158",
+  "author_file": "../author/author-3dc14978a158.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3dc14978a158",
+    "name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "catalog_name": {
+      "zh-Hant": "王維",
+      "zh-Hans": "王维"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+        "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+      },
+      "full": {
+        "zh-Hant": "王維（約701—761），字摩詰，唐代詩人、畫家，曾任尚書右丞，後世稱王右丞。他熟悉音樂，信奉佛教，在官職之外也長期經營輞川生活。作品題材廣泛，既有邊塞、送別和親情，也有幽靜山水，與孟浩然並稱王孟。《山居秋暝》《鹿柴》《竹裏館》善用光線、聲音和動靜相襯，《九月九日憶山東兄弟》則表達樸素親情。所謂詩中有畫，是對其藝術效果的概括，不應限制為只會寫景。",
+        "zh-Hans": "王维（约701—761），字摩诘，唐代诗人、画家，曾任尚书右丞，后世称王右丞。他熟悉音乐，信奉佛教，在官职之外也长期经营辋川生活。作品题材广泛，既有边塞、送别和亲情，也有幽静山水，与孟浩然并称王孟。《山居秋暝》《鹿柴》《竹里馆》善用光线、声音和动静相衬，《九月九日忆山东兄弟》则表达朴素亲情。所谓诗中有画，是对其艺术效果的概括，不应限制为只会写景。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+          "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "晚年唯好靜，萬事不關心。自顧無長策，空知返舊林。松風吹解帶，山月照彈琴。君問窮通理，漁歌入浦深。",
+    "zh-Hans": "晚年唯好静，万事不关心。自顾无长策，空知返旧林。松风吹解带，山月照弹琴。君问穷通理，渔歌入浦深。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-062-l001",
+      "text": {
+        "zh-Hant": "晚年唯好靜，",
+        "zh-Hans": "晚年唯好静，"
+      }
+    },
+    {
+      "id": "ext-tang-062-l002",
+      "text": {
+        "zh-Hant": "萬事不關心。",
+        "zh-Hans": "万事不关心。"
+      }
+    },
+    {
+      "id": "ext-tang-062-l003",
+      "text": {
+        "zh-Hant": "自顧無長策，",
+        "zh-Hans": "自顾无长策，"
+      }
+    },
+    {
+      "id": "ext-tang-062-l004",
+      "text": {
+        "zh-Hant": "空知返舊林。",
+        "zh-Hans": "空知返旧林。"
+      }
+    },
+    {
+      "id": "ext-tang-062-l005",
+      "text": {
+        "zh-Hant": "松風吹解帶，",
+        "zh-Hans": "松风吹解带，"
+      }
+    },
+    {
+      "id": "ext-tang-062-l006",
+      "text": {
+        "zh-Hant": "山月照彈琴。",
+        "zh-Hans": "山月照弹琴。"
+      }
+    },
+    {
+      "id": "ext-tang-062-l007",
+      "text": {
+        "zh-Hant": "君問窮通理，",
+        "zh-Hans": "君问穷通理，"
+      }
+    },
+    {
+      "id": "ext-tang-062-l008",
+      "text": {
+        "zh-Hant": "漁歌入浦深。",
+        "zh-Hans": "渔歌入浦深。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-062-w001",
+      "term": {
+        "zh-Hant": "長策",
+        "zh-Hans": "长策"
+      },
+      "definition": {
+        "zh-Hant": "高明的辦法。",
+        "zh-Hans": "高明的办法。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l003",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l003",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-062-w002",
+      "term": {
+        "zh-Hant": "舊林",
+        "zh-Hans": "旧林"
+      },
+      "definition": {
+        "zh-Hant": "舊日居處，指歸隱之地。",
+        "zh-Hans": "旧日居处，指归隐之地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l004",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l004",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-062-w003",
+      "term": {
+        "zh-Hant": "窮通",
+        "zh-Hans": "穷通"
+      },
+      "definition": {
+        "zh-Hant": "困頓和顯達。",
+        "zh-Hans": "困顿和显达。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-062-w004",
+      "term": {
+        "zh-Hant": "浦",
+        "zh-Hans": "浦"
+      },
+      "definition": {
+        "zh-Hant": "水邊。",
+        "zh-Hans": "水边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l008",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-062-l008",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 62
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

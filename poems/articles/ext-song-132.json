@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-132",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "揚州慢·淮左名都",
+    "zh-Hans": "扬州慢·淮左名都"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-da27f57ba054",
+  "author_file": "../author/author-da27f57ba054.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-da27f57ba054",
+    "name": {
+      "zh-Hant": "姜夔",
+      "zh-Hans": "姜夔"
+    },
+    "catalog_name": {
+      "zh-Hant": "姜夔",
+      "zh-Hans": "姜夔"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人、音樂家，號白石道人，詞風清雅。",
+        "zh-Hans": "南宋词人、音乐家，号白石道人，词风清雅。"
+      },
+      "full": {
+        "zh-Hant": "姜夔，字堯章，號白石道人，南宋鄱陽人，生卒年一般作約1155至約1221。他長期遊歷江淮及江南，未顯達於仕途，擅詩詞、書法和音樂，能夠自己譜曲。《白石道人歌曲》保存了部分詞作的樂譜，具有重要音樂史價值。其詞善於營造清幽空靈的意境，也有對現實的深切感慨。《揚州慢》面對戰後揚州，以昔日繁華和眼前荒涼相對照，使寫景同時成為對戰爭創傷的思考。",
+        "zh-Hans": "姜夔，字尧章，号白石道人，南宋鄱阳人，生卒年一般作约1155至约1221。他长期游历江淮及江南，未显达于仕途，擅诗词、书法和音乐，能够自己谱曲。《白石道人歌曲》保存了部分词作的乐谱，具有重要音乐史价值。其词善于营造清幽空灵的意境，也有对现实的深切感慨。《扬州慢》面对战后扬州，以昔日繁华和眼前荒凉相对照，使写景同时成为对战争创伤的思考。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 6
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "淮左名都，竹西佳處，解鞍少駐初程。過春風十里，盡薺麥青青。自胡馬窺江去後，廢池喬木，猶厭言兵。漸黃昏，清角吹寒，都在空城。杜郎俊賞，算而今，重到須驚。縱豆蔻詞工，青樓夢好，難賦深情。二十四橋仍在，波心蕩、冷月無聲。念橋邊紅藥，年年知為誰生。",
+    "zh-Hans": "淮左名都，竹西佳处，解鞍少驻初程。过春风十里，尽荠麦青青。自胡马窥江去后，废池乔木，犹厌言兵。渐黄昏，清角吹寒，都在空城。杜郎俊赏，算而今，重到须惊。纵豆蔻词工，青楼梦好，难赋深情。二十四桥仍在，波心荡、冷月无声。念桥边红药，年年知为谁生。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-132-l001",
+      "text": {
+        "zh-Hant": "淮左名都，",
+        "zh-Hans": "淮左名都，"
+      }
+    },
+    {
+      "id": "ext-song-132-l002",
+      "text": {
+        "zh-Hant": "竹西佳處，",
+        "zh-Hans": "竹西佳处，"
+      }
+    },
+    {
+      "id": "ext-song-132-l003",
+      "text": {
+        "zh-Hant": "解鞍少駐初程。",
+        "zh-Hans": "解鞍少驻初程。"
+      }
+    },
+    {
+      "id": "ext-song-132-l004",
+      "text": {
+        "zh-Hant": "過春風十里，",
+        "zh-Hans": "过春风十里，"
+      }
+    },
+    {
+      "id": "ext-song-132-l005",
+      "text": {
+        "zh-Hant": "盡薺麥青青。",
+        "zh-Hans": "尽荠麦青青。"
+      }
+    },
+    {
+      "id": "ext-song-132-l006",
+      "text": {
+        "zh-Hant": "自胡馬窺江去後，",
+        "zh-Hans": "自胡马窥江去后，"
+      }
+    },
+    {
+      "id": "ext-song-132-l007",
+      "text": {
+        "zh-Hant": "廢池喬木，",
+        "zh-Hans": "废池乔木，"
+      }
+    },
+    {
+      "id": "ext-song-132-l008",
+      "text": {
+        "zh-Hant": "猶厭言兵。",
+        "zh-Hans": "犹厌言兵。"
+      }
+    },
+    {
+      "id": "ext-song-132-l009",
+      "text": {
+        "zh-Hant": "漸黃昏，",
+        "zh-Hans": "渐黄昏，"
+      }
+    },
+    {
+      "id": "ext-song-132-l010",
+      "text": {
+        "zh-Hant": "清角吹寒，",
+        "zh-Hans": "清角吹寒，"
+      }
+    },
+    {
+      "id": "ext-song-132-l011",
+      "text": {
+        "zh-Hant": "都在空城。",
+        "zh-Hans": "都在空城。"
+      }
+    },
+    {
+      "id": "ext-song-132-l012",
+      "text": {
+        "zh-Hant": "杜郎俊賞，",
+        "zh-Hans": "杜郎俊赏，"
+      }
+    },
+    {
+      "id": "ext-song-132-l013",
+      "text": {
+        "zh-Hant": "算而今，",
+        "zh-Hans": "算而今，"
+      }
+    },
+    {
+      "id": "ext-song-132-l014",
+      "text": {
+        "zh-Hant": "重到須驚。",
+        "zh-Hans": "重到须惊。"
+      }
+    },
+    {
+      "id": "ext-song-132-l015",
+      "text": {
+        "zh-Hant": "縱豆蔻詞工，",
+        "zh-Hans": "纵豆蔻词工，"
+      }
+    },
+    {
+      "id": "ext-song-132-l016",
+      "text": {
+        "zh-Hant": "青樓夢好，",
+        "zh-Hans": "青楼梦好，"
+      }
+    },
+    {
+      "id": "ext-song-132-l017",
+      "text": {
+        "zh-Hant": "難賦深情。",
+        "zh-Hans": "难赋深情。"
+      }
+    },
+    {
+      "id": "ext-song-132-l018",
+      "text": {
+        "zh-Hant": "二十四橋仍在，",
+        "zh-Hans": "二十四桥仍在，"
+      }
+    },
+    {
+      "id": "ext-song-132-l019",
+      "text": {
+        "zh-Hant": "波心蕩、冷月無聲。",
+        "zh-Hans": "波心荡、冷月无声。"
+      }
+    },
+    {
+      "id": "ext-song-132-l020",
+      "text": {
+        "zh-Hant": "念橋邊紅藥，",
+        "zh-Hans": "念桥边红药，"
+      }
+    },
+    {
+      "id": "ext-song-132-l021",
+      "text": {
+        "zh-Hant": "年年知為誰生。",
+        "zh-Hans": "年年知为谁生。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-132-w001",
+      "term": {
+        "zh-Hant": "淮左",
+        "zh-Hans": "淮左"
+      },
+      "definition": {
+        "zh-Hant": "淮河以東地區。",
+        "zh-Hans": "淮河以东地区。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-132-w002",
+      "term": {
+        "zh-Hant": "薺麥",
+        "zh-Hans": "荠麦"
+      },
+      "definition": {
+        "zh-Hant": "野薺菜與麥子，寫荒涼景象。",
+        "zh-Hans": "野荠菜与麦子，写荒凉景象。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l005",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l005",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-132-w003",
+      "term": {
+        "zh-Hant": "胡馬窺江",
+        "zh-Hans": "胡马窥江"
+      },
+      "definition": {
+        "zh-Hant": "金兵南侵、逼近長江。",
+        "zh-Hans": "金兵南侵、逼近长江。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l006",
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l006",
+            "start": 1,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-132-w004",
+      "term": {
+        "zh-Hant": "杜郎",
+        "zh-Hans": "杜郎"
+      },
+      "definition": {
+        "zh-Hant": "杜牧。",
+        "zh-Hans": "杜牧。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l012",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l012",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-132-w005",
+      "term": {
+        "zh-Hant": "紅藥",
+        "zh-Hans": "红药"
+      },
+      "definition": {
+        "zh-Hant": "紅色芍藥花。",
+        "zh-Hans": "红色芍药花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l020",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-132-l020",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "所據選本僅收詞正文，未收姜夔自序；本篇正文完整。",
+      "zh-Hans": "所据选本仅收词正文，未收姜夔自序；本篇正文完整。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 132
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

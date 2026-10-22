@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-207",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "春望",
+    "zh-Hans": "春望"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-d1a76721cd00",
+  "author_file": "../author/author-d1a76721cd00.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d1a76721cd00",
+    "name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字子美，關懷民生，後世尊為詩聖。",
+        "zh-Hans": "唐代诗人，字子美，关怀民生，后世尊为诗圣。"
+      },
+      "full": {
+        "zh-Hant": "杜甫（712—770），字子美，自號少陵野老，唐代重要詩人。他經歷安史之亂及其後的動盪，曾在長安任職，也輾轉成都、夔州等地，晚年漂泊江湘。其詩廣泛反映戰亂、民生與個人生活，因而被稱為詩史；在律詩、古體詩等方面均有深厚成就。《兵車行》表現戰爭給家庭帶來的創痛，《客至》寫待客真情，《春望》則把國事和家事融於景物。閲讀時可兼顧時代處境與具體人物感受。",
+        "zh-Hans": "杜甫（712—770），字子美，自号少陵野老，唐代重要诗人。他经历安史之乱及其后的动荡，曾在长安任职，也辗转成都、夔州等地，晚年漂泊江湘。其诗广泛反映战乱、民生与个人生活，因而被称为诗史；在律诗、古体诗等方面均有深厚成就。《兵车行》表现战争给家庭带来的创痛，《客至》写待客真情，《春望》则把国事和家事融于景物。阅读时可兼顾时代处境与具体人物感受。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 客至賞析",
+          "zh-Hans": "香港教育局 · 客至赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "國破山河在，城春草木深。感時花濺淚，恨別鳥驚心。烽火連三月，家書抵萬金。白頭搔更短，渾欲不勝簪。",
+    "zh-Hans": "国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金。白头搔更短，浑欲不胜簪。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-207-l001",
+      "text": {
+        "zh-Hant": "國破山河在，",
+        "zh-Hans": "国破山河在，"
+      }
+    },
+    {
+      "id": "ext-tang-207-l002",
+      "text": {
+        "zh-Hant": "城春草木深。",
+        "zh-Hans": "城春草木深。"
+      }
+    },
+    {
+      "id": "ext-tang-207-l003",
+      "text": {
+        "zh-Hant": "感時花濺淚，",
+        "zh-Hans": "感时花溅泪，"
+      }
+    },
+    {
+      "id": "ext-tang-207-l004",
+      "text": {
+        "zh-Hant": "恨別鳥驚心。",
+        "zh-Hans": "恨别鸟惊心。"
+      }
+    },
+    {
+      "id": "ext-tang-207-l005",
+      "text": {
+        "zh-Hant": "烽火連三月，",
+        "zh-Hans": "烽火连三月，"
+      }
+    },
+    {
+      "id": "ext-tang-207-l006",
+      "text": {
+        "zh-Hant": "家書抵萬金。",
+        "zh-Hans": "家书抵万金。"
+      }
+    },
+    {
+      "id": "ext-tang-207-l007",
+      "text": {
+        "zh-Hant": "白頭搔更短，",
+        "zh-Hans": "白头搔更短，"
+      }
+    },
+    {
+      "id": "ext-tang-207-l008",
+      "text": {
+        "zh-Hant": "渾欲不勝簪。",
+        "zh-Hans": "浑欲不胜簪。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-207-w001",
+      "term": {
+        "zh-Hant": "國破",
+        "zh-Hans": "国破"
+      },
+      "definition": {
+        "zh-Hant": "國都陷落。",
+        "zh-Hans": "国都陷落。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-207-w002",
+      "term": {
+        "zh-Hant": "感時",
+        "zh-Hans": "感时"
+      },
+      "definition": {
+        "zh-Hant": "感傷時局。",
+        "zh-Hans": "感伤时局。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-207-w003",
+      "term": {
+        "zh-Hant": "烽火",
+        "zh-Hans": "烽火"
+      },
+      "definition": {
+        "zh-Hant": "戰爭。",
+        "zh-Hans": "战争。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-207-w004",
+      "term": {
+        "zh-Hant": "抵",
+        "zh-Hans": "抵"
+      },
+      "definition": {
+        "zh-Hant": "抵得上。",
+        "zh-Hans": "抵得上。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l006",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l006",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-207-w005",
+      "term": {
+        "zh-Hant": "渾",
+        "zh-Hans": "浑"
+      },
+      "definition": {
+        "zh-Hant": "簡直。",
+        "zh-Hans": "简直。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l008",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l008",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-207-w006",
+      "term": {
+        "zh-Hant": "簪",
+        "zh-Hans": "簪"
+      },
+      "definition": {
+        "zh-Hant": "束髮的簪子。",
+        "zh-Hans": "束发的簪子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l008",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-207-l008",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 207
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

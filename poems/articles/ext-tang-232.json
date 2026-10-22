@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-232",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "望月懷遠",
+    "zh-Hans": "望月怀远"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-317c63d2af82",
+  "author_file": "../author/author-317c63d2af82.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-317c63d2af82",
+    "name": {
+      "zh-Hant": "張九齡",
+      "zh-Hans": "张九龄"
+    },
+    "catalog_name": {
+      "zh-Hant": "張九齡",
+      "zh-Hans": "张九龄"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代政治家、詩人，詩歌清雅，常寄託品格與抱負。",
+        "zh-Hans": "唐代政治家、诗人，诗歌清雅，常寄托品格与抱负。"
+      },
+      "full": {
+        "zh-Hant": "張九齡（678—740），字子壽，韶州曲江人，唐代政治家、詩人，曾在唐玄宗時期任宰相，後罷相外任。他重視人才與諫諍，作品中常見對品格、政治理想和人生遭遇的思考。《感遇》善借草木比興，《望月懷遠》則由海上明月寫遠方思念，語言清朗而感情深厚。其詩承接初唐而開啓盛唐風氣，學習時可以比較詠物寓志與直接抒情兩種方式如何表達內在心志。",
+        "zh-Hans": "张九龄（678—740），字子寿，韶州曲江人，唐代政治家、诗人，曾在唐玄宗时期任宰相，后罢相外任。他重视人才与谏诤，作品中常见对品格、政治理想和人生遭遇的思考。《感遇》善借草木比兴，《望月怀远》则由海上明月写远方思念，语言清朗而感情深厚。其诗承接初唐而开启盛唐风气，学习时可以比较咏物寓志与直接抒情两种方式如何表达内在心志。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 149
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "海上生明月，天涯共此時。情人怨遙夜，竟夕起相思。滅燭憐光滿，披衣覺露滋。不堪盈手贈，還寢夢佳期。",
+    "zh-Hans": "海上生明月，天涯共此时。情人怨遥夜，竟夕起相思。灭烛怜光满，披衣觉露滋。不堪盈手赠，还寝梦佳期。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-232-l001",
+      "text": {
+        "zh-Hant": "海上生明月，",
+        "zh-Hans": "海上生明月，"
+      }
+    },
+    {
+      "id": "ext-tang-232-l002",
+      "text": {
+        "zh-Hant": "天涯共此時。",
+        "zh-Hans": "天涯共此时。"
+      }
+    },
+    {
+      "id": "ext-tang-232-l003",
+      "text": {
+        "zh-Hant": "情人怨遙夜，",
+        "zh-Hans": "情人怨遥夜，"
+      }
+    },
+    {
+      "id": "ext-tang-232-l004",
+      "text": {
+        "zh-Hant": "竟夕起相思。",
+        "zh-Hans": "竟夕起相思。"
+      }
+    },
+    {
+      "id": "ext-tang-232-l005",
+      "text": {
+        "zh-Hant": "滅燭憐光滿，",
+        "zh-Hans": "灭烛怜光满，"
+      }
+    },
+    {
+      "id": "ext-tang-232-l006",
+      "text": {
+        "zh-Hant": "披衣覺露滋。",
+        "zh-Hans": "披衣觉露滋。"
+      }
+    },
+    {
+      "id": "ext-tang-232-l007",
+      "text": {
+        "zh-Hant": "不堪盈手贈，",
+        "zh-Hans": "不堪盈手赠，"
+      }
+    },
+    {
+      "id": "ext-tang-232-l008",
+      "text": {
+        "zh-Hant": "還寢夢佳期。",
+        "zh-Hans": "还寝梦佳期。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-232-w001",
+      "term": {
+        "zh-Hant": "天涯",
+        "zh-Hans": "天涯"
+      },
+      "definition": {
+        "zh-Hant": "相隔極遠的地方。",
+        "zh-Hans": "相隔极远的地方。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-232-w002",
+      "term": {
+        "zh-Hant": "竟夕",
+        "zh-Hans": "竟夕"
+      },
+      "definition": {
+        "zh-Hant": "整夜。",
+        "zh-Hans": "整夜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-232-w003",
+      "term": {
+        "zh-Hant": "憐",
+        "zh-Hans": "怜"
+      },
+      "definition": {
+        "zh-Hant": "愛惜。",
+        "zh-Hans": "爱惜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l005",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l005",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-232-w004",
+      "term": {
+        "zh-Hant": "盈手",
+        "zh-Hans": "盈手"
+      },
+      "definition": {
+        "zh-Hant": "滿手。",
+        "zh-Hans": "满手。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l007",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l007",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-232-w005",
+      "term": {
+        "zh-Hant": "佳期",
+        "zh-Hans": "佳期"
+      },
+      "definition": {
+        "zh-Hant": "美好的相會之期。",
+        "zh-Hans": "美好的相会之期。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l008",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-232-l008",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 232
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

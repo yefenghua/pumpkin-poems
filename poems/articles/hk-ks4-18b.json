@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-18b",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "沉醉東風·漁父詞",
+    "zh-Hans": "沉醉东风·渔父词"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-b7b809cb1f4b",
+  "author_file": "../author/author-b7b809cb1f4b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b7b809cb1f4b",
+    "name": {
+      "zh-Hant": "白樸",
+      "zh-Hans": "白朴"
+    },
+    "catalog_name": {
+      "zh-Hant": "白樸",
+      "zh-Hans": "白朴"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代戲劇家、散曲家，字仁甫，號蘭谷。",
+        "zh-Hans": "元代戏剧家、散曲家，字仁甫，号兰谷。"
+      },
+      "full": {
+        "zh-Hant": "白樸（1226—約1306），字仁甫，號蘭谷，元代戲劇家和散曲作家。他幼年經歷金末戰亂，受到元好問照顧，後來長期生活於江南，不以仕途為重。雜劇代表作有《梧桐雨》《牆頭馬上》，散曲則常寫自然風光、隱逸生活和身世感受。《沉醉東風·漁父詞》用水岸植物與白鷺沙鷗描繪漁人天地，借其生活表達對名利的疏離。讀作品時應區分作者理想化的漁父形象與現實漁民生活。",
+        "zh-Hans": "白朴（1226—约1306），字仁甫，号兰谷，元代戏剧家和散曲作家。他幼年经历金末战乱，受到元好问照顾，后来长期生活于江南，不以仕途为重。杂剧代表作有《梧桐雨》《墙头马上》，散曲则常写自然风光、隐逸生活和身世感受。《沉醉东风·渔父词》用水岸植物与白鹭沙鸥描绘渔人天地，借其生活表达对名利的疏离。读作品时应区分作者理想化的渔父形象与现实渔民生活。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 沉醉東風·漁父詞賞析",
+          "zh-Hans": "香港教育局 · 沉醉东风·渔父词赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18b.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "黃蘆岸白蘋渡口。綠楊堤紅蓼灘頭。雖無刎頸交，卻有忘機友。點秋江白鷺沙鷗。傲煞人間萬戶侯，不識字煙波釣叟。",
+    "zh-Hans": "黄芦岸白苹渡口。绿杨堤红蓼滩头。虽无刎颈交，却有忘机友。点秋江白鹭沙鸥。傲煞人间万户侯，不识字烟波钓叟。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-18b-l001",
+      "text": {
+        "zh-Hant": "黃蘆岸白蘋渡口。",
+        "zh-Hans": "黄芦岸白苹渡口。"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l002",
+      "text": {
+        "zh-Hant": "綠楊堤紅蓼灘頭。",
+        "zh-Hans": "绿杨堤红蓼滩头。"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l003",
+      "text": {
+        "zh-Hant": "雖無刎頸交，",
+        "zh-Hans": "虽无刎颈交，"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l004",
+      "text": {
+        "zh-Hant": "卻有忘機友。",
+        "zh-Hans": "却有忘机友。"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l005",
+      "text": {
+        "zh-Hant": "點秋江白鷺沙鷗。",
+        "zh-Hans": "点秋江白鹭沙鸥。"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l006",
+      "text": {
+        "zh-Hant": "傲煞人間萬戶侯，",
+        "zh-Hans": "傲煞人间万户侯，"
+      }
+    },
+    {
+      "id": "hk-ks4-18b-l007",
+      "text": {
+        "zh-Hant": "不識字煙波釣叟。",
+        "zh-Hans": "不识字烟波钓叟。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-18b-w001",
+      "term": {
+        "zh-Hant": "白蘋",
+        "zh-Hans": "白苹"
+      },
+      "definition": {
+        "zh-Hant": "水草名，常生於淺水處。",
+        "zh-Hans": "水草名，常生于浅水处。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l001",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l001",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w002",
+      "term": {
+        "zh-Hant": "紅蓼",
+        "zh-Hans": "红蓼"
+      },
+      "definition": {
+        "zh-Hant": "開紅花的水邊植物。",
+        "zh-Hans": "开红花的水边植物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w003",
+      "term": {
+        "zh-Hant": "刎頸交",
+        "zh-Hans": "刎颈交"
+      },
+      "definition": {
+        "zh-Hant": "即使犧牲生命也不背棄的至交。",
+        "zh-Hans": "即使牺牲生命也不背弃的至交。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l003",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l003",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w004",
+      "term": {
+        "zh-Hant": "忘機友",
+        "zh-Hans": "忘机友"
+      },
+      "definition": {
+        "zh-Hant": "忘卻算計的朋友，此處指白鷺、沙鷗。",
+        "zh-Hans": "忘却算计的朋友，此处指白鹭、沙鸥。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l004",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l004",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w005",
+      "term": {
+        "zh-Hant": "傲煞",
+        "zh-Hans": "傲煞"
+      },
+      "definition": {
+        "zh-Hant": "十分傲視、毫不羨慕。",
+        "zh-Hans": "十分傲视、毫不羡慕。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w006",
+      "term": {
+        "zh-Hant": "萬戶侯",
+        "zh-Hans": "万户侯"
+      },
+      "definition": {
+        "zh-Hant": "食邑豐厚的高官貴族。",
+        "zh-Hans": "食邑丰厚的高官贵族。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l006",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l006",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-18b-w007",
+      "term": {
+        "zh-Hant": "釣叟",
+        "zh-Hans": "钓叟"
+      },
+      "definition": {
+        "zh-Hant": "釣魚的老人。",
+        "zh-Hans": "钓鱼的老人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l007",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-18b-l007",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 沉醉東風·漁父詞原文",
+        "zh-Hans": "香港教育局 · 沉醉东风·渔父词原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18b_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "416dcc52ccb36136294a08494402101358b557e88e909b9a13489ccdde7a5b13"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 沉醉東風·漁父詞賞析",
+        "zh-Hans": "香港教育局 · 沉醉东风·渔父词赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18b.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-013",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "卜算子·詠梅",
+    "zh-Hans": "卜算子·咏梅"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-f7fd73592f62",
+  "author_file": "../author/author-f7fd73592f62.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-f7fd73592f62",
+    "name": {
+      "zh-Hant": "陸游",
+      "zh-Hans": "陆游"
+    },
+    "catalog_name": {
+      "zh-Hant": "陸游",
+      "zh-Hans": "陆游"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詩人，號放翁，一生關心恢復中原與現實民生。",
+        "zh-Hans": "南宋诗人，号放翁，一生关心恢复中原与现实民生。"
+      },
+      "full": {
+        "zh-Hant": "陸游（1125—1210），字務觀，號放翁，越州山陰人，南宋詩人。他經歷仕途起伏，曾到四川參與軍幕，晚年歸居故鄉，留下數量豐富的詩文。作品既有強烈的報國願望，也寫農村生活、閒居日常與個人感情，詞作同樣有名。《卜算子·詠梅》借無人照管、風雨摧折卻香氣不改的梅花寄託自守精神。閲讀時可結合生平理解言志，也要看到作品如何用具體環境和動作塑造梅的形象。",
+        "zh-Hans": "陆游（1125—1210），字务观，号放翁，越州山阴人，南宋诗人。他经历仕途起伏，曾到四川参与军幕，晚年归居故乡，留下数量丰富的诗文。作品既有强烈的报国愿望，也写农村生活、闲居日常与个人感情，词作同样有名。《卜算子·咏梅》借无人照管、风雨摧折却香气不改的梅花寄托自守精神。阅读时可结合生平理解言志，也要看到作品如何用具体环境和动作塑造梅的形象。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 11
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "驛外斷橋邊，寂寞開無主。已是黃昏獨自愁，更著風和雨。無意苦爭春，一任羣芳妒。零落成泥碾作塵，只有香如故。",
+    "zh-Hans": "驿外断桥边，寂寞开无主。已是黄昏独自愁，更著风和雨。无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-013-l001",
+      "text": {
+        "zh-Hant": "驛外斷橋邊，",
+        "zh-Hans": "驿外断桥边，"
+      }
+    },
+    {
+      "id": "ext-song-013-l002",
+      "text": {
+        "zh-Hant": "寂寞開無主。",
+        "zh-Hans": "寂寞开无主。"
+      }
+    },
+    {
+      "id": "ext-song-013-l003",
+      "text": {
+        "zh-Hant": "已是黃昏獨自愁，",
+        "zh-Hans": "已是黄昏独自愁，"
+      }
+    },
+    {
+      "id": "ext-song-013-l004",
+      "text": {
+        "zh-Hant": "更著風和雨。",
+        "zh-Hans": "更著风和雨。"
+      }
+    },
+    {
+      "id": "ext-song-013-l005",
+      "text": {
+        "zh-Hant": "無意苦爭春，",
+        "zh-Hans": "无意苦争春，"
+      }
+    },
+    {
+      "id": "ext-song-013-l006",
+      "text": {
+        "zh-Hant": "一任羣芳妒。",
+        "zh-Hans": "一任群芳妒。"
+      }
+    },
+    {
+      "id": "ext-song-013-l007",
+      "text": {
+        "zh-Hant": "零落成泥碾作塵，",
+        "zh-Hans": "零落成泥碾作尘，"
+      }
+    },
+    {
+      "id": "ext-song-013-l008",
+      "text": {
+        "zh-Hant": "只有香如故。",
+        "zh-Hans": "只有香如故。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-013-w001",
+      "term": {
+        "zh-Hant": "驛",
+        "zh-Hans": "驿"
+      },
+      "definition": {
+        "zh-Hant": "古代傳遞公文、供行旅停宿的驛站。",
+        "zh-Hans": "古代传递公文、供行旅停宿的驿站。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l001",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l001",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-013-w002",
+      "term": {
+        "zh-Hant": "無主",
+        "zh-Hans": "无主"
+      },
+      "definition": {
+        "zh-Hant": "無人照管。",
+        "zh-Hans": "无人照管。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-013-w003",
+      "term": {
+        "zh-Hant": "一任",
+        "zh-Hans": "一任"
+      },
+      "definition": {
+        "zh-Hant": "完全任憑。",
+        "zh-Hans": "完全任凭。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-013-w004",
+      "term": {
+        "zh-Hant": "羣芳",
+        "zh-Hans": "群芳"
+      },
+      "definition": {
+        "zh-Hant": "各種花。",
+        "zh-Hans": "各种花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-013-w005",
+      "term": {
+        "zh-Hant": "零落",
+        "zh-Hans": "零落"
+      },
+      "definition": {
+        "zh-Hant": "凋零、飄落。",
+        "zh-Hans": "凋零、飘落。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-013-w006",
+      "term": {
+        "zh-Hant": "如故",
+        "zh-Hans": "如故"
+      },
+      "definition": {
+        "zh-Hant": "和從前一樣。",
+        "zh-Hans": "和从前一样。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l008",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-013-l008",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 13
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

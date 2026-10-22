@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-321",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "渡荊門送別",
+    "zh-Hans": "渡荆门送别"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言律詩",
+    "zh-Hans": "五言律诗"
+  },
+  "author_id": "author-b23f840ff52e",
+  "author_file": "../author/author-b23f840ff52e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b23f840ff52e",
+    "name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "catalog_name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，號青蓮居士，想象豐富，後世譽為詩仙。",
+        "zh-Hans": "唐代诗人，号青莲居士，想象丰富，后世誉为诗仙。"
+      },
+      "full": {
+        "zh-Hant": "李白（701—762），字太白，號青蓮居士，唐代重要詩人。少年在蜀地成長，成年後廣泛遊歷，曾供奉翰林，也經歷政治牽連與流放途中遇赦。他善寫樂府、歌行和絕句，常運用誇張、想象以及明月、山川、美酒等意象，表達自由理想、友情和人生感慨。《靜夜思》親切簡潔，《月下獨酌》想象奇特，《行路難》則在挫折中保持昂揚。其出生地有不同説法，本庫不將某一説法寫成定論。",
+        "zh-Hans": "李白（701—762），字太白，号青莲居士，唐代重要诗人。少年在蜀地成长，成年后广泛游历，曾供奉翰林，也经历政治牵连与流放途中遇赦。他善写乐府、歌行和绝句，常运用夸张、想象以及明月、山川、美酒等意象，表达自由理想、友情和人生感慨。《静夜思》亲切简洁，《月下独酌》想象奇特，《行路难》则在挫折中保持昂扬。其出生地有不同说法，本库不将某一说法写成定论。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 靜夜思賞析",
+          "zh-Hans": "香港教育局 · 静夜思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "渡遠荆門外，來從楚國遊。山隨平野盡，江入大荒流。月下飛天鏡，雲生結海樓。仍憐故鄉水，萬里送行舟。",
+    "zh-Hans": "渡远荆门外，来从楚国游。山随平野尽，江入大荒流。月下飞天镜，云生结海楼。仍怜故乡水，万里送行舟。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-321-l001",
+      "text": {
+        "zh-Hant": "渡遠荆門外，",
+        "zh-Hans": "渡远荆门外，"
+      }
+    },
+    {
+      "id": "ext-tang-321-l002",
+      "text": {
+        "zh-Hant": "來從楚國遊。",
+        "zh-Hans": "来从楚国游。"
+      }
+    },
+    {
+      "id": "ext-tang-321-l003",
+      "text": {
+        "zh-Hant": "山隨平野盡，",
+        "zh-Hans": "山随平野尽，"
+      }
+    },
+    {
+      "id": "ext-tang-321-l004",
+      "text": {
+        "zh-Hant": "江入大荒流。",
+        "zh-Hans": "江入大荒流。"
+      }
+    },
+    {
+      "id": "ext-tang-321-l005",
+      "text": {
+        "zh-Hant": "月下飛天鏡，",
+        "zh-Hans": "月下飞天镜，"
+      }
+    },
+    {
+      "id": "ext-tang-321-l006",
+      "text": {
+        "zh-Hant": "雲生結海樓。",
+        "zh-Hans": "云生结海楼。"
+      }
+    },
+    {
+      "id": "ext-tang-321-l007",
+      "text": {
+        "zh-Hant": "仍憐故鄉水，",
+        "zh-Hans": "仍怜故乡水，"
+      }
+    },
+    {
+      "id": "ext-tang-321-l008",
+      "text": {
+        "zh-Hant": "萬里送行舟。",
+        "zh-Hans": "万里送行舟。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-321-w001",
+      "term": {
+        "zh-Hant": "荊門",
+        "zh-Hans": "荆门"
+      },
+      "definition": {
+        "zh-Hant": "荊門山，在今湖北宜都附近。",
+        "zh-Hans": "荆门山，在今湖北宜都附近。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 1,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-321-w002",
+      "term": {
+        "zh-Hant": "大荒",
+        "zh-Hans": "大荒"
+      },
+      "definition": {
+        "zh-Hant": "廣闊的原野。",
+        "zh-Hans": "广阔的原野。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-321-w003",
+      "term": {
+        "zh-Hant": "天鏡",
+        "zh-Hans": "天镜"
+      },
+      "definition": {
+        "zh-Hant": "把水中月影比作天上的鏡子。",
+        "zh-Hans": "把水中月影比作天上的镜子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l005",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l005",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-321-w004",
+      "term": {
+        "zh-Hant": "海樓",
+        "zh-Hans": "海楼"
+      },
+      "definition": {
+        "zh-Hant": "海市蜃樓般的雲景。",
+        "zh-Hans": "海市蜃楼般的云景。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l006",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-321-l006",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "據維基文庫將原數據“仍連故鄉水”校正為“仍憐故鄉水”。",
+      "zh-Hans": "据维基文库将原数据“仍连故乡水”校正为“仍怜故乡水”。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "仍連",
+      "to": "仍憐"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 321
+      }
+    },
+    {
+      "kind": "text_correction",
+      "label": {
+        "zh-Hant": "渡荊門送別校對參考",
+        "zh-Hans": "渡荆门送别校对参考"
+      },
+      "url": "https://zh.wikisource.org/wiki/%E6%B8%A1%E8%8D%8A%E9%96%80%E9%80%81%E5%88%A5",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

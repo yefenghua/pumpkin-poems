@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-12",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "楓橋夜泊",
+    "zh-Hans": "枫桥夜泊"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-76da09a712d0",
+  "author_file": "../author/author-76da09a712d0.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-76da09a712d0",
+    "name": {
+      "zh-Hant": "張繼",
+      "zh-Hans": "张继"
+    },
+    "catalog_name": {
+      "zh-Hant": "張繼",
+      "zh-Hans": "张继"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，《楓橋夜泊》是其代表作。",
+        "zh-Hans": "唐代诗人，《枫桥夜泊》是其代表作。"
+      },
+      "full": {
+        "zh-Hant": "張繼，字懿孫，唐代詩人，生卒年未能確考，曾登進士第並任官。他傳世作品數量不多，題材包括行旅、送別與寫景。《楓橋夜泊》寫夜泊蘇州附近的感受，以落月、烏啼、漁火和寺鐘組成富於聲音與光影的畫面，流傳尤其廣泛。詩中景物與愁緒相互映照，不能把每個意象都當作作者一生經歷的直接證據。學習此詩可從夜間所見、所聞及旅人的心情三方面理解。",
+        "zh-Hans": "张继，字懿孙，唐代诗人，生卒年未能确考，曾登进士第并任官。他传世作品数量不多，题材包括行旅、送别与写景。《枫桥夜泊》写夜泊苏州附近的感受，以落月、乌啼、渔火和寺钟组成富于声音与光影的画面，流传尤其广泛。诗中景物与愁绪相互映照，不能把每个意象都当作作者一生经历的直接证据。学习此诗可从夜间所见、所闻及旅人的心情三方面理解。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 楓橋夜泊賞析",
+          "zh-Hans": "香港教育局 · 枫桥夜泊赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_12.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "月落烏啼霜滿天，江楓漁火對愁眠。姑蘇城外寒山寺，夜半鐘聲到客船。",
+    "zh-Hans": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-12-l001",
+      "text": {
+        "zh-Hant": "月落烏啼霜滿天，",
+        "zh-Hans": "月落乌啼霜满天，"
+      }
+    },
+    {
+      "id": "hk-ks2-12-l002",
+      "text": {
+        "zh-Hant": "江楓漁火對愁眠。",
+        "zh-Hans": "江枫渔火对愁眠。"
+      }
+    },
+    {
+      "id": "hk-ks2-12-l003",
+      "text": {
+        "zh-Hant": "姑蘇城外寒山寺，",
+        "zh-Hans": "姑苏城外寒山寺，"
+      }
+    },
+    {
+      "id": "hk-ks2-12-l004",
+      "text": {
+        "zh-Hant": "夜半鐘聲到客船。",
+        "zh-Hans": "夜半钟声到客船。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-12-w001",
+      "term": {
+        "zh-Hant": "烏啼",
+        "zh-Hans": "乌啼"
+      },
+      "definition": {
+        "zh-Hant": "烏鴉鳴叫。",
+        "zh-Hans": "乌鸦鸣叫。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-12-w002",
+      "term": {
+        "zh-Hant": "漁火",
+        "zh-Hans": "渔火"
+      },
+      "definition": {
+        "zh-Hant": "漁船上的燈火。",
+        "zh-Hans": "渔船上的灯火。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-12-w003",
+      "term": {
+        "zh-Hant": "愁眠",
+        "zh-Hans": "愁眠"
+      },
+      "definition": {
+        "zh-Hant": "帶着愁緒躺卧，難以安睡。",
+        "zh-Hans": "带着愁绪躺卧，难以安睡。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-12-w004",
+      "term": {
+        "zh-Hant": "姑蘇",
+        "zh-Hans": "姑苏"
+      },
+      "definition": {
+        "zh-Hant": "蘇州的別稱。",
+        "zh-Hans": "苏州的别称。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-12-w005",
+      "term": {
+        "zh-Hant": "客船",
+        "zh-Hans": "客船"
+      },
+      "definition": {
+        "zh-Hant": "旅人乘坐的船。",
+        "zh-Hans": "旅人乘坐的船。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-12-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 楓橋夜泊原文",
+        "zh-Hans": "香港教育局 · 枫桥夜泊原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_12_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "463e4dbecce637e98eba7222e1e31e36cf613473ae373c910f5af941da8d4e29"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 楓橋夜泊賞析",
+        "zh-Hans": "香港教育局 · 枫桥夜泊赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_12.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

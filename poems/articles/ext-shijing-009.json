@@ -1,0 +1,613 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-shijing-009",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "蒹葭",
+    "zh-Hans": "蒹葭"
+  },
+  "dynasty": {
+    "zh-Hant": "先秦",
+    "zh-Hans": "先秦"
+  },
+  "genre": {
+    "zh-Hant": "四言詩",
+    "zh-Hans": "四言诗"
+  },
+  "author_id": "author-67b4d378d267",
+  "author_file": "../author/author-67b4d378d267.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-67b4d378d267",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·詩經",
+      "zh-Hans": "佚名·诗经"
+    },
+    "dynasty": {
+      "zh-Hant": "先秦",
+      "zh-Hans": "先秦"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《詩經》彙集周代詩歌，多數作品的具體作者姓名不可考。",
+        "zh-Hans": "《诗经》汇集周代诗歌，多数作品的具体作者姓名不可考。"
+      },
+      "full": {
+        "zh-Hant": "《詩經》是中國早期詩歌總集，收錄西周初年至春秋中葉前後的作品三百零五篇，分為風、雅、頌。它彙集不同地域、階層和場合的詩歌，並非一位作者的創作。許多篇章在採集、演唱與編訂過程中流傳，個人作者已不可考。《關雎》《蒹葭》《桃夭》《子衿》屬於國風。其四言節奏、重章疊句以及賦比興手法，對後世詩歌影響深遠。孔子與其傳習有關，但不應被填寫為這些詩的作者。",
+        "zh-Hans": "《诗经》是中国早期诗歌总集，收录西周初年至春秋中叶前后的作品三百零五篇，分为风、雅、颂。它汇集不同地域、阶层和场合的诗歌，并非一位作者的创作。许多篇章在采集、演唱与编订过程中流传，个人作者已不可考。《关雎》《蒹葭》《桃夭》《子衿》属于国风。其四言节奏、重章叠句以及赋比兴手法，对后世诗歌影响深远。孔子与其传习有关，但不应被填写为这些诗的作者。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 關雎賞析",
+          "zh-Hans": "香港教育局 · 关雎赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "蒹葭蒼蒼，白露為霜。所謂伊人，在水一方。溯洄從之，道阻且長。溯游從之，宛在水中央。蒹葭萋萋，白露未晞。所謂伊人，在水之湄。溯洄從之，道阻且躋。溯游從之，宛在水中坻。蒹葭采采，白露未已。所謂伊人，在水之涘。溯洄從之，道阻且右。溯游從之，宛在水中沚。",
+    "zh-Hans": "蒹葭苍苍，白露为霜。所谓伊人，在水一方。溯洄从之，道阻且长。溯游从之，宛在水中央。蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，道阻且跻。溯游从之，宛在水中坻。蒹葭采采，白露未已。所谓伊人，在水之涘。溯洄从之，道阻且右。溯游从之，宛在水中沚。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-shijing-009-l001",
+      "text": {
+        "zh-Hant": "蒹葭蒼蒼，",
+        "zh-Hans": "蒹葭苍苍，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l002",
+      "text": {
+        "zh-Hant": "白露為霜。",
+        "zh-Hans": "白露为霜。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l003",
+      "text": {
+        "zh-Hant": "所謂伊人，",
+        "zh-Hans": "所谓伊人，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l004",
+      "text": {
+        "zh-Hant": "在水一方。",
+        "zh-Hans": "在水一方。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l005",
+      "text": {
+        "zh-Hant": "溯洄從之，",
+        "zh-Hans": "溯洄从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l006",
+      "text": {
+        "zh-Hant": "道阻且長。",
+        "zh-Hans": "道阻且长。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l007",
+      "text": {
+        "zh-Hant": "溯游從之，",
+        "zh-Hans": "溯游从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l008",
+      "text": {
+        "zh-Hant": "宛在水中央。",
+        "zh-Hans": "宛在水中央。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l009",
+      "text": {
+        "zh-Hant": "蒹葭萋萋，",
+        "zh-Hans": "蒹葭萋萋，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l010",
+      "text": {
+        "zh-Hant": "白露未晞。",
+        "zh-Hans": "白露未晞。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l011",
+      "text": {
+        "zh-Hant": "所謂伊人，",
+        "zh-Hans": "所谓伊人，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l012",
+      "text": {
+        "zh-Hant": "在水之湄。",
+        "zh-Hans": "在水之湄。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l013",
+      "text": {
+        "zh-Hant": "溯洄從之，",
+        "zh-Hans": "溯洄从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l014",
+      "text": {
+        "zh-Hant": "道阻且躋。",
+        "zh-Hans": "道阻且跻。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l015",
+      "text": {
+        "zh-Hant": "溯游從之，",
+        "zh-Hans": "溯游从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l016",
+      "text": {
+        "zh-Hant": "宛在水中坻。",
+        "zh-Hans": "宛在水中坻。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l017",
+      "text": {
+        "zh-Hant": "蒹葭采采，",
+        "zh-Hans": "蒹葭采采，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l018",
+      "text": {
+        "zh-Hant": "白露未已。",
+        "zh-Hans": "白露未已。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l019",
+      "text": {
+        "zh-Hant": "所謂伊人，",
+        "zh-Hans": "所谓伊人，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l020",
+      "text": {
+        "zh-Hant": "在水之涘。",
+        "zh-Hans": "在水之涘。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l021",
+      "text": {
+        "zh-Hant": "溯洄從之，",
+        "zh-Hans": "溯洄从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l022",
+      "text": {
+        "zh-Hant": "道阻且右。",
+        "zh-Hans": "道阻且右。"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l023",
+      "text": {
+        "zh-Hant": "溯游從之，",
+        "zh-Hans": "溯游从之，"
+      }
+    },
+    {
+      "id": "ext-shijing-009-l024",
+      "text": {
+        "zh-Hant": "宛在水中沚。",
+        "zh-Hans": "宛在水中沚。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-shijing-009-w001",
+      "term": {
+        "zh-Hant": "蒹葭",
+        "zh-Hans": "蒹葭"
+      },
+      "definition": {
+        "zh-Hant": "蘆葦。",
+        "zh-Hans": "芦苇。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l001",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l009",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l017",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l001",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l009",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l017",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w002",
+      "term": {
+        "zh-Hant": "蒼蒼",
+        "zh-Hans": "苍苍"
+      },
+      "definition": {
+        "zh-Hant": "茂盛的樣子。",
+        "zh-Hans": "茂盛的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w003",
+      "term": {
+        "zh-Hant": "伊人",
+        "zh-Hans": "伊人"
+      },
+      "definition": {
+        "zh-Hant": "那個人，詩中所追尋的人。",
+        "zh-Hans": "那个人，诗中所追寻的人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l003",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l011",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l019",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l003",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l011",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l019",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w004",
+      "term": {
+        "zh-Hant": "溯洄",
+        "zh-Hans": "溯洄"
+      },
+      "definition": {
+        "zh-Hant": "逆水而上。",
+        "zh-Hans": "逆水而上。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l005",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l013",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l021",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l005",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l013",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l021",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w005",
+      "term": {
+        "zh-Hant": "溯游",
+        "zh-Hans": "溯游"
+      },
+      "definition": {
+        "zh-Hant": "順流而下，一説沿直流水道追尋。",
+        "zh-Hans": "顺流而下，一说沿直流水道追寻。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l015",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l023",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l007",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l015",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l023",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w006",
+      "term": {
+        "zh-Hant": "晞",
+        "zh-Hans": "晞"
+      },
+      "definition": {
+        "zh-Hant": "幹。",
+        "zh-Hans": "干。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l010",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l010",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w007",
+      "term": {
+        "zh-Hant": "湄",
+        "zh-Hans": "湄"
+      },
+      "definition": {
+        "zh-Hant": "水邊。",
+        "zh-Hans": "水边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l012",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l012",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-shijing-009-w008",
+      "term": {
+        "zh-Hant": "涘",
+        "zh-Hans": "涘"
+      },
+      "definition": {
+        "zh-Hant": "水邊。",
+        "zh-Hans": "水边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l020",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-shijing-009-l020",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "收錄全詩三章。",
+      "zh-Hans": "收录全诗三章。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 詩經/shijing.json",
+        "zh-Hans": "中华古诗词数据库 · 诗经/shijing.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E8%AF%97%E7%BB%8F/shijing.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "ff0f061ec027ea5137bf27627cb0bdab0fe1680216b43d5d32245ab697aa9875",
+      "record_locator": {
+        "index_zero_based": 128
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

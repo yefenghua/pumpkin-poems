@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-0a6c808f358b",
+  "name": {
+    "zh-Hant": "宋之問",
+    "zh-Hans": "宋之问"
+  },
+  "catalog_name": {
+    "zh-Hant": "宋之問",
+    "zh-Hans": "宋之问"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "初唐詩人，對五言律詩的發展有貢獻。",
+      "zh-Hans": "初唐诗人，对五言律诗的发展有贡献。"
+    },
+    "full": {
+      "zh-Hant": "宋之問，字延清，唐代詩人，約生於七世紀中葉，卒於八世紀初，具體年代有不同記載。他曾供職宮廷，也因政治事件遭貶，經歷南方流放。與沈佺期等人的創作一起，他的近體詩推動了律詩格律的成熟。《渡漢江》以歸鄉途中不敢詢問家人的心理變化寫深切親情。部分傳本將此詩歸於李頻，本庫按所選底本歸宋之問並説明異署；作者生平與作品歸屬應分別考察。",
+      "zh-Hans": "宋之问，字延清，唐代诗人，约生于七世纪中叶，卒于八世纪初，具体年代有不同记载。他曾供职宫廷，也因政治事件遭贬，经历南方流放。与沈佺期等人的创作一起，他的近体诗推动了律诗格律的成熟。《渡汉江》以归乡途中不敢询问家人的心理变化写深切亲情。部分传本将此诗归于李频，本库按所选底本归宋之问并说明异署；作者生平与作品归属应分别考察。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 168
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

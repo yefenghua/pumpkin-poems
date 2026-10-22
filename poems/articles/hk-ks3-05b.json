@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-05b",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "迢迢牽牛星",
+    "zh-Hans": "迢迢牵牛星"
+  },
+  "dynasty": {
+    "zh-Hant": "漢",
+    "zh-Hans": "汉"
+  },
+  "genre": {
+    "zh-Hant": "五言古詩",
+    "zh-Hans": "五言古诗"
+  },
+  "author_id": "author-6c22fc789003",
+  "author_file": "../author/author-6c22fc789003.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-6c22fc789003",
+    "name": {
+      "zh-Hant": "佚名",
+      "zh-Hans": "佚名"
+    },
+    "catalog_name": {
+      "zh-Hant": "佚名·古詩十九首",
+      "zh-Hans": "佚名·古诗十九首"
+    },
+    "dynasty": {
+      "zh-Hant": "漢",
+      "zh-Hans": "汉"
+    },
+    "is_collective_attribution": true,
+    "biography": {
+      "short": {
+        "zh-Hant": "《古詩十九首》的作者多不可考，是漢代五言詩的重要代表。",
+        "zh-Hans": "《古诗十九首》的作者多不可考，是汉代五言诗的重要代表。"
+      },
+      "full": {
+        "zh-Hant": "《古詩十九首》並非一位作者在同一時間完成的一部詩集，而是後人選編保存的一組古詩，作者姓名多不可考，一般認為主要產生於東漢後期。南朝梁蕭統編《文選》時將它們匯為一組。詩歌常寫遊子與思婦的離別、生命短暫以及人生願望，語言自然而情感深厚。《行行重行行》《迢迢牽牛星》都在其中。此處建立集合性質的作者記錄，不把十九首歸給某一個虛構人物。",
+        "zh-Hans": "《古诗十九首》并非一位作者在同一时间完成的一部诗集，而是后人选编保存的一组古诗，作者姓名多不可考，一般认为主要产生于东汉后期。南朝梁萧统编《文选》时将它们汇为一组。诗歌常写游子与思妇的离别、生命短暂以及人生愿望，语言自然而情感深厚。《行行重行行》《迢迢牵牛星》都在其中。此处建立集合性质的作者记录，不把十九首归给某一个虚构人物。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "attribution_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 行行重行行",
+          "zh-Hans": "香港教育局 · 行行重行行"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05a_text.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "迢迢牽牛星，皎皎河漢女。纖纖擢素手，札札弄機杼。終日不成章，泣涕零如雨。河漢清且淺，相去復幾許。盈盈一水間，脈脈不得語。",
+    "zh-Hans": "迢迢牵牛星，皎皎河汉女。纤纤擢素手，札札弄机杼。终日不成章，泣涕零如雨。河汉清且浅，相去复几许。盈盈一水间，脉脉不得语。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-05b-l001",
+      "text": {
+        "zh-Hant": "迢迢牽牛星，",
+        "zh-Hans": "迢迢牵牛星，"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l002",
+      "text": {
+        "zh-Hant": "皎皎河漢女。",
+        "zh-Hans": "皎皎河汉女。"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l003",
+      "text": {
+        "zh-Hant": "纖纖擢素手，",
+        "zh-Hans": "纤纤擢素手，"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l004",
+      "text": {
+        "zh-Hant": "札札弄機杼。",
+        "zh-Hans": "札札弄机杼。"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l005",
+      "text": {
+        "zh-Hant": "終日不成章，",
+        "zh-Hans": "终日不成章，"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l006",
+      "text": {
+        "zh-Hant": "泣涕零如雨。",
+        "zh-Hans": "泣涕零如雨。"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l007",
+      "text": {
+        "zh-Hant": "河漢清且淺，",
+        "zh-Hans": "河汉清且浅，"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l008",
+      "text": {
+        "zh-Hant": "相去復幾許。",
+        "zh-Hans": "相去复几许。"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l009",
+      "text": {
+        "zh-Hant": "盈盈一水間，",
+        "zh-Hans": "盈盈一水间，"
+      }
+    },
+    {
+      "id": "hk-ks3-05b-l010",
+      "text": {
+        "zh-Hant": "脈脈不得語。",
+        "zh-Hans": "脉脉不得语。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-05b-w001",
+      "term": {
+        "zh-Hant": "迢迢",
+        "zh-Hans": "迢迢"
+      },
+      "definition": {
+        "zh-Hant": "遙遠的樣子。",
+        "zh-Hans": "遥远的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w002",
+      "term": {
+        "zh-Hant": "皎皎",
+        "zh-Hans": "皎皎"
+      },
+      "definition": {
+        "zh-Hant": "明亮的樣子。",
+        "zh-Hans": "明亮的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w003",
+      "term": {
+        "zh-Hant": "河漢女",
+        "zh-Hans": "河汉女"
+      },
+      "definition": {
+        "zh-Hant": "織女星。",
+        "zh-Hans": "织女星。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l002",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l002",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w004",
+      "term": {
+        "zh-Hant": "擢",
+        "zh-Hans": "擢"
+      },
+      "definition": {
+        "zh-Hant": "伸出、舉起。",
+        "zh-Hans": "伸出、举起。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l003",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l003",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w005",
+      "term": {
+        "zh-Hant": "札札",
+        "zh-Hans": "札札"
+      },
+      "definition": {
+        "zh-Hant": "織布機運轉的聲音。",
+        "zh-Hans": "织布机运转的声音。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w006",
+      "term": {
+        "zh-Hant": "機杼",
+        "zh-Hans": "机杼"
+      },
+      "definition": {
+        "zh-Hant": "織布機與梭子。",
+        "zh-Hans": "织布机与梭子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l004",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l004",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w007",
+      "term": {
+        "zh-Hant": "章",
+        "zh-Hans": "章"
+      },
+      "definition": {
+        "zh-Hant": "織成的紋理。",
+        "zh-Hans": "织成的纹理。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l005",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l005",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w008",
+      "term": {
+        "zh-Hant": "零",
+        "zh-Hans": "零"
+      },
+      "definition": {
+        "zh-Hant": "落下。",
+        "zh-Hans": "落下。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l006",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l006",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-05b-w009",
+      "term": {
+        "zh-Hant": "脈脈",
+        "zh-Hans": "脉脉"
+      },
+      "definition": {
+        "zh-Hant": "含情相望、不能説話的樣子。",
+        "zh-Hans": "含情相望、不能说话的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l010",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-05b-l010",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 迢迢牽牛星原文",
+        "zh-Hans": "香港教育局 · 迢迢牵牛星原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05b_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "9dd93dfd79159f13020507caeba13d1526277bca41d6176b67448e2c47077cfa"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

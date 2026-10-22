@@ -1,0 +1,726 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks3-11a",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "燕詩",
+    "zh-Hans": "燕诗"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言古詩",
+    "zh-Hans": "五言古诗"
+  },
+  "author_id": "author-4db0d950f314",
+  "author_file": "../author/author-4db0d950f314.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-4db0d950f314",
+    "name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "catalog_name": {
+      "zh-Hant": "白居易",
+      "zh-Hans": "白居易"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字樂天，語言平易，關懷社會與日常人生。",
+        "zh-Hans": "唐代诗人，字乐天，语言平易，关怀社会与日常人生。"
+      },
+      "full": {
+        "zh-Hant": "白居易（772—846），字樂天，晚年號香山居士，唐代詩人。他曾任諫官，後被貶江州，又出任杭州、蘇州刺史等職，與元稹倡導以詩反映現實，世稱元白。其詩語言明白流暢，題材包括社會諷諭、敍事、閒適和個人感情，《長恨歌》《琵琶行》是長篇名作。本庫所收《賦得古原草送別》《燕詩》《慈烏夜啼》分別從草木與鳥類生活出發，讓讀者理解送別、親情和倫理關懷。",
+        "zh-Hans": "白居易（772—846），字乐天，晚年号香山居士，唐代诗人。他曾任谏官，后被贬江州，又出任杭州、苏州刺史等职，与元稹倡导以诗反映现实，世称元白。其诗语言明白流畅，题材包括社会讽谕、叙事、闲适和个人感情，《长恨歌》《琵琶行》是长篇名作。本库所收《赋得古原草送别》《燕诗》《慈乌夜啼》分别从草木与鸟类生活出发，让读者理解送别、亲情和伦理关怀。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 賦得古原草送別賞析",
+          "zh-Hans": "香港教育局 · 赋得古原草送别赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      3
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "梁上有雙燕，翩翩雄與雌。銜泥兩椽間，一巢生四兒。四兒日夜長，索食聲孜孜。青蟲不易捕，黃口無飽期。嘴爪雖欲敝，心力不知疲。須臾十來往，猶恐巢中飢。辛勤三十日，母瘦雛漸肥。喃喃教言語，一一刷毛衣。一旦羽翼成，引上庭樹枝。舉翅不回顧，隨風四散飛。雌雄空中鳴，聲盡呼不歸。卻入空巢裏，啁啾終夜悲。燕燕爾勿悲，爾當反自思：思爾為雛日，高飛背母時。當時父母念，今日爾應知！",
+    "zh-Hans": "梁上有双燕，翩翩雄与雌。衔泥两椽间，一巢生四儿。四儿日夜长，索食声孜孜。青虫不易捕，黄口无饱期。嘴爪虽欲敝，心力不知疲。须臾十来往，犹恐巢中饥。辛勤三十日，母瘦雏渐肥。喃喃教言语，一一刷毛衣。一旦羽翼成，引上庭树枝。举翅不回顾，随风四散飞。雌雄空中鸣，声尽呼不归。却入空巢里，啁啾终夜悲。燕燕尔勿悲，尔当反自思：思尔为雏日，高飞背母时。当时父母念，今日尔应知！"
+  },
+  "preface": {
+    "zh-Hant": "叟有愛子，背叟逃去，叟甚悲念之。叟少年時，亦嘗如是。故作《燕詩》以諭之矣。",
+    "zh-Hans": "叟有爱子，背叟逃去，叟甚悲念之。叟少年时，亦尝如是。故作《燕诗》以谕之矣。"
+  },
+  "lines": [
+    {
+      "id": "hk-ks3-11a-l001",
+      "text": {
+        "zh-Hant": "梁上有雙燕，",
+        "zh-Hans": "梁上有双燕，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l002",
+      "text": {
+        "zh-Hant": "翩翩雄與雌。",
+        "zh-Hans": "翩翩雄与雌。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l003",
+      "text": {
+        "zh-Hant": "銜泥兩椽間，",
+        "zh-Hans": "衔泥两椽间，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l004",
+      "text": {
+        "zh-Hant": "一巢生四兒。",
+        "zh-Hans": "一巢生四儿。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l005",
+      "text": {
+        "zh-Hant": "四兒日夜長，",
+        "zh-Hans": "四儿日夜长，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l006",
+      "text": {
+        "zh-Hant": "索食聲孜孜。",
+        "zh-Hans": "索食声孜孜。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l007",
+      "text": {
+        "zh-Hant": "青蟲不易捕，",
+        "zh-Hans": "青虫不易捕，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l008",
+      "text": {
+        "zh-Hant": "黃口無飽期。",
+        "zh-Hans": "黄口无饱期。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l009",
+      "text": {
+        "zh-Hant": "嘴爪雖欲敝，",
+        "zh-Hans": "嘴爪虽欲敝，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l010",
+      "text": {
+        "zh-Hant": "心力不知疲。",
+        "zh-Hans": "心力不知疲。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l011",
+      "text": {
+        "zh-Hant": "須臾十來往，",
+        "zh-Hans": "须臾十来往，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l012",
+      "text": {
+        "zh-Hant": "猶恐巢中飢。",
+        "zh-Hans": "犹恐巢中饥。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l013",
+      "text": {
+        "zh-Hant": "辛勤三十日，",
+        "zh-Hans": "辛勤三十日，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l014",
+      "text": {
+        "zh-Hant": "母瘦雛漸肥。",
+        "zh-Hans": "母瘦雏渐肥。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l015",
+      "text": {
+        "zh-Hant": "喃喃教言語，",
+        "zh-Hans": "喃喃教言语，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l016",
+      "text": {
+        "zh-Hant": "一一刷毛衣。",
+        "zh-Hans": "一一刷毛衣。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l017",
+      "text": {
+        "zh-Hant": "一旦羽翼成，",
+        "zh-Hans": "一旦羽翼成，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l018",
+      "text": {
+        "zh-Hant": "引上庭樹枝。",
+        "zh-Hans": "引上庭树枝。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l019",
+      "text": {
+        "zh-Hant": "舉翅不回顧，",
+        "zh-Hans": "举翅不回顾，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l020",
+      "text": {
+        "zh-Hant": "隨風四散飛。",
+        "zh-Hans": "随风四散飞。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l021",
+      "text": {
+        "zh-Hant": "雌雄空中鳴，",
+        "zh-Hans": "雌雄空中鸣，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l022",
+      "text": {
+        "zh-Hant": "聲盡呼不歸。",
+        "zh-Hans": "声尽呼不归。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l023",
+      "text": {
+        "zh-Hant": "卻入空巢裏，",
+        "zh-Hans": "却入空巢里，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l024",
+      "text": {
+        "zh-Hant": "啁啾終夜悲。",
+        "zh-Hans": "啁啾终夜悲。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l025",
+      "text": {
+        "zh-Hant": "燕燕爾勿悲，",
+        "zh-Hans": "燕燕尔勿悲，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l026",
+      "text": {
+        "zh-Hant": "爾當反自思：思爾為雛日，",
+        "zh-Hans": "尔当反自思：思尔为雏日，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l027",
+      "text": {
+        "zh-Hant": "高飛背母時。",
+        "zh-Hans": "高飞背母时。"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l028",
+      "text": {
+        "zh-Hant": "當時父母念，",
+        "zh-Hans": "当时父母念，"
+      }
+    },
+    {
+      "id": "hk-ks3-11a-l029",
+      "text": {
+        "zh-Hant": "今日爾應知！",
+        "zh-Hans": "今日尔应知！"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks3-11a-w001",
+      "term": {
+        "zh-Hant": "叟",
+        "zh-Hans": "叟"
+      },
+      "definition": {
+        "zh-Hant": "老人，見詩前小序。",
+        "zh-Hans": "老人，见诗前小序。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 10,
+            "end": 11
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 16,
+            "end": 17
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 6,
+            "end": 7
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 10,
+            "end": 11
+          },
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 16,
+            "end": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w002",
+      "term": {
+        "zh-Hant": "諭",
+        "zh-Hans": "谕"
+      },
+      "definition": {
+        "zh-Hant": "勸告、使人明白，見小序。",
+        "zh-Hans": "劝告、使人明白，见小序。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 33,
+            "end": 34
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "preface",
+            "line_id": null,
+            "start": 33,
+            "end": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w003",
+      "term": {
+        "zh-Hant": "椽",
+        "zh-Hans": "椽"
+      },
+      "definition": {
+        "zh-Hant": "承託屋頂的木條。",
+        "zh-Hans": "承托屋顶的木条。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l003",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l003",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w004",
+      "term": {
+        "zh-Hant": "索食",
+        "zh-Hans": "索食"
+      },
+      "definition": {
+        "zh-Hant": "討食。",
+        "zh-Hans": "讨食。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w005",
+      "term": {
+        "zh-Hant": "孜孜",
+        "zh-Hans": "孜孜"
+      },
+      "definition": {
+        "zh-Hant": "不停息的樣子。",
+        "zh-Hans": "不停息的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l006",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l006",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w006",
+      "term": {
+        "zh-Hant": "黃口",
+        "zh-Hans": "黄口"
+      },
+      "definition": {
+        "zh-Hant": "幼鳥，雛鳥的嘴邊呈黃色。",
+        "zh-Hans": "幼鸟，雏鸟的嘴边呈黄色。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w007",
+      "term": {
+        "zh-Hant": "敝",
+        "zh-Hans": "敝"
+      },
+      "definition": {
+        "zh-Hant": "損壞、疲敝。",
+        "zh-Hans": "损坏、疲敝。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l009",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l009",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w008",
+      "term": {
+        "zh-Hant": "須臾",
+        "zh-Hans": "须臾"
+      },
+      "definition": {
+        "zh-Hant": "很短的時間。",
+        "zh-Hans": "很短的时间。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l011",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l011",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w009",
+      "term": {
+        "zh-Hant": "雛",
+        "zh-Hans": "雏"
+      },
+      "definition": {
+        "zh-Hant": "幼鳥。",
+        "zh-Hans": "幼鸟。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l014",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 9,
+            "end": 10
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l014",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 9,
+            "end": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w010",
+      "term": {
+        "zh-Hant": "啁啾",
+        "zh-Hans": "啁啾"
+      },
+      "definition": {
+        "zh-Hant": "鳥鳴聲。",
+        "zh-Hans": "鸟鸣声。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l024",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l024",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks3-11a-w011",
+      "term": {
+        "zh-Hant": "爾",
+        "zh-Hans": "尔"
+      },
+      "definition": {
+        "zh-Hant": "你。",
+        "zh-Hans": "你。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l025",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 7,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l029",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l025",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l026",
+            "start": 7,
+            "end": 8
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks3-11a-l029",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "詩前小序單獨保存在preface字段，正文為全詩。",
+      "zh-Hans": "诗前小序单独保存在preface字段，正文为全诗。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第3學習階段建議篇章",
+        "zh-Hans": "香港教育局第3学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage3.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 燕詩原文",
+        "zh-Hans": "香港教育局 · 燕诗原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11a_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "d389fa6a64dc1cb19073f977da1d39dae40082534744c9b811a819c85c814d15"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

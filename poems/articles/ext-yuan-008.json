@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-yuan-008",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "塞鴻秋·潯陽即景",
+    "zh-Hans": "塞鸿秋·浔阳即景"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-ce6e836706c0",
+  "author_file": "../author/author-ce6e836706c0.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-ce6e836706c0",
+    "name": {
+      "zh-Hant": "周德清",
+      "zh-Hans": "周德清"
+    },
+    "catalog_name": {
+      "zh-Hant": "周德清",
+      "zh-Hans": "周德清"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代散曲家、音韻學家，著有《中原音韻》。",
+        "zh-Hans": "元代散曲家、音韵学家，著有《中原音韵》。"
+      },
+      "full": {
+        "zh-Hant": "周德清（1277—1365），號挺齋，江西高安人，元代散曲作家和音韻學家。他熟悉北曲的語言與音樂，所著《中原音韻》整理當時曲韻，並討論作曲方法，對戲曲創作和漢語音韻研究影響很大。其散曲講究聲律，也善於把眼前景物組織成鮮明畫面。《塞鴻秋·潯陽即景》接連使用白練、藍靛、飛箭等比喻，展現江山遠近與動靜。讀這類作品，可以同時關注畫面結構和語音節奏。",
+        "zh-Hans": "周德清（1277—1365），号挺斋，江西高安人，元代散曲作家和音韵学家。他熟悉北曲的语言与音乐，所著《中原音韵》整理当时曲韵，并讨论作曲方法，对戏曲创作和汉语音韵研究影响很大。其散曲讲究声律，也善于把眼前景物组织成鲜明画面。《塞鸿秋·浔阳即景》接连使用白练、蓝靛、飞箭等比喻，展现江山远近与动静。读这类作品，可以同时关注画面结构和语音节奏。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "周德清文獻資料",
+          "zh-Hans": "周德清文献资料"
+        },
+        "url": "https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8E%9F%E9%9F%B3%E9%9F%BB",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "長江萬里白如練，淮山數點青如澱。江帆幾片疾如箭，山泉千尺飛如電。晚雲都變露，新月初學扇，塞鴻一字來如線。",
+    "zh-Hans": "长江万里白如练，淮山数点青如淀。江帆几片疾如箭，山泉千尺飞如电。晚云都变露，新月初学扇，塞鸿一字来如线。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-yuan-008-l001",
+      "text": {
+        "zh-Hant": "長江萬里白如練，",
+        "zh-Hans": "长江万里白如练，"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l002",
+      "text": {
+        "zh-Hant": "淮山數點青如澱。",
+        "zh-Hans": "淮山数点青如淀。"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l003",
+      "text": {
+        "zh-Hant": "江帆幾片疾如箭，",
+        "zh-Hans": "江帆几片疾如箭，"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l004",
+      "text": {
+        "zh-Hant": "山泉千尺飛如電。",
+        "zh-Hans": "山泉千尺飞如电。"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l005",
+      "text": {
+        "zh-Hant": "晚雲都變露，",
+        "zh-Hans": "晚云都变露，"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l006",
+      "text": {
+        "zh-Hant": "新月初學扇，",
+        "zh-Hans": "新月初学扇，"
+      }
+    },
+    {
+      "id": "ext-yuan-008-l007",
+      "text": {
+        "zh-Hant": "塞鴻一字來如線。",
+        "zh-Hans": "塞鸿一字来如线。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-yuan-008-w001",
+      "term": {
+        "zh-Hant": "練",
+        "zh-Hans": "练"
+      },
+      "definition": {
+        "zh-Hant": "白色熟絹。",
+        "zh-Hans": "白色熟绢。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l001",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l001",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-008-w002",
+      "term": {
+        "zh-Hant": "澱",
+        "zh-Hans": "淀"
+      },
+      "definition": {
+        "zh-Hant": "藍靛，深藍色染料。",
+        "zh-Hans": "蓝靛，深蓝色染料。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l002",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l002",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-008-w003",
+      "term": {
+        "zh-Hant": "疾",
+        "zh-Hans": "疾"
+      },
+      "definition": {
+        "zh-Hant": "快。",
+        "zh-Hans": "快。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l003",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l003",
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-008-w004",
+      "term": {
+        "zh-Hant": "新月",
+        "zh-Hans": "新月"
+      },
+      "definition": {
+        "zh-Hant": "初升的彎月。",
+        "zh-Hans": "初升的弯月。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l006",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l006",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-008-w005",
+      "term": {
+        "zh-Hant": "塞鴻",
+        "zh-Hans": "塞鸿"
+      },
+      "definition": {
+        "zh-Hant": "塞外飛來的大雁。",
+        "zh-Hans": "塞外飞来的大雁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l007",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 0,
+            "end": 2
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-008-l007",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "從合併條目中拆出第一首，保留底本的晚雲都變露句。",
+      "zh-Hans": "从合并条目中拆出第一首，保留底本的晚云都变露句。"
+    },
+    {
+      "zh-Hant": "保留底本“晚雲都變露”，另有“晚雲都變絮”版本。",
+      "zh-Hans": "保留底本“晚云都变露”，另有“晚云都变絮”版本。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 元曲/yuanqu.json",
+        "zh-Hans": "中华古诗词数据库 · 元曲/yuanqu.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%83%E6%9B%B2/yuanqu.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "c2be37d2349cec99ec7f2d7c4107eb08bbb3ac869221db24531c8ffed2a88b12",
+      "record_locator": {
+        "index_zero_based": "9768"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

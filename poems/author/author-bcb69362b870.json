@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-bcb69362b870",
+  "name": {
+    "zh-Hant": "晏幾道",
+    "zh-Hans": "晏几道"
+  },
+  "catalog_name": {
+    "zh-Hant": "晏幾道",
+    "zh-Hans": "晏几道"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "北宋詞人，號小山，擅長細膩含蓄的小令。",
+      "zh-Hans": "北宋词人，号小山，擅长细腻含蓄的小令。"
+    },
+    "full": {
+      "zh-Hant": "晏幾道，字叔原，號小山，北宋詞人，晏殊之子，生卒年有不同考訂。他出身官宦家庭，後來經歷家道變化，仕途並不顯達。其詞多追憶往事、抒寫離情，擅長把夢境與現實、歡聚與失落交錯表現，語言精緻而情感深切，詞集稱《小山詞》。《臨江仙》《鷓鴣天》等名篇常從燈下、歌席、簾幕和落花切入，閲讀時可留意記憶如何使眼前一幕帶上過去的重量。",
+      "zh-Hans": "晏几道，字叔原，号小山，北宋词人，晏殊之子，生卒年有不同考订。他出身官宦家庭，后来经历家道变化，仕途并不显达。其词多追忆往事、抒写离情，擅长把梦境与现实、欢聚与失落交错表现，语言精致而情感深切，词集称《小山词》。《临江仙》《鹧鸪天》等名篇常从灯下、歌席、帘幕和落花切入，阅读时可留意记忆如何使眼前一幕带上过去的重量。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+      "record_locator": {
+        "index_zero_based": 19
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

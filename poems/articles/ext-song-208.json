@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-208",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "水龍吟·登建康賞心亭",
+    "zh-Hans": "水龙吟·登建康赏心亭"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-62356e8ef529",
+  "author_file": "../author/author-62356e8ef529.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-62356e8ef529",
+    "name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "catalog_name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人，號稼軒，作品豪邁，常抒報國壯志與人生感慨。",
+        "zh-Hans": "南宋词人，号稼轩，作品豪迈，常抒报国壮志与人生感慨。"
+      },
+      "full": {
+        "zh-Hant": "辛棄疾（1140—1207），字幼安，號稼軒，歷城人，南宋詞人。他年輕時參加抗金活動，南歸後歷任地方官，也長期閒居江西，始終關注恢復中原。詞作題材廣泛，既有沉雄的報國之思，也有鄉村生活和細膩情感，善用典故，傳有《稼軒長短句》。《水龍吟》《永遇樂》把登臨、懷古與現實願望連接起來，《青玉案·元夕》則以繁華燈市襯托獨特人物形象，體現多樣藝術能力。",
+        "zh-Hans": "辛弃疾（1140—1207），字幼安，号稼轩，历城人，南宋词人。他年轻时参加抗金活动，南归后历任地方官，也长期闲居江西，始终关注恢复中原。词作题材广泛，既有沉雄的报国之思，也有乡村生活和细腻情感，善用典故，传有《稼轩长短句》。《水龙吟》《永遇乐》把登临、怀古与现实愿望连接起来，《青玉案·元夕》则以繁华灯市衬托独特人物形象，体现多样艺术能力。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 青玉案·元夕賞析",
+          "zh-Hans": "香港教育局 · 青玉案·元夕赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "楚天千里清秋，水隨天去秋無際。遙岑遠目，獻愁供恨，玉簪螺髻。落日樓頭，斷鴻聲裏，江南遊子。把吳鈎看了，欄干拍遍，無人會、登臨意。休説鱸魚堪膾。盡西風、季鷹歸未。求田問舍，怕應羞見，劉郎才氣。可惜流年，憂愁風雨，樹猶如此。倩何人，喚取紅巾翠袖，揾英雄淚。",
+    "zh-Hans": "楚天千里清秋，水随天去秋无际。遥岑远目，献愁供恨，玉簪螺髻。落日楼头，断鸿声里，江南游子。把吴钩看了，栏干拍遍，无人会、登临意。休说鲈鱼堪脍。尽西风、季鹰归未。求田问舍，怕应羞见，刘郎才气。可惜流年，忧愁风雨，树犹如此。倩何人，唤取红巾翠袖，揾英雄泪。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-208-l001",
+      "text": {
+        "zh-Hant": "楚天千里清秋，",
+        "zh-Hans": "楚天千里清秋，"
+      }
+    },
+    {
+      "id": "ext-song-208-l002",
+      "text": {
+        "zh-Hant": "水隨天去秋無際。",
+        "zh-Hans": "水随天去秋无际。"
+      }
+    },
+    {
+      "id": "ext-song-208-l003",
+      "text": {
+        "zh-Hant": "遙岑遠目，",
+        "zh-Hans": "遥岑远目，"
+      }
+    },
+    {
+      "id": "ext-song-208-l004",
+      "text": {
+        "zh-Hant": "獻愁供恨，",
+        "zh-Hans": "献愁供恨，"
+      }
+    },
+    {
+      "id": "ext-song-208-l005",
+      "text": {
+        "zh-Hant": "玉簪螺髻。",
+        "zh-Hans": "玉簪螺髻。"
+      }
+    },
+    {
+      "id": "ext-song-208-l006",
+      "text": {
+        "zh-Hant": "落日樓頭，",
+        "zh-Hans": "落日楼头，"
+      }
+    },
+    {
+      "id": "ext-song-208-l007",
+      "text": {
+        "zh-Hant": "斷鴻聲裏，",
+        "zh-Hans": "断鸿声里，"
+      }
+    },
+    {
+      "id": "ext-song-208-l008",
+      "text": {
+        "zh-Hant": "江南遊子。",
+        "zh-Hans": "江南游子。"
+      }
+    },
+    {
+      "id": "ext-song-208-l009",
+      "text": {
+        "zh-Hant": "把吳鈎看了，",
+        "zh-Hans": "把吴钩看了，"
+      }
+    },
+    {
+      "id": "ext-song-208-l010",
+      "text": {
+        "zh-Hant": "欄干拍遍，",
+        "zh-Hans": "栏干拍遍，"
+      }
+    },
+    {
+      "id": "ext-song-208-l011",
+      "text": {
+        "zh-Hant": "無人會、登臨意。",
+        "zh-Hans": "无人会、登临意。"
+      }
+    },
+    {
+      "id": "ext-song-208-l012",
+      "text": {
+        "zh-Hant": "休説鱸魚堪膾。",
+        "zh-Hans": "休说鲈鱼堪脍。"
+      }
+    },
+    {
+      "id": "ext-song-208-l013",
+      "text": {
+        "zh-Hant": "盡西風、季鷹歸未。",
+        "zh-Hans": "尽西风、季鹰归未。"
+      }
+    },
+    {
+      "id": "ext-song-208-l014",
+      "text": {
+        "zh-Hant": "求田問舍，",
+        "zh-Hans": "求田问舍，"
+      }
+    },
+    {
+      "id": "ext-song-208-l015",
+      "text": {
+        "zh-Hant": "怕應羞見，",
+        "zh-Hans": "怕应羞见，"
+      }
+    },
+    {
+      "id": "ext-song-208-l016",
+      "text": {
+        "zh-Hant": "劉郎才氣。",
+        "zh-Hans": "刘郎才气。"
+      }
+    },
+    {
+      "id": "ext-song-208-l017",
+      "text": {
+        "zh-Hant": "可惜流年，",
+        "zh-Hans": "可惜流年，"
+      }
+    },
+    {
+      "id": "ext-song-208-l018",
+      "text": {
+        "zh-Hant": "憂愁風雨，",
+        "zh-Hans": "忧愁风雨，"
+      }
+    },
+    {
+      "id": "ext-song-208-l019",
+      "text": {
+        "zh-Hant": "樹猶如此。",
+        "zh-Hans": "树犹如此。"
+      }
+    },
+    {
+      "id": "ext-song-208-l020",
+      "text": {
+        "zh-Hant": "倩何人，",
+        "zh-Hans": "倩何人，"
+      }
+    },
+    {
+      "id": "ext-song-208-l021",
+      "text": {
+        "zh-Hant": "喚取紅巾翠袖，",
+        "zh-Hans": "唤取红巾翠袖，"
+      }
+    },
+    {
+      "id": "ext-song-208-l022",
+      "text": {
+        "zh-Hant": "揾英雄淚。",
+        "zh-Hans": "揾英雄泪。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-208-w001",
+      "term": {
+        "zh-Hant": "遙岑",
+        "zh-Hans": "遥岑"
+      },
+      "definition": {
+        "zh-Hant": "遠山。",
+        "zh-Hans": "远山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w002",
+      "term": {
+        "zh-Hant": "玉簪螺髻",
+        "zh-Hans": "玉簪螺髻"
+      },
+      "definition": {
+        "zh-Hant": "用玉簪和螺旋髮髻比喻遠山。",
+        "zh-Hans": "用玉簪和螺旋发髻比喻远山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l005",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l005",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w003",
+      "term": {
+        "zh-Hant": "吳鈎",
+        "zh-Hans": "吴钩"
+      },
+      "definition": {
+        "zh-Hant": "古代吳地所產的一種彎刀。",
+        "zh-Hans": "古代吴地所产的一种弯刀。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l009",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l009",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w004",
+      "term": {
+        "zh-Hant": "季鷹",
+        "zh-Hans": "季鹰"
+      },
+      "definition": {
+        "zh-Hant": "張翰的字，用其思歸典故。",
+        "zh-Hans": "张翰的字，用其思归典故。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l013",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l013",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w005",
+      "term": {
+        "zh-Hant": "求田問舍",
+        "zh-Hans": "求田问舍"
+      },
+      "definition": {
+        "zh-Hant": "只顧置辦田產房屋。",
+        "zh-Hans": "只顾置办田产房屋。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l014",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l014",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w006",
+      "term": {
+        "zh-Hant": "倩",
+        "zh-Hans": "倩"
+      },
+      "definition": {
+        "zh-Hant": "請。",
+        "zh-Hans": "请。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l020",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l020",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-208-w007",
+      "term": {
+        "zh-Hant": "揾",
+        "zh-Hans": "揾"
+      },
+      "definition": {
+        "zh-Hant": "擦拭。",
+        "zh-Hans": "擦拭。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l022",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-208-l022",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "原數據“鱸魚堪”及結句有脱誤，據清華大學出版社所載篇章及中華詩詞網補正“膾”“紅巾翠袖”“揾”。",
+      "zh-Hans": "原数据“鲈鱼堪”及结句有脱误，据清华大学出版社所载篇章及中华诗词网补正“脍”“红巾翠袖”“揾”。"
+    },
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "鱸魚堪。",
+      "to": "鱸魚堪膾。"
+    },
+    {
+      "from": "喚取盈盈翠袖，英雄淚。",
+      "to": "喚取紅巾翠袖，揾英雄淚。"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 208
+      }
+    },
+    {
+      "kind": "text_correction",
+      "label": {
+        "zh-Hant": "水龍吟·登建康賞心亭校對參考",
+        "zh-Hans": "水龙吟·登建康赏心亭校对参考"
+      },
+      "url": "https://www.zhsc.org/work/work-b51fcc0217de05fb2b8fabe1c843c9c5.htm",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text_correction",
+      "label": {
+        "zh-Hant": "清華大學出版社 · 水龍吟教學篇章",
+        "zh-Hans": "清华大学出版社 · 水龙吟教学篇章"
+      },
+      "url": "https://www.tup.com.cn/upload/books/yz/074376-01.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

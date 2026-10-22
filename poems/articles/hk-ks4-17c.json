@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-17c",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "青玉案·元夕",
+    "zh-Hans": "青玉案·元夕"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-62356e8ef529",
+  "author_file": "../author/author-62356e8ef529.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-62356e8ef529",
+    "name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "catalog_name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人，號稼軒，作品豪邁，常抒報國壯志與人生感慨。",
+        "zh-Hans": "南宋词人，号稼轩，作品豪迈，常抒报国壮志与人生感慨。"
+      },
+      "full": {
+        "zh-Hant": "辛棄疾（1140—1207），字幼安，號稼軒，歷城人，南宋詞人。他年輕時參加抗金活動，南歸後歷任地方官，也長期閒居江西，始終關注恢復中原。詞作題材廣泛，既有沉雄的報國之思，也有鄉村生活和細膩情感，善用典故，傳有《稼軒長短句》。《水龍吟》《永遇樂》把登臨、懷古與現實願望連接起來，《青玉案·元夕》則以繁華燈市襯托獨特人物形象，體現多樣藝術能力。",
+        "zh-Hans": "辛弃疾（1140—1207），字幼安，号稼轩，历城人，南宋词人。他年轻时参加抗金活动，南归后历任地方官，也长期闲居江西，始终关注恢复中原。词作题材广泛，既有沉雄的报国之思，也有乡村生活和细腻情感，善用典故，传有《稼轩长短句》。《水龙吟》《永遇乐》把登临、怀古与现实愿望连接起来，《青玉案·元夕》则以繁华灯市衬托独特人物形象，体现多样艺术能力。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 青玉案·元夕賞析",
+          "zh-Hans": "香港教育局 · 青玉案·元夕赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "東風夜放花千樹，更吹落、星如雨。寶馬雕車香滿路。鳳簫聲動，玉壺光轉，一夜魚龍舞。蛾兒雪柳黃金縷，笑語盈盈暗香去。眾裏尋他千百度；驀然迴首，那人卻在、燈火闌珊處。",
+    "zh-Hans": "东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度；蓦然回首，那人却在、灯火阑珊处。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-17c-l001",
+      "text": {
+        "zh-Hant": "東風夜放花千樹，",
+        "zh-Hans": "东风夜放花千树，"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l002",
+      "text": {
+        "zh-Hant": "更吹落、星如雨。",
+        "zh-Hans": "更吹落、星如雨。"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l003",
+      "text": {
+        "zh-Hant": "寶馬雕車香滿路。",
+        "zh-Hans": "宝马雕车香满路。"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l004",
+      "text": {
+        "zh-Hant": "鳳簫聲動，",
+        "zh-Hans": "凤箫声动，"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l005",
+      "text": {
+        "zh-Hant": "玉壺光轉，",
+        "zh-Hans": "玉壶光转，"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l006",
+      "text": {
+        "zh-Hant": "一夜魚龍舞。",
+        "zh-Hans": "一夜鱼龙舞。"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l007",
+      "text": {
+        "zh-Hant": "蛾兒雪柳黃金縷，",
+        "zh-Hans": "蛾儿雪柳黄金缕，"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l008",
+      "text": {
+        "zh-Hant": "笑語盈盈暗香去。",
+        "zh-Hans": "笑语盈盈暗香去。"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l009",
+      "text": {
+        "zh-Hant": "眾裏尋他千百度；",
+        "zh-Hans": "众里寻他千百度；"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l010",
+      "text": {
+        "zh-Hant": "驀然迴首，",
+        "zh-Hans": "蓦然回首，"
+      }
+    },
+    {
+      "id": "hk-ks4-17c-l011",
+      "text": {
+        "zh-Hant": "那人卻在、燈火闌珊處。",
+        "zh-Hans": "那人却在、灯火阑珊处。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-17c-w001",
+      "term": {
+        "zh-Hant": "元夕",
+        "zh-Hans": "元夕"
+      },
+      "definition": {
+        "zh-Hant": "農曆正月十五元宵夜，見題目。",
+        "zh-Hans": "农历正月十五元宵夜，见题目。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w002",
+      "term": {
+        "zh-Hant": "花千樹",
+        "zh-Hans": "花千树"
+      },
+      "definition": {
+        "zh-Hant": "燈火或焰火像千樹繁花。",
+        "zh-Hans": "灯火或焰火像千树繁花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l001",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l001",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w003",
+      "term": {
+        "zh-Hant": "玉壺",
+        "zh-Hans": "玉壶"
+      },
+      "definition": {
+        "zh-Hant": "喻明月，亦有指燈的解釋。",
+        "zh-Hans": "喻明月，亦有指灯的解释。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w004",
+      "term": {
+        "zh-Hant": "魚龍舞",
+        "zh-Hans": "鱼龙舞"
+      },
+      "definition": {
+        "zh-Hant": "魚形、龍形彩燈舞動。",
+        "zh-Hans": "鱼形、龙形彩灯舞动。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l006",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l006",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w005",
+      "term": {
+        "zh-Hant": "蛾兒雪柳",
+        "zh-Hans": "蛾儿雪柳"
+      },
+      "definition": {
+        "zh-Hant": "元宵時婦女佩戴的裝飾物。",
+        "zh-Hans": "元宵时妇女佩戴的装饰物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l007",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l007",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w006",
+      "term": {
+        "zh-Hant": "驀然",
+        "zh-Hans": "蓦然"
+      },
+      "definition": {
+        "zh-Hant": "忽然。",
+        "zh-Hans": "忽然。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l010",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l010",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17c-w007",
+      "term": {
+        "zh-Hant": "闌珊",
+        "zh-Hans": "阑珊"
+      },
+      "definition": {
+        "zh-Hant": "稀疏、將盡。",
+        "zh-Hans": "稀疏、将尽。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l011",
+            "start": 7,
+            "end": 9
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17c-l011",
+            "start": 7,
+            "end": 9
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留教育局“眾裏尋他”中的他，不改成她。",
+      "zh-Hans": "保留教育局“众里寻他”中的他，不改成她。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 青玉案·元夕原文",
+        "zh-Hans": "香港教育局 · 青玉案·元夕原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17c_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "33291c1c87d64610cf4999d2b107845bd68fd6ac45eccaee14d3f6ea05415f95"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 青玉案·元夕賞析",
+        "zh-Hans": "香港教育局 · 青玉案·元夕赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

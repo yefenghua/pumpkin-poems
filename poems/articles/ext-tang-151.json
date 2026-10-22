@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-151",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "黃鶴樓",
+    "zh-Hans": "黄鹤楼"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言律詩",
+    "zh-Hans": "七言律诗"
+  },
+  "author_id": "author-33146aa384df",
+  "author_file": "../author/author-33146aa384df.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-33146aa384df",
+    "name": {
+      "zh-Hant": "崔顥",
+      "zh-Hans": "崔颢"
+    },
+    "catalog_name": {
+      "zh-Hant": "崔顥",
+      "zh-Hans": "崔颢"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，以《黃鶴樓》聞名。",
+        "zh-Hans": "唐代诗人，以《黄鹤楼》闻名。"
+      },
+      "full": {
+        "zh-Hant": "崔顥，汴州人，唐代詩人，卒於754年，生年不詳，曾登進士第並任官。他的作品有閨情、邊塞和山水等題材，風格並非單一。《黃鶴樓》把仙人傳説、江城景色與日暮鄉愁連在一起，前半舒展，後半對仗整飭，是七言律詩的名篇。《長干曲》又以對話寫水鄉人物，顯得明快自然。後世關於李白擱筆的故事有文學傳播色彩，賞詩時宜以作品本身的語言與結構為主要依據。",
+        "zh-Hans": "崔颢，汴州人，唐代诗人，卒于754年，生年不详，曾登进士第并任官。他的作品有闺情、边塞和山水等题材，风格并非单一。《黄鹤楼》把仙人传说、江城景色与日暮乡愁连在一起，前半舒展，后半对仗整饬，是七言律诗的名篇。《长干曲》又以对话写水乡人物，显得明快自然。后世关于李白搁笔的故事有文学传播色彩，赏诗时宜以作品本身的语言与结构为主要依据。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 157
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "昔人已乘白雲去，此地空餘黃鶴樓。黃鶴一去不復返，白雲千載空悠悠。晴川歷歷漢陽樹，春草萋萋鸚鵡洲。日暮鄉關何處是，煙波江上使人愁。",
+    "zh-Hans": "昔人已乘白云去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。晴川历历汉阳树，春草萋萋鹦鹉洲。日暮乡关何处是，烟波江上使人愁。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-151-l001",
+      "text": {
+        "zh-Hant": "昔人已乘白雲去，",
+        "zh-Hans": "昔人已乘白云去，"
+      }
+    },
+    {
+      "id": "ext-tang-151-l002",
+      "text": {
+        "zh-Hant": "此地空餘黃鶴樓。",
+        "zh-Hans": "此地空余黄鹤楼。"
+      }
+    },
+    {
+      "id": "ext-tang-151-l003",
+      "text": {
+        "zh-Hant": "黃鶴一去不復返，",
+        "zh-Hans": "黄鹤一去不复返，"
+      }
+    },
+    {
+      "id": "ext-tang-151-l004",
+      "text": {
+        "zh-Hant": "白雲千載空悠悠。",
+        "zh-Hans": "白云千载空悠悠。"
+      }
+    },
+    {
+      "id": "ext-tang-151-l005",
+      "text": {
+        "zh-Hant": "晴川歷歷漢陽樹，",
+        "zh-Hans": "晴川历历汉阳树，"
+      }
+    },
+    {
+      "id": "ext-tang-151-l006",
+      "text": {
+        "zh-Hant": "春草萋萋鸚鵡洲。",
+        "zh-Hans": "春草萋萋鹦鹉洲。"
+      }
+    },
+    {
+      "id": "ext-tang-151-l007",
+      "text": {
+        "zh-Hant": "日暮鄉關何處是，",
+        "zh-Hans": "日暮乡关何处是，"
+      }
+    },
+    {
+      "id": "ext-tang-151-l008",
+      "text": {
+        "zh-Hant": "煙波江上使人愁。",
+        "zh-Hans": "烟波江上使人愁。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-151-w001",
+      "term": {
+        "zh-Hant": "昔人",
+        "zh-Hans": "昔人"
+      },
+      "definition": {
+        "zh-Hant": "從前的人，此處指傳説中的仙人。",
+        "zh-Hans": "从前的人，此处指传说中的仙人。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-151-w002",
+      "term": {
+        "zh-Hant": "悠悠",
+        "zh-Hans": "悠悠"
+      },
+      "definition": {
+        "zh-Hant": "飄蕩、綿延的樣子。",
+        "zh-Hans": "飘荡、绵延的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-151-w003",
+      "term": {
+        "zh-Hant": "晴川",
+        "zh-Hans": "晴川"
+      },
+      "definition": {
+        "zh-Hant": "晴光下的平野。",
+        "zh-Hans": "晴光下的平野。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l005",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l005",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-151-w004",
+      "term": {
+        "zh-Hant": "歷歷",
+        "zh-Hans": "历历"
+      },
+      "definition": {
+        "zh-Hant": "清楚分明。",
+        "zh-Hans": "清楚分明。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l005",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l005",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-151-w005",
+      "term": {
+        "zh-Hant": "萋萋",
+        "zh-Hans": "萋萋"
+      },
+      "definition": {
+        "zh-Hant": "草木茂盛。",
+        "zh-Hans": "草木茂盛。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-151-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留底本“昔人已乘白雲去”“春草萋萋”；另有“黃鶴去”“芳草萋萋”版本。",
+      "zh-Hans": "保留底本“昔人已乘白云去”“春草萋萋”；另有“黄鹤去”“芳草萋萋”版本。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 151
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

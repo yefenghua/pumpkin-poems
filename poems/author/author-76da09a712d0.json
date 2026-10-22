@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-76da09a712d0",
+  "name": {
+    "zh-Hant": "張繼",
+    "zh-Hans": "张继"
+  },
+  "catalog_name": {
+    "zh-Hant": "張繼",
+    "zh-Hans": "张继"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，《楓橋夜泊》是其代表作。",
+      "zh-Hans": "唐代诗人，《枫桥夜泊》是其代表作。"
+    },
+    "full": {
+      "zh-Hant": "張繼，字懿孫，唐代詩人，生卒年未能確考，曾登進士第並任官。他傳世作品數量不多，題材包括行旅、送別與寫景。《楓橋夜泊》寫夜泊蘇州附近的感受，以落月、烏啼、漁火和寺鐘組成富於聲音與光影的畫面，流傳尤其廣泛。詩中景物與愁緒相互映照，不能把每個意象都當作作者一生經歷的直接證據。學習此詩可從夜間所見、所聞及旅人的心情三方面理解。",
+      "zh-Hans": "张继，字懿孙，唐代诗人，生卒年未能确考，曾登进士第并任官。他传世作品数量不多，题材包括行旅、送别与写景。《枫桥夜泊》写夜泊苏州附近的感受，以落月、乌啼、渔火和寺钟组成富于声音与光影的画面，流传尤其广泛。诗中景物与愁绪相互映照，不能把每个意象都当作作者一生经历的直接证据。学习此诗可从夜间所见、所闻及旅人的心情三方面理解。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 楓橋夜泊賞析",
+        "zh-Hans": "香港教育局 · 枫桥夜泊赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_12.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

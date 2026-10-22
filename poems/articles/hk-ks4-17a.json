@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks4-17a",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "念奴嬌·赤壁懷古",
+    "zh-Hans": "念奴娇·赤壁怀古"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      4
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "大江東去，浪淘盡、千古風流人物。故壘西邊，人道是、三國周郎赤壁。亂石穿空，驚濤拍岸，捲起千堆雪。江山如畫，一時多少豪傑！遙想公瑾當年，小喬初嫁了，雄姿英發。羽扇綸巾，談笑間、檣櫓灰飛煙滅。故國神遊，多情應笑我，早生華髮。人間如夢，一尊還酹江月。",
+    "zh-Hans": "大江东去，浪淘尽、千古风流人物。故垒西边，人道是、三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰！遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间、樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人间如梦，一尊还酹江月。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks4-17a-l001",
+      "text": {
+        "zh-Hant": "大江東去，",
+        "zh-Hans": "大江东去，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l002",
+      "text": {
+        "zh-Hant": "浪淘盡、千古風流人物。",
+        "zh-Hans": "浪淘尽、千古风流人物。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l003",
+      "text": {
+        "zh-Hant": "故壘西邊，",
+        "zh-Hans": "故垒西边，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l004",
+      "text": {
+        "zh-Hant": "人道是、三國周郎赤壁。",
+        "zh-Hans": "人道是、三国周郎赤壁。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l005",
+      "text": {
+        "zh-Hant": "亂石穿空，",
+        "zh-Hans": "乱石穿空，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l006",
+      "text": {
+        "zh-Hant": "驚濤拍岸，",
+        "zh-Hans": "惊涛拍岸，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l007",
+      "text": {
+        "zh-Hant": "捲起千堆雪。",
+        "zh-Hans": "卷起千堆雪。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l008",
+      "text": {
+        "zh-Hant": "江山如畫，",
+        "zh-Hans": "江山如画，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l009",
+      "text": {
+        "zh-Hant": "一時多少豪傑！",
+        "zh-Hans": "一时多少豪杰！"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l010",
+      "text": {
+        "zh-Hant": "遙想公瑾當年，",
+        "zh-Hans": "遥想公瑾当年，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l011",
+      "text": {
+        "zh-Hant": "小喬初嫁了，",
+        "zh-Hans": "小乔初嫁了，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l012",
+      "text": {
+        "zh-Hant": "雄姿英發。",
+        "zh-Hans": "雄姿英发。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l013",
+      "text": {
+        "zh-Hant": "羽扇綸巾，",
+        "zh-Hans": "羽扇纶巾，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l014",
+      "text": {
+        "zh-Hant": "談笑間、檣櫓灰飛煙滅。",
+        "zh-Hans": "谈笑间、樯橹灰飞烟灭。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l015",
+      "text": {
+        "zh-Hant": "故國神遊，",
+        "zh-Hans": "故国神游，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l016",
+      "text": {
+        "zh-Hant": "多情應笑我，",
+        "zh-Hans": "多情应笑我，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l017",
+      "text": {
+        "zh-Hant": "早生華髮。",
+        "zh-Hans": "早生华发。"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l018",
+      "text": {
+        "zh-Hant": "人間如夢，",
+        "zh-Hans": "人间如梦，"
+      }
+    },
+    {
+      "id": "hk-ks4-17a-l019",
+      "text": {
+        "zh-Hant": "一尊還酹江月。",
+        "zh-Hans": "一尊还酹江月。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks4-17a-w001",
+      "term": {
+        "zh-Hant": "淘盡",
+        "zh-Hans": "淘尽"
+      },
+      "definition": {
+        "zh-Hant": "沖洗乾淨，喻歷史使人物消逝。",
+        "zh-Hans": "冲洗干净，喻历史使人物消逝。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l002",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l002",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w002",
+      "term": {
+        "zh-Hant": "風流人物",
+        "zh-Hans": "风流人物"
+      },
+      "definition": {
+        "zh-Hant": "有傑出才幹、功業的人物。",
+        "zh-Hans": "有杰出才干、功业的人物。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l002",
+            "start": 6,
+            "end": 10
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l002",
+            "start": 6,
+            "end": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w003",
+      "term": {
+        "zh-Hant": "周郎",
+        "zh-Hans": "周郎"
+      },
+      "definition": {
+        "zh-Hant": "周瑜。",
+        "zh-Hans": "周瑜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l004",
+            "start": 6,
+            "end": 8
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l004",
+            "start": 6,
+            "end": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w004",
+      "term": {
+        "zh-Hant": "千堆雪",
+        "zh-Hans": "千堆雪"
+      },
+      "definition": {
+        "zh-Hant": "比喻翻起的白色浪花。",
+        "zh-Hans": "比喻翻起的白色浪花。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l007",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l007",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w005",
+      "term": {
+        "zh-Hant": "公瑾",
+        "zh-Hans": "公瑾"
+      },
+      "definition": {
+        "zh-Hant": "周瑜的字。",
+        "zh-Hans": "周瑜的字。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w006",
+      "term": {
+        "zh-Hant": "綸巾",
+        "zh-Hans": "纶巾"
+      },
+      "definition": {
+        "zh-Hant": "古代的一種絲質頭巾。",
+        "zh-Hans": "古代的一种丝质头巾。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l013",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l013",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w007",
+      "term": {
+        "zh-Hant": "檣櫓",
+        "zh-Hans": "樯橹"
+      },
+      "definition": {
+        "zh-Hant": "桅杆和船槳，借指戰船。",
+        "zh-Hans": "桅杆和船桨，借指战船。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l014",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l014",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w008",
+      "term": {
+        "zh-Hant": "華髮",
+        "zh-Hans": "华发"
+      },
+      "definition": {
+        "zh-Hant": "花白的頭髮。",
+        "zh-Hans": "花白的头发。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l017",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l017",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks4-17a-w009",
+      "term": {
+        "zh-Hant": "酹",
+        "zh-Hans": "酹"
+      },
+      "definition": {
+        "zh-Hant": "把酒灑在地上或水中以祭奠。",
+        "zh-Hans": "把酒洒在地上或水中以祭奠。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l019",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks4-17a-l019",
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "保留教育局“檣櫓”“人間如夢”，不改作另本的“強虜”“人生如夢”。",
+      "zh-Hans": "保留教育局“樯橹”“人间如梦”，不改作另本的“强虏”“人生如梦”。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第4學習階段建議篇章",
+        "zh-Hans": "香港教育局第4学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage4.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 念奴嬌·赤壁懷古原文",
+        "zh-Hans": "香港教育局 · 念奴娇·赤壁怀古原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17a_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "e5199d6e6d0c8574f2d1089969e2cb293a87c00bf5fbeb821c398771df5cf154"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 念奴嬌·赤壁懷古賞析",
+        "zh-Hans": "香港教育局 · 念奴娇·赤壁怀古赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17a.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

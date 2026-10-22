@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-162",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "清平樂·紅箋小字",
+    "zh-Hans": "清平乐·红笺小字"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-0ebe0ddda38b",
+  "author_file": "../author/author-0ebe0ddda38b.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-0ebe0ddda38b",
+    "name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏殊",
+      "zh-Hans": "晏殊"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋政治家、詞人，以典雅的小令著稱。",
+        "zh-Hans": "北宋政治家、词人，以典雅的小令著称。"
+      },
+      "full": {
+        "zh-Hant": "晏殊（991—1055），字同叔，撫州臨川人，北宋政治家、詞人，少年以才學入仕，後來任宰相。他重視文教，也提攜後進，詞集名《珠玉詞》。其詞多用宴飲、庭院、四季景物寫人生感受，語言圓潤典雅，常在安閒外表中含有惜春和惜時之意。《浣溪沙·一曲新詞酒一杯》將花落與燕歸併置，使無法挽留與彷彿重逢形成迴響，是理解小令如何由景生情的合適例子。",
+        "zh-Hans": "晏殊（991—1055），字同叔，抚州临川人，北宋政治家、词人，少年以才学入仕，后来任宰相。他重视文教，也提携后进，词集名《珠玉词》。其词多用宴饮、庭院、四季景物写人生感受，语言圆润典雅，常在安闲外表中含有惜春和惜时之意。《浣溪沙·一曲新词酒一杯》将花落与燕归并置，使无法挽留与仿佛重逢形成回响，是理解小令如何由景生情的合适例子。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 18
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "紅箋小字。説盡平生意。鴻雁在雲魚在水。惆悵此情難寄。斜陽獨倚西樓。遙山恰對簾鈎。人面不知何處，綠波依舊東流。",
+    "zh-Hans": "红笺小字。说尽平生意。鸿雁在云鱼在水。惆怅此情难寄。斜阳独倚西楼。遥山恰对帘钩。人面不知何处，绿波依旧东流。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-162-l001",
+      "text": {
+        "zh-Hant": "紅箋小字。",
+        "zh-Hans": "红笺小字。"
+      }
+    },
+    {
+      "id": "ext-song-162-l002",
+      "text": {
+        "zh-Hant": "説盡平生意。",
+        "zh-Hans": "说尽平生意。"
+      }
+    },
+    {
+      "id": "ext-song-162-l003",
+      "text": {
+        "zh-Hant": "鴻雁在雲魚在水。",
+        "zh-Hans": "鸿雁在云鱼在水。"
+      }
+    },
+    {
+      "id": "ext-song-162-l004",
+      "text": {
+        "zh-Hant": "惆悵此情難寄。",
+        "zh-Hans": "惆怅此情难寄。"
+      }
+    },
+    {
+      "id": "ext-song-162-l005",
+      "text": {
+        "zh-Hant": "斜陽獨倚西樓。",
+        "zh-Hans": "斜阳独倚西楼。"
+      }
+    },
+    {
+      "id": "ext-song-162-l006",
+      "text": {
+        "zh-Hant": "遙山恰對簾鈎。",
+        "zh-Hans": "遥山恰对帘钩。"
+      }
+    },
+    {
+      "id": "ext-song-162-l007",
+      "text": {
+        "zh-Hant": "人面不知何處，",
+        "zh-Hans": "人面不知何处，"
+      }
+    },
+    {
+      "id": "ext-song-162-l008",
+      "text": {
+        "zh-Hant": "綠波依舊東流。",
+        "zh-Hans": "绿波依旧东流。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-162-w001",
+      "term": {
+        "zh-Hant": "紅箋",
+        "zh-Hans": "红笺"
+      },
+      "definition": {
+        "zh-Hant": "紅色信紙。",
+        "zh-Hans": "红色信纸。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-162-w002",
+      "term": {
+        "zh-Hant": "平生意",
+        "zh-Hans": "平生意"
+      },
+      "definition": {
+        "zh-Hant": "平日深藏的情意。",
+        "zh-Hans": "平日深藏的情意。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l002",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l002",
+            "start": 2,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-162-w003",
+      "term": {
+        "zh-Hant": "鴻雁",
+        "zh-Hans": "鸿雁"
+      },
+      "definition": {
+        "zh-Hant": "大雁，古詩文中常用來象徵傳書。",
+        "zh-Hans": "大雁，古诗文中常用来象征传书。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-162-w004",
+      "term": {
+        "zh-Hant": "惆悵",
+        "zh-Hans": "惆怅"
+      },
+      "definition": {
+        "zh-Hant": "失意、傷感。",
+        "zh-Hans": "失意、伤感。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l004",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-162-l004",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 162
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

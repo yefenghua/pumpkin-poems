@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-128",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "塞下曲·月黑雁飛高",
+    "zh-Hans": "塞下曲·月黑雁飞高"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-968e2dc1b7f3",
+  "author_file": "../author/author-968e2dc1b7f3.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-968e2dc1b7f3",
+    "name": {
+      "zh-Hant": "盧綸",
+      "zh-Hans": "卢纶"
+    },
+    "catalog_name": {
+      "zh-Hant": "盧綸",
+      "zh-Hans": "卢纶"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，大曆十才子之一，邊塞絕句尤其著名。",
+        "zh-Hans": "唐代诗人，大历十才子之一，边塞绝句尤其著名。"
+      },
+      "full": {
+        "zh-Hant": "盧綸，字允言，河中蒲州人，唐代詩人，生卒年有不同説法。他經歷安史之亂後的動盪，曾在官府及軍中任職，與錢起等並稱大曆十才子。作品包含送別、寫景與邊塞題材，短篇往往以動作和場景製造強烈印象。《塞下曲》組詩中的夜射與雪夜追敵兩首，分別運用典故和緊張畫面寫將士。學習時應區分詩歌的藝術誇張、歷史典故與真實戰事記錄，不能直接等同。",
+        "zh-Hans": "卢纶，字允言，河中蒲州人，唐代诗人，生卒年有不同说法。他经历安史之乱后的动荡，曾在官府及军中任职，与钱起等并称大历十才子。作品包含送别、写景与边塞题材，短篇往往以动作和场景制造强烈印象。《塞下曲》组诗中的夜射与雪夜追敌两首，分别运用典故和紧张画面写将士。学习时应区分诗歌的艺术夸张、历史典故与真实战事记录，不能直接等同。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 215
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "月黑雁飛高，單于夜遁逃。欲將輕騎逐，大雪滿弓刀。",
+    "zh-Hans": "月黑雁飞高，单于夜遁逃。欲将轻骑逐，大雪满弓刀。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-128-l001",
+      "text": {
+        "zh-Hant": "月黑雁飛高，",
+        "zh-Hans": "月黑雁飞高，"
+      }
+    },
+    {
+      "id": "ext-tang-128-l002",
+      "text": {
+        "zh-Hant": "單于夜遁逃。",
+        "zh-Hans": "单于夜遁逃。"
+      }
+    },
+    {
+      "id": "ext-tang-128-l003",
+      "text": {
+        "zh-Hant": "欲將輕騎逐，",
+        "zh-Hans": "欲将轻骑逐，"
+      }
+    },
+    {
+      "id": "ext-tang-128-l004",
+      "text": {
+        "zh-Hant": "大雪滿弓刀。",
+        "zh-Hans": "大雪满弓刀。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-128-w001",
+      "term": {
+        "zh-Hant": "月黑",
+        "zh-Hans": "月黑"
+      },
+      "definition": {
+        "zh-Hant": "沒有月光的暗夜。",
+        "zh-Hans": "没有月光的暗夜。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-128-w002",
+      "term": {
+        "zh-Hant": "單于",
+        "zh-Hans": "单于"
+      },
+      "definition": {
+        "zh-Hant": "古代匈奴首領稱號，這裏指敵軍首領。",
+        "zh-Hans": "古代匈奴首领称号，这里指敌军首领。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-128-w003",
+      "term": {
+        "zh-Hant": "遁逃",
+        "zh-Hans": "遁逃"
+      },
+      "definition": {
+        "zh-Hant": "逃走。",
+        "zh-Hans": "逃走。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l002",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l002",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-128-w004",
+      "term": {
+        "zh-Hant": "輕騎",
+        "zh-Hans": "轻骑"
+      },
+      "definition": {
+        "zh-Hant": "輕裝騎兵。",
+        "zh-Hans": "轻装骑兵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-128-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "鴈",
+      "to": "雁"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 128
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

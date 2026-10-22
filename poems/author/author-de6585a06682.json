@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-de6585a06682",
+  "name": {
+    "zh-Hant": "王翰",
+    "zh-Hans": "王翰"
+  },
+  "catalog_name": {
+    "zh-Hant": "王翰",
+    "zh-Hans": "王翰"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，《涼州詞》寫軍中飲酒與征戰人生。",
+      "zh-Hans": "唐代诗人，《凉州词》写军中饮酒与征战人生。"
+    },
+    "full": {
+      "zh-Hant": "王翰，字子羽，并州晉陽人，唐代詩人，生卒年不詳，曾登進士第並任官。史籍記其性情豪放，作品存世不多，而《涼州詞·葡萄美酒夜光杯》尤其著名。詩中美酒、樂聲和戰場並置，既有豪邁語氣，也讓人想到征戰的危險與生命的短暫，理解時可以兼顧這兩層意味。本庫將這首王翰作品列為香港小學core，與王之渙同題的黃河遠上一首分別建立記錄，避免同題混淆。",
+      "zh-Hans": "王翰，字子羽，并州晋阳人，唐代诗人，生卒年不详，曾登进士第并任官。史籍记其性情豪放，作品存世不多，而《凉州词·葡萄美酒夜光杯》尤其著名。诗中美酒、乐声和战场并置，既有豪迈语气，也让人想到征战的危险与生命的短暂，理解时可以兼顾这两层意味。本库将这首王翰作品列为香港小学core，与王之涣同题的黄河远上一首分别建立记录，避免同题混淆。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 涼州詞賞析",
+        "zh-Hans": "香港教育局 · 凉州词赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_06.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

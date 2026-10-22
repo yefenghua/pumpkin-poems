@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-019",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "臨江仙·夢後樓台高鎖",
+    "zh-Hans": "临江仙·梦后楼台高锁"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-bcb69362b870",
+  "author_file": "../author/author-bcb69362b870.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-bcb69362b870",
+    "name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "catalog_name": {
+      "zh-Hant": "晏幾道",
+      "zh-Hans": "晏几道"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，號小山，擅長細膩含蓄的小令。",
+        "zh-Hans": "北宋词人，号小山，擅长细腻含蓄的小令。"
+      },
+      "full": {
+        "zh-Hant": "晏幾道，字叔原，號小山，北宋詞人，晏殊之子，生卒年有不同考訂。他出身官宦家庭，後來經歷家道變化，仕途並不顯達。其詞多追憶往事、抒寫離情，擅長把夢境與現實、歡聚與失落交錯表現，語言精緻而情感深切，詞集稱《小山詞》。《臨江仙》《鷓鴣天》等名篇常從燈下、歌席、簾幕和落花切入，閲讀時可留意記憶如何使眼前一幕帶上過去的重量。",
+        "zh-Hans": "晏几道，字叔原，号小山，北宋词人，晏殊之子，生卒年有不同考订。他出身官宦家庭，后来经历家道变化，仕途并不显达。其词多追忆往事、抒写离情，擅长把梦境与现实、欢聚与失落交错表现，语言精致而情感深切，词集称《小山词》。《临江仙》《鹧鸪天》等名篇常从灯下、歌席、帘幕和落花切入，阅读时可留意记忆如何使眼前一幕带上过去的重量。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 19
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "夢後樓台高鎖，酒醒簾幕低垂。去年春恨卻來時。落花人獨立，微雨燕雙飛。記得小蘋初見，兩重心字羅衣。琵琶弦上説相思。當時明月在，曾照彩雲歸。",
+    "zh-Hans": "梦后楼台高锁，酒醒帘幕低垂。去年春恨却来时。落花人独立，微雨燕双飞。记得小苹初见，两重心字罗衣。琵琶弦上说相思。当时明月在，曾照彩云归。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-019-l001",
+      "text": {
+        "zh-Hant": "夢後樓台高鎖，",
+        "zh-Hans": "梦后楼台高锁，"
+      }
+    },
+    {
+      "id": "ext-song-019-l002",
+      "text": {
+        "zh-Hant": "酒醒簾幕低垂。",
+        "zh-Hans": "酒醒帘幕低垂。"
+      }
+    },
+    {
+      "id": "ext-song-019-l003",
+      "text": {
+        "zh-Hant": "去年春恨卻來時。",
+        "zh-Hans": "去年春恨却来时。"
+      }
+    },
+    {
+      "id": "ext-song-019-l004",
+      "text": {
+        "zh-Hant": "落花人獨立，",
+        "zh-Hans": "落花人独立，"
+      }
+    },
+    {
+      "id": "ext-song-019-l005",
+      "text": {
+        "zh-Hant": "微雨燕雙飛。",
+        "zh-Hans": "微雨燕双飞。"
+      }
+    },
+    {
+      "id": "ext-song-019-l006",
+      "text": {
+        "zh-Hant": "記得小蘋初見，",
+        "zh-Hans": "记得小苹初见，"
+      }
+    },
+    {
+      "id": "ext-song-019-l007",
+      "text": {
+        "zh-Hant": "兩重心字羅衣。",
+        "zh-Hans": "两重心字罗衣。"
+      }
+    },
+    {
+      "id": "ext-song-019-l008",
+      "text": {
+        "zh-Hant": "琵琶弦上説相思。",
+        "zh-Hans": "琵琶弦上说相思。"
+      }
+    },
+    {
+      "id": "ext-song-019-l009",
+      "text": {
+        "zh-Hant": "當時明月在，",
+        "zh-Hans": "当时明月在，"
+      }
+    },
+    {
+      "id": "ext-song-019-l010",
+      "text": {
+        "zh-Hant": "曾照彩雲歸。",
+        "zh-Hans": "曾照彩云归。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-019-w001",
+      "term": {
+        "zh-Hant": "小蘋",
+        "zh-Hans": "小苹"
+      },
+      "definition": {
+        "zh-Hant": "歌女名。",
+        "zh-Hans": "歌女名。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l006",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l006",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-019-w002",
+      "term": {
+        "zh-Hant": "心字羅衣",
+        "zh-Hans": "心字罗衣"
+      },
+      "definition": {
+        "zh-Hant": "裝飾有心字圖案或心字形領口的羅衣，具體形制有異説。",
+        "zh-Hans": "装饰有心字图案或心字形领口的罗衣，具体形制有异说。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l007",
+            "start": 2,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l007",
+            "start": 2,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-019-w003",
+      "term": {
+        "zh-Hant": "彩雲",
+        "zh-Hans": "彩云"
+      },
+      "definition": {
+        "zh-Hant": "比喻美麗的女子。",
+        "zh-Hans": "比喻美丽的女子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l010",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l010",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-019-w004",
+      "term": {
+        "zh-Hant": "春恨",
+        "zh-Hans": "春恨"
+      },
+      "definition": {
+        "zh-Hant": "春日的離愁。",
+        "zh-Hans": "春日的离愁。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-019-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 19
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

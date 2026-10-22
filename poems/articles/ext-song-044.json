@@ -1,0 +1,357 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-044",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "江城子·乙卯正月二十日夜記夢",
+    "zh-Hans": "江城子·乙卯正月二十日夜记梦"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "十年生死兩茫茫。不思量。自難忘。千里孤墳，無處話淒涼。縱使相逢應不識，塵滿面，鬢如霜。夜來幽夢忽還鄉。小軒窗。正梳妝。相顧無言，惟有淚千行。料得年年斷腸處，明月夜，短松岡。",
+    "zh-Hans": "十年生死两茫茫。不思量。自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。夜来幽梦忽还乡。小轩窗。正梳妆。相顾无言，惟有泪千行。料得年年断肠处，明月夜，短松冈。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-044-l001",
+      "text": {
+        "zh-Hant": "十年生死兩茫茫。",
+        "zh-Hans": "十年生死两茫茫。"
+      }
+    },
+    {
+      "id": "ext-song-044-l002",
+      "text": {
+        "zh-Hant": "不思量。",
+        "zh-Hans": "不思量。"
+      }
+    },
+    {
+      "id": "ext-song-044-l003",
+      "text": {
+        "zh-Hant": "自難忘。",
+        "zh-Hans": "自难忘。"
+      }
+    },
+    {
+      "id": "ext-song-044-l004",
+      "text": {
+        "zh-Hant": "千里孤墳，",
+        "zh-Hans": "千里孤坟，"
+      }
+    },
+    {
+      "id": "ext-song-044-l005",
+      "text": {
+        "zh-Hant": "無處話淒涼。",
+        "zh-Hans": "无处话凄凉。"
+      }
+    },
+    {
+      "id": "ext-song-044-l006",
+      "text": {
+        "zh-Hant": "縱使相逢應不識，",
+        "zh-Hans": "纵使相逢应不识，"
+      }
+    },
+    {
+      "id": "ext-song-044-l007",
+      "text": {
+        "zh-Hant": "塵滿面，",
+        "zh-Hans": "尘满面，"
+      }
+    },
+    {
+      "id": "ext-song-044-l008",
+      "text": {
+        "zh-Hant": "鬢如霜。",
+        "zh-Hans": "鬓如霜。"
+      }
+    },
+    {
+      "id": "ext-song-044-l009",
+      "text": {
+        "zh-Hant": "夜來幽夢忽還鄉。",
+        "zh-Hans": "夜来幽梦忽还乡。"
+      }
+    },
+    {
+      "id": "ext-song-044-l010",
+      "text": {
+        "zh-Hant": "小軒窗。",
+        "zh-Hans": "小轩窗。"
+      }
+    },
+    {
+      "id": "ext-song-044-l011",
+      "text": {
+        "zh-Hant": "正梳妝。",
+        "zh-Hans": "正梳妆。"
+      }
+    },
+    {
+      "id": "ext-song-044-l012",
+      "text": {
+        "zh-Hant": "相顧無言，",
+        "zh-Hans": "相顾无言，"
+      }
+    },
+    {
+      "id": "ext-song-044-l013",
+      "text": {
+        "zh-Hant": "惟有淚千行。",
+        "zh-Hans": "惟有泪千行。"
+      }
+    },
+    {
+      "id": "ext-song-044-l014",
+      "text": {
+        "zh-Hant": "料得年年斷腸處，",
+        "zh-Hans": "料得年年断肠处，"
+      }
+    },
+    {
+      "id": "ext-song-044-l015",
+      "text": {
+        "zh-Hant": "明月夜，",
+        "zh-Hans": "明月夜，"
+      }
+    },
+    {
+      "id": "ext-song-044-l016",
+      "text": {
+        "zh-Hant": "短松岡。",
+        "zh-Hans": "短松冈。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-044-w001",
+      "term": {
+        "zh-Hant": "茫茫",
+        "zh-Hans": "茫茫"
+      },
+      "definition": {
+        "zh-Hant": "渺遠、無從相通。",
+        "zh-Hans": "渺远、无从相通。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l001",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l001",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-044-w002",
+      "term": {
+        "zh-Hant": "思量",
+        "zh-Hans": "思量"
+      },
+      "definition": {
+        "zh-Hant": "思念、想起。",
+        "zh-Hans": "思念、想起。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l002",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l002",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-044-w003",
+      "term": {
+        "zh-Hant": "軒窗",
+        "zh-Hans": "轩窗"
+      },
+      "definition": {
+        "zh-Hant": "小窗。",
+        "zh-Hans": "小窗。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l010",
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l010",
+            "start": 1,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-044-w004",
+      "term": {
+        "zh-Hant": "相顧",
+        "zh-Hans": "相顾"
+      },
+      "definition": {
+        "zh-Hant": "彼此看着。",
+        "zh-Hans": "彼此看着。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l012",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l012",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-044-w005",
+      "term": {
+        "zh-Hant": "短松岡",
+        "zh-Hans": "短松冈"
+      },
+      "definition": {
+        "zh-Hant": "長着矮松的山岡，指亡妻墓地。",
+        "zh-Hans": "长着矮松的山冈，指亡妻墓地。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l016",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-044-l016",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 44
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

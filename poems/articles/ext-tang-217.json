@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-217",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "登高",
+    "zh-Hans": "登高"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言律詩",
+    "zh-Hans": "七言律诗"
+  },
+  "author_id": "author-d1a76721cd00",
+  "author_file": "../author/author-d1a76721cd00.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-d1a76721cd00",
+    "name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "catalog_name": {
+      "zh-Hant": "杜甫",
+      "zh-Hans": "杜甫"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，字子美，關懷民生，後世尊為詩聖。",
+        "zh-Hans": "唐代诗人，字子美，关怀民生，后世尊为诗圣。"
+      },
+      "full": {
+        "zh-Hant": "杜甫（712—770），字子美，自號少陵野老，唐代重要詩人。他經歷安史之亂及其後的動盪，曾在長安任職，也輾轉成都、夔州等地，晚年漂泊江湘。其詩廣泛反映戰亂、民生與個人生活，因而被稱為詩史；在律詩、古體詩等方面均有深厚成就。《兵車行》表現戰爭給家庭帶來的創痛，《客至》寫待客真情，《春望》則把國事和家事融於景物。閲讀時可兼顧時代處境與具體人物感受。",
+        "zh-Hans": "杜甫（712—770），字子美，自号少陵野老，唐代重要诗人。他经历安史之乱及其后的动荡，曾在长安任职，也辗转成都、夔州等地，晚年漂泊江湘。其诗广泛反映战乱、民生与个人生活，因而被称为诗史；在律诗、古体诗等方面均有深厚成就。《兵车行》表现战争给家庭带来的创痛，《客至》写待客真情，《春望》则把国事和家事融于景物。阅读时可兼顾时代处境与具体人物感受。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 客至賞析",
+          "zh-Hans": "香港教育局 · 客至赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "風急天高猿嘯哀，渚清沙白鳥飛迴。無邊落木蕭蕭下，不盡長江滾滾來。萬里悲秋常作客，百年多病獨登臺。艱難苦恨繁霜鬢，潦倒新停濁酒杯。",
+    "zh-Hans": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-217-l001",
+      "text": {
+        "zh-Hant": "風急天高猿嘯哀，",
+        "zh-Hans": "风急天高猿啸哀，"
+      }
+    },
+    {
+      "id": "ext-tang-217-l002",
+      "text": {
+        "zh-Hant": "渚清沙白鳥飛迴。",
+        "zh-Hans": "渚清沙白鸟飞回。"
+      }
+    },
+    {
+      "id": "ext-tang-217-l003",
+      "text": {
+        "zh-Hant": "無邊落木蕭蕭下，",
+        "zh-Hans": "无边落木萧萧下，"
+      }
+    },
+    {
+      "id": "ext-tang-217-l004",
+      "text": {
+        "zh-Hant": "不盡長江滾滾來。",
+        "zh-Hans": "不尽长江滚滚来。"
+      }
+    },
+    {
+      "id": "ext-tang-217-l005",
+      "text": {
+        "zh-Hant": "萬里悲秋常作客，",
+        "zh-Hans": "万里悲秋常作客，"
+      }
+    },
+    {
+      "id": "ext-tang-217-l006",
+      "text": {
+        "zh-Hant": "百年多病獨登臺。",
+        "zh-Hans": "百年多病独登台。"
+      }
+    },
+    {
+      "id": "ext-tang-217-l007",
+      "text": {
+        "zh-Hant": "艱難苦恨繁霜鬢，",
+        "zh-Hans": "艰难苦恨繁霜鬓，"
+      }
+    },
+    {
+      "id": "ext-tang-217-l008",
+      "text": {
+        "zh-Hant": "潦倒新停濁酒杯。",
+        "zh-Hans": "潦倒新停浊酒杯。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-217-w001",
+      "term": {
+        "zh-Hant": "渚",
+        "zh-Hans": "渚"
+      },
+      "definition": {
+        "zh-Hant": "水中的小洲。",
+        "zh-Hans": "水中的小洲。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l002",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l002",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-217-w002",
+      "term": {
+        "zh-Hant": "落木",
+        "zh-Hans": "落木"
+      },
+      "definition": {
+        "zh-Hant": "飄落的樹葉。",
+        "zh-Hans": "飘落的树叶。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-217-w003",
+      "term": {
+        "zh-Hant": "作客",
+        "zh-Hans": "作客"
+      },
+      "definition": {
+        "zh-Hant": "客居他鄉。",
+        "zh-Hans": "客居他乡。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l005",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l005",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-217-w004",
+      "term": {
+        "zh-Hant": "潦倒",
+        "zh-Hans": "潦倒"
+      },
+      "definition": {
+        "zh-Hant": "困頓衰頹。",
+        "zh-Hans": "困顿衰颓。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-217-w005",
+      "term": {
+        "zh-Hant": "新停",
+        "zh-Hans": "新停"
+      },
+      "definition": {
+        "zh-Hant": "剛剛停止。",
+        "zh-Hans": "刚刚停止。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l008",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-217-l008",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "猨",
+      "to": "猿"
+    },
+    {
+      "from": "衮",
+      "to": "滾"
+    },
+    {
+      "from": "桮",
+      "to": "杯"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 217
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

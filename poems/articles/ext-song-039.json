@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-039",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "臨江仙·夜飲東坡醒復醉",
+    "zh-Hans": "临江仙·夜饮东坡醒复醉"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-a4d62b5b5b92",
+  "author_file": "../author/author-a4d62b5b5b92.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-a4d62b5b5b92",
+    "name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "catalog_name": {
+      "zh-Hant": "蘇軾",
+      "zh-Hans": "苏轼"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋文學家、書畫家，號東坡居士，詩詞境界開闊。",
+        "zh-Hans": "北宋文学家、书画家，号东坡居士，诗词境界开阔。"
+      },
+      "full": {
+        "zh-Hant": "蘇軾（1037—1101），字子瞻，號東坡居士，眉州眉山人，北宋文學家、書畫家，與父蘇洵、弟蘇轍並稱三蘇。他經歷多次仕途起落，曾貶居黃州、惠州和儋州。詩、詞、散文及書畫都有重要成就，作品既豪邁開闊，也能細膩深情。《水調歌頭》在思念中尋找寬慰，《念奴嬌·赤壁懷古》將歷史與身世相連，《定風波》則由雨中行走體會面對遭遇的態度，不能簡單概括為永遠樂觀。",
+        "zh-Hans": "苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山人，北宋文学家、书画家，与父苏洵、弟苏辙并称三苏。他经历多次仕途起落，曾贬居黄州、惠州和儋州。诗、词、散文及书画都有重要成就，作品既豪迈开阔，也能细腻深情。《水调歌头》在思念中寻找宽慰，《念奴娇·赤壁怀古》将历史与身世相连，《定风波》则由雨中行走体会面对遭遇的态度，不能简单概括为永远乐观。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 題西林壁賞析",
+          "zh-Hans": "香港教育局 · 题西林壁赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "夜飲東坡醒復醉，歸來彷彿三更。家童鼻息已雷鳴。敲門都不應，倚杖聽江聲。長恨此身非我有，何時忘卻營營。夜闌風靜縠紋平。小舟從此逝，江海寄餘生。",
+    "zh-Hans": "夜饮东坡醒复醉，归来仿佛三更。家童鼻息已雷鸣。敲门都不应，倚杖听江声。长恨此身非我有，何时忘却营营。夜阑风静縠纹平。小舟从此逝，江海寄余生。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-039-l001",
+      "text": {
+        "zh-Hant": "夜飲東坡醒復醉，",
+        "zh-Hans": "夜饮东坡醒复醉，"
+      }
+    },
+    {
+      "id": "ext-song-039-l002",
+      "text": {
+        "zh-Hant": "歸來彷彿三更。",
+        "zh-Hans": "归来仿佛三更。"
+      }
+    },
+    {
+      "id": "ext-song-039-l003",
+      "text": {
+        "zh-Hant": "家童鼻息已雷鳴。",
+        "zh-Hans": "家童鼻息已雷鸣。"
+      }
+    },
+    {
+      "id": "ext-song-039-l004",
+      "text": {
+        "zh-Hant": "敲門都不應，",
+        "zh-Hans": "敲门都不应，"
+      }
+    },
+    {
+      "id": "ext-song-039-l005",
+      "text": {
+        "zh-Hant": "倚杖聽江聲。",
+        "zh-Hans": "倚杖听江声。"
+      }
+    },
+    {
+      "id": "ext-song-039-l006",
+      "text": {
+        "zh-Hant": "長恨此身非我有，",
+        "zh-Hans": "长恨此身非我有，"
+      }
+    },
+    {
+      "id": "ext-song-039-l007",
+      "text": {
+        "zh-Hant": "何時忘卻營營。",
+        "zh-Hans": "何时忘却营营。"
+      }
+    },
+    {
+      "id": "ext-song-039-l008",
+      "text": {
+        "zh-Hant": "夜闌風靜縠紋平。",
+        "zh-Hans": "夜阑风静縠纹平。"
+      }
+    },
+    {
+      "id": "ext-song-039-l009",
+      "text": {
+        "zh-Hant": "小舟從此逝，",
+        "zh-Hans": "小舟从此逝，"
+      }
+    },
+    {
+      "id": "ext-song-039-l010",
+      "text": {
+        "zh-Hant": "江海寄餘生。",
+        "zh-Hans": "江海寄余生。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-039-w001",
+      "term": {
+        "zh-Hant": "三更",
+        "zh-Hans": "三更"
+      },
+      "definition": {
+        "zh-Hant": "深夜時分。",
+        "zh-Hans": "深夜时分。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l002",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l002",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-039-w002",
+      "term": {
+        "zh-Hant": "營營",
+        "zh-Hans": "营营"
+      },
+      "definition": {
+        "zh-Hant": "為名利忙碌奔波。",
+        "zh-Hans": "为名利忙碌奔波。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l007",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l007",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-039-w003",
+      "term": {
+        "zh-Hant": "夜闌",
+        "zh-Hans": "夜阑"
+      },
+      "definition": {
+        "zh-Hant": "夜深。",
+        "zh-Hans": "夜深。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l008",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l008",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-039-w004",
+      "term": {
+        "zh-Hant": "縠紋",
+        "zh-Hans": "縠纹"
+      },
+      "definition": {
+        "zh-Hant": "像細縐紗一樣的水波。",
+        "zh-Hans": "像细绉纱一样的水波。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l008",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l008",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-039-w005",
+      "term": {
+        "zh-Hant": "餘生",
+        "zh-Hans": "余生"
+      },
+      "definition": {
+        "zh-Hant": "餘下的生命。",
+        "zh-Hans": "余下的生命。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l010",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-039-l010",
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 39
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

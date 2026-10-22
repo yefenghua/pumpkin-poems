@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-068",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "浣溪沙·漠漠輕寒上小樓",
+    "zh-Hans": "浣溪沙·漠漠轻寒上小楼"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-c6a8f4d89e09",
+  "author_file": "../author/author-c6a8f4d89e09.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-c6a8f4d89e09",
+    "name": {
+      "zh-Hant": "秦觀",
+      "zh-Hans": "秦观"
+    },
+    "catalog_name": {
+      "zh-Hant": "秦觀",
+      "zh-Hans": "秦观"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "北宋詞人，字少遊，婉約詞清麗細膩。",
+        "zh-Hans": "北宋词人，字少游，婉约词清丽细腻。"
+      },
+      "full": {
+        "zh-Hant": "秦觀（1049—1100），字少遊，又字太虛，號淮海居士，高郵人，北宋文學家，蘇門四學士之一。他曾任館閣官職，後因黨爭多次被貶，經歷南方漂泊。詩文與詞均有成就，尤其以細膩含蓄的詞作著名，傳有《淮海集》《淮海居士長短句》。《浣溪沙·漠漠輕寒上小樓》以微寒、飛花和絲雨寫難以排遣的輕愁。讀秦詞可注意比喻如何把無形情感轉為可見可感的景象。",
+        "zh-Hans": "秦观（1049—1100），字少游，又字太虚，号淮海居士，高邮人，北宋文学家，苏门四学士之一。他曾任馆阁官职，后因党争多次被贬，经历南方漂泊。诗文与词均有成就，尤其以细腻含蓄的词作著名，传有《淮海集》《淮海居士长短句》。《浣溪沙·漠漠轻寒上小楼》以微寒、飞花和丝雨写难以排遣的轻愁。读秦词可注意比喻如何把无形情感转为可见可感的景象。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 宋詞/author.song.json",
+          "zh-Hans": "中华古诗词数据库 · 宋词/author.song.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/author.song.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "2ea6093b0ceab96ab3a3f0b2b200d125405470d23053daa963572d4a68076d74",
+        "record_locator": {
+          "index_zero_based": 13
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "漠漠輕寒上小樓。曉陰無賴似窮秋。淡煙流水畫屏幽。自在飛花輕似夢，無邊絲雨細如愁。寶簾閒掛小銀鈎。",
+    "zh-Hans": "漠漠轻寒上小楼。晓阴无赖似穷秋。淡烟流水画屏幽。自在飞花轻似梦，无边丝雨细如愁。宝帘闲挂小银钩。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-068-l001",
+      "text": {
+        "zh-Hant": "漠漠輕寒上小樓。",
+        "zh-Hans": "漠漠轻寒上小楼。"
+      }
+    },
+    {
+      "id": "ext-song-068-l002",
+      "text": {
+        "zh-Hant": "曉陰無賴似窮秋。",
+        "zh-Hans": "晓阴无赖似穷秋。"
+      }
+    },
+    {
+      "id": "ext-song-068-l003",
+      "text": {
+        "zh-Hant": "淡煙流水畫屏幽。",
+        "zh-Hans": "淡烟流水画屏幽。"
+      }
+    },
+    {
+      "id": "ext-song-068-l004",
+      "text": {
+        "zh-Hant": "自在飛花輕似夢，",
+        "zh-Hans": "自在飞花轻似梦，"
+      }
+    },
+    {
+      "id": "ext-song-068-l005",
+      "text": {
+        "zh-Hant": "無邊絲雨細如愁。",
+        "zh-Hans": "无边丝雨细如愁。"
+      }
+    },
+    {
+      "id": "ext-song-068-l006",
+      "text": {
+        "zh-Hant": "寶簾閒掛小銀鈎。",
+        "zh-Hans": "宝帘闲挂小银钩。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-068-w001",
+      "term": {
+        "zh-Hant": "漠漠",
+        "zh-Hans": "漠漠"
+      },
+      "definition": {
+        "zh-Hant": "輕淡迷濛的樣子。",
+        "zh-Hans": "轻淡迷蒙的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 4,
+            "end": 6
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-068-w002",
+      "term": {
+        "zh-Hant": "曉陰",
+        "zh-Hans": "晓阴"
+      },
+      "definition": {
+        "zh-Hant": "清晨的陰雲。",
+        "zh-Hans": "清晨的阴云。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-068-w003",
+      "term": {
+        "zh-Hant": "無賴",
+        "zh-Hans": "无赖"
+      },
+      "definition": {
+        "zh-Hant": "令人煩惱。",
+        "zh-Hans": "令人烦恼。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-068-w004",
+      "term": {
+        "zh-Hant": "窮秋",
+        "zh-Hans": "穷秋"
+      },
+      "definition": {
+        "zh-Hant": "深秋。",
+        "zh-Hans": "深秋。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l002",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-068-w005",
+      "term": {
+        "zh-Hant": "絲雨",
+        "zh-Hans": "丝雨"
+      },
+      "definition": {
+        "zh-Hant": "細得像絲的雨。",
+        "zh-Hans": "细得像丝的雨。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l005",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-068-l005",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 68
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

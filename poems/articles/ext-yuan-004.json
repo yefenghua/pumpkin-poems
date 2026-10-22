@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-yuan-004",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "壽陽曲·山市晴嵐",
+    "zh-Hans": "寿阳曲·山市晴岚"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-3a3669d02909",
+  "author_file": "../author/author-3a3669d02909.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3a3669d02909",
+    "name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "catalog_name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代戲劇家、散曲家，以《天淨沙·秋思》聞名。",
+        "zh-Hans": "元代戏剧家、散曲家，以《天净沙·秋思》闻名。"
+      },
+      "full": {
+        "zh-Hant": "馬致遠，號東籬，元代戲劇家和散曲作家，主要活動於十三世紀後期至十四世紀初，具體生卒年有異説。他是元曲四大家之一，雜劇代表作有《漢宮秋》，散曲則擅寫羈旅、隱逸、山水與人生感慨。《天淨沙·秋思》以密集意象凝成遊子鄉愁，《壽陽曲》瀟湘八景組曲又能在短篇中安排景物遠近和聲音動靜。讀他的曲，可注意口語節奏與精心選取的景象如何共同產生抒情效果。",
+        "zh-Hans": "马致远，号东篱，元代戏剧家和散曲作家，主要活动于十三世纪后期至十四世纪初，具体生卒年有异说。他是元曲四大家之一，杂剧代表作有《汉宫秋》，散曲则擅写羁旅、隐逸、山水与人生感慨。《天净沙·秋思》以密集意象凝成游子乡愁，《寿阳曲》潇湘八景组曲又能在短篇中安排景物远近和声音动静。读他的曲，可注意口语节奏与精心选取的景象如何共同产生抒情效果。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 天淨沙·秋思賞析",
+          "zh-Hans": "香港教育局 · 天净沙·秋思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_19.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "花村外，草店西，晚霞明雨收天霽。四圍山一竿殘照裏，錦屏風又添鋪翠。",
+    "zh-Hans": "花村外，草店西，晚霞明雨收天霁。四围山一竿残照里，锦屏风又添铺翠。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-yuan-004-l001",
+      "text": {
+        "zh-Hant": "花村外，",
+        "zh-Hans": "花村外，"
+      }
+    },
+    {
+      "id": "ext-yuan-004-l002",
+      "text": {
+        "zh-Hant": "草店西，",
+        "zh-Hans": "草店西，"
+      }
+    },
+    {
+      "id": "ext-yuan-004-l003",
+      "text": {
+        "zh-Hant": "晚霞明雨收天霽。",
+        "zh-Hans": "晚霞明雨收天霁。"
+      }
+    },
+    {
+      "id": "ext-yuan-004-l004",
+      "text": {
+        "zh-Hant": "四圍山一竿殘照裏，",
+        "zh-Hans": "四围山一竿残照里，"
+      }
+    },
+    {
+      "id": "ext-yuan-004-l005",
+      "text": {
+        "zh-Hant": "錦屏風又添鋪翠。",
+        "zh-Hans": "锦屏风又添铺翠。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-yuan-004-w001",
+      "term": {
+        "zh-Hant": "草店",
+        "zh-Hans": "草店"
+      },
+      "definition": {
+        "zh-Hant": "簡陋的鄉間旅店。",
+        "zh-Hans": "简陋的乡间旅店。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-004-w002",
+      "term": {
+        "zh-Hant": "霽",
+        "zh-Hans": "霁"
+      },
+      "definition": {
+        "zh-Hant": "雨止天晴。",
+        "zh-Hans": "雨止天晴。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l003",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l003",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-004-w003",
+      "term": {
+        "zh-Hant": "殘照",
+        "zh-Hans": "残照"
+      },
+      "definition": {
+        "zh-Hant": "夕陽的餘光。",
+        "zh-Hans": "夕阳的余光。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l004",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l004",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-004-w004",
+      "term": {
+        "zh-Hant": "錦屏風",
+        "zh-Hans": "锦屏风"
+      },
+      "definition": {
+        "zh-Hant": "以華美屏風比喻四周羣山。",
+        "zh-Hans": "以华美屏风比喻四周群山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l005",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l005",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-004-w005",
+      "term": {
+        "zh-Hant": "翠",
+        "zh-Hans": "翠"
+      },
+      "definition": {
+        "zh-Hant": "青綠色。",
+        "zh-Hans": "青绿色。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l005",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-004-l005",
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "從瀟湘八景組曲拆出本首，保留所據版本字詞。",
+      "zh-Hans": "从潇湘八景组曲拆出本首，保留所据版本字词。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 元曲/yuanqu.json",
+        "zh-Hans": "中华古诗词数据库 · 元曲/yuanqu.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%83%E6%9B%B2/yuanqu.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "c2be37d2349cec99ec7f2d7c4107eb08bbb3ac869221db24531c8ffed2a88b12",
+      "record_locator": {
+        "index_zero_based": "7470"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

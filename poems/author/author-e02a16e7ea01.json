@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-e02a16e7ea01",
+  "name": {
+    "zh-Hant": "王灣",
+    "zh-Hans": "王湾"
+  },
+  "catalog_name": {
+    "zh-Hant": "王灣",
+    "zh-Hans": "王湾"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，《次北固山下》以江上早春景象著稱。",
+      "zh-Hans": "唐代诗人，《次北固山下》以江上早春景象著称。"
+    },
+    "full": {
+      "zh-Hant": "王灣，唐代洛陽人，主要活動於開元前期，具體生卒年記載不一。他曾登進士第並任職，現存詩作不多。《次北固山下》是其代表作，以行舟所見的潮水、風帆、殘夜與春意寫旅途感受，再落到鄉書與歸雁。海日與江春兩句把新舊時間交替寫得鮮明，也讓自然變化帶上積極的意味。介紹他的文學地位應以傳世作品為依據，避免從一首詩推衍出沒有史料支持的詳細生活經歷。",
+      "zh-Hans": "王湾，唐代洛阳人，主要活动于开元前期，具体生卒年记载不一。他曾登进士第并任职，现存诗作不多。《次北固山下》是其代表作，以行舟所见的潮水、风帆、残夜与春意写旅途感受，再落到乡书与归雁。海日与江春两句把新旧时间交替写得鲜明，也让自然变化带上积极的意味。介绍他的文学地位应以传世作品为依据，避免从一首诗推衍出没有史料支持的详细生活经历。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 569
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}

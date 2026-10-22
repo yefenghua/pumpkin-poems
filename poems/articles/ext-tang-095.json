@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-095",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "送靈澈上人",
+    "zh-Hans": "送灵澈上人"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+  },
+  "author_id": "author-27c3617d3289",
+  "author_file": "../author/author-27c3617d3289.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-27c3617d3289",
+    "name": {
+      "zh-Hant": "劉長卿",
+      "zh-Hans": "刘长卿"
+    },
+    "catalog_name": {
+      "zh-Hant": "劉長卿",
+      "zh-Hans": "刘长卿"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，擅長五言詩，常寫山水、送別和旅途感受。",
+        "zh-Hans": "唐代诗人，擅长五言诗，常写山水、送别和旅途感受。"
+      },
+      "full": {
+        "zh-Hant": "劉長卿，字文房，唐代詩人，生卒年和籍貫細節存在不同考訂。他曾在地方任職，經歷貶謫，後來任隨州刺史，因此也稱劉隨州。其詩以五言作品著稱，語言凝練，景物幽靜，常在山寺、江水、夕陽與孤舟之中寫離別和漂泊。《送靈澈上人》把友人遠去的身影融入青山夕照，《聽彈琴》由琴聲引出對古調的珍愛。讀他的短詩，可留意聲音、距離與留白如何形成餘味。",
+        "zh-Hans": "刘长卿，字文房，唐代诗人，生卒年和籍贯细节存在不同考订。他曾在地方任职，经历贬谪，后来任随州刺史，因此也称刘随州。其诗以五言作品著称，语言凝练，景物幽静，常在山寺、江水、夕阳与孤舟之中写离别和漂泊。《送灵澈上人》把友人远去的身影融入青山夕照，《听弹琴》由琴声引出对古调的珍爱。读他的短诗，可留意声音、距离与留白如何形成余味。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+          "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+        },
+        "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+        "accessed_on": "2026-10-22",
+        "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+        "record_locator": {
+          "index_zero_based": 187
+        }
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "蒼蒼竹林寺，杳杳鐘聲晚。荷笠帶夕陽，青山獨歸遠。",
+    "zh-Hans": "苍苍竹林寺，杳杳钟声晚。荷笠带夕阳，青山独归远。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-095-l001",
+      "text": {
+        "zh-Hant": "蒼蒼竹林寺，",
+        "zh-Hans": "苍苍竹林寺，"
+      }
+    },
+    {
+      "id": "ext-tang-095-l002",
+      "text": {
+        "zh-Hant": "杳杳鐘聲晚。",
+        "zh-Hans": "杳杳钟声晚。"
+      }
+    },
+    {
+      "id": "ext-tang-095-l003",
+      "text": {
+        "zh-Hant": "荷笠帶夕陽，",
+        "zh-Hans": "荷笠带夕阳，"
+      }
+    },
+    {
+      "id": "ext-tang-095-l004",
+      "text": {
+        "zh-Hant": "青山獨歸遠。",
+        "zh-Hans": "青山独归远。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-095-w001",
+      "term": {
+        "zh-Hant": "蒼蒼",
+        "zh-Hans": "苍苍"
+      },
+      "definition": {
+        "zh-Hant": "深青色，形容竹林茂密。",
+        "zh-Hans": "深青色，形容竹林茂密。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-095-w002",
+      "term": {
+        "zh-Hant": "杳杳",
+        "zh-Hans": "杳杳"
+      },
+      "definition": {
+        "zh-Hant": "深遠的樣子。",
+        "zh-Hans": "深远的样子。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-095-w003",
+      "term": {
+        "zh-Hant": "荷笠",
+        "zh-Hans": "荷笠"
+      },
+      "definition": {
+        "zh-Hant": "背着斗笠。",
+        "zh-Hans": "背着斗笠。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l003",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l003",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-095-w004",
+      "term": {
+        "zh-Hant": "獨歸",
+        "zh-Hans": "独归"
+      },
+      "definition": {
+        "zh-Hant": "獨自返回。",
+        "zh-Hans": "独自返回。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l004",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-095-l004",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 95
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

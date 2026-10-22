@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-170",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "閨怨",
+    "zh-Hans": "闺怨"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-b14c0c6ac0f6",
+  "author_file": "../author/author-b14c0c6ac0f6.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b14c0c6ac0f6",
+    "name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "catalog_name": {
+      "zh-Hant": "王昌齡",
+      "zh-Hans": "王昌龄"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "盛唐詩人，字少伯，以七言絕句和邊塞詩見長。",
+        "zh-Hans": "盛唐诗人，字少伯，以七言绝句和边塞诗见长。"
+      },
+      "full": {
+        "zh-Hant": "王昌齡，字少伯，盛唐詩人，通常記為約698—約756，具體年代和籍貫有不同記載。他曾任江寧丞、龍標尉等職，因而又稱王江寧、王龍標。七言絕句是其最突出的成就，能在短小篇幅中表現邊塞、送別與閨情等題材。《出塞》關懷戰爭與守邊，《芙蓉樓送辛漸》借冰心玉壺表達自守，《閨怨》則以人物瞬間的感觸轉變形成全詩波瀾，體現精密構思。",
+        "zh-Hans": "王昌龄，字少伯，盛唐诗人，通常记为约698—约756，具体年代和籍贯有不同记载。他曾任江宁丞、龙标尉等职，因而又称王江宁、王龙标。七言绝句是其最突出的成就，能在短小篇幅中表现边塞、送别与闺情等题材。《出塞》关怀战争与守边，《芙蓉楼送辛渐》借冰心玉壶表达自守，《闺怨》则以人物瞬间的感触转变形成全诗波澜，体现精密构思。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 出塞·其一賞析",
+          "zh-Hans": "香港教育局 · 出塞·其一赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_07.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "閨中少婦不曾愁，春日凝妝上翠樓。忽見陌頭楊柳色，悔教夫婿覓封侯。",
+    "zh-Hans": "闺中少妇不曾愁，春日凝妆上翠楼。忽见陌头杨柳色，悔教夫婿觅封侯。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-170-l001",
+      "text": {
+        "zh-Hant": "閨中少婦不曾愁，",
+        "zh-Hans": "闺中少妇不曾愁，"
+      }
+    },
+    {
+      "id": "ext-tang-170-l002",
+      "text": {
+        "zh-Hant": "春日凝妝上翠樓。",
+        "zh-Hans": "春日凝妆上翠楼。"
+      }
+    },
+    {
+      "id": "ext-tang-170-l003",
+      "text": {
+        "zh-Hant": "忽見陌頭楊柳色，",
+        "zh-Hans": "忽见陌头杨柳色，"
+      }
+    },
+    {
+      "id": "ext-tang-170-l004",
+      "text": {
+        "zh-Hant": "悔教夫婿覓封侯。",
+        "zh-Hans": "悔教夫婿觅封侯。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-170-w001",
+      "term": {
+        "zh-Hant": "凝妝",
+        "zh-Hans": "凝妆"
+      },
+      "definition": {
+        "zh-Hant": "精心梳妝。",
+        "zh-Hans": "精心梳妆。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-170-w002",
+      "term": {
+        "zh-Hant": "陌頭",
+        "zh-Hans": "陌头"
+      },
+      "definition": {
+        "zh-Hant": "路邊。",
+        "zh-Hans": "路边。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l003",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l003",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-170-w003",
+      "term": {
+        "zh-Hant": "楊柳色",
+        "zh-Hans": "杨柳色"
+      },
+      "definition": {
+        "zh-Hant": "春柳的顏色，觸發惜別之情。",
+        "zh-Hans": "春柳的颜色，触发惜别之情。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l003",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l003",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-170-w004",
+      "term": {
+        "zh-Hant": "覓封侯",
+        "zh-Hans": "觅封侯"
+      },
+      "definition": {
+        "zh-Hant": "追求軍功與封爵。",
+        "zh-Hans": "追求军功与封爵。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l004",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-170-l004",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "壻",
+      "to": "婿"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 170
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

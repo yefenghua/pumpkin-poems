@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hk-ks2-09",
+  "category": "core",
+  "priority": "P0",
+  "title": {
+    "zh-Hant": "早發白帝城",
+    "zh-Hans": "早发白帝城"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+  },
+  "author_id": "author-b23f840ff52e",
+  "author_file": "../author/author-b23f840ff52e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b23f840ff52e",
+    "name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "catalog_name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，號青蓮居士，想象豐富，後世譽為詩仙。",
+        "zh-Hans": "唐代诗人，号青莲居士，想象丰富，后世誉为诗仙。"
+      },
+      "full": {
+        "zh-Hant": "李白（701—762），字太白，號青蓮居士，唐代重要詩人。少年在蜀地成長，成年後廣泛遊歷，曾供奉翰林，也經歷政治牽連與流放途中遇赦。他善寫樂府、歌行和絕句，常運用誇張、想象以及明月、山川、美酒等意象，表達自由理想、友情和人生感慨。《靜夜思》親切簡潔，《月下獨酌》想象奇特，《行路難》則在挫折中保持昂揚。其出生地有不同説法，本庫不將某一説法寫成定論。",
+        "zh-Hans": "李白（701—762），字太白，号青莲居士，唐代重要诗人。少年在蜀地成长，成年后广泛游历，曾供奉翰林，也经历政治牵连与流放途中遇赦。他善写乐府、歌行和绝句，常运用夸张、想象以及明月、山川、美酒等意象，表达自由理想、友情和人生感慨。《静夜思》亲切简洁，《月下独酌》想象奇特，《行路难》则在挫折中保持昂扬。其出生地有不同说法，本库不将某一说法写成定论。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 靜夜思賞析",
+          "zh-Hans": "香港教育局 · 静夜思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": {
+    "authority": "Hong Kong Education Bureau",
+    "key_stages": [
+      2
+    ],
+    "basis": {
+      "zh-Hant": "中國語文課程建議篇章中的詩、詞、曲；不表示全港統一必背。",
+      "zh-Hans": "中国语文课程建议篇章中的诗、词、曲；不表示全港统一必背。"
+    }
+  },
+  "text": {
+    "zh-Hant": "朝辭白帝彩雲間，千里江陵一日還。兩岸猿聲啼不住，輕舟已過萬重山。",
+    "zh-Hans": "朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "hk-ks2-09-l001",
+      "text": {
+        "zh-Hant": "朝辭白帝彩雲間，",
+        "zh-Hans": "朝辞白帝彩云间，"
+      }
+    },
+    {
+      "id": "hk-ks2-09-l002",
+      "text": {
+        "zh-Hant": "千里江陵一日還。",
+        "zh-Hans": "千里江陵一日还。"
+      }
+    },
+    {
+      "id": "hk-ks2-09-l003",
+      "text": {
+        "zh-Hant": "兩岸猿聲啼不住，",
+        "zh-Hans": "两岸猿声啼不住，"
+      }
+    },
+    {
+      "id": "hk-ks2-09-l004",
+      "text": {
+        "zh-Hant": "輕舟已過萬重山。",
+        "zh-Hans": "轻舟已过万重山。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hk-ks2-09-w001",
+      "term": {
+        "zh-Hant": "朝",
+        "zh-Hans": "朝"
+      },
+      "definition": {
+        "zh-Hant": "早晨。",
+        "zh-Hans": "早晨。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-09-w002",
+      "term": {
+        "zh-Hant": "辭",
+        "zh-Hans": "辞"
+      },
+      "definition": {
+        "zh-Hant": "告別、離開。",
+        "zh-Hans": "告别、离开。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-09-w003",
+      "term": {
+        "zh-Hant": "白帝",
+        "zh-Hans": "白帝"
+      },
+      "definition": {
+        "zh-Hant": "白帝城，在今重慶奉節一帶。",
+        "zh-Hans": "白帝城，在今重庆奉节一带。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "title",
+            "line_id": null,
+            "start": 2,
+            "end": 4
+          },
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l001",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-09-w004",
+      "term": {
+        "zh-Hant": "江陵",
+        "zh-Hans": "江陵"
+      },
+      "definition": {
+        "zh-Hant": "今湖北荊州一帶。",
+        "zh-Hans": "今湖北荆州一带。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-09-w005",
+      "term": {
+        "zh-Hant": "啼不住",
+        "zh-Hans": "啼不住"
+      },
+      "definition": {
+        "zh-Hant": "接連鳴叫。",
+        "zh-Hans": "接连鸣叫。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l003",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l003",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "hk-ks2-09-w006",
+      "term": {
+        "zh-Hant": "萬重山",
+        "zh-Hans": "万重山"
+      },
+      "definition": {
+        "zh-Hant": "層層疊疊的羣山。",
+        "zh-Hans": "层层叠叠的群山。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l004",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "hk-ks2-09-l004",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "curriculum",
+      "label": {
+        "zh-Hant": "香港教育局第2學習階段建議篇章",
+        "zh-Hans": "香港教育局第2学习阶段建议篇章"
+      },
+      "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html",
+      "accessed_on": "2026-10-22"
+    },
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "香港教育局 · 早發白帝城原文",
+        "zh-Hans": "香港教育局 · 早发白帝城原文"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_09_text.pdf",
+      "accessed_on": "2026-10-22",
+      "sha256": "72ebf89d1489b38076f0d91c63d4c541df95656fb64562e5e3db71884f025d61"
+    },
+    {
+      "kind": "interpretation_reference",
+      "label": {
+        "zh-Hant": "香港教育局 · 早發白帝城賞析",
+        "zh-Hans": "香港教育局 · 早发白帝城赏析"
+      },
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_09.pdf",
+      "accessed_on": "2026-10-22"
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

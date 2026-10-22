@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-yuan-005",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "壽陽曲·遠浦帆歸",
+    "zh-Hans": "寿阳曲·远浦帆归"
+  },
+  "dynasty": {
+    "zh-Hant": "元",
+    "zh-Hans": "元"
+  },
+  "genre": {
+    "zh-Hant": "散曲·小令",
+    "zh-Hans": "散曲·小令"
+  },
+  "author_id": "author-3a3669d02909",
+  "author_file": "../author/author-3a3669d02909.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-3a3669d02909",
+    "name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "catalog_name": {
+      "zh-Hant": "馬致遠",
+      "zh-Hans": "马致远"
+    },
+    "dynasty": {
+      "zh-Hant": "元",
+      "zh-Hans": "元"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "元代戲劇家、散曲家，以《天淨沙·秋思》聞名。",
+        "zh-Hans": "元代戏剧家、散曲家，以《天净沙·秋思》闻名。"
+      },
+      "full": {
+        "zh-Hant": "馬致遠，號東籬，元代戲劇家和散曲作家，主要活動於十三世紀後期至十四世紀初，具體生卒年有異説。他是元曲四大家之一，雜劇代表作有《漢宮秋》，散曲則擅寫羈旅、隱逸、山水與人生感慨。《天淨沙·秋思》以密集意象凝成遊子鄉愁，《壽陽曲》瀟湘八景組曲又能在短篇中安排景物遠近和聲音動靜。讀他的曲，可注意口語節奏與精心選取的景象如何共同產生抒情效果。",
+        "zh-Hans": "马致远，号东篱，元代戏剧家和散曲作家，主要活动于十三世纪后期至十四世纪初，具体生卒年有异说。他是元曲四大家之一，杂剧代表作有《汉宫秋》，散曲则擅写羁旅、隐逸、山水与人生感慨。《天净沙·秋思》以密集意象凝成游子乡愁，《寿阳曲》潇湘八景组曲又能在短篇中安排景物远近和声音动静。读他的曲，可注意口语节奏与精心选取的景象如何共同产生抒情效果。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 天淨沙·秋思賞析",
+          "zh-Hans": "香港教育局 · 天净沙·秋思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_19.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "夕陽下，酒旆閒，兩三航未曾着岸。落花水香茅舍晚，斷橋頭賣魚人散。",
+    "zh-Hans": "夕阳下，酒旆闲，两三航未曾着岸。落花水香茅舍晚，断桥头卖鱼人散。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-yuan-005-l001",
+      "text": {
+        "zh-Hant": "夕陽下，",
+        "zh-Hans": "夕阳下，"
+      }
+    },
+    {
+      "id": "ext-yuan-005-l002",
+      "text": {
+        "zh-Hant": "酒旆閒，",
+        "zh-Hans": "酒旆闲，"
+      }
+    },
+    {
+      "id": "ext-yuan-005-l003",
+      "text": {
+        "zh-Hant": "兩三航未曾着岸。",
+        "zh-Hans": "两三航未曾着岸。"
+      }
+    },
+    {
+      "id": "ext-yuan-005-l004",
+      "text": {
+        "zh-Hant": "落花水香茅舍晚，",
+        "zh-Hans": "落花水香茅舍晚，"
+      }
+    },
+    {
+      "id": "ext-yuan-005-l005",
+      "text": {
+        "zh-Hant": "斷橋頭賣魚人散。",
+        "zh-Hans": "断桥头卖鱼人散。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-yuan-005-w001",
+      "term": {
+        "zh-Hant": "酒旆",
+        "zh-Hans": "酒旆"
+      },
+      "definition": {
+        "zh-Hant": "酒店懸掛的招牌旗。",
+        "zh-Hans": "酒店悬挂的招牌旗。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l002",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l002",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-005-w002",
+      "term": {
+        "zh-Hant": "航",
+        "zh-Hans": "航"
+      },
+      "definition": {
+        "zh-Hant": "船。",
+        "zh-Hans": "船。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l003",
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l003",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-005-w003",
+      "term": {
+        "zh-Hant": "着岸",
+        "zh-Hans": "着岸"
+      },
+      "definition": {
+        "zh-Hant": "靠岸。",
+        "zh-Hans": "靠岸。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l003",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l003",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-005-w004",
+      "term": {
+        "zh-Hant": "茅舍",
+        "zh-Hans": "茅舍"
+      },
+      "definition": {
+        "zh-Hant": "茅草屋。",
+        "zh-Hans": "茅草屋。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l004",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l004",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-yuan-005-w005",
+      "term": {
+        "zh-Hant": "人散",
+        "zh-Hans": "人散"
+      },
+      "definition": {
+        "zh-Hant": "人們散去。",
+        "zh-Hans": "人们散去。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l005",
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-yuan-005-l005",
+            "start": 5,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "從瀟湘八景組曲拆出本首。",
+      "zh-Hans": "从潇湘八景组曲拆出本首。"
+    }
+  ],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 元曲/yuanqu.json",
+        "zh-Hans": "中华古诗词数据库 · 元曲/yuanqu.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%83%E6%9B%B2/yuanqu.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "c2be37d2349cec99ec7f2d7c4107eb08bbb3ac869221db24531c8ffed2a88b12",
+      "record_locator": {
+        "index_zero_based": "7470"
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

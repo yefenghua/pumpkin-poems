@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-song-060",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "永遇樂·京口北固亭懷古",
+    "zh-Hans": "永遇乐·京口北固亭怀古"
+  },
+  "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+  },
+  "genre": {
+    "zh-Hant": "詞",
+    "zh-Hans": "词"
+  },
+  "author_id": "author-62356e8ef529",
+  "author_file": "../author/author-62356e8ef529.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-62356e8ef529",
+    "name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "catalog_name": {
+      "zh-Hant": "辛棄疾",
+      "zh-Hans": "辛弃疾"
+    },
+    "dynasty": {
+      "zh-Hant": "宋",
+      "zh-Hans": "宋"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "南宋詞人，號稼軒，作品豪邁，常抒報國壯志與人生感慨。",
+        "zh-Hans": "南宋词人，号稼轩，作品豪迈，常抒报国壮志与人生感慨。"
+      },
+      "full": {
+        "zh-Hant": "辛棄疾（1140—1207），字幼安，號稼軒，歷城人，南宋詞人。他年輕時參加抗金活動，南歸後歷任地方官，也長期閒居江西，始終關注恢復中原。詞作題材廣泛，既有沉雄的報國之思，也有鄉村生活和細膩情感，善用典故，傳有《稼軒長短句》。《水龍吟》《永遇樂》把登臨、懷古與現實願望連接起來，《青玉案·元夕》則以繁華燈市襯托獨特人物形象，體現多樣藝術能力。",
+        "zh-Hans": "辛弃疾（1140—1207），字幼安，号稼轩，历城人，南宋词人。他年轻时参加抗金活动，南归后历任地方官，也长期闲居江西，始终关注恢复中原。词作题材广泛，既有沉雄的报国之思，也有乡村生活和细腻情感，善用典故，传有《稼轩长短句》。《水龙吟》《永遇乐》把登临、怀古与现实愿望连接起来，《青玉案·元夕》则以繁华灯市衬托独特人物形象，体现多样艺术能力。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 青玉案·元夕賞析",
+          "zh-Hans": "香港教育局 · 青玉案·元夕赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "千古江山，英雄無覓，孫仲謀處。舞榭歌台，風流總被，雨打風吹去。斜陽草樹，尋常巷陌，人道寄奴曾住。想當年，金戈鐵馬，氣吞萬里如虎。元嘉草草，封狼居胥，贏得倉皇北顧。四十三年，望中猶記，烽火揚州路。可堪回首，佛狸祠下，一片神鴉社鼓。憑誰問，廉頗老矣，尚能飯否。",
+    "zh-Hans": "千古江山，英雄无觅，孙仲谋处。舞榭歌台，风流总被，雨打风吹去。斜阳草树，寻常巷陌，人道寄奴曾住。想当年，金戈铁马，气吞万里如虎。元嘉草草，封狼居胥，赢得仓皇北顾。四十三年，望中犹记，烽火扬州路。可堪回首，佛狸祠下，一片神鸦社鼓。凭谁问，廉颇老矣，尚能饭否。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-song-060-l001",
+      "text": {
+        "zh-Hant": "千古江山，",
+        "zh-Hans": "千古江山，"
+      }
+    },
+    {
+      "id": "ext-song-060-l002",
+      "text": {
+        "zh-Hant": "英雄無覓，",
+        "zh-Hans": "英雄无觅，"
+      }
+    },
+    {
+      "id": "ext-song-060-l003",
+      "text": {
+        "zh-Hant": "孫仲謀處。",
+        "zh-Hans": "孙仲谋处。"
+      }
+    },
+    {
+      "id": "ext-song-060-l004",
+      "text": {
+        "zh-Hant": "舞榭歌台，",
+        "zh-Hans": "舞榭歌台，"
+      }
+    },
+    {
+      "id": "ext-song-060-l005",
+      "text": {
+        "zh-Hant": "風流總被，",
+        "zh-Hans": "风流总被，"
+      }
+    },
+    {
+      "id": "ext-song-060-l006",
+      "text": {
+        "zh-Hant": "雨打風吹去。",
+        "zh-Hans": "雨打风吹去。"
+      }
+    },
+    {
+      "id": "ext-song-060-l007",
+      "text": {
+        "zh-Hant": "斜陽草樹，",
+        "zh-Hans": "斜阳草树，"
+      }
+    },
+    {
+      "id": "ext-song-060-l008",
+      "text": {
+        "zh-Hant": "尋常巷陌，",
+        "zh-Hans": "寻常巷陌，"
+      }
+    },
+    {
+      "id": "ext-song-060-l009",
+      "text": {
+        "zh-Hant": "人道寄奴曾住。",
+        "zh-Hans": "人道寄奴曾住。"
+      }
+    },
+    {
+      "id": "ext-song-060-l010",
+      "text": {
+        "zh-Hant": "想當年，",
+        "zh-Hans": "想当年，"
+      }
+    },
+    {
+      "id": "ext-song-060-l011",
+      "text": {
+        "zh-Hant": "金戈鐵馬，",
+        "zh-Hans": "金戈铁马，"
+      }
+    },
+    {
+      "id": "ext-song-060-l012",
+      "text": {
+        "zh-Hant": "氣吞萬里如虎。",
+        "zh-Hans": "气吞万里如虎。"
+      }
+    },
+    {
+      "id": "ext-song-060-l013",
+      "text": {
+        "zh-Hant": "元嘉草草，",
+        "zh-Hans": "元嘉草草，"
+      }
+    },
+    {
+      "id": "ext-song-060-l014",
+      "text": {
+        "zh-Hant": "封狼居胥，",
+        "zh-Hans": "封狼居胥，"
+      }
+    },
+    {
+      "id": "ext-song-060-l015",
+      "text": {
+        "zh-Hant": "贏得倉皇北顧。",
+        "zh-Hans": "赢得仓皇北顾。"
+      }
+    },
+    {
+      "id": "ext-song-060-l016",
+      "text": {
+        "zh-Hant": "四十三年，",
+        "zh-Hans": "四十三年，"
+      }
+    },
+    {
+      "id": "ext-song-060-l017",
+      "text": {
+        "zh-Hant": "望中猶記，",
+        "zh-Hans": "望中犹记，"
+      }
+    },
+    {
+      "id": "ext-song-060-l018",
+      "text": {
+        "zh-Hant": "烽火揚州路。",
+        "zh-Hans": "烽火扬州路。"
+      }
+    },
+    {
+      "id": "ext-song-060-l019",
+      "text": {
+        "zh-Hant": "可堪回首，",
+        "zh-Hans": "可堪回首，"
+      }
+    },
+    {
+      "id": "ext-song-060-l020",
+      "text": {
+        "zh-Hant": "佛狸祠下，",
+        "zh-Hans": "佛狸祠下，"
+      }
+    },
+    {
+      "id": "ext-song-060-l021",
+      "text": {
+        "zh-Hant": "一片神鴉社鼓。",
+        "zh-Hans": "一片神鸦社鼓。"
+      }
+    },
+    {
+      "id": "ext-song-060-l022",
+      "text": {
+        "zh-Hant": "憑誰問，",
+        "zh-Hans": "凭谁问，"
+      }
+    },
+    {
+      "id": "ext-song-060-l023",
+      "text": {
+        "zh-Hant": "廉頗老矣，",
+        "zh-Hans": "廉颇老矣，"
+      }
+    },
+    {
+      "id": "ext-song-060-l024",
+      "text": {
+        "zh-Hant": "尚能飯否。",
+        "zh-Hans": "尚能饭否。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-song-060-w001",
+      "term": {
+        "zh-Hant": "孫仲謀",
+        "zh-Hans": "孙仲谋"
+      },
+      "definition": {
+        "zh-Hant": "孫權，字仲謀。",
+        "zh-Hans": "孙权，字仲谋。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l003",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l003",
+            "start": 0,
+            "end": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-060-w002",
+      "term": {
+        "zh-Hant": "寄奴",
+        "zh-Hans": "寄奴"
+      },
+      "definition": {
+        "zh-Hant": "南朝宋武帝劉裕的小名。",
+        "zh-Hans": "南朝宋武帝刘裕的小名。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l009",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l009",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-060-w003",
+      "term": {
+        "zh-Hant": "元嘉",
+        "zh-Hans": "元嘉"
+      },
+      "definition": {
+        "zh-Hant": "劉裕之子劉義隆的年號。",
+        "zh-Hans": "刘裕之子刘义隆的年号。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l013",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l013",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-060-w004",
+      "term": {
+        "zh-Hant": "封狼居胥",
+        "zh-Hans": "封狼居胥"
+      },
+      "definition": {
+        "zh-Hant": "借霍去病獲勝封山祭天之事，指建立大軍功。",
+        "zh-Hans": "借霍去病获胜封山祭天之事，指建立大军功。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l014",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l014",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-060-w005",
+      "term": {
+        "zh-Hant": "佛狸",
+        "zh-Hans": "佛狸"
+      },
+      "definition": {
+        "zh-Hant": "北魏太武帝拓跋燾的小名。",
+        "zh-Hans": "北魏太武帝拓跋焘的小名。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l020",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l020",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-song-060-w006",
+      "term": {
+        "zh-Hant": "廉頗",
+        "zh-Hans": "廉颇"
+      },
+      "definition": {
+        "zh-Hant": "戰國趙國名將，藉以自比老而有志。",
+        "zh-Hans": "战国赵国名将，借以自比老而有志。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l023",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-song-060-l023",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [],
+  "text_edits": [],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 宋詞/宋詞三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 宋词/宋词三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%AE%8B%E8%AF%8D/%E5%AE%8B%E8%AF%8D%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "a20bda39c76800cb5407f609924fdc0dcb058d48eb1b23563e72d83dd6142b85",
+      "record_locator": {
+        "index_zero_based": 60
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

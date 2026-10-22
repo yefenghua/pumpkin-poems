@@ -1,0 +1,2155 @@
+{
+  "note": {
+    "zh-Hant": "用於離線完整性迴歸檢查的古典原文摘錄，不收錄來源網站的現代賞析。accepted字段為本次校對後的基準，不等於獨立學術版本鑑定。",
+    "zh-Hans": "用于离线完整性回归检查的古典原文摘录，不收录来源网站的现代赏析。accepted字段为本次校对后的基准，不等于独立学术版本鉴定。"
+  },
+  "entries": [
+    {
+      "article_id": "hk-ks1-03",
+      "source_text_zh_Hant": "江南可採蓮，蓮葉何田田。魚戲蓮葉間，魚戲蓮葉東，魚戲蓮葉西，魚戲蓮葉南，魚戲蓮葉北。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "江南可採蓮，蓮葉何田田。魚戲蓮葉間，魚戲蓮葉東，魚戲蓮葉西，魚戲蓮葉南，魚戲蓮葉北。",
+      "accepted_text_zh_Hans": "江南可采莲，莲叶何田田。鱼戏莲叶间，鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。",
+      "source_locator": {
+        "stage": 1,
+        "title": "3   江南",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_03_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_03.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-04",
+      "source_text_zh_Hant": "煮豆持作羹，漉豉以為汁。萁在釜下燃，豆在釜中泣。本是同根生，相煎何太急。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "煮豆持作羹，漉豉以為汁。萁在釜下燃，豆在釜中泣。本是同根生，相煎何太急。",
+      "accepted_text_zh_Hans": "煮豆持作羹，漉豉以为汁。萁在釜下燃，豆在釜中泣。本是同根生，相煎何太急。",
+      "source_locator": {
+        "stage": 1,
+        "title": "4   七步詩",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_04_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_04.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-05",
+      "source_text_zh_Hant": "鵝鵝鵝，曲項向天歌。白毛浮綠水，紅掌撥清波。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "鵝鵝鵝，曲項向天歌。白毛浮綠水，紅掌撥清波。",
+      "accepted_text_zh_Hans": "鹅鹅鹅，曲项向天歌。白毛浮绿水，红掌拨清波。",
+      "source_locator": {
+        "stage": 1,
+        "title": "5   詠鵝",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_05_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_05.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-06",
+      "source_text_zh_Hant": "少小離家老大回，鄉音無改鬢毛衰。兒童相見不相識，笑問客從何處來？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "少小離家老大回，鄉音無改鬢毛衰。兒童相見不相識，笑問客從何處來？",
+      "accepted_text_zh_Hans": "少小离家老大回，乡音无改鬓毛衰。儿童相见不相识，笑问客从何处来？",
+      "source_locator": {
+        "stage": 1,
+        "title": "6   回鄉偶書",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_06_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_06.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-07",
+      "source_text_zh_Hant": "白日依山盡，黃河入海流。欲窮千里目，更上一層樓。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "白日依山盡，黃河入海流。欲窮千里目，更上一層樓。",
+      "accepted_text_zh_Hans": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+      "source_locator": {
+        "stage": 1,
+        "title": "7   登鸛鵲樓",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-08",
+      "source_text_zh_Hant": "春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少？",
+      "accepted_text_zh_Hans": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？",
+      "source_locator": {
+        "stage": 1,
+        "title": "8   春曉",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-09",
+      "source_text_zh_Hant": "獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人。",
+      "accepted_text_zh_Hans": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人。",
+      "source_locator": {
+        "stage": 1,
+        "title": "9 九月九日憶山東兄弟",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-10",
+      "source_text_zh_Hant": "牀前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "牀前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。",
+      "accepted_text_zh_Hans": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+      "source_locator": {
+        "stage": 1,
+        "title": "10   靜夜思",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-11",
+      "source_text_zh_Hant": "離離原上草，一歲一枯榮。野火燒不盡，春風吹又生。遠芳侵古道，晴翠接荒城。又送王孫去，萋萋滿別情。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "離離原上草，一歲一枯榮。野火燒不盡，春風吹又生。遠芳侵古道，晴翠接荒城。又送王孫去，萋萋滿別情。",
+      "accepted_text_zh_Hans": "离离原上草，一岁一枯荣。野火烧不尽，春风吹又生。远芳侵古道，晴翠接荒城。又送王孙去，萋萋满别情。",
+      "source_locator": {
+        "stage": 1,
+        "title": "11   賦得古原草送別",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_11.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-12",
+      "source_text_zh_Hant": "慈母手中線，遊子身上衣。臨行密密縫，意恐遲遲歸。誰言寸草心，報得三春暉。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "慈母手中線，遊子身上衣。臨行密密縫，意恐遲遲歸。誰言寸草心，報得三春暉。",
+      "accepted_text_zh_Hans": "慈母手中线，游子身上衣。临行密密缝，意恐迟迟归。谁言寸草心，报得三春晖。",
+      "source_locator": {
+        "stage": 1,
+        "title": "12   遊子吟",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_12_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_12.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-13",
+      "source_text_zh_Hant": "鋤禾日當午，汗滴禾下土。誰知盤中飧，粒粒皆辛苦？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "鋤禾日當午，汗滴禾下土。誰知盤中飧，粒粒皆辛苦？",
+      "accepted_text_zh_Hans": "锄禾日当午，汗滴禾下土。谁知盘中飧，粒粒皆辛苦？",
+      "source_locator": {
+        "stage": 1,
+        "title": "13   憫農(其二)",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_13.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-14",
+      "source_text_zh_Hant": "勸君莫惜金縷衣，勸君惜取少年時！花開堪折直須折，莫待無花空折枝。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "勸君莫惜金縷衣，勸君惜取少年時！花開堪折直須折，莫待無花空折枝。",
+      "accepted_text_zh_Hans": "劝君莫惜金缕衣，劝君惜取少年时！花开堪折直须折，莫待无花空折枝。",
+      "source_locator": {
+        "stage": 1,
+        "title": "14   金縷衣",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_14.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-15",
+      "source_text_zh_Hant": "清明時節雨紛紛，路上行人欲斷魂。借問酒家何處有，牧童遙指杏花村。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "清明時節雨紛紛，路上行人欲斷魂。借問酒家何處有，牧童遙指杏花村。",
+      "accepted_text_zh_Hans": "清明时节雨纷纷，路上行人欲断魂。借问酒家何处有，牧童遥指杏花村。",
+      "source_locator": {
+        "stage": 1,
+        "title": "15   清明",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_15.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-16",
+      "source_text_zh_Hant": "不論平地與山尖，無限風光盡被占。採得百花成蜜後，為誰辛苦為誰甜！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "不論平地與山尖，無限風光盡被占。採得百花成蜜後，為誰辛苦為誰甜！",
+      "accepted_text_zh_Hans": "不论平地与山尖，无限风光尽被占。采得百花成蜜后，为谁辛苦为谁甜！",
+      "source_locator": {
+        "stage": 1,
+        "title": "16   蜂",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_16.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-17",
+      "source_text_zh_Hant": "爆竹聲中一歲除，春風送暖入屠蘇。千門萬戶曈曈日，總把新桃換舊符。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "爆竹聲中一歲除，春風送暖入屠蘇。千門萬戶曈曈日，總把新桃換舊符。",
+      "accepted_text_zh_Hans": "爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。",
+      "source_locator": {
+        "stage": 1,
+        "title": "17   元日",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_17.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-18",
+      "source_text_zh_Hant": "泉眼無聲惜細流，樹陰照水愛晴柔。小荷才露尖尖角，早有蜻蜓立上頭。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "泉眼無聲惜細流，樹陰照水愛晴柔。小荷才露尖尖角，早有蜻蜓立上頭。",
+      "accepted_text_zh_Hans": "泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。",
+      "source_locator": {
+        "stage": 1,
+        "title": "18   小池",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-19",
+      "source_text_zh_Hant": "頭上紅冠不用裁，滿身雪白走將來。平生不敢輕言語，一叫千門萬戶開。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "頭上紅冠不用裁，滿身雪白走將來。平生不敢輕言語，一叫千門萬戶開。",
+      "accepted_text_zh_Hans": "头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。",
+      "source_locator": {
+        "stage": 1,
+        "title": "19   畫雞",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_19.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks1-20",
+      "source_text_zh_Hant": "一片兩片三四片，五六七八九十片。千片萬片無數片，飛入梅花都不見。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "一片兩片三四片，五六七八九十片。千片萬片無數片，飛入梅花都不見。",
+      "accepted_text_zh_Hans": "一片两片三四片，五六七八九十片。千片万片无数片，飞入梅花都不见。",
+      "source_locator": {
+        "stage": 1,
+        "title": "20  詠雪",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-06",
+      "source_text_zh_Hant": "葡萄美酒夜光杯，欲飲琵琶馬上催。醉臥沙場君莫笑，古來征戰幾人回？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "葡萄美酒夜光杯，欲飲琵琶馬上催。醉臥沙場君莫笑，古來征戰幾人回？",
+      "accepted_text_zh_Hans": "葡萄美酒夜光杯，欲饮琵琶马上催。醉卧沙场君莫笑，古来征战几人回？",
+      "source_locator": {
+        "stage": 2,
+        "title": "6   涼州詞",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_06_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_06.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-07",
+      "source_text_zh_Hant": "秦時明月漢時關，萬里長征人未還。但使龍城飛將在，不教胡馬度陰山。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "秦時明月漢時關，萬里長征人未還。但使龍城飛將在，不教胡馬度陰山。",
+      "accepted_text_zh_Hans": "秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山。",
+      "source_locator": {
+        "stage": 2,
+        "title": "7   出塞",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_07_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_07.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-08",
+      "source_text_zh_Hant": "渭城朝雨裛輕塵，客舍青青柳色新。勸君更盡一杯酒，西出陽關無故人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "渭城朝雨裛輕塵，客舍青青柳色新。勸君更盡一杯酒，西出陽關無故人。",
+      "accepted_text_zh_Hans": "渭城朝雨裛轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人。",
+      "source_locator": {
+        "stage": 2,
+        "title": "8  送元二使安西",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_08_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_08.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-09",
+      "source_text_zh_Hant": "朝辭白帝彩雲間，千里江陵一日還。兩岸猿聲啼不住，輕舟已過萬重山。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "朝辭白帝彩雲間，千里江陵一日還。兩岸猿聲啼不住，輕舟已過萬重山。",
+      "accepted_text_zh_Hans": "朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。",
+      "source_locator": {
+        "stage": 2,
+        "title": "9   早發白帝城",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_09_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_09.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-10",
+      "source_text_zh_Hant": "舍南舍北皆春水，但見群鷗日日來。花徑不曾緣客掃，蓬門今始為君開。盤飧市遠無兼味，樽酒家貧只舊醅。肯與鄰翁相對飲，隔籬呼取盡餘杯。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "舍南舍北皆春水，但見群鷗日日來。花徑不曾緣客掃，蓬門今始為君開。盤飧市遠無兼味，樽酒家貧只舊醅。肯與鄰翁相對飲，隔籬呼取盡餘杯。",
+      "accepted_text_zh_Hans": "舍南舍北皆春水，但见群鸥日日来。花径不曾缘客扫，蓬门今始为君开。盘飧市远无兼味，樽酒家贫只旧醅。肯与邻翁相对饮，隔篱呼取尽余杯。",
+      "source_locator": {
+        "stage": 2,
+        "title": "10   客至",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_10_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_10.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-11",
+      "source_text_zh_Hant": "兩個黃鸝鳴翠柳，一行白鷺上青天。窗含西嶺千秋雪，門泊東吳萬里船。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "兩個黃鸝鳴翠柳，一行白鷺上青天。窗含西嶺千秋雪，門泊東吳萬里船。",
+      "accepted_text_zh_Hans": "两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。",
+      "source_locator": {
+        "stage": 2,
+        "title": "11  絕句 (兩個黃鸝鳴翠柳)",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_11_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_11.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-12",
+      "source_text_zh_Hant": "月落烏啼霜滿天，江楓漁火對愁眠。姑蘇城外寒山寺，夜半鐘聲到客船。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "月落烏啼霜滿天，江楓漁火對愁眠。姑蘇城外寒山寺，夜半鐘聲到客船。",
+      "accepted_text_zh_Hans": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。",
+      "source_locator": {
+        "stage": 2,
+        "title": "12   楓橋夜泊",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_12_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_12.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-13",
+      "source_text_zh_Hant": "千山鳥飛絕，萬徑人蹤滅。孤舟蓑笠翁，獨釣寒江雪。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "千山鳥飛絕，萬徑人蹤滅。孤舟蓑笠翁，獨釣寒江雪。",
+      "accepted_text_zh_Hans": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+      "source_locator": {
+        "stage": 2,
+        "title": "13   江雪",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_13_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_13.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-14",
+      "source_text_zh_Hant": "遠上寒山石徑斜，白雲生處有人家。停車坐愛楓林晚，霜葉紅於二月花。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "遠上寒山石徑斜，白雲生處有人家。停車坐愛楓林晚，霜葉紅於二月花。",
+      "accepted_text_zh_Hans": "远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。",
+      "source_locator": {
+        "stage": 2,
+        "title": "14   山行",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_14_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_14.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-15",
+      "source_text_zh_Hant": "京口瓜洲一水間，鍾山祇隔數重山。春風又綠江南岸，明月何時照我還。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "京口瓜洲一水間，鍾山祇隔數重山。春風又綠江南岸，明月何時照我還。",
+      "accepted_text_zh_Hans": "京口瓜洲一水间，钟山祇隔数重山。春风又绿江南岸，明月何时照我还。",
+      "source_locator": {
+        "stage": 2,
+        "title": "15   泊船瓜洲",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_15_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_15.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-17",
+      "source_text_zh_Hant": "橫看成嶺側成峰，遠近高低各不同。不識廬山真面目，只緣身在此山中。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "橫看成嶺側成峰，遠近高低各不同。不識廬山真面目，只緣身在此山中。",
+      "accepted_text_zh_Hans": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
+      "source_locator": {
+        "stage": 2,
+        "title": "16   題西林壁",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_17_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-16",
+      "source_text_zh_Hant": "畢竟西湖六月中，風光不與四時同。接天蓮葉無窮碧，映日荷花別樣紅。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "畢竟西湖六月中，風光不與四時同。接天蓮葉無窮碧，映日荷花別樣紅。",
+      "accepted_text_zh_Hans": "毕竟西湖六月中，风光不与四时同。接天莲叶无穷碧，映日荷花别样红。",
+      "source_locator": {
+        "stage": 2,
+        "title": "17 曉出淨慈寺送林子方",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_16_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_17.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-18",
+      "source_text_zh_Hant": "千錘萬擊出深山，烈火焚燒若等閑。粉骨碎身全不怕，要留清白在人間。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "千錘萬擊出深山，烈火焚燒若等閑。粉骨碎身全不怕，要留清白在人間。",
+      "accepted_text_zh_Hans": "千锤万击出深山，烈火焚烧若等闲。粉骨碎身全不怕，要留清白在人间。",
+      "source_locator": {
+        "stage": 2,
+        "title": "18   石灰吟",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_18_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_18.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks2-19",
+      "source_text_zh_Hant": "明日復明日，明日何其多。我生待明日，萬事成蹉跎！世人苦被明日累，春去秋來老將至。朝看水東流，暮看日西墜。百年明日能幾何？請君聽我《明日歌》。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "明日復明日，明日何其多。我生待明日，萬事成蹉跎！世人苦被明日累，春去秋來老將至。朝看水東流，暮看日西墜。百年明日能幾何？請君聽我《明日歌》。",
+      "accepted_text_zh_Hans": "明日复明日，明日何其多。我生待明日，万事成蹉跎！世人苦被明日累，春去秋来老将至。朝看水东流，暮看日西坠。百年明日能几何？请君听我《明日歌》。",
+      "source_locator": {
+        "stage": 2,
+        "title": "19   明日歌",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_19_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_19.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-05a",
+      "source_text_zh_Hant": "行行重行行，與君生別離。相去萬餘里，各在天一涯。道路阻且長，會面安可知？胡馬依北風，越鳥巢南枝！相去日已遠，衣帶日已緩。浮雲蔽白日，遊子不顧返。思君令人老，歲月忽已晚。棄捐勿復道，努力加餐飯！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "行行重行行，與君生別離。相去萬餘里，各在天一涯。道路阻且長，會面安可知？胡馬依北風，越鳥巢南枝！相去日已遠，衣帶日已緩。浮雲蔽白日，遊子不顧返。思君令人老，歲月忽已晚。棄捐勿復道，努力加餐飯！",
+      "accepted_text_zh_Hans": "行行重行行，与君生别离。相去万余里，各在天一涯。道路阻且长，会面安可知？胡马依北风，越鸟巢南枝！相去日已远，衣带日已缓。浮云蔽白日，游子不顾返。思君令人老，岁月忽已晚。弃捐勿复道，努力加餐饭！",
+      "source_locator": {
+        "stage": 3,
+        "title": "行行重行行",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05a_text.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-05b",
+      "source_text_zh_Hant": "迢迢牽牛星，皎皎河漢女。纖纖擢素手，札札弄機杼。終日不成章，泣涕零如雨。河漢清且淺，相去復幾許。盈盈一水間，脈脈不得語。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "迢迢牽牛星，皎皎河漢女。纖纖擢素手，札札弄機杼。終日不成章，泣涕零如雨。河漢清且淺，相去復幾許。盈盈一水間，脈脈不得語。",
+      "accepted_text_zh_Hans": "迢迢牵牛星，皎皎河汉女。纤纤擢素手，札札弄机杼。终日不成章，泣涕零如雨。河汉清且浅，相去复几许。盈盈一水间，脉脉不得语。",
+      "source_locator": {
+        "stage": 3,
+        "title": "迢迢牽牛星",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_05b_text.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-08",
+      "source_text_zh_Hant": "唧唧復唧唧，木蘭當戶織。不聞機杼聲，惟聞女歎息。問女何所思，問女何所憶。「女亦無所思，女亦無所憶。昨夜見軍帖，可汗大點兵。軍書十二卷，卷卷有爺名。阿爺無大兒，木蘭無長兄。願為市鞍馬，從此替爺征。」東市買駿馬，西市買鞍韉，南市買轡頭，北市買長鞭。旦辭爺娘去，暮宿黃河邊。不聞爺娘喚女聲，但聞黃河流水鳴濺濺。旦辭黃河去，暮至黑山頭。不聞爺娘喚女聲，但聞燕山胡騎聲啾啾。萬里赴戎機，關山度若飛。朔氣傳金柝，寒光照鐵衣。將軍百戰死，壯士十年歸。歸來見天子，天子坐明堂。策勳十二轉，賞賜百千彊。可汗問所欲，「木蘭不用尚書郎，願借明駝千里足，送兒還故鄉。」爺娘聞女來，出郭相扶將。阿姊聞妹來，當戶理紅妝。小弟聞姊來，磨刀霍霍向豬羊。開我東閣門，坐我西閣牀；脫我戰時袍，著我舊時裳；當窗理雲鬢，對鏡帖花黃。出門看火伴，火伴皆驚惶：「同行十二年，不知木蘭是女郎！」雄兔腳撲朔，雌兔眼迷離。兩兔傍地走，安能辨我是雄雌？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "唧唧復唧唧，木蘭當戶織。不聞機杼聲，惟聞女歎息。問女何所思，問女何所憶。「女亦無所思，女亦無所憶。昨夜見軍帖，可汗大點兵。軍書十二卷，卷卷有爺名。阿爺無大兒，木蘭無長兄。願為市鞍馬，從此替爺征。」東市買駿馬，西市買鞍韉，南市買轡頭，北市買長鞭。旦辭爺娘去，暮宿黃河邊。不聞爺娘喚女聲，但聞黃河流水鳴濺濺。旦辭黃河去，暮至黑山頭。不聞爺娘喚女聲，但聞燕山胡騎聲啾啾。萬里赴戎機，關山度若飛。朔氣傳金柝，寒光照鐵衣。將軍百戰死，壯士十年歸。歸來見天子，天子坐明堂。策勳十二轉，賞賜百千彊。可汗問所欲，「木蘭不用尚書郎，願借明駝千里足，送兒還故鄉。」爺娘聞女來，出郭相扶將。阿姊聞妹來，當戶理紅妝。小弟聞姊來，磨刀霍霍向豬羊。開我東閣門，坐我西閣牀；脫我戰時袍，著我舊時裳；當窗理雲鬢，對鏡帖花黃。出門看火伴，火伴皆驚惶：「同行十二年，不知木蘭是女郎！」雄兔腳撲朔，雌兔眼迷離。兩兔傍地走，安能辨我是雄雌？",
+      "accepted_text_zh_Hans": "唧唧复唧唧，木兰当户织。不闻机杼声，惟闻女叹息。问女何所思，问女何所忆。「女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵。军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄。愿为市鞍马，从此替爷征。」东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。旦辞爷娘去，暮宿黄河边。不闻爷娘唤女声，但闻黄河流水鸣溅溅。旦辞黄河去，暮至黑山头。不闻爷娘唤女声，但闻燕山胡骑声啾啾。万里赴戎机，关山度若飞。朔气传金柝，寒光照铁衣。将军百战死，壮士十年归。归来见天子，天子坐明堂。策勋十二转，赏赐百千彊。可汗问所欲，「木兰不用尚书郎，愿借明驼千里足，送儿还故乡。」爷娘闻女来，出郭相扶将。阿姊闻妹来，当户理红妆。小弟闻姊来，磨刀霍霍向猪羊。开我东阁门，坐我西阁床；脱我战时袍，著我旧时裳；当窗理云鬓，对镜帖花黄。出门看火伴，火伴皆惊惶：「同行十二年，不知木兰是女郎！」雄兔脚扑朔，雌兔眼迷离。两兔傍地走，安能辨我是雄雌？",
+      "source_locator": {
+        "stage": 3,
+        "title": "8   木蘭詩",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_08_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_08.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-09",
+      "source_text_zh_Hant": "城闕輔三秦，風煙望五津。與君離別意，同是宦遊人。海內存知己，天涯若比鄰。無為在歧路，兒女共沾巾。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "城闕輔三秦，風煙望五津。與君離別意，同是宦遊人。海內存知己，天涯若比鄰。無為在歧路，兒女共沾巾。",
+      "accepted_text_zh_Hans": "城阙辅三秦，风烟望五津。与君离别意，同是宦游人。海内存知己，天涯若比邻。无为在歧路，儿女共沾巾。",
+      "source_locator": {
+        "stage": 3,
+        "title": "9   送杜少府之任蜀州",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_09_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_09.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-10",
+      "source_text_zh_Hant": "車轔轔，馬蕭蕭，行人弓箭各在腰，爺娘妻子走相送，塵埃不見咸陽橋。牽衣頓足攔道哭，哭聲直上干雲霄。道旁過者問行人，行人但云點行頻。或從十五北防河，便至四十西營田。去時里正與裹頭，歸來頭白還戍邊。邊庭流血成海水，武皇開邊意未已。君不聞漢家山東二百州，千村萬落生荊杞。縱有健婦把鋤犁，禾生隴畝無東西。況復秦兵耐苦戰，被驅不異犬與雞。長者雖有問，役夫敢伸恨？且如今年冬，未休關西卒。縣官急索租，租稅從何出？信知生男惡，反是生女好；生女猶得嫁比鄰，生男埋沒隨百草。君不見青海頭，古來白骨無人收，新鬼煩冤舊鬼哭，天陰雨濕聲啾啾！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "車轔轔，馬蕭蕭，行人弓箭各在腰，爺娘妻子走相送，塵埃不見咸陽橋。牽衣頓足攔道哭，哭聲直上干雲霄。道旁過者問行人，行人但云點行頻。或從十五北防河，便至四十西營田。去時里正與裹頭，歸來頭白還戍邊。邊庭流血成海水，武皇開邊意未已。君不聞漢家山東二百州，千村萬落生荊杞。縱有健婦把鋤犁，禾生隴畝無東西。況復秦兵耐苦戰，被驅不異犬與雞。長者雖有問，役夫敢伸恨？且如今年冬，未休關西卒。縣官急索租，租稅從何出？信知生男惡，反是生女好；生女猶得嫁比鄰，生男埋沒隨百草。君不見青海頭，古來白骨無人收，新鬼煩冤舊鬼哭，天陰雨濕聲啾啾！",
+      "accepted_text_zh_Hans": "车辚辚，马萧萧，行人弓箭各在腰，爷娘妻子走相送，尘埃不见咸阳桥。牵衣顿足拦道哭，哭声直上干云霄。道旁过者问行人，行人但云点行频。或从十五北防河，便至四十西营田。去时里正与裹头，归来头白还戍边。边庭流血成海水，武皇开边意未已。君不闻汉家山东二百州，千村万落生荆杞。纵有健妇把锄犁，禾生陇亩无东西。况复秦兵耐苦战，被驱不异犬与鸡。长者虽有问，役夫敢伸恨？且如今年冬，未休关西卒。县官急索租，租税从何出？信知生男恶，反是生女好；生女犹得嫁比邻，生男埋没随百草。君不见青海头，古来白骨无人收，新鬼烦冤旧鬼哭，天阴雨湿声啾啾！",
+      "source_locator": {
+        "stage": 3,
+        "title": "10   兵車行",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_10_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_10.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-11a",
+      "source_text_zh_Hant": "梁上有雙燕，翩翩雄與雌。銜泥兩椽間，一巢生四兒。四兒日夜長，索食聲孜孜。青蟲不易捕，黃口無飽期。嘴爪雖欲敝，心力不知疲。須臾十來往，猶恐巢中飢。辛勤三十日，母瘦雛漸肥。喃喃教言語，一一刷毛衣。一旦羽翼成，引上庭樹枝。舉翅不回顧，隨風四散飛。雌雄空中鳴，聲盡呼不歸。卻入空巢裏，啁啾終夜悲。燕燕爾勿悲，爾當反自思：思爾為雛日，高飛背母時。當時父母念，今日爾應知！",
+      "preface_zh_Hant": "叟有愛子，背叟逃去，叟甚悲念之。叟少年時，亦嘗如是。故作《燕詩》以諭之矣。",
+      "accepted_text_zh_Hant": "梁上有雙燕，翩翩雄與雌。銜泥兩椽間，一巢生四兒。四兒日夜長，索食聲孜孜。青蟲不易捕，黃口無飽期。嘴爪雖欲敝，心力不知疲。須臾十來往，猶恐巢中飢。辛勤三十日，母瘦雛漸肥。喃喃教言語，一一刷毛衣。一旦羽翼成，引上庭樹枝。舉翅不回顧，隨風四散飛。雌雄空中鳴，聲盡呼不歸。卻入空巢裏，啁啾終夜悲。燕燕爾勿悲，爾當反自思：思爾為雛日，高飛背母時。當時父母念，今日爾應知！",
+      "accepted_text_zh_Hans": "梁上有双燕，翩翩雄与雌。衔泥两椽间，一巢生四儿。四儿日夜长，索食声孜孜。青虫不易捕，黄口无饱期。嘴爪虽欲敝，心力不知疲。须臾十来往，犹恐巢中饥。辛勤三十日，母瘦雏渐肥。喃喃教言语，一一刷毛衣。一旦羽翼成，引上庭树枝。举翅不回顾，随风四散飞。雌雄空中鸣，声尽呼不归。却入空巢里，啁啾终夜悲。燕燕尔勿悲，尔当反自思：思尔为雏日，高飞背母时。当时父母念，今日尔应知！",
+      "source_locator": {
+        "stage": 3,
+        "title": "燕詩",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11a_text.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-11b",
+      "source_text_zh_Hant": "慈烏失其母，啞啞吐哀音。晝夜不飛去，經年守故林。夜夜夜半啼，聞者為霑襟。聲中如告訴，未盡反哺心。百鳥豈無母？爾獨哀怨深。應是母慈重，使爾悲不任。昔有吳起者，母歿喪不臨。嗟哉斯徒輩，其心不如禽！慈烏復慈烏，鳥中之曾參。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "慈烏失其母，啞啞吐哀音。晝夜不飛去，經年守故林。夜夜夜半啼，聞者為霑襟。聲中如告訴，未盡反哺心。百鳥豈無母？爾獨哀怨深。應是母慈重，使爾悲不任。昔有吳起者，母歿喪不臨。嗟哉斯徒輩，其心不如禽！慈烏復慈烏，鳥中之曾參。",
+      "accepted_text_zh_Hans": "慈乌失其母，哑哑吐哀音。昼夜不飞去，经年守故林。夜夜夜半啼，闻者为沾襟。声中如告诉，未尽反哺心。百鸟岂无母？尔独哀怨深。应是母慈重，使尔悲不任。昔有吴起者，母殁丧不临。嗟哉斯徒辈，其心不如禽！慈乌复慈乌，鸟中之曾参。",
+      "source_locator": {
+        "stage": 3,
+        "title": "慈烏夜啼",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_11b_text.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-13",
+      "source_text_zh_Hant": "春花秋月何時了？往事知多少！小樓昨夜又東風，故國不堪回首月明中！雕闌玉砌應猶在，只是朱顏改。問君能有幾多愁？恰似一江春水向東流！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "春花秋月何時了？往事知多少！小樓昨夜又東風，故國不堪回首月明中！雕闌玉砌應猶在，只是朱顏改。問君能有幾多愁？恰似一江春水向東流！",
+      "accepted_text_zh_Hans": "春花秋月何时了？往事知多少！小楼昨夜又东风，故国不堪回首月明中！雕阑玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流！",
+      "source_locator": {
+        "stage": 3,
+        "title": "13  虞美人 (春花秋月何時了)",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_13_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_13.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-17",
+      "source_text_zh_Hant": "明月幾時有？把酒問青天。不知天上宮闕，今夕是何年。我欲乘風歸去，又恐瓊樓玉宇，高處不勝寒。起舞弄清影，何似在人間！轉朱閣，低綺戶，照無眠。不應有恨，何事長向別時圓？人有悲歡離合，月有陰晴圓缺，此事古難全。但願人長久，千里共嬋娟。",
+      "preface_zh_Hant": "丙辰中秋，歡飲達旦，大醉，作此篇，兼懷子由。",
+      "accepted_text_zh_Hant": "明月幾時有？把酒問青天。不知天上宮闕，今夕是何年。我欲乘風歸去，又恐瓊樓玉宇，高處不勝寒。起舞弄清影，何似在人間！轉朱閣，低綺戶，照無眠。不應有恨，何事長向別時圓？人有悲歡離合，月有陰晴圓缺，此事古難全。但願人長久，千里共嬋娟。",
+      "accepted_text_zh_Hans": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间！转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+      "source_locator": {
+        "stage": 3,
+        "title": "17   水調歌頭並序（明月幾時有）",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_17_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_17.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-18",
+      "source_text_zh_Hant": "怒髮衝冠，憑闌處、瀟瀟雨歇。抬望眼、仰天長嘯，壯懷激烈。三十功名塵與土，八千里路雲和月。莫等閒、白了少年頭，空悲切。靖康恥，猶未雪；臣子恨，何時滅！駕長車、踏破賀蘭山缺。壯志飢餐胡虜肉，笑談渴飲匈奴血。待從頭、收拾舊山河，朝天闕。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "怒髮衝冠，憑闌處、瀟瀟雨歇。抬望眼、仰天長嘯，壯懷激烈。三十功名塵與土，八千里路雲和月。莫等閒、白了少年頭，空悲切。靖康恥，猶未雪；臣子恨，何時滅！駕長車、踏破賀蘭山缺。壯志飢餐胡虜肉，笑談渴飲匈奴血。待從頭、收拾舊山河，朝天闕。",
+      "accepted_text_zh_Hans": "怒发冲冠，凭阑处、潇潇雨歇。擡望眼、仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。靖康耻，犹未雪；臣子恨，何时灭！驾长车、踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。",
+      "source_locator": {
+        "stage": 3,
+        "title": "18   滿江紅（怒髮衝冠）",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_18_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_18.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks3-19",
+      "source_text_zh_Hant": "枯藤老樹昏鴉，小橋流水人家，古道西風瘦馬。夕陽西下，斷腸人在天涯！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "枯藤老樹昏鴉，小橋流水人家，古道西風瘦馬。夕陽西下，斷腸人在天涯！",
+      "accepted_text_zh_Hans": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯！",
+      "source_locator": {
+        "stage": 3,
+        "title": "19   天淨沙 秋思",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks3_19_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS3_19.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-01",
+      "source_text_zh_Hant": "關關雎鳩，在河之洲。窈窕淑女，君子好逑。參差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，輾轉反側。參差荇菜，左右采之。窈窕淑女，琴瑟友之。參差荇菜，左右芼之。窈窕淑女，鐘鼓樂之。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "關關雎鳩，在河之洲。窈窕淑女，君子好逑。參差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，輾轉反側。參差荇菜，左右采之。窈窕淑女，琴瑟友之。參差荇菜，左右芼之。窈窕淑女，鐘鼓樂之。",
+      "accepted_text_zh_Hans": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。参差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，辗转反侧。参差荇菜，左右采之。窈窕淑女，琴瑟友之。参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+      "source_locator": {
+        "stage": 4,
+        "title": "1    國風．關雎",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_01_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_01.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-11",
+      "source_text_zh_Hant": "結廬在人境，而無車馬喧。問君何能爾，心遠地自偏。採菊東籬下，悠然見南山。山氣日夕佳，飛鳥相與還。此中有真意，欲辨已忘言。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "結廬在人境，而無車馬喧。問君何能爾，心遠地自偏。採菊東籬下，悠然見南山。山氣日夕佳，飛鳥相與還。此中有真意，欲辨已忘言。",
+      "accepted_text_zh_Hans": "结庐在人境，而无车马喧。问君何能尔，心远地自偏。采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还。此中有真意，欲辨已忘言。",
+      "source_locator": {
+        "stage": 4,
+        "title": "11   飲酒（其五）（結廬在人境）",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_11_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_11.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-16a",
+      "source_text_zh_Hant": "空山新雨後，天氣晚來秋。明月松間照，清泉石上流。竹喧歸浣女，蓮動下漁舟。隨意春芳歇，王孫自可留。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "空山新雨後，天氣晚來秋。明月松間照，清泉石上流。竹喧歸浣女，蓮動下漁舟。隨意春芳歇，王孫自可留。",
+      "accepted_text_zh_Hans": "空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。",
+      "source_locator": {
+        "stage": 4,
+        "title": "山居秋暝*",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16a_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-16b",
+      "source_text_zh_Hant": "花間一壺酒，獨酌無相親。舉杯邀明月，對影成三人。月既不解飲，影徒隨我身。暫伴月將影，行樂須及春。我歌月徘徊，我舞影零亂。醒時同交歡，醉後各分散。永結無情遊，相期邈雲漢。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "花間一壺酒，獨酌無相親。舉杯邀明月，對影成三人。月既不解飲，影徒隨我身。暫伴月將影，行樂須及春。我歌月徘徊，我舞影零亂。醒時同交歡，醉後各分散。永結無情遊，相期邈雲漢。",
+      "accepted_text_zh_Hans": "花间一壶酒，独酌无相亲。举杯邀明月，对影成三人。月既不解饮，影徒随我身。暂伴月将影，行乐须及春。我歌月徘徊，我舞影零乱。醒时同交欢，醉后各分散。永结无情游，相期邈云汉。",
+      "source_locator": {
+        "stage": 4,
+        "title": "月下獨酌（其一）*",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16b_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16b.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-16c",
+      "source_text_zh_Hant": "花近高樓傷客心，萬方多難此登臨。錦江春色來天地，玉壘浮雲變古今。北極朝廷終不改，西山寇盜莫相侵。可憐後主還祠廟，日暮聊為梁甫吟。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "花近高樓傷客心，萬方多難此登臨。錦江春色來天地，玉壘浮雲變古今。北極朝廷終不改，西山寇盜莫相侵。可憐後主還祠廟，日暮聊為梁甫吟。",
+      "accepted_text_zh_Hans": "花近高楼伤客心，万方多难此登临。锦江春色来天地，玉垒浮云变古今。北极朝廷终不改，西山寇盗莫相侵。可怜后主还祠庙，日暮聊为梁甫吟。",
+      "source_locator": {
+        "stage": 4,
+        "title": "登樓*",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16c_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16c.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-17a",
+      "source_text_zh_Hant": "大江東去，浪淘盡、千古風流人物。故壘西邊，人道是、三國周郎赤壁。亂石穿空，驚濤拍岸，捲起千堆雪。江山如畫，一時多少豪傑！遙想公瑾當年，小喬初嫁了，雄姿英發。羽扇綸巾，談笑間、檣櫓灰飛煙滅。故國神遊，多情應笑我，早生華髮。人間如夢，一尊還酹江月。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "大江東去，浪淘盡、千古風流人物。故壘西邊，人道是、三國周郎赤壁。亂石穿空，驚濤拍岸，捲起千堆雪。江山如畫，一時多少豪傑！遙想公瑾當年，小喬初嫁了，雄姿英發。羽扇綸巾，談笑間、檣櫓灰飛煙滅。故國神遊，多情應笑我，早生華髮。人間如夢，一尊還酹江月。",
+      "accepted_text_zh_Hans": "大江东去，浪淘尽、千古风流人物。故垒西边，人道是、三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰！遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间、樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人间如梦，一尊还酹江月。",
+      "source_locator": {
+        "stage": 4,
+        "title": "念奴嬌 赤壁懷古 ( 大江東去 ) *",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17a_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17a.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-17b",
+      "source_text_zh_Hant": "尋尋覓覓，冷冷清清，悽悽慘慘戚戚。乍煖還寒時候，最難將息。三杯兩盞淡酒，怎敵他，晚來風急！雁過也，正傷心，卻是舊時相識。滿地黃花堆積，憔悴損，如今有誰堪摘？守着窗兒，獨自怎生得黑！梧桐更兼細雨，到黃昏、點點滴滴。這次第，怎一箇愁字了得！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "尋尋覓覓，冷冷清清，悽悽慘慘戚戚。乍煖還寒時候，最難將息。三杯兩盞淡酒，怎敵他，晚來風急！雁過也，正傷心，卻是舊時相識。滿地黃花堆積，憔悴損，如今有誰堪摘？守着窗兒，獨自怎生得黑！梧桐更兼細雨，到黃昏、點點滴滴。這次第，怎一箇愁字了得！",
+      "accepted_text_zh_Hans": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍煖还寒时候，最难将息。三杯两盏淡酒，怎敌他，晚来风急！雁过也，正伤心，却是旧时相识。满地黄花堆积，憔悴损，如今有谁堪摘？守着窗儿，独自怎生得黑！梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得！",
+      "source_locator": {
+        "stage": 4,
+        "title": "聲聲慢 秋情 ( 尋尋覓覓 ) *",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17b_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17b.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-17c",
+      "source_text_zh_Hant": "東風夜放花千樹，更吹落、星如雨。寶馬雕車香滿路。鳳簫聲動，玉壺光轉，一夜魚龍舞。蛾兒雪柳黃金縷，笑語盈盈暗香去。眾裏尋他千百度；驀然迴首，那人卻在、燈火闌珊處。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "東風夜放花千樹，更吹落、星如雨。寶馬雕車香滿路。鳳簫聲動，玉壺光轉，一夜魚龍舞。蛾兒雪柳黃金縷，笑語盈盈暗香去。眾裏尋他千百度；驀然迴首，那人卻在、燈火闌珊處。",
+      "accepted_text_zh_Hans": "东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度；蓦然回首，那人却在、灯火阑珊处。",
+      "source_locator": {
+        "stage": 4,
+        "title": "青玉案 元夕 ( 東風夜放花千樹 ) *",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_17c_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_17c.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-18a",
+      "source_text_zh_Hant": "南畝耕，東山卧。世態人情經歷多。閒將往事思量過，賢的是他，愚的是我，爭甚麼？",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "南畝耕，東山卧。世態人情經歷多。閒將往事思量過，賢的是他，愚的是我，爭甚麼？",
+      "accepted_text_zh_Hans": "南亩耕，东山卧。世态人情经历多。闲将往事思量过，贤的是他，愚的是我，争甚么？",
+      "source_locator": {
+        "stage": 4,
+        "title": "四塊玉 閒適 ( 南畝耕 )",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18a_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18a.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "hk-ks4-18b",
+      "source_text_zh_Hant": "黃蘆岸白蘋渡口。綠楊堤紅蓼灘頭。雖無刎頸交，卻有忘機友。點秋江白鷺沙鷗。傲煞人間萬戶侯，不識字煙波釣叟。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "黃蘆岸白蘋渡口。綠楊堤紅蓼灘頭。雖無刎頸交，卻有忘機友。點秋江白鷺沙鷗。傲煞人間萬戶侯，不識字煙波釣叟。",
+      "accepted_text_zh_Hans": "黄芦岸白苹渡口。绿杨堤红蓼滩头。虽无刎颈交，却有忘机友。点秋江白鹭沙鸥。傲煞人间万户侯，不识字烟波钓叟。",
+      "source_locator": {
+        "stage": 4,
+        "title": "沉醉東風 漁父詞",
+        "links": [
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_18b_text.pdf",
+          "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_18b.pdf"
+        ]
+      }
+    },
+    {
+      "article_id": "ext-tang-001",
+      "source_text_zh_Hant": "前不見古人，後不見來者。念天地之悠悠，獨愴然而涕下。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "前不見古人，後不見來者。念天地之悠悠，獨愴然而涕下。",
+      "accepted_text_zh_Hans": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 1,
+        "source_title": "登幽州臺歌"
+      }
+    },
+    {
+      "article_id": "ext-tang-007",
+      "source_text_zh_Hant": "三日入廚下，洗手作羹湯。未諳姑食性，先遣小姑嘗。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "三日入廚下，洗手作羹湯。未諳姑食性，先遣小姑嘗。",
+      "accepted_text_zh_Hans": "三日入厨下，洗手作羹汤。未谙姑食性，先遣小姑尝。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 7,
+        "source_title": "新嫁娘詞三首 三"
+      }
+    },
+    {
+      "article_id": "ext-tang-009",
+      "source_text_zh_Hant": "錦瑟無端五十絃，一絃一柱思華年。莊生曉夢迷蝴蝶，望帝春心託杜鵑。滄海月明珠有淚，藍田日暖玉生煙。此情可待成追憶，只是當時已惘然。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "錦瑟無端五十絃，一絃一柱思華年。莊生曉夢迷蝴蝶，望帝春心託杜鵑。滄海月明珠有淚，藍田日暖玉生煙。此情可待成追憶，只是當時已惘然。",
+      "accepted_text_zh_Hans": "锦瑟无端五十弦，一弦一柱思华年。庄生晓梦迷蝴蝶，望帝春心托杜鹃。沧海月明珠有泪，蓝田日暖玉生烟。此情可待成追忆，只是当时已惘然。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 9,
+        "source_title": "錦瑟"
+      }
+    },
+    {
+      "article_id": "ext-tang-011",
+      "source_text_zh_Hant": "向晚意不適，驅車登古原。夕陽無限好，只是近黃昏。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "向晚意不適，驅車登古原。夕陽無限好，只是近黃昏。",
+      "accepted_text_zh_Hans": "向晚意不适，驱车登古原。夕阳无限好，只是近黄昏。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 11,
+        "source_title": "樂遊原"
+      }
+    },
+    {
+      "article_id": "ext-tang-012",
+      "source_text_zh_Hant": "君問歸期未有期，巴山夜雨漲秋池。何當共剪西窗燭，却話巴山夜雨時。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "君問歸期未有期，巴山夜雨漲秋池。何當共剪西窗燭，却話巴山夜雨時。",
+      "accepted_text_zh_Hans": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 12,
+        "source_title": "夜雨寄北"
+      }
+    },
+    {
+      "article_id": "ext-tang-024",
+      "source_text_zh_Hant": "相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬山此去無多路，青鳥殷勤爲探看。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬山此去無多路，青鳥殷勤爲探看。",
+      "accepted_text_zh_Hans": "相见时难别亦难，东风无力百花残。春蚕到死丝方尽，蜡炬成灰泪始干。晓镜但愁云鬓改，夜吟应觉月光寒。蓬山此去无多路，青鸟殷勤为探看。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 24,
+        "source_title": "無題"
+      }
+    },
+    {
+      "article_id": "ext-tang-027",
+      "source_text_zh_Hant": "雲母屏風燭影深，長河漸落曉星沈。常娥應悔偷靈藥，碧海青天夜夜心。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "雲母屏風燭影深，長河漸落曉星沉。嫦娥應悔偷靈藥，碧海青天夜夜心。",
+      "accepted_text_zh_Hans": "云母屏风烛影深，长河渐落晓星沉。嫦娥应悔偷灵药，碧海青天夜夜心。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 27,
+        "source_title": "常娥"
+      }
+    },
+    {
+      "article_id": "ext-tang-030",
+      "source_text_zh_Hant": "宣室求賢訪逐臣，賈生才調更無倫。可憐夜半虛前席，不問蒼生問鬼神。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "宣室求賢訪逐臣，賈生才調更無倫。可憐夜半虛前席，不問蒼生問鬼神。",
+      "accepted_text_zh_Hans": "宣室求贤访逐臣，贾生才调更无伦。可怜夜半虚前席，不问苍生问鬼神。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 30,
+        "source_title": "賈生"
+      }
+    },
+    {
+      "article_id": "ext-tang-036",
+      "source_text_zh_Hant": "江雨霏霏江草齊，六朝如夢鳥空啼。無情最是臺城柳，依舊煙籠十里堤。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "江雨霏霏江草齊，六朝如夢鳥空啼。無情最是臺城柳，依舊煙籠十里堤。",
+      "accepted_text_zh_Hans": "江雨霏霏江草齐，六朝如梦鸟空啼。无情最是台城柳，依旧烟笼十里堤。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 36,
+        "source_title": "臺城"
+      }
+    },
+    {
+      "article_id": "ext-tang-042",
+      "source_text_zh_Hant": "打起黃鶯兒，莫教枝上啼。啼時驚妾夢，不得到遼西。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "打起黃鶯兒，莫教枝上啼。啼時驚妾夢，不得到遼西。",
+      "accepted_text_zh_Hans": "打起黄莺儿，莫教枝上啼。啼时惊妾梦，不得到辽西。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 42,
+        "source_title": "春怨"
+      }
+    },
+    {
+      "article_id": "ext-tang-046",
+      "source_text_zh_Hant": "寥落古行宮，宮花寂寞紅。白頭宮女在，閑坐說玄宗。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "寥落古行宮，宮花寂寞紅。白頭宮女在，閑坐說玄宗。",
+      "accepted_text_zh_Hans": "寥落古行宫，宫花寂寞红。白头宫女在，闲坐说玄宗。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 46,
+        "source_title": "行宮"
+      }
+    },
+    {
+      "article_id": "ext-tang-051",
+      "source_text_zh_Hant": "客路青山外，行舟綠水前。潮平兩岸闊，風正一帆懸。海日生殘夜，江春入舊年。鄉書何處達，歸雁洛陽邊。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "客路青山外，行舟綠水前。潮平兩岸闊，風正一帆懸。海日生殘夜，江春入舊年。鄉書何處達，歸雁洛陽邊。",
+      "accepted_text_zh_Hans": "客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。乡书何处达，归雁洛阳边。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 51,
+        "source_title": "次北固山下"
+      }
+    },
+    {
+      "article_id": "ext-tang-052",
+      "source_text_zh_Hant": "隱隱飛橋隔野煙，石磯西畔問漁船。桃花盡日隨流水，洞在清谿何處邊。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "隱隱飛橋隔野煙，石磯西畔問漁船。桃花盡日隨流水，洞在清溪何處邊。",
+      "accepted_text_zh_Hans": "隐隐飞桥隔野烟，石矶西畔问渔船。桃花尽日随流水，洞在清溪何处边。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 52,
+        "source_title": "桃花谿"
+      }
+    },
+    {
+      "article_id": "ext-tang-053",
+      "source_text_zh_Hant": "下馬飲君酒，問君何所之。君言不得意，歸臥南山陲。但去莫復問，白雲無盡時。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "下馬飲君酒，問君何所之。君言不得意，歸臥南山陲。但去莫復問，白雲無盡時。",
+      "accepted_text_zh_Hans": "下马饮君酒，问君何所之。君言不得意，归卧南山陲。但去莫复问，白云无尽时。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 53,
+        "source_title": "送別"
+      }
+    },
+    {
+      "article_id": "ext-tang-056",
+      "source_text_zh_Hant": "斜陽照墟落，窮巷牛羊歸。野老念牧童，倚杖候荆扉。雉雊麥苗秀，蠶眠桑葉稀。田夫荷鋤至，相見語依依。即此羨閑逸，悵然吟式微。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "斜陽照墟落，窮巷牛羊歸。野老念牧童，倚杖候荆扉。雉雊麥苗秀，蠶眠桑葉稀。田夫荷鋤至，相見語依依。即此羨閑逸，悵然吟式微。",
+      "accepted_text_zh_Hans": "斜阳照墟落，穷巷牛羊归。野老念牧童，倚杖候荆扉。雉雊麦苗秀，蚕眠桑叶稀。田夫荷锄至，相见语依依。即此羡闲逸，怅然吟式微。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 56,
+        "source_title": "渭川田家"
+      }
+    },
+    {
+      "article_id": "ext-tang-061",
+      "source_text_zh_Hant": "寒山轉蒼翠，秋水日潺湲。倚杖柴門外，臨風聽暮蟬。渡頭餘落日，墟里上孤煙。復值接輿醉，狂歌五柳前。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "寒山轉蒼翠，秋水日潺湲。倚杖柴門外，臨風聽暮蟬。渡頭餘落日，墟里上孤煙。復值接輿醉，狂歌五柳前。",
+      "accepted_text_zh_Hans": "寒山转苍翠，秋水日潺湲。倚杖柴门外，临风听暮蝉。渡头余落日，墟里上孤烟。复值接舆醉，狂歌五柳前。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 61,
+        "source_title": "輞川閑居贈裴秀才迪"
+      }
+    },
+    {
+      "article_id": "ext-tang-062",
+      "source_text_zh_Hant": "晚年唯好靜，萬事不關心。自顧無長策，空知返舊林。松風吹解帶，山月照彈琴。君問窮通理，漁歌入浦深。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "晚年唯好靜，萬事不關心。自顧無長策，空知返舊林。松風吹解帶，山月照彈琴。君問窮通理，漁歌入浦深。",
+      "accepted_text_zh_Hans": "晚年唯好静，万事不关心。自顾无长策，空知返旧林。松风吹解带，山月照弹琴。君问穷通理，渔歌入浦深。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 62,
+        "source_title": "酬張少府"
+      }
+    },
+    {
+      "article_id": "ext-tang-072",
+      "source_text_zh_Hant": "折戟沈沙鐵未銷，自將磨洗認前朝。東風不與周郎便，銅雀春深鏁二喬。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "折戟沉沙鐵未銷，自將磨洗認前朝。東風不與周郎便，銅雀春深鎖二喬。",
+      "accepted_text_zh_Hans": "折戟沉沙铁未销，自将磨洗认前朝。东风不与周郎便，铜雀春深锁二乔。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 72,
+        "source_title": "赤壁"
+      }
+    },
+    {
+      "article_id": "ext-tang-073",
+      "source_text_zh_Hant": "煙籠寒水月籠沙，夜泊秦淮近酒家。商女不知亡國恨，隔江猶唱後庭花。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "煙籠寒水月籠沙，夜泊秦淮近酒家。商女不知亡國恨，隔江猶唱後庭花。",
+      "accepted_text_zh_Hans": "烟笼寒水月笼沙，夜泊秦淮近酒家。商女不知亡国恨，隔江犹唱后庭花。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 73,
+        "source_title": "泊秦淮"
+      }
+    },
+    {
+      "article_id": "ext-tang-077",
+      "source_text_zh_Hant": "紅燭秋光冷畫屏，輕羅小扇撲流螢。天階夜色涼如水，坐看牽牛織女星。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "紅燭秋光冷畫屏，輕羅小扇撲流螢。天階夜色涼如水，坐看牽牛織女星。",
+      "accepted_text_zh_Hans": "红烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，坐看牵牛织女星。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 77,
+        "source_title": "秋夕"
+      }
+    },
+    {
+      "article_id": "ext-tang-083",
+      "source_text_zh_Hant": "誓掃匈奴不顧身，五千貂錦喪胡塵。可憐無定河邊骨，猶是春閨夢裏人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "誓掃匈奴不顧身，五千貂錦喪胡塵。可憐無定河邊骨，猶是春閨夢裏人。",
+      "accepted_text_zh_Hans": "誓扫匈奴不顾身，五千貂锦丧胡尘。可怜无定河边骨，犹是春闺梦里人。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 83,
+        "source_title": "隴西行四首 二"
+      }
+    },
+    {
+      "article_id": "ext-tang-088",
+      "source_text_zh_Hant": "回樂峰前沙似雪，受降城下月如霜。不知何處吹蘆管，一夜征人盡望鄉。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "回樂峰前沙似雪，受降城下月如霜。不知何處吹蘆管，一夜征人盡望鄉。",
+      "accepted_text_zh_Hans": "回乐峰前沙似雪，受降城下月如霜。不知何处吹芦管，一夜征人尽望乡。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 88,
+        "source_title": "夜上受降城聞笛"
+      }
+    },
+    {
+      "article_id": "ext-tang-093",
+      "source_text_zh_Hant": "泠泠七絲上，靜聽松風寒。古調雖自愛，今人多不彈。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "泠泠七絲上，靜聽松風寒。古調雖自愛，今人多不彈。",
+      "accepted_text_zh_Hans": "泠泠七丝上，静听松风寒。古调虽自爱，今人多不弹。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 93,
+        "source_title": "聽彈琴"
+      }
+    },
+    {
+      "article_id": "ext-tang-095",
+      "source_text_zh_Hant": "蒼蒼竹林寺，杳杳鐘聲晚。荷笠帶夕陽，青山獨歸遠。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "蒼蒼竹林寺，杳杳鐘聲晚。荷笠帶夕陽，青山獨歸遠。",
+      "accepted_text_zh_Hans": "苍苍竹林寺，杳杳钟声晚。荷笠带夕阳，青山独归远。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 95,
+        "source_title": "送靈澈上人"
+      }
+    },
+    {
+      "article_id": "ext-tang-107",
+      "source_text_zh_Hant": "山光忽西落，池月漸東上。散髮乘夕涼，開軒臥閑敞。荷風送香氣，竹露滴清響。欲取鳴琴彈，恨無知音賞。感此懷故人，中宵勞夢想。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "山光忽西落，池月漸東上。散髮乘夕涼，開軒臥閑敞。荷風送香氣，竹露滴清響。欲取鳴琴彈，恨無知音賞。感此懷故人，中宵勞夢想。",
+      "accepted_text_zh_Hans": "山光忽西落，池月渐东上。散发乘夕凉，开轩卧闲敞。荷风送香气，竹露滴清响。欲取鸣琴弹，恨无知音赏。感此怀故人，中宵劳梦想。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 107,
+        "source_title": "夏日南亭懷辛大"
+      }
+    },
+    {
+      "article_id": "ext-tang-110",
+      "source_text_zh_Hant": "八月湖水平，涵虛混太清。氣蒸雲夢澤，波撼岳陽城。欲濟無舟楫，端居恥聖明。坐觀垂釣者，空有羨魚情。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "八月湖水平，涵虛混太清。氣蒸雲夢澤，波撼岳陽城。欲濟無舟楫，端居恥聖明。坐觀垂釣者，空有羨魚情。",
+      "accepted_text_zh_Hans": "八月湖水平，涵虚混太清。气蒸云梦泽，波撼岳阳城。欲济无舟楫，端居耻圣明。坐观垂钓者，空有羡鱼情。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 110,
+        "source_title": "望洞庭湖贈張丞相"
+      }
+    },
+    {
+      "article_id": "ext-tang-117",
+      "source_text_zh_Hant": "故人具雞黍，邀我至田家。綠樹村邊合，青山郭外斜。開筵面場圃，把酒話桑麻。待到重陽日，還來就菊花。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "故人具雞黍，邀我至田家。綠樹村邊合，青山郭外斜。開筵面場圃，把酒話桑麻。待到重陽日，還來就菊花。",
+      "accepted_text_zh_Hans": "故人具鸡黍，邀我至田家。绿树村边合，青山郭外斜。开筵面场圃，把酒话桑麻。待到重阳日，还来就菊花。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 117,
+        "source_title": "過故人莊"
+      }
+    },
+    {
+      "article_id": "ext-tang-121",
+      "source_text_zh_Hant": "移舟泊煙渚，日暮客愁新。野曠天低樹，江清月近人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "移舟泊煙渚，日暮客愁新。野曠天低樹，江清月近人。",
+      "accepted_text_zh_Hans": "移舟泊烟渚，日暮客愁新。野旷天低树，江清月近人。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 121,
+        "source_title": "宿建德江"
+      }
+    },
+    {
+      "article_id": "ext-tang-127",
+      "source_text_zh_Hant": "林暗草驚風，將軍夜引弓。平明尋白羽，沒在石稜中。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "林暗草驚風，將軍夜引弓。平明尋白羽，沒在石稜中。",
+      "accepted_text_zh_Hans": "林暗草惊风，将军夜引弓。平明寻白羽，没在石棱中。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 127,
+        "source_title": "和張僕射塞下曲 二"
+      }
+    },
+    {
+      "article_id": "ext-tang-128",
+      "source_text_zh_Hant": "月黑鴈飛高，單于夜遁逃。欲將輕騎逐，大雪滿弓刀。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "月黑雁飛高，單于夜遁逃。欲將輕騎逐，大雪滿弓刀。",
+      "accepted_text_zh_Hans": "月黑雁飞高，单于夜遁逃。欲将轻骑逐，大雪满弓刀。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 128,
+        "source_title": "和張僕射塞下曲 三"
+      }
+    },
+    {
+      "article_id": "ext-tang-134",
+      "source_text_zh_Hant": "中歲頗好道，晚家南山陲。興來每獨往，勝事空自知。行到水窮處，坐看雲起時。偶然值林叟，談笑無還期。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "中歲頗好道，晚家南山陲。興來每獨往，勝事空自知。行到水窮處，坐看雲起時。偶然值林叟，談笑無還期。",
+      "accepted_text_zh_Hans": "中岁颇好道，晚家南山陲。兴来每独往，胜事空自知。行到水穷处，坐看云起时。偶然值林叟，谈笑无还期。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 134,
+        "source_title": "終南別業"
+      }
+    },
+    {
+      "article_id": "ext-tang-136",
+      "source_text_zh_Hant": "太乙近天都，連山接海隅。白雲迴望合，青靄入看無。分野中峰變，陰晴衆壑殊。欲投人處宿，隔水問樵夫。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "太乙近天都，連山接海隅。白雲迴望合，青靄入看無。分野中峰變，陰晴衆壑殊。欲投人處宿，隔水問樵夫。",
+      "accepted_text_zh_Hans": "太乙近天都，连山接海隅。白云回望合，青霭入看无。分野中峰变，阴晴众壑殊。欲投人处宿，隔水问樵夫。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 136,
+        "source_title": "終南山"
+      }
+    },
+    {
+      "article_id": "ext-tang-137",
+      "source_text_zh_Hant": "楚塞三湘接，荆門九派通。江流天地外，山色有無中。郡邑浮前浦，波瀾動遠空。襄陽好風日，留醉與山翁。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "楚塞三湘接，荆門九派通。江流天地外，山色有無中。郡邑浮前浦，波瀾動遠空。襄陽好風日，留醉與山翁。",
+      "accepted_text_zh_Hans": "楚塞三湘接，荆门九派通。江流天地外，山色有无中。郡邑浮前浦，波澜动远空。襄阳好风日，留醉与山翁。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 137,
+        "source_title": "漢江臨汎"
+      }
+    },
+    {
+      "article_id": "ext-tang-142",
+      "source_text_zh_Hant": "空山不見人，但聞人語響。返景入深林，復照青苔上。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "空山不見人，但聞人語響。返景入深林，復照青苔上。",
+      "accepted_text_zh_Hans": "空山不见人，但闻人语响。返景入深林，复照青苔上。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 142,
+        "source_title": "輞川集 鹿柴"
+      }
+    },
+    {
+      "article_id": "ext-tang-143",
+      "source_text_zh_Hant": "獨坐幽篁裏，彈琴復長嘯。深林人不知，明月來相照。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "獨坐幽篁裏，彈琴復長嘯。深林人不知，明月來相照。",
+      "accepted_text_zh_Hans": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 143,
+        "source_title": "輞川集 竹里館"
+      }
+    },
+    {
+      "article_id": "ext-tang-144",
+      "source_text_zh_Hant": "山中相送罷，日暮掩柴扉。春草明年綠，王孫歸不歸。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "山中相送罷，日暮掩柴扉。春草明年綠，王孫歸不歸。",
+      "accepted_text_zh_Hans": "山中相送罢，日暮掩柴扉。春草明年绿，王孙归不归。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 144,
+        "source_title": "送別"
+      }
+    },
+    {
+      "article_id": "ext-tang-145",
+      "source_text_zh_Hant": "君自故鄉來，應知故鄉事。來日綺窗前，寒梅着花未。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "君自故鄉來，應知故鄉事。來日綺窗前，寒梅着花未。",
+      "accepted_text_zh_Hans": "君自故乡来，应知故乡事。来日绮窗前，寒梅着花未。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 145,
+        "source_title": "雜詩三首 二"
+      }
+    },
+    {
+      "article_id": "ext-tang-146",
+      "source_text_zh_Hant": "紅豆生南國，秋來發故枝。願君多采擷，此物最相思。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "紅豆生南國，秋來發故枝。願君多采擷，此物最相思。",
+      "accepted_text_zh_Hans": "红豆生南国，秋来发故枝。愿君多采撷，此物最相思。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 146,
+        "source_title": "相思"
+      }
+    },
+    {
+      "article_id": "ext-tang-151",
+      "source_text_zh_Hant": "昔人已乘白雲去，此地空餘黃鶴樓。黃鶴一去不復返，白雲千載空悠悠。晴川歷歷漢陽樹，春草萋萋鸚鵡洲。日暮鄉關何處是，煙波江上使人愁。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "昔人已乘白雲去，此地空餘黃鶴樓。黃鶴一去不復返，白雲千載空悠悠。晴川歷歷漢陽樹，春草萋萋鸚鵡洲。日暮鄉關何處是，煙波江上使人愁。",
+      "accepted_text_zh_Hans": "昔人已乘白云去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。晴川历历汉阳树，春草萋萋鹦鹉洲。日暮乡关何处是，烟波江上使人愁。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 151,
+        "source_title": "黃鶴樓"
+      }
+    },
+    {
+      "article_id": "ext-tang-156",
+      "source_text_zh_Hant": "終南陰嶺秀，積雪浮雲端。林表明霽色，城中增暮寒。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "終南陰嶺秀，積雪浮雲端。林表明霽色，城中增暮寒。",
+      "accepted_text_zh_Hans": "终南阴岭秀，积雪浮云端。林表明霁色，城中增暮寒。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 156,
+        "source_title": "終南望餘雪"
+      }
+    },
+    {
+      "article_id": "ext-tang-170",
+      "source_text_zh_Hant": "閨中少婦不曾愁，春日凝妝上翠樓。忽見陌頭楊柳色，悔教夫壻覓封侯。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "閨中少婦不曾愁，春日凝妝上翠樓。忽見陌頭楊柳色，悔教夫婿覓封侯。",
+      "accepted_text_zh_Hans": "闺中少妇不曾愁，春日凝妆上翠楼。忽见陌头杨柳色，悔教夫婿觅封侯。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 170,
+        "source_title": "閨怨"
+      }
+    },
+    {
+      "article_id": "ext-tang-171",
+      "source_text_zh_Hant": "寒雨連天夜入湖，平明送客楚山孤。洛陽親友如相問，一片冰心在玉壺。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "寒雨連天夜入湖，平明送客楚山孤。洛陽親友如相問，一片冰心在玉壺。",
+      "accepted_text_zh_Hans": "寒雨连天夜入湖，平明送客楚山孤。洛阳亲友如相问，一片冰心在玉壶。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 171,
+        "source_title": "芙蓉樓送辛漸二首 一"
+      }
+    },
+    {
+      "article_id": "ext-tang-181",
+      "source_text_zh_Hant": "綠螘新醅酒，紅泥小火壚。晚來天欲雪，能飲一杯無。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "綠蟻新醅酒，紅泥小火爐。晚來天欲雪，能飲一杯無。",
+      "accepted_text_zh_Hans": "绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 181,
+        "source_title": "問劉十九"
+      }
+    },
+    {
+      "article_id": "ext-tang-182",
+      "source_text_zh_Hant": "松下問童子，言師採藥去。只在此山中，雲深不知處。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "松下問童子，言師採藥去。只在此山中，雲深不知處。",
+      "accepted_text_zh_Hans": "松下问童子，言师采药去。只在此山中，云深不知处。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 182,
+        "source_title": "尋隱者不遇"
+      }
+    },
+    {
+      "article_id": "ext-tang-196",
+      "source_text_zh_Hant": "金陵津渡小山樓，一宿行人自可愁。潮落夜江斜月裏，兩三星火是瓜州。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "金陵津渡小山樓，一宿行人自可愁。潮落夜江斜月裏，兩三星火是瓜洲。",
+      "accepted_text_zh_Hans": "金陵津渡小山楼，一宿行人自可愁。潮落夜江斜月里，两三星火是瓜洲。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 196,
+        "source_title": "題金陵渡"
+      }
+    },
+    {
+      "article_id": "ext-tang-204",
+      "source_text_zh_Hant": "漁翁夜傍西巖宿，曉汲清湘燃楚竹。煙銷日出不見人，[欸]乃一聲山水綠。迴看天際下中流，巖上無心雲相逐。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "漁翁夜傍西巖宿，曉汲清湘燃楚竹。煙銷日出不見人，欸乃一聲山水綠。迴看天際下中流，巖上無心雲相逐。",
+      "accepted_text_zh_Hans": "渔翁夜傍西岩宿，晓汲清湘燃楚竹。烟销日出不见人，欸乃一声山水绿。回看天际下中流，岩上无心云相逐。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 204,
+        "source_title": "漁翁"
+      }
+    },
+    {
+      "article_id": "ext-tang-207",
+      "source_text_zh_Hant": "國破山河在，城春草木深。感時花濺淚，恨別鳥驚心。烽火連三月，家書抵萬金。白頭搔更短，渾欲不勝簪。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "國破山河在，城春草木深。感時花濺淚，恨別鳥驚心。烽火連三月，家書抵萬金。白頭搔更短，渾欲不勝簪。",
+      "accepted_text_zh_Hans": "国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金。白头搔更短，浑欲不胜簪。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 207,
+        "source_title": "春望"
+      }
+    },
+    {
+      "article_id": "ext-tang-210",
+      "source_text_zh_Hant": "戍鼓斷人行，秋邊一雁聲。露從今夜白，月是故鄉明。有弟皆分散，無家問死生。寄書長不避，況乃未休兵。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "戍鼓斷人行，秋邊一雁聲。露從今夜白，月是故鄉明。有弟皆分散，無家問死生。寄書長不達，況乃未休兵。",
+      "accepted_text_zh_Hans": "戍鼓断人行，秋边一雁声。露从今夜白，月是故乡明。有弟皆分散，无家问死生。寄书长不达，况乃未休兵。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 210,
+        "source_title": "月夜憶舍弟"
+      }
+    },
+    {
+      "article_id": "ext-tang-212",
+      "source_text_zh_Hant": "丞相祠堂何處尋，錦官城外柏森森。映堦碧草自春色，隔葉黃鸝空好音。三顧頻煩天下計，兩朝開濟老臣心。出師未捷身先死，長使英雄淚滿襟。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "丞相祠堂何處尋，錦官城外柏森森。映階碧草自春色，隔葉黃鸝空好音。三顧頻煩天下計，兩朝開濟老臣心。出師未捷身先死，長使英雄淚滿襟。",
+      "accepted_text_zh_Hans": "丞相祠堂何处寻，锦官城外柏森森。映阶碧草自春色，隔叶黄鹂空好音。三顾频烦天下计，两朝开济老臣心。出师未捷身先死，长使英雄泪满襟。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 212,
+        "source_title": "蜀相"
+      }
+    },
+    {
+      "article_id": "ext-tang-216",
+      "source_text_zh_Hant": "劒外忽傳收薊北，初聞涕淚滿衣裳。却看妻子愁何在，漫卷詩書喜欲狂。白日放歌須縱酒，青春作伴好還鄉。即從巴峽穿巫峽，便下襄陽向洛陽。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "劍外忽傳收薊北，初聞涕淚滿衣裳。却看妻子愁何在，漫卷詩書喜欲狂。白日放歌須縱酒，青春作伴好還鄉。即從巴峽穿巫峽，便下襄陽向洛陽。",
+      "accepted_text_zh_Hans": "剑外忽传收蓟北，初闻涕泪满衣裳。却看妻子愁何在，漫卷诗书喜欲狂。白日放歌须纵酒，青春作伴好还乡。即从巴峡穿巫峡，便下襄阳向洛阳。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 216,
+        "source_title": "聞官軍收河南河北"
+      }
+    },
+    {
+      "article_id": "ext-tang-217",
+      "source_text_zh_Hant": "風急天高猨嘯哀，渚清沙白鳥飛迴。無邊落木蕭蕭下，不盡長江衮衮來。萬里悲秋常作客，百年多病獨登臺。艱難苦恨繁霜鬢，潦倒新停濁酒桮。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "風急天高猿嘯哀，渚清沙白鳥飛迴。無邊落木蕭蕭下，不盡長江滾滾來。萬里悲秋常作客，百年多病獨登臺。艱難苦恨繁霜鬢，潦倒新停濁酒杯。",
+      "accepted_text_zh_Hans": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 217,
+        "source_title": "登高"
+      }
+    },
+    {
+      "article_id": "ext-tang-221",
+      "source_text_zh_Hant": "細草微風岸，危檣獨夜舟。星垂平野闊，月湧大江流。名豈文章著，官因老病休。飄飄何所似，天地一沙鷗。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "細草微風岸，危檣獨夜舟。星垂平野闊，月湧大江流。名豈文章著，官因老病休。飄飄何所似，天地一沙鷗。",
+      "accepted_text_zh_Hans": "细草微风岸，危樯独夜舟。星垂平野阔，月涌大江流。名岂文章著，官因老病休。飘飘何所似，天地一沙鸥。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 221,
+        "source_title": "旅夜書懷"
+      }
+    },
+    {
+      "article_id": "ext-tang-223",
+      "source_text_zh_Hant": "功蓋三分國，名高八陣圖。江流石不轉，遺恨失吞吳。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "功蓋三分國，名高八陣圖。江流石不轉，遺恨失吞吳。",
+      "accepted_text_zh_Hans": "功盖三分国，名高八阵图。江流石不转，遗恨失吞吴。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 223,
+        "source_title": "八陣圖"
+      }
+    },
+    {
+      "article_id": "ext-tang-229",
+      "source_text_zh_Hant": "歧王宅裏尋常見，崔九堂前幾度聞。正是江南好風景，落花時節又逢君。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "岐王宅裏尋常見，崔九堂前幾度聞。正是江南好風景，落花時節又逢君。",
+      "accepted_text_zh_Hans": "岐王宅里寻常见，崔九堂前几度闻。正是江南好风景，落花时节又逢君。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 229,
+        "source_title": "江南逢李龜年"
+      }
+    },
+    {
+      "article_id": "ext-tang-230",
+      "source_text_zh_Hant": "昔聞洞庭水，今上岳陽樓。吳楚東南坼，乾坤日夜浮。親朋無一字，老病有孤舟。戎馬關山北，憑軒涕泗流。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "昔聞洞庭水，今上岳陽樓。吳楚東南坼，乾坤日夜浮。親朋無一字，老病有孤舟。戎馬關山北，憑軒涕泗流。",
+      "accepted_text_zh_Hans": "昔闻洞庭水，今上岳阳楼。吴楚东南坼，乾坤日夜浮。亲朋无一字，老病有孤舟。戎马关山北，凭轩涕泗流。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 230,
+        "source_title": "登岳陽樓"
+      }
+    },
+    {
+      "article_id": "ext-tang-232",
+      "source_text_zh_Hant": "海上生明月，天涯共此時。情人怨遙夜，竟夕起相思。滅燭憐光滿，披衣覺露滋。不堪盈手贈，還寢夢佳期。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "海上生明月，天涯共此時。情人怨遙夜，竟夕起相思。滅燭憐光滿，披衣覺露滋。不堪盈手贈，還寢夢佳期。",
+      "accepted_text_zh_Hans": "海上生明月，天涯共此时。情人怨遥夜，竟夕起相思。灭烛怜光满，披衣觉露滋。不堪盈手赠，还寝梦佳期。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 232,
+        "source_title": "望月懷遠"
+      }
+    },
+    {
+      "article_id": "ext-tang-234",
+      "source_text_zh_Hant": "嶺外音書斷，經冬復歷春。近鄉情更怯，不敢問來人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "嶺外音書斷，經冬復歷春。近鄉情更怯，不敢問來人。",
+      "accepted_text_zh_Hans": "岭外音书断，经冬复历春。近乡情更怯，不敢问来人。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 234,
+        "source_title": "渡漢江"
+      }
+    },
+    {
+      "article_id": "ext-tang-240",
+      "source_text_zh_Hant": "岱宗夫如何，齊魯青未了。造化鍾神秀，陰陽割昏曉。盪胷生曾雲，決眥入歸鳥。會當凌絕頂，一覽衆山小。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "岱宗夫如何，齊魯青未了。造化鍾神秀，陰陽割昏曉。盪胸生曾雲，決眥入歸鳥。會當凌絕頂，一覽衆山小。",
+      "accepted_text_zh_Hans": "岱宗夫如何，齐鲁青未了。造化钟神秀，阴阳割昏晓。荡胸生曾云，决眦入归鸟。会当凌绝顶，一览众山小。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 240,
+        "source_title": "望嶽"
+      }
+    },
+    {
+      "article_id": "ext-tang-268",
+      "source_text_zh_Hant": "朱雀橋邊野草花，烏衣巷口夕陽斜。舊時王謝堂前燕，飛入尋常百姓家。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "朱雀橋邊野草花，烏衣巷口夕陽斜。舊時王謝堂前燕，飛入尋常百姓家。",
+      "accepted_text_zh_Hans": "朱雀桥边野草花，乌衣巷口夕阳斜。旧时王谢堂前燕，飞入寻常百姓家。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 268,
+        "source_title": "金陵五題 烏衣巷"
+      }
+    },
+    {
+      "article_id": "ext-tang-282",
+      "source_text_zh_Hant": "春城無處不飛花，寒食東風御柳斜。日暮漢宮傳蠟燭，輕煙散入五侯家。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "春城無處不飛花，寒食東風御柳斜。日暮漢宮傳蠟燭，輕煙散入五侯家。",
+      "accepted_text_zh_Hans": "春城无处不飞花，寒食东风御柳斜。日暮汉宫传蜡烛，轻烟散入五侯家。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 282,
+        "source_title": "寒食"
+      }
+    },
+    {
+      "article_id": "ext-tang-285",
+      "source_text_zh_Hant": "懷君屬秋夜，散步詠涼天。山空松子落，幽人應未眠。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "懷君屬秋夜，散步詠涼天。山空松子落，幽人應未眠。",
+      "accepted_text_zh_Hans": "怀君属秋夜，散步咏凉天。山空松子落，幽人应未眠。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 285,
+        "source_title": "秋夜寄丘二十二員外"
+      }
+    },
+    {
+      "article_id": "ext-tang-291",
+      "source_text_zh_Hant": "獨憐幽草澗邊生，上有黃鸝深樹鳴。春潮帶雨晚來急，野渡無人舟自橫。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "獨憐幽草澗邊生，上有黃鸝深樹鳴。春潮帶雨晚來急，野渡無人舟自橫。",
+      "accepted_text_zh_Hans": "独怜幽草涧边生，上有黄鹂深树鸣。春潮带雨晚来急，野渡无人舟自横。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 291,
+        "source_title": "滁州西澗"
+      }
+    },
+    {
+      "article_id": "ext-tang-299",
+      "source_text_zh_Hant": "故園東望路漫漫，雙袖龍鍾淚不乾。馬上相逢無紙筆，憑君傳語報平安。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "故園東望路漫漫，雙袖龍鍾淚不乾。馬上相逢無紙筆，憑君傳語報平安。",
+      "accepted_text_zh_Hans": "故园东望路漫漫，双袖龙钟泪不干。马上相逢无纸笔，凭君传语报平安。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 299,
+        "source_title": "逢入京使"
+      }
+    },
+    {
+      "article_id": "ext-tang-302",
+      "source_text_zh_Hant": "金樽清酒斗十千，玉盤珍羞直萬錢。停杯投筯不能食，拔劒四顧心茫然。欲渡黃河冰塞川，將登太行雪滿山。閑來垂釣碧溪上，忽復乘舟夢日邊。行路難，行路難，多岐路，今安在。長風破浪會有時，直挂雲帆濟滄海。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "金樽清酒斗十千，玉盤珍羞直萬錢。停杯投箸不能食，拔劍四顧心茫然。欲渡黃河冰塞川，將登太行雪滿山。閑來垂釣碧溪上，忽復乘舟夢日邊。行路難，行路難，多岐路，今安在。長風破浪會有時，直挂雲帆濟滄海。",
+      "accepted_text_zh_Hans": "金樽清酒斗十千，玉盘珍羞直万钱。停杯投箸不能食，拔剑四顾心茫然。欲渡黄河冰塞川，将登太行雪满山。闲来垂钓碧溪上，忽复乘舟梦日边。行路难，行路难，多岐路，今安在。长风破浪会有时，直挂云帆济沧海。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 302,
+        "source_title": "行路難三首 一"
+      }
+    },
+    {
+      "article_id": "ext-tang-307",
+      "source_text_zh_Hant": "玉階生白露，夜久侵羅襪。却下水晶簾，玲瓏望秋月。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "玉階生白露，夜久侵羅襪。却下水晶簾，玲瓏望秋月。",
+      "accepted_text_zh_Hans": "玉阶生白露，夜久侵罗袜。却下水晶帘，玲珑望秋月。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 307,
+        "source_title": "玉階怨"
+      }
+    },
+    {
+      "article_id": "ext-tang-308",
+      "source_text_zh_Hant": "雲想衣裳花想容，春風拂檻露華濃。若非羣玉山頭見，會向瑤臺月下逢。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "雲想衣裳花想容，春風拂檻露華濃。若非羣玉山頭見，會向瑤臺月下逢。",
+      "accepted_text_zh_Hans": "云想衣裳花想容，春风拂槛露华浓。若非群玉山头见，会向瑶台月下逢。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 308,
+        "source_title": "清平調詞三首 一"
+      }
+    },
+    {
+      "article_id": "ext-tang-314",
+      "source_text_zh_Hant": "長安一片月，萬戶擣衣聲。秋風吹不盡，總是玉關情。何日平胡虜，良人罷遠征。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "長安一片月，萬戶擣衣聲。秋風吹不盡，總是玉關情。何日平胡虜，良人罷遠征。",
+      "accepted_text_zh_Hans": "长安一片月，万户捣衣声。秋风吹不尽，总是玉关情。何日平胡虏，良人罢远征。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 314,
+        "source_title": "子夜吳歌 秋歌"
+      }
+    },
+    {
+      "article_id": "ext-tang-316",
+      "source_text_zh_Hant": "吾愛孟夫子，風流天下聞。紅顏棄軒冕，白首臥松雲。醉月頻中聖，迷花不事君。高山安可仰，徒此揖清芬。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "吾愛孟夫子，風流天下聞。紅顏棄軒冕，白首臥松雲。醉月頻中聖，迷花不事君。高山安可仰，徒此揖清芬。",
+      "accepted_text_zh_Hans": "吾爱孟夫子，风流天下闻。红颜弃轩冕，白首卧松云。醉月频中圣，迷花不事君。高山安可仰，徒此揖清芬。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 316,
+        "source_title": "贈孟浩然"
+      }
+    },
+    {
+      "article_id": "ext-tang-320",
+      "source_text_zh_Hant": "故人西辭黃鶴樓，煙花三月下揚州。孤帆遠影碧山盡，唯見長江天際流。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "故人西辭黃鶴樓，煙花三月下揚州。孤帆遠影碧山盡，唯見長江天際流。",
+      "accepted_text_zh_Hans": "故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧山尽，唯见长江天际流。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 320,
+        "source_title": "黃鶴樓送孟浩然之廣陵"
+      }
+    },
+    {
+      "article_id": "ext-tang-321",
+      "source_text_zh_Hant": "渡遠荆門外，來從楚國遊。山隨平野盡，江入大荒流。月下飛天鏡，雲生結海樓。仍連故鄉水，萬里送行舟。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "渡遠荆門外，來從楚國遊。山隨平野盡，江入大荒流。月下飛天鏡，雲生結海樓。仍憐故鄉水，萬里送行舟。",
+      "accepted_text_zh_Hans": "渡远荆门外，来从楚国游。山随平野尽，江入大荒流。月下飞天镜，云生结海楼。仍怜故乡水，万里送行舟。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 321,
+        "source_title": "渡荆門送別"
+      }
+    },
+    {
+      "article_id": "ext-tang-322",
+      "source_text_zh_Hant": "青山橫北郭，白水遶東城。此地一爲別，孤蓬萬里征。浮雲遊子意，落日故人情。揮手自茲去，蕭蕭班馬鳴。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "青山橫北郭，白水繞東城。此地一爲別，孤蓬萬里征。浮雲遊子意，落日故人情。揮手自茲去，蕭蕭班馬鳴。",
+      "accepted_text_zh_Hans": "青山横北郭，白水绕东城。此地一为别，孤蓬万里征。浮云游子意，落日故人情。挥手自兹去，萧萧班马鸣。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 322,
+        "source_title": "送友人"
+      }
+    },
+    {
+      "article_id": "ext-tang-325",
+      "source_text_zh_Hant": "鳳凰臺上鳳凰遊，鳳去臺空江自流。吳宮花草埋幽徑，晉代衣冠成古丘。三山半落青天外，二水中分白鷺洲。總爲浮雲能蔽日，長安不見使人愁。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "鳳凰臺上鳳凰遊，鳳去臺空江自流。吳宮花草埋幽徑，晉代衣冠成古丘。三山半落青天外，二水中分白鷺洲。總爲浮雲能蔽日，長安不見使人愁。",
+      "accepted_text_zh_Hans": "凤凰台上凤凰游，凤去台空江自流。吴宫花草埋幽径，晋代衣冠成古丘。三山半落青天外，二水中分白鹭洲。总为浮云能蔽日，长安不见使人愁。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 325,
+        "source_title": "登金陵鳳凰臺"
+      }
+    },
+    {
+      "article_id": "ext-tang-329",
+      "source_text_zh_Hant": "蜀僧抱綠綺，西下峨眉峰。爲我一揮手，如聽萬壑松。客心洗流水，餘響入霜鐘。不覺碧山暮，秋雲暗幾重。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "蜀僧抱綠綺，西下峨眉峰。爲我一揮手，如聽萬壑松。客心洗流水，餘響入霜鐘。不覺碧山暮，秋雲暗幾重。",
+      "accepted_text_zh_Hans": "蜀僧抱绿绮，西下峨眉峰。为我一挥手，如听万壑松。客心洗流水，余响入霜钟。不觉碧山暮，秋云暗几重。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 329,
+        "source_title": "聽蜀僧濬彈琴"
+      }
+    },
+    {
+      "article_id": "ext-tang-330",
+      "source_text_zh_Hant": "美人捲珠簾，深坐顰蛾眉。但見淚痕濕，不知心恨誰。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "美人捲珠簾，深坐顰蛾眉。但見淚痕濕，不知心恨誰。",
+      "accepted_text_zh_Hans": "美人卷珠帘，深坐颦蛾眉。但见泪痕湿，不知心恨谁。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 330,
+        "source_title": "怨情"
+      }
+    },
+    {
+      "article_id": "ext-tang-358",
+      "source_text_zh_Hant": "更深月色半人家，北斗闌干南斗斜。今夜偏知春氣暖，蟲聲新透綠窗紗。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "更深月色半人家，北斗闌干南斗斜。今夜偏知春氣暖，蟲聲新透綠窗紗。",
+      "accepted_text_zh_Hans": "更深月色半人家，北斗阑干南斗斜。今夜偏知春气暖，虫声新透绿窗纱。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 358,
+        "source_title": "夜月"
+      }
+    },
+    {
+      "article_id": "ext-tang-361",
+      "source_text_zh_Hant": "黃河遠上白雲間，一片孤城萬仞山。羌笛何須怨楊柳，春光不度玉門關。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "黃河遠上白雲間，一片孤城萬仞山。羌笛何須怨楊柳，春光不度玉門關。",
+      "accepted_text_zh_Hans": "黄河远上白云间，一片孤城万仞山。羌笛何须怨杨柳，春光不度玉门关。",
+      "source_locator": {
+        "corpus": "tang",
+        "index": 361,
+        "source_title": "涼州詞二首 一"
+      }
+    },
+    {
+      "article_id": "ext-song-013",
+      "source_text_zh_Hant": "驛外斷橋邊，寂寞開無主。已是黃昏獨自愁，更著風和雨。無意苦爭春，一任羣芳妒。零落成泥碾作塵，只有香如故。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "驛外斷橋邊，寂寞開無主。已是黃昏獨自愁，更著風和雨。無意苦爭春，一任羣芳妒。零落成泥碾作塵，只有香如故。",
+      "accepted_text_zh_Hans": "驿外断桥边，寂寞开无主。已是黄昏独自愁，更著风和雨。无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 13,
+        "source_title": "卜算子"
+      }
+    },
+    {
+      "article_id": "ext-song-019",
+      "source_text_zh_Hant": "夢後樓台高鎖，酒醒簾幕低垂。去年春恨卻來時。落花人獨立，微雨燕雙飛。記得小蘋初見，兩重心字羅衣。琵琶弦上説相思。當時明月在，曾照彩雲歸。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "夢後樓台高鎖，酒醒簾幕低垂。去年春恨卻來時。落花人獨立，微雨燕雙飛。記得小蘋初見，兩重心字羅衣。琵琶弦上説相思。當時明月在，曾照彩雲歸。",
+      "accepted_text_zh_Hans": "梦后楼台高锁，酒醒帘幕低垂。去年春恨却来时。落花人独立，微雨燕双飞。记得小苹初见，两重心字罗衣。琵琶弦上说相思。当时明月在，曾照彩云归。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 19,
+        "source_title": "临江仙"
+      }
+    },
+    {
+      "article_id": "ext-song-023",
+      "source_text_zh_Hant": "彩袖殷勤捧玉鍾。當年拼卻醉顏紅。舞低楊柳樓心月，歌盡桃花扇影風。從別後，憶相逢。幾回魂夢與君同。今宵剩把銀釭照，猶恐相逢是夢中。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "彩袖殷勤捧玉鍾。當年拼卻醉顏紅。舞低楊柳樓心月，歌盡桃花扇影風。從別後，憶相逢。幾回魂夢與君同。今宵剩把銀釭照，猶恐相逢是夢中。",
+      "accepted_text_zh_Hans": "彩袖殷勤捧玉钟。当年拼却醉颜红。舞低杨柳楼心月，歌尽桃花扇影风。从别后，忆相逢。几回魂梦与君同。今宵剩把银釭照，犹恐相逢是梦中。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 23,
+        "source_title": "鹧鸪天"
+      }
+    },
+    {
+      "article_id": "ext-song-025",
+      "source_text_zh_Hant": "留人不住。醉解蘭舟去。一棹碧濤春水路。過盡曉鶯啼處。渡頭楊柳青青。枝枝葉葉離情。此後錦書休寄，畫樓雲雨無憑。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "留人不住。醉解蘭舟去。一棹碧濤春水路。過盡曉鶯啼處。渡頭楊柳青青。枝枝葉葉離情。此後錦書休寄，畫樓雲雨無憑。",
+      "accepted_text_zh_Hans": "留人不住。醉解兰舟去。一棹碧涛春水路。过尽晓莺啼处。渡头杨柳青青。枝枝叶叶离情。此后锦书休寄，画楼云雨无凭。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 25,
+        "source_title": "清平乐"
+      }
+    },
+    {
+      "article_id": "ext-song-033",
+      "source_text_zh_Hant": "曲闌干外天如水。昨夜還曾倚。初將明月比佳期。長向月圓時候、望人歸。羅衣著破前香在。舊意誰教改。一春離恨懶調絃。猶有兩行閒淚、寶箏前。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "曲闌干外天如水。昨夜還曾倚。初將明月比佳期。長向月圓時候、望人歸。羅衣著破前香在。舊意誰教改。一春離恨懶調絃。猶有兩行閒淚、寶箏前。",
+      "accepted_text_zh_Hans": "曲阑干外天如水。昨夜还曾倚。初将明月比佳期。长向月圆时候、望人归。罗衣著破前香在。旧意谁教改。一春离恨懒调弦。犹有两行闲泪、宝筝前。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 33,
+        "source_title": "虞美人"
+      }
+    },
+    {
+      "article_id": "ext-song-035",
+      "source_text_zh_Hant": "紅葉黃花秋意晚，千里念行客。飛雲過盡，歸鴻無信，何處寄書得。淚彈不盡臨窗滴。就硯旋研墨。漸寫到別來，此情深處，紅箋為無色。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "紅葉黃花秋意晚，千里念行客。飛雲過盡，歸鴻無信，何處寄書得。淚彈不盡臨窗滴。就硯旋研墨。漸寫到別來，此情深處，紅箋為無色。",
+      "accepted_text_zh_Hans": "红叶黄花秋意晚，千里念行客。飞云过尽，归鸿无信，何处寄书得。泪弹不尽临窗滴。就砚旋研墨。渐写到别来，此情深处，红笺为无色。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 35,
+        "source_title": "思远人"
+      }
+    },
+    {
+      "article_id": "ext-song-039",
+      "source_text_zh_Hant": "夜飲東坡醒復醉，歸來彷彿三更。家童鼻息已雷鳴。敲門都不應，倚杖聽江聲。長恨此身非我有，何時忘卻營營。夜闌風靜縠紋平。小舟從此逝，江海寄餘生。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "夜飲東坡醒復醉，歸來彷彿三更。家童鼻息已雷鳴。敲門都不應，倚杖聽江聲。長恨此身非我有，何時忘卻營營。夜闌風靜縠紋平。小舟從此逝，江海寄餘生。",
+      "accepted_text_zh_Hans": "夜饮东坡醒复醉，归来仿佛三更。家童鼻息已雷鸣。敲门都不应，倚杖听江声。长恨此身非我有，何时忘却营营。夜阑风静縠纹平。小舟从此逝，江海寄余生。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 39,
+        "source_title": "临江仙"
+      }
+    },
+    {
+      "article_id": "ext-song-040",
+      "source_text_zh_Hant": "莫聽穿林打葉聲。何妨吟嘯且徐行。竹杖芒鞋輕勝馬。誰怕。一蓑煙雨任平生。料峭春風吹酒醒。微冷。山頭斜照卻相迎。回首向來蕭瑟處。歸去。也無風雨也無晴。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "莫聽穿林打葉聲。何妨吟嘯且徐行。竹杖芒鞋輕勝馬。誰怕。一蓑煙雨任平生。料峭春風吹酒醒。微冷。山頭斜照卻相迎。回首向來蕭瑟處。歸去。也無風雨也無晴。",
+      "accepted_text_zh_Hans": "莫听穿林打叶声。何妨吟啸且徐行。竹杖芒鞋轻胜马。谁怕。一蓑烟雨任平生。料峭春风吹酒醒。微冷。山头斜照却相迎。回首向来萧瑟处。归去。也无风雨也无晴。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 40,
+        "source_title": "定风波"
+      }
+    },
+    {
+      "article_id": "ext-song-041",
+      "source_text_zh_Hant": "缺月掛疏桐，漏斷人初靜。時見幽人獨往來，縹緲孤鴻影。驚起卻回頭，有恨無人省。揀盡寒枝不肯棲，楓落吳江冷。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "缺月掛疏桐，漏斷人初靜。時見幽人獨往來，縹緲孤鴻影。驚起卻回頭，有恨無人省。揀盡寒枝不肯棲，楓落吳江冷。",
+      "accepted_text_zh_Hans": "缺月挂疏桐，漏断人初静。时见幽人独往来，缥缈孤鸿影。惊起却回头，有恨无人省。拣尽寒枝不肯栖，枫落吴江冷。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 41,
+        "source_title": "卜算子"
+      }
+    },
+    {
+      "article_id": "ext-song-044",
+      "source_text_zh_Hant": "十年生死兩茫茫。不思量。自難忘。千里孤墳，無處話淒涼。縱使相逢應不識，塵滿面，鬢如霜。夜來幽夢忽還鄉。小軒窗。正梳妝。相顧無言，惟有淚千行。料得年年斷腸處，明月夜，短松岡。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "十年生死兩茫茫。不思量。自難忘。千里孤墳，無處話淒涼。縱使相逢應不識，塵滿面，鬢如霜。夜來幽夢忽還鄉。小軒窗。正梳妝。相顧無言，惟有淚千行。料得年年斷腸處，明月夜，短松岡。",
+      "accepted_text_zh_Hans": "十年生死两茫茫。不思量。自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。夜来幽梦忽还乡。小轩窗。正梳妆。相顾无言，惟有泪千行。料得年年断肠处，明月夜，短松冈。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 44,
+        "source_title": "江神子・江城子"
+      }
+    },
+    {
+      "article_id": "ext-song-060",
+      "source_text_zh_Hant": "千古江山，英雄無覓，孫仲謀處。舞榭歌台，風流總被，雨打風吹去。斜陽草樹，尋常巷陌，人道寄奴曾住。想當年，金戈鐵馬，氣吞萬里如虎。元嘉草草，封狼居胥，贏得倉皇北顧。四十三年，望中猶記，烽火揚州路。可堪回首，佛狸祠下，一片神鴉社鼓。憑誰問，廉頗老矣，尚能飯否。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "千古江山，英雄無覓，孫仲謀處。舞榭歌台，風流總被，雨打風吹去。斜陽草樹，尋常巷陌，人道寄奴曾住。想當年，金戈鐵馬，氣吞萬里如虎。元嘉草草，封狼居胥，贏得倉皇北顧。四十三年，望中猶記，烽火揚州路。可堪回首，佛狸祠下，一片神鴉社鼓。憑誰問，廉頗老矣，尚能飯否。",
+      "accepted_text_zh_Hans": "千古江山，英雄无觅，孙仲谋处。舞榭歌台，风流总被，雨打风吹去。斜阳草树，寻常巷陌，人道寄奴曾住。想当年，金戈铁马，气吞万里如虎。元嘉草草，封狼居胥，赢得仓皇北顾。四十三年，望中犹记，烽火扬州路。可堪回首，佛狸祠下，一片神鸦社鼓。凭谁问，廉颇老矣，尚能饭否。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 60,
+        "source_title": "永遇乐"
+      }
+    },
+    {
+      "article_id": "ext-song-068",
+      "source_text_zh_Hant": "漠漠輕寒上小樓。曉陰無賴似窮秋。淡煙流水畫屏幽。自在飛花輕似夢，無邊絲雨細如愁。寶簾閒掛小銀鈎。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "漠漠輕寒上小樓。曉陰無賴似窮秋。淡煙流水畫屏幽。自在飛花輕似夢，無邊絲雨細如愁。寶簾閒掛小銀鈎。",
+      "accepted_text_zh_Hans": "漠漠轻寒上小楼。晓阴无赖似穷秋。淡烟流水画屏幽。自在飞花轻似梦，无边丝雨细如愁。宝帘闲挂小银钩。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 68,
+        "source_title": "浣溪沙"
+      }
+    },
+    {
+      "article_id": "ext-song-132",
+      "source_text_zh_Hant": "淮左名都，竹西佳處，解鞍少駐初程。過春風十里，盡薺麥青青。自胡馬窺江去後，廢池喬木，猶厭言兵。漸黃昏，清角吹寒，都在空城。杜郎俊賞，算而今，重到須驚。縱豆蔻詞工，青樓夢好，難賦深情。二十四橋仍在，波心蕩、冷月無聲。念橋邊紅藥，年年知為誰生。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "淮左名都，竹西佳處，解鞍少駐初程。過春風十里，盡薺麥青青。自胡馬窺江去後，廢池喬木，猶厭言兵。漸黃昏，清角吹寒，都在空城。杜郎俊賞，算而今，重到須驚。縱豆蔻詞工，青樓夢好，難賦深情。二十四橋仍在，波心蕩、冷月無聲。念橋邊紅藥，年年知為誰生。",
+      "accepted_text_zh_Hans": "淮左名都，竹西佳处，解鞍少驻初程。过春风十里，尽荠麦青青。自胡马窥江去后，废池乔木，犹厌言兵。渐黄昏，清角吹寒，都在空城。杜郎俊赏，算而今，重到须惊。纵豆蔻词工，青楼梦好，难赋深情。二十四桥仍在，波心荡、冷月无声。念桥边红药，年年知为谁生。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 132,
+        "source_title": "扬州慢"
+      }
+    },
+    {
+      "article_id": "ext-song-139",
+      "source_text_zh_Hant": "碧雲天，黃葉地。秋色連波，波上寒煙翠。山映斜陽天接水。芳草無情，更在斜陽外。黯鄉魂，追旅思。夜夜除非，好夢留人睡。明月樓高休獨倚。酒入愁腸，化作相思淚。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "碧雲天，黃葉地。秋色連波，波上寒煙翠。山映斜陽天接水。芳草無情，更在斜陽外。黯鄉魂，追旅思。夜夜除非，好夢留人睡。明月樓高休獨倚。酒入愁腸，化作相思淚。",
+      "accepted_text_zh_Hans": "碧云天，黄叶地。秋色连波，波上寒烟翠。山映斜阳天接水。芳草无情，更在斜阳外。黯乡魂，追旅思。夜夜除非，好梦留人睡。明月楼高休独倚。酒入愁肠，化作相思泪。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 139,
+        "source_title": "苏幕遮"
+      }
+    },
+    {
+      "article_id": "ext-song-142",
+      "source_text_zh_Hant": "寒蟬悽切。對長亭晚，驟雨初歇。都門帳飲無緒，留戀處、蘭舟催發。執手相看淚眼，竟無語凝噎。念去去、千里煙波，暮靄沈沈楚天闊。多情自古傷離別。更那堪、冷落清秋節。今宵酒醒何處，楊柳岸、曉風殘月。此去經年，應是良辰、好景虛設。便縱有、千種風情，更與何人説。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "寒蟬悽切。對長亭晚，驟雨初歇。都門帳飲無緒，留戀處、蘭舟催發。執手相看淚眼，竟無語凝噎。念去去、千里煙波，暮靄沉沉楚天闊。多情自古傷離別。更那堪、冷落清秋節。今宵酒醒何處，楊柳岸、曉風殘月。此去經年，應是良辰、好景虛設。便縱有、千種風情，更與何人説。",
+      "accepted_text_zh_Hans": "寒蝉凄切。对长亭晚，骤雨初歇。都门帐饮无绪，留恋处、兰舟催发。执手相看泪眼，竟无语凝噎。念去去、千里烟波，暮霭沉沉楚天阔。多情自古伤离别。更那堪、冷落清秋节。今宵酒醒何处，杨柳岸、晓风残月。此去经年，应是良辰、好景虚设。便纵有、千种风情，更与何人说。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 142,
+        "source_title": "雨霖铃"
+      }
+    },
+    {
+      "article_id": "ext-song-144",
+      "source_text_zh_Hant": "佇倚危樓風細細。望極春愁，黯黯生天際。草色煙光殘照裏。無言誰會憑闌意。擬把疏狂圖一醉。對酒當歌，強樂還無味。衣帶漸寬終不悔。為伊消得人憔悴。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "佇倚危樓風細細。望極春愁，黯黯生天際。草色煙光殘照裏。無言誰會憑闌意。擬把疏狂圖一醉。對酒當歌，強樂還無味。衣帶漸寬終不悔。為伊消得人憔悴。",
+      "accepted_text_zh_Hans": "伫倚危楼风细细。望极春愁，黯黯生天际。草色烟光残照里。无言谁会凭阑意。拟把疏狂图一醉。对酒当歌，强乐还无味。衣带渐宽终不悔。为伊消得人憔悴。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 144,
+        "source_title": "凤栖梧・蝶恋花"
+      }
+    },
+    {
+      "article_id": "ext-song-151",
+      "source_text_zh_Hant": "對瀟瀟、暮雨灑江天，一番洗清秋。漸霜風悽慘，關河冷落，殘照當樓。是處紅衰翠減，苒苒物華休。惟有長江水，無語東流。不忍登高臨遠，望故鄉渺邈，歸思難收。嘆年來蹤跡，何事苦淹留。想佳人、妝樓望，誤幾回、天際識歸舟。爭知我、倚闌干處，正恁凝愁。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "對瀟瀟、暮雨灑江天，一番洗清秋。漸霜風悽慘，關河冷落，殘照當樓。是處紅衰翠減，苒苒物華休。惟有長江水，無語東流。不忍登高臨遠，望故鄉渺邈，歸思難收。嘆年來蹤跡，何事苦淹留。想佳人、妝樓望，誤幾回、天際識歸舟。爭知我、倚闌干處，正恁凝愁。",
+      "accepted_text_zh_Hans": "对潇潇、暮雨洒江天，一番洗清秋。渐霜风凄惨，关河冷落，残照当楼。是处红衰翠减，苒苒物华休。惟有长江水，无语东流。不忍登高临远，望故乡渺邈，归思难收。叹年来踪迹，何事苦淹留。想佳人、妆楼望，误几回、天际识归舟。争知我、倚阑干处，正恁凝愁。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 151,
+        "source_title": "八声甘州"
+      }
+    },
+    {
+      "article_id": "ext-song-159",
+      "source_text_zh_Hant": "一曲新詞酒一杯。去年天氣舊亭台。夕陽西下幾時回。無可奈何花落去，似曾相識燕歸來。小園香徑獨徘徊。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "一曲新詞酒一杯。去年天氣舊亭台。夕陽西下幾時回。無可奈何花落去，似曾相識燕歸來。小園香徑獨徘徊。",
+      "accepted_text_zh_Hans": "一曲新词酒一杯。去年天气旧亭台。夕阳西下几时回。无可奈何花落去，似曾相识燕归来。小园香径独徘徊。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 159,
+        "source_title": "浣溪沙"
+      }
+    },
+    {
+      "article_id": "ext-song-161",
+      "source_text_zh_Hant": "金風細細。葉葉梧桐墜。綠酒初嘗人易醉。一枕小窗濃睡。紫微朱槿花殘。斜陽卻照闌干。雙燕欲歸時節，銀屏昨夜微寒。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "金風細細。葉葉梧桐墜。綠酒初嘗人易醉。一枕小窗濃睡。紫微朱槿花殘。斜陽卻照闌干。雙燕欲歸時節，銀屏昨夜微寒。",
+      "accepted_text_zh_Hans": "金风细细。叶叶梧桐坠。绿酒初尝人易醉。一枕小窗浓睡。紫微朱槿花残。斜阳却照阑干。双燕欲归时节，银屏昨夜微寒。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 161,
+        "source_title": "清平乐"
+      }
+    },
+    {
+      "article_id": "ext-song-162",
+      "source_text_zh_Hant": "紅箋小字。説盡平生意。鴻雁在雲魚在水。惆悵此情難寄。斜陽獨倚西樓。遙山恰對簾鈎。人面不知何處，綠波依舊東流。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "紅箋小字。説盡平生意。鴻雁在雲魚在水。惆悵此情難寄。斜陽獨倚西樓。遙山恰對簾鈎。人面不知何處，綠波依舊東流。",
+      "accepted_text_zh_Hans": "红笺小字。说尽平生意。鸿雁在云鱼在水。惆怅此情难寄。斜阳独倚西楼。遥山恰对帘钩。人面不知何处，绿波依旧东流。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 162,
+        "source_title": "清平乐"
+      }
+    },
+    {
+      "article_id": "ext-song-169",
+      "source_text_zh_Hant": "羣芳過後西湖好，狼籍殘紅。飛絮濛濛。垂柳闌干盡日風。笙歌散盡遊人去，始覺春空。垂下簾櫳。雙燕歸來細雨中。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "羣芳過後西湖好，狼籍殘紅。飛絮濛濛。垂柳闌干盡日風。笙歌散盡遊人去，始覺春空。垂下簾櫳。雙燕歸來細雨中。",
+      "accepted_text_zh_Hans": "群芳过后西湖好，狼籍残红。飞絮蒙蒙。垂柳阑干尽日风。笙歌散尽游人去，始觉春空。垂下帘栊。双燕归来细雨中。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 169,
+        "source_title": "采桑子"
+      }
+    },
+    {
+      "article_id": "ext-song-176",
+      "source_text_zh_Hant": "把酒祝東風。且共從容。垂楊紫陌洛城東。總是當時攜手處，遊遍芳叢。聚散苦匆匆。此恨無窮。今年花勝去年紅。可惜明年花更好，知與誰同。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "把酒祝東風。且共從容。垂楊紫陌洛城東。總是當時攜手處，遊遍芳叢。聚散苦匆匆。此恨無窮。今年花勝去年紅。可惜明年花更好，知與誰同。",
+      "accepted_text_zh_Hans": "把酒祝东风。且共从容。垂杨紫陌洛城东。总是当时携手处，游遍芳丛。聚散苦匆匆。此恨无穷。今年花胜去年红。可惜明年花更好，知与谁同。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 176,
+        "source_title": "浪淘沙"
+      }
+    },
+    {
+      "article_id": "ext-song-201",
+      "source_text_zh_Hant": "薄霧濃雲愁永晝。瑞腦消金獸。佳節又重陽，玉枕紗廚，半夜涼初透。東籬把灑黃昏後，有暗香盈袖。莫道不消魂，簾卷西風，人似黃花瘦。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "薄霧濃雲愁永晝。瑞腦消金獸。佳節又重陽，玉枕紗廚，半夜涼初透。東籬把酒黃昏後，有暗香盈袖。莫道不消魂，簾卷西風，人似黃花瘦。",
+      "accepted_text_zh_Hans": "薄雾浓云愁永昼。瑞脑消金兽。佳节又重阳，玉枕纱厨，半夜凉初透。东篱把酒黄昏后，有暗香盈袖。莫道不消魂，帘卷西风，人似黄花瘦。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 201,
+        "source_title": "醉花阴"
+      }
+    },
+    {
+      "article_id": "ext-song-208",
+      "source_text_zh_Hant": "楚天千里清秋，水隨天去秋無際。遙岑遠目，獻愁供恨，玉簪螺髻。落日樓頭，斷鴻聲裏，江南遊子。把吳鈎看了，欄干拍遍，無人會、登臨意。休説鱸魚堪。盡西風、季鷹歸未。求田問舍，怕應羞見，劉郎才氣。可惜流年，憂愁風雨，樹猶如此。倩何人，喚取盈盈翠袖，英雄淚。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "楚天千里清秋，水隨天去秋無際。遙岑遠目，獻愁供恨，玉簪螺髻。落日樓頭，斷鴻聲裏，江南遊子。把吳鈎看了，欄干拍遍，無人會、登臨意。休説鱸魚堪膾。盡西風、季鷹歸未。求田問舍，怕應羞見，劉郎才氣。可惜流年，憂愁風雨，樹猶如此。倩何人，喚取紅巾翠袖，揾英雄淚。",
+      "accepted_text_zh_Hans": "楚天千里清秋，水随天去秋无际。遥岑远目，献愁供恨，玉簪螺髻。落日楼头，断鸿声里，江南游子。把吴钩看了，栏干拍遍，无人会、登临意。休说鲈鱼堪脍。尽西风、季鹰归未。求田问舍，怕应羞见，刘郎才气。可惜流年，忧愁风雨，树犹如此。倩何人，唤取红巾翠袖，揾英雄泪。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 208,
+        "source_title": "水龙吟"
+      }
+    },
+    {
+      "article_id": "ext-song-211",
+      "source_text_zh_Hant": "鬱孤台下清江水。中間多少行人淚。西北是長安。可憐無數山。青山遮不住。畢竟江流去。江晚正愁予。山深聞鷓鴣。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "鬱孤台下清江水。中間多少行人淚。西北是長安。可憐無數山。青山遮不住。畢竟江流去。江晚正愁予。山深聞鷓鴣。",
+      "accepted_text_zh_Hans": "郁孤台下清江水。中间多少行人泪。西北是长安。可怜无数山。青山遮不住。毕竟江流去。江晚正愁予。山深闻鹧鸪。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 211,
+        "source_title": "菩萨蛮"
+      }
+    },
+    {
+      "article_id": "ext-song-279",
+      "source_text_zh_Hant": "洞庭青草，近中秋、更無一點風色。玉鑑瓊田三萬頃，著我扁舟一葉。素月分輝，明河共影，表裏俱澄澈。悠然心會，妙處難與君説。應念嶺海經年，孤光自照，肝肺皆冰雪。短髮蕭騷襟袖冷，穩泛滄浪空闊。盡吸西江，細斟北斗，萬象為賓客。扣舷獨笑，不知今夕何夕。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "洞庭青草，近中秋、更無一點風色。玉鑑瓊田三萬頃，著我扁舟一葉。素月分輝，明河共影，表裏俱澄澈。悠然心會，妙處難與君説。應念嶺海經年，孤光自照，肝肺皆冰雪。短髮蕭騷襟袖冷，穩泛滄浪空闊。盡吸西江，細斟北斗，萬象為賓客。扣舷獨笑，不知今夕何夕。",
+      "accepted_text_zh_Hans": "洞庭青草，近中秋、更无一点风色。玉鉴琼田三万顷，著我扁舟一叶。素月分辉，明河共影，表里俱澄澈。悠然心会，妙处难与君说。应念岭海经年，孤光自照，肝肺皆冰雪。短发萧骚襟袖冷，稳泛沧浪空阔。尽吸西江，细斟北斗，万象为宾客。扣舷独笑，不知今夕何夕。",
+      "source_locator": {
+        "corpus": "song",
+        "index": 279,
+        "source_title": "念奴娇"
+      }
+    },
+    {
+      "article_id": "ext-yuan-001",
+      "source_text_zh_Hant": "峯巒如聚，波濤如怒，山河表裏潼關路。望西都，意躊躕，傷心秦漢經行處，宮闕萬間都做了土。興，百姓苦；亡，百姓苦！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "峯巒如聚，波濤如怒，山河表裏潼關路。望西都，意躊躕，傷心秦漢經行處，宮闕萬間都做了土。興，百姓苦；亡，百姓苦！",
+      "accepted_text_zh_Hans": "峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌蹰，伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦！",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7618"
+      }
+    },
+    {
+      "article_id": "ext-yuan-002",
+      "source_text_zh_Hant": "驪山四顧，阿房一炬，當時奢侈今何處？只見草蕭疏，水縈紆，至今遺恨迷煙樹。列國周齊秦漢楚，贏，都變做了土；輸，都變做了土！",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "驪山四顧，阿房一炬，當時奢侈今何處？只見草蕭疏，水縈紆，至今遺恨迷煙樹。列國周齊秦漢楚，贏，都變做了土；輸，都變做了土！",
+      "accepted_text_zh_Hans": "骊山四顾，阿房一炬，当时奢侈今何处？只见草萧疏，水萦纡，至今遗恨迷烟树。列国周齐秦汉楚，赢，都变做了土；输，都变做了土！",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7618"
+      }
+    },
+    {
+      "article_id": "ext-yuan-003",
+      "source_text_zh_Hant": "西風信來家萬里，問我歸期未？雁啼紅葉天，人醉黃花地，芭蕉雨聲秋夢裏。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "西風信來家萬里，問我歸期未？雁啼紅葉天，人醉黃花地，芭蕉雨聲秋夢裏。",
+      "accepted_text_zh_Hans": "西风信来家万里，问我归期未？雁啼红叶天，人醉黄花地，芭蕉雨声秋梦里。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "5972"
+      }
+    },
+    {
+      "article_id": "ext-yuan-004",
+      "source_text_zh_Hant": "花村外，草店西，晚霞明雨收天霽。四圍山一竿殘照裏，錦屏風又添鋪翠。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "花村外，草店西，晚霞明雨收天霽。四圍山一竿殘照裏，錦屏風又添鋪翠。",
+      "accepted_text_zh_Hans": "花村外，草店西，晚霞明雨收天霁。四围山一竿残照里，锦屏风又添铺翠。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7470"
+      }
+    },
+    {
+      "article_id": "ext-yuan-005",
+      "source_text_zh_Hant": "夕陽下，酒旆閒，兩三航未曾着岸。落花水香茅舍晚，斷橋頭賣魚人散。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "夕陽下，酒旆閒，兩三航未曾着岸。落花水香茅舍晚，斷橋頭賣魚人散。",
+      "accepted_text_zh_Hans": "夕阳下，酒旆闲，两三航未曾着岸。落花水香茅舍晚，断桥头卖鱼人散。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7470"
+      }
+    },
+    {
+      "article_id": "ext-yuan-006",
+      "source_text_zh_Hant": "漁燈暗，客夢迴，一聲聲滴人心碎。孤舟五更家萬里，是離人幾行情淚。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "漁燈暗，客夢迴，一聲聲滴人心碎。孤舟五更家萬里，是離人幾行情淚。",
+      "accepted_text_zh_Hans": "渔灯暗，客梦回，一声声滴人心碎。孤舟五更家万里，是离人几行情泪。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7470"
+      }
+    },
+    {
+      "article_id": "ext-yuan-007",
+      "source_text_zh_Hant": "天將暮，雪亂舞，半梅花半飄柳絮。江上晚來堪畫處，釣魚人一蓑歸去。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "天將暮，雪亂舞，半梅花半飄柳絮。江上晚來堪畫處，釣魚人一蓑歸去。",
+      "accepted_text_zh_Hans": "天将暮，雪乱舞，半梅花半飘柳絮。江上晚来堪画处，钓鱼人一蓑归去。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "7470"
+      }
+    },
+    {
+      "article_id": "ext-yuan-008",
+      "source_text_zh_Hant": "長江萬里白如練，淮山數點青如澱。江帆幾片疾如箭，山泉千尺飛如電。晚雲都變露，新月初學扇，塞鴻一字來如線。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "長江萬里白如練，淮山數點青如澱。江帆幾片疾如箭，山泉千尺飛如電。晚雲都變露，新月初學扇，塞鴻一字來如線。",
+      "accepted_text_zh_Hans": "长江万里白如练，淮山数点青如淀。江帆几片疾如箭，山泉千尺飞如电。晚云都变露，新月初学扇，塞鸿一字来如线。",
+      "source_locator": {
+        "corpus": "yuan",
+        "index": "9768"
+      }
+    },
+    {
+      "article_id": "ext-shijing-009",
+      "source_text_zh_Hant": "蒹葭蒼蒼，白露為霜。所謂伊人，在水一方。溯洄從之，道阻且長。溯游從之，宛在水中央。蒹葭萋萋，白露未晞。所謂伊人，在水之湄。溯洄從之，道阻且躋。溯游從之，宛在水中坻。蒹葭采采，白露未已。所謂伊人，在水之涘。溯洄從之，道阻且右。溯游從之，宛在水中沚。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "蒹葭蒼蒼，白露為霜。所謂伊人，在水一方。溯洄從之，道阻且長。溯游從之，宛在水中央。蒹葭萋萋，白露未晞。所謂伊人，在水之湄。溯洄從之，道阻且躋。溯游從之，宛在水中坻。蒹葭采采，白露未已。所謂伊人，在水之涘。溯洄從之，道阻且右。溯游從之，宛在水中沚。",
+      "accepted_text_zh_Hans": "蒹葭苍苍，白露为霜。所谓伊人，在水一方。溯洄从之，道阻且长。溯游从之，宛在水中央。蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，道阻且跻。溯游从之，宛在水中坻。蒹葭采采，白露未已。所谓伊人，在水之涘。溯洄从之，道阻且右。溯游从之，宛在水中沚。",
+      "source_locator": {
+        "corpus": "shijing",
+        "index": 128
+      }
+    },
+    {
+      "article_id": "ext-shijing-010",
+      "source_text_zh_Hant": "桃之夭夭，灼灼其華。之子于歸，宜其室家。桃之夭夭，有蕡其實。之子于歸，宜其家室。桃之夭夭，其葉蓁蓁。之子于歸，宜其家人。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "桃之夭夭，灼灼其華。之子于歸，宜其室家。桃之夭夭，有蕡其實。之子于歸，宜其家室。桃之夭夭，其葉蓁蓁。之子于歸，宜其家人。",
+      "accepted_text_zh_Hans": "桃之夭夭，灼灼其华。之子于归，宜其室家。桃之夭夭，有蕡其实。之子于归，宜其家室。桃之夭夭，其叶蓁蓁。之子于归，宜其家人。",
+      "source_locator": {
+        "corpus": "shijing",
+        "index": 5
+      }
+    },
+    {
+      "article_id": "ext-shijing-011",
+      "source_text_zh_Hant": "青青子衿，悠悠我心。縱我不往，子寧不嗣音？青青子佩，悠悠我思。縱我不往，子寧不來？挑兮達兮，在城闕兮。一日不見，如三月兮。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "青青子衿，悠悠我心。縱我不往，子寧不嗣音？青青子佩，悠悠我思。縱我不往，子寧不來？挑兮達兮，在城闕兮。一日不見，如三月兮。",
+      "accepted_text_zh_Hans": "青青子衿，悠悠我心。纵我不往，子宁不嗣音？青青子佩，悠悠我思。纵我不往，子宁不来？挑兮达兮，在城阙兮。一日不见，如三月兮。",
+      "source_locator": {
+        "corpus": "shijing",
+        "index": 90
+      }
+    },
+    {
+      "article_id": "ext-caocao-012",
+      "source_text_zh_Hant": "東臨碣石，以觀滄海。水何澹澹，山島竦峙。樹木叢生，百草豐茂。秋風蕭瑟，洪波湧起。日月之行，若出其中；星漢燦爛，若出其裏。幸甚至哉，歌以詠志。",
+      "preface_zh_Hant": "",
+      "accepted_text_zh_Hant": "東臨碣石，以觀滄海。水何澹澹，山島竦峙。樹木叢生，百草豐茂。秋風蕭瑟，洪波湧起。日月之行，若出其中；星漢燦爛，若出其裏。幸甚至哉，歌以詠志。",
+      "accepted_text_zh_Hans": "东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。",
+      "source_locator": {
+        "corpus": "caocao",
+        "index": "观沧海"
+      }
+    }
+  ]
+}

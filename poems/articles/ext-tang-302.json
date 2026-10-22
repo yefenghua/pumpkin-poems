@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ext-tang-302",
+  "category": "extension",
+  "priority": "P1",
+  "title": {
+    "zh-Hant": "行路難·其一",
+    "zh-Hans": "行路难·其一"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "genre": {
+    "zh-Hant": "樂府詩",
+    "zh-Hans": "乐府诗"
+  },
+  "author_id": "author-b23f840ff52e",
+  "author_file": "../author/author-b23f840ff52e.json",
+  "author": {
+    "schema_version": "1.0.0",
+    "id": "author-b23f840ff52e",
+    "name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "catalog_name": {
+      "zh-Hant": "李白",
+      "zh-Hans": "李白"
+    },
+    "dynasty": {
+      "zh-Hant": "唐",
+      "zh-Hans": "唐"
+    },
+    "is_collective_attribution": false,
+    "biography": {
+      "short": {
+        "zh-Hant": "唐代詩人，號青蓮居士，想象豐富，後世譽為詩仙。",
+        "zh-Hans": "唐代诗人，号青莲居士，想象丰富，后世誉为诗仙。"
+      },
+      "full": {
+        "zh-Hant": "李白（701—762），字太白，號青蓮居士，唐代重要詩人。少年在蜀地成長，成年後廣泛遊歷，曾供奉翰林，也經歷政治牽連與流放途中遇赦。他善寫樂府、歌行和絕句，常運用誇張、想象以及明月、山川、美酒等意象，表達自由理想、友情和人生感慨。《靜夜思》親切簡潔，《月下獨酌》想象奇特，《行路難》則在挫折中保持昂揚。其出生地有不同説法，本庫不將某一説法寫成定論。",
+        "zh-Hans": "李白（701—762），字太白，号青莲居士，唐代重要诗人。少年在蜀地成长，成年后广泛游历，曾供奉翰林，也经历政治牵连与流放途中遇赦。他善写乐府、歌行和绝句，常运用夸张、想象以及明月、山川、美酒等意象，表达自由理想、友情和人生感慨。《静夜思》亲切简洁，《月下独酌》想象奇特，《行路难》则在挫折中保持昂扬。其出生地有不同说法，本库不将某一说法写成定论。"
+      }
+    },
+    "sources": [
+      {
+        "kind": "biography_reference",
+        "label": {
+          "zh-Hant": "香港教育局 · 靜夜思賞析",
+          "zh-Hans": "香港教育局 · 静夜思赏析"
+        },
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10.pdf",
+        "accessed_on": "2026-10-22"
+      }
+    ],
+    "editorial_note": {
+      "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+      "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+    },
+    "updated_on": "2026-10-22"
+  },
+  "curriculum": null,
+  "text": {
+    "zh-Hant": "金樽清酒斗十千，玉盤珍羞直萬錢。停杯投箸不能食，拔劍四顧心茫然。欲渡黃河冰塞川，將登太行雪滿山。閑來垂釣碧溪上，忽復乘舟夢日邊。行路難，行路難，多岐路，今安在。長風破浪會有時，直挂雲帆濟滄海。",
+    "zh-Hans": "金樽清酒斗十千，玉盘珍羞直万钱。停杯投箸不能食，拔剑四顾心茫然。欲渡黄河冰塞川，将登太行雪满山。闲来垂钓碧溪上，忽复乘舟梦日边。行路难，行路难，多岐路，今安在。长风破浪会有时，直挂云帆济沧海。"
+  },
+  "preface": {
+    "zh-Hant": "",
+    "zh-Hans": ""
+  },
+  "lines": [
+    {
+      "id": "ext-tang-302-l001",
+      "text": {
+        "zh-Hant": "金樽清酒斗十千，",
+        "zh-Hans": "金樽清酒斗十千，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l002",
+      "text": {
+        "zh-Hant": "玉盤珍羞直萬錢。",
+        "zh-Hans": "玉盘珍羞直万钱。"
+      }
+    },
+    {
+      "id": "ext-tang-302-l003",
+      "text": {
+        "zh-Hant": "停杯投箸不能食，",
+        "zh-Hans": "停杯投箸不能食，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l004",
+      "text": {
+        "zh-Hant": "拔劍四顧心茫然。",
+        "zh-Hans": "拔剑四顾心茫然。"
+      }
+    },
+    {
+      "id": "ext-tang-302-l005",
+      "text": {
+        "zh-Hant": "欲渡黃河冰塞川，",
+        "zh-Hans": "欲渡黄河冰塞川，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l006",
+      "text": {
+        "zh-Hant": "將登太行雪滿山。",
+        "zh-Hans": "将登太行雪满山。"
+      }
+    },
+    {
+      "id": "ext-tang-302-l007",
+      "text": {
+        "zh-Hant": "閑來垂釣碧溪上，",
+        "zh-Hans": "闲来垂钓碧溪上，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l008",
+      "text": {
+        "zh-Hant": "忽復乘舟夢日邊。",
+        "zh-Hans": "忽复乘舟梦日边。"
+      }
+    },
+    {
+      "id": "ext-tang-302-l009",
+      "text": {
+        "zh-Hant": "行路難，",
+        "zh-Hans": "行路难，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l010",
+      "text": {
+        "zh-Hant": "行路難，",
+        "zh-Hans": "行路难，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l011",
+      "text": {
+        "zh-Hant": "多岐路，",
+        "zh-Hans": "多岐路，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l012",
+      "text": {
+        "zh-Hant": "今安在。",
+        "zh-Hans": "今安在。"
+      }
+    },
+    {
+      "id": "ext-tang-302-l013",
+      "text": {
+        "zh-Hant": "長風破浪會有時，",
+        "zh-Hans": "长风破浪会有时，"
+      }
+    },
+    {
+      "id": "ext-tang-302-l014",
+      "text": {
+        "zh-Hant": "直挂雲帆濟滄海。",
+        "zh-Hans": "直挂云帆济沧海。"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ext-tang-302-w001",
+      "term": {
+        "zh-Hant": "金樽",
+        "zh-Hans": "金樽"
+      },
+      "definition": {
+        "zh-Hant": "華美的酒杯。",
+        "zh-Hans": "华美的酒杯。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l001",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l001",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-302-w002",
+      "term": {
+        "zh-Hant": "珍羞",
+        "zh-Hans": "珍羞"
+      },
+      "definition": {
+        "zh-Hant": "珍貴的菜餚，羞同饈。",
+        "zh-Hans": "珍贵的菜肴，羞同馐。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l002",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l002",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-302-w003",
+      "term": {
+        "zh-Hant": "直",
+        "zh-Hans": "直"
+      },
+      "definition": {
+        "zh-Hant": "同值，價值。",
+        "zh-Hans": "同值，价值。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l002",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l014",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l002",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l014",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-tang-302-w004",
+      "term": {
+        "zh-Hant": "濟滄海",
+        "zh-Hans": "济沧海"
+      },
+      "definition": {
+        "zh-Hant": "渡過大海，比喻實現遠大理想。",
+        "zh-Hans": "渡过大海，比喻实现远大理想。"
+      },
+      "occurrences": {
+        "zh-Hant": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l014",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "zh-Hans": [
+          {
+            "scope": "body",
+            "line_id": "ext-tang-302-l014",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      }
+    }
+  ],
+  "edition_notes": [
+    {
+      "zh-Hant": "展示正文采用通行字形；具體字形對應見text_edits，原始字串見sources/text-baselines.json。",
+      "zh-Hans": "展示正文采用通行字形；具体字形对应见text_edits，原始字串见sources/text-baselines.json。"
+    }
+  ],
+  "text_edits": [
+    {
+      "from": "劒",
+      "to": "劍"
+    },
+    {
+      "from": "筯",
+      "to": "箸"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "text",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "e1a941d175ed81719eabb2f0ba16fe9fd330e96b46c34f20217a13720e093d8f",
+      "record_locator": {
+        "index_zero_based": 302
+      }
+    }
+  ],
+  "editorial": {
+    "annotations_origin": "project_original",
+    "biographies_origin": "project_original",
+    "script_conversion": "OpenCC with contextual corrections and retained source variants",
+    "specialist_review_completed": false
+  },
+  "updated_on": "2026-10-22"
+}

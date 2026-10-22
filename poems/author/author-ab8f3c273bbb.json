@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "id": "author-ab8f3c273bbb",
+  "name": {
+    "zh-Hant": "賈島",
+    "zh-Hans": "贾岛"
+  },
+  "catalog_name": {
+    "zh-Hant": "賈島",
+    "zh-Hans": "贾岛"
+  },
+  "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+  },
+  "is_collective_attribution": false,
+  "biography": {
+    "short": {
+      "zh-Hant": "唐代詩人，字浪仙，以錘鍊字句的苦吟風格著稱。",
+      "zh-Hans": "唐代诗人，字浪仙，以锤炼字句的苦吟风格著称。"
+    },
+    "full": {
+      "zh-Hant": "賈島（779—843），字浪仙，唐代詩人，早年曾為僧，後來還俗求仕，與韓愈有交往。他的作品以五言詩較著名，常寫僧寺、山林、行旅與清貧生活，注重字句錘鍊，形成清瘦幽冷的風格。《尋隱者不遇》以問答省略的方式，留下人物行蹤和雲深山遠的想象空間。推敲一詞的著名故事與他有關，閲讀時可用來理解修改的重要性，但傳説細節不宜全部當作可靠史實。",
+      "zh-Hans": "贾岛（779—843），字浪仙，唐代诗人，早年曾为僧，后来还俗求仕，与韩愈有交往。他的作品以五言诗较著名，常写僧寺、山林、行旅与清贫生活，注重字句锤炼，形成清瘦幽冷的风格。《寻隐者不遇》以问答省略的方式，留下人物行踪和云深山远的想象空间。推敲一词的著名故事与他有关，阅读时可用来理解修改的重要性，但传说细节不宜全部当作可靠史实。"
+    }
+  },
+  "sources": [
+    {
+      "kind": "biography_reference",
+      "label": {
+        "zh-Hant": "中華古詩詞數據庫 · 全唐詩/authors.tang.json",
+        "zh-Hans": "中华古诗词数据库 · 全唐诗/authors.tang.json"
+      },
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "accessed_on": "2026-10-22",
+      "sha256": "d568d773f7f3ef653f65b9788add85b12ff2e40daa2a90e53c6142dee2a1e6ce",
+      "record_locator": {
+        "index_zero_based": 279
+      }
+    }
+  ],
+  "editorial_note": {
+    "zh-Hant": "簡介為本項目重新撰寫；年代、歸屬或史料不足之處已在正文説明。",
+    "zh-Hans": "简介为本项目重新撰写；年代、归属或史料不足之处已在正文说明。"
+  },
+  "updated_on": "2026-10-22"
+}
