@@ -1,7 +1,7 @@
 import Foundation
 
 /// Text script. Traditional and Simplified share every content ID, so switching never touches progress.
-enum Script: String, CaseIterable, Identifiable, Codable {
+nonisolated enum Script: String, CaseIterable, Identifiable, Codable, Sendable {
     case hant = "zh-Hant"
     case hans = "zh-Hans"
 
@@ -9,7 +9,7 @@ enum Script: String, CaseIterable, Identifiable, Codable {
 }
 
 /// A piece of text available in both scripts.
-struct LocalizedText: Decodable, Hashable {
+nonisolated struct LocalizedText: Decodable, Hashable, Sendable {
     let hant: String
     let hans: String
 

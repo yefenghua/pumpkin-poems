@@ -10,6 +10,9 @@ struct TodayView: View {
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @Query private var progressRecords: [PoemProgress]
     @Query private var mistakes: [Mistake]
+    @State private var showLearningPlan = false
+    @State private var planDestination: Route?
+    @State private var openLibraryAfterPlan = false
     #if DEBUG
     /// Re-renders when the demo date shift changes.
     @AppStorage(AppClock.dayOffsetKey) private var dayOffset = 0
@@ -18,7 +21,9 @@ struct TodayView: View {
     /// How far the continue card rides up over the scene's fade.
     private let cardOverlap: CGFloat = 56
 
-    private var snapshot: LearningSnapshot { LearningSnapshot(progress: progressRecords) }
+    private var snapshot: LearningSnapshot {
+        LearningSnapshot(progress: progressRecords, targetKeyStage: settings.targetGrade?.keyStage)
+    }
 
     var body: some View {
         #if DEBUG
@@ -40,7 +45,9 @@ struct TodayView: View {
                     heroScene(theme: heroTheme, width: width, safeTop: safeTop)
                     VStack(spacing: AppTheme.Spacing.section) {
                         ContinueLearningCard(current: current, poem: mainPoem, theme: cardTheme,
-                                             isFirstEver: !snapshot.hasAnyRecord)
+                                             isFirstEver: !snapshot.hasAnyRecord,
+                                             planTotalCount: snapshot.planTotalCount)
+                        planEntry(snapshot)
                         shortcuts(due: due)
                     }
                     .padding(.horizontal, pagePadding(width))
@@ -54,6 +61,50 @@ struct TodayView: View {
         }
         .pageBackground()
         .toolbar(.hidden, for: .navigationBar)
+        .sheet(isPresented: $showLearningPlan, onDismiss: {
+            if openLibraryAfterPlan {
+                openLibraryAfterPlan = false
+                planDestination = nil
+                router.selectedTab = .library
+            } else if let destination = planDestination {
+                planDestination = nil
+                router.push(destination)
+            }
+        }) {
+            LearningPlanView(onOpen: { destination in
+                openLibraryAfterPlan = false
+                planDestination = destination
+                showLearningPlan = false
+            }, onOpenLibrary: {
+                planDestination = nil
+                openLibraryAfterPlan = true
+                showLearningPlan = false
+            })
+        }
+    }
+
+    private func planEntry(_ snapshot: LearningSnapshot) -> some View {
+        Button { showLearningPlan = true } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "calendar.badge.clock")
+                    .font(.title2).foregroundStyle(Color.pumpkinOrange)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text((settings.targetGrade.map { settings.t($0.title) + " · " } ?? "")
+                         + settings.t("學習計劃", "学习计划"))
+                        .font(.headline).foregroundStyle(Color.cocoa)
+                    Text(snapshot.planTotalCount == 0
+                         ? settings.t("選一首詩，開始學習", "选一首诗，开始学习")
+                         : settings.t("已完成 \(snapshot.planPassedCount)／\(snapshot.planTotalCount) 首", "已完成 \(snapshot.planPassedCount)／\(snapshot.planTotalCount) 首"))
+                        .font(.subheadline).foregroundStyle(Color.chestnut)
+                }
+                Spacer(minLength: 4)
+                Image(systemName: "chevron.right").foregroundStyle(Color.chestnut)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .card(padding: 14)
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier("today.learning-plan")
     }
 
     private func pagePadding(_ width: CGFloat) -> CGFloat {
@@ -76,8 +127,12 @@ struct TodayView: View {
             textScrim: light ? Color(hex: 0x14204A).opacity(0.38) : AppTheme.Colors.backgroundCream.opacity(0.55)
         ) {
             VStack(alignment: .leading, spacing: 8) {
-                Text(settings.t("今天", "今天"))
-                    .font(AppTheme.Typography.screenTitle)
+                HStack(alignment: .center) {
+                    Text(settings.t("今天", "今天"))
+                        .font(AppTheme.Typography.screenTitle)
+                    Spacer(minLength: 12)
+                    ScriptAndVoiceMenus()
+                }
                 Text(settings.t("和貝貝一起，\n讀懂一首詩", "和贝贝一起，\n读懂一首诗"))
                     .font(AppTheme.Typography.heroLead)
                     .lineSpacing(3)
@@ -105,12 +160,12 @@ struct TodayView: View {
         ) { router.push(.review) }
 
         let game = LearningShortcutCard(
-            title: settings.t("飛花令", "飞花令"),
-            subtitle: settings.t("用學過的詩句接字", "用学过的诗句接字"),
+            title: settings.t("詩詞遊樂園", "诗词游乐园"),
+            subtitle: settings.t("接詩、尋字、猜詩句", "接诗、寻字、猜诗句"),
             asset: ArtworkAsset.flowerGame,
             artAlignment: .bottomLeading,
             artScale: 0.72
-        ) { router.push(.feiHuaLing(nil)) }
+        ) { router.push(.games) }
 
         if dynamicTypeSize.isAccessibilitySize {
             VStack(spacing: AppTheme.Spacing.shortcutGap) {
@@ -135,6 +190,7 @@ struct ContinueLearningCard: View {
     let poem: Poem?
     let theme: PoemVisualTheme?
     let isFirstEver: Bool
+    let planTotalCount: Int
 
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
@@ -211,24 +267,41 @@ struct ContinueLearningCard: View {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 
+    @ViewBuilder
     private var allDone: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(settings.t("全部練習通過", "全部练习通过"))
-                .font(AppTheme.Typography.label)
-                .foregroundStyle(AppTheme.Colors.textSecondary)
-            Text(settings.t("\(PoemLibrary.shared.poems.count) 首詩都練習通過了！", "\(PoemLibrary.shared.poems.count) 首诗都练习通过了！"))
-                .font(AppTheme.Typography.cardPoemTitle)
-                .foregroundStyle(AppTheme.Colors.textPrimary)
-                .minimumScaleFactor(0.7)
-            Text(settings.t("按時複習，讓記憶更穩。", "按时复习，让记忆更稳。"))
-                .foregroundStyle(AppTheme.Colors.textSecondary)
-            Button {
-                router.selectedTab = .me
-            } label: {
-                Text(settings.t("看看成長冊", "看看成长册"))
+        if planTotalCount == 0 {
+            // TODO: Replace this library entry with the plan when secondary-school lessons are connected.
+            VStack(alignment: .leading, spacing: 12) {
+                Text(settings.t("選一首詩，開始學習", "选一首诗，开始学习"))
+                    .font(AppTheme.Typography.cardPoemTitle)
+                    .foregroundStyle(AppTheme.Colors.textPrimary)
+                Button {
+                    router.selectedTab = .library
+                } label: {
+                    Text(settings.t("打開詩庫", "打开诗库"))
+                }
+                .buttonStyle(PrimaryButtonStyle(showsChevron: true))
+                .padding(.top, 8)
             }
-            .buttonStyle(PrimaryButtonStyle(showsChevron: true))
-            .padding(.top, 8)
+        } else {
+            VStack(alignment: .leading, spacing: 12) {
+                Text(settings.t("本學段練習完成", "本学段练习完成"))
+                    .font(AppTheme.Typography.label)
+                    .foregroundStyle(AppTheme.Colors.textSecondary)
+                Text(settings.t("\(planTotalCount) 首詩都練習通過了！", "\(planTotalCount) 首诗都练习通过了！"))
+                    .font(AppTheme.Typography.cardPoemTitle)
+                    .foregroundStyle(AppTheme.Colors.textPrimary)
+                    .minimumScaleFactor(0.7)
+                Text(settings.t("按時複習，讓記憶更穩。", "按时复习，让记忆更稳。"))
+                    .foregroundStyle(AppTheme.Colors.textSecondary)
+                Button {
+                    router.selectedTab = .me
+                } label: {
+                    Text(settings.t("看看成長冊", "看看成长册"))
+                }
+                .buttonStyle(PrimaryButtonStyle(showsChevron: true))
+                .padding(.top, 8)
+            }
         }
     }
 

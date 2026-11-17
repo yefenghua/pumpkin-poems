@@ -9,11 +9,14 @@ struct ReviewListView: View {
     @Query private var mistakes: [Mistake]
 
     var body: some View {
-        let snapshot = LearningSnapshot(progress: progressRecords)
+        let snapshot = LearningSnapshot(progress: progressRecords, targetKeyStage: settings.targetGrade?.keyStage)
         let due = snapshot.dueReviews(mistakes: mistakes, now: AppClock.now)
         let openMistakes = Set(mistakes.filter { !$0.isResolved }.map(\.poemID))
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.Spacing.item) {
+                if let grade = settings.targetGrade {
+                    Text(settings.t(grade.title)).font(.headline).foregroundStyle(Color.chestnut)
+                }
                 if due.isEmpty {
                     VStack(spacing: 12) {
                         MascotIllustration(size: 120)

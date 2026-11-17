@@ -151,6 +151,10 @@ struct ScriptAndVoiceMenus: View {
             .accessibilityLabel(settings.t("文字版本", "文字版本"))
 
             Menu {
+                Section(settings.t("展示模式", "展示模式")) {
+                    Button("粵語 · 繁體") { settings.applyPresentation(.cantonese) }
+                    Button("普通话 · 简体") { settings.applyPresentation(.mandarin) }
+                }
                 Picker(settings.t("朗讀", "朗读"), selection: $settings.voice) {
                     Text(settings.t("粵語", "粤语")).tag(VoiceLanguage.cantonese)
                     Text(settings.t("普通話", "普通话")).tag(VoiceLanguage.mandarin)

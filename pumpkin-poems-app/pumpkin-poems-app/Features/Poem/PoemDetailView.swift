@@ -93,17 +93,19 @@ struct PoemDetailView: View {
         }
         .onAppear {
             store.advance(poem.id, to: .reading)
-            if selectedLineID == nil { selectedLineID = poem.lines.first?.id }
+            if poem.line(selectedLineID ?? "") == nil { selectedLineID = poem.lines.first?.id }
         }
         .onDisappear { speech.stop() }
-        .onChange(of: speech.isSpeaking) { _, isSpeaking in
-            if !isSpeaking && playingFullPoem {
-                playingFullPoem = false
+        .onChange(of: speech.completionCount) { _, _ in
+            if speech.completedLineIDs == poem.lines.map(\.id) {
                 store.markRead(poem.id)
             }
         }
+        .onChange(of: speech.isSpeaking) { _, isSpeaking in
+            if !isSpeaking { playingFullPoem = false }
+        }
         .onChange(of: speech.speakingLineID) { _, lineID in
-            if let lineID { selectedLineID = lineID }
+            if let lineID, poem.line(lineID) != nil { selectedLineID = lineID }
         }
         .onChange(of: viewedLineIDs) { _, viewed in
             if viewed.count == poem.lines.count { store.markRead(poem.id) }
@@ -249,7 +251,7 @@ struct PoemDetailView: View {
                     Button {
                         select(line)
                         playingFullPoem = false
-                        speech.speak([(line.id, line.text(settings.script))], language: settings.voice)
+                        speech.speak([(line.id, settings.spoken(line.text))], language: settings.voice)
                     } label: {
                         Label(settings.t("聽這句", "听这句"), systemImage: "speaker.wave.2")
                     }
@@ -342,12 +344,11 @@ struct PoemDetailView: View {
     // MARK: Actions
 
     private func toggleFullPoem(_ poem: Poem) {
-        if speech.isSpeaking {
+        if speech.isSpeaking && playingFullPoem {
             speech.stop()
             playingFullPoem = false
         } else {
-            playingFullPoem = true
-            speech.speak(poem.lines.map { ($0.id, $0.text(settings.script)) }, language: settings.voice)
+            playingFullPoem = speech.speak(poem.lines.map { ($0.id, settings.spoken($0.text)) }, language: settings.voice)
         }
     }
 
@@ -373,12 +374,14 @@ struct LearningActionBar: View {
     @Environment(AppSettings.self) private var settings
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
-    private var voiceAvailable: Bool { SpeechPlayer.hasVoice(for: settings.voice) }
+    @Environment(SpeechPlayer.self) private var speech
+
+    private var voiceAvailable: Bool { speech.hasVoice(for: settings.voice) }
 
     var body: some View {
         VStack(spacing: 8) {
             if !voiceAvailable {
-                Text(settings.t("此裝置沒有對應的朗讀語音，將使用系統預設語音。", "此设备没有对应的朗读语音，将使用系统默认语音。"))
+                Text(settings.t("所選朗讀聲音未就緒，請到設定檢查並試聽。", "所选朗读声音未就绪，请到设置检查并试听。"))
                     .font(.caption)
                     .foregroundStyle(AppTheme.Colors.textSecondary)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -409,8 +412,8 @@ struct LearningActionBar: View {
 
     private var listenButton: some View {
         Button(action: listen) {
-            Label(playing ? settings.t("暫停", "暂停") : settings.t("聽一聽", "听一听"),
-                  systemImage: playing ? "pause.fill" : "speaker.wave.2.fill")
+            Label(playing ? settings.t("停止", "停止") : settings.t("聽一聽", "听一听"),
+                  systemImage: playing ? "stop.fill" : "speaker.wave.2.fill")
         }
         .buttonStyle(AudioButtonStyle())
         .accessibilityHint(playing ? settings.t("停止朗讀全詩", "停止朗读全诗") : settings.t("朗讀全詩", "朗读全诗"))

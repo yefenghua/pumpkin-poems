@@ -313,20 +313,7 @@ struct StatusBadge: View {
     }
 }
 
-/// The three objective learning states (plus not started), from the product doc §3.3.
-enum PoemStatus: Int, CaseIterable, Identifiable {
-    case notStarted, read, passed, stable
-
-    var id: Int { rawValue }
-
-    init(_ progress: PoemProgress?) {
-        guard let progress else { self = .notStarted; return }
-        if progress.isStable { self = .stable }
-        else if progress.hasPassed { self = .passed }
-        else if progress.hasRead { self = .read }
-        else { self = .notStarted }
-    }
-
+extension PoemStatus {
     func title(_ settings: AppSettings) -> String {
         switch self {
         case .notStarted: settings.t("未開始", "未开始")

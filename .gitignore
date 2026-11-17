@@ -1,3 +1,27 @@
 .DS_Store
 
 .vscode/
+
+# Xcode settings and generated builds stay on each developer's Mac.
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive/
+*.ipa
+*.dSYM/
+
+# Local credentials and signing material.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.p12
+*.p8
+*.mobileprovision
+
+# Tool caches.
+__pycache__/
+*.py[cod]
+.build/
+.swiftpm/

@@ -88,12 +88,12 @@ enum PoetWorkshopContent {
     /// Allowed line counts for the first version: a couplet or a quatrain.
     static let lineCounts = [2, 4]
     /// Suggested characters per line (五言 / 七言), used by the gentle check only.
-    static let suggestedLengths = 5...7
+    static let suggestedLengths: Set<Int> = [5, 7]
 
     /// Library lines that use at least one chosen word, as examples to read before writing.
     static func exampleLines(for words: [ImageryWord], in poems: [Poem], normalizer: TextNormalizer, limit: Int = 4) -> [(poem: Poem, line: PoemLine)] {
         let keys = words.map { normalizer.normalize($0.id) }
-        guard !keys.isEmpty else { return [] }
+        guard !keys.isEmpty, limit > 0 else { return [] }
         var result: [(Poem, PoemLine)] = []
         for poem in poems {
             for line in poem.lines {
@@ -136,7 +136,7 @@ struct PoetWorkshopCheck: Equatable {
     /// A title when the child leaves it blank: the first few characters of the first line.
     static func suggestedTitle(from lines: [String], normalizer: TextNormalizer) -> String {
         guard let first = lines.first(where: { !normalizer.normalize($0).isEmpty }) else { return "" }
-        let trimmed = first.trimmingCharacters(in: .whitespacesAndNewlines)
-        return String(trimmed.prefix(4)).trimmingCharacters(in: .punctuationCharacters)
+        // Preserve the child's script, while ignoring opening quotes, spaces and punctuation.
+        return String(first.filter { TextNormalizer.isHan($0) }.prefix(4))
     }
 }

@@ -19,7 +19,7 @@ struct QuizOutcome {
 struct ProgressStore {
     /// Pass when at least 80% of the questions are correct.
     static func isPassing(score: Int, total: Int) -> Bool {
-        total > 0 && score * 5 >= total * 4
+        QuizScoring.isPassing(score: score, total: total)
     }
 
     let context: ModelContext
@@ -78,15 +78,16 @@ struct ProgressStore {
     func recordQuiz(poem: Poem, answers: [String: Bool]) -> QuizOutcome {
         let now = AppClock.now
         let progress = progress(for: poem.id)
-        let score = answers.values.filter { $0 }.count
-        let total = answers.count
-        let passed = Self.isPassing(score: score, total: total)
+        let result = QuizScoring(questions: poem.questions, answers: answers)
+        let score = result.score
+        let total = result.total
+        let passed = result.passed
         let wasReview = progress.lastPassedAt.map {
             scheduler.calendar.startOfDay(for: $0) < scheduler.calendar.startOfDay(for: now)
         } ?? false
 
         var resolved = 0
-        for (questionID, correct) in answers {
+        for (questionID, correct) in result.answers {
             if updateMistake(questionID: questionID, poemID: poem.id, correct: correct, at: now) {
                 resolved += 1
             }

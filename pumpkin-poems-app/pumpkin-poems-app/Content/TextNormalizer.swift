@@ -2,7 +2,7 @@ import Foundation
 
 /// Folds Traditional and Simplified text onto one comparable form, so that
 /// "牀前明月光", "床前明月光" and "床前明月光。" all match the same line.
-struct TextNormalizer {
+nonisolated struct TextNormalizer: Sendable {
     let hantToHans: [Character: Character]
 
     init(hantToHans: [String: String]) {
@@ -26,7 +26,7 @@ struct TextNormalizer {
         return result
     }
 
-    static func isHan(_ character: Character) -> Bool {
+    nonisolated static func isHan(_ character: Character) -> Bool {
         guard let scalar = character.unicodeScalars.first else { return false }
         return scalar.properties.isIdeographic
     }

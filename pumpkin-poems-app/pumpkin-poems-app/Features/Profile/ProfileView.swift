@@ -87,8 +87,7 @@ struct ProfileView: View {
             record.firstPassedAt.map { calendar.isDate($0, equalTo: now, toGranularity: .weekOfYear) } ?? false
         }.count
         let reviews = attempts.filter { $0.isReview && $0.passed }.count
-        let entryBest = games.filter { $0.mode == FeiHuaLingMode.entry.rawValue }.map(\.score).max() ?? 0
-        let challengeBest = games.filter { $0.mode == FeiHuaLingMode.challenge.rawValue }.map(\.score).max() ?? 0
+        let entryBest = games.filter { $0.mode == "flying" }.map(\.score).max() ?? 0
         let fixed = mistakes.filter(\.isResolved).count
         return VStack(alignment: .leading, spacing: 8) {
             SectionHeader(title: settings.t("個人最佳記錄", "个人最佳记录"))
@@ -99,9 +98,7 @@ struct ProfileView: View {
                 Divider().overlay(AppTheme.Colors.borderWarm)
                 bestRow(icon: "wand.and.stars", title: settings.t("修正錯題", "修正错题"), value: settings.t("\(fixed) 道", "\(fixed) 道"))
                 Divider().overlay(AppTheme.Colors.borderWarm)
-                bestRow(icon: "sparkles", title: settings.t("飛花令最高分（入門）", "飞花令最高分（入门）"), value: settings.t("\(entryBest) 分", "\(entryBest) 分"))
-                Divider().overlay(AppTheme.Colors.borderWarm)
-                bestRow(icon: "sparkles", title: settings.t("飛花令最高分（挑戰）", "飞花令最高分（挑战）"), value: settings.t("\(challengeBest) 分", "\(challengeBest) 分"))
+                bestRow(icon: "sparkles", title: settings.t("飛花令最高分", "飞花令最高分"), value: settings.t("\(entryBest) 分", "\(entryBest) 分"))
             }
             .card(padding: 6)
         }
@@ -124,6 +121,16 @@ struct ProfileView: View {
     private var links: some View {
         let open = mistakes.filter { !$0.isResolved }.count
         return VStack(spacing: AppTheme.Spacing.item) {
+            Button {
+                router.push(.games)
+            } label: {
+                HStack {
+                    Label(settings.t("詩詞遊樂園", "诗词游乐园"), systemImage: "gamecontroller")
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                }
+            }
+            .buttonStyle(SoftButtonStyle())
             Button {
                 router.push(.myPoems)
             } label: {

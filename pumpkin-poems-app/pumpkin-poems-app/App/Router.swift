@@ -13,6 +13,9 @@ enum Route: Hashable {
     case retry([String])
     /// 飞花令, optionally with a preselected character (Simplified form).
     case feiHuaLing(String?)
+    case games
+    case verseGrid
+    case poemWordle
     case mistakes
     case settings
     /// 今日复习 list.
@@ -56,6 +59,32 @@ final class Router {
         }
     }
 
+    /// Finish a practice opened from any entry point at the matching poem page.
+    func returnToPoem(_ poemID: String) {
+        returnTo(.poem(poemID))
+    }
+
+    func returnToMyPoems() {
+        returnTo(.myPoems)
+    }
+
+    private func returnTo(_ destination: Route) {
+        mutateCurrentPath { path in
+            if let index = path.lastIndex(of: destination) {
+                path = Array(path.prefix(index + 1))
+            } else {
+                if !path.isEmpty { path.removeLast() }
+                path.append(destination)
+            }
+        }
+    }
+
+    /// The home button always opens the Today root, even when its stack has an old flow.
+    func goHome() {
+        todayPath.removeAll()
+        selectedTab = .today
+    }
+
     func path(for tab: AppTab) -> Binding<[Route]> {
         Binding {
             switch tab {
@@ -89,6 +118,9 @@ final class Router {
         case "recite": argument.map(Route.recite)
         case "quiz": argument.map(Route.quiz)
         case "feihualing": .feiHuaLing(argument)
+        case "games": .games
+        case "versegrid": .verseGrid
+        case "wordle": .poemWordle
         case "mistakes": .mistakes
         case "settings": .settings
         case "review": .review
@@ -120,6 +152,9 @@ extension View {
             case .quiz(let id): QuizView(mode: .poem(id))
             case .retry(let ids): QuizView(mode: .retry(ids))
             case .feiHuaLing(let character): FeiHuaLingView(initialCharacter: character)
+            case .games: GamesHubView()
+            case .verseGrid: VerseGridView()
+            case .poemWordle: PoemWordleView()
             case .mistakes: MistakesView()
             case .settings: SettingsView()
             case .review: ReviewListView()

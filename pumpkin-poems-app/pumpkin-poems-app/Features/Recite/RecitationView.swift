@@ -85,6 +85,9 @@ struct RecitationView: View {
         .pageBackground()
         .navigationTitle(settings.t("背誦", "背诵"))
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) { ScriptAndVoiceMenus() }
+        }
         .onAppear {
             store.advance(poem.id, to: .reciting)
             if selectedLineID == nil { selectedLineID = poem.lines.first?.id }
@@ -142,7 +145,7 @@ struct RecitationView: View {
         let isRevealed = revealedLineIDs.contains(line.id)
         return HStack(spacing: 12) {
             Button {
-                speech.speak([(line.id, line.text(settings.script))], language: settings.voice)
+                speech.speak([(line.id, settings.spoken(line.text))], language: settings.voice)
             } label: {
                 Label(settings.t("聽一句", "听一句"), systemImage: "speaker.wave.2.fill")
             }
@@ -175,7 +178,7 @@ struct RecitationView: View {
                     }
                     .buttonStyle(SoftButtonStyle(compact: true))
                 }
-                Text(settings.t("這是自評，做完小測才會記錄練習成績。", "这是自评，做完小测才会记录练习成绩。"))
+                Text(settings.t("背誦採用自評，小測可查看成績。", "背诵采用自评，小测可查看成绩。"))
                     .font(.footnote)
                     .foregroundStyle(Color.chestnut)
             }
@@ -189,7 +192,7 @@ struct RecitationView: View {
         case .full: settings.t("先完整讀幾遍，可以點「聽一句」跟讀。", "先完整读几遍，可以点“听一句”跟读。")
         case .hideKeywords: settings.t("關鍵字藏起來了，試着唸出完整的詩句。", "关键字藏起来了，试着念出完整的诗句。")
         case .firstCharacter: settings.t("只看每句的第一個字，回想整句。", "只看每句的第一个字，回想整句。")
-        case .hidden: settings.t("全部藏起來了！想不起來就看提示，沒關係。", "全部藏起来了！想不起来就看提示，没关系。")
+        case .hidden: settings.t("試着背完整首，想不起來時可看提示。", "试着背完整首，想不起来时可看提示。")
         }
     }
 

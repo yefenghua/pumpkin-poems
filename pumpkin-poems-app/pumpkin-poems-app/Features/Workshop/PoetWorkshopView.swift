@@ -31,7 +31,7 @@ struct PoetWorkshopView: View {
     private let cardOverlap: CGFloat = 40
     private let maxWords = 4
 
-    private var theme: PoetWorkshopTheme? { themeID.flatMap(PoetWorkshopContent.theme) }
+    private var theme: PoetWorkshopTheme? { themeID.flatMap { PoetWorkshopContent.theme($0) } }
     private var words: [ImageryWord] {
         wordIDs.compactMap { id in theme?.words.first { $0.id == id } }
     }
@@ -279,7 +279,7 @@ struct PoetWorkshopView: View {
                             .strokeBorder(focusedLine == index ? AppTheme.Colors.primaryGold : AppTheme.Colors.borderWarm, lineWidth: 1.5))
                     }
                 }
-                Text(settings.t("每句五個字或七個字會更像詩，不過先寫出來最重要。", "每句五个字或七个字会更像诗，不过先写出来最重要。"))
+                Text(settings.t("試着每句寫五個字或七個字。", "试着每句写五个字或七个字。"))
                     .font(.footnote)
                     .foregroundStyle(AppTheme.Colors.textSecondary)
                     .fixedSize(horizontal: false, vertical: true)
@@ -338,9 +338,6 @@ struct PoetWorkshopView: View {
                 checkRow(check.usesWord, settings.t("用到了選的意象", "用到了选的意象"))
                 checkRow(check.evenLength, settings.t("每句字數一樣（五或七個字）", "每句字数一样（五或七个字）")
                          + (check.hasLines ? "　" + check.lengths.map(String.init).joined(separator: "／") : ""))
-                Text(settings.t("後兩項只是提醒，不影響保存。", "后两项只是提醒，不影响保存。"))
-                    .font(.footnote)
-                    .foregroundStyle(AppTheme.Colors.textSecondary)
             }
             .card()
 
@@ -407,7 +404,7 @@ struct PoetWorkshopView: View {
             }
             .padding(.vertical, 6)
             Button {
-                router.replaceTop(with: .myPoems)
+                router.returnToMyPoems()
             } label: {
                 Label(settings.t("看我的詩集", "看我的诗集"), systemImage: "books.vertical")
             }
@@ -488,7 +485,7 @@ struct PoetWorkshopView: View {
     }
 
     private func save() {
-        guard let themeID else { return }
+        guard let themeID, theme != nil, check.canSave else { return }
         focusedLine = nil
         let finalTitle = title.trimmingCharacters(in: .whitespacesAndNewlines).nilIfEmpty
             ?? PoetWorkshopCheck.suggestedTitle(from: activeLines, normalizer: library.normalizer).nilIfEmpty

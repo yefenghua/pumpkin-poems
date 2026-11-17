@@ -5,9 +5,11 @@ import SwiftUI
 struct MyPoemsView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
+    @Environment(SpeechPlayer.self) private var speech
     @Environment(\.modelContext) private var context
     @Query(sort: \PoemDraft.updatedAt, order: .reverse) private var drafts: [PoemDraft]
     @State private var pendingDelete: PoemDraft?
+    @State private var speakingDraftID: UUID?
 
     var body: some View {
         ScrollView {
@@ -18,10 +20,21 @@ struct MyPoemsView: View {
                 } else {
                     VStack(spacing: AppTheme.Spacing.item) {
                         ForEach(drafts) { draft in
-                            DraftCard(draft: draft) {
+                            DraftCard(draft: draft, isSpeaking: speech.isSpeaking && speakingDraftID == draft.id) {
                                 router.push(.poetWorkshop(.edit(draft.id)))
                             } delete: {
                                 pendingDelete = draft
+                            } readAloud: {
+                                if speech.isSpeaking && speakingDraftID == draft.id {
+                                    speech.stop()
+                                    speakingDraftID = nil
+                                } else {
+                                    speakingDraftID = draft.id
+                                    let lines = ([draft.title] + draft.lines).enumerated().map {
+                                        (id: "\(draft.id)-\($0.offset)", text: $0.element)
+                                    }
+                                    speech.speak(lines, language: settings.voice)
+                                }
                             }
                         }
                     }
@@ -36,11 +49,14 @@ struct MyPoemsView: View {
         .pageBackground()
         .navigationTitle(settings.t("我的詩集", "我的诗集"))
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear { speech.stop() }
+        .onChange(of: settings.voice) { _, _ in speech.stop() }
         .confirmationDialog(settings.t("刪除這首作品？刪除後無法復原。", "删除这首作品？删除后无法恢复。"),
                             isPresented: Binding(get: { pendingDelete != nil }, set: { if !$0 { pendingDelete = nil } }),
                             titleVisibility: .visible) {
             Button(settings.t("刪除", "删除"), role: .destructive) {
                 if let pendingDelete {
+                    if speakingDraftID == pendingDelete.id { speech.stop() }
                     ProgressStore(context: context).deleteDraft(pendingDelete)
                 }
                 pendingDelete = nil
@@ -59,7 +75,7 @@ struct MyPoemsView: View {
                                         : settings.t("收藏了 \(drafts.count) 首作品", "收藏了 \(drafts.count) 首作品"))
                         .font(.sectionTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(settings.t("寫下的每一首，都只保存在這部裝置上。", "写下的每一首，都只保存在这台设备上。"))
+                    Text(settings.t("作品保存在這部裝置上。", "作品保存在这台设备上。"))
                         .font(.footnote)
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -86,7 +102,7 @@ struct MyPoemsView: View {
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(AppTheme.Colors.textPrimary)
                 .multilineTextAlignment(.center)
-            Text(settings.t("不用管平仄，先把看見的、想到的寫出來。", "不用管平仄，先把看见的、想到的写出来。"))
+            Text(settings.t("把看見的、想到的寫出來。", "把看见的、想到的写出来。"))
                 .font(.subheadline)
                 .foregroundStyle(AppTheme.Colors.textSecondary)
                 .multilineTextAlignment(.center)
@@ -107,59 +123,84 @@ struct MyPoemsView: View {
 /// One saved piece: title, theme and imagery chips, the lines centred like a printed poem, and the date.
 struct DraftCard: View {
     let draft: PoemDraft
+    let isSpeaking: Bool
     var open: () -> Void
     var delete: () -> Void
+    var readAloud: () -> Void
 
     @Environment(AppSettings.self) private var settings
 
     var body: some View {
         let theme = PoetWorkshopContent.theme(draft.themeID)
-        Button(action: open) {
-            VStack(alignment: .leading, spacing: 10) {
-                HStack(alignment: .firstTextBaseline) {
-                    Text(draft.title)
-                        .font(.cardTitle)
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                        .lineLimit(1)
-                    Spacer()
-                    if let theme {
-                        Chip(title: settings.t(theme.name))
-                    }
-                }
-                VStack(spacing: 4) {
-                    ForEach(Array(draft.lines.enumerated()), id: \.offset) { _, line in
-                        Text(line)
-                            .font(.title3.weight(.medium))
+        VStack(spacing: 10) {
+            Button(action: open) {
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(alignment: .firstTextBaseline) {
+                        Text(draft.title)
+                            .font(.cardTitle)
                             .foregroundStyle(AppTheme.Colors.textPrimary)
-                    }
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 8)
-                .background(AppTheme.Colors.backgroundCream, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                HStack {
-                    if let theme {
-                        let used = draft.wordIDs.compactMap { id in theme.words.first { $0.id == id } }
-                        if !used.isEmpty {
-                            Text(settings.t("意象：", "意象：") + used.map { settings.t($0.text) }.joined(separator: "、"))
-                                .font(.caption)
-                                .foregroundStyle(AppTheme.Colors.textSecondary)
+                            .lineLimit(1)
+                        Spacer()
+                        if let theme {
+                            Chip(title: settings.t(theme.name))
                         }
                     }
-                    Spacer()
-                    Text(draft.updatedAt.formatted(.dateTime.month().day()))
-                        .font(.caption)
+                    VStack(spacing: 4) {
+                        ForEach(Array(draft.lines.enumerated()), id: \.offset) { _, line in
+                            Text(line)
+                                .font(.title3.weight(.medium))
+                                .foregroundStyle(AppTheme.Colors.textPrimary)
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 8)
+                    .background(AppTheme.Colors.backgroundCream, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    HStack {
+                        if let theme {
+                            let used = draft.wordIDs.compactMap { id in theme.words.first { $0.id == id } }
+                            if !used.isEmpty {
+                                Text(settings.t("意象：", "意象：") + used.map { settings.t($0.text) }.joined(separator: "、"))
+                                    .font(.caption)
+                                    .foregroundStyle(AppTheme.Colors.textSecondary)
+                            }
+                        }
+                        Spacer()
+                        Text(draft.updatedAt.formatted(.dateTime.month().day().locale(settings.locale)))
+                            .font(.caption)
+                            .foregroundStyle(AppTheme.Colors.textSecondary)
+                    }
+                }
+                .contentShape(RoundedRectangle(cornerRadius: AppTheme.CornerRadius.card, style: .continuous))
+            }
+            .buttonStyle(.plain)
+            Divider().overlay(AppTheme.Colors.borderWarm)
+            HStack(spacing: 10) {
+                Button(action: readAloud) {
+                    Label(isSpeaking ? settings.t("停止朗讀", "停止朗读")
+                          : settings.voice == .cantonese ? settings.t("粵語朗讀", "粤语朗读") : settings.t("普通話朗讀", "普通话朗读"),
+                          systemImage: isSpeaking ? "stop.fill" : "speaker.wave.2.fill")
+                }
+                .buttonStyle(SoftButtonStyle(compact: true))
+                Button(action: open) {
+                    Label(settings.t("修改", "修改"), systemImage: "pencil")
+                }
+                .buttonStyle(SoftButtonStyle(compact: true))
+                Menu {
+                    Button(role: .destructive, action: delete) {
+                        Label(settings.t("刪除", "删除"), systemImage: "trash")
+                    }
+                } label: {
+                    Image(systemName: "ellipsis")
+                        .frame(width: 44, height: 44)
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                 }
+                .accessibilityLabel(settings.t("作品選項", "作品选项"))
             }
-            .card()
-            .contentShape(RoundedRectangle(cornerRadius: AppTheme.CornerRadius.card, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .card()
         .contextMenu {
             Button(action: open) { Label(settings.t("修改", "修改"), systemImage: "pencil") }
             Button(role: .destructive, action: delete) { Label(settings.t("刪除", "删除"), systemImage: "trash") }
         }
-        .accessibilityElement(children: .combine)
-        .accessibilityHint(settings.t("打開修改；長按可刪除", "打开修改；长按可删除"))
     }
 }
