@@ -1,4 +1,7 @@
-# 待生成插画与提示词
+# 待生成插画与提示词（第一阶段）
+
+> 本页 4 张图均已交付并放入 `PoetryArtwork.xcassets`。第二阶段新增的待生成插画见
+> [phase2-artwork-delivery.md](phase2-artwork-delivery.md)。
 
 这些图片在 App 中还没有正式素材，对应位置目前显示**中性灰色占位区**（带资源名）。
 生成后把 PNG 放进 `pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/<资源名>.imageset/`，

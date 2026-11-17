@@ -13,31 +13,23 @@ struct QuizCompletionView: View {
     @Environment(Router.self) private var router
     @Query private var progressRecords: [PoemProgress]
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
     private let cardOverlap: CGFloat = 44
 
     var body: some View {
         let snapshot = LearningSnapshot(progress: progressRecords)
-        GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    scene(width: width, safeTop: safeTop)
-                    VStack(spacing: AppTheme.Spacing.section) {
-                        resultCard(snapshot)
-                        progressCard(snapshot)
-                        actions
-                    }
-                    .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-                    .padding(.top, -cardOverlap)
-                    .padding(.bottom, AppTheme.Spacing.pageBottom)
-                    .frame(maxWidth: 640)
-                    .frame(maxWidth: .infinity)
-                }
+        StorybookPage(overlap: cardOverlap, contentMaxWidth: 640, sceneHeight: { width in
+            min(width * 0.6, 290)
+        }, scene: { metrics in
+            scene(metrics)
+        }, content: { metrics in
+            VStack(spacing: AppTheme.Spacing.section) {
+                resultCard(snapshot)
+                progressCard(snapshot)
+                actions
             }
-            .ignoresSafeArea(edges: .top)
-        }
+            .storybookColumn(metrics, maxWidth: 640)
+        })
         .pageBackground()
         .toolbar(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
@@ -45,14 +37,15 @@ struct QuizCompletionView: View {
 
     // MARK: Scene
 
-    private func scene(width: CGFloat, safeTop: CGFloat) -> some View {
+    private func scene(_ metrics: StorybookMetrics) -> some View {
         IllustratedSceneHeader(
             asset: ArtworkAsset.celebrationScene,
-            height: min(width * 0.6, 290),
+            height: metrics.sceneHeight,
             fade: 0.3,
             imageAlignment: .top,
             textScrim: AppTheme.Colors.backgroundCream.opacity(0.5),
-            pendingDelivery: true
+            pendingDelivery: true,
+            fadeEdge: metrics.fadeEdge
         ) {
             HStack(alignment: .top, spacing: 12) {
                 Button {
@@ -76,8 +69,7 @@ struct QuizCompletionView: View {
                 .accessibilityElement(children: .combine)
                 .accessibilityAddTraits(.isHeader)
             }
-            .padding(.top, safeTop + 8)
-            .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
+            .padding(metrics.sceneTextInsets)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
@@ -98,6 +90,7 @@ struct QuizCompletionView: View {
                           systemImage: outcome.passed ? "checkmark.seal.fill" : "arrow.counterclockwise.circle")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(outcome.passed ? AppTheme.Colors.successGreen : AppTheme.Colors.textSecondary)
+                    dimensionRow
                     ForEach(rewards, id: \.text) { reward in
                         HStack(alignment: .top, spacing: 8) {
                             IconDisc(systemImage: reward.icon, size: 28)
@@ -230,7 +223,7 @@ struct QuizCompletionView: View {
                     Button {
                         router.push(.poetWorkshop(.new(themeID: workshopTheme.id)))
                     } label: {
-                        Label(settings.t("寫兩句", "写两句"), systemImage: "pencil.line")
+                        Label(settings.t("試着寫兩句", "试着写两句"), systemImage: "pencil.line")
                     }
                     .buttonStyle(SoftButtonStyle())
                 }
@@ -253,11 +246,17 @@ struct QuizCompletionView: View {
         case .firstPass:
             settings.t("這次你把《\(title)》的練習都完成了！", "这次你把《\(title)》的练习都完成了！")
         case .reviewPassed:
-            settings.t("隔了一天，你還記得這首詩。", "隔了一天，你还记得这首诗。")
-        case .repeatedSameDay:
+            settings.t("隔了幾天，你還記得這首詩。", "隔了几天，你还记得这首诗。")
+        case .reviewHinted:
+            settings.t("借助提示完成了複習，明天再自己試一次。", "借助提示完成了复习，明天再自己试一次。")
+        case .reviewFailed:
+            settings.t("這次複習還差一點，明天再來。", "这次复习还差一点，明天再来。")
+        case .practice:
             settings.t("再練一次，記得更牢了。", "再练一次，记得更牢了。")
         case .failed:
-            settings.t("還差一點點，看看解釋再試一次。", "还差一点点，看看解释再试一次。")
+            missingDimension
+                ? settings.t("理解和記憶兩部分，都要至少答對一題。", "理解和记忆两部分，都要至少答对一题。")
+                : settings.t("還差一點點，看看解釋再試一次。", "还差一点点，看看解释再试一次。")
         }
     }
 
@@ -268,14 +267,19 @@ struct QuizCompletionView: View {
             items.append(("rectangle.stack.badge.plus", settings.t("獲得詩詞卡《\(title)》", "获得诗词卡《\(title)》")))
         case .reviewPassed:
             items.append(("arrow.up.circle", settings.t("詩詞卡熟練度提升到 \(outcome.cardLevel) 級", "诗词卡熟练度提升到 \(outcome.cardLevel) 级")))
-        case .repeatedSameDay, .failed:
+        case .reviewHinted:
+            items.append(("lightbulb", settings.t("記為「有提示完成」，不算獨立回憶", "记为“有提示完成”，不算独立回忆")))
+        case .practice, .failed, .reviewFailed:
             break
         }
         if let theme = outcome.completedTheme {
             items.append(("rosette", settings.t("解鎖主題徽章「\(settings.t(theme.badge))」", "解锁主题徽章“\(settings.t(theme.badge))”")))
         }
         if outcome.resolvedMistakes > 0 {
-            items.append(("wand.and.stars", settings.t("你修正了 \(outcome.resolvedMistakes) 道之前的錯題", "你修正了 \(outcome.resolvedMistakes) 道之前的错题")))
+            items.append(("wand.and.stars", settings.t("\(outcome.resolvedMistakes) 道之前的錯題隔天答對，移出待鞏固", "\(outcome.resolvedMistakes) 道之前的错题隔天答对，移出待巩固")))
+        }
+        if outcome.correctedMistakes > 0 {
+            items.append(("pencil.and.outline", settings.t("訂正了 \(outcome.correctedMistakes) 道錯題，明天再鞏固", "订正了 \(outcome.correctedMistakes) 道错题，明天再巩固")))
         }
         if outcome.score < outcome.total {
             items.append(("tray.full", settings.t("答錯的題目已放進錯題本", "答错的题目已放进错题本")))
@@ -284,6 +288,24 @@ struct QuizCompletionView: View {
             items.append(("calendar", settings.t("下次複習：", "下次复习：") + Self.describe(next, settings: settings)))
         }
         return items
+    }
+
+    /// 理解 and 记忆 shown separately, never merged into one "mastery" number.
+    private var dimensionRow: some View {
+        let evaluation = outcome.evaluation
+        return HStack(spacing: 10) {
+            Text(settings.t("理解 \(evaluation.understanding.correct)/\(evaluation.understanding.total)",
+                            "理解 \(evaluation.understanding.correct)/\(evaluation.understanding.total)"))
+            Text(settings.t("記憶 \(evaluation.memory.correct)/\(evaluation.memory.total)",
+                            "记忆 \(evaluation.memory.correct)/\(evaluation.memory.total)"))
+        }
+        .font(.footnote.weight(.medium))
+        .foregroundStyle(AppTheme.Colors.textSecondary)
+    }
+
+    private var missingDimension: Bool {
+        let evaluation = outcome.evaluation
+        return [evaluation.understanding, evaluation.memory].contains { $0.total > 0 && $0.correct == 0 }
     }
 
     /// A 飞花令 character that appears in this poem.

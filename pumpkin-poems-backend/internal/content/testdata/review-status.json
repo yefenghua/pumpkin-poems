@@ -1,0 +1,39 @@
+{
+  "poems": {
+    "hk-ks1-10": {
+      "status": "published",
+      "textReviewed": true,
+      "audioReviewed": false,
+      "reviewer": "陳老師",
+      "note": ""
+    },
+    "hk-ks1-09": {
+      "status": "published",
+      "textReviewed": true,
+      "audioReviewed": false,
+      "reviewer": "陳老師",
+      "note": ""
+    },
+    "fw-01": {
+      "status": "approved",
+      "textReviewed": true,
+      "audioReviewed": true,
+      "reviewer": "陳老師",
+      "note": ""
+    },
+    "fw-02": {
+      "status": "approved",
+      "textReviewed": true,
+      "audioReviewed": true,
+      "reviewer": "陳老師",
+      "note": ""
+    },
+    "se-01": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": "等待教師審核"
+    }
+  }
+}

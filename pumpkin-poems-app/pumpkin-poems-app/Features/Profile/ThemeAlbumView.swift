@@ -10,7 +10,7 @@ struct ThemeAlbumView: View {
     @Environment(\.horizontalSizeClass) private var sizeClass
     @Query private var progressRecords: [PoemProgress]
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
 
     var body: some View {
         let snapshot = LearningSnapshot(progress: progressRecords)
@@ -40,6 +40,14 @@ struct ThemeAlbumView: View {
                         }
                     }
                     .padding(.top, 8)
+                    if library.sceneMatch?.theme == theme.id {
+                        Button {
+                            router.push(.sceneMatch(theme.id))
+                        } label: {
+                            Label(settings.t("詩境配對：選出最像詩句的畫", "诗境配对：选出最像诗句的画"), systemImage: "photo.on.rectangle.angled")
+                        }
+                        .buttonStyle(SoftButtonStyle())
+                    }
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: sizeClass == .regular ? 190 : 150), spacing: 12)], spacing: 12) {
                         ForEach(poems) { poem in
                             Button {

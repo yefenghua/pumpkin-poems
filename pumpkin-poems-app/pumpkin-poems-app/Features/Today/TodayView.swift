@@ -1,7 +1,7 @@
 import SwiftData
 import SwiftUI
 
-/// 今天: immersive scene → continue-learning card → 今日复习 / 飞花令 shortcuts (ui-instruction §5).
+/// 今天: immersive scene → continue-learning card → 今日计划 strip → 今日复习 / 飞花令 shortcuts (ui-instruction §5).
 /// The top scene rotates daily through the three themes; the card vignette and the reading page
 /// follow the current poem's explicit theme.
 struct TodayView: View {
@@ -10,6 +10,12 @@ struct TodayView: View {
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @Query private var progressRecords: [PoemProgress]
     @Query private var mistakes: [Mistake]
+    @Query private var attempts: [QuizAttempt]
+    /// Re-reads the goal when it changes.
+    @Query(filter: #Predicate<LearningEvent> { $0.kind == "goal" }) private var goalEvents: [LearningEvent]
+    @Environment(\.modelContext) private var context
+    @Environment(NetworkMonitor.self) private var network
+    @State private var showsGoal = false
     #if DEBUG
     /// Re-renders when the demo date shift changes.
     @AppStorage(AppClock.dayOffsetKey) private var dayOffset = 0
@@ -26,54 +32,52 @@ struct TodayView: View {
         #endif
         let snapshot = snapshot
         let now = AppClock.now
-        let due = snapshot.dueReviews(mistakes: mistakes, now: now)
+        let _ = goalEvents.count
+        let plan = snapshot.dailyPlan(goal: ProgressStore(context: context).currentGoal(), mistakes: mistakes,
+                                      attempts: attempts, now: now)
         let current = snapshot.inProgress
         let mainPoem = current?.poem ?? snapshot.nextUnstarted
         let heroTheme = PoemVisualTheme.daily(now)
         let cardTheme = PoemVisualTheme(poem: mainPoem)
 
-        GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    heroScene(theme: heroTheme, width: width, safeTop: safeTop)
-                    VStack(spacing: AppTheme.Spacing.section) {
-                        ContinueLearningCard(current: current, poem: mainPoem, theme: cardTheme,
-                                             isFirstEver: !snapshot.hasAnyRecord)
-                        shortcuts(due: due)
-                    }
-                    .padding(.horizontal, pagePadding(width))
-                    .padding(.top, -cardOverlap)
-                    .padding(.bottom, AppTheme.Spacing.pageBottom)
-                    .frame(maxWidth: 760)
-                    .frame(maxWidth: .infinity)
-                }
+        StorybookPage(overlap: cardOverlap, sceneHeight: { width in
+            // Square scene shown whole (no stretching, 贝贝 never cropped); only the grass under the card is covered.
+            min(width * 0.96, 500)
+        }, scene: { metrics in
+            heroScene(theme: heroTheme, metrics: metrics)
+        }, content: { metrics in
+            VStack(spacing: AppTheme.Spacing.section) {
+                ContinueLearningCard(current: current, poem: mainPoem, theme: cardTheme,
+                                     isFirstEver: !snapshot.hasAnyRecord)
+                DailyPlanStrip(plan: plan, isOffline: !network.isOnline) { showsGoal = true }
+                shortcuts(plan: plan)
             }
-            .ignoresSafeArea(edges: .top)
-        }
+            .storybookColumn(metrics)
+        })
         .pageBackground()
         .toolbar(.hidden, for: .navigationBar)
-    }
-
-    private func pagePadding(_ width: CGFloat) -> CGFloat {
-        width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page
+        .sheet(isPresented: $showsGoal) {
+            DailyGoalSheet(goal: ProgressStore(context: context).currentGoal())
+                .presentationDetents([.medium])
+        }
+        .onAppear {
+            Telemetry.shared.logDayOpened(dueCount: snapshot.dueReviews(mistakes: mistakes, now: AppClock.now).count)
+        }
     }
 
     // MARK: Scene
 
-    /// Square scene shown whole (no stretching, 贝贝 never cropped); only the grass under the card is covered.
-    private func heroScene(theme: PoemVisualTheme, width: CGFloat, safeTop: CGFloat) -> some View {
-        // The square picture is anchored to its bottom so only sky is trimmed and 贝贝 stays whole;
-        // the card then rides up over the fade at the bottom.
-        let sceneHeight = min(width * 0.96, 500)
+    /// The square picture is anchored to its bottom so only sky is trimmed and 贝贝 stays whole; the card
+    /// then rides up over the fade at the bottom. As a side panel the picture is about square anyway.
+    private func heroScene(theme: PoemVisualTheme, metrics: StorybookMetrics) -> some View {
         let light = theme.prefersLightForeground
         return IllustratedSceneHeader(
             asset: theme.homeAsset,
-            height: sceneHeight,
+            height: metrics.sceneHeight,
             fade: 0.24,
             imageAlignment: .bottom,
-            textScrim: light ? Color(hex: 0x14204A).opacity(0.38) : AppTheme.Colors.backgroundCream.opacity(0.55)
+            textScrim: light ? Color(hex: 0x14204A).opacity(0.38) : AppTheme.Colors.backgroundCream.opacity(0.55),
+            fadeEdge: metrics.fadeEdge
         ) {
             VStack(alignment: .leading, spacing: 8) {
                 Text(settings.t("今天", "今天"))
@@ -84,8 +88,7 @@ struct TodayView: View {
             }
             .foregroundStyle(theme.foreground)
             .shadow(color: light ? Color.black.opacity(0.25) : Color.white.opacity(0.6), radius: 2, y: 1)
-            .padding(.top, safeTop + 8)
-            .padding(.horizontal, pagePadding(width))
+            .padding(metrics.sceneTextInsets)
             .frame(maxWidth: 560, alignment: .leading)
             .accessibilityElement(children: .combine)
         }
@@ -94,11 +97,13 @@ struct TodayView: View {
     // MARK: Shortcuts
 
     @ViewBuilder
-    private func shortcuts(due: [Poem]) -> some View {
+    private func shortcuts(plan: DailyPlan) -> some View {
+        let today = plan.reviewsToday.count
         let review = LearningShortcutCard(
             title: settings.t("今日複習", "今日复习"),
-            subtitle: due.isEmpty ? settings.t("今天沒有要複習的詩", "今天没有要复习的诗")
-                                  : settings.t("\(due.count) 首等你複習", "\(due.count) 首等你复习"),
+            subtitle: plan.isPaused ? settings.t("今天休息", "今天休息")
+                : today == 0 ? settings.t("今天沒有要複習的詩", "今天没有要复习的诗")
+                : settings.t("\(today) 首等你複習", "\(today) 首等你复习"),
             asset: ArtworkAsset.reviewScroll,
             artAlignment: .bottomLeading,
             artScale: 0.74
@@ -323,5 +328,141 @@ private struct ShortcutPressStyle: ButtonStyle {
         configuration.label
             .scaleEffect(configuration.isPressed ? 0.97 : 1)
             .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+    }
+}
+
+// MARK: - Daily plan
+
+/// One quiet row under the continue card: the goal, what is done today, and the gear to change it.
+/// Backlog and offline notes appear only when they apply, so the page still fits one screen.
+struct DailyPlanStrip: View {
+    let plan: DailyPlan
+    let isOffline: Bool
+    var edit: () -> Void
+
+    @Environment(AppSettings.self) private var settings
+
+    var body: some View {
+        Button(action: edit) {
+            HStack(spacing: 10) {
+                Image(systemName: plan.isComplete ? "checkmark.seal.fill" : plan.isPaused ? "moon.zzz" : "target")
+                    .font(.title3)
+                    .foregroundStyle(plan.isComplete ? AppTheme.Colors.successGreen : AppTheme.Colors.accentOrange)
+                    .frame(width: 30)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(headline)
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(AppTheme.Colors.textPrimary)
+                    Text(detail)
+                        .font(.caption)
+                        .foregroundStyle(AppTheme.Colors.textSecondary)
+                        .lineLimit(2)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 4)
+                if isOffline {
+                    Label(settings.t("離線", "离线"), systemImage: "icloud.slash")
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(AppTheme.Colors.textSecondary)
+                        .labelStyle(.titleAndIcon)
+                }
+                Image(systemName: "slider.horizontal.3")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(AppTheme.Colors.textSecondary)
+            }
+            .padding(.horizontal, 14)
+            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(AppTheme.Colors.surfacePaper, in: RoundedRectangle(cornerRadius: AppTheme.CornerRadius.card, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: AppTheme.CornerRadius.card, style: .continuous)
+                .strokeBorder(AppTheme.Colors.borderWarm, lineWidth: 1))
+            .contentShape(RoundedRectangle(cornerRadius: AppTheme.CornerRadius.card, style: .continuous))
+        }
+        .buttonStyle(.plain)
+        .accessibilityElement(children: .combine)
+        .accessibilityHint(settings.t("調整每日目標", "调整每日目标"))
+    }
+
+    private var headline: String {
+        if plan.isPaused { return settings.t("今天休息一天", "今天休息一天") }
+        if plan.isComplete { return settings.t("今日計劃完成了！", "今日计划完成了！") }
+        return settings.t("今日計劃 · 約 \(plan.minutes) 分鐘", "今日计划 · 约 \(plan.minutes) 分钟")
+    }
+
+    private var detail: String {
+        if plan.isPaused { return settings.t("到期的複習會留到明天，不會清零。", "到期的复习会留到明天，不会清零。") }
+        if plan.hasNothingToDo { return settings.t("沒有到期的複習，也沒有新詩了。", "没有到期的复习，也没有新诗了。") }
+        var parts: [String] = []
+        if plan.reviewTarget > 0 {
+            parts.append(settings.t("複習 \(plan.reviewsDone)/\(plan.reviewTarget)", "复习 \(plan.reviewsDone)/\(plan.reviewTarget)"))
+        }
+        if plan.newTarget > 0 {
+            parts.append(settings.t("新詩 \(plan.newDone)/\(plan.newTarget)", "新诗 \(plan.newDone)/\(plan.newTarget)"))
+        }
+        var text = parts.joined(separator: " · ")
+        if plan.backlog > 0 {
+            text += settings.t("　另有 \(plan.backlog) 首可以明天再做", "　另有 \(plan.backlog) 首可以明天再做")
+        }
+        return text
+    }
+}
+
+/// 每日目标: about 5, 10 or 15 minutes as a task-size suggestion (never a timer), and a rest day.
+struct DailyGoalSheet: View {
+    let goal: LearningEventPayload.Goal
+
+    @Environment(AppSettings.self) private var settings
+    @Environment(\.modelContext) private var context
+    @Environment(\.dismiss) private var dismiss
+    @State private var minutes = DailyPlan.defaultMinutes
+    @State private var paused = false
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section {
+                    Picker(settings.t("每天大約", "每天大约"), selection: $minutes) {
+                        ForEach(DailyPlan.goalOptions, id: \.self) { value in
+                            Text(settings.t("\(value) 分鐘", "\(value) 分钟")).tag(value)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    Text(quotaText)
+                        .font(.footnote)
+                        .foregroundStyle(AppTheme.Colors.textSecondary)
+                } header: {
+                    Text(settings.t("每日目標", "每日目标"))
+                } footer: {
+                    Text(settings.t("只是任務量建議，不會計時。到期的複習優先，再學一首新詩；積下來的複習會分幾天完成。",
+                                    "只是任务量建议，不会计时。到期的复习优先，再学一首新诗；积下来的复习会分几天完成。"))
+                }
+                Section {
+                    Toggle(settings.t("今天休息", "今天休息"), isOn: $paused)
+                } footer: {
+                    Text(settings.t("休息不會清除任何記錄，明天照常。", "休息不会清除任何记录，明天照常。"))
+                }
+            }
+            .navigationTitle(settings.t("今日計劃", "今日计划"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button(settings.t("完成", "完成")) {
+                        ProgressStore(context: context).setGoal(minutes: minutes, pausedToday: paused)
+                        dismiss()
+                    }
+                }
+            }
+        }
+        .onAppear {
+            minutes = goal.minutes
+            paused = goal.pausedOn.map { Calendar.current.isDate($0, inSameDayAs: AppClock.now) } ?? false
+        }
+    }
+
+    private var quotaText: String {
+        let quota = DailyPlan.quota(minutes: minutes, hasDueReviews: true)
+        return settings.t("約複習 \(quota.reviews) 首，再學 \(max(quota.newPoems, minutes < 10 ? 0 : 1)) 首新詩。",
+                          "约复习 \(quota.reviews) 首，再学 \(max(quota.newPoems, minutes < 10 ? 0 : 1)) 首新诗。")
+            + (minutes < 10 ? settings.t("沒有複習的日子學一首新詩。", "没有复习的日子学一首新诗。") : "")
     }
 }

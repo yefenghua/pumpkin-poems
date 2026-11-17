@@ -15,6 +15,7 @@ struct RecitationView: View {
     @Environment(Router.self) private var router
     @Environment(SpeechPlayer.self) private var speech
     @Environment(\.modelContext) private var context
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @Query private var progressRecords: [PoemProgress]
 
     @State private var stage: Stage = .hideKeywords
@@ -37,49 +38,35 @@ struct RecitationView: View {
         }
     }
 
+    /// Upright: one column. Phone on its side: the poem stays on the left, the tools and self-assessment on the right.
     private func content(_ poem: Poem) -> some View {
-        ScrollView {
-            VStack(spacing: AppTheme.Spacing.section) {
-                Picker(settings.t("提示程度", "提示程度"), selection: $stage) {
-                    ForEach(Stage.allCases) { stage in
-                        Text(title(for: stage)).tag(stage)
+        let sideways = verticalSizeClass == .compact
+        return ScrollView {
+            Group {
+                if sideways {
+                    HStack(alignment: .top, spacing: 20) {
+                        VStack(spacing: AppTheme.Spacing.section) {
+                            stagePicker
+                            poemCard(poem)
+                        }
+                        .frame(maxWidth: .infinity)
+                        VStack(spacing: AppTheme.Spacing.section) {
+                            tools(poem)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, 8)
+                    }
+                } else {
+                    VStack(spacing: AppTheme.Spacing.section) {
+                        stagePicker
+                        poemCard(poem)
+                        tools(poem)
                     }
                 }
-                .pickerStyle(.segmented)
-                .padding(.top, 8)
-
-                Text(stageHint)
-                    .font(.subheadline)
-                    .foregroundStyle(Color.chestnut)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-
-                VStack(spacing: 6) {
-                    Text(settings.t(poem.title))
-                        .font(.cardTitle)
-                        .foregroundStyle(Color.cocoa)
-                    Text(poem.byline(settings))
-                        .font(.subheadline)
-                        .foregroundStyle(Color.chestnut)
-                        .padding(.bottom, 8)
-                    ForEach(poem.lines) { line in
-                        lineRow(line)
-                    }
-                }
-                .card(padding: 16)
-
-                lineTools(poem)
-                selfAssessment
-                Button {
-                    speech.stop()
-                    router.replaceTop(with: .quiz(poem.id))
-                } label: {
-                    Label(settings.t("去小測", "去小测"), systemImage: "checklist")
-                }
-                .buttonStyle(PrimaryButtonStyle())
             }
             .padding(.horizontal, Metrics.pagePadding)
             .padding(.bottom, AppTheme.Spacing.pageBottom)
-            .frame(maxWidth: 720)
+            .frame(maxWidth: sideways ? 1000 : 720)
             .frame(maxWidth: .infinity)
         }
         .pageBackground()
@@ -91,6 +78,51 @@ struct RecitationView: View {
         }
         .onDisappear { speech.stop() }
         .onChange(of: stage) { revealedLineIDs.removeAll() }
+    }
+
+    @ViewBuilder
+    private var stagePicker: some View {
+        Picker(settings.t("提示程度", "提示程度"), selection: $stage) {
+            ForEach(Stage.allCases) { stage in
+                Text(title(for: stage)).tag(stage)
+            }
+        }
+        .pickerStyle(.segmented)
+        .padding(.top, 8)
+
+        Text(stageHint)
+            .font(.subheadline)
+            .foregroundStyle(Color.chestnut)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private func poemCard(_ poem: Poem) -> some View {
+        VStack(spacing: 6) {
+            Text(settings.t(poem.title))
+                .font(.cardTitle)
+                .foregroundStyle(Color.cocoa)
+            Text(poem.byline(settings))
+                .font(.subheadline)
+                .foregroundStyle(Color.chestnut)
+                .padding(.bottom, 8)
+            ForEach(poem.lines) { line in
+                lineRow(line)
+            }
+        }
+        .card(padding: 16)
+    }
+
+    @ViewBuilder
+    private func tools(_ poem: Poem) -> some View {
+        lineTools(poem)
+        selfAssessment
+        Button {
+            speech.stop()
+            router.replaceTop(with: .quiz(poem.id))
+        } label: {
+            Label(settings.t("去小測", "去小测"), systemImage: "checklist")
+        }
+        .buttonStyle(PrimaryButtonStyle())
     }
 
     private func lineRow(_ line: PoemLine) -> some View {

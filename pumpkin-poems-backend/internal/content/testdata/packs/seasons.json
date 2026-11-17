@@ -1,0 +1,55 @@
+{
+  "formatVersion": 2,
+  "packID": "seasons",
+  "version": "dev",
+  "themes": [
+    {
+      "id": "seasons",
+      "name": {
+        "zh-Hant": "四季景物",
+        "zh-Hans": "四季景物"
+      },
+      "summary": {
+        "zh-Hant": "四季",
+        "zh-Hans": "四季"
+      }
+    }
+  ],
+  "poems": [
+    {
+      "id": "se-01",
+      "theme": "seasons",
+      "title": {
+        "zh-Hant": "se-01",
+        "zh-Hans": "se-01"
+      },
+      "lines": [],
+      "questions": [
+        {
+          "id": "se-01-q1",
+          "kind": "meaning"
+        },
+        {
+          "id": "se-01-q2",
+          "kind": "meaning"
+        },
+        {
+          "id": "se-01-q3",
+          "kind": "meaning"
+        },
+        {
+          "id": "se-01-q4",
+          "kind": "meaning"
+        },
+        {
+          "id": "se-01-q5",
+          "kind": "meaning"
+        }
+      ]
+    }
+  ],
+  "hantToHans": {
+    "來": "来"
+  },
+  "sceneMatch": null
+}

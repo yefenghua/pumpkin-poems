@@ -23,6 +23,16 @@ enum Route: Hashable {
     case poetWorkshop(PoetWorkshopDestination)
     /// 我的诗集.
     case myPoems
+    /// 主题包详情.
+    case contentPack(String)
+    /// One mistake: the original line, why, then practice.
+    case mistakeDetail(String)
+    /// 家长区域 (behind the parent gate).
+    case parentArea
+    case weeklyReport
+    /// 诗境配对 for a theme.
+    case sceneMatch(String)
+    case feedback
 }
 
 enum PoetWorkshopDestination: Hashable {
@@ -50,6 +60,13 @@ final class Router {
         }
     }
 
+    /// Back to the root of every tab, e.g. after switching learner.
+    func resetAll() {
+        todayPath = []
+        libraryPath = []
+        mePath = []
+    }
+
     func pop() {
         mutateCurrentPath { path in
             if !path.isEmpty { path.removeLast() }
@@ -74,7 +91,8 @@ final class Router {
 
     #if DEBUG
     /// Debug launch arguments for demos and screenshots, e.g.
-    /// `-demoTab library -demoRoute poem:hk-ks1-10` (routes: poem, recite, quiz, feihualing, mistakes, settings).
+    /// `-demoTab library -demoRoute poem:hk-ks1-10` (routes: poem, recite, quiz, feihualing, mistakes, settings, review,
+    /// theme, workshop, mypoems, pack, mistake, parent, report, scenematch, feedback).
     func applyLaunchArguments(_ defaults: UserDefaults = .standard) {
         switch defaults.string(forKey: "demoTab") {
         case "library": selectedTab = .library
@@ -95,6 +113,12 @@ final class Router {
         case "theme": argument.map(Route.themeAlbum)
         case "workshop": .poetWorkshop(.new(themeID: argument))
         case "mypoems": .myPoems
+        case "pack": argument.map(Route.contentPack)
+        case "mistake": argument.map(Route.mistakeDetail)
+        case "parent": .parentArea
+        case "report": .weeklyReport
+        case "scenematch": .sceneMatch(argument ?? "moon")
+        case "feedback": .feedback
         default: nil
         }
         if let route { push(route) }
@@ -126,6 +150,12 @@ extension View {
             case .themeAlbum(let id): ThemeAlbumView(themeID: id)
             case .poetWorkshop(let destination): PoetWorkshopView(destination: destination)
             case .myPoems: MyPoemsView()
+            case .contentPack(let id): ContentPackView(packID: id)
+            case .mistakeDetail(let id): MistakeDetailView(questionID: id)
+            case .parentArea: ParentAreaView()
+            case .weeklyReport: WeeklyReportView()
+            case .sceneMatch(let themeID): SceneMatchView(themeID: themeID)
+            case .feedback: FeedbackView()
             }
         }
     }

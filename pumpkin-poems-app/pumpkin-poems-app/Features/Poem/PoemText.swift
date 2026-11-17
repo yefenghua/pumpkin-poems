@@ -191,6 +191,14 @@ extension Poem {
     }
 
     func difficultyTitle(_ settings: AppSettings) -> String {
-        keyStage <= 1 ? settings.t("入門", "入门") : settings.t("進階", "进阶")
+        Self.difficultyTitle(difficulty, settings)
+    }
+
+    static func difficultyTitle(_ level: Int, _ settings: AppSettings) -> String {
+        switch level {
+        case ...1: settings.t("入門", "入门")
+        case 2: settings.t("進階", "进阶")
+        default: settings.t("挑戰", "挑战")
+        }
     }
 }

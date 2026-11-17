@@ -35,7 +35,7 @@ struct FeiHuaLingView: View {
     @State private var hint: String?
     @FocusState private var inputFocused: Bool
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
     /// How far the first card rides up over the scene's fade.
     private let cardOverlap: CGFloat = 40
 
@@ -48,34 +48,27 @@ struct FeiHuaLingView: View {
     }
 
     var body: some View {
-        GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    scene(width: width, safeTop: safeTop)
-                    VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
-                        switch phase {
-                        case .setup:
-                            setup
-                        case let .entry(rounds, index, picked, score):
-                            entryRound(rounds: rounds, index: index, picked: picked, score: score)
-                        case .challenge:
-                            challenge
-                        case let .finished(score, previousBest):
-                            finished(score: score, previousBest: previousBest)
-                        }
-                    }
-                    .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-                    .padding(.top, -cardOverlap)
-                    .padding(.bottom, AppTheme.Spacing.pageBottom)
-                    .frame(maxWidth: 720)
-                    .frame(maxWidth: .infinity)
+        let playing = phase.isPlaying
+        StorybookPage(overlap: cardOverlap, contentMaxWidth: 720, sceneHeight: { width in
+            // Shorter while playing so a whole question fits on one screen.
+            playing ? min(width * 0.46, 220) : min(width * 0.62, 300)
+        }, scene: { metrics in
+            scene(metrics)
+        }, content: { metrics in
+            VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
+                switch phase {
+                case .setup:
+                    setup
+                case let .entry(rounds, index, picked, score):
+                    entryRound(rounds: rounds, index: index, picked: picked, score: score)
+                case .challenge:
+                    challenge
+                case let .finished(score, previousBest):
+                    finished(score: score, previousBest: previousBest)
                 }
             }
-            .ignoresSafeArea(edges: .top)
-            .scrollDismissesKeyboard(.interactively)
-        }
+            .storybookColumn(metrics, maxWidth: 720)
+        })
         .pageBackground()
         .toolbar(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
@@ -84,17 +77,16 @@ struct FeiHuaLingView: View {
 
     // MARK: Scene
 
-    /// Spring-garden scene (pending artwork) with the back button and title; shorter while playing so
-    /// a whole question fits on one screen.
-    private func scene(width: CGFloat, safeTop: CGFloat) -> some View {
-        let height = phase.isPlaying ? min(width * 0.46, 220) : min(width * 0.62, 300)
-        return IllustratedSceneHeader(
+    /// Spring-garden scene (pending artwork) with the back button and title.
+    private func scene(_ metrics: StorybookMetrics) -> some View {
+        IllustratedSceneHeader(
             asset: ArtworkAsset.gameScene,
-            height: height,
+            height: metrics.sceneHeight,
             fade: 0.3,
             imageAlignment: .top,
             textScrim: AppTheme.Colors.backgroundCream.opacity(0.5),
-            pendingDelivery: true
+            pendingDelivery: true,
+            fadeEdge: metrics.fadeEdge
         ) {
             HStack(alignment: .top, spacing: 12) {
                 Button {
@@ -119,8 +111,7 @@ struct FeiHuaLingView: View {
                 .accessibilityElement(children: .combine)
                 .accessibilityAddTraits(.isHeader)
             }
-            .padding(.top, safeTop + 8)
-            .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
+            .padding(metrics.sceneTextInsets)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
     }

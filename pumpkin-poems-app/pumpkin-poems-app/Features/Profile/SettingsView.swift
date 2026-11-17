@@ -7,6 +7,7 @@ struct SettingsView: View {
     @State private var confirmReset = false
     #if DEBUG
     @AppStorage(AppClock.dayOffsetKey) private var dayOffset = 0
+    @AppStorage(ServerConfig.baseURLKey) private var serverURL = "http://127.0.0.1:8080"
     #endif
 
     var body: some View {
@@ -49,13 +50,27 @@ struct SettingsView: View {
 
             Section(settings.t("關於內容", "关于内容")) {
                 LabeledContent(settings.t("內容版本", "内容版本"), value: PoemLibrary.shared.version)
-                Text(settings.t("第一階段內置 12 首詩，全部離線使用。朗讀暫用裝置內置的粵語／普通話聲音，正式錄音審核後會替換。",
-                                "第一阶段内置 12 首诗，全部离线使用。朗读暂用设备内置的粤语／普通话声音，正式录音审核后会替换。"))
+                ForEach(PoemLibrary.shared.packVersions.sorted(by: { $0.key < $1.key }), id: \.key) { pack, version in
+                    LabeledContent(pack == "base" ? settings.t("內置基礎包", "内置基础包") : pack, value: version)
+                }
+                LabeledContent(settings.t("篇目", "篇目"), value: settings.t("\(PoemLibrary.shared.poems.count) 首", "\(PoemLibrary.shared.poems.count) 首"))
+                Text(settings.t("內置基礎包隨時可用，其他主題包在「詩庫」下載後可離線使用。釋義和題目仍在等待教師審核；朗讀暫用裝置內置的粵語／普通話聲音，正式錄音審核後會替換。",
+                                "内置基础包随时可用，其他主题包在“诗库”下载后可离线使用。释义和题目仍在等待教师审核；朗读暂用设备内置的粤语／普通话声音，正式录音审核后会替换。"))
                     .font(.footnote)
                     .foregroundStyle(Color.chestnut)
             }
 
             #if DEBUG
+            Section {
+                TextField("http://127.0.0.1:8080", text: $serverURL)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                    .keyboardType(.URL)
+            } header: {
+                Text(settings.t("服務地址（僅開發版）", "服务地址（仅开发版）"))
+            } footer: {
+                Text(settings.t("留空則不連服務，全部功能離線可用。", "留空则不连服务，全部功能离线可用。"))
+            }
             Section {
                 Stepper(value: $dayOffset, in: 0...60) {
                     Text(settings.t("模擬日期：今天 + \(dayOffset) 天", "模拟日期：今天 + \(dayOffset) 天"))
@@ -68,7 +83,7 @@ struct SettingsView: View {
             #endif
 
             Section {
-                Button(settings.t("清除全部學習記錄", "清除全部学习记录"), role: .destructive) {
+                Button(settings.t("清除目前學習者的全部記錄", "清除当前学习者的全部记录"), role: .destructive) {
                     confirmReset = true
                 }
             }

@@ -1,0 +1,3 @@
+# Published content releases are deployment data, not source.
+/content-releases/
+/bin/

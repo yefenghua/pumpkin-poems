@@ -3,7 +3,8 @@ import SwiftUI
 
 /// 巩固小测: meaning, line matching, fill-in, next line and ordering, each with an explanation.
 /// Answer state is never revealed before submitting. The first attempt is what gets scored;
-/// "再试一次" is for learning and does not change the score.
+/// "再试一次" is 订正 and does not change the score. 提示 removes one wrong option (or places the first line);
+/// an answer reached with a hint counts, but the round is marked 有提示完成.
 struct QuizView: View {
     enum Mode: Hashable {
         /// Full five-question quiz for a poem.
@@ -23,15 +24,19 @@ struct QuizView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
     @Environment(\.modelContext) private var context
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
 
     @State private var index = 0
     @State private var selected: Int?
     @State private var order: [Int] = []
     @State private var submitted = false
     @State private var lastCorrect = false
-    @State private var firstAnswers: [String: Bool] = [:]
+    @State private var firstAnswers: [String: QuizEvaluation.Answer] = [:]
+    @State private var hinted: Set<String> = []
+    /// Options removed by 提示 for the current question.
+    @State private var eliminated: Set<Int> = []
     @State private var outcome: QuizOutcome?
-    @State private var retryResolved: Int?
+    @State private var retryResult: (resolved: Int, corrected: Int)?
 
     private var store: ProgressStore { ProgressStore(context: context) }
 
@@ -52,8 +57,8 @@ struct QuizView: View {
         Group {
             if let outcome, case .poem(let id) = mode, let poem = PoemLibrary.shared.poem(id) {
                 QuizCompletionView(poem: poem, outcome: outcome) { restart() }
-            } else if let retryResolved {
-                retrySummary(resolved: retryResolved)
+            } else if let retryResult {
+                retrySummary(retryResult)
             } else if items.indices.contains(index) {
                 questionPage(items[index])
             } else {
@@ -66,7 +71,9 @@ struct QuizView: View {
             // `-demoQuizDone YES`: jump straight to the completion page with a perfect round, for screenshots.
             guard outcome == nil, UserDefaults.standard.bool(forKey: "demoQuizDone"),
                   case .poem(let id) = mode, let poem = PoemLibrary.shared.poem(id) else { return }
-            let answers = Dictionary(uniqueKeysWithValues: poem.questions.map { ($0.id, true) })
+            let answers = poem.questions.map {
+                QuizEvaluation.Answer(questionID: $0.id, kind: $0.kind, correct: true, hinted: false)
+            }
             outcome = store.recordQuiz(poem: poem, answers: answers)
         }
         #endif
@@ -83,67 +90,126 @@ struct QuizView: View {
 
     // MARK: Question page
 
+    /// Upright: one column. Phone on its side: the question (progress, prompt, context) with 提示 / 提交 and
+    /// the explanation stays on the left while the answers take the right, so a whole question fits the
+    /// short screen with the submit button in view.
     private func questionPage(_ item: Item) -> some View {
         let question = item.question
+        let sideways = verticalSizeClass == .compact
         return ScrollView {
-            VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
-                HStack {
-                    Text(settings.t("第 \(index + 1) / \(items.count) 題", "第 \(index + 1) / \(items.count) 题"))
-                        .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(Color.chestnut)
-                    Spacer()
-                    Chip(title: kindTitle(question.kind))
-                }
-                ProgressView(value: Double(index), total: Double(max(items.count, 1)))
-                    .tint(.pumpkinGold)
-
-                if case .retry = mode {
-                    Text("《\(settings.t(item.poem.title))》")
-                        .font(.subheadline)
-                        .foregroundStyle(Color.chestnut)
-                }
-
-                Text(settings.t(question.prompt))
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(Color.cocoa)
-                    .fixedSize(horizontal: false, vertical: true)
-
-                if let context = question.context {
-                    Text(settings.t(context))
-                        .poemFont()
-                        .foregroundStyle(Color.cocoa)
-                        .frame(maxWidth: .infinity)
-                        .card(fill: .paleGoldFill)
-                }
-
-                if question.kind == .order {
-                    orderPicker(question)
-                } else {
-                    VStack(spacing: 12) {
-                        ForEach(question.options.indices, id: \.self) { option in
-                            optionButton(question, option: option)
+            Group {
+                if sideways {
+                    HStack(alignment: .top, spacing: 20) {
+                        VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
+                            questionHeader(item)
+                            questionActions(item)
                         }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        answers(question)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                     }
-                }
-
-                if submitted {
-                    feedback(question)
                 } else {
-                    Button {
-                        submit(item)
-                    } label: {
-                        Text(settings.t("提交", "提交"))
+                    VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
+                        questionHeader(item)
+                        answers(question)
+                        questionActions(item)
                     }
-                    .buttonStyle(PrimaryButtonStyle())
-                    .disabled(!canSubmit(question))
                 }
             }
             .padding(.horizontal, Metrics.pagePadding)
             .padding(.top, 12).padding(.bottom, AppTheme.Spacing.pageBottom)
-            .frame(maxWidth: 720)
+            .frame(maxWidth: sideways ? 1000 : 720)
             .frame(maxWidth: .infinity)
         }
         .id(question.id)
+    }
+
+    @ViewBuilder
+    private func questionHeader(_ item: Item) -> some View {
+        let question = item.question
+        HStack {
+            Text(settings.t("第 \(index + 1) / \(items.count) 題", "第 \(index + 1) / \(items.count) 题"))
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Color.chestnut)
+            Spacer()
+            Chip(title: kindTitle(question.kind))
+        }
+        ProgressView(value: Double(index), total: Double(max(items.count, 1)))
+            .tint(.pumpkinGold)
+
+        if case .retry = mode {
+            HStack {
+                Text("《\(settings.t(item.poem.title))》")
+                    .font(.subheadline)
+                    .foregroundStyle(Color.chestnut)
+                Spacer()
+                // One question per knowledge point: say so instead of pretending it is new.
+                Text(settings.t("再次練習（同一題）", "再次练习（同一题）"))
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.Colors.textSecondary)
+            }
+        }
+
+        Text(settings.t(question.prompt))
+            .font(.title3.weight(.semibold))
+            .foregroundStyle(Color.cocoa)
+            .fixedSize(horizontal: false, vertical: true)
+
+        if let context = question.context {
+            Text(settings.t(context))
+                .poemFont()
+                .foregroundStyle(Color.cocoa)
+                .frame(maxWidth: .infinity)
+                .card(fill: .paleGoldFill)
+        }
+    }
+
+    @ViewBuilder
+    private func answers(_ question: Question) -> some View {
+        if question.kind == .order {
+            orderPicker(question)
+        } else {
+            VStack(spacing: 12) {
+                ForEach(question.options.indices, id: \.self) { option in
+                    optionButton(question, option: option)
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func questionActions(_ item: Item) -> some View {
+        let question = item.question
+        if submitted {
+            feedback(question)
+        } else {
+            HStack(spacing: AppTheme.Spacing.item) {
+                Button {
+                    useHint(question)
+                } label: {
+                    Label(settings.t("提示", "提示"), systemImage: "lightbulb")
+                }
+                .buttonStyle(SoftButtonStyle())
+                .frame(maxWidth: 120)
+                .disabled(!canHint(question))
+                .accessibilityHint(question.kind == .order
+                                   ? settings.t("放好第一句", "放好第一句")
+                                   : settings.t("去掉一個不對的選項", "去掉一个不对的选项"))
+                Button {
+                    submit(item)
+                } label: {
+                    Text(settings.t("提交", "提交"))
+                }
+                .buttonStyle(PrimaryButtonStyle())
+                .disabled(!canSubmit(question))
+            }
+            if hinted.contains(question.id) {
+                Label(settings.t("用了提示：答對也會記為「有提示完成」。", "用了提示：答对也会记为“有提示完成”。"),
+                      systemImage: "lightbulb.fill")
+                    .font(.footnote)
+                    .foregroundStyle(AppTheme.Colors.textSecondary)
+            }
+        }
     }
 
     private func optionButton(_ question: Question, option: Int) -> some View {
@@ -155,14 +221,20 @@ struct QuizView: View {
         } else {
             state = selected == option ? .selected : .normal
         }
+        let removed = !submitted && eliminated.contains(option)
         return Button {
             selected = option
         } label: {
-            OptionCard(text: settings.t(question.options[option]), state: state,
+            OptionCard(text: settings.t(question.options[option]), state: removed ? .dimmed : state,
                        large: question.kind == .fill)
+                .overlay {
+                    if removed {
+                        Rectangle().fill(AppTheme.Colors.textSecondary.opacity(0.6)).frame(height: 1.5).padding(.horizontal, 16)
+                    }
+                }
         }
         .buttonStyle(.plain)
-        .disabled(submitted)
+        .disabled(submitted || removed)
     }
 
     /// Tap-to-place ordering: works without dragging and with VoiceOver.
@@ -260,11 +332,13 @@ struct QuizView: View {
         .transition(.opacity)
     }
 
-    private func retrySummary(resolved: Int) -> some View {
+    private func retrySummary(_ result: (resolved: Int, corrected: Int)) -> some View {
         VStack(spacing: AppTheme.Spacing.section) {
             MascotIllustration(size: 140)
-            Text(resolved > 0
-                 ? settings.t("你修正了 \(resolved) 道錯題，有進步！", "你修正了 \(resolved) 道错题，有进步！")
+            Text(result.resolved > 0
+                 ? settings.t("有 \(result.resolved) 道錯題隔天也答對了，已移出「待鞏固」。", "有 \(result.resolved) 道错题隔天也答对了，已移出“待巩固”。")
+                 : result.corrected > 0
+                 ? settings.t("訂正了 \(result.corrected) 道。明天再答對一次，就能移出「待鞏固」。", "订正了 \(result.corrected) 道。明天再答对一次，就能移出“待巩固”。")
                  : settings.t("這些題目還可以再看看解釋，下次再試。", "这些题目还可以再看看解释，下次再试。"))
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(Color.cocoa)
@@ -287,11 +361,34 @@ struct QuizView: View {
         question.kind == .order ? order.count == question.options.count : selected != nil
     }
 
+    private func canHint(_ question: Question) -> Bool {
+        guard !submitted, !hinted.contains(question.id) else { return false }
+        if question.kind == .order { return !(question.answerOrder ?? []).isEmpty }
+        return question.options.count > 2
+    }
+
+    /// One hint per question: for ordering, the first line goes into place; otherwise one wrong option is removed.
+    private func useHint(_ question: Question) {
+        hinted.insert(question.id)
+        if question.kind == .order {
+            guard let first = question.answerOrder?.first else { return }
+            order.removeAll { $0 == first }
+            order.insert(first, at: 0)
+            return
+        }
+        let wrong = question.options.indices.filter { $0 != question.answer && $0 != selected && !eliminated.contains($0) }
+        // Stable per question, so the same option goes away on every attempt.
+        guard !wrong.isEmpty else { return }
+        let seed = question.id.unicodeScalars.reduce(0) { $0 + Int($1.value) }
+        eliminated.insert(wrong[seed % wrong.count])
+    }
+
     private func submit(_ item: Item) {
         let question = item.question
         let correct = question.kind == .order ? order == question.answerOrder : selected == question.answer
         if firstAnswers[question.id] == nil {
-            firstAnswers[question.id] = correct
+            firstAnswers[question.id] = QuizEvaluation.Answer(questionID: question.id, kind: question.kind, correct: correct,
+                                                              hinted: hinted.contains(question.id))
         }
         withAnimation(.easeOut(duration: 0.2)) {
             lastCorrect = correct
@@ -304,22 +401,17 @@ struct QuizView: View {
             index += 1
             selected = nil
             order = []
+            eliminated = []
             submitted = false
             return
         }
+        let answers = items.compactMap { firstAnswers[$0.question.id] }
         switch mode {
         case .poem(let id):
             guard let poem = PoemLibrary.shared.poem(id) else { return }
-            outcome = store.recordQuiz(poem: poem, answers: firstAnswers)
+            outcome = store.recordQuiz(poem: poem, answers: answers)
         case .retry:
-            var resolved = 0
-            for item in items {
-                if store.recordRetry(questionID: item.question.id, poemID: item.poem.id,
-                                     correct: firstAnswers[item.question.id] ?? false) {
-                    resolved += 1
-                }
-            }
-            retryResolved = resolved
+            retryResult = store.recordRetry(answers: answers)
         }
     }
 
@@ -327,6 +419,8 @@ struct QuizView: View {
         index = 0
         selected = nil
         order = []
+        eliminated = []
+        hinted = []
         submitted = false
         firstAnswers = [:]
         outcome = nil
@@ -335,6 +429,7 @@ struct QuizView: View {
     private func kindTitle(_ kind: Question.Kind) -> String {
         switch kind {
         case .meaning: settings.t("詩意理解", "诗意理解")
+        case .word: settings.t("字詞理解", "字词理解")
         case .match: settings.t("詩意配對", "诗意配对")
         case .fill: settings.t("關鍵字填空", "关键字填空")
         case .next: settings.t("上下句", "上下句")

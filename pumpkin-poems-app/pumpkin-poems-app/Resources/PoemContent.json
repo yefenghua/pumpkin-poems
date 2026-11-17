@@ -1,5 +1,7 @@
 {
- "version": "phase1-2026-10-22",
+ "formatVersion": 2,
+ "packID": "base",
+ "version": "2026-11-01.1",
  "themes": [
   {
    "id": "moon",
@@ -79,6 +81,22 @@
   {
    "zh-Hant": "人",
    "zh-Hans": "人"
+  },
+  {
+   "zh-Hant": "春",
+   "zh-Hans": "春"
+  },
+  {
+   "zh-Hant": "花",
+   "zh-Hans": "花"
+  },
+  {
+   "zh-Hant": "風",
+   "zh-Hans": "风"
+  },
+  {
+   "zh-Hant": "日",
+   "zh-Hans": "日"
   }
  ],
  "poems": [
@@ -86,7 +104,46 @@
    "id": "hk-ks1-10",
    "theme": "moon",
    "scene": "moonNight",
+   "pack": "base",
    "keyStage": 1,
+   "difficulty": 1,
+   "imagery": [
+    {
+     "zh-Hant": "明月",
+     "zh-Hans": "明月"
+    },
+    {
+     "zh-Hant": "霜",
+     "zh-Hans": "霜"
+    },
+    {
+     "zh-Hant": "故鄉",
+     "zh-Hans": "故乡"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 靜夜思原文",
+      "zh-Hans": "香港教育局 · 静夜思原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 靜夜思賞析",
+      "zh-Hans": "香港教育局 · 静夜思赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_10.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "靜夜思",
     "zh-Hans": "静夜思"
@@ -373,7 +430,49 @@
      "explanation": {
       "zh-Hant": "「疑是地上霜」的「疑」是「好像、以為」。地上並沒有霜，詩人看到的是明亮的月光。",
       "zh-Hans": "“疑是地上霜”的“疑”是“好像、以为”。地上并没有霜，诗人看到的是明亮的月光。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-10-l001",
+      "hk-ks1-10-l002",
+      "hk-ks1-10-l003",
+      "hk-ks1-10-l004"
+     ],
+     "rev": "ed0117ecdac4"
+    },
+    {
+     "id": "hk-ks1-10-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「疑」在「疑是地上霜」中是甚麼意思？",
+      "zh-Hans": "“疑”在“疑是地上霜”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "好像、以為",
+       "zh-Hans": "好像、以为"
+      },
+      {
+       "zh-Hant": "懷疑、不相信",
+       "zh-Hans": "怀疑、不相信"
+      },
+      {
+       "zh-Hant": "害怕、擔心",
+       "zh-Hans": "害怕、担心"
+      },
+      {
+       "zh-Hant": "提出問題",
+       "zh-Hans": "提出问题"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「疑」在這裏是「好像、以為」。詩人恍惚間以為地上鋪了霜，不是在懷疑甚麼。",
+      "zh-Hans": "“疑”在这里是“好像、以为”。诗人恍惚间以为地上铺了霜，不是在怀疑什么。"
+     },
+     "lineIDs": [
+      "hk-ks1-10-l002"
+     ],
+     "rev": "00ac405defa6"
     },
     {
      "id": "hk-ks1-10-q-match",
@@ -404,7 +503,11 @@
      "explanation": {
       "zh-Hant": "「低頭思故鄉」的意思是：又低下頭，想念起遙遠的家鄉。",
       "zh-Hans": "“低头思故乡”的意思是：又低下头，想念起遥远的家乡。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-10-l004"
+     ],
+     "rev": "415d8d3b1f87"
     },
     {
      "id": "hk-ks1-10-q-fill",
@@ -439,7 +542,11 @@
      "explanation": {
       "zh-Hant": "詩人把潔白的月光比作「霜」，寫出月色的清冷。",
       "zh-Hans": "诗人把洁白的月光比作“霜”，写出月色的清冷。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-10-l002"
+     ],
+     "rev": "ac5486e7302b"
     },
     {
      "id": "hk-ks1-10-q-next",
@@ -454,23 +561,28 @@
        "zh-Hans": "低头思故乡"
       },
       {
-       "zh-Hant": "獨釣寒江雪",
-       "zh-Hans": "独钓寒江雪"
+       "zh-Hant": "晴翠接荒城",
+       "zh-Hans": "晴翠接荒城"
+      },
+      {
+       "zh-Hant": "意恐遲遲歸",
+       "zh-Hans": "意恐迟迟归"
       },
       {
        "zh-Hant": "更上一層樓",
        "zh-Hans": "更上一层楼"
-      },
-      {
-       "zh-Hant": "花落知多少",
-       "zh-Hans": "花落知多少"
       }
      ],
      "answer": 0,
      "explanation": {
       "zh-Hant": "《靜夜思》中，「舉頭望明月」的下一句是「低頭思故鄉」。",
       "zh-Hans": "《静夜思》中，“举头望明月”的下一句是“低头思故乡”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-10-l003",
+      "hk-ks1-10-l004"
+     ],
+     "rev": "7c39cb0cfd16"
     },
     {
      "id": "hk-ks1-10-q-order",
@@ -506,7 +618,14 @@
      "explanation": {
       "zh-Hant": "正確順序：牀前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。",
       "zh-Hans": "正确顺序：床前明月光，疑是地上霜。举头望明月，低头思故乡。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-10-l001",
+      "hk-ks1-10-l002",
+      "hk-ks1-10-l003",
+      "hk-ks1-10-l004"
+     ],
+     "rev": "f0559a707344"
     }
    ]
   },
@@ -514,7 +633,50 @@
    "id": "hk-ks1-09",
    "theme": "moon",
    "scene": "moonNight",
+   "pack": "base",
    "keyStage": 1,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "異鄉",
+     "zh-Hans": "异乡"
+    },
+    {
+     "zh-Hant": "佳節",
+     "zh-Hans": "佳节"
+    },
+    {
+     "zh-Hant": "登高",
+     "zh-Hans": "登高"
+    },
+    {
+     "zh-Hant": "茱萸",
+     "zh-Hans": "茱萸"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 九月九日憶山東兄弟原文",
+      "zh-Hans": "香港教育局 · 九月九日忆山东兄弟原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 九月九日憶山東兄弟賞析",
+      "zh-Hans": "香港教育局 · 九月九日忆山东兄弟赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_09.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "九月九日憶山東兄弟",
     "zh-Hans": "九月九日忆山东兄弟"
@@ -801,7 +963,49 @@
      "explanation": {
       "zh-Hant": "題目「九月九日」就是農曆九月初九重陽節，古人這天會登高、插茱萸。",
       "zh-Hans": "题目“九月九日”就是农历九月初九重阳节，古人这天会登高、插茱萸。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-09-l001",
+      "hk-ks1-09-l002",
+      "hk-ks1-09-l003",
+      "hk-ks1-09-l004"
+     ],
+     "rev": "7166f09a8499"
+    },
+    {
+     "id": "hk-ks1-09-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「異客」在「獨在異鄉為異客」中是甚麼意思？",
+      "zh-Hans": "“异客”在“独在异乡为异客”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "奇怪的客人",
+       "zh-Hans": "奇怪的客人"
+      },
+      {
+       "zh-Hant": "在他鄉作客的人",
+       "zh-Hans": "在他乡作客的人"
+      },
+      {
+       "zh-Hant": "外國來的客人",
+       "zh-Hans": "外国来的客人"
+      },
+      {
+       "zh-Hant": "不受歡迎的客人",
+       "zh-Hans": "不受欢迎的客人"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「異」是「別的、不同的」。「異客」是住在他鄉的外地人，不是奇怪的客人。",
+      "zh-Hans": "“异”是“别的、不同的”。“异客”是住在他乡的外地人，不是奇怪的客人。"
+     },
+     "lineIDs": [
+      "hk-ks1-09-l001"
+     ],
+     "rev": "bc6703e03874"
     },
     {
      "id": "hk-ks1-09-q-match",
@@ -832,7 +1036,11 @@
      "explanation": {
       "zh-Hant": "「遙知兄弟登高處」的意思是：我在遠方也能想到，兄弟們今天正一起登上高處。",
       "zh-Hans": "“遥知兄弟登高处”的意思是：我在远方也能想到，兄弟们今天正一起登上高处。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-09-l003"
+     ],
+     "rev": "458e57af45a4"
     },
     {
      "id": "hk-ks1-09-q-fill",
@@ -867,7 +1075,11 @@
      "explanation": {
       "zh-Hant": "「倍」是「更加」的意思。節日裏人人團聚，獨在異鄉的人就更加想家。",
       "zh-Hans": "“倍”是“更加”的意思。节日里人人团聚，独在异乡的人就更加想家。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-09-l002"
+     ],
+     "rev": "ab30276c1389"
     },
     {
      "id": "hk-ks1-09-q-next",
@@ -878,27 +1090,32 @@
      },
      "options": [
       {
-       "zh-Hant": "霜葉紅於二月花",
-       "zh-Hans": "霜叶红于二月花"
+       "zh-Hant": "一片冰心在玉壺",
+       "zh-Hans": "一片冰心在玉壶"
       },
       {
-       "zh-Hant": "遠近高低各不同",
-       "zh-Hans": "远近高低各不同"
+       "zh-Hant": "只緣身在此山中",
+       "zh-Hans": "只缘身在此山中"
       },
       {
        "zh-Hant": "遍插茱萸少一人",
        "zh-Hans": "遍插茱萸少一人"
       },
       {
-       "zh-Hant": "只緣身在此山中",
-       "zh-Hans": "只缘身在此山中"
+       "zh-Hant": "唯見長江天際流",
+       "zh-Hans": "唯见长江天际流"
       }
      ],
      "answer": 2,
      "explanation": {
       "zh-Hant": "《九月九日憶山東兄弟》中，「遙知兄弟登高處」的下一句是「遍插茱萸少一人」。",
       "zh-Hans": "《九月九日忆山东兄弟》中，“遥知兄弟登高处”的下一句是“遍插茱萸少一人”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-09-l003",
+      "hk-ks1-09-l004"
+     ],
+     "rev": "bdfeed504b8b"
     },
     {
      "id": "hk-ks1-09-q-order",
@@ -934,7 +1151,14 @@
      "explanation": {
       "zh-Hant": "正確順序：獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人。",
       "zh-Hans": "正确顺序：独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-09-l001",
+      "hk-ks1-09-l002",
+      "hk-ks1-09-l003",
+      "hk-ks1-09-l004"
+     ],
+     "rev": "6449284cdc0c"
     }
    ]
   },
@@ -942,7 +1166,50 @@
    "id": "hk-ks2-12",
    "theme": "moon",
    "scene": "moonNight",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "烏啼",
+     "zh-Hans": "乌啼"
+    },
+    {
+     "zh-Hant": "江楓",
+     "zh-Hans": "江枫"
+    },
+    {
+     "zh-Hant": "漁火",
+     "zh-Hans": "渔火"
+    },
+    {
+     "zh-Hant": "鐘聲",
+     "zh-Hans": "钟声"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 楓橋夜泊原文",
+      "zh-Hans": "香港教育局 · 枫桥夜泊原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_12_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 楓橋夜泊賞析",
+      "zh-Hans": "香港教育局 · 枫桥夜泊赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_12.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "楓橋夜泊",
     "zh-Hans": "枫桥夜泊"
@@ -1225,7 +1492,49 @@
      "explanation": {
       "zh-Hant": "「對愁眠」寫詩人帶着愁緒躺着卻睡不着，所以半夜的鐘聲也聽得清清楚楚。",
       "zh-Hans": "“对愁眠”写诗人带着愁绪躺着却睡不着，所以半夜的钟声也听得清清楚楚。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-12-l001",
+      "hk-ks2-12-l002",
+      "hk-ks2-12-l003",
+      "hk-ks2-12-l004"
+     ],
+     "rev": "2b92fc251382"
+    },
+    {
+     "id": "hk-ks2-12-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「漁火」在「江楓漁火對愁眠」中是甚麼意思？",
+      "zh-Hans": "“渔火”在“江枫渔火对愁眠”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "天上的星星",
+       "zh-Hans": "天上的星星"
+      },
+      {
+       "zh-Hant": "漁船上的燈火",
+       "zh-Hans": "渔船上的灯火"
+      },
+      {
+       "zh-Hant": "煮魚的爐火",
+       "zh-Hans": "煮鱼的炉火"
+      },
+      {
+       "zh-Hant": "漁船着火了",
+       "zh-Hans": "渔船着火了"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「漁火」是漁船上點着的燈火。深夜江上一點點燈光，陪着難以入睡的詩人。",
+      "zh-Hans": "“渔火”是渔船上点着的灯火。深夜江上一点点灯光，陪着难以入睡的诗人。"
+     },
+     "lineIDs": [
+      "hk-ks2-12-l002"
+     ],
+     "rev": "344d2f3d12e5"
     },
     {
      "id": "hk-ks2-12-q-match",
@@ -1256,7 +1565,11 @@
      "explanation": {
       "zh-Hant": "「夜半鐘聲到客船」的意思是：半夜裏，寺裏的鐘聲遠遠傳到了我的客船上。",
       "zh-Hans": "“夜半钟声到客船”的意思是：半夜里，寺里的钟声远远传到了我的客船上。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-12-l004"
+     ],
+     "rev": "629e9179e88b"
     },
     {
      "id": "hk-ks2-12-q-fill",
@@ -1291,7 +1604,11 @@
      "explanation": {
       "zh-Hant": "「愁眠」是帶着愁緒躺着，難以安睡，寫出旅途中的孤單。",
       "zh-Hans": "“愁眠”是带着愁绪躺着，难以安睡，写出旅途中的孤单。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-12-l002"
+     ],
+     "rev": "a5c3da11ad76"
     },
     {
      "id": "hk-ks2-12-q-next",
@@ -1302,27 +1619,32 @@
      },
      "options": [
       {
-       "zh-Hant": "只緣身在此山中",
-       "zh-Hans": "只缘身在此山中"
+       "zh-Hant": "客舍青青柳色新",
+       "zh-Hans": "客舍青青柳色新"
       },
       {
        "zh-Hant": "夜半鐘聲到客船",
        "zh-Hans": "夜半钟声到客船"
       },
       {
-       "zh-Hant": "門泊東吳萬里船",
-       "zh-Hans": "门泊东吴万里船"
+       "zh-Hant": "鍾山祇隔數重山",
+       "zh-Hans": "钟山祇隔数重山"
       },
       {
-       "zh-Hant": "白雲生處有人家",
-       "zh-Hans": "白云生处有人家"
+       "zh-Hant": "早有蜻蜓立上頭",
+       "zh-Hans": "早有蜻蜓立上头"
       }
      ],
      "answer": 1,
      "explanation": {
       "zh-Hant": "《楓橋夜泊》中，「姑蘇城外寒山寺」的下一句是「夜半鐘聲到客船」。",
       "zh-Hans": "《枫桥夜泊》中，“姑苏城外寒山寺”的下一句是“夜半钟声到客船”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-12-l003",
+      "hk-ks2-12-l004"
+     ],
+     "rev": "fe1d333c28f4"
     },
     {
      "id": "hk-ks2-12-q-order",
@@ -1358,7 +1680,14 @@
      "explanation": {
       "zh-Hant": "正確順序：月落烏啼霜滿天，江楓漁火對愁眠。姑蘇城外寒山寺，夜半鐘聲到客船。",
       "zh-Hans": "正确顺序：月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-12-l001",
+      "hk-ks2-12-l002",
+      "hk-ks2-12-l003",
+      "hk-ks2-12-l004"
+     ],
+     "rev": "00824a6a57c1"
     }
    ]
   },
@@ -1366,7 +1695,46 @@
    "id": "hk-ks2-15",
    "theme": "moon",
    "scene": "moonNight",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 3,
+   "imagery": [
+    {
+     "zh-Hant": "春風",
+     "zh-Hans": "春风"
+    },
+    {
+     "zh-Hant": "明月",
+     "zh-Hans": "明月"
+    },
+    {
+     "zh-Hant": "鍾山",
+     "zh-Hans": "钟山"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 泊船瓜洲原文",
+      "zh-Hans": "香港教育局 · 泊船瓜洲原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_15_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 泊船瓜洲賞析",
+      "zh-Hans": "香港教育局 · 泊船瓜洲赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_15.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "泊船瓜洲",
     "zh-Hans": "泊船瓜洲"
@@ -1680,7 +2048,49 @@
      "explanation": {
       "zh-Hant": "「綠」在這裏當動詞用，表示春風把江南岸吹綠了，寫出春天到來的生機。",
       "zh-Hans": "“绿”在这里当动词用，表示春风把江南岸吹绿了，写出春天到来的生机。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-15-l001",
+      "hk-ks2-15-l002",
+      "hk-ks2-15-l003",
+      "hk-ks2-15-l004"
+     ],
+     "rev": "43cae0619f92"
+    },
+    {
+     "id": "hk-ks2-15-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「還」在「明月何時照我還」中是甚麼意思？",
+      "zh-Hans": "“还”在“明月何时照我还”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "把東西歸還",
+       "zh-Hans": "把东西归还"
+      },
+      {
+       "zh-Hant": "另外再加上",
+       "zh-Hans": "另外再加上"
+      },
+      {
+       "zh-Hant": "仍然、還是",
+       "zh-Hans": "仍然、还是"
+      },
+      {
+       "zh-Hant": "返回、回家",
+       "zh-Hans": "返回、回家"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「還」在這裏讀作「環」，是返回的意思。詩人問：明月甚麼時候才照着我回到家鄉？",
+      "zh-Hans": "“还”在这里读作“环”，是返回的意思。诗人问：明月什么时候才照着我回到家乡？"
+     },
+     "lineIDs": [
+      "hk-ks2-15-l004"
+     ],
+     "rev": "9c1b962b64d8"
     },
     {
      "id": "hk-ks2-15-q-match",
@@ -1711,7 +2121,11 @@
      "explanation": {
       "zh-Hant": "「鍾山祇隔數重山」的意思是：我的家所在的鍾山，也只隔着幾重山。",
       "zh-Hans": "“钟山祇隔数重山”的意思是：我的家所在的钟山，也只隔着几重山。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-15-l002"
+     ],
+     "rev": "1886d4e0f8b1"
     },
     {
      "id": "hk-ks2-15-q-fill",
@@ -1746,7 +2160,11 @@
      "explanation": {
       "zh-Hant": "傳說王安石試過「到」「過」「入」「滿」等字，最後選定「綠」，因為它能讓人看到春天的顏色。",
       "zh-Hans": "传说王安石试过“到”“过”“入”“满”等字，最后选定“绿”，因为它能让人看到春天的颜色。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-15-l003"
+     ],
+     "rev": "c29a00ff165a"
     },
     {
      "id": "hk-ks2-15-q-next",
@@ -1757,27 +2175,32 @@
      },
      "options": [
       {
-       "zh-Hant": "只緣身在此山中",
-       "zh-Hans": "只缘身在此山中"
+       "zh-Hant": "唯見長江天際流",
+       "zh-Hans": "唯见长江天际流"
       },
       {
        "zh-Hant": "明月何時照我還",
        "zh-Hans": "明月何时照我还"
       },
       {
-       "zh-Hant": "千里江陵一日還",
-       "zh-Hans": "千里江陵一日还"
+       "zh-Hant": "為誰辛苦為誰甜",
+       "zh-Hans": "为谁辛苦为谁甜"
       },
       {
-       "zh-Hant": "輕舟已過萬重山",
-       "zh-Hans": "轻舟已过万重山"
+       "zh-Hant": "遍插茱萸少一人",
+       "zh-Hans": "遍插茱萸少一人"
       }
      ],
      "answer": 1,
      "explanation": {
       "zh-Hant": "《泊船瓜洲》中，「春風又綠江南岸」的下一句是「明月何時照我還」。",
       "zh-Hans": "《泊船瓜洲》中，“春风又绿江南岸”的下一句是“明月何时照我还”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-15-l003",
+      "hk-ks2-15-l004"
+     ],
+     "rev": "ff8428ead9d1"
     },
     {
      "id": "hk-ks2-15-q-order",
@@ -1813,7 +2236,14 @@
      "explanation": {
       "zh-Hant": "正確順序：京口瓜洲一水間，鍾山祇隔數重山。春風又綠江南岸，明月何時照我還。",
       "zh-Hans": "正确顺序：京口瓜洲一水间，钟山祇隔数重山。春风又绿江南岸，明月何时照我还。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-15-l001",
+      "hk-ks2-15-l002",
+      "hk-ks2-15-l003",
+      "hk-ks2-15-l004"
+     ],
+     "rev": "69470f5981f1"
     }
    ]
   },
@@ -1821,7 +2251,46 @@
    "id": "hk-ks1-07",
    "theme": "landscape",
    "scene": "riverMountain",
+   "pack": "base",
    "keyStage": 1,
+   "difficulty": 1,
+   "imagery": [
+    {
+     "zh-Hant": "白日",
+     "zh-Hans": "白日"
+    },
+    {
+     "zh-Hant": "黃河",
+     "zh-Hans": "黄河"
+    },
+    {
+     "zh-Hant": "一層樓",
+     "zh-Hans": "一层楼"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 登鸛鵲樓原文",
+      "zh-Hans": "香港教育局 · 登鹳鹊楼原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 登鸛鵲樓賞析",
+      "zh-Hans": "香港教育局 · 登鹳鹊楼赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "登鸛鵲樓",
     "zh-Hans": "登鹳鹊楼"
@@ -2104,7 +2573,49 @@
      "explanation": {
       "zh-Hant": "詩人想看到千里之外的景色，所以再登上一層樓。這兩句也比喻：想要進步，就要不斷向上努力。",
       "zh-Hans": "诗人想看到千里之外的景色，所以再登上一层楼。这两句也比喻：想要进步，就要不断向上努力。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-07-l001",
+      "hk-ks1-07-l002",
+      "hk-ks1-07-l003",
+      "hk-ks1-07-l004"
+     ],
+     "rev": "0adac37a1c31"
+    },
+    {
+     "id": "hk-ks1-07-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「窮」在「欲窮千里目」中是甚麼意思？",
+      "zh-Hans": "“穷”在“欲穷千里目”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "貧窮，沒有錢",
+       "zh-Hans": "贫穷，没有钱"
+      },
+      {
+       "zh-Hant": "辛苦，很疲倦",
+       "zh-Hans": "辛苦，很疲倦"
+      },
+      {
+       "zh-Hant": "看盡，看到最遠處",
+       "zh-Hans": "看尽，看到最远处"
+      },
+      {
+       "zh-Hant": "很少，不夠用",
+       "zh-Hans": "很少，不够用"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「窮」在這裏是「盡」的意思。「欲窮千里目」是想把千里之外的景色都看盡。",
+      "zh-Hans": "“穷”在这里是“尽”的意思。“欲穷千里目”是想把千里之外的景色都看尽。"
+     },
+     "lineIDs": [
+      "hk-ks1-07-l003"
+     ],
+     "rev": "d450444d6858"
     },
     {
      "id": "hk-ks1-07-q-match",
@@ -2135,7 +2646,11 @@
      "explanation": {
       "zh-Hant": "「黃河入海流」的意思是：黃河奔騰着，向東流進大海。",
       "zh-Hans": "“黄河入海流”的意思是：黄河奔腾着，向东流进大海。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-07-l002"
+     ],
+     "rev": "51e7c090d5a3"
     },
     {
      "id": "hk-ks1-07-q-fill",
@@ -2170,7 +2685,11 @@
      "explanation": {
       "zh-Hant": "「盡」是消失。太陽靠着山慢慢落下，直到看不見。",
       "zh-Hans": "“尽”是消失。太阳靠着山慢慢落下，直到看不见。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-07-l001"
+     ],
+     "rev": "53eda834438f"
     },
     {
      "id": "hk-ks1-07-q-next",
@@ -2181,27 +2700,32 @@
      },
      "options": [
       {
-       "zh-Hant": "萬徑人蹤滅",
-       "zh-Hans": "万径人踪灭"
+       "zh-Hant": "但聞人語響",
+       "zh-Hans": "但闻人语响"
       },
       {
-       "zh-Hant": "處處聞啼鳥",
-       "zh-Hans": "处处闻啼鸟"
+       "zh-Hant": "疑是地上霜",
+       "zh-Hans": "疑是地上霜"
       },
       {
        "zh-Hant": "黃河入海流",
        "zh-Hans": "黄河入海流"
       },
       {
-       "zh-Hant": "低頭思故鄉",
-       "zh-Hans": "低头思故乡"
+       "zh-Hant": "處處聞啼鳥",
+       "zh-Hans": "处处闻啼鸟"
       }
      ],
      "answer": 2,
      "explanation": {
       "zh-Hant": "《登鸛鵲樓》中，「白日依山盡」的下一句是「黃河入海流」。",
       "zh-Hans": "《登鹳鹊楼》中，“白日依山尽”的下一句是“黄河入海流”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-07-l001",
+      "hk-ks1-07-l002"
+     ],
+     "rev": "8a6af9ec43ab"
     },
     {
      "id": "hk-ks1-07-q-order",
@@ -2237,7 +2761,14 @@
      "explanation": {
       "zh-Hant": "正確順序：白日依山盡，黃河入海流。欲窮千里目，更上一層樓。",
       "zh-Hans": "正确顺序：白日依山尽，黄河入海流。欲穷千里目，更上一层楼。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-07-l001",
+      "hk-ks1-07-l002",
+      "hk-ks1-07-l003",
+      "hk-ks1-07-l004"
+     ],
+     "rev": "e3e5d94c4307"
     }
    ]
   },
@@ -2245,7 +2776,50 @@
    "id": "hk-ks2-09",
    "theme": "landscape",
    "scene": "riverMountain",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "彩雲",
+     "zh-Hans": "彩云"
+    },
+    {
+     "zh-Hant": "猿聲",
+     "zh-Hans": "猿声"
+    },
+    {
+     "zh-Hant": "輕舟",
+     "zh-Hans": "轻舟"
+    },
+    {
+     "zh-Hant": "萬重山",
+     "zh-Hans": "万重山"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 早發白帝城原文",
+      "zh-Hans": "香港教育局 · 早发白帝城原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_09_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 早發白帝城賞析",
+      "zh-Hans": "香港教育局 · 早发白帝城赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_09.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "早發白帝城",
     "zh-Hans": "早发白帝城"
@@ -2555,7 +3129,49 @@
      "explanation": {
       "zh-Hant": "「千里江陵一日還」「輕舟已過萬重山」都在寫船行得快，也表現詩人輕快的心情。",
       "zh-Hans": "“千里江陵一日还”“轻舟已过万重山”都在写船行得快，也表现诗人轻快的心情。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-09-l001",
+      "hk-ks2-09-l002",
+      "hk-ks2-09-l003",
+      "hk-ks2-09-l004"
+     ],
+     "rev": "994166a62280"
+    },
+    {
+     "id": "hk-ks2-09-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「朝」在「朝辭白帝彩雲間」中是甚麼意思？",
+      "zh-Hans": "“朝”在“朝辞白帝彩云间”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "朝代",
+       "zh-Hans": "朝代"
+      },
+      {
+       "zh-Hant": "朝廷",
+       "zh-Hans": "朝廷"
+      },
+      {
+       "zh-Hant": "早晨",
+       "zh-Hans": "早晨"
+      },
+      {
+       "zh-Hant": "朝向、對着",
+       "zh-Hans": "朝向、对着"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「朝」在這裏讀作「招」，是早晨的意思。詩人一大早就離開了白帝城。",
+      "zh-Hans": "“朝”在这里读作“招”，是早晨的意思。诗人一大早就离开了白帝城。"
+     },
+     "lineIDs": [
+      "hk-ks2-09-l001"
+     ],
+     "rev": "b05aa6741d56"
     },
     {
      "id": "hk-ks2-09-q-match",
@@ -2586,7 +3202,11 @@
      "explanation": {
       "zh-Hant": "「兩岸猿聲啼不住」的意思是：兩岸的猿猴不停地啼叫着。",
       "zh-Hans": "“两岸猿声啼不住”的意思是：两岸的猿猴不停地啼叫着。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-09-l003"
+     ],
+     "rev": "205b234b0a1d"
     },
     {
      "id": "hk-ks2-09-q-fill",
@@ -2621,7 +3241,11 @@
      "explanation": {
       "zh-Hant": "「輕舟」是輕快的小船，一個「輕」字既寫船快，也寫詩人心情輕鬆。",
       "zh-Hans": "“轻舟”是轻快的小船，一个“轻”字既写船快，也写诗人心情轻松。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-09-l004"
+     ],
+     "rev": "61f23d3f419e"
     },
     {
      "id": "hk-ks2-09-q-next",
@@ -2636,12 +3260,12 @@
        "zh-Hans": "千里江陵一日还"
       },
       {
-       "zh-Hant": "遍插茱萸少一人",
-       "zh-Hans": "遍插茱萸少一人"
+       "zh-Hant": "平明送客楚山孤",
+       "zh-Hans": "平明送客楚山孤"
       },
       {
-       "zh-Hant": "江楓漁火對愁眠",
-       "zh-Hans": "江枫渔火对愁眠"
+       "zh-Hant": "遍插茱萸少一人",
+       "zh-Hans": "遍插茱萸少一人"
       },
       {
        "zh-Hant": "夜半鐘聲到客船",
@@ -2652,7 +3276,12 @@
      "explanation": {
       "zh-Hant": "《早發白帝城》中，「朝辭白帝彩雲間」的下一句是「千里江陵一日還」。",
       "zh-Hans": "《早发白帝城》中，“朝辞白帝彩云间”的下一句是“千里江陵一日还”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-09-l001",
+      "hk-ks2-09-l002"
+     ],
+     "rev": "5a9a7f403783"
     },
     {
      "id": "hk-ks2-09-q-order",
@@ -2688,7 +3317,14 @@
      "explanation": {
       "zh-Hant": "正確順序：朝辭白帝彩雲間，千里江陵一日還。兩岸猿聲啼不住，輕舟已過萬重山。",
       "zh-Hans": "正确顺序：朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-09-l001",
+      "hk-ks2-09-l002",
+      "hk-ks2-09-l003",
+      "hk-ks2-09-l004"
+     ],
+     "rev": "b3943308c407"
     }
    ]
   },
@@ -2696,7 +3332,50 @@
    "id": "hk-ks2-11",
    "theme": "landscape",
    "scene": "riverMountain",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "黃鸝",
+     "zh-Hans": "黄鹂"
+    },
+    {
+     "zh-Hant": "白鷺",
+     "zh-Hans": "白鹭"
+    },
+    {
+     "zh-Hant": "千秋雪",
+     "zh-Hans": "千秋雪"
+    },
+    {
+     "zh-Hant": "萬里船",
+     "zh-Hans": "万里船"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 絕句·兩個黃鸝鳴翠柳原文",
+      "zh-Hans": "香港教育局 · 绝句·两个黄鹂鸣翠柳原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_11_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 絕句·兩個黃鸝鳴翠柳賞析",
+      "zh-Hans": "香港教育局 · 绝句·两个黄鹂鸣翠柳赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_11.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "絕句·兩個黃鸝鳴翠柳",
     "zh-Hans": "绝句·两个黄鹂鸣翠柳"
@@ -2983,7 +3662,49 @@
      "explanation": {
       "zh-Hant": "「千秋」形容時間很長。西嶺高山上的積雪終年不化，所以叫「千秋雪」。",
       "zh-Hans": "“千秋”形容时间很长。西岭高山上的积雪终年不化，所以叫“千秋雪”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-11-l001",
+      "hk-ks2-11-l002",
+      "hk-ks2-11-l003",
+      "hk-ks2-11-l004"
+     ],
+     "rev": "87965d00851c"
+    },
+    {
+     "id": "hk-ks2-11-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「泊」在「門泊東吳萬里船」中是甚麼意思？",
+      "zh-Hans": "“泊”在“门泊东吴万里船”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "停船、停靠",
+       "zh-Hans": "停船、停靠"
+      },
+      {
+       "zh-Hant": "漂來漂去",
+       "zh-Hans": "漂来漂去"
+      },
+      {
+       "zh-Hant": "打撈東西",
+       "zh-Hans": "打捞东西"
+      },
+      {
+       "zh-Hant": "湖泊",
+       "zh-Hans": "湖泊"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「泊」是停船。門外停泊着從遙遠的東吳開來的船。",
+      "zh-Hans": "“泊”是停船。门外停泊着从遥远的东吴开来的船。"
+     },
+     "lineIDs": [
+      "hk-ks2-11-l004"
+     ],
+     "rev": "c7aa291f37e7"
     },
     {
      "id": "hk-ks2-11-q-match",
@@ -3014,7 +3735,11 @@
      "explanation": {
       "zh-Hant": "「門泊東吳萬里船」的意思是：門前停泊着從東吳遠道而來的船隻。",
       "zh-Hans": "“门泊东吴万里船”的意思是：门前停泊着从东吴远道而来的船只。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-11-l004"
+     ],
+     "rev": "8e3b6a6aeb39"
     },
     {
      "id": "hk-ks2-11-q-fill",
@@ -3049,7 +3774,11 @@
      "explanation": {
       "zh-Hant": "「含」是容納。窗框像畫框一樣，把遠處的雪山收在裏面。",
       "zh-Hans": "“含”是容纳。窗框像画框一样，把远处的雪山收在里面。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-11-l003"
+     ],
+     "rev": "9243bb205b34"
     },
     {
      "id": "hk-ks2-11-q-next",
@@ -3064,12 +3793,12 @@
        "zh-Hans": "一行白鹭上青天"
       },
       {
-       "zh-Hant": "千里江陵一日還",
-       "zh-Hans": "千里江陵一日还"
+       "zh-Hant": "一片冰心在玉壺",
+       "zh-Hans": "一片冰心在玉壶"
       },
       {
-       "zh-Hant": "明月何時照我還",
-       "zh-Hans": "明月何时照我还"
+       "zh-Hant": "樹陰照水愛晴柔",
+       "zh-Hans": "树阴照水爱晴柔"
       },
       {
        "zh-Hant": "夜半鐘聲到客船",
@@ -3080,7 +3809,12 @@
      "explanation": {
       "zh-Hant": "《絕句·兩個黃鸝鳴翠柳》中，「兩個黃鸝鳴翠柳」的下一句是「一行白鷺上青天」。",
       "zh-Hans": "《绝句·两个黄鹂鸣翠柳》中，“两个黄鹂鸣翠柳”的下一句是“一行白鹭上青天”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-11-l001",
+      "hk-ks2-11-l002"
+     ],
+     "rev": "e20ab0a4d484"
     },
     {
      "id": "hk-ks2-11-q-order",
@@ -3116,7 +3850,14 @@
      "explanation": {
       "zh-Hant": "正確順序：兩個黃鸝鳴翠柳，一行白鷺上青天。窗含西嶺千秋雪，門泊東吳萬里船。",
       "zh-Hans": "正确顺序：两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-11-l001",
+      "hk-ks2-11-l002",
+      "hk-ks2-11-l003",
+      "hk-ks2-11-l004"
+     ],
+     "rev": "d1987d9329d9"
     }
    ]
   },
@@ -3124,7 +3865,46 @@
    "id": "hk-ks2-17",
    "theme": "landscape",
    "scene": "riverMountain",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 3,
+   "imagery": [
+    {
+     "zh-Hant": "嶺",
+     "zh-Hans": "岭"
+    },
+    {
+     "zh-Hant": "峰",
+     "zh-Hans": "峰"
+    },
+    {
+     "zh-Hant": "廬山",
+     "zh-Hans": "庐山"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 題西林壁原文",
+      "zh-Hans": "香港教育局 · 题西林壁原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_17_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 題西林壁賞析",
+      "zh-Hans": "香港教育局 · 题西林壁赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_16.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "題西林壁",
     "zh-Hans": "题西林壁"
@@ -3403,7 +4183,49 @@
      "explanation": {
       "zh-Hant": "詩的最後一句說「只緣身在此山中」：正因為站在山裏，只能看到一部分，才認不清廬山的全貌。",
       "zh-Hans": "诗的最后一句说“只缘身在此山中”：正因为站在山里，只能看到一部分，才认不清庐山的全貌。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-17-l001",
+      "hk-ks2-17-l002",
+      "hk-ks2-17-l003",
+      "hk-ks2-17-l004"
+     ],
+     "rev": "1150da6c5f99"
+    },
+    {
+     "id": "hk-ks2-17-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「緣」在「只緣身在此山中」中是甚麼意思？",
+      "zh-Hans": "“缘”在“只缘身在此山中”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "緣分",
+       "zh-Hans": "缘分"
+      },
+      {
+       "zh-Hant": "邊緣",
+       "zh-Hans": "边缘"
+      },
+      {
+       "zh-Hant": "因為",
+       "zh-Hans": "因为"
+      },
+      {
+       "zh-Hant": "沿着",
+       "zh-Hans": "沿着"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「緣」是「因為」。「只緣身在此山中」是說：只因為自己身在這座山裏。",
+      "zh-Hans": "“缘”是“因为”。“只缘身在此山中”是说：只因为自己身在这座山里。"
+     },
+     "lineIDs": [
+      "hk-ks2-17-l004"
+     ],
+     "rev": "fafaca913895"
     },
     {
      "id": "hk-ks2-17-q-match",
@@ -3434,7 +4256,11 @@
      "explanation": {
       "zh-Hant": "「遠近高低各不同」的意思是：從遠處、近處、高處、低處看，廬山的樣子各不相同。",
       "zh-Hans": "“远近高低各不同”的意思是：从远处、近处、高处、低处看，庐山的样子各不相同。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-17-l002"
+     ],
+     "rev": "858bf46857b9"
     },
     {
      "id": "hk-ks2-17-q-fill",
@@ -3469,7 +4295,11 @@
      "explanation": {
       "zh-Hant": "「橫看」是從正面看，「側」是從側面看，換一個角度，山嶺就變成了山峰。",
       "zh-Hans": "“横看”是从正面看，“侧”是从侧面看，换一个角度，山岭就变成了山峰。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-17-l001"
+     ],
+     "rev": "33c664034d57"
     },
     {
      "id": "hk-ks2-17-q-next",
@@ -3484,23 +4314,28 @@
        "zh-Hans": "只缘身在此山中"
       },
       {
-       "zh-Hant": "早有蜻蜓立上頭",
-       "zh-Hans": "早有蜻蜓立上头"
+       "zh-Hant": "明月何時照我還",
+       "zh-Hans": "明月何时照我还"
       },
       {
-       "zh-Hant": "每逢佳節倍思親",
-       "zh-Hans": "每逢佳节倍思亲"
+       "zh-Hant": "要留清白在人間",
+       "zh-Hans": "要留清白在人间"
       },
       {
-       "zh-Hant": "夜半鐘聲到客船",
-       "zh-Hans": "夜半钟声到客船"
+       "zh-Hant": "平明送客楚山孤",
+       "zh-Hans": "平明送客楚山孤"
       }
      ],
      "answer": 0,
      "explanation": {
       "zh-Hant": "《題西林壁》中，「不識廬山真面目」的下一句是「只緣身在此山中」。",
       "zh-Hans": "《题西林壁》中，“不识庐山真面目”的下一句是“只缘身在此山中”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-17-l003",
+      "hk-ks2-17-l004"
+     ],
+     "rev": "b888c48635af"
     },
     {
      "id": "hk-ks2-17-q-order",
@@ -3536,7 +4371,14 @@
      "explanation": {
       "zh-Hant": "正確順序：橫看成嶺側成峰，遠近高低各不同。不識廬山真面目，只緣身在此山中。",
       "zh-Hans": "正确顺序：横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-17-l001",
+      "hk-ks2-17-l002",
+      "hk-ks2-17-l003",
+      "hk-ks2-17-l004"
+     ],
+     "rev": "115989dc64ac"
     }
    ]
   },
@@ -3544,7 +4386,46 @@
    "id": "hk-ks1-08",
    "theme": "seasons",
    "scene": "spring",
+   "pack": "base",
    "keyStage": 1,
+   "difficulty": 1,
+   "imagery": [
+    {
+     "zh-Hant": "啼鳥",
+     "zh-Hans": "啼鸟"
+    },
+    {
+     "zh-Hant": "風雨",
+     "zh-Hans": "风雨"
+    },
+    {
+     "zh-Hant": "花落",
+     "zh-Hans": "花落"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 春曉原文",
+      "zh-Hans": "香港教育局 · 春晓原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 春曉賞析",
+      "zh-Hans": "香港教育局 · 春晓赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "春曉",
     "zh-Hans": "春晓"
@@ -3827,7 +4708,49 @@
      "explanation": {
       "zh-Hant": "「處處聞啼鳥」「夜來風雨聲」都是聽到的，「花落知多少」是想像的。詩人還沒出門，就感受到了春天。",
       "zh-Hans": "“处处闻啼鸟”“夜来风雨声”都是听到的，“花落知多少”是想象的。诗人还没出门，就感受到了春天。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-08-l001",
+      "hk-ks1-08-l002",
+      "hk-ks1-08-l003",
+      "hk-ks1-08-l004"
+     ],
+     "rev": "ceea86201097"
+    },
+    {
+     "id": "hk-ks1-08-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「曉」在「春眠不覺曉」中是甚麼意思？",
+      "zh-Hans": "“晓”在“春眠不觉晓”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "知道、明白",
+       "zh-Hans": "知道、明白"
+      },
+      {
+       "zh-Hant": "早餐",
+       "zh-Hans": "早餐"
+      },
+      {
+       "zh-Hant": "天亮",
+       "zh-Hans": "天亮"
+      },
+      {
+       "zh-Hant": "睡夢",
+       "zh-Hans": "睡梦"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「曉」是天亮。「不覺曉」是睡得香甜，不知不覺天已經亮了。",
+      "zh-Hans": "“晓”是天亮。“不觉晓”是睡得香甜，不知不觉天已经亮了。"
+     },
+     "lineIDs": [
+      "hk-ks1-08-l001"
+     ],
+     "rev": "112d622639cb"
     },
     {
      "id": "hk-ks1-08-q-match",
@@ -3858,7 +4781,11 @@
      "explanation": {
       "zh-Hant": "「夜來風雨聲」的意思是：想起昨夜傳來一陣陣風雨聲，",
       "zh-Hans": "“夜来风雨声”的意思是：想起昨夜传来一阵阵风雨声，"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-08-l003"
+     ],
+     "rev": "b2030bbeb843"
     },
     {
      "id": "hk-ks1-08-q-fill",
@@ -3893,7 +4820,11 @@
      "explanation": {
       "zh-Hant": "「聞」是聽見。詩人躺着就聽見到處都是鳥叫聲。",
       "zh-Hans": "“闻”是听见。诗人躺着就听见到处都是鸟叫声。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-08-l002"
+     ],
+     "rev": "850c3732b107"
     },
     {
      "id": "hk-ks1-08-q-next",
@@ -3904,27 +4835,32 @@
      },
      "options": [
       {
-       "zh-Hant": "萬徑人蹤滅",
-       "zh-Hans": "万径人踪灭"
+       "zh-Hant": "但聞人語響",
+       "zh-Hans": "但闻人语响"
       },
       {
        "zh-Hant": "處處聞啼鳥",
        "zh-Hans": "处处闻啼鸟"
       },
       {
-       "zh-Hant": "低頭思故鄉",
-       "zh-Hans": "低头思故乡"
+       "zh-Hant": "復照青苔上",
+       "zh-Hans": "复照青苔上"
       },
       {
-       "zh-Hant": "獨釣寒江雪",
-       "zh-Hans": "独钓寒江雪"
+       "zh-Hant": "暮看日西墜",
+       "zh-Hans": "暮看日西坠"
       }
      ],
      "answer": 1,
      "explanation": {
       "zh-Hant": "《春曉》中，「春眠不覺曉」的下一句是「處處聞啼鳥」。",
       "zh-Hans": "《春晓》中，“春眠不觉晓”的下一句是“处处闻啼鸟”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-08-l001",
+      "hk-ks1-08-l002"
+     ],
+     "rev": "e309ec9101c4"
     },
     {
      "id": "hk-ks1-08-q-order",
@@ -3960,7 +4896,14 @@
      "explanation": {
       "zh-Hant": "正確順序：春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少？",
       "zh-Hans": "正确顺序：春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-08-l001",
+      "hk-ks1-08-l002",
+      "hk-ks1-08-l003",
+      "hk-ks1-08-l004"
+     ],
+     "rev": "8c509ee6faed"
     }
    ]
   },
@@ -3968,7 +4911,50 @@
    "id": "hk-ks1-18",
    "theme": "seasons",
    "scene": "summer",
+   "pack": "base",
    "keyStage": 1,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "泉眼",
+     "zh-Hans": "泉眼"
+    },
+    {
+     "zh-Hant": "樹陰",
+     "zh-Hans": "树阴"
+    },
+    {
+     "zh-Hant": "小荷",
+     "zh-Hans": "小荷"
+    },
+    {
+     "zh-Hant": "蜻蜓",
+     "zh-Hans": "蜻蜓"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 小池原文",
+      "zh-Hans": "香港教育局 · 小池原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 小池賞析",
+      "zh-Hans": "香港教育局 · 小池赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_18.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "小池",
     "zh-Hans": "小池"
@@ -4247,7 +5233,49 @@
      "explanation": {
       "zh-Hant": "荷葉剛長出來、蜻蜓在飛，都是初夏的景物。",
       "zh-Hans": "荷叶刚长出来、蜻蜓在飞，都是初夏的景物。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-18-l001",
+      "hk-ks1-18-l002",
+      "hk-ks1-18-l003",
+      "hk-ks1-18-l004"
+     ],
+     "rev": "c30e7c52c5aa"
+    },
+    {
+     "id": "hk-ks1-18-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「惜」在「泉眼無聲惜細流」中是甚麼意思？",
+      "zh-Hans": "“惜”在“泉眼无声惜细流”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "可惜，很遺憾",
+       "zh-Hans": "可惜，很遗憾"
+      },
+      {
+       "zh-Hant": "愛惜，捨不得",
+       "zh-Hans": "爱惜，舍不得"
+      },
+      {
+       "zh-Hant": "小氣，不肯給",
+       "zh-Hans": "小气，不肯给"
+      },
+      {
+       "zh-Hant": "停下，不流動",
+       "zh-Hans": "停下，不流动"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「惜」是愛惜。泉水靜靜地流，好像捨不得讓細流流走，詩人把泉眼寫得像人一樣。",
+      "zh-Hans": "“惜”是爱惜。泉水静静地流，好像舍不得让细流流走，诗人把泉眼写得像人一样。"
+     },
+     "lineIDs": [
+      "hk-ks1-18-l001"
+     ],
+     "rev": "705848babeba"
     },
     {
      "id": "hk-ks1-18-q-match",
@@ -4278,7 +5306,11 @@
      "explanation": {
       "zh-Hant": "「樹陰照水愛晴柔」的意思是：樹蔭倒映在水面上，好像喜愛晴天裏柔和的風光。",
       "zh-Hans": "“树阴照水爱晴柔”的意思是：树荫倒映在水面上，好像喜爱晴天里柔和的风光。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-18-l002"
+     ],
+     "rev": "b860c3612d9f"
     },
     {
      "id": "hk-ks1-18-q-fill",
@@ -4313,7 +5345,11 @@
      "explanation": {
       "zh-Hant": "「立」是站。小小的蜻蜓穩穩地站在荷葉尖上，畫面安靜又可愛。",
       "zh-Hans": "“立”是站。小小的蜻蜓稳稳地站在荷叶尖上，画面安静又可爱。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-18-l004"
+     ],
+     "rev": "0f3a7924556c"
     },
     {
      "id": "hk-ks1-18-q-next",
@@ -4324,27 +5360,32 @@
      },
      "options": [
       {
-       "zh-Hant": "夜半鐘聲到客船",
-       "zh-Hans": "夜半钟声到客船"
+       "zh-Hant": "明月何時照我還",
+       "zh-Hans": "明月何时照我还"
       },
       {
        "zh-Hant": "早有蜻蜓立上頭",
        "zh-Hans": "早有蜻蜓立上头"
       },
       {
-       "zh-Hant": "遍插茱萸少一人",
-       "zh-Hans": "遍插茱萸少一人"
+       "zh-Hant": "夜半鐘聲到客船",
+       "zh-Hans": "夜半钟声到客船"
       },
       {
-       "zh-Hant": "霜葉紅於二月花",
-       "zh-Hans": "霜叶红于二月花"
+       "zh-Hant": "平明送客楚山孤",
+       "zh-Hans": "平明送客楚山孤"
       }
      ],
      "answer": 1,
      "explanation": {
       "zh-Hant": "《小池》中，「小荷才露尖尖角」的下一句是「早有蜻蜓立上頭」。",
       "zh-Hans": "《小池》中，“小荷才露尖尖角”的下一句是“早有蜻蜓立上头”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-18-l003",
+      "hk-ks1-18-l004"
+     ],
+     "rev": "36125702384b"
     },
     {
      "id": "hk-ks1-18-q-order",
@@ -4380,7 +5421,14 @@
      "explanation": {
       "zh-Hant": "正確順序：泉眼無聲惜細流，樹陰照水愛晴柔。小荷才露尖尖角，早有蜻蜓立上頭。",
       "zh-Hans": "正确顺序：泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks1-18-l001",
+      "hk-ks1-18-l002",
+      "hk-ks1-18-l003",
+      "hk-ks1-18-l004"
+     ],
+     "rev": "f0259c1c3e40"
     }
    ]
   },
@@ -4388,7 +5436,50 @@
    "id": "hk-ks2-14",
    "theme": "seasons",
    "scene": "autumn",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "寒山",
+     "zh-Hans": "寒山"
+    },
+    {
+     "zh-Hant": "白雲",
+     "zh-Hans": "白云"
+    },
+    {
+     "zh-Hant": "楓林",
+     "zh-Hans": "枫林"
+    },
+    {
+     "zh-Hant": "霜葉",
+     "zh-Hans": "霜叶"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 山行原文",
+      "zh-Hans": "香港教育局 · 山行原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_14_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 山行賞析",
+      "zh-Hans": "香港教育局 · 山行赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_14.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "山行",
     "zh-Hans": "山行"
@@ -4671,7 +5762,49 @@
      "explanation": {
       "zh-Hant": "這裏的「坐」解作「因為」：詩人停車，是因為喜愛傍晚的楓林。",
       "zh-Hans": "这里的“坐”解作“因为”：诗人停车，是因为喜爱傍晚的枫林。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-14-l001",
+      "hk-ks2-14-l002",
+      "hk-ks2-14-l003",
+      "hk-ks2-14-l004"
+     ],
+     "rev": "202c0cedb70c"
+    },
+    {
+     "id": "hk-ks2-14-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「霜葉」在「霜葉紅於二月花」中是甚麼意思？",
+      "zh-Hans": "“霜叶”在“霜叶红于二月花”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "經霜變紅的樹葉",
+       "zh-Hans": "经霜变红的树叶"
+      },
+      {
+       "zh-Hant": "白色的樹葉",
+       "zh-Hans": "白色的树叶"
+      },
+      {
+       "zh-Hant": "被雪蓋住的葉子",
+       "zh-Hans": "被雪盖住的叶子"
+      },
+      {
+       "zh-Hant": "結了冰的樹葉",
+       "zh-Hans": "结了冰的树叶"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「霜葉」是經過秋霜、變紅了的楓葉。所以詩人說它比二月的春花還要紅。",
+      "zh-Hans": "“霜叶”是经过秋霜、变红了的枫叶。所以诗人说它比二月的春花还要红。"
+     },
+     "lineIDs": [
+      "hk-ks2-14-l004"
+     ],
+     "rev": "e5f42a1b2e4e"
     },
     {
      "id": "hk-ks2-14-q-match",
@@ -4702,7 +5835,11 @@
      "explanation": {
       "zh-Hant": "「白雲生處有人家」的意思是：在白雲升起的地方，隱約可見幾戶人家。",
       "zh-Hans": "“白云生处有人家”的意思是：在白云升起的地方，隐约可见几户人家。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-14-l002"
+     ],
+     "rev": "4f109bf63501"
     },
     {
      "id": "hk-ks2-14-q-fill",
@@ -4737,7 +5874,11 @@
      "explanation": {
       "zh-Hant": "「紅於」是比……更紅。經霜的楓葉紅得比二月春花還豔麗。",
       "zh-Hans": "“红于”是比……更红。经霜的枫叶红得比二月春花还艳丽。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-14-l004"
+     ],
+     "rev": "5431719bb4ae"
     },
     {
      "id": "hk-ks2-14-q-next",
@@ -4748,27 +5889,32 @@
      },
      "options": [
       {
-       "zh-Hant": "千里江陵一日還",
-       "zh-Hans": "千里江陵一日还"
+       "zh-Hant": "為誰辛苦為誰甜",
+       "zh-Hans": "为谁辛苦为谁甜"
       },
       {
        "zh-Hant": "霜葉紅於二月花",
        "zh-Hans": "霜叶红于二月花"
       },
       {
-       "zh-Hant": "門泊東吳萬里船",
-       "zh-Hans": "门泊东吴万里船"
+       "zh-Hant": "千里江陵一日還",
+       "zh-Hans": "千里江陵一日还"
       },
       {
-       "zh-Hant": "一行白鷺上青天",
-       "zh-Hans": "一行白鹭上青天"
+       "zh-Hant": "一片孤城萬仞山",
+       "zh-Hans": "一片孤城万仞山"
       }
      ],
      "answer": 1,
      "explanation": {
       "zh-Hant": "《山行》中，「停車坐愛楓林晚」的下一句是「霜葉紅於二月花」。",
       "zh-Hans": "《山行》中，“停车坐爱枫林晚”的下一句是“霜叶红于二月花”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-14-l003",
+      "hk-ks2-14-l004"
+     ],
+     "rev": "96b62105424e"
     },
     {
      "id": "hk-ks2-14-q-order",
@@ -4804,7 +5950,14 @@
      "explanation": {
       "zh-Hant": "正確順序：遠上寒山石徑斜，白雲生處有人家。停車坐愛楓林晚，霜葉紅於二月花。",
       "zh-Hans": "正确顺序：远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-14-l001",
+      "hk-ks2-14-l002",
+      "hk-ks2-14-l003",
+      "hk-ks2-14-l004"
+     ],
+     "rev": "b43c416f7eb3"
     }
    ]
   },
@@ -4812,7 +5965,50 @@
    "id": "hk-ks2-13",
    "theme": "seasons",
    "scene": "winter",
+   "pack": "base",
    "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "千山",
+     "zh-Hans": "千山"
+    },
+    {
+     "zh-Hant": "孤舟",
+     "zh-Hans": "孤舟"
+    },
+    {
+     "zh-Hant": "蓑笠",
+     "zh-Hans": "蓑笠"
+    },
+    {
+     "zh-Hant": "寒江",
+     "zh-Hans": "寒江"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 江雪原文",
+      "zh-Hans": "香港教育局 · 江雪原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_13_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 江雪賞析",
+      "zh-Hans": "香港教育局 · 江雪赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_13.pdf"
+    }
+   ],
    "title": {
     "zh-Hant": "江雪",
     "zh-Hans": "江雪"
@@ -5118,7 +6314,49 @@
      "explanation": {
       "zh-Hant": "群山不見飛鳥，小路沒有人跡，再加上大雪，整個世界一片寂靜寒冷。",
       "zh-Hans": "群山不见飞鸟，小路没有人迹，再加上大雪，整个世界一片寂静寒冷。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-13-l001",
+      "hk-ks2-13-l002",
+      "hk-ks2-13-l003",
+      "hk-ks2-13-l004"
+     ],
+     "rev": "c21cd70de35d"
+    },
+    {
+     "id": "hk-ks2-13-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「絕」在「千山鳥飛絕」中是甚麼意思？",
+      "zh-Hans": "“绝”在“千山鸟飞绝”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "飛得很遠很高",
+       "zh-Hans": "飞得很远很高"
+      },
+      {
+       "zh-Hant": "非常好，很絕妙",
+       "zh-Hans": "非常好，很绝妙"
+      },
+      {
+       "zh-Hant": "斷絕，一點也沒有",
+       "zh-Hans": "断绝，一点也没有"
+      },
+      {
+       "zh-Hant": "絕對、一定",
+       "zh-Hans": "绝对、一定"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「絕」是斷絕、沒有了。千山之中連一隻飛鳥也看不到，寫出天地的寂靜。",
+      "zh-Hans": "“绝”是断绝、没有了。千山之中连一只飞鸟也看不到，写出天地的寂静。"
+     },
+     "lineIDs": [
+      "hk-ks2-13-l001"
+     ],
+     "rev": "3caf536563f1"
     },
     {
      "id": "hk-ks2-13-q-match",
@@ -5149,7 +6387,11 @@
      "explanation": {
       "zh-Hant": "「孤舟蓑笠翁」的意思是：江上有一葉孤零零的小船，船上坐着一位披蓑衣、戴斗笠的老人，",
       "zh-Hans": "“孤舟蓑笠翁”的意思是：江上有一叶孤零零的小船，船上坐着一位披蓑衣、戴斗笠的老人，"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-13-l003"
+     ],
+     "rev": "4a6b7ae44d5d"
     },
     {
      "id": "hk-ks2-13-q-fill",
@@ -5184,7 +6426,11 @@
      "explanation": {
       "zh-Hant": "「獨」是獨自。只有老翁一人在江上釣魚，突出他的孤獨與堅持。",
       "zh-Hans": "“独”是独自。只有老翁一人在江上钓鱼，突出他的孤独与坚持。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-13-l004"
+     ],
+     "rev": "c5fd2874bee8"
     },
     {
      "id": "hk-ks2-13-q-next",
@@ -5195,16 +6441,16 @@
      },
      "options": [
       {
-       "zh-Hant": "更上一層樓",
-       "zh-Hans": "更上一层楼"
+       "zh-Hant": "日暮掩柴扉",
+       "zh-Hans": "日暮掩柴扉"
       },
       {
-       "zh-Hant": "處處聞啼鳥",
-       "zh-Hans": "处处闻啼鸟"
+       "zh-Hant": "復照青苔上",
+       "zh-Hans": "复照青苔上"
       },
       {
-       "zh-Hant": "黃河入海流",
-       "zh-Hans": "黄河入海流"
+       "zh-Hant": "花落知多少",
+       "zh-Hans": "花落知多少"
       },
       {
        "zh-Hant": "萬徑人蹤滅",
@@ -5215,7 +6461,12 @@
      "explanation": {
       "zh-Hant": "《江雪》中，「千山鳥飛絕」的下一句是「萬徑人蹤滅」。",
       "zh-Hans": "《江雪》中，“千山鸟飞绝”的下一句是“万径人踪灭”。"
-     }
+     },
+     "lineIDs": [
+      "hk-ks2-13-l001",
+      "hk-ks2-13-l002"
+     ],
+     "rev": "a26cab5a9ea2"
     },
     {
      "id": "hk-ks2-13-q-order",
@@ -5251,7 +6502,3230 @@
      "explanation": {
       "zh-Hant": "正確順序：千山鳥飛絕，萬徑人蹤滅。孤舟蓑笠翁，獨釣寒江雪。",
       "zh-Hans": "正确顺序：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。"
+     },
+     "lineIDs": [
+      "hk-ks2-13-l001",
+      "hk-ks2-13-l002",
+      "hk-ks2-13-l003",
+      "hk-ks2-13-l004"
+     ],
+     "rev": "66ad3100c11d"
+    }
+   ]
+  },
+  {
+   "id": "hk-ks1-06",
+   "theme": "moon",
+   "scene": "spring",
+   "pack": "base",
+   "keyStage": 1,
+   "difficulty": 1,
+   "imagery": [
+    {
+     "zh-Hant": "鄉音",
+     "zh-Hans": "乡音"
+    },
+    {
+     "zh-Hant": "鬢毛",
+     "zh-Hans": "鬓毛"
+    },
+    {
+     "zh-Hant": "兒童",
+     "zh-Hans": "儿童"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 回鄉偶書·其一原文",
+      "zh-Hans": "香港教育局 · 回乡偶书·其一原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_06_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 回鄉偶書·其一賞析",
+      "zh-Hans": "香港教育局 · 回乡偶书·其一赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_06.pdf"
+    }
+   ],
+   "title": {
+    "zh-Hant": "回鄉偶書·其一",
+    "zh-Hans": "回乡偶书·其一"
+   },
+   "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+   },
+   "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+   },
+   "author": {
+    "id": "author-75e991dd1b8b",
+    "name": {
+     "zh-Hant": "賀知章",
+     "zh-Hans": "贺知章"
+    },
+    "bio": {
+     "zh-Hant": "唐代詩人、書法家，《回鄉偶書》《詠柳》流傳廣泛。",
+     "zh-Hans": "唐代诗人、书法家，《回乡偶书》《咏柳》流传广泛。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "回到家，卻被當成客人",
+    "zh-Hans": "回到家，却被当成客人"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "年老的詩人終於回到離開多年的家鄉，村裏的孩子笑着問他從哪裏來。",
+     "zh-Hans": "年老的诗人终于回到离开多年的家乡，村里的孩子笑着问他从哪里来。"
+    },
+    "feeling": {
+     "zh-Hant": "回家的親切和高興裏，帶着一點時光流逝的感慨。",
+     "zh-Hans": "回家的亲切和高兴里，带着一点时光流逝的感慨。"
+    },
+    "background": {
+     "zh-Hant": "賀知章年輕時離開家鄉，在京城做官幾十年，八十多歲才辭官回到家鄉越州（今浙江杭州一帶）。這首詩寫他剛到家鄉時的情景。",
+     "zh-Hans": "贺知章年轻时离开家乡，在京城做官几十年，八十多岁才辞官回到家乡越州（今浙江杭州一带）。这首诗写他刚到家乡时的情景。"
+    }
+   },
+   "lines": [
+    {
+     "id": "hk-ks1-06-l001",
+     "text": {
+      "zh-Hant": "少小離家老大回，",
+      "zh-Hans": "少小离家老大回，"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "我年輕時離開家鄉，到年老了才回來。",
+      "zh-Hans": "我年轻时离开家乡，到年老了才回来。"
+     },
+     "think": {
+      "zh-Hant": "「少小」和「老大」放在一起，一下子就看出詩人離家的時間有多長。",
+      "zh-Hans": "“少小”和“老大”放在一起，一下子就看出诗人离家的时间有多长。"
      }
+    },
+    {
+     "id": "hk-ks1-06-l002",
+     "text": {
+      "zh-Hant": "鄉音無改鬢毛衰。",
+      "zh-Hans": "乡音无改鬓毛衰。"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "說話的家鄉口音沒有改變，兩鬢的頭髮卻已經稀疏了。",
+      "zh-Hans": "说话的家乡口音没有改变，两鬓的头发却已经稀疏了。"
+     },
+     "think": {
+      "zh-Hant": "口音沒變，頭髮卻變了：不變的是對家鄉的感情，改變的是年紀。",
+      "zh-Hans": "口音没变，头发却变了：不变的是对家乡的感情，改变的是年纪。"
+     }
+    },
+    {
+     "id": "hk-ks1-06-l003",
+     "text": {
+      "zh-Hant": "兒童相見不相識，",
+      "zh-Hans": "儿童相见不相识，"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "村裏的孩子們看見我，都不認識我。",
+      "zh-Hans": "村里的孩子们看见我，都不认识我。"
+     },
+     "think": {
+      "zh-Hant": "孩子們出生的時候，詩人早已離開家鄉，當然不認得他。",
+      "zh-Hans": "孩子们出生的时候，诗人早已离开家乡，当然不认得他。"
+     }
+    },
+    {
+     "id": "hk-ks1-06-l004",
+     "text": {
+      "zh-Hant": "笑問客從何處來？",
+      "zh-Hans": "笑问客从何处来？"
+     },
+     "keyword": [
+      2,
+      3
+     ],
+     "explain": {
+      "zh-Hant": "他們笑着問：「客人，您是從哪裏來的？」",
+      "zh-Hans": "他们笑着问：“客人，您是从哪里来的？”"
+     },
+     "think": {
+      "zh-Hant": "明明回到了自己的家，卻被當成「客人」。孩子問得天真有禮，詩人聽了，心裏又好笑又感慨。",
+      "zh-Hans": "明明回到了自己的家，却被当成“客人”。孩子问得天真有礼，诗人听了，心里又好笑又感慨。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "hk-ks1-06-w001",
+     "term": {
+      "zh-Hant": "少小",
+      "zh-Hans": "少小"
+     },
+     "definition": {
+      "zh-Hant": "年少的時候。",
+      "zh-Hans": "年少的时候。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-06-l001",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-06-l001",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-06-w002",
+     "term": {
+      "zh-Hant": "老大",
+      "zh-Hans": "老大"
+     },
+     "definition": {
+      "zh-Hant": "年老的時候。",
+      "zh-Hans": "年老的时候。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-06-l001",
+        "start": 4,
+        "end": 6
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-06-l001",
+        "start": 4,
+        "end": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-06-w003",
+     "term": {
+      "zh-Hant": "鄉音",
+      "zh-Hans": "乡音"
+     },
+     "definition": {
+      "zh-Hant": "家鄉的口音。",
+      "zh-Hans": "家乡的口音。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-06-w004",
+     "term": {
+      "zh-Hant": "鬢毛",
+      "zh-Hans": "鬓毛"
+     },
+     "definition": {
+      "zh-Hant": "兩鬢的頭髮。",
+      "zh-Hans": "两鬓的头发。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 4,
+        "end": 6
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 4,
+        "end": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-06-w005",
+     "term": {
+      "zh-Hant": "衰",
+      "zh-Hans": "衰"
+     },
+     "definition": {
+      "zh-Hant": "稀疏、減少。",
+      "zh-Hans": "稀疏、减少。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 6,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-06-l002",
+        "start": 6,
+        "end": 7
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "hk-ks1-06-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "孩子們為甚麼把詩人當成「客人」？",
+      "zh-Hans": "孩子们为什么把诗人当成“客人”？"
+     },
+     "options": [
+      {
+       "zh-Hant": "詩人說話帶着外地口音",
+       "zh-Hans": "诗人说话带着外地口音"
+      },
+      {
+       "zh-Hant": "詩人是來村裏做生意的",
+       "zh-Hans": "诗人是来村里做生意的"
+      },
+      {
+       "zh-Hant": "詩人離家太久，孩子們從沒見過他",
+       "zh-Hans": "诗人离家太久，孩子们从没见过他"
+      },
+      {
+       "zh-Hant": "孩子們跟詩人開玩笑",
+       "zh-Hans": "孩子们跟诗人开玩笑"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "詩中說「鄉音無改」，詩人的口音並沒有變。只是他離家太久，村裏的孩子從沒見過他，才把他當成客人。",
+      "zh-Hans": "诗中说“乡音无改”，诗人的口音并没有变。只是他离家太久，村里的孩子从没见过他，才把他当成客人。"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l001",
+      "hk-ks1-06-l002",
+      "hk-ks1-06-l003",
+      "hk-ks1-06-l004"
+     ],
+     "rev": "0ad884b253e9"
+    },
+    {
+     "id": "hk-ks1-06-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「鄉音」在「鄉音無改鬢毛衰」中是甚麼意思？",
+      "zh-Hans": "“乡音”在“乡音无改鬓毛衰”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "家鄉的口音",
+       "zh-Hans": "家乡的口音"
+      },
+      {
+       "zh-Hant": "鄉下的聲音",
+       "zh-Hans": "乡下的声音"
+      },
+      {
+       "zh-Hant": "家鄉的消息",
+       "zh-Hans": "家乡的消息"
+      },
+      {
+       "zh-Hant": "家鄉的音樂",
+       "zh-Hans": "家乡的音乐"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「鄉音」是家鄉的口音。詩人離家幾十年，說話還是家鄉的腔調。",
+      "zh-Hans": "“乡音”是家乡的口音。诗人离家几十年，说话还是家乡的腔调。"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l002"
+     ],
+     "rev": "9682ba156c87"
+    },
+    {
+     "id": "hk-ks1-06-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「村裏的孩子們看見我，都不認識我。」",
+      "zh-Hans": "哪一句的意思是：“村里的孩子们看见我，都不认识我。”"
+     },
+     "options": [
+      {
+       "zh-Hant": "鄉音無改鬢毛衰",
+       "zh-Hans": "乡音无改鬓毛衰"
+      },
+      {
+       "zh-Hant": "笑問客從何處來",
+       "zh-Hans": "笑问客从何处来"
+      },
+      {
+       "zh-Hant": "兒童相見不相識",
+       "zh-Hans": "儿童相见不相识"
+      },
+      {
+       "zh-Hant": "少小離家老大回",
+       "zh-Hans": "少小离家老大回"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「兒童相見不相識」的意思是：村裏的孩子們看見我，都不認識我。",
+      "zh-Hans": "“儿童相见不相识”的意思是：村里的孩子们看见我，都不认识我。"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l003"
+     ],
+     "rev": "a54d66b04204"
+    },
+    {
+     "id": "hk-ks1-06-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "鄉音無改鬢毛＿",
+      "zh-Hans": "乡音无改鬓毛＿"
+     },
+     "options": [
+      {
+       "zh-Hant": "黑",
+       "zh-Hans": "黑"
+      },
+      {
+       "zh-Hant": "衰",
+       "zh-Hans": "衰"
+      },
+      {
+       "zh-Hant": "長",
+       "zh-Hans": "长"
+      },
+      {
+       "zh-Hant": "白",
+       "zh-Hans": "白"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「衰」是稀疏、減少。口音沒變，頭髮卻少了，寫出歲月的流逝。",
+      "zh-Hans": "“衰”是稀疏、减少。口音没变，头发却少了，写出岁月的流逝。"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l002"
+     ],
+     "rev": "ceadc0c54ade"
+    },
+    {
+     "id": "hk-ks1-06-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「少小離家老大回」的下一句是？",
+      "zh-Hans": "“少小离家老大回”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "風光不與四時同",
+       "zh-Hans": "风光不与四时同"
+      },
+      {
+       "zh-Hant": "無限風光盡被占",
+       "zh-Hans": "无限风光尽被占"
+      },
+      {
+       "zh-Hant": "鍾山祇隔數重山",
+       "zh-Hans": "钟山祇隔数重山"
+      },
+      {
+       "zh-Hant": "鄉音無改鬢毛衰",
+       "zh-Hans": "乡音无改鬓毛衰"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "《回鄉偶書·其一》中，「少小離家老大回」的下一句是「鄉音無改鬢毛衰」。",
+      "zh-Hans": "《回乡偶书·其一》中，“少小离家老大回”的下一句是“乡音无改鬓毛衰”。"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l001",
+      "hk-ks1-06-l002"
+     ],
+     "rev": "5725d65da0e2"
+    },
+    {
+     "id": "hk-ks1-06-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "鄉音無改鬢毛衰",
+       "zh-Hans": "乡音无改鬓毛衰"
+      },
+      {
+       "zh-Hant": "少小離家老大回",
+       "zh-Hans": "少小离家老大回"
+      },
+      {
+       "zh-Hant": "兒童相見不相識",
+       "zh-Hans": "儿童相见不相识"
+      },
+      {
+       "zh-Hant": "笑問客從何處來",
+       "zh-Hans": "笑问客从何处来"
+      }
+     ],
+     "answerOrder": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：少小離家老大回，鄉音無改鬢毛衰。兒童相見不相識，笑問客從何處來？",
+      "zh-Hans": "正确顺序：少小离家老大回，乡音无改鬓毛衰。儿童相见不相识，笑问客从何处来？"
+     },
+     "lineIDs": [
+      "hk-ks1-06-l001",
+      "hk-ks1-06-l002",
+      "hk-ks1-06-l003",
+      "hk-ks1-06-l004"
+     ],
+     "rev": "5969e47fc2f9"
+    }
+   ]
+  },
+  {
+   "id": "hk-ks1-12",
+   "theme": "moon",
+   "scene": "spring",
+   "pack": "base",
+   "keyStage": 1,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "線",
+     "zh-Hans": "线"
+    },
+    {
+     "zh-Hant": "衣",
+     "zh-Hans": "衣"
+    },
+    {
+     "zh-Hant": "寸草",
+     "zh-Hans": "寸草"
+    },
+    {
+     "zh-Hant": "三春暉",
+     "zh-Hans": "三春晖"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 遊子吟原文",
+      "zh-Hans": "香港教育局 · 游子吟原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_12_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 遊子吟賞析",
+      "zh-Hans": "香港教育局 · 游子吟赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_12.pdf"
+    }
+   ],
+   "title": {
+    "zh-Hant": "遊子吟",
+    "zh-Hans": "游子吟"
+   },
+   "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+   },
+   "genre": {
+    "zh-Hant": "樂府詩",
+    "zh-Hans": "乐府诗"
+   },
+   "author": {
+    "id": "author-4c08c6df0702",
+    "name": {
+     "zh-Hant": "孟郊",
+     "zh-Hans": "孟郊"
+    },
+    "bio": {
+     "zh-Hant": "唐代詩人，字東野，以《遊子吟》歌頌母愛而廣為人知。",
+     "zh-Hans": "唐代诗人，字东野，以《游子吟》歌颂母爱而广为人知。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "一針一線，都是母親的愛",
+    "zh-Hans": "一针一线，都是母亲的爱"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "孩子就要出遠門了，母親一針一線，為他把衣服縫得密密實實。",
+     "zh-Hans": "孩子就要出远门了，母亲一针一线，为他把衣服缝得密密实实。"
+    },
+    "feeling": {
+     "zh-Hant": "感念母親深厚的愛，覺得怎樣也報答不完。",
+     "zh-Hans": "感念母亲深厚的爱，觉得怎样也报答不完。"
+    },
+    "background": {
+     "zh-Hant": "孟郊一生清苦，四十多歲才考中進士，五十歲左右做了溧陽縣尉這個小官，便把母親接來同住。據說這首詩就寫在那時，他想起了從前離家時母親為他縫衣的情景。",
+     "zh-Hans": "孟郊一生清苦，四十多岁才考中进士，五十岁左右做了溧阳县尉这个小官，便把母亲接来同住。据说这首诗就写在那时，他想起了从前离家时母亲为他缝衣的情景。"
+    }
+   },
+   "lines": [
+    {
+     "id": "hk-ks1-12-l001",
+     "text": {
+      "zh-Hant": "慈母手中線，",
+      "zh-Hans": "慈母手中线，"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "慈愛的母親手裏拿着針線，",
+      "zh-Hans": "慈爱的母亲手里拿着针线，"
+     },
+     "think": {
+      "zh-Hant": "詩人沒有寫母親說了甚麼，只寫她手中的針線，愛就藏在這些小事裏。",
+      "zh-Hans": "诗人没有写母亲说了什么，只写她手中的针线，爱就藏在这些小事里。"
+     }
+    },
+    {
+     "id": "hk-ks1-12-l002",
+     "text": {
+      "zh-Hant": "遊子身上衣。",
+      "zh-Hans": "游子身上衣。"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "為要出遠門的孩子縫製身上的衣服。",
+      "zh-Hans": "为要出远门的孩子缝制身上的衣服。"
+     },
+     "think": {
+      "zh-Hant": "「線」在母親手中，「衣」穿在遊子身上，一根線把母親和孩子連在一起。",
+      "zh-Hans": "“线”在母亲手中，“衣”穿在游子身上，一根线把母亲和孩子连在一起。"
+     }
+    },
+    {
+     "id": "hk-ks1-12-l003",
+     "text": {
+      "zh-Hant": "臨行密密縫，",
+      "zh-Hans": "临行密密缝，"
+     },
+     "keyword": [
+      2,
+      5
+     ],
+     "explain": {
+      "zh-Hant": "臨出發前，母親一針一針縫得密密實實，",
+      "zh-Hans": "临出发前，母亲一针一针缝得密密实实，"
+     },
+     "think": {
+      "zh-Hant": "「密密」寫針腳又細又密，母親希望衣服結實耐穿。",
+      "zh-Hans": "“密密”写针脚又细又密，母亲希望衣服结实耐穿。"
+     }
+    },
+    {
+     "id": "hk-ks1-12-l004",
+     "text": {
+      "zh-Hant": "意恐遲遲歸。",
+      "zh-Hans": "意恐迟迟归。"
+     },
+     "keyword": [
+      2,
+      5
+     ],
+     "explain": {
+      "zh-Hant": "心裏擔心孩子很久很久才能回家。",
+      "zh-Hans": "心里担心孩子很久很久才能回家。"
+     },
+     "think": {
+      "zh-Hant": "縫得密，是因為怕孩子遲遲不回，衣服要穿很久。母親的擔心都縫進了衣服裏。",
+      "zh-Hans": "缝得密，是因为怕孩子迟迟不回，衣服要穿很久。母亲的担心都缝进了衣服里。"
+     }
+    },
+    {
+     "id": "hk-ks1-12-l005",
+     "text": {
+      "zh-Hant": "誰言寸草心，",
+      "zh-Hans": "谁言寸草心，"
+     },
+     "keyword": [
+      2,
+      5
+     ],
+     "explain": {
+      "zh-Hant": "誰說像小草那樣小小的心意，",
+      "zh-Hans": "谁说像小草那样小小的心意，"
+     },
+     "think": {
+      "zh-Hant": "「寸草」是很小的草，詩人用它比喻子女。",
+      "zh-Hans": "“寸草”是很小的草，诗人用它比喻子女。"
+     }
+    },
+    {
+     "id": "hk-ks1-12-l006",
+     "text": {
+      "zh-Hant": "報得三春暉。",
+      "zh-Hans": "报得三春晖。"
+     },
+     "keyword": [
+      2,
+      5
+     ],
+     "explain": {
+      "zh-Hant": "能報答得了春天陽光的恩情呢？",
+      "zh-Hans": "能报答得了春天阳光的恩情呢？"
+     },
+     "think": {
+      "zh-Hant": "小草靠陽光長大，卻怎樣也報答不完陽光。母親的愛就像春天的陽光，溫暖又無私。",
+      "zh-Hans": "小草靠阳光长大，却怎样也报答不完阳光。母亲的爱就像春天的阳光，温暖又无私。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "hk-ks1-12-w001",
+     "term": {
+      "zh-Hant": "遊子",
+      "zh-Hans": "游子"
+     },
+     "definition": {
+      "zh-Hant": "離家遠行的人。",
+      "zh-Hans": "离家远行的人。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-12-l002",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-12-l002",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-12-w002",
+     "term": {
+      "zh-Hant": "臨行",
+      "zh-Hans": "临行"
+     },
+     "definition": {
+      "zh-Hant": "即將出門遠行。",
+      "zh-Hans": "即将出门远行。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-12-l003",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-12-l003",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-12-w003",
+     "term": {
+      "zh-Hant": "意恐",
+      "zh-Hans": "意恐"
+     },
+     "definition": {
+      "zh-Hant": "心裏擔心。",
+      "zh-Hans": "心里担心。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-12-l004",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-12-l004",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-12-w004",
+     "term": {
+      "zh-Hant": "寸草",
+      "zh-Hans": "寸草"
+     },
+     "definition": {
+      "zh-Hant": "小草，比喻子女。",
+      "zh-Hans": "小草，比喻子女。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-12-l005",
+        "start": 2,
+        "end": 4
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-12-l005",
+        "start": 2,
+        "end": 4
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-12-w005",
+     "term": {
+      "zh-Hant": "三春暉",
+      "zh-Hans": "三春晖"
+     },
+     "definition": {
+      "zh-Hant": "春天的陽光，比喻母親的恩情。",
+      "zh-Hans": "春天的阳光，比喻母亲的恩情。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-12-l006",
+        "start": 2,
+        "end": 5
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-12-l006",
+        "start": 2,
+        "end": 5
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "hk-ks1-12-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "「誰言寸草心，報得三春暉」是甚麼意思？",
+      "zh-Hans": "“谁言寸草心，报得三春晖”是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "母親要孩子在春天回家",
+       "zh-Hans": "母亲要孩子在春天回家"
+      },
+      {
+       "zh-Hant": "春天的陽光照着小草生長",
+       "zh-Hans": "春天的阳光照着小草生长"
+      },
+      {
+       "zh-Hant": "小草長大後就能報答陽光",
+       "zh-Hans": "小草长大后就能报答阳光"
+      },
+      {
+       "zh-Hant": "子女很難報答母親深厚的愛",
+       "zh-Hans": "子女很难报答母亲深厚的爱"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "這是一個反問句：誰說小草的一點心意，能報答春天陽光的恩情？意思是報答不完。詩人用小草比子女，用春暉比母愛。",
+      "zh-Hans": "这是一个反问句：谁说小草的一点心意，能报答春天阳光的恩情？意思是报答不完。诗人用小草比子女，用春晖比母爱。"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l001",
+      "hk-ks1-12-l002",
+      "hk-ks1-12-l003",
+      "hk-ks1-12-l004",
+      "hk-ks1-12-l005",
+      "hk-ks1-12-l006"
+     ],
+     "rev": "e178963daedf"
+    },
+    {
+     "id": "hk-ks1-12-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「意恐」在「意恐遲遲歸」中是甚麼意思？",
+      "zh-Hans": "“意恐”在“意恐迟迟归”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "意見不同",
+       "zh-Hans": "意见不同"
+      },
+      {
+       "zh-Hant": "故意害怕",
+       "zh-Hans": "故意害怕"
+      },
+      {
+       "zh-Hant": "意思是說",
+       "zh-Hans": "意思是说"
+      },
+      {
+       "zh-Hant": "心裏擔心",
+       "zh-Hans": "心里担心"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「意恐」是心裏擔心。母親擔心孩子很久才能回來，所以把衣服縫得特別密。",
+      "zh-Hans": "“意恐”是心里担心。母亲担心孩子很久才能回来，所以把衣服缝得特别密。"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l004"
+     ],
+     "rev": "80e4871c4fba"
+    },
+    {
+     "id": "hk-ks1-12-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「臨出發前，母親一針一針縫得密密實實，」",
+      "zh-Hans": "哪一句的意思是：“临出发前，母亲一针一针缝得密密实实，”"
+     },
+     "options": [
+      {
+       "zh-Hant": "慈母手中線",
+       "zh-Hans": "慈母手中线"
+      },
+      {
+       "zh-Hant": "意恐遲遲歸",
+       "zh-Hans": "意恐迟迟归"
+      },
+      {
+       "zh-Hant": "報得三春暉",
+       "zh-Hans": "报得三春晖"
+      },
+      {
+       "zh-Hant": "臨行密密縫",
+       "zh-Hans": "临行密密缝"
+      },
+      {
+       "zh-Hant": "遊子身上衣",
+       "zh-Hans": "游子身上衣"
+      },
+      {
+       "zh-Hant": "誰言寸草心",
+       "zh-Hans": "谁言寸草心"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「臨行密密縫」的意思是：臨出發前，母親一針一針縫得密密實實，",
+      "zh-Hans": "“临行密密缝”的意思是：临出发前，母亲一针一针缝得密密实实，"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l003"
+     ],
+     "rev": "6c46bfcf2f2a"
+    },
+    {
+     "id": "hk-ks1-12-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "臨行＿＿縫",
+      "zh-Hans": "临行＿＿缝"
+     },
+     "options": [
+      {
+       "zh-Hant": "慢慢",
+       "zh-Hans": "慢慢"
+      },
+      {
+       "zh-Hant": "輕輕",
+       "zh-Hans": "轻轻"
+      },
+      {
+       "zh-Hant": "密密",
+       "zh-Hans": "密密"
+      },
+      {
+       "zh-Hant": "匆匆",
+       "zh-Hans": "匆匆"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「密密縫」寫母親縫得又細又密，盼望衣服結實，孩子在外能穿得久一些。",
+      "zh-Hans": "“密密缝”写母亲缝得又细又密，盼望衣服结实，孩子在外能穿得久一些。"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l003"
+     ],
+     "rev": "cf876510bb23"
+    },
+    {
+     "id": "hk-ks1-12-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「臨行密密縫」的下一句是？",
+      "zh-Hans": "“临行密密缝”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "意恐遲遲歸",
+       "zh-Hans": "意恐迟迟归"
+      },
+      {
+       "zh-Hant": "低頭思故鄉",
+       "zh-Hans": "低头思故乡"
+      },
+      {
+       "zh-Hant": "萬事成蹉跎",
+       "zh-Hans": "万事成蹉跎"
+      },
+      {
+       "zh-Hant": "紅掌撥清波",
+       "zh-Hans": "红掌拨清波"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "《遊子吟》中，「臨行密密縫」的下一句是「意恐遲遲歸」。",
+      "zh-Hans": "《游子吟》中，“临行密密缝”的下一句是“意恐迟迟归”。"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l003",
+      "hk-ks1-12-l004"
+     ],
+     "rev": "f8a1117fdd4c"
+    },
+    {
+     "id": "hk-ks1-12-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "慈母手中線",
+       "zh-Hans": "慈母手中线"
+      },
+      {
+       "zh-Hant": "誰言寸草心",
+       "zh-Hans": "谁言寸草心"
+      },
+      {
+       "zh-Hant": "報得三春暉",
+       "zh-Hans": "报得三春晖"
+      },
+      {
+       "zh-Hant": "臨行密密縫",
+       "zh-Hans": "临行密密缝"
+      },
+      {
+       "zh-Hant": "意恐遲遲歸",
+       "zh-Hans": "意恐迟迟归"
+      },
+      {
+       "zh-Hant": "遊子身上衣",
+       "zh-Hans": "游子身上衣"
+      }
+     ],
+     "answerOrder": [
+      0,
+      5,
+      3,
+      4,
+      1,
+      2
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：慈母手中線，遊子身上衣。臨行密密縫，意恐遲遲歸。誰言寸草心，報得三春暉。",
+      "zh-Hans": "正确顺序：慈母手中线，游子身上衣。临行密密缝，意恐迟迟归。谁言寸草心，报得三春晖。"
+     },
+     "lineIDs": [
+      "hk-ks1-12-l001",
+      "hk-ks1-12-l002",
+      "hk-ks1-12-l003",
+      "hk-ks1-12-l004",
+      "hk-ks1-12-l005",
+      "hk-ks1-12-l006"
+     ],
+     "rev": "acebcba0698b"
+    }
+   ]
+  },
+  {
+   "id": "ext-tang-142",
+   "theme": "landscape",
+   "scene": "riverMountain",
+   "pack": "base",
+   "keyStage": 0,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "空山",
+     "zh-Hans": "空山"
+    },
+    {
+     "zh-Hant": "深林",
+     "zh-Hans": "深林"
+    },
+    {
+     "zh-Hant": "青苔",
+     "zh-Hans": "青苔"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+      "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+     },
+     "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json"
+    }
+   ],
+   "title": {
+    "zh-Hant": "鹿柴",
+    "zh-Hans": "鹿柴"
+   },
+   "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+   },
+   "genre": {
+    "zh-Hant": "五言絕句",
+    "zh-Hans": "五言绝句"
+   },
+   "author": {
+    "id": "author-3dc14978a158",
+    "name": {
+     "zh-Hant": "王維",
+     "zh-Hans": "王维"
+    },
+    "bio": {
+     "zh-Hant": "唐代詩人、畫家，山水田園詩富有畫意與寧靜情趣。",
+     "zh-Hans": "唐代诗人、画家，山水田园诗富有画意与宁静情趣。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "一束斜陽，照亮深林",
+    "zh-Hans": "一束斜阳，照亮深林"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "空寂的山林裏看不見人，只聽到人聲；傍晚的陽光照進深林，落在青苔上。",
+     "zh-Hans": "空寂的山林里看不见人，只听到人声；傍晚的阳光照进深林，落在青苔上。"
+    },
+    "feeling": {
+     "zh-Hant": "寧靜、幽深。一點聲音、一束光，反而讓山林顯得更靜。",
+     "zh-Hans": "宁静、幽深。一点声音、一束光，反而让山林显得更静。"
+    },
+    "background": {
+     "zh-Hant": "王維在輞川（今陝西藍田一帶）有一座山中別墅，他為那裏的二十處景物各寫了一首小詩，鹿柴是其中一處。「柴」在這裏讀作「寨」，指用木頭圍成的柵欄。",
+     "zh-Hans": "王维在辋川（今陕西蓝田一带）有一座山中别墅，他为那里的二十处景物各写了一首小诗，鹿柴是其中一处。“柴”在这里读作“寨”，指用木头围成的栅栏。"
+    }
+   },
+   "lines": [
+    {
+     "id": "ext-tang-142-l001",
+     "text": {
+      "zh-Hant": "空山不見人，",
+      "zh-Hans": "空山不见人，"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "空寂的山林裏，看不見一個人。",
+      "zh-Hans": "空寂的山林里，看不见一个人。"
+     },
+     "think": {
+      "zh-Hant": "「空山」不是說山裏甚麼都沒有，而是寫山林十分幽靜。",
+      "zh-Hans": "“空山”不是说山里什么都没有，而是写山林十分幽静。"
+     }
+    },
+    {
+     "id": "ext-tang-142-l002",
+     "text": {
+      "zh-Hant": "但聞人語響。",
+      "zh-Hans": "但闻人语响。"
+     },
+     "keyword": [
+      2,
+      5
+     ],
+     "explain": {
+      "zh-Hant": "只聽到遠處傳來人說話的聲音。",
+      "zh-Hans": "只听到远处传来人说话的声音。"
+     },
+     "think": {
+      "zh-Hant": "看不見人，卻聽見人聲；聲音過後，山林顯得更加安靜。這是用聲音來寫靜。",
+      "zh-Hans": "看不见人，却听见人声；声音过后，山林显得更加安静。这是用声音来写静。"
+     }
+    },
+    {
+     "id": "ext-tang-142-l003",
+     "text": {
+      "zh-Hant": "返景入深林，",
+      "zh-Hans": "返景入深林，"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "傍晚的陽光，照進了幽深的樹林，",
+      "zh-Hans": "傍晚的阳光，照进了幽深的树林，"
+     },
+     "think": {
+      "zh-Hant": "「返景」是夕陽返照的光。「景」在這裏讀作「影」。",
+      "zh-Hans": "“返景”是夕阳返照的光。“景”在这里读作“影”。"
+     }
+    },
+    {
+     "id": "ext-tang-142-l004",
+     "text": {
+      "zh-Hant": "復照青苔上。",
+      "zh-Hans": "复照青苔上。"
+     },
+     "keyword": [
+      2,
+      4
+     ],
+     "explain": {
+      "zh-Hant": "又照在地上的青苔上。",
+      "zh-Hans": "又照在地上的青苔上。"
+     },
+     "think": {
+      "zh-Hant": "深林裏平時很陰暗，只有傍晚這一束光照進來，一明一暗，林子顯得更幽深了。",
+      "zh-Hans": "深林里平时很阴暗，只有傍晚这一束光照进来，一明一暗，林子显得更幽深了。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "ext-tang-142-w001",
+     "term": {
+      "zh-Hant": "但聞",
+      "zh-Hans": "但闻"
+     },
+     "definition": {
+      "zh-Hant": "只聽見。",
+      "zh-Hans": "只听见。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-142-l002",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-142-l002",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-142-w002",
+     "term": {
+      "zh-Hant": "返景",
+      "zh-Hans": "返景"
+     },
+     "definition": {
+      "zh-Hant": "夕陽返照的光。",
+      "zh-Hans": "夕阳返照的光。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-142-l003",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-142-l003",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-142-w003",
+     "term": {
+      "zh-Hant": "復",
+      "zh-Hans": "复"
+     },
+     "definition": {
+      "zh-Hant": "又。",
+      "zh-Hans": "又。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-142-l004",
+        "start": 0,
+        "end": 1
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-142-l004",
+        "start": 0,
+        "end": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-142-w004",
+     "term": {
+      "zh-Hant": "青苔",
+      "zh-Hans": "青苔"
+     },
+     "definition": {
+      "zh-Hant": "陰濕處生長的苔蘚。",
+      "zh-Hans": "阴湿处生长的苔藓。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-142-l004",
+        "start": 2,
+        "end": 4
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-142-l004",
+        "start": 2,
+        "end": 4
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "ext-tang-142-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "「空山不見人，但聞人語響」說明了甚麼？",
+      "zh-Hans": "“空山不见人，但闻人语响”说明了什么？"
+     },
+     "options": [
+      {
+       "zh-Hant": "山林很靜，遠處一點人聲也聽得見",
+       "zh-Hans": "山林很静，远处一点人声也听得见"
+      },
+      {
+       "zh-Hant": "詩人正在和朋友聊天",
+       "zh-Hans": "诗人正在和朋友聊天"
+      },
+      {
+       "zh-Hant": "山裏有人在大聲唱歌",
+       "zh-Hans": "山里有人在大声唱歌"
+      },
+      {
+       "zh-Hant": "山裏人很多，十分熱鬧",
+       "zh-Hans": "山里人很多，十分热闹"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "看不見人，只聽到一點人聲，反而顯得山林更加空寂。詩人用聲音來襯托安靜。",
+      "zh-Hans": "看不见人，只听到一点人声，反而显得山林更加空寂。诗人用声音来衬托安静。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l001",
+      "ext-tang-142-l002",
+      "ext-tang-142-l003",
+      "ext-tang-142-l004"
+     ],
+     "rev": "947d7200f2f6"
+    },
+    {
+     "id": "ext-tang-142-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「但聞」在「但聞人語響」中是甚麼意思？",
+      "zh-Hans": "“但闻”在“但闻人语响”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "聞到氣味",
+       "zh-Hans": "闻到气味"
+      },
+      {
+       "zh-Hant": "聽不清楚",
+       "zh-Hans": "听不清楚"
+      },
+      {
+       "zh-Hant": "但是聽說",
+       "zh-Hans": "但是听说"
+      },
+      {
+       "zh-Hant": "只聽見",
+       "zh-Hans": "只听见"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「但」是「只」，「聞」是「聽見」。「但聞」就是只聽見。",
+      "zh-Hans": "“但”是“只”，“闻”是“听见”。“但闻”就是只听见。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l002"
+     ],
+     "rev": "d5d992e417cd"
+    },
+    {
+     "id": "ext-tang-142-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「又照在地上的青苔上。」",
+      "zh-Hans": "哪一句的意思是：“又照在地上的青苔上。”"
+     },
+     "options": [
+      {
+       "zh-Hant": "復照青苔上",
+       "zh-Hans": "复照青苔上"
+      },
+      {
+       "zh-Hant": "空山不見人",
+       "zh-Hans": "空山不见人"
+      },
+      {
+       "zh-Hant": "但聞人語響",
+       "zh-Hans": "但闻人语响"
+      },
+      {
+       "zh-Hant": "返景入深林",
+       "zh-Hans": "返景入深林"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「復照青苔上」的意思是：又照在地上的青苔上。",
+      "zh-Hans": "“复照青苔上”的意思是：又照在地上的青苔上。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l004"
+     ],
+     "rev": "5cd42c5bb5a0"
+    },
+    {
+     "id": "ext-tang-142-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "＿山不見人",
+      "zh-Hans": "＿山不见人"
+     },
+     "options": [
+      {
+       "zh-Hant": "深",
+       "zh-Hans": "深"
+      },
+      {
+       "zh-Hant": "青",
+       "zh-Hans": "青"
+      },
+      {
+       "zh-Hant": "高",
+       "zh-Hans": "高"
+      },
+      {
+       "zh-Hant": "空",
+       "zh-Hans": "空"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「空山」寫山林空寂幽靜，一個「空」字定下了全詩安靜的調子。",
+      "zh-Hans": "“空山”写山林空寂幽静，一个“空”字定下了全诗安静的调子。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l001"
+     ],
+     "rev": "51a690318b5a"
+    },
+    {
+     "id": "ext-tang-142-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「返景入深林」的下一句是？",
+      "zh-Hans": "“返景入深林”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "萋萋滿別情",
+       "zh-Hans": "萋萋满别情"
+      },
+      {
+       "zh-Hant": "一歲一枯榮",
+       "zh-Hans": "一岁一枯荣"
+      },
+      {
+       "zh-Hant": "復照青苔上",
+       "zh-Hans": "复照青苔上"
+      },
+      {
+       "zh-Hant": "疑是地上霜",
+       "zh-Hans": "疑是地上霜"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "《鹿柴》中，「返景入深林」的下一句是「復照青苔上」。",
+      "zh-Hans": "《鹿柴》中，“返景入深林”的下一句是“复照青苔上”。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l003",
+      "ext-tang-142-l004"
+     ],
+     "rev": "6ade9046fdfc"
+    },
+    {
+     "id": "ext-tang-142-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "但聞人語響",
+       "zh-Hans": "但闻人语响"
+      },
+      {
+       "zh-Hant": "復照青苔上",
+       "zh-Hans": "复照青苔上"
+      },
+      {
+       "zh-Hant": "空山不見人",
+       "zh-Hans": "空山不见人"
+      },
+      {
+       "zh-Hant": "返景入深林",
+       "zh-Hans": "返景入深林"
+      }
+     ],
+     "answerOrder": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：空山不見人，但聞人語響。返景入深林，復照青苔上。",
+      "zh-Hans": "正确顺序：空山不见人，但闻人语响。返景入深林，复照青苔上。"
+     },
+     "lineIDs": [
+      "ext-tang-142-l001",
+      "ext-tang-142-l002",
+      "ext-tang-142-l003",
+      "ext-tang-142-l004"
+     ],
+     "rev": "9f42be86d201"
+    }
+   ]
+  },
+  {
+   "id": "ext-tang-361",
+   "theme": "landscape",
+   "scene": "riverMountain",
+   "pack": "base",
+   "keyStage": 0,
+   "difficulty": 3,
+   "imagery": [
+    {
+     "zh-Hant": "黃河",
+     "zh-Hans": "黄河"
+    },
+    {
+     "zh-Hant": "孤城",
+     "zh-Hans": "孤城"
+    },
+    {
+     "zh-Hant": "羌笛",
+     "zh-Hans": "羌笛"
+    },
+    {
+     "zh-Hant": "玉門關",
+     "zh-Hans": "玉门关"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "中華古詩詞數據庫 · 全唐詩/唐詩三百首.json",
+      "zh-Hans": "中华古诗词数据库 · 全唐诗/唐诗三百首.json"
+     },
+     "url": "https://github.com/chinese-poetry/chinese-poetry/blob/master/%E5%85%A8%E5%94%90%E8%AF%97/%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96.json"
+    }
+   ],
+   "title": {
+    "zh-Hant": "涼州詞·黃河遠上白雲間",
+    "zh-Hans": "凉州词·黄河远上白云间"
+   },
+   "dynasty": {
+    "zh-Hant": "唐",
+    "zh-Hans": "唐"
+   },
+   "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+   },
+   "author": {
+    "id": "author-49eb7bc0295e",
+    "name": {
+     "zh-Hant": "王之渙",
+     "zh-Hans": "王之涣"
+    },
+    "bio": {
+     "zh-Hant": "盛唐詩人，以境界開闊的《登鸛鵲樓》《涼州詞》著名。",
+     "zh-Hans": "盛唐诗人，以境界开阔的《登鹳鹊楼》《凉州词》著名。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "黃河、孤城和玉門關",
+    "zh-Hans": "黄河、孤城和玉门关"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "黃河遠遠奔流，好像從白雲間來；萬丈高山下，一座孤城守着邊關。",
+     "zh-Hans": "黄河远远奔流，好像从白云间来；万丈高山下，一座孤城守着边关。"
+    },
+    "feeling": {
+     "zh-Hant": "景色壯闊又蒼涼，也體諒守邊將士思念家鄉的心情。",
+     "zh-Hans": "景色壮阔又苍凉，也体谅守边将士思念家乡的心情。"
+    },
+    "background": {
+     "zh-Hant": "「涼州詞」是唐代一種曲調的名稱，很多詩人用它寫西北邊塞。玉門關在今甘肅敦煌西北，是古代通往西域的關口。這首詩另有「春風不度玉門關」的版本。",
+     "zh-Hans": "“凉州词”是唐代一种曲调的名称，很多诗人用它写西北边塞。玉门关在今甘肃敦煌西北，是古代通往西域的关口。这首诗另有“春风不度玉门关”的版本。"
+    }
+   },
+   "lines": [
+    {
+     "id": "ext-tang-361-l001",
+     "text": {
+      "zh-Hant": "黃河遠上白雲間，",
+      "zh-Hans": "黄河远上白云间，"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "遠遠望去，黃河好像一直流到白雲之間。",
+      "zh-Hans": "远远望去，黄河好像一直流到白云之间。"
+     },
+     "think": {
+      "zh-Hant": "站在遠處望，黃河越來越細，好像伸進了白雲裏，畫面十分壯闊。",
+      "zh-Hans": "站在远处望，黄河越来越细，好像伸进了白云里，画面十分壮阔。"
+     }
+    },
+    {
+     "id": "ext-tang-361-l002",
+     "text": {
+      "zh-Hant": "一片孤城萬仞山。",
+      "zh-Hans": "一片孤城万仞山。"
+     },
+     "keyword": [
+      2,
+      4
+     ],
+     "explain": {
+      "zh-Hant": "在萬丈高山之間，有一座孤零零的城。",
+      "zh-Hans": "在万丈高山之间，有一座孤零零的城。"
+     },
+     "think": {
+      "zh-Hant": "山很高，城很小，一個「孤」字寫出了邊城的荒涼和守邊人的孤單。",
+      "zh-Hans": "山很高，城很小，一个“孤”字写出了边城的荒凉和守边人的孤单。"
+     }
+    },
+    {
+     "id": "ext-tang-361-l003",
+     "text": {
+      "zh-Hant": "羌笛何須怨楊柳，",
+      "zh-Hans": "羌笛何须怨杨柳，"
+     },
+     "keyword": [
+      0,
+      2
+     ],
+     "explain": {
+      "zh-Hant": "何必用羌笛吹奏哀怨的《折楊柳》曲呢？",
+      "zh-Hans": "何必用羌笛吹奏哀怨的《折杨柳》曲呢？"
+     },
+     "think": {
+      "zh-Hant": "古人送別時有折柳相送的習俗，《折楊柳》曲很容易引起離別和思鄉的愁緒。",
+      "zh-Hans": "古人送别时有折柳相送的习俗，《折杨柳》曲很容易引起离别和思乡的愁绪。"
+     }
+    },
+    {
+     "id": "ext-tang-361-l004",
+     "text": {
+      "zh-Hant": "春光不度玉門關。",
+      "zh-Hans": "春光不度玉门关。"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "春天的風光本來就到不了玉門關外啊。",
+      "zh-Hans": "春天的风光本来就到不了玉门关外啊。"
+     },
+     "think": {
+      "zh-Hant": "玉門關外寒冷荒涼，連楊柳也難得發青。詩人像是在安慰守邊的人：不必埋怨了。",
+      "zh-Hans": "玉门关外寒冷荒凉，连杨柳也难得发青。诗人像是在安慰守边的人：不必埋怨了。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "ext-tang-361-w001",
+     "term": {
+      "zh-Hant": "孤城",
+      "zh-Hans": "孤城"
+     },
+     "definition": {
+      "zh-Hant": "孤立的邊城。",
+      "zh-Hans": "孤立的边城。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-361-l002",
+        "start": 2,
+        "end": 4
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-361-l002",
+        "start": 2,
+        "end": 4
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-361-w002",
+     "term": {
+      "zh-Hant": "萬仞",
+      "zh-Hans": "万仞"
+     },
+     "definition": {
+      "zh-Hant": "極言山高；仞是古代長度單位。",
+      "zh-Hans": "极言山高；仞是古代长度单位。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-361-l002",
+        "start": 4,
+        "end": 6
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-361-l002",
+        "start": 4,
+        "end": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-361-w003",
+     "term": {
+      "zh-Hant": "羌笛",
+      "zh-Hans": "羌笛"
+     },
+     "definition": {
+      "zh-Hant": "古代西北地區的管樂器。",
+      "zh-Hans": "古代西北地区的管乐器。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-361-l003",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-361-l003",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-361-w004",
+     "term": {
+      "zh-Hant": "楊柳",
+      "zh-Hans": "杨柳"
+     },
+     "definition": {
+      "zh-Hant": "借指《折楊柳》曲。",
+      "zh-Hans": "借指《折杨柳》曲。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-361-l003",
+        "start": 5,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-361-l003",
+        "start": 5,
+        "end": 7
+       }
+      ]
+     }
+    },
+    {
+     "id": "ext-tang-361-w005",
+     "term": {
+      "zh-Hant": "玉門關",
+      "zh-Hans": "玉门关"
+     },
+     "definition": {
+      "zh-Hant": "通往西域的古關口。",
+      "zh-Hans": "通往西域的古关口。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "ext-tang-361-l004",
+        "start": 4,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "ext-tang-361-l004",
+        "start": 4,
+        "end": 7
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "ext-tang-361-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "「羌笛何須怨楊柳」中的「楊柳」指的是甚麼？",
+      "zh-Hans": "“羌笛何须怨杨柳”中的“杨柳”指的是什么？"
+     },
+     "options": [
+      {
+       "zh-Hant": "城外的楊柳樹",
+       "zh-Hans": "城外的杨柳树"
+      },
+      {
+       "zh-Hant": "一位姓楊的朋友",
+       "zh-Hans": "一位姓杨的朋友"
+      },
+      {
+       "zh-Hant": "《折楊柳》這首曲子",
+       "zh-Hans": "《折杨柳》这首曲子"
+      },
+      {
+       "zh-Hant": "春天飄飛的柳絮",
+       "zh-Hans": "春天飘飞的柳絮"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "這句是說羌笛吹起了《折楊柳》曲。這首曲子和離別有關，守邊的人聽了容易思鄉。",
+      "zh-Hans": "这句是说羌笛吹起了《折杨柳》曲。这首曲子和离别有关，守边的人听了容易思乡。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l001",
+      "ext-tang-361-l002",
+      "ext-tang-361-l003",
+      "ext-tang-361-l004"
+     ],
+     "rev": "ad101f457687"
+    },
+    {
+     "id": "ext-tang-361-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「萬仞」在「一片孤城萬仞山」中是甚麼意思？",
+      "zh-Hans": "“万仞”在“一片孤城万仞山”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "形容山非常高",
+       "zh-Hans": "形容山非常高"
+      },
+      {
+       "zh-Hant": "一萬座山峰",
+       "zh-Hans": "一万座山峰"
+      },
+      {
+       "zh-Hant": "很遠的路程",
+       "zh-Hans": "很远的路程"
+      },
+      {
+       "zh-Hant": "一萬把刀劍",
+       "zh-Hans": "一万把刀剑"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「仞」是古代的長度單位，「萬仞」是誇張的說法，形容山非常高。",
+      "zh-Hans": "“仞”是古代的长度单位，“万仞”是夸张的说法，形容山非常高。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l002"
+     ],
+     "rev": "7078e183b37f"
+    },
+    {
+     "id": "ext-tang-361-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「遠遠望去，黃河好像一直流到白雲之間。」",
+      "zh-Hans": "哪一句的意思是：“远远望去，黄河好像一直流到白云之间。”"
+     },
+     "options": [
+      {
+       "zh-Hant": "羌笛何須怨楊柳",
+       "zh-Hans": "羌笛何须怨杨柳"
+      },
+      {
+       "zh-Hant": "春光不度玉門關",
+       "zh-Hans": "春光不度玉门关"
+      },
+      {
+       "zh-Hant": "一片孤城萬仞山",
+       "zh-Hans": "一片孤城万仞山"
+      },
+      {
+       "zh-Hant": "黃河遠上白雲間",
+       "zh-Hans": "黄河远上白云间"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "「黃河遠上白雲間」的意思是：遠遠望去，黃河好像一直流到白雲之間。",
+      "zh-Hans": "“黄河远上白云间”的意思是：远远望去，黄河好像一直流到白云之间。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l001"
+     ],
+     "rev": "18667e51222c"
+    },
+    {
+     "id": "ext-tang-361-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "一片＿城萬仞山",
+      "zh-Hans": "一片＿城万仞山"
+     },
+     "options": [
+      {
+       "zh-Hant": "孤",
+       "zh-Hans": "孤"
+      },
+      {
+       "zh-Hant": "長",
+       "zh-Hans": "长"
+      },
+      {
+       "zh-Hant": "空",
+       "zh-Hans": "空"
+      },
+      {
+       "zh-Hant": "古",
+       "zh-Hans": "古"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「孤城」是孤零零的邊城，寫出邊塞的荒涼和守邊人的孤單。",
+      "zh-Hans": "“孤城”是孤零零的边城，写出边塞的荒凉和守边人的孤单。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l002"
+     ],
+     "rev": "aa3e4ff3d2f6"
+    },
+    {
+     "id": "ext-tang-361-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「黃河遠上白雲間」的下一句是？",
+      "zh-Hans": "“黄河远上白云间”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "一片孤城萬仞山",
+       "zh-Hans": "一片孤城万仞山"
+      },
+      {
+       "zh-Hant": "鄉音無改鬢毛衰",
+       "zh-Hans": "乡音无改鬓毛衰"
+      },
+      {
+       "zh-Hant": "煙花三月下揚州",
+       "zh-Hans": "烟花三月下扬州"
+      },
+      {
+       "zh-Hant": "映日荷花別樣紅",
+       "zh-Hans": "映日荷花别样红"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "《涼州詞·黃河遠上白雲間》中，「黃河遠上白雲間」的下一句是「一片孤城萬仞山」。",
+      "zh-Hans": "《凉州词·黄河远上白云间》中，“黄河远上白云间”的下一句是“一片孤城万仞山”。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l001",
+      "ext-tang-361-l002"
+     ],
+     "rev": "474874970623"
+    },
+    {
+     "id": "ext-tang-361-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "羌笛何須怨楊柳",
+       "zh-Hans": "羌笛何须怨杨柳"
+      },
+      {
+       "zh-Hant": "春光不度玉門關",
+       "zh-Hans": "春光不度玉门关"
+      },
+      {
+       "zh-Hant": "一片孤城萬仞山",
+       "zh-Hans": "一片孤城万仞山"
+      },
+      {
+       "zh-Hant": "黃河遠上白雲間",
+       "zh-Hans": "黄河远上白云间"
+      }
+     ],
+     "answerOrder": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：黃河遠上白雲間，一片孤城萬仞山。羌笛何須怨楊柳，春光不度玉門關。",
+      "zh-Hans": "正确顺序：黄河远上白云间，一片孤城万仞山。羌笛何须怨杨柳，春光不度玉门关。"
+     },
+     "lineIDs": [
+      "ext-tang-361-l001",
+      "ext-tang-361-l002",
+      "ext-tang-361-l003",
+      "ext-tang-361-l004"
+     ],
+     "rev": "0d7ed0e59b50"
+    }
+   ]
+  },
+  {
+   "id": "hk-ks1-20",
+   "theme": "seasons",
+   "scene": "winter",
+   "pack": "base",
+   "keyStage": 1,
+   "difficulty": 1,
+   "imagery": [
+    {
+     "zh-Hant": "千片萬片",
+     "zh-Hans": "千片万片"
+    },
+    {
+     "zh-Hant": "梅花",
+     "zh-Hans": "梅花"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第1學習階段建議篇章",
+      "zh-Hans": "香港教育局第1学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage1.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 詠雪原文",
+      "zh-Hans": "香港教育局 · 咏雪原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 詠雪賞析",
+      "zh-Hans": "香港教育局 · 咏雪赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_20.pdf"
+    }
+   ],
+   "title": {
+    "zh-Hant": "詠雪",
+    "zh-Hans": "咏雪"
+   },
+   "dynasty": {
+    "zh-Hant": "清",
+    "zh-Hans": "清"
+   },
+   "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+   },
+   "author": {
+    "id": "author-f7d5379105dc",
+    "name": {
+     "zh-Hant": "鄭燮",
+     "zh-Hans": "郑燮"
+    },
+    "bio": {
+     "zh-Hant": "清代書畫家、詩人，號板橋，以詩書畫和民生關懷著稱。",
+     "zh-Hans": "清代书画家、诗人，号板桥，以诗书画和民生关怀著称。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "數雪花，數進了梅花裏",
+    "zh-Hans": "数雪花，数进了梅花里"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "雪花一片一片地飄落，越下越多，最後飛進梅花叢中，再也分不清了。",
+     "zh-Hans": "雪花一片一片地飘落，越下越多，最后飞进梅花丛中，再也分不清了。"
+    },
+    "feeling": {
+     "zh-Hant": "輕鬆有趣，最後一句帶來驚喜和美感。",
+     "zh-Hans": "轻松有趣，最后一句带来惊喜和美感。"
+    },
+    "background": {
+     "zh-Hant": "這首詩按香港教育局的版本，署名清代書畫家鄭燮（鄭板橋）；民間對作者另有不同說法。全詩用了很多數字，讀起來像在數雪花。",
+     "zh-Hans": "这首诗按香港教育局的版本，署名清代书画家郑燮（郑板桥）；民间对作者另有不同说法。全诗用了很多数字，读起来像在数雪花。"
+    }
+   },
+   "lines": [
+    {
+     "id": "hk-ks1-20-l001",
+     "text": {
+      "zh-Hant": "一片兩片三四片，",
+      "zh-Hans": "一片两片三四片，"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "雪花一片、兩片，又三四片地飄下來。",
+      "zh-Hans": "雪花一片、两片，又三四片地飘下来。"
+     },
+     "think": {
+      "zh-Hant": "像小朋友一樣數雪花，剛開始雪下得還不大。",
+      "zh-Hans": "像小朋友一样数雪花，刚开始雪下得还不大。"
+     }
+    },
+    {
+     "id": "hk-ks1-20-l002",
+     "text": {
+      "zh-Hant": "五六七八九十片。",
+      "zh-Hans": "五六七八九十片。"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "五片、六片、七片、八片，九片、十片，越數越多。",
+      "zh-Hans": "五片、六片、七片、八片，九片、十片，越数越多。"
+     },
+     "think": {
+      "zh-Hant": "「九十片」不是九十片，而是九片、十片，數字一個接一個。",
+      "zh-Hans": "“九十片”不是九十片，而是九片、十片，数字一个接一个。"
+     }
+    },
+    {
+     "id": "hk-ks1-20-l003",
+     "text": {
+      "zh-Hant": "千片萬片無數片，",
+      "zh-Hans": "千片万片无数片，"
+     },
+     "keyword": [
+      4,
+      6
+     ],
+     "explain": {
+      "zh-Hant": "千片萬片，多得數也數不清。",
+      "zh-Hans": "千片万片，多得数也数不清。"
+     },
+     "think": {
+      "zh-Hant": "從一片數到無數片，數字越來越大，寫出雪越下越大。",
+      "zh-Hans": "从一片数到无数片，数字越来越大，写出雪越下越大。"
+     }
+    },
+    {
+     "id": "hk-ks1-20-l004",
+     "text": {
+      "zh-Hant": "飛入梅花都不見。",
+      "zh-Hans": "飞入梅花都不见。"
+     },
+     "keyword": [
+      2,
+      4
+     ],
+     "explain": {
+      "zh-Hant": "雪花飛進梅花叢中，就都看不見了。",
+      "zh-Hans": "雪花飞进梅花丛中，就都看不见了。"
+     },
+     "think": {
+      "zh-Hant": "白雪落在白梅上，顏色融在一起，分也分不出來。前三句都是數字，最後一句才出現美麗的畫面。",
+      "zh-Hans": "白雪落在白梅上，颜色融在一起，分也分不出来。前三句都是数字，最后一句才出现美丽的画面。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "hk-ks1-20-w001",
+     "term": {
+      "zh-Hant": "片",
+      "zh-Hans": "片"
+     },
+     "definition": {
+      "zh-Hant": "雪花的計數單位。",
+      "zh-Hans": "雪花的计数单位。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 1,
+        "end": 2
+       },
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 3,
+        "end": 4
+       },
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 6,
+        "end": 7
+       },
+       {
+        "lineID": "hk-ks1-20-l002",
+        "start": 6,
+        "end": 7
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 1,
+        "end": 2
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 3,
+        "end": 4
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 6,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 1,
+        "end": 2
+       },
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 3,
+        "end": 4
+       },
+       {
+        "lineID": "hk-ks1-20-l001",
+        "start": 6,
+        "end": 7
+       },
+       {
+        "lineID": "hk-ks1-20-l002",
+        "start": 6,
+        "end": 7
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 1,
+        "end": 2
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 3,
+        "end": 4
+       },
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 6,
+        "end": 7
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-20-w002",
+     "term": {
+      "zh-Hant": "無數",
+      "zh-Hans": "无数"
+     },
+     "definition": {
+      "zh-Hant": "數量多得數不清。",
+      "zh-Hans": "数量多得数不清。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 4,
+        "end": 6
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-20-l003",
+        "start": 4,
+        "end": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-20-w003",
+     "term": {
+      "zh-Hant": "梅花",
+      "zh-Hans": "梅花"
+     },
+     "definition": {
+      "zh-Hant": "冬春開放的花，此處雪與白梅顏色相融。",
+      "zh-Hans": "冬春开放的花，此处雪与白梅颜色相融。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-20-l004",
+        "start": 2,
+        "end": 4
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-20-l004",
+        "start": 2,
+        "end": 4
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks1-20-w004",
+     "term": {
+      "zh-Hant": "不見",
+      "zh-Hans": "不见"
+     },
+     "definition": {
+      "zh-Hant": "看不見，指雪落入梅花後難以分辨。",
+      "zh-Hans": "看不见，指雪落入梅花后难以分辨。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks1-20-l004",
+        "start": 5,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks1-20-l004",
+        "start": 5,
+        "end": 7
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "hk-ks1-20-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "「飛入梅花都不見」寫出了怎樣的畫面？",
+      "zh-Hans": "“飞入梅花都不见”写出了怎样的画面？"
+     },
+     "options": [
+      {
+       "zh-Hant": "雪花和白梅顏色相近，分不出來",
+       "zh-Hans": "雪花和白梅颜色相近，分不出来"
+      },
+      {
+       "zh-Hant": "梅花都凋謝不見了",
+       "zh-Hans": "梅花都凋谢不见了"
+      },
+      {
+       "zh-Hant": "雪停了，天放晴了",
+       "zh-Hans": "雪停了，天放晴了"
+      },
+      {
+       "zh-Hant": "梅花被大雪壓斷了",
+       "zh-Hans": "梅花被大雪压断了"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「不見」的是雪花，不是梅花。雪花飛進白梅叢中，和梅花的顏色融在一起，就看不出來了。",
+      "zh-Hans": "“不见”的是雪花，不是梅花。雪花飞进白梅丛中，和梅花的颜色融在一起，就看不出来了。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l001",
+      "hk-ks1-20-l002",
+      "hk-ks1-20-l003",
+      "hk-ks1-20-l004"
+     ],
+     "rev": "5cea1579f360"
+    },
+    {
+     "id": "hk-ks1-20-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「不見」在「飛入梅花都不見」中是甚麼意思？",
+      "zh-Hans": "“不见”在“飞入梅花都不见”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "沒有再下",
+       "zh-Hans": "没有再下"
+      },
+      {
+       "zh-Hant": "看不出來",
+       "zh-Hans": "看不出来"
+      },
+      {
+       "zh-Hant": "不肯見面",
+       "zh-Hans": "不肯见面"
+      },
+      {
+       "zh-Hant": "弄丟了",
+       "zh-Hans": "弄丢了"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「不見」是看不見。雪花並沒有消失，只是和白梅混在一起，看不出來了。",
+      "zh-Hans": "“不见”是看不见。雪花并没有消失，只是和白梅混在一起，看不出来了。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l004"
+     ],
+     "rev": "5619811fd27f"
+    },
+    {
+     "id": "hk-ks1-20-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「千片萬片，多得數也數不清。」",
+      "zh-Hans": "哪一句的意思是：“千片万片，多得数也数不清。”"
+     },
+     "options": [
+      {
+       "zh-Hant": "飛入梅花都不見",
+       "zh-Hans": "飞入梅花都不见"
+      },
+      {
+       "zh-Hant": "千片萬片無數片",
+       "zh-Hans": "千片万片无数片"
+      },
+      {
+       "zh-Hant": "五六七八九十片",
+       "zh-Hans": "五六七八九十片"
+      },
+      {
+       "zh-Hant": "一片兩片三四片",
+       "zh-Hans": "一片两片三四片"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「千片萬片無數片」的意思是：千片萬片，多得數也數不清。",
+      "zh-Hans": "“千片万片无数片”的意思是：千片万片，多得数也数不清。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l003"
+     ],
+     "rev": "bd590f863c28"
+    },
+    {
+     "id": "hk-ks1-20-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "飛入＿＿都不見",
+      "zh-Hans": "飞入＿＿都不见"
+     },
+     "options": [
+      {
+       "zh-Hant": "梅花",
+       "zh-Hans": "梅花"
+      },
+      {
+       "zh-Hant": "竹林",
+       "zh-Hans": "竹林"
+      },
+      {
+       "zh-Hant": "桃花",
+       "zh-Hans": "桃花"
+      },
+      {
+       "zh-Hant": "松樹",
+       "zh-Hans": "松树"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "梅花在寒冷的冬天開放。白梅和白雪顏色相近，雪花落進去就分不清了。",
+      "zh-Hans": "梅花在寒冷的冬天开放。白梅和白雪颜色相近，雪花落进去就分不清了。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l004"
+     ],
+     "rev": "0b92086009d9"
+    },
+    {
+     "id": "hk-ks1-20-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「千片萬片無數片」的下一句是？",
+      "zh-Hans": "“千片万片无数片”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "霜葉紅於二月花",
+       "zh-Hans": "霜叶红于二月花"
+      },
+      {
+       "zh-Hant": "明月何時照我還",
+       "zh-Hans": "明月何时照我还"
+      },
+      {
+       "zh-Hant": "遠近高低各不同",
+       "zh-Hans": "远近高低各不同"
+      },
+      {
+       "zh-Hant": "飛入梅花都不見",
+       "zh-Hans": "飞入梅花都不见"
+      }
+     ],
+     "answer": 3,
+     "explanation": {
+      "zh-Hant": "《詠雪》中，「千片萬片無數片」的下一句是「飛入梅花都不見」。",
+      "zh-Hans": "《咏雪》中，“千片万片无数片”的下一句是“飞入梅花都不见”。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l003",
+      "hk-ks1-20-l004"
+     ],
+     "rev": "5e1ca81e20bc"
+    },
+    {
+     "id": "hk-ks1-20-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "一片兩片三四片",
+       "zh-Hans": "一片两片三四片"
+      },
+      {
+       "zh-Hant": "千片萬片無數片",
+       "zh-Hans": "千片万片无数片"
+      },
+      {
+       "zh-Hant": "五六七八九十片",
+       "zh-Hans": "五六七八九十片"
+      },
+      {
+       "zh-Hant": "飛入梅花都不見",
+       "zh-Hans": "飞入梅花都不见"
+      }
+     ],
+     "answerOrder": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：一片兩片三四片，五六七八九十片。千片萬片無數片，飛入梅花都不見。",
+      "zh-Hans": "正确顺序：一片两片三四片，五六七八九十片。千片万片无数片，飞入梅花都不见。"
+     },
+     "lineIDs": [
+      "hk-ks1-20-l001",
+      "hk-ks1-20-l002",
+      "hk-ks1-20-l003",
+      "hk-ks1-20-l004"
+     ],
+     "rev": "65601170011d"
+    }
+   ]
+  },
+  {
+   "id": "hk-ks2-16",
+   "theme": "seasons",
+   "scene": "summer",
+   "pack": "base",
+   "keyStage": 2,
+   "difficulty": 2,
+   "imagery": [
+    {
+     "zh-Hant": "西湖",
+     "zh-Hans": "西湖"
+    },
+    {
+     "zh-Hant": "蓮葉",
+     "zh-Hans": "莲叶"
+    },
+    {
+     "zh-Hant": "荷花",
+     "zh-Hans": "荷花"
+    }
+   ],
+   "sources": [
+    {
+     "label": {
+      "zh-Hant": "香港教育局第2學習階段建議篇章",
+      "zh-Hans": "香港教育局第2学习阶段建议篇章"
+     },
+     "url": "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/key-stage2.html"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 曉出淨慈寺送林子方·其二原文",
+      "zh-Hans": "香港教育局 · 晓出净慈寺送林子方·其二原文"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks2_16_text.pdf"
+    },
+    {
+     "label": {
+      "zh-Hant": "香港教育局 · 曉出淨慈寺送林子方·其二賞析",
+      "zh-Hans": "香港教育局 · 晓出净慈寺送林子方·其二赏析"
+     },
+     "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_17.pdf"
+    }
+   ],
+   "title": {
+    "zh-Hant": "曉出淨慈寺送林子方·其二",
+    "zh-Hans": "晓出净慈寺送林子方·其二"
+   },
+   "dynasty": {
+    "zh-Hant": "宋",
+    "zh-Hans": "宋"
+   },
+   "genre": {
+    "zh-Hant": "七言絕句",
+    "zh-Hans": "七言绝句"
+   },
+   "author": {
+    "id": "author-d5306a500eba",
+    "name": {
+     "zh-Hant": "楊萬里",
+     "zh-Hans": "杨万里"
+    },
+    "bio": {
+     "zh-Hant": "南宋詩人，號誠齋，善捕捉自然景物中的生動趣味。",
+     "zh-Hans": "南宋诗人，号诚斋，善捕捉自然景物中的生动趣味。"
+    }
+   },
+   "tagline": {
+    "zh-Hant": "六月西湖，綠葉紅花",
+    "zh-Hans": "六月西湖，绿叶红花"
+   },
+   "understanding": {
+    "scene": {
+     "zh-Hant": "六月的西湖，蓮葉一望無際，荷花在陽光下紅得耀眼。",
+     "zh-Hans": "六月的西湖，莲叶一望无际，荷花在阳光下红得耀眼。"
+    },
+    "feeling": {
+     "zh-Hant": "讚美夏日西湖的美景，也藏着送別朋友時的情誼。",
+     "zh-Hans": "赞美夏日西湖的美景，也藏着送别朋友时的情谊。"
+    },
+    "background": {
+     "zh-Hant": "淨慈寺在杭州西湖邊。楊萬里的朋友林子方要離開杭州到外地做官，一天清早，詩人從淨慈寺出來送他，寫下了這首詩。",
+     "zh-Hans": "净慈寺在杭州西湖边。杨万里的朋友林子方要离开杭州到外地做官，一天清早，诗人从净慈寺出来送他，写下了这首诗。"
+    }
+   },
+   "lines": [
+    {
+     "id": "hk-ks2-16-l001",
+     "text": {
+      "zh-Hant": "畢竟西湖六月中，",
+      "zh-Hans": "毕竟西湖六月中，"
+     },
+     "keyword": [
+      2,
+      4
+     ],
+     "explain": {
+      "zh-Hant": "到底是六月裏的西湖，",
+      "zh-Hans": "到底是六月里的西湖，"
+     },
+     "think": {
+      "zh-Hant": "一開口就說「畢竟」，好像詩人忍不住讚歎：六月的西湖就是不一樣！",
+      "zh-Hans": "一开口就说“毕竟”，好像诗人忍不住赞叹：六月的西湖就是不一样！"
+     }
+    },
+    {
+     "id": "hk-ks2-16-l002",
+     "text": {
+      "zh-Hant": "風光不與四時同。",
+      "zh-Hans": "风光不与四时同。"
+     },
+     "keyword": [
+      4,
+      6
+     ],
+     "explain": {
+      "zh-Hant": "風光和其他時節大不相同。",
+      "zh-Hans": "风光和其他时节大不相同。"
+     },
+     "think": {
+      "zh-Hant": "詩人先說西湖與眾不同，卻不馬上說哪裏不同，讓人更想讀下去。",
+      "zh-Hans": "诗人先说西湖与众不同，却不马上说哪里不同，让人更想读下去。"
+     }
+    },
+    {
+     "id": "hk-ks2-16-l003",
+     "text": {
+      "zh-Hant": "接天蓮葉無窮碧，",
+      "zh-Hans": "接天莲叶无穷碧，"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "碧綠的蓮葉一望無際，好像和天空連在一起，",
+      "zh-Hans": "碧绿的莲叶一望无际，好像和天空连在一起，"
+     },
+     "think": {
+      "zh-Hant": "「接天」寫蓮葉多得好像一直鋪到天邊，「無窮碧」寫綠色無邊無際。",
+      "zh-Hans": "“接天”写莲叶多得好像一直铺到天边，“无穷碧”写绿色无边无际。"
+     }
+    },
+    {
+     "id": "hk-ks2-16-l004",
+     "text": {
+      "zh-Hant": "映日荷花別樣紅。",
+      "zh-Hans": "映日荷花别样红。"
+     },
+     "keyword": [
+      4,
+      7
+     ],
+     "explain": {
+      "zh-Hant": "荷花在陽光映照下，紅得格外鮮豔。",
+      "zh-Hans": "荷花在阳光映照下，红得格外鲜艳。"
+     },
+     "think": {
+      "zh-Hant": "碧綠的葉和鮮紅的花互相襯托，顏色對比強烈，像一幅色彩鮮明的畫。",
+      "zh-Hans": "碧绿的叶和鲜红的花互相衬托，颜色对比强烈，像一幅色彩鲜明的画。"
+     }
+    }
+   ],
+   "annotations": [
+    {
+     "id": "hk-ks2-16-w001",
+     "term": {
+      "zh-Hant": "畢竟",
+      "zh-Hans": "毕竟"
+     },
+     "definition": {
+      "zh-Hant": "到底、終究。",
+      "zh-Hans": "到底、终究。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks2-16-l001",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks2-16-l001",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks2-16-w002",
+     "term": {
+      "zh-Hant": "四時",
+      "zh-Hans": "四时"
+     },
+     "definition": {
+      "zh-Hant": "四季，此處與六月相對，指其他時節。",
+      "zh-Hans": "四季，此处与六月相对，指其他时节。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks2-16-l002",
+        "start": 4,
+        "end": 6
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks2-16-l002",
+        "start": 4,
+        "end": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks2-16-w003",
+     "term": {
+      "zh-Hant": "接天",
+      "zh-Hans": "接天"
+     },
+     "definition": {
+      "zh-Hant": "彷彿與天空相連。",
+      "zh-Hans": "仿佛与天空相连。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks2-16-l003",
+        "start": 0,
+        "end": 2
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks2-16-l003",
+        "start": 0,
+        "end": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks2-16-w004",
+     "term": {
+      "zh-Hant": "無窮碧",
+      "zh-Hans": "无穷碧"
+     },
+     "definition": {
+      "zh-Hant": "無邊無際的碧綠色。",
+      "zh-Hans": "无边无际的碧绿色。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks2-16-l003",
+        "start": 4,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks2-16-l003",
+        "start": 4,
+        "end": 7
+       }
+      ]
+     }
+    },
+    {
+     "id": "hk-ks2-16-w005",
+     "term": {
+      "zh-Hant": "別樣紅",
+      "zh-Hans": "别样红"
+     },
+     "definition": {
+      "zh-Hant": "格外鮮紅。",
+      "zh-Hans": "格外鲜红。"
+     },
+     "occurrences": {
+      "zh-Hant": [
+       {
+        "lineID": "hk-ks2-16-l004",
+        "start": 4,
+        "end": 7
+       }
+      ],
+      "zh-Hans": [
+       {
+        "lineID": "hk-ks2-16-l004",
+        "start": 4,
+        "end": 7
+       }
+      ]
+     }
+    }
+   ],
+   "questions": [
+    {
+     "id": "hk-ks2-16-q-meaning",
+     "kind": "meaning",
+     "prompt": {
+      "zh-Hant": "題目說是「送林子方」，這首詩主要寫了甚麼？",
+      "zh-Hans": "题目说是“送林子方”，这首诗主要写了什么？"
+     },
+     "options": [
+      {
+       "zh-Hant": "詩人和朋友哭着告別",
+       "zh-Hans": "诗人和朋友哭着告别"
+      },
+      {
+       "zh-Hant": "西湖邊寺廟的鐘聲",
+       "zh-Hans": "西湖边寺庙的钟声"
+      },
+      {
+       "zh-Hant": "六月西湖蓮葉和荷花的美景",
+       "zh-Hans": "六月西湖莲叶和荷花的美景"
+      },
+      {
+       "zh-Hant": "朋友要去的遠方風景",
+       "zh-Hans": "朋友要去的远方风景"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "全詩沒有直接寫離別，而是寫六月西湖的美景。詩人把最美的西湖風光，送給即將遠行的朋友。",
+      "zh-Hans": "全诗没有直接写离别，而是写六月西湖的美景。诗人把最美的西湖风光，送给即将远行的朋友。"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l001",
+      "hk-ks2-16-l002",
+      "hk-ks2-16-l003",
+      "hk-ks2-16-l004"
+     ],
+     "rev": "000948460253"
+    },
+    {
+     "id": "hk-ks2-16-q-word",
+     "kind": "word",
+     "prompt": {
+      "zh-Hant": "「四時」在「風光不與四時同」中是甚麼意思？",
+      "zh-Hans": "“四时”在“风光不与四时同”中是什么意思？"
+     },
+     "options": [
+      {
+       "zh-Hant": "四季，這裏指其他時節",
+       "zh-Hans": "四季，这里指其他时节"
+      },
+      {
+       "zh-Hant": "四個小時",
+       "zh-Hans": "四个小时"
+      },
+      {
+       "zh-Hant": "凌晨四點",
+       "zh-Hans": "凌晨四点"
+      },
+      {
+       "zh-Hant": "一天四次",
+       "zh-Hans": "一天四次"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「四時」是四季。這裏和六月相對，指一年中其他的時節，不是四個小時。",
+      "zh-Hans": "“四时”是四季。这里和六月相对，指一年中其他的时节，不是四个小时。"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l002"
+     ],
+     "rev": "5523ea3e58df"
+    },
+    {
+     "id": "hk-ks2-16-q-match",
+     "kind": "match",
+     "prompt": {
+      "zh-Hant": "哪一句的意思是：「碧綠的蓮葉一望無際，好像和天空連在一起，」",
+      "zh-Hans": "哪一句的意思是：“碧绿的莲叶一望无际，好像和天空连在一起，”"
+     },
+     "options": [
+      {
+       "zh-Hant": "接天蓮葉無窮碧",
+       "zh-Hans": "接天莲叶无穷碧"
+      },
+      {
+       "zh-Hant": "映日荷花別樣紅",
+       "zh-Hans": "映日荷花别样红"
+      },
+      {
+       "zh-Hant": "風光不與四時同",
+       "zh-Hans": "风光不与四时同"
+      },
+      {
+       "zh-Hant": "畢竟西湖六月中",
+       "zh-Hans": "毕竟西湖六月中"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「接天蓮葉無窮碧」的意思是：碧綠的蓮葉一望無際，好像和天空連在一起，",
+      "zh-Hans": "“接天莲叶无穷碧”的意思是：碧绿的莲叶一望无际，好像和天空连在一起，"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l003"
+     ],
+     "rev": "5187b2817baf"
+    },
+    {
+     "id": "hk-ks2-16-q-fill",
+     "kind": "fill",
+     "prompt": {
+      "zh-Hant": "選出正確的字，補全詩句。",
+      "zh-Hans": "选出正确的字，补全诗句。"
+     },
+     "context": {
+      "zh-Hant": "映日荷花別樣＿",
+      "zh-Hans": "映日荷花别样＿"
+     },
+     "options": [
+      {
+       "zh-Hant": "多",
+       "zh-Hans": "多"
+      },
+      {
+       "zh-Hant": "紅",
+       "zh-Hans": "红"
+      },
+      {
+       "zh-Hant": "美",
+       "zh-Hans": "美"
+      },
+      {
+       "zh-Hant": "香",
+       "zh-Hans": "香"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「別樣紅」是格外紅。綠葉襯着紅花，顏色特別鮮明。",
+      "zh-Hans": "“别样红”是格外红。绿叶衬着红花，颜色特别鲜明。"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l004"
+     ],
+     "rev": "97ee399a9373"
+    },
+    {
+     "id": "hk-ks2-16-q-next",
+     "kind": "next",
+     "prompt": {
+      "zh-Hant": "「畢竟西湖六月中」的下一句是？",
+      "zh-Hans": "“毕竟西湖六月中”的下一句是？"
+     },
+     "options": [
+      {
+       "zh-Hant": "樹陰照水愛晴柔",
+       "zh-Hans": "树阴照水爱晴柔"
+      },
+      {
+       "zh-Hant": "風光不與四時同",
+       "zh-Hans": "风光不与四时同"
+      },
+      {
+       "zh-Hant": "飛入梅花都不見",
+       "zh-Hans": "飞入梅花都不见"
+      },
+      {
+       "zh-Hant": "千里江陵一日還",
+       "zh-Hans": "千里江陵一日还"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "《曉出淨慈寺送林子方·其二》中，「畢竟西湖六月中」的下一句是「風光不與四時同」。",
+      "zh-Hans": "《晓出净慈寺送林子方·其二》中，“毕竟西湖六月中”的下一句是“风光不与四时同”。"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l001",
+      "hk-ks2-16-l002"
+     ],
+     "rev": "b25ca6d78fe0"
+    },
+    {
+     "id": "hk-ks2-16-q-order",
+     "kind": "order",
+     "prompt": {
+      "zh-Hant": "把詩句排成正確的順序。",
+      "zh-Hans": "把诗句排成正确的顺序。"
+     },
+     "options": [
+      {
+       "zh-Hant": "映日荷花別樣紅",
+       "zh-Hans": "映日荷花别样红"
+      },
+      {
+       "zh-Hant": "風光不與四時同",
+       "zh-Hans": "风光不与四时同"
+      },
+      {
+       "zh-Hant": "畢竟西湖六月中",
+       "zh-Hans": "毕竟西湖六月中"
+      },
+      {
+       "zh-Hant": "接天蓮葉無窮碧",
+       "zh-Hans": "接天莲叶无穷碧"
+      }
+     ],
+     "answerOrder": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "explanation": {
+      "zh-Hant": "正確順序：畢竟西湖六月中，風光不與四時同。接天蓮葉無窮碧，映日荷花別樣紅。",
+      "zh-Hans": "正确顺序：毕竟西湖六月中，风光不与四时同。接天莲叶无穷碧，映日荷花别样红。"
+     },
+     "lineIDs": [
+      "hk-ks2-16-l001",
+      "hk-ks2-16-l002",
+      "hk-ks2-16-l003",
+      "hk-ks2-16-l004"
+     ],
+     "rev": "3bc30565b0bd"
     }
    ]
   }
@@ -5826,5 +10300,326 @@
   "齊": "齐",
   "龍": "龙",
   "龜": "龟"
+ },
+ "sceneMatch": {
+  "theme": "moon",
+  "pictures": [
+   {
+    "id": "match_moon_moonlit_room",
+    "describe": {
+     "zh-Hant": "夜裏安靜的房間，月光從窗外照進來，在牀前的地板上鋪了一片銀白。",
+     "zh-Hans": "夜里安静的房间，月光从窗外照进来，在床前的地板上铺了一片银白。"
+    }
+   },
+   {
+    "id": "match_moon_snowy_night",
+    "describe": {
+     "zh-Hant": "大雪紛飛的夜晚，屋頂、地面和小船上都積了厚厚的白雪。",
+     "zh-Hans": "大雪纷飞的夜晚，屋顶、地面和小船上都积了厚厚的白雪。"
+    }
+   },
+   {
+    "id": "match_moon_maple_river_night",
+    "describe": {
+     "zh-Hant": "秋天深夜的江邊：月亮快要落下，烏鴉啼叫，紅楓夾岸，江上點點漁火，一艘客船靜靜停泊，遠處城牆外有寺廟。",
+     "zh-Hans": "秋天深夜的江边：月亮快要落下，乌鸦啼叫，红枫夹岸，江上点点渔火，一艘客船静静停泊，远处城墙外有寺庙。"
+    }
+   },
+   {
+    "id": "match_moon_spring_river_moon",
+    "describe": {
+     "zh-Hant": "春天夜晚的大江邊：南岸長滿新綠的青草和柳樹，一輪明月升起，渡口停着小船，對岸隔着幾重青山。",
+     "zh-Hans": "春天夜晚的大江边：南岸长满新绿的青草和柳树，一轮明月升起，渡口停着小船，对岸隔着几重青山。"
+    }
+   },
+   {
+    "id": "match_moon_double_ninth_hill",
+    "describe": {
+     "zh-Hant": "晴朗的秋日山頂：小亭子旁長着結滿紅果的茱萸，菊花盛開，遠處山路上有很小的身影正在登高。",
+     "zh-Hans": "晴朗的秋日山顶：小亭子旁长着结满红果的茱萸，菊花盛开，远处山路上有很小的身影正在登高。"
+    }
+   },
+   {
+    "id": "match_moon_midautumn_courtyard",
+    "describe": {
+     "zh-Hant": "中秋夜熱鬧的庭院：滿月高掛，燈籠點點，桌上擺着月餅和水果，準備一家團圓。",
+     "zh-Hans": "中秋夜热闹的庭院：满月高挂，灯笼点点，桌上摆着月饼和水果，准备一家团圆。"
+    }
+   },
+   {
+    "id": "match_moon_sewing_lamp",
+    "describe": {
+     "zh-Hant": "燈下的木桌上放着針線和一件縫得密密的衣裳，門邊放着收拾好的行李包袱。",
+     "zh-Hans": "灯下的木桌上放着针线和一件缝得密密的衣裳，门边放着收拾好的行李包袱。"
+    }
+   }
+  ],
+  "rounds": [
+   {
+    "id": "sm-moon-01",
+    "poemID": "hk-ks1-10",
+    "lineIDs": [
+     "hk-ks1-10-l001",
+     "hk-ks1-10-l002"
+    ],
+    "pictures": [
+     "match_moon_snowy_night",
+     "match_moon_moonlit_room",
+     "match_moon_midautumn_courtyard"
+    ],
+    "answer": "match_moon_moonlit_room",
+    "pictureFeedback": {
+     "match_moon_snowy_night": {
+      "zh-Hant": "地上並沒有真的霜雪。「疑是」是「好像是」，那片白色其實是月光。",
+      "zh-Hans": "地上并没有真的霜雪。“疑是”是“好像是”，那片白色其实是月光。"
+     },
+     "match_moon_moonlit_room": {
+      "zh-Hant": "對了！牀前地上白白亮亮的，是照進來的月光，詩人只是恍惚以為那是霜。",
+      "zh-Hans": "对了！床前地上白白亮亮的，是照进来的月光，诗人只是恍惚以为那是霜。"
+     },
+     "match_moon_midautumn_courtyard": {
+      "zh-Hant": "這兩句寫的是牀前安靜的月光，沒有燈籠和團圓飯，詩人是獨自一人。",
+      "zh-Hans": "这两句写的是床前安静的月光，没有灯笼和团圆饭，诗人是独自一人。"
+     }
+    },
+    "evidence": {
+     "prompt": {
+      "zh-Hant": "地上那片白色到底是甚麼？哪幾個字告訴了你？",
+      "zh-Hans": "地上那片白色到底是什么？哪几个字告诉了你？"
+     },
+     "options": [
+      {
+       "zh-Hant": "「明月光」",
+       "zh-Hans": "“明月光”"
+      },
+      {
+       "zh-Hant": "「地上霜」",
+       "zh-Hans": "“地上霜”"
+      },
+      {
+       "zh-Hant": "「牀前」",
+       "zh-Hans": "“床前”"
+      }
+     ],
+     "answer": 0,
+     "explanation": {
+      "zh-Hant": "「明月光」說明照在地上的是月光；「地上霜」前面有「疑是」，只是好像霜；「牀前」只說了位置。",
+      "zh-Hans": "“明月光”说明照在地上的是月光；“地上霜”前面有“疑是”，只是好像霜；“床前”只说了位置。"
+     }
+    }
+   },
+   {
+    "id": "sm-moon-02",
+    "poemID": "hk-ks2-12",
+    "lineIDs": [
+     "hk-ks2-12-l001",
+     "hk-ks2-12-l002"
+    ],
+    "pictures": [
+     "match_moon_maple_river_night",
+     "match_moon_spring_river_moon",
+     "match_moon_snowy_night"
+    ],
+    "answer": "match_moon_maple_river_night",
+    "pictureFeedback": {
+     "match_moon_maple_river_night": {
+      "zh-Hant": "對了！月亮快落下，烏鴉在啼，岸邊有紅楓，江上點點漁火，正是秋夜的江邊。",
+      "zh-Hans": "对了！月亮快落下，乌鸦在啼，岸边有红枫，江上点点渔火，正是秋夜的江边。"
+     },
+     "match_moon_spring_river_moon": {
+      "zh-Hant": "這是春天、月亮剛升起的江邊。詩裏卻是「月落」，岸邊還有秋天的「江楓」。",
+      "zh-Hans": "这是春天、月亮刚升起的江边。诗里却是“月落”，岸边还有秋天的“江枫”。"
+     },
+     "match_moon_snowy_night": {
+      "zh-Hant": "「霜滿天」是寫秋夜寒氣很重、冷得像滿天是霜，並不是在下大雪。",
+      "zh-Hans": "“霜满天”是写秋夜寒气很重、冷得像满天是霜，并不是在下大雪。"
+     }
+    },
+    "evidence": {
+     "prompt": {
+      "zh-Hant": "哪幾個字最能說明畫面裏有紅楓和點點燈火？",
+      "zh-Hans": "哪几个字最能说明画面里有红枫和点点灯火？"
+     },
+     "options": [
+      {
+       "zh-Hant": "「霜滿天」",
+       "zh-Hans": "“霜满天”"
+      },
+      {
+       "zh-Hant": "「江楓漁火」",
+       "zh-Hans": "“江枫渔火”"
+      },
+      {
+       "zh-Hant": "「對愁眠」",
+       "zh-Hans": "“对愁眠”"
+      }
+     ],
+     "answer": 1,
+     "explanation": {
+      "zh-Hant": "「江楓」是江邊的楓樹，「漁火」是漁船上的燈火。「霜滿天」寫的是寒冷，不是下雪；「對愁眠」寫的是詩人的心情。",
+      "zh-Hans": "“江枫”是江边的枫树，“渔火”是渔船上的灯火。“霜满天”写的是寒冷，不是下雪；“对愁眠”写的是诗人的心情。"
+     }
+    }
+   },
+   {
+    "id": "sm-moon-03",
+    "poemID": "hk-ks2-15",
+    "lineIDs": [
+     "hk-ks2-15-l003",
+     "hk-ks2-15-l004"
+    ],
+    "pictures": [
+     "match_moon_snowy_night",
+     "match_moon_maple_river_night",
+     "match_moon_spring_river_moon"
+    ],
+    "answer": "match_moon_spring_river_moon",
+    "pictureFeedback": {
+     "match_moon_snowy_night": {
+      "zh-Hant": "滿地大雪是冬天的景色，和春風吹綠江岸不相符。",
+      "zh-Hans": "满地大雪是冬天的景色，和春风吹绿江岸不相符。"
+     },
+     "match_moon_maple_river_night": {
+      "zh-Hant": "畫裏楓葉紅了，是秋天。詩裏說「春風又綠江南岸」，岸邊應該是一片新綠。",
+      "zh-Hans": "画里枫叶红了，是秋天。诗里说“春风又绿江南岸”，岸边应该是一片新绿。"
+     },
+     "match_moon_spring_river_moon": {
+      "zh-Hant": "對了！春風吹綠了江南的岸邊，一輪明月照在江上，詩人盼着回家。",
+      "zh-Hans": "对了！春风吹绿了江南的岸边，一轮明月照在江上，诗人盼着回家。"
+     }
+    },
+    "evidence": {
+     "prompt": {
+      "zh-Hant": "哪幾個字告訴你，畫裏應該是春天的綠色江岸？",
+      "zh-Hans": "哪几个字告诉你，画里应该是春天的绿色江岸？"
+     },
+     "options": [
+      {
+       "zh-Hant": "「照我還」",
+       "zh-Hans": "“照我还”"
+      },
+      {
+       "zh-Hant": "「明月」",
+       "zh-Hans": "“明月”"
+      },
+      {
+       "zh-Hant": "「春風又綠」",
+       "zh-Hans": "“春风又绿”"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「春風又綠」寫春風把江南岸吹綠了。兩幅江景都有月亮，所以「明月」分不出來；「照我還」寫的是詩人的心願。",
+      "zh-Hans": "“春风又绿”写春风把江南岸吹绿了。两幅江景都有月亮，所以“明月”分不出来；“照我还”写的是诗人的心愿。"
+     }
+    }
+   },
+   {
+    "id": "sm-moon-04",
+    "poemID": "hk-ks1-09",
+    "lineIDs": [
+     "hk-ks1-09-l003",
+     "hk-ks1-09-l004"
+    ],
+    "pictures": [
+     "match_moon_midautumn_courtyard",
+     "match_moon_double_ninth_hill",
+     "match_moon_moonlit_room"
+    ],
+    "answer": "match_moon_double_ninth_hill",
+    "pictureFeedback": {
+     "match_moon_midautumn_courtyard": {
+      "zh-Hant": "這是中秋節的團圓夜。詩中的佳節是九月初九重陽節，習俗是登高和插茱萸。",
+      "zh-Hans": "这是中秋节的团圆夜。诗中的佳节是九月初九重阳节，习俗是登高和插茱萸。"
+     },
+     "match_moon_double_ninth_hill": {
+      "zh-Hant": "對了！重陽節有登高、插茱萸的習俗，這兩句寫的就是家鄉兄弟登高的情景。",
+      "zh-Hans": "对了！重阳节有登高、插茱萸的习俗，这两句写的就是家乡兄弟登高的情景。"
+     },
+     "match_moon_moonlit_room": {
+      "zh-Hant": "這幅畫是獨自在房裏的月夜。這兩句寫的是詩人想像中，兄弟們在白天登上高處。",
+      "zh-Hans": "这幅画是独自在房里的月夜。这两句写的是诗人想象中，兄弟们在白天登上高处。"
+     }
+    },
+    "evidence": {
+     "prompt": {
+      "zh-Hant": "哪幾個字說明畫面應該是重陽節的山上？",
+      "zh-Hans": "哪几个字说明画面应该是重阳节的山上？"
+     },
+     "options": [
+      {
+       "zh-Hant": "「兄弟」",
+       "zh-Hans": "“兄弟”"
+      },
+      {
+       "zh-Hant": "「少一人」",
+       "zh-Hans": "“少一人”"
+      },
+      {
+       "zh-Hant": "「遍插茱萸」",
+       "zh-Hans": "“遍插茱萸”"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "插茱萸是重陽節的習俗，再加上「登高處」，所以是重陽節的山上。「兄弟」「少一人」說的是人，分不出是哪個節日。",
+      "zh-Hans": "插茱萸是重阳节的习俗，再加上“登高处”，所以是重阳节的山上。“兄弟”“少一人”说的是人，分不出是哪个节日。"
+     }
+    }
+   },
+   {
+    "id": "sm-moon-05",
+    "poemID": "hk-ks1-12",
+    "lineIDs": [
+     "hk-ks1-12-l003",
+     "hk-ks1-12-l004"
+    ],
+    "pictures": [
+     "match_moon_sewing_lamp",
+     "match_moon_midautumn_courtyard",
+     "match_moon_moonlit_room"
+    ],
+    "answer": "match_moon_sewing_lamp",
+    "pictureFeedback": {
+     "match_moon_sewing_lamp": {
+      "zh-Hant": "對了！孩子就要出門了，母親把衣服縫得密密的，行李也收拾好了。",
+      "zh-Hans": "对了！孩子就要出门了，母亲把衣服缝得密密的，行李也收拾好了。"
+     },
+     "match_moon_midautumn_courtyard": {
+      "zh-Hant": "這是一家團圓的節日。詩裏是孩子臨出門前，母親還擔心他很久才能回來。",
+      "zh-Hans": "这是一家团圆的节日。诗里是孩子临出门前，母亲还担心他很久才能回来。"
+     },
+     "match_moon_moonlit_room": {
+      "zh-Hant": "這幅畫寫獨自望月的夜晚，畫面裏沒有針線和衣服，和「密密縫」對不上。",
+      "zh-Hans": "这幅画写独自望月的夜晚，画面里没有针线和衣服，和“密密缝”对不上。"
+     }
+    },
+    "evidence": {
+     "prompt": {
+      "zh-Hant": "哪幾個字說明畫面裏應該有針線和縫好的衣服？",
+      "zh-Hans": "哪几个字说明画面里应该有针线和缝好的衣服？"
+     },
+     "options": [
+      {
+       "zh-Hant": "「意恐」",
+       "zh-Hans": "“意恐”"
+      },
+      {
+       "zh-Hant": "「遲遲歸」",
+       "zh-Hans": "“迟迟归”"
+      },
+      {
+       "zh-Hant": "「密密縫」",
+       "zh-Hans": "“密密缝”"
+      }
+     ],
+     "answer": 2,
+     "explanation": {
+      "zh-Hant": "「密密縫」寫母親一針一針地縫衣服。「遲遲歸」是擔心孩子很久才回來，「意恐」是心裏擔心，都畫不出針線。",
+      "zh-Hans": "“密密缝”写母亲一针一针地缝衣服。“迟迟归”是担心孩子很久才回来，“意恐”是心里担心，都画不出针线。"
+     }
+    }
+   }
+  ]
  }
 }

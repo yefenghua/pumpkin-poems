@@ -1,0 +1,173 @@
+{
+  "mode": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "name": "cover_life",
+      "prompt": "Use case: illustration-story. One full-bleed portrait illustration for a collectible Chinese poetry theme cover\n\"everyday life and aspirations\". Portrait aspect ratio 3:5. Match the attached watercolor gouache storybook style.\nA sunny countryside courtyard in late spring: a white goose with an orange beak floating on a small clear pond at the\nbottom, golden rice stalks at the lower left, a proud rooster with a red comb standing on a low stone wall at middle\nright, a few honeybees hovering over pink and yellow flowers, a pale limestone rock face with green moss and a young pine\nin the upper background, bright blue sky. Cheerful, lively, wholesome. Delicate painterly texture, high quality children's\nillustrated book, motifs readable at 110pt wide (goose, rooster, bees). No pumpkin, no people, no phone, no UI, no text,\nno frame, no border, no caption strip, no rounded corners. Opaque art fills the whole rectangle.\nReference is for painterly style only; do not copy its mascot or text. Portrait 3:5.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/cover_life.imageset/cover_life.png",
+      "actual_size": [
+        971,
+        1619
+      ]
+    },
+    {
+      "name": "scene_poem_farewell",
+      "prompt": "Use case: illustration-story. Standalone full-bleed 6:5 landscape header artwork for a Chinese farewell-poetry\nlearning page, using the farewell cover as visual/style reference but recomposed horizontally. Wide calm river in\nspring, weeping willows framing the right third, a small wooden ferry pier and one sailboat moving away toward the\nmiddle distance, soft blue-green mountains and a faint riverside tower far away on the left horizon, light mist on the\nwater. Top 30% is pale quiet sky with minimal clouds for a dark native title and controls; keep willow tips and mountain\npeaks below that zone. Warm morning light, fine hand-painted watercolor gouache. No pumpkin, no people in the foreground,\nno lettering, no UI, no border. Fully opaque 6:5 rectangle.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_poem_farewell.imageset/scene_poem_farewell.png",
+      "actual_size": [
+        1374,
+        1145
+      ]
+    },
+    {
+      "name": "scene_poem_life",
+      "prompt": "Use case: illustration-story. Standalone full-bleed 6:5 landscape header artwork for a Chinese \"everyday life and\naspirations\" poetry learning page, using the life cover as visual/style reference but recomposed horizontally. A sunny\nfarm courtyard and field edge: golden rice paddy in the lower left, a small pond with a white goose at lower middle,\na rooster on a low stone wall at the right, bees over a flowering shrub, a pale limestone hillside with a young pine in\nthe far right background. Top 30% is pale quiet blue sky for a dark native title and controls. Bright, wholesome, warm\nmidday light, fine hand-painted watercolor gouache. No pumpkin, no people in the foreground, no lettering, no UI, no\nborder. Fully opaque 6:5 rectangle.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_poem_life.imageset/scene_poem_life.png",
+      "actual_size": [
+        1374,
+        1145
+      ]
+    },
+    {
+      "name": "art_continue_farewell",
+      "prompt": "Use case: illustration-story. Create a transparent right-aligned watercolor vignette for a continue-learning card,\nusing the farewell cover as subject/style reference. Compact scene: a few weeping willow branches with fresh green\nleaves hanging from the upper right, a small sailboat with a cream sail on a short strip of blue-green river, a hint of a\ndistant mountain. All subject matter clustered on the RIGHT 60% of a square canvas; the left 40% truly transparent and\nempty for a native title. Organic watercolor edges feather into transparent alpha, especially at the left and bottom; no\nrectangular backing. Recognisable at small size. No text, no UI frame, no pumpkin, no people. True transparent\nbackground — no white, no cream, no checkerboard.",
+      "transparent_background": true,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/art_continue_farewell.imageset/art_continue_farewell.png",
+      "revision_prompts": [
+        "Edit this transparent watercolor vignette. Keep same square canvas, true alpha, same willow/sailboat/river artwork and watercolor style. Recompose ALL visible paint to fit strictly inside the RIGHTMOST 55% of canvas (x >=45% of canvas width). The entire leftmost 40% must be completely empty alpha=0 at every pixel, with a further 5% safety gap before artwork begins. Shift or slightly shrink the vignette to the right; keep boat and willow recognisable. Feather paint to transparent at left and bottom. No backing, no text, no UI. Preserve transparency.",
+        "Edit this transparent square illustration. Make the COMPLETE LEFT HALF of the canvas strictly empty transparent alpha, with absolutely no painted pixels or watercolor splashes left of the vertical midpoint. Shrink and shift the existing willow, sailboat, river and mountain vignette into the RIGHT HALF ONLY. Place leftmost visible paint at 55% canvas width with a clear empty margin. Preserve the delicate watercolor style and all motifs, no text, no backing. True transparent PNG."
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "art_continue_life",
+      "prompt": "Use case: illustration-story. Create a transparent right-aligned watercolor vignette for a continue-learning card,\nusing the life cover as subject/style reference. Compact scene: a white goose swimming on a small patch of clear water\nwith green reeds, two honeybees above a sprig of pink flowers, a few golden rice stalks. All subject matter on the RIGHT\n60% of a square canvas; the left 40% truly transparent and empty for a native title. Organic watercolor edges feather into\ntransparent alpha at the left and bottom; no rectangular backing. Recognisable at small size. No text, no UI frame, no\npumpkin, no people. True transparent background — no white, no cream, no checkerboard.",
+      "transparent_background": true,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/art_continue_life.imageset/art_continue_life.png",
+      "revision_prompts": [
+        "Edit this transparent watercolor vignette. Keep same square canvas, true alpha, same goose, two bees, pink flowers, rice and water artwork and watercolor style. Recompose ALL visible paint to fit strictly inside the RIGHTMOST 55% of canvas (x >=45% of canvas width). The entire leftmost 40% must be completely empty alpha=0 at every pixel, with a further 5% safety gap before artwork begins. Shift or slightly shrink vignette to right; keep goose recognisable. Feather paint to transparent at left and bottom. No backing, no text, no UI. Preserve transparency.",
+        "Edit this transparent square illustration. Make the COMPLETE LEFT HALF of the image strictly empty transparent alpha, with no paint, leaves, water, splashes, pixels or shadows anywhere left of the vertical canvas midpoint. Shrink and shift the entire existing goose/flowers/rice/bees vignette into the RIGHT HALF ONLY, with its leftmost visible edge at 55% canvas width, leaving a clear margin. Preserve all depicted subjects and watercolor style, no text, no opaque background. True transparent PNG."
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "home_farewell",
+      "prompt": "Use case: compositing. First image is the style reference home scene; second image is the exact Beibei character\nreference. Make a SQUARE home hero illustration in the same luminous watercolor storybook style: a spring riverside\nferry landing with weeping willows, a small wooden pier, a sailboat with a cream sail drifting away on a wide blue-green\nriver toward soft distant mountains. Beibei the pumpkin (same identity as the reference: golden pumpkin body, green\ncurled stem with one leaf, brown eyes, blue scarf) sits on the grassy bank at lower right/center-right (about x65% y70%),\nwaving goodbye toward the boat with one short arm, a gentle warm smile. Entire body visible, about 30% of canvas width,\nfully integrated into the painting (grass overlaps feet, soft shadow), not a sticker. Upper-left 35–40% open light\nsky for a native heading. Lower 10% softly blends into warm cream #FFF9ED. No text, no UI, no device, no border.\nUse second image for character identity only; no book, lettering or reading pose.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/home_farewell.imageset/home_farewell.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "home_life",
+      "prompt": "Use case: compositing. First image is the style reference home scene; second image is the exact Beibei character\nreference. Make a SQUARE home hero illustration in the same luminous watercolor storybook style: a sunny countryside\ncourtyard by a rice field, a small pond with a white goose, a rooster on a low stone wall, bees around flowering shrubs,\na pale limestone hill with a young pine in the distance. Beibei the pumpkin (same identity as the reference) stands at\nlower right/center-right (about x65% y70%) holding a small bamboo basket of rice ears, cheerful and proud, watching a\nbee. Entire body visible, about 30% of canvas width, fully integrated into the painting, not a sticker. Upper-left\n35–40% open light blue sky for a native heading. Lower 10% softly blends into warm cream #FFF9ED. No text, no UI, no\ndevice, no border.\nSecond reference for character identity only. No book or lettering. Golden pumpkin body, curled green stem, one leaf, brown eyes, blue scarf, short round limbs.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/home_life.imageset/home_life.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_moonlit_room",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese quiet bedroom at night in an old house: bright moonlight streams through an open wooden lattice window and lays a pale silver-white patch of light across the dry wooden floor beside a simple wooden bed. Through the window, a bright round moon hangs in a clear sky. The white on the floor is clearly light from the window (soft edges, window-lattice shadow pattern inside it), not frost or snow. A small writing desk with a candle that is not lit. Calm, still, a little lonely. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nUse reference only for watercolor gouache brushwork and storybook style. Do not copy mascot, blossoms or text. Show clearly dry wood grain beneath the silver moonlight.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_moonlit_room.imageset/match_moon_moonlit_room.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_snowy_night",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese riverside village on a winter night during heavy snowfall: thick real snow piled on tiled roofs, on the ground of a courtyard and on a small moored boat; big snowflakes falling from an overcast sky with no moon visible; bare trees heavy with snow; a few windows glowing faintly warm. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference for painterly texture only. Strict winter scene: no flowers, no green leaves, no mascot, no moon, no text.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_snowy_night.imageset/match_moon_snowy_night.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_maple_river_night",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese autumn river near an old southern water town late at night: a thin crescent moon sinking low near the horizon, two or three crows on a branch, red-orange maple trees along the riverbank, small warm lantern lights of fishing boats glowing on the dark water, a covered passenger boat moored in the foreground, and beyond an old city wall the roof of a temple with a bell tower faintly in the distance. Cold, misty air with a pale frosty sheen, no snow on the ground. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference is for painterly watercolor texture only; no pumpkin or text. Ensure a low thin crescent, three black crows, red maple leaves and distant temple bell tower; autumn with no snow.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_maple_river_night.imageset/match_moon_maple_river_night.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_spring_river_moon",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese wide river (the Yangtze) on a mild spring night: the near south bank covered in fresh green grass and new willow leaves, a bright full moon rising over the water and reflecting on gentle waves, a small boat moored at a ferry landing in the foreground, a small town on the opposite bank and a few layers of soft hills behind it. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference for painterly style only; no mascot, no text, no autumn leaves, no snow. Broad spring river, fresh green south bank and full moon.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_spring_river_moon.imageset/match_moon_spring_river_moon.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_double_ninth_hill",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese hilltop on a clear autumn day for the Double Ninth Festival: a small wooden pavilion on the summit, dogwood (zhuyu) shrubs with clusters of small red berries beside the stone path, a few cut sprigs of dogwood laid on a stone bench, yellow chrysanthemums, layered blue hills and a far-away village below. At most one tiny distant silhouette climbing the path far away, faceless. Bright, crisp and airy. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference only for watercolor style, no mascot, no text. Essential botanical details: red dogwood berries in clusters, cut dogwood sprigs resting on bench, yellow chrysanthemums. Clear autumn daytime, no moon.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_double_ninth_hill.imageset/match_moon_double_ninth_hill.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_midautumn_courtyard",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese family courtyard on Mid-Autumn Festival night: a huge full moon above the roofs, many round red and gold paper lanterns glowing along the eaves, a round table set with mooncakes, pomelos, grapes and a teapot, several empty stools waiting for a family gathering, osmanthus tree in bloom. Festive and cheerful. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference for luminous gouache texture only; no mascot or lettering. Mooncakes must have decorative geometric or floral patterns without Chinese characters. All stools empty.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_midautumn_courtyard.imageset/match_moon_midautumn_courtyard.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "match_moon_sewing_lamp",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, Chinese home interior in the evening, still life: on a wooden table under the warm glow of an oil lamp lie a needle and thread, a sewing basket and a traveller's cloth robe being finished with many neat, close stitches; beside the door, a packed cloth travel bundle, a bamboo hat and a walking stick ready for a long journey; through the window, a deep blue evening sky. Soft gouache texture; clear foreground, middle ground and background; palette of pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879 and cream #FFF8E8, with deep night blue for the sky. Square 1:1, 1024×1024. No people in the foreground, no mascot, no animals other than those described, no text, no border, not 3D.\nReference only for watercolor gouache brushwork. Still life, no character, no pumpkin, no text. Make the needle, thread and close stitches visible on robe at foreground table; journey bundle, bamboo hat and walking stick by door.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/match_moon_sewing_lamp.imageset/match_moon_sewing_lamp.png",
+      "actual_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "scene_scene_match",
+      "prompt": "Children's storybook watercolor illustration, warm and luminous, a Chinese garden terrace at dusk under a rising full\nmoon. The small golden-orange pumpkin character \"Beibei\" (round pumpkin body with five soft ribs, green curled stem with\none small leaf, dark brown oval eyes, soft pink cheeks, curious happy smile, small sky-blue scarf, short rounded arms and\nfeet) stands on the right third of the picture holding up three small blank cream-coloured picture cards fanned out in\none hand, looking at them thoughtfully, the other arm pointing at the moon. Behind: a low garden wall, a willow, soft blue\nhills and a deep-blue-to-peach evening sky. The upper-left quarter is calm sky with almost no detail, reserved for a\ntitle. Palette pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879, cream #FFF8E8, deep evening blue. Soft gouache\ntexture, clear layers. Landscape 3:2, 1536×1024, the cards are blank, no text, no border, no other characters, not 3D,\nno Halloween face.\nFirst reference style, second exact character identity. Preserve Beibei identity but change pose as specified. Three blank cards held in one hand, other arm points toward moon. No book. No lettering on cards or anywhere. Keep upper left quarter calm sky, character on right third.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_scene_match.imageset/scene_scene_match.png",
+      "actual_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "name": "scene_parent_corner",
+      "prompt": "Children's storybook watercolor illustration, warm and cozy, a quiet Chinese reading corner in late afternoon: a\nwooden armchair with a folded blanket and a cup of tea on a small side table (for a parent), a low bookshelf with\nhand-bound books, a window with a soft blue sky and a willow branch. The small golden-orange pumpkin character \"Beibei\"\n(round pumpkin body, green curled stem with one leaf, brown eyes, pink cheeks, small sky-blue scarf) sits on a floor\ncushion beside the armchair reading a blue book, calm and content, at the centre-right. Warm wooden tones, cream\n#FFF8E8, pumpkin gold #FFB928, sky blue #5B9BF3, leaf green #61B879. Main subjects kept within the central 70% of the\nframe. Soft gouache texture. Landscape 3:2, 1536×1024, no text anywhere, no border, no people, not 3D, no Halloween face.\nFirst reference for watercolor storybook style, second for exact Beibei identity. Blue book has entirely blank cover without text or symbols; all book spines blank. Main chair and Beibei within central 70% for rounded-corner cropping.",
+      "transparent_background": false,
+      "output": "/Users/yefenghua/Codes/pumpkin-poems/pumpkin-poems-app/pumpkin-poems-app/PoetryArtwork.xcassets/scene_parent_corner.imageset/scene_parent_corner.png",
+      "actual_size": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": 2,
+  "packID": "farewell",
+  "version": "dev",
+  "themes": [
+    {
+      "id": "farewell",
+      "name": {
+        "zh-Hant": "友情送別",
+        "zh-Hans": "友情送别"
+      },
+      "summary": {
+        "zh-Hant": "送別 <朋友> & 酒",
+        "zh-Hans": "送别"
+      }
+    }
+  ],
+  "poems": [
+    {
+      "id": "fw-01",
+      "theme": "farewell",
+      "title": {
+        "zh-Hant": "fw-01",
+        "zh-Hans": "fw-01"
+      },
+      "lines": [],
+      "questions": [
+        {
+          "id": "fw-01-q1",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-01-q2",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-01-q3",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-01-q4",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-01-q5",
+          "kind": "meaning"
+        }
+      ]
+    },
+    {
+      "id": "fw-02",
+      "theme": "farewell",
+      "title": {
+        "zh-Hant": "fw-02",
+        "zh-Hans": "fw-02"
+      },
+      "lines": [],
+      "questions": [
+        {
+          "id": "fw-02-q1",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-02-q2",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-02-q3",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-02-q4",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-02-q5",
+          "kind": "meaning"
+        },
+        {
+          "id": "fw-02-q6",
+          "kind": "meaning"
+        }
+      ]
+    }
+  ],
+  "hantToHans": {
+    "來": "来"
+  },
+  "sceneMatch": null
+}

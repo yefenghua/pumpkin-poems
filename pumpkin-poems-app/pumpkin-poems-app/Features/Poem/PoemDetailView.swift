@@ -12,6 +12,7 @@ struct PoemDetailView: View {
     @Environment(\.modelContext) private var context
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @Query private var progressRecords: [PoemProgress]
 
     @State private var selectedLineID: String?
@@ -31,6 +32,14 @@ struct PoemDetailView: View {
     private var poem: Poem? { PoemLibrary.shared.poem(poemID) }
     private var progress: PoemProgress? { progressRecords.first }
     private var store: ProgressStore { ProgressStore(context: context) }
+    /// Phone on its side: the scene is a side panel and sheets would take the whole screen.
+    private var sideways: Bool { verticalSizeClass == .compact }
+
+    /// The tapped word, shown as a sheet only upright; sideways a sheet would cover the whole screen and a
+    /// popover has no room, so the meaning appears as a card under the lines instead.
+    private var sheetTerm: Binding<Annotation?> {
+        Binding(get: { sideways ? nil : activeTerm }, set: { activeTerm = $0 })
+    }
 
     var body: some View {
         if let poem {
@@ -42,50 +51,47 @@ struct PoemDetailView: View {
 
     private func content(_ poem: Poem) -> some View {
         let theme = PoemVisualTheme(themeID: poem.theme)
-        return GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    scene(poem, theme: theme, width: width, safeTop: safeTop)
-                    PaperSurface {
-                        VStack(spacing: AppTheme.Spacing.section) {
-                            poemLines(poem)
-                            lineExplanation(poem)
-                            understanding(poem)
-                            Button {
-                                speech.stop()
-                                store.markRead(poem.id)
-                                router.push(.quiz(poem.id))
-                            } label: {
-                                Label(settings.t("直接做小測", "直接做小测"), systemImage: "checklist")
-                            }
-                            .buttonStyle(SoftButtonStyle())
-                        }
-                        .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-                        .padding(.top, 16)
-                        .padding(.bottom, AppTheme.Spacing.pageBottom)
-                        .frame(maxWidth: 760)
-                        .frame(maxWidth: .infinity)
-                    }
-                    .padding(.top, -paperOverlap)
+        return StorybookPage(overlap: paperOverlap, sceneHeight: { width in
+            // Scene about 300pt on a phone: the picture keeps its top (moon, lantern) and loses a little water.
+            min(width * 0.76, 400)
+        }, scene: { metrics in
+            scene(poem, theme: theme, metrics: metrics)
+        }, content: { metrics in
+            let column = VStack(spacing: AppTheme.Spacing.section) {
+                poemLines(poem)
+                if metrics.isSidePanel, let term = activeTerm {
+                    termCard(term)
                 }
-            }
-            .ignoresSafeArea(edges: .top)
-            .safeAreaInset(edge: .bottom, spacing: 0) {
-                LearningActionBar(poem: poem, width: width, playing: speech.isSpeaking && playingFullPoem) {
-                    toggleFullPoem(poem)
-                } recite: {
+                lineExplanation(poem)
+                understanding(poem)
+                Button {
                     speech.stop()
                     store.markRead(poem.id)
-                    router.push(.recite(poem.id))
+                    router.push(.quiz(poem.id))
+                } label: {
+                    Label(settings.t("直接做小測", "直接做小测"), systemImage: "checklist")
                 }
+                .buttonStyle(SoftButtonStyle())
             }
-        }
+            .padding(.top, 16)
+            .storybookColumn(metrics)
+            .animation(reduceMotion ? nil : .easeOut(duration: 0.2), value: activeTerm?.id)
+            if metrics.isSidePanel {
+                // Beside the scene the whole column already is the paper; no sheet edge to ride over it.
+                column
+            } else {
+                PaperSurface { column }
+            }
+        }, bar: { metrics in
+            // Sideways the actions live at the bottom of the scene panel; the paper keeps its full height.
+            if !metrics.isSidePanel {
+                actionBar(poem, metrics: metrics, inPanel: false)
+            }
+        })
         .background(AppTheme.Colors.surfacePaper.ignoresSafeArea())
         .toolbar(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
-        .sheet(item: $activeTerm) { term in
+        .sheet(item: sheetTerm) { term in
             TermSheet(annotation: term)
                 .presentationDetents([.fraction(0.3), .medium])
                 .presentationDragIndicator(.visible)
@@ -94,6 +100,15 @@ struct PoemDetailView: View {
         .onAppear {
             store.advance(poem.id, to: .reading)
             if selectedLineID == nil { selectedLineID = poem.lines.first?.id }
+            #if DEBUG
+            // `-demoTerm YES`: opens the first word's explanation (after any launch rotation), for screenshots.
+            if UserDefaults.standard.bool(forKey: "demoTerm") {
+                Task { @MainActor in
+                    try? await Task.sleep(for: .seconds(2))
+                    activeTerm = poem.annotations.first
+                }
+            }
+            #endif
         }
         .onDisappear { speech.stop() }
         .onChange(of: speech.isSpeaking) { _, isSpeaking in
@@ -112,17 +127,29 @@ struct PoemDetailView: View {
 
     // MARK: Scene and navigation
 
-    private func scene(_ poem: Poem, theme: PoemVisualTheme?, width: CGFloat, safeTop: CGFloat) -> some View {
-        // Scene about 300pt on a phone: the picture keeps its top (moon, lantern) and loses a little water.
-        let height = min(width * 0.76, 400)
+    private func actionBar(_ poem: Poem, metrics: StorybookMetrics, inPanel: Bool) -> some View {
+        LearningActionBar(poem: poem, width: inPanel ? metrics.sceneWidth : metrics.contentWidth,
+                          playing: speech.isSpeaking && playingFullPoem, inPanel: inPanel) {
+            toggleFullPoem(poem)
+        } recite: {
+            speech.stop()
+            store.markRead(poem.id)
+            router.push(.recite(poem.id))
+        }
+    }
+
+    private func scene(_ poem: Poem, theme: PoemVisualTheme?, metrics: StorybookMetrics) -> some View {
         let light = theme?.prefersLightForeground ?? false
         let fg = theme?.foreground ?? AppTheme.Colors.textPrimary
         let fg2 = theme?.secondaryForeground ?? AppTheme.Colors.textSecondary
         return IllustratedSceneHeader(
             asset: theme?.readingAsset,
-            height: height,
-            fade: 0.1,
-            textScrim: light ? Color(hex: 0x10204A).opacity(0.42) : AppTheme.Colors.backgroundCream.opacity(0.5)
+            height: metrics.sceneHeight,
+            // Upright the paper sheet covers the join; as a side panel the picture itself melts into the paper.
+            fade: metrics.isSidePanel ? 0.3 : 0.1,
+            textScrim: light ? Color(hex: 0x10204A).opacity(0.42) : AppTheme.Colors.backgroundCream.opacity(0.5),
+            fadeEdge: metrics.fadeEdge,
+            fadeColor: metrics.isSidePanel ? AppTheme.Colors.surfacePaper : AppTheme.Colors.backgroundCream
         ) {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(alignment: .top, spacing: 12) {
@@ -161,10 +188,13 @@ struct PoemDetailView: View {
                     }
                     .accessibilityLabel(progress?.isFavorite == true ? settings.t("取消收藏", "取消收藏") : settings.t("收藏", "收藏"))
                 }
+                if metrics.isSidePanel {
+                    Spacer(minLength: 12)
+                    actionBar(poem, metrics: metrics, inPanel: true)
+                }
             }
-            .padding(.top, safeTop + 8)
-            .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(metrics.sceneTextInsets)
+            .frame(maxWidth: .infinity, maxHeight: metrics.isSidePanel ? .infinity : nil, alignment: .topLeading)
         }
     }
 
@@ -221,6 +251,25 @@ struct PoemDetailView: View {
             }
         }
         .animation(reduceMotion ? nil : .easeOut(duration: 0.2), value: selectedLineID)
+    }
+
+    /// Sideways: the tapped word's meaning as a card right under the lines, closed with the × or by tapping another word.
+    private func termCard(_ term: Annotation) -> some View {
+        TermSheet(annotation: term, compact: true)
+            .padding(.trailing, 32)
+            .overlay(alignment: .topTrailing) {
+                Button {
+                    activeTerm = nil
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.title3)
+                        .foregroundStyle(AppTheme.Colors.textSecondary)
+                        .frame(width: 44, height: 44)
+                }
+                .accessibilityLabel(settings.t("關閉字詞解釋", "关闭字词解释"))
+            }
+            .card(padding: 0)
+            .transition(.opacity)
     }
 
     // MARK: 读懂这句
@@ -362,11 +411,13 @@ struct PoemDetailView: View {
 
 // MARK: - Bottom bar
 
-/// Fixed bar in the bottom safe area: 听一听 (pale blue) and 开始背诵 (gold), about 1 : 1.6.
+/// 听一听 (pale blue) and 开始背诵 (gold). Upright: a fixed paper bar in the bottom safe area, about 1 : 1.6.
+/// Sideways (`inPanel`): two compact rows at the foot of the scene panel, so the paper keeps its full height.
 struct LearningActionBar: View {
     let poem: Poem
     let width: CGFloat
     let playing: Bool
+    var inPanel = false
     var listen: () -> Void
     var recite: () -> Void
 
@@ -376,51 +427,69 @@ struct LearningActionBar: View {
     private var voiceAvailable: Bool { SpeechPlayer.hasVoice(for: settings.voice) }
 
     var body: some View {
-        VStack(spacing: 8) {
-            if !voiceAvailable {
-                Text(settings.t("此裝置沒有對應的朗讀語音，將使用系統預設語音。", "此设备没有对应的朗读语音，将使用系统默认语音。"))
-                    .font(.caption)
-                    .foregroundStyle(AppTheme.Colors.textSecondary)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            }
-            if dynamicTypeSize.isAccessibilitySize {
-                VStack(spacing: 10) {
-                    listenButton
-                    reciteButton
+        if inPanel {
+            VStack(spacing: 8) {
+                if !voiceAvailable {
+                    voiceNote
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 5)
+                        .background(AppTheme.Colors.surfacePaper.opacity(0.85), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
                 }
-            } else {
-                HStack(spacing: 12) {
-                    listenButton.frame(maxWidth: .infinity)
-                    reciteButton.frame(width: (min(width, 800) - AppTheme.Spacing.page * 2 - 12) * 1.6 / 2.6)
+                listenButton
+                reciteButton
+            }
+        } else {
+            VStack(spacing: 8) {
+                if !voiceAvailable {
+                    voiceNote.frame(maxWidth: .infinity, alignment: .leading)
+                }
+                if dynamicTypeSize.isAccessibilitySize {
+                    VStack(spacing: 10) {
+                        listenButton
+                        reciteButton
+                    }
+                } else {
+                    HStack(spacing: 12) {
+                        listenButton.frame(maxWidth: .infinity)
+                        reciteButton.frame(width: (min(width, 800) - AppTheme.Spacing.page * 2 - 12) * 1.6 / 2.6)
+                    }
                 }
             }
+            .padding(.horizontal, AppTheme.Spacing.page)
+            .padding(.top, 12)
+            .padding(.bottom, 8)
+            .frame(maxWidth: 800)
+            .frame(maxWidth: .infinity)
+            .background(
+                AppTheme.Colors.surfacePaper
+                    .shadow(color: AppTheme.Colors.shadow.opacity(0.08), radius: 12, y: -4)
+                    .ignoresSafeArea(edges: .bottom)
+            )
         }
-        .padding(.horizontal, AppTheme.Spacing.page)
-        .padding(.top, 12)
-        .padding(.bottom, 8)
-        .frame(maxWidth: 800)
-        .frame(maxWidth: .infinity)
-        .background(
-            AppTheme.Colors.surfacePaper
-                .shadow(color: AppTheme.Colors.shadow.opacity(0.08), radius: 12, y: -4)
-                .ignoresSafeArea(edges: .bottom)
-        )
+    }
+
+    private var voiceNote: some View {
+        Text(settings.t("此裝置沒有對應的朗讀語音，將使用系統預設語音。", "此设备没有对应的朗读语音，将使用系统默认语音。"))
+            .font(.caption)
+            .foregroundStyle(AppTheme.Colors.textSecondary)
     }
 
     private var listenButton: some View {
         Button(action: listen) {
             Label(playing ? settings.t("暫停", "暂停") : settings.t("聽一聽", "听一听"),
                   systemImage: playing ? "pause.fill" : "speaker.wave.2.fill")
+                .frame(maxWidth: .infinity)
         }
-        .buttonStyle(AudioButtonStyle())
+        .buttonStyle(AudioButtonStyle(compact: inPanel))
         .accessibilityHint(playing ? settings.t("停止朗讀全詩", "停止朗读全诗") : settings.t("朗讀全詩", "朗读全诗"))
     }
 
     private var reciteButton: some View {
         Button(action: recite) {
             Text(settings.t("開始背誦", "开始背诵"))
+                .frame(maxWidth: .infinity)
         }
-        .buttonStyle(PrimaryButtonStyle())
+        .buttonStyle(PrimaryButtonStyle(compact: inPanel))
     }
 }
 
@@ -444,6 +513,8 @@ private struct IdeaSparkles: View {
 /// Word meaning in the context of this poem.
 private struct TermSheet: View {
     let annotation: Annotation
+    /// Inline card: hugs its text instead of filling a sheet.
+    var compact = false
     @Environment(AppSettings.self) private var settings
 
     var body: some View {
@@ -452,15 +523,17 @@ private struct TermSheet: View {
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(Color.chestnut)
             Text(settings.t(annotation.term))
-                .font(.largeTitle.weight(.semibold))
+                .font(compact ? .title.weight(.semibold) : .largeTitle.weight(.semibold))
                 .foregroundStyle(Color.cocoa)
             Text(settings.t(annotation.definition))
-                .font(.title3)
+                .font(compact ? .body : .title3)
                 .foregroundStyle(Color.cocoa)
                 .fixedSize(horizontal: false, vertical: true)
-            Spacer(minLength: 0)
+            if !compact {
+                Spacer(minLength: 0)
+            }
         }
-        .padding(24)
+        .padding(compact ? 18 : 24)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 }

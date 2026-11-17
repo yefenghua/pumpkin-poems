@@ -73,6 +73,22 @@ enum PoetWorkshopContent {
                     ImageryWord("扇"), ImageryWord("蟬", "蝉"), ImageryWord("涼", "凉"), ImageryWord("風", "风")],
             libraryThemeID: "seasons"
         ),
+        PoetWorkshopTheme(
+            id: "farewell",
+            name: LocalizedText(hant: "送別", hans: "送别"),
+            invitation: LocalizedText(hant: "好朋友要走了，你們在哪裏說再見？看見了甚麼？", hans: "好朋友要走了，你们在哪里说再见？看见了什么？"),
+            words: [ImageryWord("柳"), ImageryWord("帆"), ImageryWord("江"), ImageryWord("路"),
+                    ImageryWord("樓", "楼"), ImageryWord("雲", "云"), ImageryWord("草"), ImageryWord("揮", "挥")],
+            libraryThemeID: "farewell"
+        ),
+        PoetWorkshopTheme(
+            id: "life",
+            name: LocalizedText(hant: "我的志趣", hans: "我的志趣"),
+            invitation: LocalizedText(hant: "你最喜歡做甚麼？想成為怎樣的人？", hans: "你最喜欢做什么？想成为怎样的人？"),
+            words: [ImageryWord("蜂"), ImageryWord("鵝", "鹅"), ImageryWord("禾"), ImageryWord("石"),
+                    ImageryWord("書", "书"), ImageryWord("日"), ImageryWord("汗"), ImageryWord("夢", "梦")],
+            libraryThemeID: "life"
+        ),
     ]
 
     static func theme(_ id: String) -> PoetWorkshopTheme? { themes.first { $0.id == id } }
@@ -89,6 +105,19 @@ enum PoetWorkshopContent {
     static let lineCounts = [2, 4]
     /// Suggested characters per line (五言 / 七言), used by the gentle check only.
     static let suggestedLengths = 5...7
+    /// Selectable line forms: 五言 and 七言 (0 means no form chosen).
+    static let forms = [5, 7]
+
+    /// Example lines for the 看一条例句 step: whole 5- or 7-character lines from the theme's poems first.
+    static func exampleCandidates(for theme: PoetWorkshopTheme?, in library: [Poem], normalizer: TextNormalizer) -> [(poem: Poem, line: PoemLine)] {
+        let preferred = theme?.libraryThemeID
+        let ordered = library.filter { $0.theme == preferred } + library.filter { $0.theme != preferred }
+        return ordered.flatMap { poem in
+            poem.lines.compactMap { line -> (Poem, PoemLine)? in
+                forms.contains(normalizer.normalize(line.text.hans).count) ? (poem, line) : nil
+            }
+        }
+    }
 
     /// Library lines that use at least one chosen word, as examples to read before writing.
     static func exampleLines(for words: [ImageryWord], in poems: [Poem], normalizer: TextNormalizer, limit: Int = 4) -> [(poem: Poem, line: PoemLine)] {
@@ -109,27 +138,30 @@ enum PoetWorkshopContent {
 }
 
 /// Gentle, deterministic checks on a draft. Only `hasLines` blocks saving; the others are hints,
-/// never a score, and nothing here judges beauty or 平仄.
+/// never a score, and nothing here judges beauty, rhyme or 平仄. Characters are counted as Han characters only,
+/// ignoring punctuation and spaces.
 struct PoetWorkshopCheck: Equatable {
     /// Every requested line has some text.
     let hasLines: Bool
     /// At least one chosen imagery word appears in the lines (either script).
     let usesWord: Bool
-    /// All lines have the same character count, within the suggested range.
+    /// With a chosen form (5 or 7), every line has that many characters; with no form, all lines have the same
+    /// count within the suggested range.
     let evenLength: Bool
     /// Characters per line, punctuation and spaces removed.
     let lengths: [Int]
 
     var canSave: Bool { hasLines }
 
-    static func check(lines: [String], words: [ImageryWord], normalizer: TextNormalizer) -> PoetWorkshopCheck {
+    static func check(lines: [String], words: [ImageryWord], normalizer: TextNormalizer, form: Int = 0) -> PoetWorkshopCheck {
         let cleaned = lines.map { normalizer.normalize($0) }
         let lengths = cleaned.map(\.count)
         let hasLines = !cleaned.isEmpty && cleaned.allSatisfy { !$0.isEmpty }
         let keys = words.map { normalizer.normalize($0.id) }
         let usesWord = hasLines && cleaned.contains { line in keys.contains { !$0.isEmpty && line.contains($0) } }
-        let evenLength = hasLines && Set(lengths).count == 1
-            && PoetWorkshopContent.suggestedLengths.contains(lengths[0])
+        let evenLength = hasLines && (PoetWorkshopContent.forms.contains(form)
+            ? lengths.allSatisfy { $0 == form }
+            : Set(lengths).count == 1 && PoetWorkshopContent.suggestedLengths.contains(lengths[0]))
         return PoetWorkshopCheck(hasLines: hasLines, usesWord: usesWord, evenLength: evenLength, lengths: lengths)
     }
 

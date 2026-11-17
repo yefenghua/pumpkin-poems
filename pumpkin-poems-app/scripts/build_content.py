@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Build the phase-1 app content bundle.
+"""Build the app content: the bundled base pack and the downloadable theme packs.
 
 Merges the corpus in poems/articles with the authored learning content in
-content/phase1-learning.json and writes
-pumpkin-poems-app/Resources/PoemContent.json.
+content/phase1-learning.json and content/phase2-learning.json. Poems whose
+`pack` is "base" (or unset) ship inside the app as
+pumpkin-poems-app/Resources/PoemContent.json; every pack, base included, is
+also written to build/packs/<packID>.json for `contentctl publish`.
 
 Quiz questions are generated here (not at runtime) so that question IDs,
 option order and wording stay stable across app launches and script switches.
@@ -14,6 +16,7 @@ Usage (from the repository root):
 
 from __future__ import annotations
 
+import hashlib
 import json
 import random
 import sys
@@ -23,8 +26,12 @@ from pathlib import Path
 APP_ROOT = Path(__file__).resolve().parent.parent
 REPO_ROOT = APP_ROOT.parent
 ARTICLES = REPO_ROOT / "poems" / "articles"
-LEARNING = APP_ROOT / "content" / "phase1-learning.json"
+LEARNING_FILES = [APP_ROOT / "content" / "phase1-learning.json", APP_ROOT / "content" / "phase2-learning.json"]
+REVIEW_STATUS = APP_ROOT / "content" / "review-status.json"
 OUTPUT = APP_ROOT / "pumpkin-poems-app" / "Resources" / "PoemContent.json"
+PACKS_DIR = APP_ROOT / "build" / "packs"
+FORMAT_VERSION = 2
+BASE_PACK = "base"
 
 HANT, HANS = "zh-Hant", "zh-Hans"
 TRAILING_PUNCTUATION = "，。？！；：、"
@@ -74,9 +81,16 @@ def build_char_map(articles: list[dict]) -> dict[str, str]:
     return {a: counter.most_common(1)[0][0] for a, counter in sorted(votes.items())}
 
 
+def revision(question: dict) -> str:
+    """Short content hash; a changed question gets a new revision so old mistakes show the version they saw."""
+    body = {k: v for k, v in question.items() if k != "rev"}
+    return hashlib.sha1(json.dumps(body, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:12]
+
+
 def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[dict]:
     pid = poem["id"]
     lines = poem["lines"]
+    all_line_ids = [line["id"] for line in lines]
     questions = []
 
     # 1. Comprehension question, authored (first option is the correct one).
@@ -90,9 +104,33 @@ def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[di
         "options": [options[i] for i in order],
         "answer": order.index(0),
         "explanation": pair(meaning["explanation"]),
+        "lineIDs": all_line_ids,
     })
 
-    # 2. Meaning match: pick the line that matches a plain-language explanation.
+    # 2. Word meaning (字词理解), authored: a word inside one line, first option correct.
+    if "word" in learning:
+        word = learning["word"]
+        line = lines[word["line"]]
+        start, end = word["range"]
+        term = {k: v[start:end] for k, v in line["text"].items()}
+        if not (0 <= start < end <= len(line["text"][HANS])) or not all(is_han(c) for c in term[HANS]):
+            raise ValueError(f"{pid}: bad word range {word['range']}")
+        options = [pair(o) for o in word["options"]]
+        if len({o[HANS] for o in options}) != len(options):
+            raise ValueError(f"{pid}: word options repeat")
+        order = shuffled(options, f"{pid}-word")
+        questions.append({
+            "id": f"{pid}-q-word",
+            "kind": "word",
+            "prompt": fmt(("「{w}」在「{l}」中是甚麼意思？", "“{w}”在“{l}”中是什么意思？"),
+                          w=term, l=strip_line(line["text"])),
+            "options": [options[i] for i in order],
+            "answer": order.index(0),
+            "explanation": pair(word["explanation"]),
+            "lineIDs": [line["id"]],
+        })
+
+    # 3. Meaning match: pick the line that matches a plain-language explanation.
     target = learning["match_line"]
     options = [strip_line(line["text"]) for line in lines]
     order = shuffled(options, f"{pid}-match")
@@ -104,9 +142,10 @@ def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[di
         "options": [options[i] for i in order],
         "answer": order.index(target),
         "explanation": fmt(("「{l}」的意思是：{e}", "“{l}”的意思是：{e}"), l=options[target], e=explain),
+        "lineIDs": [lines[target]["id"]],
     })
 
-    # 3. Keyword fill-in.
+    # 4. Keyword fill-in.
     fill = learning["fill"]
     line = strip_line(lines[fill["line"]]["text"])
     start, end = fill["range"]
@@ -127,9 +166,10 @@ def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[di
         "options": [options[i] for i in order],
         "answer": order.index(0),
         "explanation": pair(fill["explanation"]),
+        "lineIDs": [lines[fill["line"]]["id"]],
     })
 
-    # 4. Next line: given an upper line, choose its lower line.
+    # 5. Next line: given an upper line, choose its lower line.
     rng = random.Random(f"{pid}-next")
     upper_index = rng.choice([i for i in range(0, len(lines) - 1, 2)])
     upper = strip_line(lines[upper_index]["text"])
@@ -153,9 +193,10 @@ def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[di
         "answer": order.index(0),
         "explanation": fmt(("《{t}》中，「{u}」的下一句是「{l}」。", "《{t}》中，“{u}”的下一句是“{l}”。"),
                            t=poem["title"], u=upper, l=lower),
+        "lineIDs": [lines[upper_index]["id"], lines[upper_index + 1]["id"]],
     })
 
-    # 5. Line ordering. answerOrder lists option indices in the poem's order.
+    # 6. Line ordering. answerOrder lists option indices in the poem's order.
     options = [strip_line(line["text"]) for line in lines]
     seed = 0
     order = shuffled(options, f"{pid}-order")
@@ -170,7 +211,10 @@ def build_questions(poem: dict, learning: dict, featured: list[dict]) -> list[di
         "options": [options[i] for i in order],
         "answerOrder": [order.index(i) for i in range(len(options))],
         "explanation": fmt(("正確順序：{t}", "正确顺序：{t}"), t=full_text),
+        "lineIDs": all_line_ids,
     })
+    for question in questions:
+        question["rev"] = revision(question)
     return questions
 
 
@@ -217,11 +261,24 @@ def build_poem(article: dict, learning: dict, featured: list[dict]) -> dict:
                 "occurrences": occurrences,
             })
 
+    imagery = [pair(w) for w in learning.get("imagery", [])]
+    body = {k: "".join(line["text"][k] for line in lines) for k in (HANT, HANS)}
+    for word in imagery:
+        if word[HANT] not in body[HANT] or word[HANS] not in body[HANS]:
+            raise ValueError(f"{pid}: imagery {word} is not in the poem")
+    curriculum = article.get("curriculum") or {}
     poem = {
         "id": pid,
         "theme": learning["theme"],
         "scene": learning["scene"],
-        "keyStage": article["curriculum"]["key_stages"][0],
+        "pack": learning.get("pack", BASE_PACK),
+        "keyStage": (curriculum.get("key_stages") or [0])[0],
+        "difficulty": learning.get("difficulty", 1),
+        "imagery": imagery,
+        "sources": [
+            {"label": src["label"], "url": src.get("url", "")}
+            for src in article.get("sources", []) if isinstance(src.get("label"), dict)
+        ],
         "title": article["title"],
         "dynasty": article["dynasty"],
         "genre": article["genre"],
@@ -239,8 +296,67 @@ def build_poem(article: dict, learning: dict, featured: list[dict]) -> dict:
     return poem
 
 
+def build_scene_match(data: dict | None, poems_by_id: dict[str, dict]) -> dict | None:
+    """诗境配对: pick the picture that fits the lines, then the words that prove it."""
+    if not data:
+        return None
+    pictures = {p["id"]: {"id": p["id"], "describe": pair(p["describe"])} for p in data["pictures"]}
+    rounds = []
+    for r in data["rounds"]:
+        poem = poems_by_id.get(r["poemID"])
+        if poem is None:
+            raise ValueError(f"{r['id']}: unknown poem {r['poemID']}")
+        if r["answer"] not in r["pictures"] or not all(p in pictures for p in r["pictures"]):
+            raise ValueError(f"{r['id']}: pictures/answer mismatch")
+        if set(r["pictureFeedback"]) != set(r["pictures"]):
+            raise ValueError(f"{r['id']}: feedback must cover every picture")
+        evidence = r["evidence"]
+        options = [pair(o) for o in evidence["options"]]
+        order = shuffled(options, f"{r['id']}-evidence")
+        rounds.append({
+            "id": r["id"],
+            "poemID": r["poemID"],
+            "lineIDs": [poem["lines"][i]["id"] for i in r["lines"]],
+            "pictures": r["pictures"],
+            "answer": r["answer"],
+            "pictureFeedback": {k: pair(v) for k, v in r["pictureFeedback"].items()},
+            "evidence": {
+                "prompt": pair(evidence["prompt"]),
+                "options": [options[i] for i in order],
+                "answer": order.index(0),
+                "explanation": pair(evidence["explanation"]),
+            },
+        })
+    return {"theme": data["theme"], "pictures": list(pictures.values()), "rounds": rounds}
+
+
+def load_learning() -> dict:
+    """Concatenates the authored files; later files add themes, poems and 飞花令 characters."""
+    merged = {"version": None, "themes": [], "feihualing": [], "poems": [], "sceneMatch": None}
+    for path in LEARNING_FILES:
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        merged["version"] = max(filter(None, [merged["version"], data["version"]]))
+        merged["themes"] += data.get("themes", [])
+        merged["feihualing"] += [c for c in data.get("feihualing", []) if c not in merged["feihualing"]]
+        merged["poems"] += data["poems"]
+        merged["sceneMatch"] = data.get("sceneMatch") or merged["sceneMatch"]
+    return merged
+
+
+def update_review_status(poems: list[dict]) -> None:
+    """Every published poem needs a row in the review checklist; new poems start as pending review."""
+    status = json.loads(REVIEW_STATUS.read_text(encoding="utf-8")) if REVIEW_STATUS.exists() else {"poems": {}}
+    rows = status.setdefault("poems", {})
+    for poem in poems:
+        rows.setdefault(poem["id"], {"status": "pending", "textReviewed": False, "audioReviewed": False,
+                                     "reviewer": "", "note": ""})
+    REVIEW_STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
-    learning = json.loads(LEARNING.read_text(encoding="utf-8"))
+    learning = load_learning()
     articles = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(ARTICLES.glob("*.json"))]
     by_id = {a["id"]: a for a in articles}
 
@@ -249,34 +365,56 @@ def main() -> int:
         if entry["id"] not in by_id:
             raise ValueError(f"unknown poem id {entry['id']}")
         featured_articles.append(by_id[entry["id"]])
-    themes = {t["id"] for t in learning["themes"]}
+    if len({e["id"] for e in learning["poems"]}) != len(learning["poems"]):
+        raise ValueError("duplicate poem ids")
+    themes = {t["id"]: t for t in learning["themes"]}
     for entry in learning["poems"]:
         if entry["theme"] not in themes:
             raise ValueError(f"{entry['id']}: unknown theme {entry['theme']}")
 
     poems = [build_poem(a, entry, featured_articles) for a, entry in zip(featured_articles, learning["poems"])]
+    poems_by_id = {p["id"]: p for p in poems}
 
     char_map = build_char_map(articles)
     feihualing = [pair(c) for c in learning["feihualing"]]
+    base_poems = [p for p in poems if p["pack"] == BASE_PACK]
     for c in feihualing:
-        hits = sum(1 for p in poems for line in p["lines"] if c[HANS] in line["text"][HANS])
+        hits = sum(1 for p in base_poems for line in p["lines"] if c[HANS] in line["text"][HANS])
         if hits < 3:
             raise ValueError(f"飞花令 character {c[HANS]} only appears in {hits} lines")
 
-    bundle = {
-        "version": learning["version"],
-        "themes": [
-            {"id": t["id"], "name": pair(t["name"]), "badge": pair(t["badge"]), "summary": pair(t["summary"])}
-            for t in learning["themes"]
-        ],
-        "feiHuaLing": feihualing,
-        "poems": poems,
-        "hantToHans": char_map,
-    }
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(bundle, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"wrote {OUTPUT.relative_to(REPO_ROOT)}: {len(poems)} poems, "
-          f"{sum(len(p['questions']) for p in poems)} questions, {len(char_map)} char mappings")
+    scene_match = build_scene_match(learning["sceneMatch"], poems_by_id)
+    if scene_match and any(poems_by_id[r["poemID"]]["pack"] != BASE_PACK for r in scene_match["rounds"]):
+        raise ValueError("诗境配对 rounds must use base-pack poems")
+
+    PACKS_DIR.mkdir(parents=True, exist_ok=True)
+    pack_ids = sorted({p["pack"] for p in poems}, key=lambda i: (i != BASE_PACK, i))
+    for pack_id in pack_ids:
+        pack_poems = [p for p in poems if p["pack"] == pack_id]
+        theme_ids = list(dict.fromkeys(p["theme"] for p in pack_poems))
+        bundle = {
+            "formatVersion": FORMAT_VERSION,
+            "packID": pack_id,
+            "version": learning["version"],
+            "themes": [
+                {"id": t["id"], "name": pair(t["name"]), "badge": pair(t["badge"]), "summary": pair(t["summary"])}
+                for t in (themes[i] for i in theme_ids)
+            ],
+            "feiHuaLing": feihualing if pack_id == BASE_PACK else [],
+            "poems": pack_poems,
+            "hantToHans": char_map,
+            "sceneMatch": scene_match if pack_id == BASE_PACK else None,
+        }
+        text = json.dumps(bundle, ensure_ascii=False, indent=1) + "\n"
+        (PACKS_DIR / f"{pack_id}.json").write_text(text, encoding="utf-8")
+        if pack_id == BASE_PACK:
+            OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+            OUTPUT.write_text(text, encoding="utf-8")
+        print(f"pack {pack_id}: {len(pack_poems)} poems, {sum(len(p['questions']) for p in pack_poems)} questions")
+
+    update_review_status(poems)
+    print(f"wrote {OUTPUT.relative_to(REPO_ROOT)} and {len(pack_ids)} packs in {PACKS_DIR.relative_to(REPO_ROOT)}; "
+          f"{len(char_map)} char mappings")
     return 0
 
 

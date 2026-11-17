@@ -1,0 +1,86 @@
+{
+  "formatVersion": 2,
+  "packID": "base",
+  "version": "dev",
+  "themes": [
+    {
+      "id": "moon",
+      "name": {
+        "zh-Hant": "月與思鄉",
+        "zh-Hans": "月与思乡"
+      },
+      "summary": {
+        "zh-Hant": "明月",
+        "zh-Hans": "明月"
+      }
+    }
+  ],
+  "poems": [
+    {
+      "id": "hk-ks1-10",
+      "theme": "moon",
+      "title": {
+        "zh-Hant": "hk-ks1-10",
+        "zh-Hans": "hk-ks1-10"
+      },
+      "lines": [],
+      "questions": [
+        {
+          "id": "hk-ks1-10-q1",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-10-q2",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-10-q3",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-10-q4",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-10-q5",
+          "kind": "meaning"
+        }
+      ]
+    },
+    {
+      "id": "hk-ks1-09",
+      "theme": "moon",
+      "title": {
+        "zh-Hant": "hk-ks1-09",
+        "zh-Hans": "hk-ks1-09"
+      },
+      "lines": [],
+      "questions": [
+        {
+          "id": "hk-ks1-09-q1",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-09-q2",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-09-q3",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-09-q4",
+          "kind": "meaning"
+        },
+        {
+          "id": "hk-ks1-09-q5",
+          "kind": "meaning"
+        }
+      ]
+    }
+  ],
+  "hantToHans": {
+    "來": "来"
+  },
+  "sceneMatch": null
+}

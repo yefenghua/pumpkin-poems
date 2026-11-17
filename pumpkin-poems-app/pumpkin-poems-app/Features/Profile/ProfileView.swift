@@ -11,50 +11,46 @@ struct ProfileView: View {
     @Query private var attempts: [QuizAttempt]
     @Query private var mistakes: [Mistake]
     @Query private var games: [GameRecord]
-    @Query private var drafts: [PoemDraft]
+    @Query(filter: #Predicate<PoemDraft> { !$0.pendingDeletion }) private var drafts: [PoemDraft]
+    @Environment(SyncEngine.self) private var sync
+    @Environment(ProfileManager.self) private var profiles
+    @Environment(AccountStore.self) private var account
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
     private let shelfOverlap: CGFloat = 30
 
     var body: some View {
         let snapshot = LearningSnapshot(progress: progressRecords)
-        GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    scene(width: width, safeTop: safeTop)
-                    VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
-                        ThemeCollectionShelf(snapshot: snapshot)
-                        LearningStatsPanel(snapshot: snapshot)
-                        personalBests(snapshot)
-                        links
-                    }
-                    .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-                    .padding(.top, -shelfOverlap)
-                    .padding(.bottom, AppTheme.Spacing.pageBottom)
-                    .frame(maxWidth: 760)
-                    .frame(maxWidth: .infinity)
-                }
+        StorybookPage(overlap: shelfOverlap, sceneHeight: { width in
+            // About 310pt on a phone; the picture keeps its top so the title sits on the light sky.
+            min(width * 0.79, 420)
+        }, scene: { metrics in
+            scene(metrics)
+        }, content: { metrics in
+            VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
+                ThemeCollectionShelf(snapshot: snapshot)
+                LearningStatsPanel(snapshot: snapshot)
+                personalBests(snapshot)
+                links
             }
-            .ignoresSafeArea(edges: .top)
-        }
+            .storybookColumn(metrics)
+        })
         .pageBackground()
         .toolbar(.hidden, for: .navigationBar)
     }
 
     // MARK: Scene
 
-    private func scene(width: CGFloat, safeTop: CGFloat) -> some View {
-        // About 310pt on a phone; the picture keeps its top so the title sits on the light sky.
-        let height = min(width * 0.79, 420)
-        return IllustratedSceneHeader(asset: ArtworkAsset.growthScene, height: height, fade: 0.2, imageAlignment: .top) {
+    private func scene(_ metrics: StorybookMetrics) -> some View {
+        IllustratedSceneHeader(asset: ArtworkAsset.growthScene, height: metrics.sceneHeight, fade: 0.2,
+                               imageAlignment: .top, fadeEdge: metrics.fadeEdge) {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(settings.t("我的成長冊", "我的成长册"))
                         .font(AppTheme.Typography.screenTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(settings.t("每一次複習，都有收穫", "每一次复习，都有收获"))
+                    Text(account.profile(profiles.currentProfileID).map { settings.t("\($0.nickname) 的成長冊", "\($0.nickname) 的成长册") }
+                         ?? settings.t("每一次複習，都有收穫", "每一次复习，都有收获"))
                         .font(.body.weight(.medium))
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                 }
@@ -72,8 +68,8 @@ struct ProfileView: View {
                 }
                 .accessibilityLabel(settings.t("設定", "设置"))
             }
-            .padding(.top, safeTop + 12)
-            .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
+            .padding(metrics.sceneTextInsets)
+            .padding(.top, 4)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
@@ -122,7 +118,7 @@ struct ProfileView: View {
     }
 
     private var links: some View {
-        let open = mistakes.filter { !$0.isResolved }.count
+        let open = mistakes.filter { MistakeState($0, library: library).isOpen }.count
         return VStack(spacing: AppTheme.Spacing.item) {
             Button {
                 router.push(.myPoems)
@@ -144,6 +140,31 @@ struct ProfileView: View {
                     Spacer()
                     Text(settings.t("\(open) 道", "\(open) 道"))
                         .foregroundStyle(Color.chestnut)
+                    Image(systemName: "chevron.right")
+                }
+            }
+            .buttonStyle(SoftButtonStyle())
+            if let sceneMatch = library.sceneMatch {
+                Button {
+                    router.push(.sceneMatch(sceneMatch.theme))
+                } label: {
+                    HStack {
+                        Label(settings.t("詩境配對", "诗境配对"), systemImage: "photo.on.rectangle.angled")
+                        Spacer()
+                        Image(systemName: "chevron.right")
+                    }
+                }
+                .buttonStyle(SoftButtonStyle())
+            }
+            Button {
+                router.push(.parentArea)
+            } label: {
+                HStack {
+                    Label(settings.t("家長區域", "家长区域"), systemImage: "person.2")
+                    Spacer()
+                    if sync.pendingCount > 0 && !profiles.isGuest {
+                        Text(settings.t("待同步", "待同步")).foregroundStyle(Color.chestnut)
+                    }
                     Image(systemName: "chevron.right")
                 }
             }
@@ -173,19 +194,13 @@ struct ThemeCollectionShelf: View {
     @Environment(Router.self) private var router
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
 
     var body: some View {
         let themes = library.themes
         Group {
             if dynamicTypeSize.isAccessibilitySize {
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 16) {
-                        ForEach(themes) { theme in cover(theme, rotation: 0, width: 124) }
-                    }
-                    .padding(.horizontal, 4)
-                    .padding(.vertical, 12)
-                }
+                ArrowedShelf(items: themes) { theme in cover(theme, rotation: 0, width: 124) }
             } else {
                 ViewThatFits(in: .horizontal) {
                     HStack(alignment: .center, spacing: 16) {
@@ -195,13 +210,8 @@ struct ThemeCollectionShelf: View {
                     }
                     .padding(.vertical, 8)
                     .frame(maxWidth: .infinity)
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16) {
-                            ForEach(themes) { theme in cover(theme, rotation: 0, width: 108) }
-                        }
-                        .padding(.horizontal, 4)
-                        .padding(.vertical, 12)
-                    }
+                    // More covers than fit: a scrolling shelf with ← / → on the edges that still hide some.
+                    ArrowedShelf(items: themes) { theme in cover(theme, rotation: 0, width: 108) }
                 }
             }
         }

@@ -11,15 +11,16 @@ struct LibraryView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
     @Environment(\.horizontalSizeClass) private var sizeClass
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @Query private var progressRecords: [PoemProgress]
 
     @State private var query = ""
     @State private var themeID: String?
-    @State private var keyStage: Int?
+    @State private var difficulty: Int?
     @State private var authorID: String?
     @State private var statusFilter: StatusFilter = .all
 
-    private let library = PoemLibrary.shared
+    private var library: PoemLibrary { PoemLibrary.shared }
 
     var body: some View {
         let snapshot = LearningSnapshot(progress: progressRecords)
@@ -27,6 +28,7 @@ struct LibraryView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
                 themeCovers
+                ContentPacksSection()
                 filters
                 if poems.isEmpty {
                     ContentUnavailableView(settings.t("沒有找到符合的詩", "没有找到符合的诗"),
@@ -54,14 +56,15 @@ struct LibraryView: View {
         .searchable(text: $query, prompt: settings.t("搜尋詩名、詩句或詩人", "搜索诗名、诗句或诗人"))
     }
 
+    /// Two or more columns on iPad and on a phone turned sideways; one column upright.
     private var columns: [GridItem] {
-        sizeClass == .regular ? [GridItem(.adaptive(minimum: 300), spacing: 14)] : [GridItem(.flexible())]
+        sizeClass == .regular || verticalSizeClass == .compact
+            ? [GridItem(.adaptive(minimum: 300), spacing: 14)] : [GridItem(.flexible())]
     }
 
     private var themeCovers: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 12) {
-                ForEach(library.themes) { theme in
+        ArrowedShelf(items: library.themes, spacing: 12,
+                     contentInsets: EdgeInsets(top: 6, leading: 2, bottom: 6, trailing: 2)) { theme in
                     let isSelected = themeID == theme.id
                     Button {
                         themeID = isSelected ? nil : theme.id
@@ -96,9 +99,6 @@ struct LibraryView: View {
                     }
                     .buttonStyle(.plain)
                     .accessibilityAddTraits(isSelected ? .isSelected : [])
-                }
-            }
-            .padding(.vertical, 6)
         }
     }
 
@@ -106,15 +106,15 @@ struct LibraryView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
                 Menu {
-                    Picker(settings.t("難度", "难度"), selection: $keyStage) {
+                    Picker(settings.t("難度", "难度"), selection: $difficulty) {
                         Text(settings.t("全部難度", "全部难度")).tag(Int?.none)
-                        Text(settings.t("入門", "入门")).tag(Int?.some(1))
-                        Text(settings.t("進階", "进阶")).tag(Int?.some(2))
+                        ForEach(1...3, id: \.self) { level in
+                            Text(Poem.difficultyTitle(level, settings)).tag(Int?.some(level))
+                        }
                     }
                 } label: {
-                    Chip(title: keyStage == nil ? settings.t("難度", "难度")
-                         : keyStage == 1 ? settings.t("入門", "入门") : settings.t("進階", "进阶"),
-                         systemImage: "chart.bar", isSelected: keyStage != nil)
+                    Chip(title: difficulty.map { Poem.difficultyTitle($0, settings) } ?? settings.t("難度", "难度"),
+                         systemImage: "chart.bar", isSelected: difficulty != nil)
                 }
                 Menu {
                     Picker(settings.t("詩人", "诗人"), selection: $authorID) {
@@ -154,7 +154,7 @@ struct LibraryView: View {
     private func filtered(_ snapshot: LearningSnapshot) -> [Poem] {
         library.poems.filter { poem in
             if let themeID, poem.theme != themeID { return false }
-            if let keyStage, poem.keyStage != keyStage { return false }
+            if let difficulty, poem.difficulty != difficulty { return false }
             if let authorID, poem.author.id != authorID { return false }
             switch statusFilter {
             case .all: break

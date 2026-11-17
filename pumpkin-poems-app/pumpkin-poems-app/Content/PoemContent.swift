@@ -60,7 +60,14 @@ struct Poem: Decodable, Identifiable, Hashable {
     let id: String
     let theme: String
     let scene: SceneKind
+    /// Content pack the poem ships in; `base` is bundled with the app.
+    let pack: String
     let keyStage: Int
+    /// 1 easy … 3 harder.
+    let difficulty: Int
+    /// Key imagery words, each literally in the poem.
+    let imagery: [LocalizedText]
+    let sources: [ContentSource]
     let title: LocalizedText
     let dynasty: LocalizedText
     let genre: LocalizedText
@@ -76,6 +83,20 @@ struct Poem: Decodable, Identifiable, Hashable {
 
     func line(_ id: String) -> PoemLine? { lines.first { $0.id == id } }
     func question(_ id: String) -> Question? { questions.first { $0.id == id } }
+
+    /// A copy without the given (withdrawn) questions.
+    func removingQuestions(_ ids: Set<String>) -> Poem {
+        guard questions.contains(where: { ids.contains($0.id) }) else { return self }
+        return Poem(id: id, theme: theme, scene: scene, pack: pack, keyStage: keyStage, difficulty: difficulty,
+                    imagery: imagery, sources: sources, title: title, dynasty: dynasty, genre: genre, author: author,
+                    tagline: tagline, understanding: understanding, lines: lines, annotations: annotations,
+                    questions: questions.filter { !ids.contains($0.id) })
+    }
+}
+
+struct ContentSource: Decodable, Hashable {
+    let label: LocalizedText
+    let url: String
 }
 
 struct PoemAuthor: Decodable, Hashable {
@@ -117,9 +138,11 @@ struct AnnotationSpot: Decodable, Hashable {
 }
 
 struct Question: Decodable, Identifiable, Hashable {
-    enum Kind: String, Decodable {
+    enum Kind: String, Codable {
         /// 诗意理解
         case meaning
+        /// 字词理解
+        case word
         /// 诗意配对
         case match
         /// 关键词填空
@@ -141,12 +164,94 @@ struct Question: Decodable, Identifiable, Hashable {
     /// Option indices in the poem's order, for ordering questions.
     let answerOrder: [Int]?
     let explanation: LocalizedText
+    /// The lines this question is about, shown first in 错题回看.
+    let lineIDs: [String]
+    /// Content hash; changes whenever the question is revised.
+    let rev: String
+
+    var dimension: LearningDimension { kind.dimension }
+    var mistakeCategory: MistakeCategory { kind.mistakeCategory }
 }
 
+/// The two halves of a practice round. A pass needs at least one correct answer in each.
+enum LearningDimension: String, Codable, CaseIterable {
+    /// 理解
+    case understanding
+    /// 记忆
+    case memory
+}
+
+/// Why a question was missed, for 错题回看 (phase-2 §3.3).
+enum MistakeCategory: String, Codable, CaseIterable {
+    /// 字词不理解
+    case word
+    /// 诗意判断
+    case meaning
+    /// 顺序记忆
+    case order
+    /// 诗句补全
+    case completion
+}
+
+extension Question.Kind {
+    var dimension: LearningDimension {
+        switch self {
+        case .meaning, .word, .match: .understanding
+        case .fill, .next, .order: .memory
+        }
+    }
+
+    var mistakeCategory: MistakeCategory {
+        switch self {
+        case .word: .word
+        case .meaning, .match: .meaning
+        case .order: .order
+        case .fill, .next: .completion
+        }
+    }
+}
+
+/// One content pack file: the bundled `base` pack or a downloaded theme pack (formatVersion 2).
 struct PoemContent: Decodable {
+    let formatVersion: Int?
+    let packID: String?
     let version: String
     let themes: [PoemTheme]
     let feiHuaLing: [LocalizedText]
     let poems: [Poem]
     let hantToHans: [String: String]
+    let sceneMatch: SceneMatchContent?
+}
+
+// MARK: - 诗境配对
+
+/// Pick the picture that fits the lines, then the words in the lines that prove it.
+struct SceneMatchContent: Decodable, Hashable {
+    struct Picture: Decodable, Hashable, Identifiable {
+        let id: String
+        let describe: LocalizedText
+    }
+
+    struct Evidence: Decodable, Hashable {
+        let prompt: LocalizedText
+        let options: [LocalizedText]
+        let answer: Int
+        let explanation: LocalizedText
+    }
+
+    struct Round: Decodable, Hashable, Identifiable {
+        let id: String
+        let poemID: String
+        let lineIDs: [String]
+        let pictures: [String]
+        let answer: String
+        let pictureFeedback: [String: LocalizedText]
+        let evidence: Evidence
+    }
+
+    let theme: String
+    let pictures: [Picture]
+    let rounds: [Round]
+
+    func picture(_ id: String) -> Picture? { pictures.first { $0.id == id } }
 }

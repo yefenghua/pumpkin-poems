@@ -37,8 +37,10 @@ struct LearningSnapshot {
     }
 
     /// Poems due for review today. Poems with open mistakes come first, then the longest overdue.
+    /// Mistakes on withdrawn questions no longer count.
     func dueReviews(mistakes: [Mistake], now: Date) -> [Poem] {
-        let withMistakes = Set(mistakes.filter { !$0.isResolved }.map(\.poemID))
+        let withMistakes = Set(mistakes.filter { !$0.isResolved && !library.withdrawnQuestions.contains($0.questionID) }
+            .map(\.poemID))
         return progressByID.values
             .filter { progress in progress.nextReviewAt.map { $0 <= now } ?? false }
             .sorted { lhs, rhs in
@@ -56,6 +58,19 @@ struct LearningSnapshot {
         guard !candidates.isEmpty else { return nil }
         let day = Calendar.current.ordinality(of: .day, in: .era, for: now) ?? 0
         return candidates[day % candidates.count]
+    }
+
+    /// Today's plan from the goal, the due list and what was already done today.
+    func dailyPlan(goal: LearningEventPayload.Goal, mistakes: [Mistake], attempts: [QuizAttempt], now: Date,
+                   calendar: Calendar = .current) -> DailyPlan {
+        let today = calendar.startOfDay(for: now)
+        let reviewedToday = Set(attempts.filter { $0.isReview && calendar.startOfDay(for: $0.date) == today }.map(\.poemID))
+        let startedToday = progressByID.values.filter { progress in
+            progress.readAt.map { calendar.startOfDay(for: $0) == today } ?? false
+        }
+        return DailyPlan(minutes: goal.minutes, pausedOn: goal.pausedOn.map { calendar.startOfDay(for: $0) }, today: today,
+                         due: dueReviews(mistakes: mistakes, now: now).map(\.id), reviewedToday: reviewedToday.count,
+                         startedToday: startedToday.count, nextNew: nextUnstarted?.id)
     }
 
     func passedPoems(inTheme themeID: String) -> Int {

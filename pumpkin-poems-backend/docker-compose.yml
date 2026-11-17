@@ -1,0 +1,24 @@
+# Local PostgreSQL for development and the pgstore tests.
+#   docker compose up -d            (PG_PORT=55432 docker compose up -d if 5432 is taken)
+#   DATABASE_URL=postgres://pumpkin:pumpkin@localhost:5432/pumpkin?sslmode=disable go run ./cmd/server
+#   TEST_DATABASE_URL=postgres://pumpkin:pumpkin@localhost:5432/pumpkin_test?sslmode=disable go test ./...
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: pumpkin
+      POSTGRES_PASSWORD: pumpkin
+      POSTGRES_DB: pumpkin
+    ports:
+      - "${PG_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./scripts/init-test-db.sql:/docker-entrypoint-initdb.d/init-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pumpkin -d pumpkin"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  pgdata:

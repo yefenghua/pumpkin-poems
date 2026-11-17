@@ -1,0 +1,214 @@
+{
+  "poems": {
+    "hk-ks1-10": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-09": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-12": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-15": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-07": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-09": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-11": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-17": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-08": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-18": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-14": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-13": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-06": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-12": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "ext-tang-142": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "ext-tang-361": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-20": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-16": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-08": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "ext-tang-320": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "ext-tang-171": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "ext-tang-144": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-11": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks3-09": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-13": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-05": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-19": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks1-16": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-18": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    },
+    "hk-ks2-19": {
+      "status": "pending",
+      "textReviewed": false,
+      "audioReviewed": false,
+      "reviewer": "",
+      "note": ""
+    }
+  }
+}

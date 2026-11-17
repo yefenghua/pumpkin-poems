@@ -1,13 +1,20 @@
 import SwiftData
 import SwiftUI
 
-/// 我的诗集: everything written in 小小诗人, newest first. Tap to edit; long-press to delete.
+/// 我的诗集: finished pieces and autosaved drafts, newest first. Tap to edit; long-press to copy or delete.
+/// A deletion can be undone for a few seconds. Pieces are private to this learner; nothing is published.
 struct MyPoemsView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
     @Environment(\.modelContext) private var context
-    @Query(sort: \PoemDraft.updatedAt, order: .reverse) private var drafts: [PoemDraft]
+    @Query(filter: #Predicate<PoemDraft> { !$0.pendingDeletion }, sort: \PoemDraft.updatedAt, order: .reverse)
+    private var drafts: [PoemDraft]
     @State private var pendingDelete: PoemDraft?
+    @State private var undoable: PoemDraft?
+    @State private var undoTask: Task<Void, Never>?
+
+    private var finished: [PoemDraft] { drafts.filter { $0.draftStatus == .finished } }
+    private var unfinished: [PoemDraft] { drafts.filter { $0.draftStatus == .draft } }
 
     var body: some View {
         ScrollView {
@@ -16,14 +23,11 @@ struct MyPoemsView: View {
                 if drafts.isEmpty {
                     emptyState
                 } else {
-                    VStack(spacing: AppTheme.Spacing.item) {
-                        ForEach(drafts) { draft in
-                            DraftCard(draft: draft) {
-                                router.push(.poetWorkshop(.edit(draft.id)))
-                            } delete: {
-                                pendingDelete = draft
-                            }
-                        }
+                    if !unfinished.isEmpty {
+                        section(settings.t("草稿", "草稿"), unfinished)
+                    }
+                    if !finished.isEmpty {
+                        section(settings.t("完成的作品", "完成的作品"), finished)
                     }
                 }
             }
@@ -34,18 +38,83 @@ struct MyPoemsView: View {
             .frame(maxWidth: .infinity)
         }
         .pageBackground()
+        .overlay(alignment: .bottom) {
+            if let undoable {
+                undoBar(undoable)
+                    .padding(.horizontal, Metrics.pagePadding)
+                    .padding(.bottom, 12)
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.easeOut(duration: 0.2), value: undoable?.id)
         .navigationTitle(settings.t("我的詩集", "我的诗集"))
         .navigationBarTitleDisplayMode(.inline)
-        .confirmationDialog(settings.t("刪除這首作品？刪除後無法復原。", "删除这首作品？删除后无法恢复。"),
+        .confirmationDialog(settings.t("刪除這首作品？", "删除这首作品？"),
                             isPresented: Binding(get: { pendingDelete != nil }, set: { if !$0 { pendingDelete = nil } }),
                             titleVisibility: .visible) {
             Button(settings.t("刪除", "删除"), role: .destructive) {
-                if let pendingDelete {
-                    ProgressStore(context: context).deleteDraft(pendingDelete)
-                }
+                if let pendingDelete { delete(pendingDelete) }
                 pendingDelete = nil
             }
+        } message: {
+            Text(settings.t("刪除後幾秒內可以撤銷。", "删除后几秒内可以撤销。"))
         }
+        .onDisappear { finalizeDelete() }
+    }
+
+    private func section(_ title: String, _ items: [PoemDraft]) -> some View {
+        VStack(alignment: .leading, spacing: AppTheme.Spacing.item) {
+            SectionHeader(title: title)
+            ForEach(items) { draft in
+                DraftCard(draft: draft) {
+                    router.push(.poetWorkshop(.edit(draft.id)))
+                } copy: {
+                    ProgressStore(context: context).copyDraft(draft, suffix: settings.t("（副本）", "（副本）"))
+                } delete: {
+                    pendingDelete = draft
+                }
+            }
+        }
+    }
+
+    private func undoBar(_ draft: PoemDraft) -> some View {
+        HStack {
+            Text(settings.t("已刪除《\(draft.title.isEmpty ? "無題" : draft.title)》", "已删除《\(draft.title.isEmpty ? "无题" : draft.title)》"))
+                .font(.subheadline.weight(.medium))
+                .foregroundStyle(AppTheme.Colors.textPrimary)
+                .lineLimit(1)
+            Spacer()
+            Button(settings.t("撤銷", "撤销")) {
+                undoTask?.cancel()
+                ProgressStore(context: context).undoDelete(draft)
+                undoable = nil
+            }
+            .font(.subheadline.weight(.bold))
+            .foregroundStyle(AppTheme.Colors.accentOrange)
+        }
+        .padding(.horizontal, 16)
+        .frame(minHeight: 50)
+        .background(AppTheme.Colors.surfacePaper, in: Capsule())
+        .overlay(Capsule().strokeBorder(AppTheme.Colors.borderWarm, lineWidth: 1))
+        .shadow(color: AppTheme.Colors.shadow.opacity(0.15), radius: 10, y: 4)
+    }
+
+    private func delete(_ draft: PoemDraft) {
+        finalizeDelete()
+        ProgressStore(context: context).deleteDraft(draft)
+        undoable = draft
+        undoTask = Task {
+            try? await Task.sleep(for: .seconds(5))
+            guard !Task.isCancelled else { return }
+            finalizeDelete()
+        }
+    }
+
+    private func finalizeDelete() {
+        undoTask?.cancel()
+        guard undoable != nil else { return }
+        undoable = nil
+        ProgressStore(context: context).purgeDeletedDrafts()
     }
 
     private var header: some View {
@@ -56,10 +125,10 @@ struct MyPoemsView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                 VStack(alignment: .leading, spacing: 4) {
                     Text(drafts.isEmpty ? settings.t("還沒有作品", "还没有作品")
-                                        : settings.t("收藏了 \(drafts.count) 首作品", "收藏了 \(drafts.count) 首作品"))
+                                        : settings.t("收藏了 \(finished.count) 首作品", "收藏了 \(finished.count) 首作品"))
                         .font(.sectionTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(settings.t("寫下的每一首，都只保存在這部裝置上。", "写下的每一首，都只保存在这台设备上。"))
+                    Text(settings.t("作品只有你自己看得到，不會公開。", "作品只有你自己看得到，不会公开。"))
                         .font(.footnote)
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -108,6 +177,7 @@ struct MyPoemsView: View {
 struct DraftCard: View {
     let draft: PoemDraft
     var open: () -> Void
+    var copy: () -> Void
     var delete: () -> Void
 
     @Environment(AppSettings.self) private var settings
@@ -117,11 +187,15 @@ struct DraftCard: View {
         Button(action: open) {
             VStack(alignment: .leading, spacing: 10) {
                 HStack(alignment: .firstTextBaseline) {
-                    Text(draft.title)
+                    Text(draft.title.isEmpty ? settings.t("（未命名）", "（未命名）") : draft.title)
                         .font(.cardTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
                         .lineLimit(1)
                     Spacer()
+                    if draft.conflictOf != nil {
+                        Chip(title: settings.t("衝突副本", "冲突副本"))
+                    }
+                    Chip(title: draft.writingMode == .imitate ? settings.t("仿寫", "仿写") : settings.t("自由寫", "自由写"))
                     if let theme {
                         Chip(title: settings.t(theme.name))
                     }
@@ -157,9 +231,10 @@ struct DraftCard: View {
         .buttonStyle(.plain)
         .contextMenu {
             Button(action: open) { Label(settings.t("修改", "修改"), systemImage: "pencil") }
+            Button(action: copy) { Label(settings.t("複製一份", "复制一份"), systemImage: "doc.on.doc") }
             Button(role: .destructive, action: delete) { Label(settings.t("刪除", "删除"), systemImage: "trash") }
         }
         .accessibilityElement(children: .combine)
-        .accessibilityHint(settings.t("打開修改；長按可刪除", "打开修改；长按可删除"))
+        .accessibilityHint(settings.t("打開修改；長按可複製或刪除", "打开修改；长按可复制或删除"))
     }
 }
