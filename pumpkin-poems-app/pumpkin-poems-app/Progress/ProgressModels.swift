@@ -12,6 +12,21 @@ enum LearningStep: Int, Codable, Comparable {
     static func < (lhs: LearningStep, rhs: LearningStep) -> Bool { lhs.rawValue < rhs.rawValue }
 }
 
+/// Objective progress state, shared by learning plans and their presentation.
+enum PoemStatus: Int, CaseIterable, Identifiable {
+    case notStarted, read, passed, stable
+
+    var id: Int { rawValue }
+
+    init(_ progress: PoemProgress?) {
+        guard let progress else { self = .notStarted; return }
+        if progress.isStable { self = .stable }
+        else if progress.hasPassed { self = .passed }
+        else if progress.hasRead { self = .read }
+        else { self = .notStarted }
+    }
+}
+
 /// Learning record for one poem. Keyed by the stable `poemID` shared by both scripts.
 @Model
 final class PoemProgress {

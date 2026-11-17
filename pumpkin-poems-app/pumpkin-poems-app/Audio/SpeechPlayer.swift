@@ -1,72 +1,128 @@
 import AVFoundation
 import Observation
 
-/// Reads poem lines aloud in Cantonese or Mandarin and reports which line is being read,
-/// so the reading page can highlight it.
-///
-/// Phase 1 uses the system's on-device voices (works offline). Reviewed human recordings
-/// for the 12 poems can replace this later without changing callers.
-@Observable
+/// Only the immutable identity crosses executors. Retaining the utterance until the callback
+/// is handled prevents its address being reused by a newly queued utterance after stop().
+private nonisolated final class SpeechCallbackReference: @unchecked Sendable {
+    let key: ObjectIdentifier
+    private let retainedUtterance: AVSpeechUtterance
+
+    init(_ utterance: AVSpeechUtterance) {
+        key = ObjectIdentifier(utterance)
+        retainedUtterance = utterance
+    }
+}
+
+/// On-device Cantonese / Mandarin playback. Never substitutes another language silently.
+@MainActor @Observable
 final class SpeechPlayer: NSObject, AVSpeechSynthesizerDelegate {
+    enum Problem {
+        case missingVoice, audioUnavailable, didNotStart
+    }
+
     private(set) var speakingLineID: String?
     private(set) var isSpeaking = false
+    private(set) var isCheckingVoices = false
+    private(set) var availableVoices: [AVSpeechSynthesisVoice] = []
+    private(set) var completionCount = 0
+    private(set) var completedLineIDs: [String] = []
+    var lastProblem: Problem?
 
     @ObservationIgnored private let synthesizer = AVSpeechSynthesizer()
     @ObservationIgnored private var lineIDs: [ObjectIdentifier: String] = [:]
-    @ObservationIgnored private var pending = 0
+    @ObservationIgnored private var queuedLineIDs: [String] = []
+    @ObservationIgnored private var playbackID = UUID()
 
     override init() {
         super.init()
         synthesizer.delegate = self
+        refreshVoices()
     }
 
-    /// Languages that have an installed voice. Listing the voices talks to the speech service and takes
-    /// over a second on a real device the first time, so it runs once and the answer is kept for the process.
-    private static let installedLanguages: Set<String> = Set(AVSpeechSynthesisVoice.speechVoices().map(\.language))
-
-    /// Starts the one-off voice query in the background so the first poem page does not pay for it.
-    /// A plain GCD queue, not a Swift concurrency task: the voice list blocks on a sync service call, which
-    /// the runtime flags as a structural concurrency issue when it happens on the cooperative pool.
-    static func warmUp() {
-        DispatchQueue.global(qos: .utility).async { _ = installedLanguages }
+    /// Refresh after downloading a voice or returning from system settings.
+    func refreshVoices() {
+        guard !isCheckingVoices else { return }
+        isCheckingVoices = true
+        DispatchQueue.global(qos: .utility).async {
+            let voices = AVSpeechSynthesisVoice.speechVoices()
+            DispatchQueue.main.async { [self] in
+                availableVoices = voices
+                isCheckingVoices = false
+            }
+        }
     }
 
-    /// Whether the device has a voice for the language; otherwise the system default voice is used.
-    static func hasVoice(for language: VoiceLanguage) -> Bool {
-        installedLanguages.contains(language.rawValue)
+    func voice(for language: VoiceLanguage) -> AVSpeechSynthesisVoice? {
+        availableVoices.filter { language.accepts(voiceCode: $0.language) }
+            .sorted {
+                if $0.quality.rawValue != $1.quality.rawValue { return $0.quality.rawValue > $1.quality.rawValue }
+                return $0.identifier < $1.identifier
+            }.first
     }
 
-    /// Speaks the given lines in order, replacing anything currently playing.
-    func speak(_ lines: [(id: String, text: String)], language: VoiceLanguage) {
+    func hasVoice(for language: VoiceLanguage) -> Bool { voice(for: language) != nil }
+
+    @discardableResult
+    func speak(_ lines: [(id: String, text: String)], language: VoiceLanguage) -> Bool {
         stop()
-        activateAudioSession()
-        let voice = AVSpeechSynthesisVoice(language: language.rawValue)
+        lastProblem = nil
+        let lines = lines.filter { !$0.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
+        guard !lines.isEmpty else { return false }
+        guard let voice = voice(for: language) else {
+            lastProblem = .missingVoice
+            refreshVoices()
+            return false
+        }
+        do {
+            #if os(iOS) || os(visionOS)
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
+            try AVAudioSession.sharedInstance().setActive(true)
+            #endif
+        } catch {
+            lastProblem = .audioUnavailable
+            return false
+        }
+        queuedLineIDs = lines.map(\.id)
+        #if os(iOS)
+        GameFeedback.shared.speechBegan()
+        #endif
+        isSpeaking = true
+        let currentPlayback = playbackID
         for line in lines {
             let utterance = AVSpeechUtterance(string: line.text)
             utterance.voice = voice
             utterance.rate = AVSpeechUtteranceDefaultSpeechRate * 0.8
             utterance.postUtteranceDelay = 0.35
             lineIDs[ObjectIdentifier(utterance)] = line.id
-            pending += 1
             synthesizer.speak(utterance)
         }
-        isSpeaking = !lines.isEmpty
+        // A missing/unusable system voice can otherwise leave the UI playing forever.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10) { [weak self] in
+            guard let self, self.playbackID == currentPlayback, self.isSpeaking,
+                  self.speakingLineID == nil else { return }
+            self.stop()
+            self.lastProblem = .didNotStart
+        }
+        return true
     }
 
     func stop() {
-        if synthesizer.isSpeaking {
-            synthesizer.stopSpeaking(at: .immediate)
-        }
+        playbackID = UUID()
+        // Clear first: delayed callbacks from an old queue must not finish the new playback.
         lineIDs.removeAll()
-        pending = 0
+        queuedLineIDs.removeAll()
         speakingLineID = nil
         isSpeaking = false
+        synthesizer.stopSpeaking(at: .immediate)
+        deactivateAudioSession()
     }
 
-    private func activateAudioSession() {
+    private func deactivateAudioSession() {
+        #if os(iOS)
+        if GameFeedback.shared.speechEnded() { return }
+        #endif
         #if os(iOS) || os(visionOS)
-        try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
-        try? AVAudioSession.sharedInstance().setActive(true)
+        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
         #endif
     }
 
@@ -75,27 +131,35 @@ final class SpeechPlayer: NSObject, AVSpeechSynthesizerDelegate {
         speakingLineID = lineID
     }
 
-    private func didEnd(_ key: ObjectIdentifier) {
+    private func didFinish(_ key: ObjectIdentifier) {
         guard lineIDs.removeValue(forKey: key) != nil else { return }
-        pending = max(0, pending - 1)
-        if pending == 0 {
+        if lineIDs.isEmpty {
+            completedLineIDs = queuedLineIDs
+            queuedLineIDs.removeAll()
+            completionCount += 1
             speakingLineID = nil
             isSpeaking = false
+            deactivateAudioSession()
         }
     }
 
+    private func didCancel(_ key: ObjectIdentifier) {
+        guard lineIDs[key] != nil else { return }
+        stop()
+    }
+
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
-        let key = ObjectIdentifier(utterance)
-        Task { @MainActor in self.didStart(key) }
+        let reference = SpeechCallbackReference(utterance)
+        Task { @MainActor in self.didStart(reference.key) }
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        let key = ObjectIdentifier(utterance)
-        Task { @MainActor in self.didEnd(key) }
+        let reference = SpeechCallbackReference(utterance)
+        Task { @MainActor in self.didFinish(reference.key) }
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
-        let key = ObjectIdentifier(utterance)
-        Task { @MainActor in self.didEnd(key) }
+        let reference = SpeechCallbackReference(utterance)
+        Task { @MainActor in self.didCancel(reference.key) }
     }
 }

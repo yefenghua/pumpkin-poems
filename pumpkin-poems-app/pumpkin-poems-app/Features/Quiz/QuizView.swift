@@ -61,6 +61,11 @@ struct QuizView: View {
             }
         }
         .pageBackground()
+        .onAppear {
+            if case .poem(let id) = mode, PoemLibrary.shared.poem(id) != nil {
+                store.advance(id, to: .quizzing)
+            }
+        }
         #if DEBUG
         .onAppear {
             // `-demoQuizDone YES`: jump straight to the completion page with a perfect round, for screenshots.
@@ -231,6 +236,13 @@ struct QuizView: View {
                             .font(.subheadline.weight(.semibold))
                             .foregroundStyle(Color.cocoa)
                     }
+                    if !lastCorrect, question.kind == .order, let answerOrder = question.answerOrder {
+                        Text(settings.t("正確順序：", "正确顺序：") + "\n" + answerOrder.compactMap { option in
+                            question.options.indices.contains(option) ? settings.t(question.options[option]) : nil
+                        }.joined(separator: "\n"))
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(Color.cocoa)
+                    }
                     Text(settings.t(question.explanation))
                         .font(.body)
                         .lineSpacing(4)
@@ -328,7 +340,9 @@ struct QuizView: View {
         selected = nil
         order = []
         submitted = false
+        lastCorrect = false
         firstAnswers = [:]
+        retryResolved = nil
         outcome = nil
     }
 

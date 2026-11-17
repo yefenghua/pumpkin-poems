@@ -1,507 +1,422 @@
 import SwiftData
 import SwiftUI
 
-/// 单人飞花令 (P1). Entry mode picks from four lines; challenge mode types lines from memory with
-/// first-character hints and no timer. Scope is the built-in library, and lines outside it are
-/// shown as "暂未收录", never as wrong. Styled like the main screens: a scene on top, warm paper
-/// below, gold for the action and the chosen character.
+/// Six completion rounds with stable, gently falling character tokens.
 struct FeiHuaLingView: View {
-    private enum Phase {
-        case setup
-        case entry(rounds: [FeiHuaLingEngine.Round], index: Int, picked: Int?, score: Int)
-        case challenge
-        case finished(score: Int, previousBest: Int)
-
-        var isPlaying: Bool {
-            switch self {
-            case .entry, .challenge: true
-            default: false
-            }
-        }
-    }
+    private enum Phase: String { case setup, playing, finished }
 
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
+    @Environment(SpeechPlayer.self) private var speech
     @Environment(\.modelContext) private var context
-    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.scenePhase) private var scenePhase
     @Query private var records: [GameRecord]
-
     @State private var character: LocalizedText
-    @State private var mode: FeiHuaLingMode = .entry
+    @State private var game: FlyingFlowerEngine?
     @State private var phase: Phase = .setup
-    @State private var engine: FeiHuaLingEngine
-    @State private var input = ""
-    @State private var verdict: FeiHuaLingEngine.Verdict?
-    @State private var hint: String?
-    @FocusState private var inputFocused: Bool
+    @State private var field: FlyingGlyphField?
+    @State private var lastSelectionAt = ProcessInfo.processInfo.systemUptime
+    @State private var lastShakeAt = -Double.infinity
+    @State private var previousBest = 0
+    @State private var showRules = false
+    @State private var showHint = false
 
-    private let library = PoemLibrary.shared
-    /// How far the first card rides up over the scene's fade.
-    private let cardOverlap: CGFloat = 40
+    private let catalog: FlyingFlowerCatalog
+    private let recordMode = "flying"
 
     init(initialCharacter: String?) {
-        let library = PoemLibrary.shared
-        let character = library.feiHuaLingCharacters.first { $0.hans == initialCharacter }
-            ?? library.feiHuaLingCharacters[0]
-        _character = State(initialValue: character)
-        _engine = State(initialValue: FeiHuaLingEngine(character: character, poems: library.poems, normalizer: library.normalizer))
+        let corpus = GameCorpus.shared
+        let catalogue = FlyingFlowerCatalog(verses: corpus.verses, normalizer: corpus.normalizer)
+        catalog = catalogue
+        _character = State(initialValue: catalogue.characters.first {
+            $0.hans == initialCharacter || $0.hant == initialCharacter
+        } ?? catalogue.characters.first ?? LocalizedText(hant: "月", hans: "月"))
     }
 
     var body: some View {
-        GeometryReader { geo in
-            let width = geo.size.width
-            let safeTop = geo.safeAreaInsets.top
-            ScrollView {
-                VStack(spacing: 0) {
-                    scene(width: width, safeTop: safeTop)
-                    VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
-                        switch phase {
-                        case .setup:
-                            setup
-                        case let .entry(rounds, index, picked, score):
-                            entryRound(rounds: rounds, index: index, picked: picked, score: score)
-                        case .challenge:
-                            challenge
-                        case let .finished(score, previousBest):
-                            finished(score: score, previousBest: previousBest)
-                        }
-                    }
-                    .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-                    .padding(.top, -cardOverlap)
-                    .padding(.bottom, AppTheme.Spacing.pageBottom)
-                    .frame(maxWidth: 720)
-                    .frame(maxWidth: .infinity)
+        ScrollView {
+            VStack(spacing: 14) {
+                switch phase {
+                case .setup: setup
+                case .playing: playing
+                case .finished: finished
                 }
             }
-            .ignoresSafeArea(edges: .top)
-            .scrollDismissesKeyboard(.interactively)
+            .padding(16)
+            .frame(maxWidth: 620)
+            .frame(maxWidth: .infinity)
         }
         .pageBackground()
-        .toolbar(.hidden, for: .navigationBar)
+        .navigationTitle(settings.t("飛花令", "飞花令"))
+        .navigationBarTitleDisplayMode(.inline)
         .toolbar(.hidden, for: .tabBar)
-        .animation(.easeOut(duration: 0.2), value: phase.isPlaying)
-    }
-
-    // MARK: Scene
-
-    /// Spring-garden scene (pending artwork) with the back button and title; shorter while playing so
-    /// a whole question fits on one screen.
-    private func scene(width: CGFloat, safeTop: CGFloat) -> some View {
-        let height = phase.isPlaying ? min(width * 0.46, 220) : min(width * 0.62, 300)
-        return IllustratedSceneHeader(
-            asset: ArtworkAsset.gameScene,
-            height: height,
-            fade: 0.3,
-            imageAlignment: .top,
-            textScrim: AppTheme.Colors.backgroundCream.opacity(0.5),
-            pendingDelivery: true
-        ) {
-            HStack(alignment: .top, spacing: 12) {
-                Button {
-                    inputFocused = false
-                    router.pop()
-                } label: {
-                    Image(systemName: "chevron.left")
-                        .font(.body.weight(.bold))
-                        .frame(width: 40, height: 40)
-                        .background(AppTheme.Colors.surfacePaper.opacity(0.92), in: Circle())
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                HStack(spacing: 12) {
+                    GameSoundControls()
+                    Button { showRules = true } label: { Image(systemName: "questionmark.circle") }
+                        .accessibilityLabel(settings.t("玩法", "玩法"))
                 }
-                .accessibilityLabel(settings.t("返回", "返回"))
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(settings.t("飛花令", "飞花令"))
-                        .font(AppTheme.Typography.screenTitle)
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(settings.t("用學過的詩句接字", "用学过的诗句接字"))
-                        .font(.body.weight(.medium))
-                        .foregroundStyle(AppTheme.Colors.textSecondary)
-                }
-                .accessibilityElement(children: .combine)
-                .accessibilityAddTraits(.isHeader)
             }
-            .padding(.top, safeTop + 8)
-            .padding(.horizontal, width < 380 ? AppTheme.Spacing.pageCompact : AppTheme.Spacing.page)
-            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .sheet(isPresented: $showRules) {
+            NavigationStack {
+                ScrollView { rules.padding(20) }.pageBackground()
+                    .navigationTitle(settings.t("怎樣飛花", "怎样飞花"))
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar { ToolbarItem(placement: .confirmationAction) {
+                        Button(settings.t("知道了", "知道了")) { showRules = false }
+                    } }
+            }
+            .presentationDetents([.medium, .large])
+        }
+        .sheet(isPresented: $showHint, onDismiss: {
+            lastSelectionAt = ProcessInfo.processInfo.systemUptime
+        }) {
+            hintWindow
+        }
+        .background(ShakeDetector(enabled: phase == .playing && game?.resolved == false
+                                  && game?.full == false && !showRules && !showHint && scenePhase == .active,
+                                  onShake: shake).frame(width: 0, height: 0))
+        .task(id: "\(phase.rawValue)-\(game?.index ?? -1)-\(scenePhase == .active)") {
+            guard phase == .playing, scenePhase == .active else { return }
+            resetSky()
+            while !Task.isCancelled && phase == .playing {
+                try? await Task.sleep(for: .milliseconds(100))
+                guard !Task.isCancelled else { return }
+                if !showRules, !showHint, let game, !game.resolved {
+                    field?.update(at: ProcessInfo.processInfo.systemUptime, game: game)
+                }
+            }
+        }
+        .onDisappear {
+            speech.stop()
+            GameFeedback.shared.endSession()
+        }
+        .onAppear {
+            if phase == .playing { GameFeedback.shared.beginSession() }
         }
     }
-
-    // MARK: Setup
 
     private var setup: some View {
-        Group {
-            VStack(alignment: .leading, spacing: 12) {
-                HStack(alignment: .top, spacing: 10) {
-                    MascotIllustration(size: 60)
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(settings.t("今天飛哪個字？", "今天飞哪个字？"))
-                            .font(.sectionTitle)
-                            .foregroundStyle(AppTheme.Colors.textPrimary)
-                        Text(settings.t("選一個字，說出含有這個字的詩句。", "选一个字，说出含有这个字的诗句。"))
-                            .font(.subheadline)
-                            .foregroundStyle(AppTheme.Colors.textSecondary)
-                            .fixedSize(horizontal: false, vertical: true)
-                    }
+        VStack(alignment: .leading, spacing: 18) {
+            HStack(spacing: 12) {
+                MascotIllustration(size: 74)
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(settings.t("接住飄落的字，補完一句詩", "接住飘落的字，补完一句诗"))
+                        .font(.title2.bold())
+                    Text(settings.t("選一個飛字，挑戰六句。", "选一个飞字，挑战六句。"))
+                        .foregroundStyle(Color.chestnut)
                 }
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 60), spacing: 10)], spacing: 10) {
-                    ForEach(library.feiHuaLingCharacters, id: \.hans) { option in
-                        CharacterDisc(text: settings.t(option), isSelected: option == character, size: 60) {
-                            character = option
-                        }
+            }
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 4), spacing: 14) {
+                ForEach(catalog.characters, id: \.hans) { option in
+                    CharacterDisc(text: settings.t(option), isSelected: option == character, size: 58) {
+                        character = option
+                        GameFeedback.shared.play(.tap)
                     }
                 }
             }
-            .card(padding: AppTheme.Spacing.cardInset, radius: AppTheme.CornerRadius.container)
-
-            VStack(alignment: .leading, spacing: 10) {
-                PillPicker(selection: $mode, options: [
-                    (FeiHuaLingMode.entry, settings.t("入門：選一選", "入门：选一选")),
-                    (FeiHuaLingMode.challenge, settings.t("挑戰：寫一寫", "挑战：写一写")),
-                ])
-                Text(mode == .entry
-                     ? settings.t("每題四句詩，選出含有「\(character.hant)」的那一句。", "每题四句诗，选出含有“\(character.hans)”的那一句。")
-                     : settings.t("憑記憶輸入含有「\(character.hant)」的詩句，不限時，可以看首字提示。", "凭记忆输入含有“\(character.hans)”的诗句，不限时，可以看首字提示。"))
-                    .font(.subheadline)
-                    .foregroundStyle(AppTheme.Colors.textSecondary)
-                    .fixedSize(horizontal: false, vertical: true)
-                HStack(spacing: 10) {
-                    IconDisc(systemImage: "trophy.fill")
-                    Text(settings.t("個人最佳", "个人最佳"))
-                        .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Spacer()
-                    Text(settings.t("\(best(for: mode)) 分", "\(best(for: mode)) 分"))
-                        .font(.headline)
-                        .foregroundStyle(AppTheme.Colors.accentOrange)
-                }
-                .accessibilityElement(children: .combine)
-                scopeLabel
-            }
-            .card()
-
-            Button(action: start) {
-                Label(settings.t("開始", "开始"), systemImage: "play.fill")
-            }
-            .buttonStyle(PrimaryButtonStyle(showsChevron: true))
-        }
-    }
-
-    private var scopeLabel: some View {
-        Label(settings.t("本輪範圍：已學詩庫（內置 \(library.poems.count) 首）", "本轮范围：已学诗库（内置 \(library.poems.count) 首）"),
-              systemImage: "books.vertical")
-            .font(.footnote.weight(.medium))
-            .foregroundStyle(AppTheme.Colors.textSecondary)
-    }
-
-    // MARK: Entry mode
-
-    private func entryRound(rounds: [FeiHuaLingEngine.Round], index: Int, picked: Int?, score: Int) -> some View {
-        let round = rounds[index]
-        return Group {
-            VStack(alignment: .leading, spacing: 12) {
-                gameHeader(progress: settings.t("第 \(index + 1) / \(rounds.count) 題", "第 \(index + 1) / \(rounds.count) 题"), score: score)
-                Text(settings.t("選出含有「\(character.hant)」的詩句", "选出含有“\(character.hans)”的诗句"))
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(AppTheme.Colors.textPrimary)
-                VStack(spacing: AppTheme.Spacing.item) {
-                    ForEach(round.options.indices, id: \.self) { option in
-                        let state: OptionCard.State = {
-                            guard let picked else { return .normal }
-                            if option == round.answer { return .correct }
-                            return option == picked ? .needsFix : .dimmed
-                        }()
-                        Button {
-                            guard picked == nil else { return }
-                            let gained = option == round.answer ? 1 : 0
-                            phase = .entry(rounds: rounds, index: index, picked: option, score: score + gained)
-                        } label: {
-                            OptionCard(text: round.options[option].text(settings.script).withoutTrailingPunctuation, state: state)
-                        }
-                        .buttonStyle(.plain)
-                        .disabled(picked != nil)
-                    }
-                }
-            }
-            .card(padding: AppTheme.Spacing.cardInset, radius: AppTheme.CornerRadius.container)
-
-            if let picked {
-                let correctLine = round.options[round.answer]
-                VStack(alignment: .leading, spacing: 10) {
-                    Label(picked == round.answer ? settings.t("答對了！", "答对了！") : settings.t("再看看：含有「\(character.hant)」的是這句", "再看看：含有“\(character.hans)”的是这句"),
-                          systemImage: picked == round.answer ? "checkmark.circle.fill" : "arrow.uturn.backward.circle.fill")
-                        .font(.headline)
-                        .foregroundStyle(picked == round.answer ? Color.deepLeaf : Color.hintRed)
-                    sourceRow(correctLine)
-                }
-                .card(fill: picked == round.answer ? .paleGreenFill : .paleRedFill)
-
-                Button {
-                    if index + 1 < rounds.count {
-                        phase = .entry(rounds: rounds, index: index + 1, picked: nil, score: score)
-                    } else {
-                        finish(score: score)
-                    }
-                } label: {
-                    Text(index + 1 < rounds.count ? settings.t("下一題", "下一题") : settings.t("看結果", "看结果"))
-                }
-                .buttonStyle(PrimaryButtonStyle(showsChevron: true))
-            }
-        }
-    }
-
-    // MARK: Challenge mode
-
-    private var challenge: some View {
-        Group {
-            VStack(alignment: .leading, spacing: 12) {
-                gameHeader(progress: settings.t("已答 \(engine.used.count) / \(engine.validLines.count) 句", "已答 \(engine.used.count) / \(engine.validLines.count) 句"),
-                           score: engine.used.count)
-                Text(settings.t("輸入含有「\(character.hant)」的詩句", "输入含有“\(character.hans)”的诗句"))
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(AppTheme.Colors.textPrimary)
-                HStack(spacing: 10) {
-                    TextField(settings.t("例如：一整句詩", "例如：一整句诗"), text: $input)
-                        .font(.title3)
-                        .padding(.horizontal, 14)
-                        .frame(minHeight: 50)
-                        .background(AppTheme.Colors.backgroundCream, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous)
-                            .strokeBorder(inputFocused ? AppTheme.Colors.primaryGold : AppTheme.Colors.borderWarm, lineWidth: 1.5))
-                        .focused($inputFocused)
-                        .submitLabel(.done)
-                        .onSubmit(submitChallenge)
-                        .autocorrectionDisabled()
-                    Button(action: submitChallenge) {
-                        Text(settings.t("提交", "提交"))
-                    }
-                    .buttonStyle(PrimaryButtonStyle(compact: true))
-                    .disabled(input.trimmingCharacters(in: .whitespaces).isEmpty)
-                }
-                if let hint {
-                    Label(hint, systemImage: "lightbulb.fill")
-                        .font(.subheadline.weight(.medium))
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                        .padding(10)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(AppTheme.Colors.highlightCream, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                }
-                HStack(spacing: AppTheme.Spacing.item) {
-                    Button {
-                        if let line = engine.hint(), let first = line.text(settings.script).first {
-                            hint = settings.t("試試以「\(first)」開頭的詩句", "试试以“\(first)”开头的诗句")
-                        }
-                    } label: {
-                        Label(settings.t("首字提示", "首字提示"), systemImage: "lightbulb")
-                    }
-                    .buttonStyle(SoftButtonStyle(compact: true))
-                    .frame(maxWidth: .infinity)
-                    Button {
-                        finish(score: engine.used.count)
-                    } label: {
-                        Label(settings.t("結束本局", "结束本局"), systemImage: "flag.checkered")
-                    }
-                    .buttonStyle(SoftButtonStyle(compact: true))
-                    .frame(maxWidth: .infinity)
-                }
-            }
-            .card(padding: AppTheme.Spacing.cardInset, radius: AppTheme.CornerRadius.container)
-
-            if let verdict {
-                verdictCard(verdict)
-            }
-
-            if !engine.used.isEmpty {
-                VStack(alignment: .leading, spacing: 10) {
-                    SectionHeader(title: settings.t("已用過的詩句", "已用过的诗句"))
-                    ForEach(engine.used.reversed()) { line in
-                        sourceRow(line)
-                        if line != engine.used.first {
-                            Divider().overlay(AppTheme.Colors.borderWarm)
-                        }
-                    }
-                }
-                .card()
-            }
-            scopeLabel
-        }
-    }
-
-    private func verdictCard(_ verdict: FeiHuaLingEngine.Verdict) -> some View {
-        let content: (icon: String, color: Color, fill: Color, text: String, line: FeiHuaLingLine?) = {
-            switch verdict {
-            case .accepted(let line):
-                return ("checkmark.circle.fill", .deepLeaf, .paleGreenFill, settings.t("接得好！", "接得好！"), line)
-            case .alreadyUsed(let line):
-                return ("arrow.triangle.2.circlepath", .chestnut, .warmWhite, settings.t("這句已經用過了，換一句吧。", "这句已经用过了，换一句吧。"), line)
-            case .missingCharacter(let line):
-                return ("magnifyingglass", .chestnut, .warmWhite,
-                        settings.t("這句詩裏沒有「\(character.hant)」字，再想想。", "这句诗里没有“\(character.hans)”字，再想想。"), line)
-            case .notCollected:
-                return ("tray", .chestnut, .warmWhite,
-                        settings.t("暫未收錄：這句不在本輪詩庫裏，不算錯，可以換一句已學過的。", "暂未收录：这句不在本轮诗库里，不算错，可以换一句已学过的。"), nil)
-            case .empty:
-                return ("pencil", .chestnut, .warmWhite, settings.t("先輸入一句詩。", "先输入一句诗。"), nil)
-            }
-        }()
-        return VStack(alignment: .leading, spacing: 8) {
-            Label(content.text, systemImage: content.icon)
-                .font(.headline)
-                .foregroundStyle(content.color)
+            Text(settings.t("按空格的次序，接字成詩。", "按空格的次序，接字成诗。"))
+                .font(.subheadline).foregroundStyle(Color.chestnut)
                 .fixedSize(horizontal: false, vertical: true)
-            if let line = content.line {
-                sourceRow(line)
+            HStack {
+                Label(settings.t("個人最佳", "个人最佳"), systemImage: "trophy")
+                Spacer()
+                Text("\(records.filter { $0.mode == recordMode }.map(\.score).max() ?? 0) / 600")
             }
-        }
-        .card(fill: content.fill)
-    }
-
-    // MARK: Finished
-
-    private func finished(score: Int, previousBest: Int) -> some View {
-        let isRecord = score > previousBest
-        return Group {
-            VStack(spacing: 10) {
-                MascotIllustration(size: 110)
-                Text(settings.t("「\(character.hant)」字飛花令", "“\(character.hans)”字飞花令"))
-                    .font(AppTheme.Typography.label)
-                    .foregroundStyle(AppTheme.Colors.textSecondary)
-                Text(settings.t("\(score) 分", "\(score) 分"))
-                    .font(.system(size: 44, weight: .bold, design: .rounded))
-                    .foregroundStyle(AppTheme.Colors.textPrimary)
-                if isRecord {
-                    Label(settings.t("刷新個人最佳！", "刷新个人最佳！"), systemImage: "trophy.fill")
-                        .font(.headline)
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 8)
-                        .background(AppTheme.Colors.highlightCream, in: Capsule())
-                } else {
-                    Text(settings.t("個人最佳：\(previousBest) 分", "个人最佳：\(previousBest) 分"))
-                        .font(.subheadline.weight(.medium))
-                        .foregroundStyle(AppTheme.Colors.textSecondary)
-                }
-            }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 6)
-            .card(padding: AppTheme.Spacing.cardInset, radius: AppTheme.CornerRadius.container)
-            .accessibilityElement(children: .combine)
-
-            if mode == .challenge, !engine.used.isEmpty {
-                VStack(alignment: .leading, spacing: 10) {
-                    SectionHeader(title: settings.t("這局接上的詩句", "这局接上的诗句"))
-                    ForEach(engine.used) { line in
-                        sourceRow(line)
-                        if line != engine.used.last {
-                            Divider().overlay(AppTheme.Colors.borderWarm)
-                        }
-                    }
-                }
-                .card()
-            }
+            .font(.subheadline.weight(.semibold))
             Button(action: start) {
-                Label(settings.t("再來一局", "再来一局"), systemImage: "arrow.counterclockwise")
+                Label(settings.t("開始飛花", "开始飞花"), systemImage: "wind")
             }
             .buttonStyle(PrimaryButtonStyle())
-            HStack(spacing: AppTheme.Spacing.item) {
-                Button {
-                    phase = .setup
-                } label: {
-                    Text(settings.t("換一個字", "换一个字"))
-                }
-                .buttonStyle(SoftButtonStyle())
-                Button {
-                    router.pop()
-                } label: {
-                    Text(settings.t("回到今天", "回到今天"))
-                }
-                .buttonStyle(SoftButtonStyle())
-            }
+            .disabled(catalog.characters.isEmpty)
+            ScriptAndVoiceMenus()
         }
+        .card()
     }
 
-    // MARK: Pieces
+    private var rules: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text(settings.t("點選飄字，從左到右補完詩句。每局六題。", "点选飘字，从左到右补完诗句。每局六题。"))
+            Text(settings.t("搖一搖，讓更多字飄下來。", "摇一摇，让更多字飘下来。"))
+            Text(settings.t("每題100分，答錯減10分，最低20分。", "每题100分，答错减10分，最低20分。"))
+        }
+        .foregroundStyle(Color.cocoa)
+    }
 
-    private func gameHeader(progress: String, score: Int) -> some View {
-        HStack(spacing: 12) {
-            CharacterDisc(text: settings.t(character), isSelected: true, size: 48, action: nil)
-                .accessibilityLabel(settings.t("目標字：\(character.hant)", "目标字：\(character.hans)"))
-            Text(progress)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(AppTheme.Colors.textSecondary)
-            Spacer()
-            Label(settings.t("\(score) 分", "\(score) 分"), systemImage: "star.fill")
+    @ViewBuilder
+    private var playing: some View {
+        if let game, let round = game.current {
+            VStack(spacing: 12) {
+                HStack {
+                    CharacterDisc(text: settings.t(character), isSelected: true, size: 44, action: nil)
+                    Text(settings.t("第 \(game.index + 1) / 6 題", "第 \(game.index + 1) / 6 题"))
+                    Spacer()
+                    Label("\(game.score)", systemImage: "star.fill").foregroundStyle(Color.pumpkinOrange)
+                }
                 .font(.headline)
-                .foregroundStyle(AppTheme.Colors.accentOrange)
+                HStack(spacing: 5) {
+                    ForEach(0..<round.length, id: \.self) { position in
+                        let fixed = round.fixedPositions.contains(position)
+                        let hinted = game.hintPosition == position
+                        Text(game.slots(settings.script)[position] ?? "·")
+                            .font(.title2.weight(.semibold))
+                            .frame(maxWidth: .infinity, minHeight: 48)
+                            .foregroundStyle(fixed ? Color.pumpkinOrange : (hinted ? Color.deepLeaf : Color.cocoa))
+                            .background(fixed ? Color.paleGoldLine.opacity(0.55) : (hinted ? Color.deepLeaf.opacity(0.1) : Color.warmWhite),
+                                        in: RoundedRectangle(cornerRadius: 10))
+                            .overlay(RoundedRectangle(cornerRadius: 10).strokeBorder(
+                                fixed ? Color.pumpkinOrange : (hinted ? Color.deepLeaf : Color.paleGoldLine),
+                                lineWidth: fixed || hinted ? 2 : 1))
+                            .accessibilityLabel(settings.t("第\(position + 1)字", "第\(position + 1)字"))
+                            .accessibilityValue(game.slots(settings.script)[position] ?? settings.t("未填", "未填"))
+                    }
+                }
+                if !game.resolved {
+                    HStack {
+                        Text(settings.t("接字填空", "接字填空"))
+                            .font(.caption).foregroundStyle(Color.chestnut)
+                        Spacer()
+                        Button(action: openHint) {
+                            Label(settings.t("提示", "提示"), systemImage: "lightbulb")
+                        }
+                        .padding(.trailing, 12)
+                        Button(settings.t("撤回", "撤回")) { self.game?.undo(); GameFeedback.shared.play(.tap) }
+                            .disabled(game.entered.isEmpty)
+                    }
+                    .font(.subheadline.weight(.semibold))
+                }
+            }
+            .card(padding: 14)
+            if game.resolved {
+                answerFeedback(game)
+            } else {
+                sky
+                if game.verdict == .incorrect || game.verdict == .duplicate {
+                    Text(game.verdict == .duplicate
+                         ? settings.t("換一句試試。", "换一句试试。")
+                         : settings.t("再想想。", "再想想。"))
+                        .font(.subheadline).foregroundStyle(Color.hintRed)
+                }
+                HStack(spacing: 12) {
+                    Button(settings.t("跳過看答案", "跳过看答案")) {
+                        self.game?.skip(); speech.stop(); GameFeedback.shared.play(.tap)
+                    }
+                    .buttonStyle(SoftButtonStyle())
+                    Button(settings.t("提交詩句", "提交诗句")) { submit() }
+                        .buttonStyle(PrimaryButtonStyle()).disabled(!game.full)
+                }
+            }
         }
     }
 
-    /// The line with its source and a link back to the poem's explanation.
-    private func sourceRow(_ line: FeiHuaLingLine) -> some View {
-        let poem = library.poem(line.poemID)
-        return HStack(alignment: .center, spacing: 10) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(line.text(settings.script).withoutTrailingPunctuation)
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(AppTheme.Colors.textPrimary)
-                if let poem {
-                    Text("《\(settings.t(poem.title))》\(poem.byline(settings))")
-                        .font(.footnote)
-                        .foregroundStyle(AppTheme.Colors.textSecondary)
+    private var hintWindow: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    if let game, let verse = game.hintVerse {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Label(settings.t("出處", "出处"), systemImage: "book.closed")
+                                .font(.subheadline.weight(.semibold)).foregroundStyle(Color.chestnut)
+                            Text("《\(settings.t(verse.title))》")
+                                .font(.title2.bold()).foregroundStyle(Color.cocoa)
+                            Text(settings.t(verse.author))
+                                .foregroundStyle(Color.chestnut)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .card()
+                        if let letter = game.hintLetter {
+                            HStack {
+                                Label(settings.t("補字", "补字"), systemImage: "lightbulb.fill")
+                                    .foregroundStyle(Color.chestnut)
+                                Spacer()
+                                Text(settings.t(letter))
+                                    .font(.title.bold()).foregroundStyle(Color.deepLeaf)
+                                    .frame(width: 52, height: 52)
+                                    .background(Color.deepLeaf.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
+                            }
+                            .card()
+                        } else {
+                            Button(action: fillHint) {
+                                Label(settings.t("補一個字", "补一个字"), systemImage: "lightbulb.fill")
+                            }
+                            .buttonStyle(PrimaryButtonStyle())
+                            .disabled(game.full)
+                        }
+                    }
                 }
+                .padding(20)
             }
-            Spacer(minLength: 8)
-            if let poem {
-                Button {
-                    inputFocused = false
-                    router.push(.poem(poem.id))
-                } label: {
-                    Text(settings.t("看釋義", "看释义"))
-                        .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(AppTheme.Colors.accentOrange)
-                        .frame(minHeight: 44)
-                }
-                .buttonStyle(.plain)
-            }
+            .pageBackground()
+            .navigationTitle(settings.t("提示", "提示"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar { ToolbarItem(placement: .confirmationAction) {
+                Button(settings.t("繼續接字", "继续接字")) { showHint = false }
+            } }
         }
+        .presentationDetents([.medium, .large])
+        .presentationDragIndicator(.visible)
     }
 
-    // MARK: Actions
+    private var sky: some View {
+        TimelineView(.animation(minimumInterval: 1.0 / 30)) { _ in
+            GeometryReader { geo in
+                let now = ProcessInfo.processInfo.systemUptime
+                ZStack(alignment: .topLeading) {
+                    LinearGradient(colors: [Color(hex: 0xEAF4FF), Color(hex: 0xFFF9E9)], startPoint: .top, endPoint: .bottom)
+                    Image(systemName: "cloud.fill").font(.system(size: 75)).foregroundStyle(.white.opacity(0.7)).offset(x: 14, y: 20)
+                    Image(systemName: "cloud.fill").font(.system(size: 55)).foregroundStyle(.white.opacity(0.65)).offset(x: geo.size.width - 80, y: 160)
+                    if let field {
+                        ForEach(field.glyphs) { glyph in
+                            let point = field.position(of: glyph, at: now)
+                            Button { catchGlyph(glyph) } label: {
+                                Text(settings.t(glyph.text))
+                                    .font(.system(size: 25, weight: .semibold, design: .serif))
+                                    .foregroundStyle(Color.cocoa)
+                                    .frame(width: 44, height: 48)
+                                    .background(.white.opacity(0.95), in: RoundedRectangle(cornerRadius: 14))
+                                    .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(Color.paleGoldLine))
+                                    .shadow(color: Color.cocoa.opacity(0.12), radius: 4, y: 3)
+                            }
+                            .buttonStyle(.plain)
+                            .position(x: point.x, y: point.y)
+                            .disabled(game?.full == true || point.y < 24 || point.y > geo.size.height - 24)
+                            .accessibilityLabel(settings.t("接住\(settings.t(glyph.text))", "接住\(settings.t(glyph.text))"))
+                        }
+                    }
+                }
+                .clipped()
+                .contentShape(Rectangle())
+                .onAppear { configureSky(width: geo.size.width, height: geo.size.height) }
+                .onChange(of: geo.size) { _, size in configureSky(width: size.width, height: size.height) }
+                .onChange(of: reduceMotion) { _, _ in configureSky(width: geo.size.width, height: geo.size.height) }
+                .overlay(alignment: .bottom) {
+                    if now - lastSelectionAt >= 15, game?.full == false, field?.isBoosted(at: now) != true {
+                        Label(settings.t("搖一搖，掉落更多字", "摇一摇，掉落更多字"), systemImage: "iphone.radiowaves.left.and.right")
+                            .font(.caption.weight(.medium)).foregroundStyle(Color.chestnut)
+                            .padding(8).background(.regularMaterial, in: Capsule()).padding(8)
+                            .allowsHitTesting(false)
+                    }
+                }
+            }
+        }
+        .frame(height: 300)
+        .clipShape(RoundedRectangle(cornerRadius: 22))
+    }
 
-    private func best(for mode: FeiHuaLingMode) -> Int {
-        records.filter { $0.mode == mode.rawValue }.map(\.score).max() ?? 0
+    private func answerFeedback(_ game: FlyingFlowerEngine) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Label(game.verdict == .accepted ? settings.t("接得好！＋\(game.gained)分", "接得好！＋\(game.gained)分")
+                  : settings.t("記住這句，下題再來", "记住这句，下题再来"),
+                  systemImage: game.verdict == .accepted ? "checkmark.seal.fill" : "book")
+                .font(.title3.bold()).foregroundStyle(Color.deepLeaf)
+            if let verse = game.acceptedVerse {
+                Text(settings.t(verse.text)).font(.title2.weight(.semibold))
+                Text("《\(settings.t(verse.title))》 · \(settings.t(verse.author))")
+                    .font(.subheadline).foregroundStyle(Color.chestnut)
+                HStack {
+                    Button {
+                        speech.speak([(id: verse.id, text: settings.spoken(verse.text))], language: settings.voice)
+                    } label: { Label(settings.t("聽這句", "听这句"), systemImage: "speaker.wave.2") }
+                    .buttonStyle(AudioButtonStyle(compact: true))
+                    if verse.hasLearningPage {
+                        Button(settings.t("看釋義", "看释义")) { router.push(.poem(verse.poemID)) }
+                            .buttonStyle(SoftButtonStyle(compact: true))
+                    }
+                }
+            }
+            Button {
+                speech.stop()
+                if game.isLast { finish() } else { self.game?.next() }
+            } label: { Text(game.isLast ? settings.t("看成績", "看成绩") : settings.t("下一題", "下一题")) }
+                .buttonStyle(PrimaryButtonStyle(showsChevron: true))
+        }
+        .card()
+    }
+
+    private var finished: some View {
+        VStack(spacing: 18) {
+            MascotIllustration(size: 100)
+            Text(settings.t("六句飛花，完成！", "六句飞花，完成！")).font(.title2.bold())
+            Text("\(game?.score ?? 0) / 600").font(.system(size: 42, weight: .bold, design: .rounded))
+            Text(settings.t("接對 \(game?.solvedCount ?? 0) / 6 句", "接对 \(game?.solvedCount ?? 0) / 6 句"))
+                .foregroundStyle(Color.chestnut)
+            if (game?.score ?? 0) > previousBest {
+                Label(settings.t("刷新個人最佳", "刷新个人最佳"), systemImage: "trophy.fill").foregroundStyle(Color.pumpkinOrange)
+            }
+            Button(settings.t("再飛一局", "再飞一局"), action: start).buttonStyle(PrimaryButtonStyle())
+            Button(settings.t("換一個飛字", "换一个飞字")) { phase = .setup }.buttonStyle(SoftButtonStyle())
+            Button(settings.t("回到遊樂園", "回到游乐园")) { router.pop() }.buttonStyle(.borderless)
+        }
+        .frame(maxWidth: .infinity).card()
     }
 
     private func start() {
-        engine = FeiHuaLingEngine(character: character, poems: library.poems, normalizer: library.normalizer)
-        input = ""
-        verdict = nil
-        hint = nil
-        switch mode {
-        case .entry:
-            let rounds = engine.entryRounds()
-            phase = rounds.isEmpty ? .setup : .entry(rounds: rounds, index: 0, picked: nil, score: 0)
-        case .challenge:
-            phase = .challenge
-            inputFocused = true
-        }
+        let nextGame = FlyingFlowerEngine(character: character, catalog: catalog)
+        guard nextGame.rounds.count == 6 else { return }
+        game = nextGame
+        phase = .playing
+        GameFeedback.shared.beginSession()
+        GameFeedback.shared.play(.tap)
     }
 
-    private func submitChallenge() {
-        let result = engine.submit(input)
-        verdict = result
-        if case .accepted = result {
-            input = ""
-            hint = nil
-            if engine.isExhausted {
-                finish(score: engine.used.count)
-            }
-        }
+    private func configureSky(width: Double, height: Double) {
+        field = FlyingGlyphField(width: width, height: height, reduceMotion: reduceMotion)
+        field?.reset(at: ProcessInfo.processInfo.systemUptime)
     }
 
-    private func finish(score: Int) {
-        inputFocused = false
-        let previousBest = ProgressStore(context: context)
-            .recordGame(mode: mode.rawValue, character: character.hans, score: score)
-        phase = .finished(score: score, previousBest: previousBest)
+    private func resetSky() {
+        let now = ProcessInfo.processInfo.systemUptime
+        field?.reset(at: now)
+        lastSelectionAt = now
+        lastShakeAt = -.infinity
+    }
+
+    private func catchGlyph(_ glyph: FlyingGlyphField.Glyph) {
+        guard phase == .playing, !showHint, game?.resolved == false, game?.full == false,
+              let text = field?.remove(id: glyph.id), game?.enter(text) == true else { return }
+        lastSelectionAt = ProcessInfo.processInfo.systemUptime
+        GameFeedback.shared.play(.tap)
+    }
+
+    private func shake() {
+        let now = ProcessInfo.processInfo.systemUptime
+        guard phase == .playing, game?.resolved == false, game?.full == false,
+              !showRules, !showHint, scenePhase == .active, now - lastShakeAt >= 1 else { return }
+        field?.shake(at: now)
+        lastShakeAt = now
+        lastSelectionAt = now
+        GameFeedback.shared.play(.tap)
+    }
+
+    private func submit() {
+        guard let result = game?.submit() else { return }
+        lastSelectionAt = ProcessInfo.processInfo.systemUptime
+        GameFeedback.shared.play(result == .accepted ? .success : .error)
+    }
+
+    private func openHint() {
+        guard phase == .playing, game?.revealSourceHint() != nil else { return }
+        GameFeedback.shared.play(.tap)
+        showHint = true
+    }
+
+    private func fillHint() {
+        guard game?.fillHintLetter() == true else { return }
+        lastSelectionAt = ProcessInfo.processInfo.systemUptime
+        GameFeedback.shared.play(.success)
+        showHint = false
+    }
+
+    private func finish() {
+        guard phase == .playing, let game, game.isLast, game.resolved else { return }
+        previousBest = ProgressStore(context: context).recordGame(mode: recordMode, character: character.hans, score: game.score)
+        phase = .finished
+        field?.reset(at: ProcessInfo.processInfo.systemUptime)
+        GameFeedback.shared.endSession()
+        GameFeedback.shared.play(.complete)
     }
 }
 

@@ -3,7 +3,9 @@
 import Foundation
 
 var failures = 0
+var checks = 0
 func check(_ condition: Bool, _ message: String, line: Int = #line) {
+    checks += 1
     if !condition {
         failures += 1
         print("FAIL (line \(line)): \(message)")
@@ -20,7 +22,8 @@ check(normalizer.normalize("舉頭望明月") == "举头望明月", "Hant folds 
 check(normalizer.normalize(" 低头 思故乡。") == "低头思故乡", "spaces and punctuation are dropped")
 
 // Content integrity.
-check(content.poems.count == 12, "12 featured poems")
+check(content.poems.count == 12, "12 existing lessons are retained")
+check(Set(content.poems.map(\.keyStage)) == Set(1...2), "existing authored lessons retain their original primary stages")
 for poem in content.poems {
     check(poem.questions.count == 5, "\(poem.id) has 5 questions")
     for question in poem.questions {
@@ -111,8 +114,28 @@ for theme in PoetWorkshopContent.themes {
 let examples = PoetWorkshopContent.exampleLines(for: [autumn.words[0]], in: content.poems, normalizer: normalizer)
 check(!examples.isEmpty && examples.allSatisfy { normalizer.normalize($0.line.text.hans).contains("月") }, "examples contain the chosen word")
 
+runLearningRegressionChecks(content: content)
+runGameWorkshopRegressionTests(content: content, normalizer: normalizer)
+runLanguageRegressionTests()
+
+let gameURL = URL(fileURLWithPath: CommandLine.arguments[2])
+let gameContent = try JSONDecoder().decode(GameContent.self, from: Data(contentsOf: gameURL))
+let gameNormalizer = TextNormalizer(hantToHans: gameContent.hantToHans)
+check(Set(gameContent.verses.map(\.id)).count == gameContent.verses.count, "Game verse IDs unique")
+for verse in gameContent.verses {
+    check([5, 7].contains(verse.text.hans.count) && verse.text.hans.count == verse.text.hant.count,
+          "Game verse scripts aligned: \(verse.id)")
+    check(gameNormalizer.normalize(verse.text.hant) == gameNormalizer.normalize(verse.text.hans),
+          "Game verse scripts normalize identically: \(verse.id)")
+    check(!verse.title.hans.isEmpty && !verse.author.hans.isEmpty, "Game source attributed: \(verse.id)")
+}
+runFeiHuaRedesignTests(verses: gameContent.verses, normalizer: gameNormalizer)
+runVerseGridTests(verses: gameContent.verses, normalizer: gameNormalizer)
+runPoemWordleTests(verses: gameContent.verses, normalizer: gameNormalizer)
+runGameLibraryTests(content: gameContent)
+
 if failures == 0 {
-    print("All logic checks passed.")
+    print("All \(checks) logic checks passed.")
 } else {
     print("\(failures) check(s) failed.")
     exit(1)

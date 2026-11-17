@@ -1,8 +1,10 @@
 import Foundation
 
 enum FeiHuaLingMode: String, CaseIterable, Identifiable {
-    /// 入门: pick the line containing the character from four options.
+    /// Legacy selection-mode key, retained for historic records only.
     case entry
+    /// Reconstruct the verse from a companion-line clue and shuffled tiles.
+    case relay
     /// 挑战: type a line from memory, with first-character hints and no timer.
     case challenge
 
@@ -46,17 +48,39 @@ struct FeiHuaLingEngine {
     private let normalizer: TextNormalizer
 
     init(character: LocalizedText, poems: [Poem], normalizer: TextNormalizer) {
-        self.character = character
-        self.normalizer = normalizer
-        let target = normalizer.normalize(character.hans)
         let lines = poems.flatMap { poem in
             poem.lines.map { line in
                 FeiHuaLingLine(poemID: poem.id, lineID: line.id, text: line.text,
                                keys: [normalizer.normalize(line.text.hant), normalizer.normalize(line.text.hans)])
             }
         }
-        allLines = lines
-        validLines = lines.filter { line in line.keys.contains { $0.contains(target) } }
+        self.init(character: character, lines: lines, normalizer: normalizer)
+    }
+
+    init(character: LocalizedText, verses: [GameVerse], normalizer: TextNormalizer) {
+        let lines = verses.map { verse in
+            FeiHuaLingLine(poemID: verse.poemID, lineID: verse.id, text: verse.text,
+                           keys: [normalizer.normalize(verse.text.hant), normalizer.normalize(verse.text.hans)])
+        }
+        self.init(character: character, lines: lines, normalizer: normalizer)
+    }
+
+    private init(character: LocalizedText, lines: [FeiHuaLingLine], normalizer: TextNormalizer) {
+        self.character = character
+        self.normalizer = normalizer
+        let target = normalizer.normalize(character.hans)
+        // A repeated verse may belong to multiple poems. Keep one source per answer,
+        // otherwise submit() can never reach the second copy and the game cannot finish.
+        var seen: Set<String> = []
+        allLines = lines.filter { line in
+            let keys = line.keys.filter { !$0.isEmpty }
+            guard !keys.isEmpty, seen.isDisjoint(with: keys) else { return false }
+            seen.formUnion(keys)
+            return true
+        }
+        validLines = allLines.filter { line in
+            !target.isEmpty && line.keys.contains { $0.contains(target) }
+        }
     }
 
     var isExhausted: Bool { used.count >= validLines.count }
@@ -83,6 +107,7 @@ struct FeiHuaLingEngine {
     }
 
     func entryRounds<G: RandomNumberGenerator>(count: Int, using generator: inout G) -> [Round] {
+        guard count > 0 else { return [] }
         let others = allLines.filter { !validLines.contains($0) }
         guard others.count >= 3 else { return [] }
         return validLines.shuffled(using: &generator).prefix(count).enumerated().map { index, correct in

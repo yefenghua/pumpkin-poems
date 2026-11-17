@@ -56,7 +56,7 @@ struct QuizCompletionView: View {
         ) {
             HStack(alignment: .top, spacing: 12) {
                 Button {
-                    router.pop()
+                    router.returnToPoem(poem.id)
                 } label: {
                     Image(systemName: "chevron.left")
                         .font(.body.weight(.bold))
@@ -235,7 +235,7 @@ struct QuizCompletionView: View {
                     .buttonStyle(SoftButtonStyle())
                 }
                 Button {
-                    router.pop()
+                    router.returnToPoem(poem.id)
                 } label: {
                     Text(settings.t("返回詩頁", "返回诗页"))
                 }
@@ -253,7 +253,7 @@ struct QuizCompletionView: View {
         case .firstPass:
             settings.t("這次你把《\(title)》的練習都完成了！", "这次你把《\(title)》的练习都完成了！")
         case .reviewPassed:
-            settings.t("隔了一天，你還記得這首詩。", "隔了一天，你还记得这首诗。")
+            settings.t("過了一段時間，你還記得這首詩。", "过了一段时间，你还记得这首诗。")
         case .repeatedSameDay:
             settings.t("再練一次，記得更牢了。", "再练一次，记得更牢了。")
         case .failed:

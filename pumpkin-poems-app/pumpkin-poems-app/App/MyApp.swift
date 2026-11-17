@@ -6,10 +6,6 @@ import SwiftUI
     @State private var router = Router()
     @State private var speech = SpeechPlayer()
 
-    init() {
-        SpeechPlayer.warmUp()
-    }
-
     var body: some Scene {
         WindowGroup {
             RootView()
@@ -19,6 +15,7 @@ import SwiftUI
                 .environment(settings)
                 .environment(router)
                 .environment(speech)
+                .environment(\.locale, settings.locale)
                 .preferredColorScheme(.light)
         }
         .modelContainer(for: ProgressSchema.models)
@@ -28,6 +25,7 @@ import SwiftUI
 #if DEBUG
 /// Applies `-demoSeed YES`, `-demoTab …` and `-demoRoute …` once at launch.
 private struct DemoLaunchArguments: ViewModifier {
+    @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
     @Environment(\.modelContext) private var context
     @State private var applied = false
@@ -36,6 +34,11 @@ private struct DemoLaunchArguments: ViewModifier {
         content.task {
             guard !applied else { return }
             applied = true
+            switch UserDefaults.standard.string(forKey: "demoLanguage") {
+            case "cantonese": settings.applyPresentation(.cantonese)
+            case "mandarin": settings.applyPresentation(.mandarin)
+            default: break
+            }
             let store = ProgressStore(context: context)
             if UserDefaults.standard.bool(forKey: "demoSeed"), store.existingProgress(for: PoemLibrary.shared.poems[0].id) == nil {
                 store.seedDemoData()
