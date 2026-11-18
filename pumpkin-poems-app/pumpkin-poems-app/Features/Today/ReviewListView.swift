@@ -23,16 +23,11 @@ struct ReviewListView: View {
                         Text(settings.t("今天沒有要複習的詩。", "今天没有要复习的诗。"))
                             .font(.title3.weight(.semibold))
                             .foregroundStyle(Color.cocoa)
-                        Text(settings.t("學完一首詩後，貝貝會按時提醒你複習。", "学完一首诗后，贝贝会按时提醒你复习。"))
-                            .font(.subheadline)
-                            .foregroundStyle(Color.chestnut)
-                            .multilineTextAlignment(.center)
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.top, 40)
                 } else {
-                    SectionHeader(title: settings.t("今天建議複習 \(due.count) 首", "今天建议复习 \(due.count) 首"),
-                                  subtitle: settings.t("有錯題的詩排在前面", "有错题的诗排在前面"))
+                    SectionHeader(title: settings.t("待複習 \(due.count) 首", "待复习 \(due.count) 首"))
                     ForEach(due) { poem in
                         Button {
                             router.push(.quiz(poem.id))

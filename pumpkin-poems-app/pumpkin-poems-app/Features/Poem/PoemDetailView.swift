@@ -138,19 +138,11 @@ struct PoemDetailView: View {
                             .background(AppTheme.Colors.surfacePaper.opacity(0.92), in: Circle())
                             .foregroundStyle(AppTheme.Colors.textPrimary)
                     }
+                    .fixedSize()
                     .accessibilityLabel(settings.t("返回", "返回"))
 
-                    ViewThatFits(in: .horizontal) {
-                        HStack(alignment: .top, spacing: 12) {
-                            titleBlock(poem, foreground: fg, secondary: fg2)
-                            Spacer(minLength: 8)
-                            ScriptAndVoiceMenus()
-                        }
-                        VStack(alignment: .leading, spacing: 10) {
-                            titleBlock(poem, foreground: fg, secondary: fg2)
-                            ScriptAndVoiceMenus()
-                        }
-                    }
+                    titleBlock(poem, foreground: fg, secondary: fg2)
+                        .frame(maxWidth: .infinity, alignment: .leading)
 
                     Button {
                         store.toggleFavorite(poem.id)
@@ -161,6 +153,7 @@ struct PoemDetailView: View {
                             .background(AppTheme.Colors.surfacePaper.opacity(0.92), in: Circle())
                             .foregroundStyle(Color.peachPink)
                     }
+                    .fixedSize()
                     .accessibilityLabel(progress?.isFavorite == true ? settings.t("取消收藏", "取消收藏") : settings.t("收藏", "收藏"))
                 }
             }
@@ -176,6 +169,7 @@ struct PoemDetailView: View {
                 .font(AppTheme.Typography.detailTitle)
                 .foregroundStyle(foreground)
                 .lineLimit(2)
+                .fixedSize(horizontal: false, vertical: true)
             Text(poem.byline(settings))
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(secondary)
@@ -274,7 +268,7 @@ struct PoemDetailView: View {
                         .padding(.top, 2)
                 }
             } else {
-                Text(settings.t("點一句詩，貝貝陪你讀懂它在說甚麼。", "点一句诗，贝贝陪你读懂它在说什么。"))
+                Text(settings.t("點選詩句查看釋義", "点选诗句查看释义"))
                     .font(AppTheme.Typography.explanation)
                     .foregroundStyle(AppTheme.Colors.textPrimary)
             }

@@ -1,42 +1,30 @@
 import SwiftUI
-import SwiftData
 
 struct GamesHubView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(Router.self) private var router
-    @Query private var records: [GameRecord]
+
+    private let columns = [GridItem(.flexible(), spacing: 14), GridItem(.flexible(), spacing: 14)]
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 18) {
-                HStack(alignment: .top) {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text(settings.t("讓詩句，玩起來", "让诗句，玩起来"))
-                            .font(.title2.bold())
-                        Text(settings.t("回想一句、連出一句、推理一句。", "回想一句、连出一句、推理一句。"))
-                            .font(.subheadline).foregroundStyle(Color.chestnut)
-                    }
-                    Spacer()
-                    MascotIllustration(size: 70)
-                }
-                gameCard(title: settings.t("飛花令 · 飄字成詩", "飞花令 · 飘字成诗"),
-                         caption: settings.t("接住字，補成詩", "接住字，补成诗"),
-                         description: settings.t("選一個飛字，接住飄落的字補全詩句。六句一局。", "选一个飞字，接住飘落的字补全诗句。六句一局。"),
-                         icon: "sparkles", tint: .pumpkinOrange, route: .feiHuaLing(nil),
-                         result: best("flying").map { settings.t("最佳 \($0) 分", "最佳 \($0) 分") })
-                gameCard(title: settings.t("劃字尋詩", "划字寻诗"),
-                         caption: settings.t("發現 × 路徑", "发现 × 路径"),
-                         description: settings.t("在字格裏拖曳連詩，可轉彎、跨格。", "在字格里拖拽连诗，可转弯、跨格。"),
-                         icon: "square.grid.3x3", tint: .blue, route: .verseGrid,
-                         result: records.contains { $0.mode == "verse-grid" } ? settings.t("已完成過尋詩", "已完成过寻诗") : nil)
-                gameCard(title: settings.t("六輪猜詩", "六轮猜诗"),
-                         caption: settings.t("推理 × 排除", "推理 × 排除"),
-                         description: settings.t("跟著顏色線索，在六輪內猜中詩句。", "跟着颜色线索，在六轮内猜中诗句。"),
-                         icon: "rectangle.grid.3x2", tint: .green, route: .poemWordle,
-                         result: records.contains { $0.mode == "poem-wordle" && $0.score > 0 } ? settings.t("已猜中過詩句", "已猜中过诗句") : nil)
-                Text(settings.t("選自己的詩庫，玩過再聽一遍。", "选自己的诗库，玩过再听一遍。"))
-                    .font(.footnote).foregroundStyle(Color.chestnut)
-                    .fixedSize(horizontal: false, vertical: true)
+            LazyVGrid(columns: columns, alignment: .leading, spacing: 16) {
+                gameCard(
+                    title: settings.t("飛花令", "飞花令"),
+                    description: settings.t("字雨紛飛，接住散落的詩句。", "字雨纷飞，接住散落的诗句。"),
+                    screenshot: "game_flying_preview", cropTop: 0.40, route: .feiHuaLing(nil)
+                )
+                gameCard(
+                    title: settings.t("劃字尋詩", "划字寻诗"),
+                    description: settings.t("指尖轉個彎，字格裏藏著一首詩。", "指尖转个弯，字格里藏着一首诗。"),
+                    screenshot: "game_grid_preview", cropTop: 0.45, route: .verseGrid
+                )
+                gameCard(
+                    title: settings.t("六輪猜詩", "六轮猜诗"),
+                    description: settings.t("六次猜想，讓顏色揭開詩句的謎底。", "六次猜想，让颜色揭开诗句的谜底。"),
+                    screenshot: "game_wordle_preview", cropTop: 0.40, route: .poemWordle
+                )
+                comingSoonCard
             }
             .padding(16)
             .frame(maxWidth: 700)
@@ -45,37 +33,68 @@ struct GamesHubView: View {
         .pageBackground()
         .navigationTitle(settings.t("詩詞遊樂園", "诗词游乐园"))
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) { ScriptAndVoiceMenus() }
-        }
     }
 
-    private func best(_ mode: String) -> Int? { records.filter { $0.mode == mode }.map(\.score).max() }
-
-    private func gameCard(title: String, caption: String, description: String, icon: String,
-                          tint: Color, route: Route, result: String?) -> some View {
-        Button { GameFeedback.shared.play(.tap); router.push(route) } label: {
-            VStack(alignment: .leading, spacing: 12) {
-                HStack(spacing: 12) {
-                    Image(systemName: icon).font(.title2).foregroundStyle(tint)
-                        .frame(width: 46, height: 46)
-                        .background(tint.opacity(0.1), in: RoundedRectangle(cornerRadius: 14))
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(title).font(.headline).foregroundStyle(Color.cocoa)
-                        Text(caption).font(.caption.weight(.semibold)).foregroundStyle(tint)
-                    }
-                    Spacer(minLength: 0)
-                    Image(systemName: "chevron.right").foregroundStyle(Color.chestnut)
+    private func gameCard(title: String, description: String, screenshot: String, cropTop: CGFloat, route: Route) -> some View {
+        Button {
+            GameFeedback.shared.play(.tap)
+            router.push(route)
+        } label: {
+            VStack(alignment: .leading, spacing: 0) {
+                GeometryReader { geometry in
+                    Image(screenshot)
+                        .resizable()
+                        .scaledToFit()
+                        // Keep the full iPhone capture at its original aspect ratio,
+                        // then show the gameplay area within the card's viewport.
+                        .frame(width: geometry.size.width, height: geometry.size.width * 2622 / 1206)
+                        .offset(y: -geometry.size.width * cropTop)
                 }
-                Text(description).font(.subheadline).foregroundStyle(Color.chestnut)
-                    .fixedSize(horizontal: false, vertical: true)
-                if let result { Text(result).font(.caption.weight(.semibold)).foregroundStyle(tint) }
+                .aspectRatio(1.05, contentMode: .fit)
+                .clipped()
+                .accessibilityHidden(true)
+
+                cardText(title: title, description: description)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .card(padding: 16)
-            .contentShape(Rectangle())
+            .card(padding: 0)
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .contentShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         }
         .buttonStyle(.plain)
         .accessibilityElement(children: .combine)
+    }
+
+    private var comingSoonCard: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            ZStack {
+                Color.pumpkinOrange.opacity(0.07)
+                Image(systemName: "sparkles")
+                    .font(.system(size: 48, weight: .light))
+                    .foregroundStyle(Color.pumpkinOrange.opacity(0.55))
+            }
+            .aspectRatio(1.05, contentMode: .fit)
+            .accessibilityHidden(true)
+
+            cardText(title: settings.t("敬請期待", "敬请期待"), description: nil)
+        }
+        .card(padding: 0)
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .accessibilityElement(children: .combine)
+    }
+
+    private func cardText(title: String, description: String?) -> some View {
+        VStack(alignment: .leading, spacing: 7) {
+            Text(title)
+                .font(.headline)
+                .foregroundStyle(Color.cocoa)
+            if let description {
+                Text(description)
+                    .font(.subheadline)
+                    .foregroundStyle(Color.chestnut)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .frame(maxWidth: .infinity, minHeight: 85, alignment: .topLeading)
+        .padding(14)
     }
 }

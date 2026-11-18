@@ -17,10 +17,10 @@ struct GameLibraryPicker: View {
             HStack(spacing: 12) {
                 Image(systemName: "books.vertical.fill").font(.title2).foregroundStyle(Color.pumpkinOrange)
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(selected.isEmpty ? settings.t("先選擇本局詩庫", "先选择本局诗库")
+                    Text(selected.isEmpty ? settings.t("選擇詩庫", "选择诗库")
                          : settings.t("本局詩庫 · \(selected.count) 首", "本局诗库 · \(selected.count) 首"))
                         .font(.headline).foregroundStyle(Color.cocoa)
-                    Text(selected.isEmpty ? settings.t("按年級、作者、類型選，或載入我的詩庫", "按年级、作者、类型选，或载入我的诗库")
+                    Text(selected.isEmpty ? settings.t("年級 · 作者 · 詩體 · 我的詩庫", "年级 · 作者 · 诗体 · 我的诗库")
                          : selected.prefix(3).map { settings.t($0.title) }.joined(separator: "、") + (selected.count > 3 ? "…" : ""))
                         .font(.caption).foregroundStyle(Color.chestnut).multilineTextAlignment(.leading)
                 }
@@ -90,14 +90,12 @@ private struct GameLibrarySheet: View {
                     Picker(settings.t("瀏覽方式", "浏览方式"), selection: $browser) {
                         ForEach(Browser.allCases) { Text($0.title(settings)).tag($0) }
                     }
-                } footer: {
-                    Text(settings.t("可跨分類多選", "可跨分类多选"))
                 }
 
                 if !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                     Section(settings.t("搜尋結果", "搜索结果")) {
                         let results = catalog.matching(query)
-                        if results.isEmpty { Text(settings.t("沒有找到詩，試試詩名或作者。", "没有找到诗，试试诗名或作者。")) }
+                        if results.isEmpty { Text(settings.t("沒有找到相關詩詞", "没有找到相关诗词")) }
                         ForEach(results) { poemRow($0) }
                     }
                 } else if let category = browser.category {
@@ -225,7 +223,7 @@ private struct GameLibrarySheet: View {
     private var savedSection: some View {
         Section {
             if saved.isEmpty {
-                Text(settings.t("還沒有自選詩庫。先選好詩，再在下方起名儲存。", "还没有自选诗库。先选好诗，再在下方起名保存。"))
+                Text(settings.t("暫無自選詩庫", "暂无自选诗库"))
                     .foregroundStyle(Color.chestnut)
             }
             ForEach(saved) { library in

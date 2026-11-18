@@ -64,8 +64,7 @@ struct VerseGridView: View {
             NavigationStack {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
-                        Text(settings.t("從首字開始拖曳，放手提交。可轉彎、跨格；一句內每格只用一次。", "从首字开始拖拽，松手提交。可转弯、跨格；一句内每格只用一次。"))
-                        Text(settings.t("同字需用不同格。拖回上一格可退字，沿空隙移動可避開其他字。", "同字需用不同格。拖回上一格可退字，沿空隙移动可避开其他字。"))
+                        Text(settings.t("拖曳連詩，可橫豎轉彎。放手提交，拖回上一格可退字。", "拖拽连诗，可横竖转弯。松手提交，拖回上一格可退字。"))
                         Text(settings.t("依篇名線索找齊所有詩句。", "依篇名线索找齐所有诗句。"))
                     }.padding()
                 }
@@ -98,7 +97,7 @@ struct VerseGridView: View {
         VStack(alignment: .leading, spacing: 18) {
             Label(settings.t("把散落的字，連回一首詩", "把散落的字，连回一首诗"), systemImage: "hand.draw.fill")
                 .font(.title2.bold()).foregroundStyle(Color.cocoa)
-            Text(settings.t("從首字拖到末字，找齊所有詩句。", "从首字拖到末字，找齐所有诗句。"))
+            Text(settings.t("拖曳連詩，可橫豎轉彎。", "拖拽连诗，可横竖转弯。"))
                 .foregroundStyle(Color.chestnut)
             Picker(settings.t("棋盤", "棋盘"), selection: $size) {
                 Text(settings.t("輕鬆 6×6", "轻松 6×6")).tag(6)
@@ -119,7 +118,6 @@ struct VerseGridView: View {
                 Label(settings.t("開始尋詩", "开始寻诗"), systemImage: "play.fill")
             }.buttonStyle(PrimaryButtonStyle()).disabled(!canStart)
                 .accessibilityIdentifier("verse-grid.start")
-            ScriptAndVoiceMenus()
             if !message.isEmpty { Text(message).foregroundStyle(Color.hintRed) }
         }.card()
     }
@@ -144,7 +142,7 @@ struct VerseGridView: View {
                     else { confirmNewGame = true }
                 }.font(.subheadline)
             }
-            Text(settings.t("可轉彎、跨格，放手提交", "可转弯、跨格，松手提交"))
+            Text(settings.t("橫豎連詩，放手提交", "横竖连诗，松手提交"))
                 .font(.caption).foregroundStyle(Color.chestnut)
         }
     }
@@ -178,13 +176,23 @@ struct VerseGridView: View {
             .highPriorityGesture(DragGesture(minimumDistance: 0)
                 .onChanged { value in
                     guard !engine.isComplete else { return }
-                    if !isDragging { self.engine?.clearSelection(); isDragging = true; message = "" }
+                    if !isDragging {
+                        self.engine?.clearSelection()
+                        isDragging = true
+                        message = ""
+                        if let first = hitTest(value.startLocation, size: engine.puzzle.size, cellWidth: cellWidth, gap: gap) {
+                            select(first)
+                        }
+                    }
                     if let index = hitTest(value.location, size: engine.puzzle.size, cellWidth: cellWidth, gap: gap) {
                         select(index)
                     }
                 }
-                .onEnded { _ in
+                .onEnded { value in
                     guard isDragging else { return }
+                    if let last = hitTest(value.location, size: engine.puzzle.size, cellWidth: cellWidth, gap: gap) {
+                        select(last)
+                    }
                     isDragging = false
                     submit()
                 }, including: .all)
@@ -223,7 +231,16 @@ struct VerseGridView: View {
             for (offset, index) in path.enumerated() {
                 let point = CGPoint(x: CGFloat(index % size) * (cellWidth + gap) + cellWidth / 2,
                                     y: CGFloat(index / size) * (cellWidth + gap) + cellWidth / 2)
-                if offset == 0 { drawing.move(to: point) } else { drawing.addLine(to: point) }
+                if offset == 0 {
+                    drawing.move(to: point)
+                } else {
+                    let previous = path[offset - 1]
+                    if previous / size == index / size || previous % size == index % size {
+                        drawing.addLine(to: point)
+                    } else {
+                        drawing.move(to: point)
+                    }
+                }
             }
         }
     }
@@ -240,7 +257,7 @@ struct VerseGridView: View {
     private func selectionControls(_ engine: VerseGridEngine) -> some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Text(engine.selection.isEmpty ? settings.t("從第一個字開始…", "从第一个字开始…") : engine.selectedText(settings.script))
+                Text(engine.selection.isEmpty ? settings.t("當前詩句", "当前诗句") : engine.selectedText(settings.script))
                     .font(.title3.weight(.semibold)).foregroundStyle(Color.cocoa)
                     .minimumScaleFactor(0.7).lineLimit(1)
                 Spacer(minLength: 4)
@@ -256,7 +273,7 @@ struct VerseGridView: View {
                     Button {
                         hintIndex = self.engine?.revealStart()
                         GameFeedback.shared.play(.tap)
-                        message = settings.t("從橙框的字開始。", "从橙框的字开始。")
+                        message = ""
                         lastMatchedID = nil
                     } label: { Label(settings.t("提示首字", "提示首字"), systemImage: "lightbulb") }
                     Spacer()
@@ -380,10 +397,10 @@ struct VerseGridView: View {
             message = settings.t("找到了：", "找到了：") + (verse.map { settings.t($0.text) } ?? "")
         case .alreadyFound:
             GameFeedback.shared.play(.error)
-            message = settings.t("這句已找到，換一句試試。", "这句已找到，换一句试试。")
+            message = settings.t("這句已找到", "这句已找到")
         case .notTarget:
             GameFeedback.shared.play(.error)
-            message = settings.t("看看篇名線索，再試一次。", "看看篇名线索，再试一次。")
+            message = settings.t("詩句不符", "诗句不符")
         case .empty: return
         }
         if let engine, engine.isComplete, !savedResult {

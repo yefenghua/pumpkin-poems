@@ -54,9 +54,6 @@ struct ProfileView: View {
                     Text(settings.t("我的成長冊", "我的成长册"))
                         .font(AppTheme.Typography.screenTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(settings.t("每一次複習，都有收穫", "每一次复习，都有收获"))
-                        .font(.body.weight(.medium))
-                        .foregroundStyle(AppTheme.Colors.textSecondary)
                 }
                 .accessibilityElement(children: .combine)
                 .accessibilityAddTraits(.isHeader)
@@ -279,8 +276,8 @@ struct LearningStatsPanel: View {
                 }
             }
             if !snapshot.hasAnyRecord {
-                Text(settings.t("還沒有學習記錄。從「今天」開始第一首詩，這裏就會長出收穫。",
-                                "还没有学习记录。从“今天”开始第一首诗，这里就会长出收获。"))
+                Text(settings.t("還沒有學習記錄。",
+                                "还没有学习记录。"))
                     .font(.footnote)
                     .foregroundStyle(AppTheme.Colors.textSecondary)
                     .multilineTextAlignment(.center)

@@ -219,8 +219,8 @@ struct QuizCompletionView: View {
                 Button {
                     router.push(.feiHuaLing(character.hans))
                 } label: {
-                    Label(settings.t("用剛學的詩句玩「\(character.hant)」字飛花令",
-                                     "用刚学的诗句玩“\(character.hans)”字飞花令"),
+                    Label(settings.t("「\(character.hant)」字飛花令",
+                                     "“\(character.hans)”字飞花令"),
                           systemImage: "sparkles")
                 }
                 .buttonStyle(outcome.passed ? AnyButtonStyle(PrimaryButtonStyle(showsChevron: true)) : AnyButtonStyle(SoftButtonStyle()))
@@ -251,13 +251,13 @@ struct QuizCompletionView: View {
     private var headline: String {
         switch outcome.event {
         case .firstPass:
-            settings.t("這次你把《\(title)》的練習都完成了！", "这次你把《\(title)》的练习都完成了！")
+            settings.t("《\(title)》練習通過", "《\(title)》练习通过")
         case .reviewPassed:
-            settings.t("過了一段時間，你還記得這首詩。", "过了一段时间，你还记得这首诗。")
+            settings.t("複習通過", "复习通过")
         case .repeatedSameDay:
-            settings.t("再練一次，記得更牢了。", "再练一次，记得更牢了。")
+            settings.t("練習通過", "练习通过")
         case .failed:
-            settings.t("還差一點點，看看解釋再試一次。", "还差一点点，看看解释再试一次。")
+            settings.t("練習未通過", "练习未通过")
         }
     }
 

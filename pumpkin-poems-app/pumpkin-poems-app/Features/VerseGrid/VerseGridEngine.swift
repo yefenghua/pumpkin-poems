@@ -1,7 +1,7 @@
 import Foundation
 
 /// A solvable single-character board. The stored paths are generation witnesses / hints;
-/// players may use any unused cells that spell the target, including non-neighbouring cells.
+/// players may connect unused cells in the same row or column, including across gaps.
 nonisolated struct VerseGridPuzzle: Sendable {
     struct Cell: Identifiable, Hashable, Sendable {
         let id: Int
@@ -39,34 +39,60 @@ nonisolated struct VerseGridPuzzle: Sendable {
         guard pool.count >= targetCount else { return nil }
         let selected = Array(pool.shuffled(using: &generator).prefix(targetCount))
         guard selected.reduce(0, { $0 + $1.text.hans.count }) <= size * size else { return nil }
-        var board = [LocalizedText?](repeating: nil, count: size * size)
-        var targets: [Target] = []
-        var unused = Set(board.indices)
+        var paths: [[Int]] = []
+        var unused = Set(0..<(size * size))
         for verse in selected {
             let count = verse.text.hans.count
-            // Prefer winding, continuous paths so dragging is comfortable. Cross-grid jumps
-            // are also legal, and guarantee placement if remaining spaces are fragmented.
+            // Nearby horizontal/vertical turns make each answer comfortable to drag.
             var path: [Int] = []
             for _ in 0..<80 {
+                if Task<Never, Never>.isCancelled { return nil }
                 guard let first = unused.sorted().randomElement(using: &generator) else { break }
                 var candidate = [first]
                 while candidate.count < count {
                     let last = candidate.last!
                     let neighbours = unused.filter {
-                        !candidate.contains($0) && abs($0 / size - last / size) <= 1
-                            && abs($0 % size - last % size) <= 1
+                        !candidate.contains($0) && abs($0 / size - last / size)
+                            + abs($0 % size - last % size) == 1
                     }.sorted()
                     guard let next = neighbours.randomElement(using: &generator) else { break }
                     candidate.append(next)
                 }
                 if candidate.count == count { path = candidate; break }
             }
-            if path.isEmpty { path = Array(unused.sorted().shuffled(using: &generator).prefix(count)) }
-            guard path.count == count else { return nil }
+            if path.isEmpty { break }
+            paths.append(path)
+            unused.subtract(path)
+        }
+        if paths.count != selected.count {
+            // Fragmented leftovers cannot justify a diagonal. Re-layout every answer
+            // along one continuous snake, with a random orientation and starting offset.
+            // Any set of lengths fitting the board is therefore always placeable.
+            let transpose = Bool.random(using: &generator)
+            let flipRows = Bool.random(using: &generator)
+            let flipColumns = Bool.random(using: &generator)
+            let snake = (0..<(size * size)).map { index in
+                var row = index / size
+                var column = row.isMultiple(of: 2) ? index % size : size - 1 - index % size
+                if transpose { swap(&row, &column) }
+                if flipRows { row = size - 1 - row }
+                if flipColumns { column = size - 1 - column }
+                return row * size + column
+            }
+            let needed = selected.reduce(0) { $0 + $1.text.hans.count }
+            var offset = Int.random(in: 0...(size * size - needed), using: &generator)
+            paths = selected.map { verse in
+                let end = offset + verse.text.hans.count
+                defer { offset = end }
+                return Array(snake[offset..<end])
+            }
+        }
+        var board = [LocalizedText?](repeating: nil, count: size * size)
+        var targets: [Target] = []
+        for (verse, path) in zip(selected, paths) {
             let hant = Array(verse.text.hant), hans = Array(verse.text.hans)
             for (position, index) in path.enumerated() {
                 board[index] = LocalizedText(hant: String(hant[position]), hans: String(hans[position]))
-                unused.remove(index)
             }
             targets.append(Target(verse: verse, path: path))
         }
@@ -111,7 +137,9 @@ nonisolated struct VerseGridEngine {
             return .backtracked
         }
         guard !selection.contains(index), selection.count < longestTarget else { return .ignored }
-        // Intentionally no adjacency constraint: curved and cross-grid paths are allowed.
+        if let last = selection.last {
+            guard last / puzzle.size == index / puzzle.size || last % puzzle.size == index % puzzle.size else { return .ignored }
+        }
         selection.append(index)
         return .added
     }

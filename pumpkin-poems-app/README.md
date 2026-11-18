@@ -11,7 +11,7 @@ See [the Chinese demo guide](../docs/demo-guide.md) for a 5–6 minute learning 
 ./pumpkin-poems-app/scripts/demo.sh mandarin   # Simplified UI + Mandarin voice
 ```
 
-The launcher builds, installs and opens a regular, non-folding iPhone simulator without erasing saved records. Use `--help` for direct routes, a specific simulator, sample data and reusing a build. In the app, 我的 → 设置 includes one-tap language presets, individual text/voice settings and both voice previews. Download the requested system voices before an offline demonstration; unavailable voices show a visible message and never silently substitute another language. Test actual audio output on the presentation device.
+The launcher builds, installs and opens a regular, non-folding iPhone simulator without erasing saved records. Use `--help` for direct routes, a specific simulator, sample data and reusing a build. After the first-run language choice, all language and Traditional/Simplified script controls live in 我的 → 设置, alongside both voice previews. The settings include language presets and independent text/voice choices. Download the requested system voices before an offline demonstration; unavailable voices show a visible message and never silently substitute another language. Test actual audio output on the presentation device.
 
 ## What's in it
 
@@ -20,13 +20,14 @@ The launcher builds, installs and opens a regular, non-folding iPhone simulator 
 | 首次设置 | Choose Primary 1–6 or Secondary 1–6 and Cantonese/Mandarin; editable later in Settings |
 | 今天 | Grade-based plan with progress, continue learning (reading / recitation / quiz), scoped due reviews, and three poetry games. Years share their source curriculum stage; changing grade keeps saved records |
 | 诗库 | 12 existing poems in 3 themes; search titles, lines and poets in either script; filters for theme, difficulty, poet, learning state, favorites |
-| 古诗详情 | Tap a line for 读懂这句 / 再想一想; tap dotted terms for word notes; 全诗理解; separate 繁简 and 粤普 menus |
+| 古诗详情 | Tap a line for 读懂这句 / 再想一想; tap dotted terms for word notes; 全诗理解; uses the text and voice preferences chosen in Settings |
 | 朗读 | Whole poem or single line, current line highlighted. Uses on-device zh-HK / zh-CN voices until reviewed recordings exist |
 | 背诵 | 完整 → 隐关键字 → 显首字 → 全隐藏, per-line hints, 「我记住了」 recorded as self-assessment only |
 | 小测 | 5 questions per poem (诗意理解, 诗意配对, 关键字填空, 上下句, 排序), explanation after submit, tap-to-order |
 | 复习 | First pass → review on day 1, 3, 7, 14, 30; mistakes or failure bring it forward to tomorrow (`Progress/ReviewScheduler.swift`) |
+| 诗词游乐园 | A 2×2 grid: three playable cards preview the actual game screens; the fourth is a non-playable 敬请期待 card |
 | 飞花令 · 飘字成诗 | Pick a concrete image such as 月、花、水. Six masked verses per game: the chosen character stays visible, and players catch drifting characters to fill the remaining slots in order. A sparse, varied field grows temporarily after a shake. Visible characters are unique and never overlap; tapping only removes its token, and an incorrect submission clears the editable slots. Other real verses matching the mask also count; a verse can score only once per game |
-| 划字寻诗 | Choose a challenge library, then drag through cells to form complete verses. Turns and cross-grid jumps are allowed, with each cell used at most once per answer. Release to submit; optional character speech |
+| 划字寻诗 | Choose a challenge library, then drag horizontally or vertically through cells to form complete verses. Turns and jumps within the same row or column are allowed; diagonal connections are rejected. Each cell is used at most once per answer. Release to submit; optional character speech |
 | 六轮猜诗 | Choose a challenge library and five/seven characters. Four/five poems supply candidates; three/four share a character. The keyboard has 20–30 unique characters. Only complete verses in the chosen library are accepted; invalid input costs no turn. Six attempts with frequency-aware green/yellow/grey feedback |
 | 我的诗库 | Select by curriculum stage, author or verse form, or choose individual poems. Save named collections for later games. Both games validate the selected library before enabling Start |
 | 游戏声音 | Original looping background music, tap/success/error/completion sounds and haptics, enabled by default with independent controls. Music becomes quieter during speech and pauses in the background |

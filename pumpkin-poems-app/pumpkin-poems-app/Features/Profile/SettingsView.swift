@@ -36,8 +36,7 @@ struct SettingsView: View {
                 .accessibilityIdentifier("presentation.mandarin")
             } header: {
                 Text(settings.t("學習語言", "学习语言"))
-            } footer: {
-                Text(settings.t("同時切換介面文字與朗讀語言。", "同时切换界面文字与朗读语言。"))
+
             }
             Section {
                 Picker(settings.t("文字", "文字"), selection: $settings.script) {
@@ -56,8 +55,7 @@ struct SettingsView: View {
                 }
             } header: {
                 Text(settings.t("文字與朗讀", "文字与朗读"))
-            } footer: {
-                Text(settings.t("文字與朗讀語言可分別選擇。", "文字与朗读语言可分别选择。"))
+
             }
 
             Section {
@@ -88,8 +86,7 @@ struct SettingsView: View {
                 }
             } header: {
                 Text(settings.t("朗讀試聽", "朗读试听"))
-            } footer: {
-                Text(settings.t("請先逐一試聽，確認裝置音量和喇叭輸出。語音資源下載完成後可離線朗讀。", "请先逐一试听，确认设备音量和扬声器输出。语音资源下载完成后可离线朗读。"))
+
             }
 
             Section(settings.t("詩句字號", "诗句字号")) {

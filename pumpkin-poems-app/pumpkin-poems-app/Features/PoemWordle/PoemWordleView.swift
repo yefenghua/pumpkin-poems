@@ -36,9 +36,6 @@ struct PoemWordleView: View {
                     } else {
                         keyboard(game)
                         actions(game)
-                        Text(settings.t("輸入所選詩庫中的完整詩句。", "输入所选诗库中的完整诗句。"))
-                            .font(.caption).foregroundStyle(Color.chestnut)
-                            .frame(maxWidth: .infinity, alignment: .leading)
                     }
                 } else {
                     setup
@@ -90,8 +87,6 @@ struct PoemWordleView: View {
                 VStack(alignment: .leading, spacing: 5) {
                     Text(settings.t("六次機會，猜出一句詩", "六次机会，猜出一句诗"))
                         .font(.title2.bold())
-                    Text(settings.t("用顏色線索推理，越猜越接近。", "用颜色线索推理，越猜越接近。"))
-                        .font(.subheadline).foregroundStyle(Color.chestnut)
                 }
             }
             Picker(settings.t("詩句長度", "诗句长度"), selection: $length) {
@@ -100,7 +95,7 @@ struct PoemWordleView: View {
             }
             .pickerStyle(.segmented)
             .accessibilityIdentifier("wordle.length")
-            Text(settings.t("輸入所選詩庫中的完整詩句，依照顏色線索，在六輪內猜中謎底。", "输入所选诗库中的完整诗句，依照颜色线索，在六轮内猜中谜底。"))
+            Text(settings.t("從候選字中輸入所選詩庫的詩句。", "从候选字中输入所选诗库的诗句。"))
                 .font(.subheadline).foregroundStyle(Color.chestnut)
             GameLibraryPicker(selection: $selectedPoemIDs)
             if preparing {
@@ -115,7 +110,6 @@ struct PoemWordleView: View {
             .buttonStyle(PrimaryButtonStyle())
             .disabled(!canStart)
             .accessibilityIdentifier("wordle.start")
-            ScriptAndVoiceMenus()
         }
         .card()
     }
@@ -257,8 +251,8 @@ struct PoemWordleView: View {
 
     private func result(_ game: PoemWordleEngine) -> some View {
         VStack(alignment: .leading, spacing: 14) {
-            Label(game.won ? settings.t("\(game.guesses.count) 輪猜中了！", "\(game.guesses.count) 轮猜中了！")
-                  : settings.t("六輪結束，一起揭曉", "六轮结束，一起揭晓"),
+            Label(game.won ? settings.t("\(game.guesses.count) 輪猜中", "\(game.guesses.count) 轮猜中")
+                  : settings.t("六輪已用完", "六轮已用完"),
                   systemImage: game.won ? "checkmark.seal.fill" : "book.fill")
                 .font(.title3.bold()).foregroundStyle(game.won ? Color.deepLeaf : Color.cocoa)
             Text(settings.t(game.puzzle.answer.text)).font(.title2.weight(.semibold))

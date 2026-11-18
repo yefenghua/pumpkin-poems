@@ -131,11 +131,7 @@ struct TodayView: View {
                     Text(settings.t("今天", "今天"))
                         .font(AppTheme.Typography.screenTitle)
                     Spacer(minLength: 12)
-                    ScriptAndVoiceMenus()
                 }
-                Text(settings.t("和貝貝一起，\n讀懂一首詩", "和贝贝一起，\n读懂一首诗"))
-                    .font(AppTheme.Typography.heroLead)
-                    .lineSpacing(3)
             }
             .foregroundStyle(theme.foreground)
             .shadow(color: light ? Color.black.opacity(0.25) : Color.white.opacity(0.6), radius: 2, y: 1)
@@ -288,16 +284,14 @@ struct ContinueLearningCard: View {
                 Text(settings.t("本學段練習完成", "本学段练习完成"))
                     .font(AppTheme.Typography.label)
                     .foregroundStyle(AppTheme.Colors.textSecondary)
-                Text(settings.t("\(planTotalCount) 首詩都練習通過了！", "\(planTotalCount) 首诗都练习通过了！"))
+                Text(settings.t("已完成 \(planTotalCount) 首詩", "已完成 \(planTotalCount) 首诗"))
                     .font(AppTheme.Typography.cardPoemTitle)
                     .foregroundStyle(AppTheme.Colors.textPrimary)
                     .minimumScaleFactor(0.7)
-                Text(settings.t("按時複習，讓記憶更穩。", "按时复习，让记忆更稳。"))
-                    .foregroundStyle(AppTheme.Colors.textSecondary)
                 Button {
                     router.selectedTab = .me
                 } label: {
-                    Text(settings.t("看看成長冊", "看看成长册"))
+                    Text(settings.t("成長冊", "成长册"))
                 }
                 .buttonStyle(PrimaryButtonStyle(showsChevron: true))
                 .padding(.top, 8)

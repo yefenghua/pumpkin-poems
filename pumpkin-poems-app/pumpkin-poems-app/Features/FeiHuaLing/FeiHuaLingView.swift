@@ -106,7 +106,7 @@ struct FeiHuaLingView: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(settings.t("接住飄落的字，補完一句詩", "接住飘落的字，补完一句诗"))
                         .font(.title2.bold())
-                    Text(settings.t("選一個飛字，挑戰六句。", "选一个飞字，挑战六句。"))
+                    Text(settings.t("選一個飛字，每局六句。", "选一个飞字，每局六句。"))
                         .foregroundStyle(Color.chestnut)
                 }
             }
@@ -118,9 +118,6 @@ struct FeiHuaLingView: View {
                     }
                 }
             }
-            Text(settings.t("按空格的次序，接字成詩。", "按空格的次序，接字成诗。"))
-                .font(.subheadline).foregroundStyle(Color.chestnut)
-                .fixedSize(horizontal: false, vertical: true)
             HStack {
                 Label(settings.t("個人最佳", "个人最佳"), systemImage: "trophy")
                 Spacer()
@@ -132,7 +129,6 @@ struct FeiHuaLingView: View {
             }
             .buttonStyle(PrimaryButtonStyle())
             .disabled(catalog.characters.isEmpty)
-            ScriptAndVoiceMenus()
         }
         .card()
     }
@@ -140,7 +136,7 @@ struct FeiHuaLingView: View {
     private var rules: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text(settings.t("點選飄字，從左到右補完詩句。每局六題。", "点选飘字，从左到右补完诗句。每局六题。"))
-            Text(settings.t("搖一搖，讓更多字飄下來。", "摇一摇，让更多字飘下来。"))
+            Text(settings.t("搖一搖可增加飄字。", "摇一摇可增加飘字。"))
             Text(settings.t("每題100分，答錯減10分，最低20分。", "每题100分，答错减10分，最低20分。"))
         }
         .foregroundStyle(Color.cocoa)
@@ -196,8 +192,8 @@ struct FeiHuaLingView: View {
                 sky
                 if game.verdict == .incorrect || game.verdict == .duplicate {
                     Text(game.verdict == .duplicate
-                         ? settings.t("換一句試試。", "换一句试试。")
-                         : settings.t("再想想。", "再想想。"))
+                         ? settings.t("這句已用過", "这句已用过")
+                         : settings.t("詩句不符", "诗句不符"))
                         .font(.subheadline).foregroundStyle(Color.hintRed)
                 }
                 HStack(spacing: 12) {
@@ -308,8 +304,8 @@ struct FeiHuaLingView: View {
 
     private func answerFeedback(_ game: FlyingFlowerEngine) -> some View {
         VStack(alignment: .leading, spacing: 14) {
-            Label(game.verdict == .accepted ? settings.t("接得好！＋\(game.gained)分", "接得好！＋\(game.gained)分")
-                  : settings.t("記住這句，下題再來", "记住这句，下题再来"),
+            Label(game.verdict == .accepted ? settings.t("答對，＋\(game.gained)分", "答对，＋\(game.gained)分")
+                  : settings.t("本題答案", "本题答案"),
                   systemImage: game.verdict == .accepted ? "checkmark.seal.fill" : "book")
                 .font(.title3.bold()).foregroundStyle(Color.deepLeaf)
             if let verse = game.acceptedVerse {
@@ -339,7 +335,7 @@ struct FeiHuaLingView: View {
     private var finished: some View {
         VStack(spacing: 18) {
             MascotIllustration(size: 100)
-            Text(settings.t("六句飛花，完成！", "六句飞花，完成！")).font(.title2.bold())
+            Text(settings.t("本局完成", "本局完成")).font(.title2.bold())
             Text("\(game?.score ?? 0) / 600").font(.system(size: 42, weight: .bold, design: .rounded))
             Text(settings.t("接對 \(game?.solvedCount ?? 0) / 6 句", "接对 \(game?.solvedCount ?? 0) / 6 句"))
                 .foregroundStyle(Color.chestnut)

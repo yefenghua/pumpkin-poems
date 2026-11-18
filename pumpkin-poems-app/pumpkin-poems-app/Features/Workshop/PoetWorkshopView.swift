@@ -105,8 +105,8 @@ struct PoetWorkshopView: View {
                     Text(settings.t("小小詩人", "小小诗人"))
                         .font(AppTheme.Typography.screenTitle)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
-                    Text(editingID == nil ? settings.t("用學過的意象，寫自己的詩", "用学过的意象，写自己的诗")
-                                          : settings.t("修改我的作品", "修改我的作品"))
+                    Text(editingID == nil ? settings.t("新作品", "新作品")
+                                          : settings.t("修改作品", "修改作品"))
                         .font(.body.weight(.medium))
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                 }
@@ -162,8 +162,7 @@ struct PoetWorkshopView: View {
 
     private var themeStep: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: settings.t("今天想寫什麼？", "今天想写什么？"),
-                          subtitle: settings.t("選一個主題，貝貝會給你一些意象。", "选一个主题，贝贝会给你一些意象。"))
+            SectionHeader(title: settings.t("選擇主題", "选择主题"))
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 150), spacing: AppTheme.Spacing.item)], spacing: AppTheme.Spacing.item) {
                 ForEach(PoetWorkshopContent.themes) { item in
                     let selected = item.id == themeID
@@ -213,7 +212,7 @@ struct PoetWorkshopView: View {
                             .font(.headline)
                             .foregroundStyle(AppTheme.Colors.textPrimary)
                             .fixedSize(horizontal: false, vertical: true)
-                        Text(settings.t("選 1 到 \(maxWords) 個意象，放進你的詩裏。", "选 1 到 \(maxWords) 个意象，放进你的诗里。"))
+                        Text(settings.t("選擇 1–\(maxWords) 個意象", "选择 1–\(maxWords) 个意象"))
                             .font(.subheadline)
                             .foregroundStyle(AppTheme.Colors.textSecondary)
                     }
@@ -287,7 +286,7 @@ struct PoetWorkshopView: View {
             .card(padding: AppTheme.Spacing.cardInset, radius: AppTheme.CornerRadius.container)
 
             VStack(alignment: .leading, spacing: 10) {
-                Label(settings.t("可以借用的句式", "可以借用的句式"), systemImage: "text.quote")
+                Label(settings.t("句式參考", "句式参考"), systemImage: "text.quote")
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(AppTheme.Colors.textSecondary)
                 FlowLayout(spacing: 8, lineSpacing: 8) {
@@ -297,7 +296,7 @@ struct PoetWorkshopView: View {
                 }
                 if !examples.isEmpty {
                     Divider().overlay(AppTheme.Colors.borderWarm)
-                    Label(settings.t("詩人是這樣寫的", "诗人是这样写的"), systemImage: "book")
+                    Label(settings.t("詩句參考", "诗句参考"), systemImage: "book")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                     ForEach(examples, id: \.line.id) { example in
@@ -342,7 +341,7 @@ struct PoetWorkshopView: View {
             .card()
 
             VStack(alignment: .leading, spacing: 12) {
-                SectionHeader(title: settings.t("給作品起個名字", "给作品起个名字"))
+                SectionHeader(title: settings.t("作品名稱", "作品名称"))
                 TextField(PoetWorkshopCheck.suggestedTitle(from: activeLines, normalizer: library.normalizer)
                               .nilIfEmpty ?? settings.t("作品名", "作品名"), text: $title)
                     .font(.title3.weight(.semibold))
@@ -364,7 +363,7 @@ struct PoetWorkshopView: View {
                 .background(AppTheme.Colors.surfacePaper, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                 .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(AppTheme.Colors.borderWarm, lineWidth: 1))
                 Button(action: save) {
-                    Label(editingID == nil ? settings.t("收進我的詩集", "收进我的诗集") : settings.t("保存修改", "保存修改"),
+                    Label(editingID == nil ? settings.t("保存作品", "保存作品") : settings.t("保存修改", "保存修改"),
                           systemImage: "books.vertical.fill")
                 }
                 .buttonStyle(PrimaryButtonStyle())
@@ -391,7 +390,7 @@ struct PoetWorkshopView: View {
     private func savedCard(_ savedTitle: String) -> some View {
         VStack(spacing: 12) {
             MascotIllustration(size: 100)
-            Text(settings.t("《\(savedTitle)》已收進我的詩集", "《\(savedTitle)》已收进我的诗集"))
+            Text(settings.t("《\(savedTitle)》已保存", "《\(savedTitle)》已保存"))
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(AppTheme.Colors.textPrimary)
                 .multilineTextAlignment(.center)

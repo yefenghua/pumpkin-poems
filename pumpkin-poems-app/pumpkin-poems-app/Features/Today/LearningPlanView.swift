@@ -93,7 +93,7 @@ struct LearningPlanView: View {
                      detail: settings.t("讀詩意、練背誦、做小測", "读诗意、练背诵、做小测"),
                      action: settings.t("開始學習", "开始学习"), route: .poem(poem.id))
         } else if snapshot.isPlanComplete {
-            Label(settings.t("本學段練習完成，按時複習吧。", "本学段练习完成，按时复习吧。"), systemImage: "checkmark.seal.fill")
+            Label(settings.t("本學段練習完成", "本学段练习完成"), systemImage: "checkmark.seal.fill")
                 .foregroundStyle(Color.deepLeaf).font(.headline)
                 .frame(maxWidth: .infinity, alignment: .leading).card()
         }

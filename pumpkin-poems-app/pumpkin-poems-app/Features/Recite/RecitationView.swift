@@ -85,9 +85,6 @@ struct RecitationView: View {
         .pageBackground()
         .navigationTitle(settings.t("背誦", "背诵"))
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) { ScriptAndVoiceMenus() }
-        }
         .onAppear {
             store.advance(poem.id, to: .reciting)
             if selectedLineID == nil { selectedLineID = poem.lines.first?.id }
@@ -167,7 +164,7 @@ struct RecitationView: View {
             MascotIllustration(size: 60)
             VStack(alignment: .leading, spacing: 8) {
                 if progressRecords.first?.selfAssessedAt != nil {
-                    Label(settings.t("已記下你的自評「我記住了」", "已记下你的自评“我记住了”"), systemImage: "hand.thumbsup")
+                    Label(settings.t("已完成自評", "已完成自评"), systemImage: "hand.thumbsup")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(Color.cocoa)
                 } else {
@@ -178,7 +175,7 @@ struct RecitationView: View {
                     }
                     .buttonStyle(SoftButtonStyle(compact: true))
                 }
-                Text(settings.t("背誦採用自評，小測可查看成績。", "背诵采用自评，小测可查看成绩。"))
+                Text(settings.t("背誦採用自評。", "背诵采用自评。"))
                     .font(.footnote)
                     .foregroundStyle(Color.chestnut)
             }

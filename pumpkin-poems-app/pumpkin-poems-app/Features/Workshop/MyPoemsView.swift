@@ -98,14 +98,6 @@ struct MyPoemsView: View {
     private var emptyState: some View {
         VStack(spacing: 12) {
             MascotIllustration(size: 110)
-            Text(settings.t("用學過的意象，寫兩句自己的詩。", "用学过的意象，写两句自己的诗。"))
-                .font(.title3.weight(.semibold))
-                .foregroundStyle(AppTheme.Colors.textPrimary)
-                .multilineTextAlignment(.center)
-            Text(settings.t("把看見的、想到的寫出來。", "把看见的、想到的写出来。"))
-                .font(.subheadline)
-                .foregroundStyle(AppTheme.Colors.textSecondary)
-                .multilineTextAlignment(.center)
             Button {
                 router.push(.poetWorkshop(.new(themeID: nil)))
             } label: {

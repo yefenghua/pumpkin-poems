@@ -227,7 +227,7 @@ struct QuizView: View {
             HStack(alignment: .top, spacing: 12) {
                 MascotIllustration(size: 56)
                 VStack(alignment: .leading, spacing: 6) {
-                    Label(lastCorrect ? settings.t("答對了！", "答对了！") : settings.t("再看看這裏", "再看看这里"),
+                    Label(lastCorrect ? settings.t("答對", "答对") : settings.t("答錯", "答错"),
                           systemImage: lastCorrect ? "checkmark.circle.fill" : "arrow.uturn.backward.circle.fill")
                         .font(.headline)
                         .foregroundStyle(lastCorrect ? Color.deepLeaf : Color.hintRed)
@@ -276,8 +276,8 @@ struct QuizView: View {
         VStack(spacing: AppTheme.Spacing.section) {
             MascotIllustration(size: 140)
             Text(resolved > 0
-                 ? settings.t("你修正了 \(resolved) 道錯題，有進步！", "你修正了 \(resolved) 道错题，有进步！")
-                 : settings.t("這些題目還可以再看看解釋，下次再試。", "这些题目还可以再看看解释，下次再试。"))
+                 ? settings.t("已修正 \(resolved) 道錯題", "已修正 \(resolved) 道错题")
+                 : settings.t("本次修正 0 道錯題", "本次修正 0 道错题"))
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(Color.cocoa)
                 .multilineTextAlignment(.center)

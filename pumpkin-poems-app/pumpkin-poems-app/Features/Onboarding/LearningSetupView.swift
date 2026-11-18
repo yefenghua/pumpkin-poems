@@ -15,7 +15,7 @@ struct LearningSetupView: View {
             VStack(spacing: 22) {
                 VStack(spacing: 10) {
                     MascotIllustration(size: 88)
-                    Text(t("和貝貝一起學古詩", "和贝贝一起学古诗"))
+                    Text(t("學習設定", "学习设置"))
                         .font(.title2.bold())
                         .foregroundStyle(Color.cocoa)
                         .multilineTextAlignment(.center)
